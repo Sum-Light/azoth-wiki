@@ -1,9 +1,10 @@
 # 宝可梦水银 HOME
 
-本地存档盒子管理工具。首次加载约 10MB，请稍候。
+本地存档盒子管理工具：读取 GBA 存档（128 KiB Flash Save）↔ 本地 HOME 盒子互转，支持导出备份、扫码/密钥分享单只宝可梦。
 
-<a class="azoth-card home-open-mobile" href="app.html"><strong>打开水银 HOME</strong><span>手机上建议全屏使用（点这里）</span></a>
+<div class="azoth-cards">
+<a class="azoth-card" href="app.html" style="padding:1.6rem 1.2rem"><strong>打开水银 HOME →</strong><span>首次加载约 10MB，请稍候</span></a>
+</div>
 
-桌面端可直接在下方使用，或[新窗口打开](app.html)。
-
-<iframe src="app.html" class="home-frame" title="宝可梦水银 HOME"></iframe>
+!!! tip "数据安全"
+    HOME 数据保存在浏览器 localStorage 中。清除"网站数据"、换浏览器或换电脑前，请先在应用内点**导出备份**。

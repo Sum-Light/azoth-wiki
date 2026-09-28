@@ -189,26 +189,9 @@
   opacity: .8;
 }
 
-/* -- HOME 嵌入页 -- */
-.home-frame {
-  width: 100%;
-  height: calc(100vh - 7rem);
-  border: 1px solid var(--azoth-card-border);
-  border-radius: .8rem;
-  background: #fff;
-}
+/* -- HOME 页 -- */
 .home-open-mobile {
   display: none;
-}
-@media (max-width: 720px) {
-  .home-frame {
-    display: none;
-  }
-  .home-open-mobile {
-    display: block;
-    text-align: center;
-    padding: 1.6rem 1.2rem;
-  }
 }
 
 /* -- 章节标题 -- */
