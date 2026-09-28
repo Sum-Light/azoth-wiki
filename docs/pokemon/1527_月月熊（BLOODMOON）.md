@@ -1,0 +1,131 @@
+# No.0901 月月熊（BLOODMOON）
+
+<div class="pk-head">
+<img class="pk-sprite" width="128" height="128" style="image-rendering:pixelated" src="../sprites/1527.png?v=9b16f76c" alt="月月熊（BLOODMOON）">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#915121">地面</span>
+<span class="pk-type" style="background:#9FA19F">一般</span>
+</div>
+</div>
+
+## 种族值
+
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">113</span><span class="pk-bar"><i style="width:44.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">70</span><span class="pk-bar"><i style="width:27.5%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">120</span><span class="pk-bar"><i style="width:47.1%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">135</span><span class="pk-bar"><i style="width:52.9%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">65</span><span class="pk-bar"><i style="width:25.5%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">52</span><span class="pk-bar"><i style="width:20.4%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">555</span><span class="pk-bar"></span></div>
+</div>
+
+## 特性
+
+| | 名称 |
+|---|---|
+| 特性1 | [胆量](../abilities/0083_胆量.md) |
+
+## 升级招式
+
+| 等级 | 招式 |
+|---|---|
+| 1 | [突飞猛扑](../moves/0776_突飞猛扑.md) |
+| 1 | [月光](../moves/0236_月光.md) |
+| 1 | [抓](../moves/0010_抓.md) |
+| 1 | [瞪眼](../moves/0043_瞪眼.md) |
+| 1 | [舌舔](../moves/0122_舌舔.md) |
+| 8 | [乱抓](../moves/0154_乱抓.md) |
+| 13 | [以牙还牙](../moves/0430_以牙还牙.md) |
+| 17 | [变硬](../moves/0106_变硬.md) |
+| 22 | [劈开](../moves/0163_劈开.md) |
+| 25 | [和睦相处](../moves/0491_和睦相处.md) |
+| 35 | [可怕面孔](../moves/0184_可怕面孔.md) |
+| 41 | [睡觉](../moves/0156_睡觉.md) |
+| 41 | [打鼾](../moves/0173_打鼾.md) |
+| 48 | [臂锤](../moves/0379_臂锤.md) |
+| 56 | [巨声](../moves/0304_巨声.md) |
+| 64 | [大地之力](../moves/0372_大地之力.md) |
+| 70 | [月亮之力](../moves/0464_月亮之力.md) |
+| 75 | [血月](../moves/0996_血月.md) |
+
+## 技能机器
+
+| 机器 | 招式 |
+|---|---|
+| TM01 | [真气拳](../moves/0264_真气拳.md) |
+| TM04 | [冥想](../moves/0347_冥想.md) |
+| TM05 | [吼叫](../moves/0046_吼叫.md) |
+| TM06 | [剧毒](../moves/0092_剧毒.md) |
+| TM08 | [健美](../moves/0339_健美.md) |
+| TM10 | [觉醒力量](../moves/0237_觉醒力量.md) |
+| TM11 | [大晴天](../moves/0241_大晴天.md) |
+| TM12 | [挑衅](../moves/0269_挑衅.md) |
+| TM15 | [破坏光线](../moves/0063_破坏光线.md) |
+| TM17 | [守住](../moves/0182_守住.md) |
+| TM18 | [求雨](../moves/0240_求雨.md) |
+| TM21 | [迁怒](../moves/0218_迁怒.md) |
+| TM26 | [地震](../moves/0089_地震.md) |
+| TM27 | [报恩](../moves/0216_报恩.md) |
+| TM28 | [挖洞](../moves/0091_挖洞.md) |
+| TM31 | [劈瓦](../moves/0280_劈瓦.md) |
+| TM32 | [影子分身](../moves/0104_影子分身.md) |
+| TM39 | [岩石封锁](../moves/0317_岩石封锁.md) |
+| TM40 | [燕返](../moves/0332_燕返.md) |
+| TM41 | [无理取闹](../moves/0259_无理取闹.md) |
+| TM42 | [硬撑](../moves/0263_硬撑.md) |
+| TM43 | [秘密之力](../moves/0290_秘密之力.md) |
+| TM44 | [睡觉](../moves/0156_睡觉.md) |
+| TM45 | [迷人](../moves/0213_迷人.md) |
+| TM46 | [小偷](../moves/0168_小偷.md) |
+| TM52 | [真气弹](../moves/0374_真气弹.md) |
+| TM56 | [磨爪](../moves/0409_磨爪.md) |
+| TM58 | [挺住](../moves/0203_挺住.md) |
+| TM60 | [吸取拳](../moves/0371_吸取拳.md) |
+| TM65 | [暗影爪](../moves/0397_暗影爪.md) |
+| TM66 | [以牙还牙](../moves/0430_以牙还牙.md) |
+| TM68 | [终极冲击](../moves/0376_终极冲击.md) |
+| TM71 | [尖石攻击](../moves/0429_尖石攻击.md) |
+| TM72 | [雪崩](../moves/0360_雪崩.md) |
+| TM75 | [剑舞](../moves/0014_剑舞.md) |
+| TM80 | [岩崩](../moves/0157_岩崩.md) |
+| TM82 | [梦话](../moves/0214_梦话.md) |
+| TM87 | [虚张声势](../moves/0207_虚张声势.md) |
+| TM90 | [替身](../moves/0164_替身.md) |
+| TM96 | [重踏](../moves/0404_重踏.md) |
+| TM98 | [自我激励](../moves/0414_自我激励.md) |
+| TM101 | [增强拳](../moves/0571_增强拳.md) |
+| TM108 | [大声咆哮](../moves/0418_大声咆哮.md) |
+| TM111 | [击落](../moves/0508_击落.md) |
+| TM112 | [轮唱](../moves/0503_轮唱.md) |
+| TM114 | [自然之恩](../moves/0506_自然之恩.md) |
+| TM117 | [投掷](../moves/0643_投掷.md) |
+| HM01 | [居合劈](../moves/0015_居合劈.md) |
+| HM04 | [怪力](../moves/0070_怪力.md) |
+| HM06 | [碎岩](../moves/0249_碎岩.md) |
+| HM08 | [攀岩](../moves/0392_攀岩.md) |
+
+## 教授招式
+
+<div class="pk-learners" markdown="span">
+[火焰拳](../moves/0007_火焰拳.md)、[冰冻拳](../moves/0008_冰冻拳.md)、[雷电拳](../moves/0009_雷电拳.md)、[打鼾](../moves/0173_打鼾.md)、[头锤](../moves/0029_头锤.md)、[吵闹](../moves/0253_吵闹.md)、[帮助](../moves/0270_帮助.md)、[渴望](../moves/0343_渴望.md)、[种子炸弹](../moves/0396_种子炸弹.md)、[磨砺](../moves/0594_磨砺.md)、[深渊突刺](../moves/0621_深渊突刺.md)、[跺脚](../moves/0617_跺脚.md)、[大地之力](../moves/0372_大地之力.md)、[垃圾射击](../moves/0378_垃圾射击.md)、[巨声](../moves/0304_巨声.md)、[蛮力](../moves/0276_蛮力.md)、[真空波](../moves/0399_真空波.md)、[珍藏](../moves/0674_珍藏.md)、[密语](../moves/0564_密语.md)、[聚气](../moves/0116_聚气.md)、[假哭](../moves/0313_假哭.md)、[可怕面孔](../moves/0184_可怕面孔.md)、[泰山压顶](../moves/0034_泰山压顶.md)、[扑击](../moves/0692_扑击.md)、[重磅冲撞](../moves/0532_重磅冲撞.md)、[咬碎](../moves/0242_咬碎.md)、[十万马力](../moves/0592_十万马力.md)、[嬉闹](../moves/0463_嬉闹.md)、[近身战](../moves/0365_近身战.md)、[热沙大地](../moves/0731_热沙大地.md)
+</div>
+
+## 遗传招式
+
+<div class="pk-learners" markdown="span">
+[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[踢倒](../moves/0067_踢倒.md)、[双倍奉还](../moves/0068_双倍奉还.md)、[地球上投](../moves/0069_地球上投.md)、[高速星星](../moves/0129_高速星星.md)、[腹鼓](../moves/0187_腹鼓.md)、[连斩](../moves/0210_连斩.md)、[金属爪](../moves/0232_金属爪.md)、[十字劈](../moves/0238_十字劈.md)、[咬碎](../moves/0242_咬碎.md)、[哈欠](../moves/0281_哈欠.md)、[假哭](../moves/0313_假哭.md)、[泥巴射击](../moves/0341_泥巴射击.md)、[近身战](../moves/0365_近身战.md)、[暗袭要害](../moves/0387_暗袭要害.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[起草](../moves/0992_起草.md)、[硬压](../moves/1010_硬压.md)
+</div>
+
+## 其他数据
+
+| 项目 | 数值 |
+|---|---|
+| 捕获率 | 5 |
+| 基础经验 | 0 |
+| 击败获得努力值 | 特攻+3 |
+| 性别比例 | ♂ 100.0% / ♀ 0.0% |
+| 蛋群 | 陆上 |
+| 孵化周期 | 0 |
+| 初始亲密度 | 50 |
+| 升级速度 | 较快 |

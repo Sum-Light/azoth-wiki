@@ -1,0 +1,104 @@
+# No.1024 太乐巴戈斯（TERASTAL）
+
+<div class="pk-head">
+<img class="pk-sprite" width="128" height="128" style="image-rendering:pixelated" src="../sprites/1551.png?v=1a8eddb7" alt="太乐巴戈斯（TERASTAL）">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#9FA19F">一般</span>
+</div>
+</div>
+
+## 种族值
+
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">110</span><span class="pk-bar"><i style="width:43.1%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">105</span><span class="pk-bar"><i style="width:41.2%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">110</span><span class="pk-bar"><i style="width:43.1%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">85</span><span class="pk-bar"><i style="width:33.3%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">600</span><span class="pk-bar"></span></div>
+</div>
+
+## 特性
+
+| | 名称 |
+|---|---|
+| 特性1 | [变色](../abilities/0016_变色.md) |
+
+## 升级招式
+
+| 等级 | 招式 |
+|---|---|
+| 1 | [缩入壳中](../moves/0110_缩入壳中.md) |
+| 1 | [三重攻击](../moves/0161_三重攻击.md) |
+| 1 | [高速旋转](../moves/0229_高速旋转.md) |
+| 10 | [原始之力](../moves/0246_原始之力.md) |
+| 20 | [头锤](../moves/0029_头锤.md) |
+| 30 | [守住](../moves/0182_守住.md) |
+| 40 | [大地之力](../moves/0372_大地之力.md) |
+| 50 | [重磅冲撞](../moves/0532_重磅冲撞.md) |
+| 60 | [晶光星群](../moves/1002_晶光星群.md) |
+| 70 | [舍身冲撞](../moves/0038_舍身冲撞.md) |
+| 80 | [岩石打磨](../moves/0393_岩石打磨.md) |
+| 90 | [陀螺球](../moves/0510_陀螺球.md) |
+
+## 技能机器
+
+| 机器 | 招式 |
+|---|---|
+| TM03 | [水之波动](../moves/0352_水之波动.md) |
+| TM04 | [冥想](../moves/0347_冥想.md) |
+| TM05 | [吼叫](../moves/0046_吼叫.md) |
+| TM06 | [剧毒](../moves/0092_剧毒.md) |
+| TM11 | [大晴天](../moves/0241_大晴天.md) |
+| TM13 | [冰冻光束](../moves/0058_冰冻光束.md) |
+| TM15 | [破坏光线](../moves/0063_破坏光线.md) |
+| TM17 | [守住](../moves/0182_守住.md) |
+| TM18 | [求雨](../moves/0240_求雨.md) |
+| TM22 | [日光束](../moves/0076_日光束.md) |
+| TM24 | [十万伏特](../moves/0085_十万伏特.md) |
+| TM25 | [打雷](../moves/0087_打雷.md) |
+| TM26 | [地震](../moves/0089_地震.md) |
+| TM35 | [喷射火焰](../moves/0053_喷射火焰.md) |
+| TM42 | [硬撑](../moves/0263_硬撑.md) |
+| TM44 | [睡觉](../moves/0156_睡觉.md) |
+| TM53 | [能量球](../moves/0373_能量球.md) |
+| TM58 | [挺住](../moves/0203_挺住.md) |
+| TM59 | [龙之波动](../moves/0370_龙之波动.md) |
+| TM68 | [终极冲击](../moves/0376_终极冲击.md) |
+| TM71 | [尖石攻击](../moves/0429_尖石攻击.md) |
+| TM74 | [陀螺球](../moves/0510_陀螺球.md) |
+| TM76 | [隐形岩](../moves/0468_隐形岩.md) |
+| TM79 | [恶之波动](../moves/0367_恶之波动.md) |
+| TM80 | [岩崩](../moves/0157_岩崩.md) |
+| TM82 | [梦话](../moves/0214_梦话.md) |
+| TM90 | [替身](../moves/0164_替身.md) |
+| TM91 | [加农光炮](../moves/0449_加农光炮.md) |
+| TM99 | [疯狂伏特](../moves/0423_疯狂伏特.md) |
+| TM102 | [魔法闪耀](../moves/0466_魔法闪耀.md) |
+| HM03 | [冲浪](../moves/0057_冲浪.md) |
+
+## 教授招式
+
+<div class="pk-learners" markdown="span">
+[重力](../moves/0645_重力.md)、[铁头](../moves/0382_铁头.md)、[意念头锤](../moves/0401_意念头锤.md)、[大地之力](../moves/0372_大地之力.md)、[泰山压顶](../moves/0034_泰山压顶.md)、[扑击](../moves/0692_扑击.md)、[高温重压](../moves/0544_高温重压.md)、[重磅冲撞](../moves/0532_重磅冲撞.md)、[辅助力量](../moves/0482_辅助力量.md)、[气象球](../moves/0311_气象球.md)、[波导弹](../moves/0359_波导弹.md)、[虫鸣](../moves/0362_虫鸣.md)、[咬碎](../moves/0242_咬碎.md)、[力量宝石](../moves/0389_力量宝石.md)、[闪焰冲锋](../moves/0434_闪焰冲锋.md)、[流星光束](../moves/0716_流星光束.md)、[热沙大地](../moves/0731_热沙大地.md)
+</div>
+
+## 遗传招式
+
+<div class="pk-learners" markdown="span">
+[猛撞](../moves/0036_猛撞.md)、[冰旋](../moves/0966_冰旋.md)、[闪电强袭](../moves/1013_闪电强袭.md)
+</div>
+
+## 其他数据
+
+| 项目 | 数值 |
+|---|---|
+| 捕获率 | 255 |
+| 基础经验 | 0 |
+| 击败获得努力值 | 防御+2、特防+2 |
+| 性别比例 | ♂ 50.0% / ♀ 50.0% |
+| 蛋群 | 未发现 |
+| 孵化周期 | 0 |
+| 初始亲密度 | 50 |
+| 升级速度 | 慢 |
