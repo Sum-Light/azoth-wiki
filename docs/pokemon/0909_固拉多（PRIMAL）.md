@@ -1,0 +1,141 @@
+# No.0909 固拉多（PRIMAL）
+
+<div class="pk-head">
+<img class="pk-sprite" src="../sprites/0909.png" alt="固拉多（PRIMAL）">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#915121">地面</span>
+<span class="pk-type" style="background:#E62829">火</span>
+</div>
+</div>
+
+## 种族值
+
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">100</span><span class="pk-bar"><i style="width:39.2%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">180</span><span class="pk-bar"><i style="width:70.6%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">160</span><span class="pk-bar"><i style="width:62.7%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">150</span><span class="pk-bar"><i style="width:58.8%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">90</span><span class="pk-bar"><i style="width:35.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">90</span><span class="pk-bar"><i style="width:35.3%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">770</span><span class="pk-bar"></span></div>
+</div>
+
+## 特性
+
+| | 名称 |
+|---|---|
+| 特性1 | [终结之地](../abilities/0213_终结之地.md) |
+
+## 超级进化
+
+- [固拉多](0405_固拉多.md)
+
+## 升级招式
+
+| 等级 | 招式 |
+|---|---|
+| 1 | [泥巴射击](../moves/0341_泥巴射击.md) |
+| 1 | [原始之力](../moves/0246_原始之力.md) |
+| 1 | [喷烟](../moves/0383_喷烟.md) |
+| 1 | [可怕面孔](../moves/0184_可怕面孔.md) |
+| 1 | [流沙深渊](../moves/0328_流沙深渊.md) |
+| 9 | [大地之力](../moves/0372_大地之力.md) |
+| 18 | [健美](../moves/0339_健美.md) |
+| 20 | [劈开](../moves/0163_劈开.md) |
+| 27 | [地震](../moves/0089_地震.md) |
+| 28 | [岩石爆击](../moves/0350_岩石爆击.md) |
+| 30 | [火焰旋涡](../moves/0083_火焰旋涡.md) |
+| 36 | [臂锤](../moves/0379_臂锤.md) |
+| 40 | [重磅冲撞](../moves/0532_重磅冲撞.md) |
+| 43 | [尖石攻击](../moves/0429_尖石攻击.md) |
+| 45 | [地裂](../moves/0090_地裂.md) |
+| 54 | [睡觉](../moves/0156_睡觉.md) |
+| 62 | [爆裂拳](../moves/0223_爆裂拳.md) |
+| 63 | [断崖之剑](../moves/0518_断崖之剑.md) |
+| 72 | [大字爆炎](../moves/0126_大字爆炎.md) |
+| 75 | [高温重压](../moves/0544_高温重压.md) |
+| 81 | [日光束](../moves/0076_日光束.md) |
+| 90 | [喷火](../moves/0284_喷火.md) |
+
+## 技能机器
+
+| 机器 | 招式 |
+|---|---|
+| TM01 | [真气拳](../moves/0264_真气拳.md) |
+| TM02 | [龙爪](../moves/0337_龙爪.md) |
+| TM05 | [吼叫](../moves/0046_吼叫.md) |
+| TM06 | [剧毒](../moves/0092_剧毒.md) |
+| TM08 | [健美](../moves/0339_健美.md) |
+| TM10 | [觉醒力量](../moves/0237_觉醒力量.md) |
+| TM11 | [大晴天](../moves/0241_大晴天.md) |
+| TM15 | [破坏光线](../moves/0063_破坏光线.md) |
+| TM17 | [守住](../moves/0182_守住.md) |
+| TM20 | [神秘守护](../moves/0219_神秘守护.md) |
+| TM21 | [迁怒](../moves/0218_迁怒.md) |
+| TM22 | [日光束](../moves/0076_日光束.md) |
+| TM23 | [铁尾](../moves/0231_铁尾.md) |
+| TM24 | [十万伏特](../moves/0085_十万伏特.md) |
+| TM25 | [打雷](../moves/0087_打雷.md) |
+| TM26 | [地震](../moves/0089_地震.md) |
+| TM27 | [报恩](../moves/0216_报恩.md) |
+| TM28 | [挖洞](../moves/0091_挖洞.md) |
+| TM31 | [劈瓦](../moves/0280_劈瓦.md) |
+| TM32 | [影子分身](../moves/0104_影子分身.md) |
+| TM34 | [电击波](../moves/0351_电击波.md) |
+| TM35 | [喷射火焰](../moves/0053_喷射火焰.md) |
+| TM37 | [沙暴](../moves/0201_沙暴.md) |
+| TM38 | [大字爆炎](../moves/0126_大字爆炎.md) |
+| TM39 | [岩石封锁](../moves/0317_岩石封锁.md) |
+| TM40 | [燕返](../moves/0332_燕返.md) |
+| TM42 | [硬撑](../moves/0263_硬撑.md) |
+| TM43 | [秘密之力](../moves/0290_秘密之力.md) |
+| TM44 | [睡觉](../moves/0156_睡觉.md) |
+| TM50 | [过热](../moves/0315_过热.md) |
+| TM52 | [真气弹](../moves/0374_真气弹.md) |
+| TM56 | [磨爪](../moves/0409_磨爪.md) |
+| TM58 | [挺住](../moves/0203_挺住.md) |
+| TM59 | [龙之波动](../moves/0370_龙之波动.md) |
+| TM61 | [磷火](../moves/0261_磷火.md) |
+| TM65 | [暗影爪](../moves/0397_暗影爪.md) |
+| TM68 | [终极冲击](../moves/0376_终极冲击.md) |
+| TM69 | [岩石打磨](../moves/0393_岩石打磨.md) |
+| TM71 | [尖石攻击](../moves/0429_尖石攻击.md) |
+| TM73 | [电磁波](../moves/0086_电磁波.md) |
+| TM75 | [剑舞](../moves/0014_剑舞.md) |
+| TM76 | [隐形岩](../moves/0468_隐形岩.md) |
+| TM80 | [岩崩](../moves/0157_岩崩.md) |
+| TM82 | [梦话](../moves/0214_梦话.md) |
+| TM87 | [虚张声势](../moves/0207_虚张声势.md) |
+| TM90 | [替身](../moves/0164_替身.md) |
+| TM93 | [龙尾](../moves/0444_龙尾.md) |
+| TM94 | [烧净](../moves/0474_烧净.md) |
+| TM96 | [重踏](../moves/0404_重踏.md) |
+| TM101 | [增强拳](../moves/0571_增强拳.md) |
+| TM105 | [狂舞挥打](../moves/0582_狂舞挥打.md) |
+| TM111 | [击落](../moves/0508_击落.md) |
+| TM112 | [轮唱](../moves/0503_轮唱.md) |
+| TM114 | [自然之恩](../moves/0506_自然之恩.md) |
+| TM117 | [投掷](../moves/0643_投掷.md) |
+| HM01 | [居合劈](../moves/0015_居合劈.md) |
+| HM04 | [怪力](../moves/0070_怪力.md) |
+| HM06 | [碎岩](../moves/0249_碎岩.md) |
+| HM08 | [攀岩](../moves/0392_攀岩.md) |
+
+## 教授招式
+
+<div class="pk-learners">
+[火焰拳](../moves/0007_火焰拳.md)、[雷电拳](../moves/0009_雷电拳.md)、[打鼾](../moves/0173_打鼾.md)、[头锤](../moves/0029_头锤.md)、[吵闹](../moves/0253_吵闹.md)、[帮助](../moves/0270_帮助.md)、[挡路](../moves/0335_挡路.md)、[铁头](../moves/0382_铁头.md)、[意念头锤](../moves/0401_意念头锤.md)、[跺脚](../moves/0617_跺脚.md)、[大地之力](../moves/0372_大地之力.md)、[热风](../moves/0257_热风.md)、[自我暗示](../moves/0244_自我暗示.md)、[密语](../moves/0564_密语.md)、[可怕面孔](../moves/0184_可怕面孔.md)、[撒菱](../moves/0191_撒菱.md)、[火焰旋涡](../moves/0083_火焰旋涡.md)、[流沙深渊](../moves/0328_流沙深渊.md)、[岩石爆击](../moves/0350_岩石爆击.md)、[火焰牙](../moves/0431_火焰牙.md)、[泰山压顶](../moves/0034_泰山压顶.md)、[扑击](../moves/0692_扑击.md)、[高温重压](../moves/0544_高温重压.md)、[重磅冲撞](../moves/0532_重磅冲撞.md)、[咬碎](../moves/0242_咬碎.md)、[十万马力](../moves/0592_十万马力.md)、[力量宝石](../moves/0389_力量宝石.md)、[热沙大地](../moves/0731_热沙大地.md)
+</div>
+
+## 其他数据
+
+| 项目 | 数值 |
+|---|---|
+| 捕获率 | 5 |
+| 基础经验 | 230 |
+| 击败获得努力值 | 攻击+3 |
+| 性别比例 | 无性别 |
+| 蛋群 | 未发现 |
+| 孵化周期 | 120 |
+| 初始亲密度 | 0 |
+| 升级速度 | 慢 |

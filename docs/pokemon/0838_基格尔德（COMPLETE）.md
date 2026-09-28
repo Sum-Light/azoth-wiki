@@ -1,0 +1,119 @@
+# No.0838 基格尔德（COMPLETE）
+
+<div class="pk-head">
+<img class="pk-sprite" src="../sprites/0838.png" alt="基格尔德（COMPLETE）">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#5060E1">龙</span>
+<span class="pk-type" style="background:#915121">地面</span>
+</div>
+</div>
+
+## 种族值
+
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">216</span><span class="pk-bar"><i style="width:84.7%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">100</span><span class="pk-bar"><i style="width:39.2%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">121</span><span class="pk-bar"><i style="width:47.5%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">91</span><span class="pk-bar"><i style="width:35.7%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">85</span><span class="pk-bar"><i style="width:33.3%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">708</span><span class="pk-bar"></span></div>
+</div>
+
+## 特性
+
+| | 名称 |
+|---|---|
+| 特性1 | [群聚变形](../abilities/0165_群聚变形.md) |
+| 隐藏特性 | [群聚变形](../abilities/0165_群聚变形.md) |
+
+## 升级招式
+
+| 等级 | 招式 |
+|---|---|
+| 1 | [沙暴](../moves/0201_沙暴.md) |
+| 1 | [绑紧](../moves/0020_绑紧.md) |
+| 1 | [龙息](../moves/0225_龙息.md) |
+| 1 | [大地之力](../moves/0372_大地之力.md) |
+| 1 | [咬住](../moves/0044_咬住.md) |
+| 1 | [核心惩罚者](../moves/0562_核心惩罚者.md) |
+| 1 | [千箭齐发](../moves/0572_千箭齐发.md) |
+| 1 | [千波激荡](../moves/0573_千波激荡.md) |
+| 7 | [黑雾](../moves/0114_黑雾.md) |
+| 14 | [神秘守护](../moves/0219_神秘守护.md) |
+| 21 | [重踏](../moves/0404_重踏.md) |
+| 28 | [大蛇瞪眼](../moves/0137_大蛇瞪眼.md) |
+| 35 | [广域破坏](../moves/0700_广域破坏.md) |
+| 41 | [咬碎](../moves/0242_咬碎.md) |
+| 47 | [挖洞](../moves/0091_挖洞.md) |
+| 53 | [保护色](../moves/0293_保护色.md) |
+| 59 | [Land's Wrath](../moves/0539_Land's_Wrath.md) |
+| 60 | [污泥波](../moves/0531_污泥波.md) |
+| 65 | [龙之波动](../moves/0370_龙之波动.md) |
+| 71 | [盘蜷](../moves/0411_盘蜷.md) |
+| 72 | [龙之舞](../moves/0349_龙之舞.md) |
+| 77 | [神速](../moves/0245_神速.md) |
+| 83 | [地震](../moves/0089_地震.md) |
+| 89 | [逆鳞](../moves/0200_逆鳞.md) |
+
+## 技能机器
+
+| 机器 | 招式 |
+|---|---|
+| TM06 | [剧毒](../moves/0092_剧毒.md) |
+| TM10 | [觉醒力量](../moves/0237_觉醒力量.md) |
+| TM11 | [大晴天](../moves/0241_大晴天.md) |
+| TM15 | [破坏光线](../moves/0063_破坏光线.md) |
+| TM17 | [守住](../moves/0182_守住.md) |
+| TM20 | [神秘守护](../moves/0219_神秘守护.md) |
+| TM21 | [迁怒](../moves/0218_迁怒.md) |
+| TM23 | [铁尾](../moves/0231_铁尾.md) |
+| TM26 | [地震](../moves/0089_地震.md) |
+| TM27 | [报恩](../moves/0216_报恩.md) |
+| TM28 | [挖洞](../moves/0091_挖洞.md) |
+| TM31 | [劈瓦](../moves/0280_劈瓦.md) |
+| TM32 | [影子分身](../moves/0104_影子分身.md) |
+| TM34 | [电击波](../moves/0351_电击波.md) |
+| TM37 | [沙暴](../moves/0201_沙暴.md) |
+| TM42 | [硬撑](../moves/0263_硬撑.md) |
+| TM43 | [秘密之力](../moves/0290_秘密之力.md) |
+| TM44 | [睡觉](../moves/0156_睡觉.md) |
+| TM52 | [真气弹](../moves/0374_真气弹.md) |
+| TM58 | [挺住](../moves/0203_挺住.md) |
+| TM59 | [龙之波动](../moves/0370_龙之波动.md) |
+| TM62 | [银色旋风](../moves/0318_银色旋风.md) |
+| TM66 | [以牙还牙](../moves/0430_以牙还牙.md) |
+| TM68 | [终极冲击](../moves/0376_终极冲击.md) |
+| TM71 | [尖石攻击](../moves/0429_尖石攻击.md) |
+| TM80 | [岩崩](../moves/0157_岩崩.md) |
+| TM82 | [梦话](../moves/0214_梦话.md) |
+| TM86 | [打草结](../moves/0377_打草结.md) |
+| TM87 | [虚张声势](../moves/0207_虚张声势.md) |
+| TM90 | [替身](../moves/0164_替身.md) |
+| TM93 | [龙尾](../moves/0444_龙尾.md) |
+| TM96 | [重踏](../moves/0404_重踏.md) |
+| TM103 | [污泥波](../moves/0531_污泥波.md) |
+| TM112 | [轮唱](../moves/0503_轮唱.md) |
+| TM114 | [自然之恩](../moves/0506_自然之恩.md) |
+| HM04 | [怪力](../moves/0070_怪力.md) |
+| HM06 | [碎岩](../moves/0249_碎岩.md) |
+| HM08 | [攀岩](../moves/0392_攀岩.md) |
+
+## 教授招式
+
+<div class="pk-learners">
+[打鼾](../moves/0173_打鼾.md)、[绑紧](../moves/0020_绑紧.md)、[挡路](../moves/0335_挡路.md)、[怨恨](../moves/0180_怨恨.md)、[铁头](../moves/0382_铁头.md)、[分担痛楚](../moves/0220_分担痛楚.md)、[意念头锤](../moves/0401_意念头锤.md)、[逆鳞](../moves/0200_逆鳞.md)、[跺脚](../moves/0617_跺脚.md)、[大地之力](../moves/0372_大地之力.md)、[巨声](../moves/0304_巨声.md)、[蛮力](../moves/0276_蛮力.md)、[密语](../moves/0564_密语.md)、[龙之舞](../moves/0349_龙之舞.md)、[泰山压顶](../moves/0034_泰山压顶.md)、[绝处逢生](../moves/0179_绝处逢生.md)、[广域破坏](../moves/0700_广域破坏.md)、[咬碎](../moves/0242_咬碎.md)、[十万马力](../moves/0592_十万马力.md)、[精神之牙](../moves/0604_精神之牙.md)、[鳞射](../moves/0715_鳞射.md)、[爬击](../moves/0722_爬击.md)、[热沙大地](../moves/0731_热沙大地.md)
+</div>
+
+## 其他数据
+
+| 项目 | 数值 |
+|---|---|
+| 捕获率 | 3 |
+| 基础经验 | 255 |
+| 击败获得努力值 | HP+3 |
+| 性别比例 | 无性别 |
+| 蛋群 | 未发现 |
+| 孵化周期 | 120 |
+| 初始亲密度 | 0 |
+| 升级速度 | 慢 |

@@ -9,5 +9,5 @@ A flower nectar obtained at Melemele Meadow. It changes the form of certain spec
 ## 携带该道具的野生宝可梦
 
 <div class="pk-learners">
-[花舞鸟](../pokemon/1043_花舞鸟.md)
+[花舞鸟（Y）](../pokemon/1043_花舞鸟（Y）.md)
 </div>

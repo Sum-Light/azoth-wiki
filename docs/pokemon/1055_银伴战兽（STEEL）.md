@@ -1,0 +1,130 @@
+# No.1055 银伴战兽（STEEL）
+
+<div class="pk-head">
+<img class="pk-sprite" src="../sprites/1055.png" alt="银伴战兽（STEEL）">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#60A1B8">钢</span>
+</div>
+</div>
+
+## 种族值
+
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">570</span><span class="pk-bar"></span></div>
+</div>
+
+## 特性
+
+| | 名称 |
+|---|---|
+| 特性1 | [AR系统](../abilities/0167_AR系统.md) |
+
+## 升级招式
+
+| 等级 | 招式 |
+|---|---|
+| 0 | [多属性攻击](../moves/0599_多属性攻击.md) |
+| 1 | [大爆炸](../moves/0153_大爆炸.md) |
+| 1 | [雷电牙](../moves/0433_雷电牙.md) |
+| 1 | [冰冻牙](../moves/0432_冰冻牙.md) |
+| 1 | [火焰牙](../moves/0431_火焰牙.md) |
+| 1 | [剧毒牙](../moves/0305_剧毒牙.md) |
+| 1 | [封印](../moves/0286_封印.md) |
+| 1 | [铁头](../moves/0382_铁头.md) |
+| 1 | [回复封锁](../moves/0647_回复封锁.md) |
+| 1 | [愤怒](../moves/0099_愤怒.md) |
+| 1 | [撞击](../moves/0033_撞击.md) |
+| 1 | [咬住](../moves/0044_咬住.md) |
+| 1 | [燕返](../moves/0332_燕返.md) |
+| 1 | [可怕面孔](../moves/0184_可怕面孔.md) |
+| 1 | [追打](../moves/0228_追打.md) |
+| 15 | [二连击](../moves/0438_二连击.md) |
+| 20 | [金属音](../moves/0319_金属音.md) |
+| 25 | [撕裂爪](../moves/0306_撕裂爪.md) |
+| 30 | [空气之刃](../moves/0356_空气之刃.md) |
+| 30 | [旋风刀](../moves/0013_旋风刀.md) |
+| 35 | [三重攻击](../moves/0161_三重攻击.md) |
+| 40 | [十字剪](../moves/0400_十字剪.md) |
+| 45 | [惩罚](../moves/0484_惩罚.md) |
+| 50 | [猛撞](../moves/0036_猛撞.md) |
+| 55 | [咬碎](../moves/0242_咬碎.md) |
+| 60 | [舍身冲撞](../moves/0038_舍身冲撞.md) |
+| 65 | [抛下狠话](../moves/0560_抛下狠话.md) |
+
+## 技能机器
+
+| 机器 | 招式 |
+|---|---|
+| TM02 | [龙爪](../moves/0337_龙爪.md) |
+| TM05 | [吼叫](../moves/0046_吼叫.md) |
+| TM06 | [剧毒](../moves/0092_剧毒.md) |
+| TM07 | [冰雹](../moves/0258_冰雹.md) |
+| TM10 | [觉醒力量](../moves/0237_觉醒力量.md) |
+| TM11 | [大晴天](../moves/0241_大晴天.md) |
+| TM13 | [冰冻光束](../moves/0058_冰冻光束.md) |
+| TM15 | [破坏光线](../moves/0063_破坏光线.md) |
+| TM17 | [守住](../moves/0182_守住.md) |
+| TM18 | [求雨](../moves/0240_求雨.md) |
+| TM21 | [迁怒](../moves/0218_迁怒.md) |
+| TM24 | [十万伏特](../moves/0085_十万伏特.md) |
+| TM27 | [报恩](../moves/0216_报恩.md) |
+| TM30 | [暗影球](../moves/0247_暗影球.md) |
+| TM32 | [影子分身](../moves/0104_影子分身.md) |
+| TM35 | [喷射火焰](../moves/0053_喷射火焰.md) |
+| TM37 | [沙暴](../moves/0201_沙暴.md) |
+| TM40 | [燕返](../moves/0332_燕返.md) |
+| TM42 | [硬撑](../moves/0263_硬撑.md) |
+| TM43 | [秘密之力](../moves/0290_秘密之力.md) |
+| TM44 | [睡觉](../moves/0156_睡觉.md) |
+| TM45 | [迷人](../moves/0213_迷人.md) |
+| TM47 | [钢翼](../moves/0211_钢翼.md) |
+| TM56 | [磨爪](../moves/0409_磨爪.md) |
+| TM58 | [挺住](../moves/0203_挺住.md) |
+| TM64 | [大爆炸](../moves/0153_大爆炸.md) |
+| TM65 | [暗影爪](../moves/0397_暗影爪.md) |
+| TM66 | [以牙还牙](../moves/0430_以牙还牙.md) |
+| TM68 | [终极冲击](../moves/0376_终极冲击.md) |
+| TM73 | [电磁波](../moves/0086_电磁波.md) |
+| TM75 | [剑舞](../moves/0014_剑舞.md) |
+| TM77 | [蓄能焰袭](../moves/0406_蓄能焰袭.md) |
+| TM80 | [岩崩](../moves/0157_岩崩.md) |
+| TM81 | [十字剪](../moves/0400_十字剪.md) |
+| TM82 | [梦话](../moves/0214_梦话.md) |
+| TM87 | [虚张声势](../moves/0207_虚张声势.md) |
+| TM89 | [急速折返](../moves/0442_急速折返.md) |
+| TM90 | [替身](../moves/0164_替身.md) |
+| TM91 | [加农光炮](../moves/0449_加农光炮.md) |
+| TM94 | [烧净](../moves/0474_烧净.md) |
+| TM98 | [自我激励](../moves/0414_自我激励.md) |
+| TM108 | [大声咆哮](../moves/0418_大声咆哮.md) |
+| TM109 | [清除浓雾](../moves/0516_清除浓雾.md) |
+| TM112 | [轮唱](../moves/0503_轮唱.md) |
+| TM114 | [自然之恩](../moves/0506_自然之恩.md) |
+| HM01 | [居合劈](../moves/0015_居合劈.md) |
+| HM03 | [冲浪](../moves/0057_冲浪.md) |
+| HM08 | [攀岩](../moves/0392_攀岩.md) |
+
+## 教授招式
+
+<div class="pk-learners">
+[打鼾](../moves/0173_打鼾.md)、[头锤](../moves/0029_头锤.md)、[信号光束](../moves/0324_信号光束.md)、[铁壁](../moves/0334_铁壁.md)、[铁头](../moves/0382_铁头.md)、[顺风](../moves/0472_顺风.md)、[冰冻之风](../moves/0196_冰冻之风.md)、[意念头锤](../moves/0401_意念头锤.md)、[磨砺](../moves/0594_磨砺.md)、[魔法反射](../moves/0277_魔法反射.md)、[逆鳞](../moves/0200_逆鳞.md)、[热风](../moves/0257_热风.md)、[巨声](../moves/0304_巨声.md)、[珍藏](../moves/0674_珍藏.md)、[密语](../moves/0564_密语.md)、[草之誓约](../moves/0629_草之誓约.md)、[火之誓约](../moves/0630_火之誓约.md)、[水之誓约](../moves/0631_水之誓约.md)、[可怕面孔](../moves/0184_可怕面孔.md)、[雷电牙](../moves/0433_雷电牙.md)、[冰冻牙](../moves/0432_冰冻牙.md)、[火焰牙](../moves/0431_火焰牙.md)、[绝处逢生](../moves/0179_绝处逢生.md)、[空气之刃](../moves/0356_空气之刃.md)、[咬碎](../moves/0242_咬碎.md)、[精神之牙](../moves/0604_精神之牙.md)、[大地波动](../moves/0721_大地波动.md)
+</div>
+
+## 其他数据
+
+| 项目 | 数值 |
+|---|---|
+| 捕获率 | 3 |
+| 基础经验 | 114 |
+| 击败获得努力值 | HP+3 |
+| 性别比例 | 无性别 |
+| 蛋群 | 未发现 |
+| 孵化周期 | 120 |
+| 初始亲密度 | 0 |
+| 升级速度 | 慢 |

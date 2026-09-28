@@ -1,0 +1,126 @@
+# No.0753 酋雷姆（WHITE）
+
+<div class="pk-head">
+<img class="pk-sprite" src="../sprites/0753.png" alt="酋雷姆（WHITE）">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#5060E1">龙</span>
+<span class="pk-type" style="background:#3DCEF3">冰</span>
+</div>
+</div>
+
+## 种族值
+
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">125</span><span class="pk-bar"><i style="width:49.0%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">120</span><span class="pk-bar"><i style="width:47.1%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">90</span><span class="pk-bar"><i style="width:35.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">170</span><span class="pk-bar"><i style="width:66.7%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">100</span><span class="pk-bar"><i style="width:39.2%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">95</span><span class="pk-bar"><i style="width:37.3%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">700</span><span class="pk-bar"></span></div>
+</div>
+
+## 特性
+
+| | 名称 |
+|---|---|
+| 特性1 | [破格](../abilities/0152_破格.md) |
+
+## 升级招式
+
+| 等级 | 招式 |
+|---|---|
+| 1 | [冰冻之风](../moves/0196_冰冻之风.md) |
+| 1 | [龙息](../moves/0225_龙息.md) |
+| 1 | [战吼](../moves/0558_战吼.md) |
+| 1 | [原始之力](../moves/0246_原始之力.md) |
+| 1 | [冷冻干燥](../moves/0501_冷冻干燥.md) |
+| 1 | [龙之怒](../moves/0082_龙之怒.md) |
+| 8 | [劈开](../moves/0163_劈开.md) |
+| 16 | [蛮干](../moves/0283_蛮干.md) |
+| 24 | [龙之波动](../moves/0370_龙之波动.md) |
+| 32 | [冰冻光束](../moves/0058_冰冻光束.md) |
+| 40 | [巨声](../moves/0304_巨声.md) |
+| 43 | [可怕面孔](../moves/0184_可怕面孔.md) |
+| 48 | [交错火焰](../moves/0555_交错火焰.md) |
+| 50 | [冰封世界](../moves/0549_冰封世界.md) |
+| 56 | [暴风雪](../moves/0059_暴风雪.md) |
+| 64 | [封印](../moves/0286_封印.md) |
+| 72 | [逆鳞](../moves/0200_逆鳞.md) |
+| 80 | [极寒冷焰](../moves/0553_极寒冷焰.md) |
+| 88 | [绝对零度](../moves/0329_绝对零度.md) |
+
+## 技能机器
+
+| 机器 | 招式 |
+|---|---|
+| TM02 | [龙爪](../moves/0337_龙爪.md) |
+| TM05 | [吼叫](../moves/0046_吼叫.md) |
+| TM06 | [剧毒](../moves/0092_剧毒.md) |
+| TM07 | [冰雹](../moves/0258_冰雹.md) |
+| TM10 | [觉醒力量](../moves/0237_觉醒力量.md) |
+| TM11 | [大晴天](../moves/0241_大晴天.md) |
+| TM13 | [冰冻光束](../moves/0058_冰冻光束.md) |
+| TM14 | [暴风雪](../moves/0059_暴风雪.md) |
+| TM15 | [破坏光线](../moves/0063_破坏光线.md) |
+| TM16 | [光墙](../moves/0113_光墙.md) |
+| TM17 | [守住](../moves/0182_守住.md) |
+| TM18 | [求雨](../moves/0240_求雨.md) |
+| TM20 | [神秘守护](../moves/0219_神秘守护.md) |
+| TM21 | [迁怒](../moves/0218_迁怒.md) |
+| TM27 | [报恩](../moves/0216_报恩.md) |
+| TM29 | [精神强念](../moves/0094_精神强念.md) |
+| TM30 | [暗影球](../moves/0247_暗影球.md) |
+| TM32 | [影子分身](../moves/0104_影子分身.md) |
+| TM33 | [反射壁](../moves/0115_反射壁.md) |
+| TM39 | [岩石封锁](../moves/0317_岩石封锁.md) |
+| TM40 | [燕返](../moves/0332_燕返.md) |
+| TM42 | [硬撑](../moves/0263_硬撑.md) |
+| TM43 | [秘密之力](../moves/0290_秘密之力.md) |
+| TM44 | [睡觉](../moves/0156_睡觉.md) |
+| TM45 | [迷人](../moves/0213_迷人.md) |
+| TM47 | [钢翼](../moves/0211_钢翼.md) |
+| TM51 | [羽栖](../moves/0395_羽栖.md) |
+| TM52 | [真气弹](../moves/0374_真气弹.md) |
+| TM56 | [磨爪](../moves/0409_磨爪.md) |
+| TM58 | [挺住](../moves/0203_挺住.md) |
+| TM59 | [龙之波动](../moves/0370_龙之波动.md) |
+| TM65 | [暗影爪](../moves/0397_暗影爪.md) |
+| TM66 | [以牙还牙](../moves/0430_以牙还牙.md) |
+| TM68 | [终极冲击](../moves/0376_终极冲击.md) |
+| TM71 | [尖石攻击](../moves/0429_尖石攻击.md) |
+| TM72 | [雪崩](../moves/0360_雪崩.md) |
+| TM80 | [岩崩](../moves/0157_岩崩.md) |
+| TM82 | [梦话](../moves/0214_梦话.md) |
+| TM87 | [虚张声势](../moves/0207_虚张声势.md) |
+| TM90 | [替身](../moves/0164_替身.md) |
+| TM91 | [加农光炮](../moves/0449_加农光炮.md) |
+| TM93 | [龙尾](../moves/0444_龙尾.md) |
+| TM105 | [狂舞挥打](../moves/0582_狂舞挥打.md) |
+| TM112 | [轮唱](../moves/0503_轮唱.md) |
+| TM113 | [回声](../moves/0538_回声.md) |
+| TM114 | [自然之恩](../moves/0506_自然之恩.md) |
+| TM117 | [投掷](../moves/0643_投掷.md) |
+| HM01 | [居合劈](../moves/0015_居合劈.md) |
+| HM02 | [飞翔](../moves/0019_飞翔.md) |
+| HM04 | [怪力](../moves/0070_怪力.md) |
+| HM06 | [碎岩](../moves/0249_碎岩.md) |
+
+## 教授招式
+
+<div class="pk-learners">
+[打鼾](../moves/0173_打鼾.md)、[头锤](../moves/0029_头锤.md)、[帮助](../moves/0270_帮助.md)、[信号光束](../moves/0324_信号光束.md)、[铁头](../moves/0382_铁头.md)、[蛮干](../moves/0283_蛮干.md)、[冰冻之风](../moves/0196_冰冻之风.md)、[意念头锤](../moves/0401_意念头锤.md)、[磨砺](../moves/0594_磨砺.md)、[逆鳞](../moves/0200_逆鳞.md)、[大地之力](../moves/0372_大地之力.md)、[巨声](../moves/0304_巨声.md)、[密语](../moves/0564_密语.md)、[可怕面孔](../moves/0184_可怕面孔.md)、[龙之舞](../moves/0349_龙之舞.md)、[冰锥](../moves/0333_冰锥.md)、[冰冻牙](../moves/0432_冰冻牙.md)、[泰山压顶](../moves/0034_泰山压顶.md)、[扑击](../moves/0692_扑击.md)、[广域破坏](../moves/0700_广域破坏.md)、[气象球](../moves/0311_气象球.md)、[鳞射](../moves/0715_鳞射.md)、[双翼](../moves/0730_双翼.md)
+</div>
+
+## 其他数据
+
+| 项目 | 数值 |
+|---|---|
+| 捕获率 | 3 |
+| 基础经验 | 255 |
+| 击败获得努力值 | 特攻+3 |
+| 性别比例 | 无性别 |
+| 蛋群 | 未发现 |
+| 孵化周期 | 120 |
+| 初始亲密度 | 0 |
+| 升级速度 | 慢 |

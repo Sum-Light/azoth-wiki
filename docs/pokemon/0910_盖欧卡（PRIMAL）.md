@@ -1,0 +1,121 @@
+# No.0910 盖欧卡（PRIMAL）
+
+<div class="pk-head">
+<img class="pk-sprite" src="../sprites/0910.png" alt="盖欧卡（PRIMAL）">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#2980EF">水</span>
+</div>
+</div>
+
+## 种族值
+
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">100</span><span class="pk-bar"><i style="width:39.2%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">150</span><span class="pk-bar"><i style="width:58.8%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">90</span><span class="pk-bar"><i style="width:35.3%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">180</span><span class="pk-bar"><i style="width:70.6%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">160</span><span class="pk-bar"><i style="width:62.7%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">90</span><span class="pk-bar"><i style="width:35.3%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">770</span><span class="pk-bar"></span></div>
+</div>
+
+## 特性
+
+| | 名称 |
+|---|---|
+| 特性1 | [始源之海](../abilities/0212_始源之海.md) |
+
+## 超级进化
+
+- [盖欧卡](0404_盖欧卡.md)
+
+## 升级招式
+
+| 等级 | 招式 |
+|---|---|
+| 1 | [水之波动](../moves/0352_水之波动.md) |
+| 1 | [原始之力](../moves/0246_原始之力.md) |
+| 1 | [泰山压顶](../moves/0034_泰山压顶.md) |
+| 1 | [可怕面孔](../moves/0184_可怕面孔.md) |
+| 9 | [水流尾](../moves/0358_水流尾.md) |
+| 12 | [潮旋](../moves/0250_潮旋.md) |
+| 15 | [猛撞](../moves/0036_猛撞.md) |
+| 18 | [冥想](../moves/0347_冥想.md) |
+| 27 | [浊流](../moves/0330_浊流.md) |
+| 34 | [重磅冲撞](../moves/0532_重磅冲撞.md) |
+| 36 | [冰冻光束](../moves/0058_冰冻光束.md) |
+| 42 | [冲浪](../moves/0057_冲浪.md) |
+| 45 | [绝对零度](../moves/0329_绝对零度.md) |
+| 50 | [睡觉](../moves/0156_睡觉.md) |
+| 54 | [水流环](../moves/0639_水流环.md) |
+| 58 | [暴风雪](../moves/0059_暴风雪.md) |
+| 63 | [根源波动](../moves/0517_根源波动.md) |
+| 72 | [水炮](../moves/0056_水炮.md) |
+| 81 | [舍身冲撞](../moves/0038_舍身冲撞.md) |
+| 90 | [喷水](../moves/0323_喷水.md) |
+
+## 技能机器
+
+| 机器 | 招式 |
+|---|---|
+| TM03 | [水之波动](../moves/0352_水之波动.md) |
+| TM04 | [冥想](../moves/0347_冥想.md) |
+| TM05 | [吼叫](../moves/0046_吼叫.md) |
+| TM06 | [剧毒](../moves/0092_剧毒.md) |
+| TM07 | [冰雹](../moves/0258_冰雹.md) |
+| TM10 | [觉醒力量](../moves/0237_觉醒力量.md) |
+| TM13 | [冰冻光束](../moves/0058_冰冻光束.md) |
+| TM14 | [暴风雪](../moves/0059_暴风雪.md) |
+| TM15 | [破坏光线](../moves/0063_破坏光线.md) |
+| TM17 | [守住](../moves/0182_守住.md) |
+| TM18 | [求雨](../moves/0240_求雨.md) |
+| TM20 | [神秘守护](../moves/0219_神秘守护.md) |
+| TM21 | [迁怒](../moves/0218_迁怒.md) |
+| TM24 | [十万伏特](../moves/0085_十万伏特.md) |
+| TM25 | [打雷](../moves/0087_打雷.md) |
+| TM26 | [地震](../moves/0089_地震.md) |
+| TM27 | [报恩](../moves/0216_报恩.md) |
+| TM31 | [劈瓦](../moves/0280_劈瓦.md) |
+| TM32 | [影子分身](../moves/0104_影子分身.md) |
+| TM34 | [电击波](../moves/0351_电击波.md) |
+| TM39 | [岩石封锁](../moves/0317_岩石封锁.md) |
+| TM42 | [硬撑](../moves/0263_硬撑.md) |
+| TM43 | [秘密之力](../moves/0290_秘密之力.md) |
+| TM44 | [睡觉](../moves/0156_睡觉.md) |
+| TM55 | [盐水](../moves/0460_盐水.md) |
+| TM58 | [挺住](../moves/0203_挺住.md) |
+| TM68 | [终极冲击](../moves/0376_终极冲击.md) |
+| TM72 | [雪崩](../moves/0360_雪崩.md) |
+| TM73 | [电磁波](../moves/0086_电磁波.md) |
+| TM80 | [岩崩](../moves/0157_岩崩.md) |
+| TM82 | [梦话](../moves/0214_梦话.md) |
+| TM83 | [热水](../moves/0459_热水.md) |
+| TM87 | [虚张声势](../moves/0207_虚张声势.md) |
+| TM90 | [替身](../moves/0164_替身.md) |
+| TM96 | [重踏](../moves/0404_重踏.md) |
+| TM112 | [轮唱](../moves/0503_轮唱.md) |
+| TM114 | [自然之恩](../moves/0506_自然之恩.md) |
+| HM03 | [冲浪](../moves/0057_冲浪.md) |
+| HM04 | [怪力](../moves/0070_怪力.md) |
+| HM05 | [潮旋](../moves/0250_潮旋.md) |
+| HM06 | [碎岩](../moves/0249_碎岩.md) |
+| HM07 | [攀瀑](../moves/0127_攀瀑.md) |
+
+## 教授招式
+
+<div class="pk-learners">
+[打鼾](../moves/0173_打鼾.md)、[头锤](../moves/0029_头锤.md)、[吵闹](../moves/0253_吵闹.md)、[帮助](../moves/0270_帮助.md)、[挡路](../moves/0335_挡路.md)、[信号光束](../moves/0324_信号光束.md)、[铁头](../moves/0382_铁头.md)、[水流尾](../moves/0358_水流尾.md)、[冰冻之风](../moves/0196_冰冻之风.md)、[水流裂破](../moves/0596_水流裂破.md)、[自我暗示](../moves/0244_自我暗示.md)、[密语](../moves/0564_密语.md)、[可怕面孔](../moves/0184_可怕面孔.md)、[潮旋](../moves/0250_潮旋.md)、[冰锥](../moves/0333_冰锥.md)、[泰山压顶](../moves/0034_泰山压顶.md)、[重磅冲撞](../moves/0532_重磅冲撞.md)、[浊流](../moves/0330_浊流.md)、[水炮](../moves/0056_水炮.md)
+</div>
+
+## 其他数据
+
+| 项目 | 数值 |
+|---|---|
+| 捕获率 | 5 |
+| 基础经验 | 230 |
+| 击败获得努力值 | 特攻+3 |
+| 性别比例 | 无性别 |
+| 蛋群 | 未发现 |
+| 孵化周期 | 120 |
+| 初始亲密度 | 0 |
+| 升级速度 | 慢 |
