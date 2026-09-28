@@ -60,6 +60,12 @@
 [打鼾](../moves/0173_打鼾.md)、[电网](../moves/0405_电网.md)、[头锤](../moves/0029_头锤.md)、[虫咬](../moves/0450_虫咬.md)
 </div>
 
+## 遗传招式
+
+<div class="pk-learners" markdown="span">
+[掷泥](../moves/0189_掷泥.md)、[滚动](../moves/0205_滚动.md)
+</div>
+
 ## 其他数据
 
 | 项目 | 数值 |
