@@ -521,10 +521,25 @@ p { margin: 4px 0 0; color: var(--muted); }
   line-height: 1.6;
 }
 
+.back-btn {
+  grid-column: 1 / -1;
+  justify-self: start;
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(55, 126, 242, .35);
+  color: #2563eb;
+  font-size: 13px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, .5);
+}
+.back-btn:hover { background: rgba(37, 99, 235, .1); }
+
   </style>
 </head>
 <body>
   <header class="top">
+    <a class="back-btn" href="https://sum-light.github.io/azoth-wiki/">← 返回百科</a>
     <div>
       <h1>宝可梦水银 HOME</h1>
       <p>左侧是本地 HOME 盒子，右侧是读取到的 CFRU 存档盒子。</p>
