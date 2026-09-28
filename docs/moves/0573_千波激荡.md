@@ -11,5 +11,5 @@
 ## 升级可学会的宝可梦
 
 <div class="pk-learners" markdown="span">
-[基格尔德](../pokemon/0826_基格尔德.md)、[基格尔德（CELL）](../pokemon/0835_基格尔德（CELL）.md)、[基格尔德（CORE）](../pokemon/0836_基格尔德（CORE）.md)、[基格尔德（10）](../pokemon/0837_基格尔德（10）.md)、[基格尔德（COMPLETE）](../pokemon/0838_基格尔德（COMPLETE）.md)
+[基格尔德](../pokemon/0826_基格尔德.md)、[基格尔德（细胞）](../pokemon/0835_基格尔德（细胞）.md)、[基格尔德（核心）](../pokemon/0836_基格尔德（核心）.md)、[基格尔德（10）](../pokemon/0837_基格尔德（10）.md)、[基格尔德（完全体形态）](../pokemon/0838_基格尔德（完全体形态）.md)
 </div>

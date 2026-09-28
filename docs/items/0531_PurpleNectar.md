@@ -9,5 +9,5 @@ A flower nectar obtained at Poni Meadow. It changes the form of certain species 
 ## 携带该道具的野生宝可梦
 
 <div class="pk-learners" markdown="span">
-[花舞鸟（S）](../pokemon/1045_花舞鸟（S）.md)
+[花舞鸟（和服舞风格）](../pokemon/1045_花舞鸟（和服舞风格）.md)
 </div>

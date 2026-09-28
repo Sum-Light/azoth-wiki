@@ -9,5 +9,5 @@ A flower nectar obtained at Royal Avenue. It changes the form of certain species
 ## 携带该道具的野生宝可梦
 
 <div class="pk-learners" markdown="span">
-[花舞鸟（P）](../pokemon/1044_花舞鸟（P）.md)
+[花舞鸟（啪滋啪滋风格）](../pokemon/1044_花舞鸟（啪滋啪滋风格）.md)
 </div>
