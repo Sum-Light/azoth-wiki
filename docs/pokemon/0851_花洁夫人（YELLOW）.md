@@ -1,7 +1,7 @@
 # No.0851 花洁夫人（YELLOW）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0851.png" alt="花洁夫人（YELLOW）">
+<img class="pk-sprite" src="../sprites/0851.png?v=5fda3648" alt="花洁夫人（YELLOW）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

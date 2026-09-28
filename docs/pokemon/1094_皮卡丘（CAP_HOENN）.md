@@ -1,7 +1,7 @@
 # No.1094 皮卡丘（CAP HOENN）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1094.png" alt="皮卡丘（CAP HOENN）">
+<img class="pk-sprite" src="../sprites/1094.png?v=c0d514b8" alt="皮卡丘（CAP HOENN）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

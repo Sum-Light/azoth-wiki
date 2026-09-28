@@ -1,7 +1,7 @@
 # No.0929 彩粉蝶（MODERN）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0929.png" alt="彩粉蝶（MODERN）">
+<img class="pk-sprite" src="../sprites/0929.png?v=c86a7815" alt="彩粉蝶（MODERN）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

@@ -1,7 +1,7 @@
 # No.0843 花蓓蓓（WHITE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0843.png" alt="花蓓蓓（WHITE）">
+<img class="pk-sprite" src="../sprites/0843.png?v=ac08fb3f" alt="花蓓蓓（WHITE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

@@ -1,7 +1,7 @@
 # No.0722 阿尔宙斯（POISON）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0722.png" alt="阿尔宙斯（POISON）">
+<img class="pk-sprite" src="../sprites/0722.png?v=e9b61491" alt="阿尔宙斯（POISON）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9141CB">毒</span>
 </div>

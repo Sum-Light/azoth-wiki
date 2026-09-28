@@ -1,7 +1,7 @@
 # No.0934 彩粉蝶（RIVER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0934.png" alt="彩粉蝶（RIVER）">
+<img class="pk-sprite" src="../sprites/0934.png?v=71e1e03e" alt="彩粉蝶（RIVER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

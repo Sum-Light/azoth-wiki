@@ -1,7 +1,7 @@
 # No.1087 皮卡丘（COSPLAY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1087.png" alt="皮卡丘（COSPLAY）">
+<img class="pk-sprite" src="../sprites/1087.png?v=b19c7a79" alt="皮卡丘（COSPLAY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

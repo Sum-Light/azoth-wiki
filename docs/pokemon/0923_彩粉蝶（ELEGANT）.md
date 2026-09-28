@@ -1,7 +1,7 @@
 # No.0923 彩粉蝶（ELEGANT）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0923.png" alt="彩粉蝶（ELEGANT）">
+<img class="pk-sprite" src="../sprites/0923.png?v=d066fecf" alt="彩粉蝶（ELEGANT）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

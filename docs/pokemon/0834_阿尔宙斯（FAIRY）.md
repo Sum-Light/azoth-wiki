@@ -1,7 +1,7 @@
 # No.0834 阿尔宙斯（FAIRY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0834.png" alt="阿尔宙斯（FAIRY）">
+<img class="pk-sprite" src="../sprites/0834.png?v=69cac484" alt="阿尔宙斯（FAIRY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

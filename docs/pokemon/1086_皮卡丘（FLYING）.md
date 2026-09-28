@@ -1,7 +1,7 @@
 # No.1086 皮卡丘（FLYING）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1086.png" alt="皮卡丘（FLYING）">
+<img class="pk-sprite" src="../sprites/1086.png?v=4d464c44" alt="皮卡丘（FLYING）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

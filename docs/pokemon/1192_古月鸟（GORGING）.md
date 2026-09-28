@@ -1,7 +1,7 @@
 # No.1192 古月鸟（GORGING）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1192.png" alt="古月鸟（GORGING）">
+<img class="pk-sprite" src="../sprites/1192.png?v=99629a34" alt="古月鸟（GORGING）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#81B9EF">飞行</span>
 <span class="pk-type" style="background:#2980EF">水</span>

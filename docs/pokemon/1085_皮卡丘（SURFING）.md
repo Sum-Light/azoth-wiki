@@ -1,7 +1,7 @@
 # No.1085 皮卡丘（SURFING）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1085.png" alt="皮卡丘（SURFING）">
+<img class="pk-sprite" src="../sprites/1085.png?v=dc5b1fb0" alt="皮卡丘（SURFING）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

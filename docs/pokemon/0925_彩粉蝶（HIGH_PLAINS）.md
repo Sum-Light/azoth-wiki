@@ -1,7 +1,7 @@
 # No.0925 彩粉蝶（HIGH PLAINS）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0925.png" alt="彩粉蝶（HIGH PLAINS）">
+<img class="pk-sprite" src="../sprites/0925.png?v=e2856728" alt="彩粉蝶（HIGH PLAINS）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

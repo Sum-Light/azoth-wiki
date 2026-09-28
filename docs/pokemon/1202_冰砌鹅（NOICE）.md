@@ -1,7 +1,7 @@
 # No.1202 冰砌鹅（NOICE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1202.png" alt="冰砌鹅（NOICE）">
+<img class="pk-sprite" src="../sprites/1202.png?v=c590568e" alt="冰砌鹅（NOICE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#3DCEF3">冰</span>
 </div>

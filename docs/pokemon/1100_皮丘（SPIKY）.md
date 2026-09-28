@@ -1,7 +1,7 @@
 # No.1100 皮丘（SPIKY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1100.png" alt="皮丘（SPIKY）">
+<img class="pk-sprite" src="../sprites/1100.png?v=9b15cfef" alt="皮丘（SPIKY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

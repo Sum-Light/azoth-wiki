@@ -1,7 +1,7 @@
 # No.0850 花洁夫人（ORANGE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0850.png" alt="花洁夫人（ORANGE）">
+<img class="pk-sprite" src="../sprites/0850.png?v=c02ff37d" alt="花洁夫人（ORANGE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

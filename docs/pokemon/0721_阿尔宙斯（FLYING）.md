@@ -1,7 +1,7 @@
 # No.0721 阿尔宙斯（FLYING）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0721.png" alt="阿尔宙斯（FLYING）">
+<img class="pk-sprite" src="../sprites/0721.png?v=6fa2829a" alt="阿尔宙斯（FLYING）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#81B9EF">飞行</span>
 </div>

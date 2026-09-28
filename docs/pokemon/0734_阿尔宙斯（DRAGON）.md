@@ -1,7 +1,7 @@
 # No.0734 阿尔宙斯（DRAGON）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0734.png" alt="阿尔宙斯（DRAGON）">
+<img class="pk-sprite" src="../sprites/0734.png?v=3ac97a31" alt="阿尔宙斯（DRAGON）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#5060E1">龙</span>
 </div>

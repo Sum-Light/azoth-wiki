@@ -1,7 +1,7 @@
 # No.0726 阿尔宙斯（GHOST）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0726.png" alt="阿尔宙斯（GHOST）">
+<img class="pk-sprite" src="../sprites/0726.png?v=b79554ec" alt="阿尔宙斯（GHOST）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#704170">幽灵</span>
 </div>

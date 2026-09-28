@@ -1,7 +1,7 @@
 # No.0933 彩粉蝶（POLAR）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0933.png" alt="彩粉蝶（POLAR）">
+<img class="pk-sprite" src="../sprites/0933.png?v=d6d26292" alt="彩粉蝶（POLAR）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

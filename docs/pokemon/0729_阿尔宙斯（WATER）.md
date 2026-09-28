@@ -1,7 +1,7 @@
 # No.0729 阿尔宙斯（WATER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0729.png" alt="阿尔宙斯（WATER）">
+<img class="pk-sprite" src="../sprites/0729.png?v=e8a5576c" alt="阿尔宙斯（WATER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#2980EF">水</span>
 </div>

@@ -1,7 +1,7 @@
 # No.1088 皮卡丘（LIBRE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1088.png" alt="皮卡丘（LIBRE）">
+<img class="pk-sprite" src="../sprites/1088.png?v=58f8015e" alt="皮卡丘（LIBRE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

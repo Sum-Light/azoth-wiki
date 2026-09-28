@@ -1,7 +1,7 @@
 # No.1207 无极汰那（ETERNAMAX）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1207.png" alt="无极汰那（ETERNAMAX）">
+<img class="pk-sprite" src="../sprites/1207.png?v=eda07580" alt="无极汰那（ETERNAMAX）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9141CB">毒</span>
 <span class="pk-type" style="background:#5060E1">龙</span>

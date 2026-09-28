@@ -1,7 +1,7 @@
 # No.0838 基格尔德（COMPLETE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0838.png" alt="基格尔德（COMPLETE）">
+<img class="pk-sprite" src="../sprites/0838.png?v=ff8a3f74" alt="基格尔德（COMPLETE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#5060E1">龙</span>
 <span class="pk-type" style="background:#915121">地面</span>

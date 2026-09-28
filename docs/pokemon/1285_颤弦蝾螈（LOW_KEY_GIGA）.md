@@ -1,7 +1,7 @@
 # No.1285 颤弦蝾螈（LOW KEY GIGA）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1285.png" alt="颤弦蝾螈（LOW KEY GIGA）">
+<img class="pk-sprite" src="../sprites/1285.png?v=13d02aea" alt="颤弦蝾螈（LOW KEY GIGA）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 <span class="pk-type" style="background:#9141CB">毒</span>

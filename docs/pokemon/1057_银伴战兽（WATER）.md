@@ -1,7 +1,7 @@
 # No.1057 银伴战兽（WATER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1057.png" alt="银伴战兽（WATER）">
+<img class="pk-sprite" src="../sprites/1057.png?v=e41d8fc6" alt="银伴战兽（WATER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#2980EF">水</span>
 </div>

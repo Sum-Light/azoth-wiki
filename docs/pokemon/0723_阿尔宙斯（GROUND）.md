@@ -1,7 +1,7 @@
 # No.0723 阿尔宙斯（GROUND）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0723.png" alt="阿尔宙斯（GROUND）">
+<img class="pk-sprite" src="../sprites/0723.png?v=bd9630cf" alt="阿尔宙斯（GROUND）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#915121">地面</span>
 </div>

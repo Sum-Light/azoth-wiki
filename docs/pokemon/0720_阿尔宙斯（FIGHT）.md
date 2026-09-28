@@ -1,7 +1,7 @@
 # No.0720 阿尔宙斯（FIGHT）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0720.png" alt="阿尔宙斯（FIGHT）">
+<img class="pk-sprite" src="../sprites/0720.png?v=db03593c" alt="阿尔宙斯（FIGHT）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FF8000">格斗</span>
 </div>

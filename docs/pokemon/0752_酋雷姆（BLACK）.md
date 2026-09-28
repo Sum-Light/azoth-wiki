@@ -1,7 +1,7 @@
 # No.0752 酋雷姆（BLACK）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0752.png" alt="酋雷姆（BLACK）">
+<img class="pk-sprite" src="../sprites/0752.png?v=1cd767c2" alt="酋雷姆（BLACK）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#5060E1">龙</span>
 <span class="pk-type" style="background:#3DCEF3">冰</span>

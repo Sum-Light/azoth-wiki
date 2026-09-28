@@ -1,7 +1,7 @@
 # No.0746 美洛耶塔（PIROUETTE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0746.png" alt="美洛耶塔（PIROUETTE）">
+<img class="pk-sprite" src="../sprites/0746.png?v=40bbed86" alt="美洛耶塔（PIROUETTE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 <span class="pk-type" style="background:#FF8000">格斗</span>

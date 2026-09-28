@@ -1,7 +1,7 @@
 # No.0747 盖诺赛克特（SHOCK）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0747.png" alt="盖诺赛克特（SHOCK）">
+<img class="pk-sprite" src="../sprites/0747.png?v=6ac93fbf" alt="盖诺赛克特（SHOCK）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#60A1B8">钢</span>

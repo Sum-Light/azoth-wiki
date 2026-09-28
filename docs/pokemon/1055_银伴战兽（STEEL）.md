@@ -1,7 +1,7 @@
 # No.1055 银伴战兽（STEEL）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1055.png" alt="银伴战兽（STEEL）">
+<img class="pk-sprite" src="../sprites/1055.png?v=0bb83e8b" alt="银伴战兽（STEEL）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#60A1B8">钢</span>
 </div>

@@ -1,7 +1,7 @@
 # No.0860 多丽米亚（DIAMOND）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0860.png" alt="多丽米亚（DIAMOND）">
+<img class="pk-sprite" src="../sprites/0860.png?v=920e7ff2" alt="多丽米亚（DIAMOND）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 </div>

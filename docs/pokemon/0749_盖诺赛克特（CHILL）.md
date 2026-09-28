@@ -1,7 +1,7 @@
 # No.0749 盖诺赛克特（CHILL）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0749.png" alt="盖诺赛克特（CHILL）">
+<img class="pk-sprite" src="../sprites/0749.png?v=71cf76bd" alt="盖诺赛克特（CHILL）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#60A1B8">钢</span>

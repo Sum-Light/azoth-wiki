@@ -1,7 +1,7 @@
 # No.0864 多丽米亚（LA REINE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0864.png" alt="多丽米亚（LA REINE）">
+<img class="pk-sprite" src="../sprites/0864.png?v=fd8ad019" alt="多丽米亚（LA REINE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 </div>

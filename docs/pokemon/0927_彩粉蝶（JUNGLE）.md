@@ -1,7 +1,7 @@
 # No.0927 彩粉蝶（JUNGLE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0927.png" alt="彩粉蝶（JUNGLE）">
+<img class="pk-sprite" src="../sprites/0927.png?v=8f4df84e" alt="彩粉蝶（JUNGLE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

@@ -1,7 +1,7 @@
 # No.1040 代欧奇希斯（ATTACK）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1040.png" alt="代欧奇希斯（ATTACK）">
+<img class="pk-sprite" src="../sprites/1040.png?v=628ab55c" alt="代欧奇希斯（ATTACK）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 </div>

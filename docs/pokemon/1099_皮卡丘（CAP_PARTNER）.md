@@ -1,7 +1,7 @@
 # No.1099 皮卡丘（CAP PARTNER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1099.png" alt="皮卡丘（CAP PARTNER）">
+<img class="pk-sprite" src="../sprites/1099.png?v=c2fa156a" alt="皮卡丘（CAP PARTNER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

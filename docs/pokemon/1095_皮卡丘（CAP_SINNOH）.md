@@ -1,7 +1,7 @@
 # No.1095 皮卡丘（CAP SINNOH）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1095.png" alt="皮卡丘（CAP SINNOH）">
+<img class="pk-sprite" src="../sprites/1095.png?v=0905ba2a" alt="皮卡丘（CAP SINNOH）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

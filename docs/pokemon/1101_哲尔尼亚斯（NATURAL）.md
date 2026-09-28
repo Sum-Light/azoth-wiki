@@ -1,7 +1,7 @@
 # No.1101 哲尔尼亚斯（NATURAL）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1101.png" alt="哲尔尼亚斯（NATURAL）">
+<img class="pk-sprite" src="../sprites/1101.png?v=59bf907e" alt="哲尔尼亚斯（NATURAL）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

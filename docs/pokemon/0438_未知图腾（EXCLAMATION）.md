@@ -1,7 +1,7 @@
 # No.0438 未知图腾（EXCLAMATION）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0438.png" alt="未知图腾（EXCLAMATION）">
+<img class="pk-sprite" src="../sprites/0438.png?v=86f91fca" alt="未知图腾（EXCLAMATION）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 </div>

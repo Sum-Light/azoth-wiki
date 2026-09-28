@@ -1,7 +1,7 @@
 # No.1204 莫鲁贝可（HANGRY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1204.png" alt="莫鲁贝可（HANGRY）">
+<img class="pk-sprite" src="../sprites/1204.png?v=54178f84" alt="莫鲁贝可（HANGRY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 <span class="pk-type" style="background:#50413F">恶</span>

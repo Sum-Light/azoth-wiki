@@ -1,7 +1,7 @@
 # No.1091 皮卡丘（BELLE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1091.png" alt="皮卡丘（BELLE）">
+<img class="pk-sprite" src="../sprites/1091.png?v=b7274eed" alt="皮卡丘（BELLE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

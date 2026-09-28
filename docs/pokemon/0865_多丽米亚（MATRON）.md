@@ -1,7 +1,7 @@
 # No.0865 多丽米亚（MATRON）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0865.png" alt="多丽米亚（MATRON）">
+<img class="pk-sprite" src="../sprites/0865.png?v=25f3783e" alt="多丽米亚（MATRON）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 </div>

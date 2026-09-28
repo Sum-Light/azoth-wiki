@@ -1,7 +1,7 @@
 # No.0829 胡帕（UNBOUND）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0829.png" alt="胡帕（UNBOUND）">
+<img class="pk-sprite" src="../sprites/0829.png?v=14aa1038" alt="胡帕（UNBOUND）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 <span class="pk-type" style="background:#50413F">恶</span>

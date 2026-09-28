@@ -1,7 +1,7 @@
 # No.0739 四季鹿（AUTUMN）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0739.png" alt="四季鹿（AUTUMN）">
+<img class="pk-sprite" src="../sprites/0739.png?v=0db5f06e" alt="四季鹿（AUTUMN）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 <span class="pk-type" style="background:#3FA129">草</span>

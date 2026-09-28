@@ -1,7 +1,7 @@
 # No.1097 皮卡丘（CAP KALOS）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1097.png" alt="皮卡丘（CAP KALOS）">
+<img class="pk-sprite" src="../sprites/1097.png?v=2e12ad27" alt="皮卡丘（CAP KALOS）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

@@ -1,7 +1,7 @@
 # No.0740 四季鹿（WINTER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0740.png" alt="四季鹿（WINTER）">
+<img class="pk-sprite" src="../sprites/0740.png?v=707d9bcb" alt="四季鹿（WINTER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 <span class="pk-type" style="background:#3FA129">草</span>

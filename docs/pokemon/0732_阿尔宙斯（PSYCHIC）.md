@@ -1,7 +1,7 @@
 # No.0732 阿尔宙斯（PSYCHIC）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0732.png" alt="阿尔宙斯（PSYCHIC）">
+<img class="pk-sprite" src="../sprites/0732.png?v=80ffdfaf" alt="阿尔宙斯（PSYCHIC）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 </div>

@@ -1,7 +1,7 @@
 # No.1054 银伴战兽（GHOST）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1054.png" alt="银伴战兽（GHOST）">
+<img class="pk-sprite" src="../sprites/1054.png?v=a2bcda9f" alt="银伴战兽（GHOST）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#704170">幽灵</span>
 </div>

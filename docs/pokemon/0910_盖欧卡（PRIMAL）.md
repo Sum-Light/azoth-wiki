@@ -1,7 +1,7 @@
 # No.0910 盖欧卡（PRIMAL）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0910.png" alt="盖欧卡（PRIMAL）">
+<img class="pk-sprite" src="../sprites/0910.png?v=f635a8ac" alt="盖欧卡（PRIMAL）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#2980EF">水</span>
 </div>
