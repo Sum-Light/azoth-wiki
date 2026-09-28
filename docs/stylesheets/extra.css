@@ -134,14 +134,6 @@
   background: var(--azoth-card-bg);
 }
 
-/* 总表 sticky 表头 */
-.md-typeset__table table:not([class]) thead th {
-  position: sticky;
-  top: 3rem;
-  z-index: 1;
-  background: var(--azoth-accent);
-}
-
 /* -- 链接列表 (学习者/持有者) -- */
 .pk-learners {
   padding: .8rem 1rem;
