@@ -4,1294 +4,1294 @@
 
 | | 编号 | 名称 | 属性 | 总和 |
 |---|---|---|---|---|
-| <img class="pk-icon" src="icons/0001.png?v=a653cf44" loading="lazy"> | 0001 | [妙蛙种子](0001_妙蛙种子.md) | 草/毒 | 318 |
-| <img class="pk-icon" src="icons/0002.png?v=71489f4e" loading="lazy"> | 0002 | [妙蛙草](0002_妙蛙草.md) | 草/毒 | 405 |
-| <img class="pk-icon" src="icons/0003.png?v=6c64ca3c" loading="lazy"> | 0003 | [妙蛙花](0003_妙蛙花.md) | 草/毒 | 525 |
-| <img class="pk-icon" src="icons/0869.png?v=8a653104" loading="lazy"> | 0003 | [超级妙蛙花](0869_超级妙蛙花.md) | 草/毒 | 625 |
-| <img class="pk-icon" src="icons/1260.png?v=71489f4e" loading="lazy"> | 0003 | [超极巨化妙蛙花](1260_超极巨化妙蛙花.md) | 草/毒 | 525 |
-| <img class="pk-icon" src="icons/0004.png?v=fba8f2e9" loading="lazy"> | 0004 | [小火龙](0004_小火龙.md) | 火 | 309 |
-| <img class="pk-icon" src="icons/0005.png?v=16435a08" loading="lazy"> | 0005 | [火恐龙](0005_火恐龙.md) | 火 | 405 |
-| <img class="pk-icon" src="icons/0006.png?v=362e8c05" loading="lazy"> | 0006 | [喷火龙](0006_喷火龙.md) | 火/飞行 | 534 |
-| <img class="pk-icon" src="icons/0870.png?v=50fe594e" loading="lazy"> | 0006 | [超级喷火龙X](0870_超级喷火龙X.md) | 火/龙 | 634 |
-| <img class="pk-icon" src="icons/0871.png?v=ea462a83" loading="lazy"> | 0006 | [超级喷火龙Y](0871_超级喷火龙Y.md) | 火/飞行 | 634 |
-| <img class="pk-icon" src="icons/1261.png?v=16435a08" loading="lazy"> | 0006 | [超极巨化喷火龙](1261_超极巨化喷火龙.md) | 火/飞行 | 534 |
-| <img class="pk-icon" src="icons/0007.png?v=9ab31a6b" loading="lazy"> | 0007 | [杰尼龟](0007_杰尼龟.md) | 水 | 314 |
-| <img class="pk-icon" src="icons/0008.png?v=ea49546e" loading="lazy"> | 0008 | [卡咪龟](0008_卡咪龟.md) | 水 | 405 |
-| <img class="pk-icon" src="icons/0009.png?v=d23420ce" loading="lazy"> | 0009 | [水箭龟](0009_水箭龟.md) | 水 | 530 |
-| <img class="pk-icon" src="icons/0872.png?v=fd121fb1" loading="lazy"> | 0009 | [超级水箭龟](0872_超级水箭龟.md) | 水 | 630 |
-| <img class="pk-icon" src="icons/1262.png?v=ea49546e" loading="lazy"> | 0009 | [超极巨化水箭龟](1262_超极巨化水箭龟.md) | 水 | 530 |
-| <img class="pk-icon" src="icons/0010.png?v=dac2aa6d" loading="lazy"> | 0010 | [绿毛虫](0010_绿毛虫.md) | 虫 | 195 |
-| <img class="pk-icon" src="icons/0011.png?v=e950781d" loading="lazy"> | 0011 | [铁甲蛹](0011_铁甲蛹.md) | 虫 | 205 |
-| <img class="pk-icon" src="icons/0012.png?v=53e95883" loading="lazy"> | 0012 | [巴大蝶](0012_巴大蝶.md) | 虫/飞行 | 395 |
-| <img class="pk-icon" src="icons/1263.png?v=e950781d" loading="lazy"> | 0012 | [超极巨化巴大蝶](1263_超极巨化巴大蝶.md) | 虫/飞行 | 395 |
-| <img class="pk-icon" src="icons/0013.png?v=9046b7b7" loading="lazy"> | 0013 | [独角虫](0013_独角虫.md) | 虫/毒 | 195 |
-| <img class="pk-icon" src="icons/0014.png?v=d27ae73c" loading="lazy"> | 0014 | [铁壳蛹](0014_铁壳蛹.md) | 虫/毒 | 205 |
-| <img class="pk-icon" src="icons/0015.png?v=42708cff" loading="lazy"> | 0015 | [大针蜂](0015_大针蜂.md) | 虫/毒 | 395 |
-| <img class="pk-icon" src="icons/0873.png?v=df671f3c" loading="lazy"> | 0015 | [超级大针蜂](0873_超级大针蜂.md) | 虫/毒 | 495 |
-| <img class="pk-icon" src="icons/0016.png?v=978e292f" loading="lazy"> | 0016 | [波波](0016_波波.md) | 一般/飞行 | 251 |
-| <img class="pk-icon" src="icons/0017.png?v=01c1bdf6" loading="lazy"> | 0017 | [比比鸟](0017_比比鸟.md) | 一般/飞行 | 349 |
-| <img class="pk-icon" src="icons/0018.png?v=08279607" loading="lazy"> | 0018 | [大比鸟](0018_大比鸟.md) | 一般/飞行 | 479 |
-| <img class="pk-icon" src="icons/0874.png?v=d19a7a14" loading="lazy"> | 0018 | [超级大比鸟](0874_超级大比鸟.md) | 一般/飞行 | 579 |
-| <img class="pk-icon" src="icons/0019.png?v=5a2a7420" loading="lazy"> | 0019 | [小拉达](0019_小拉达.md) | 一般 | 253 |
-| <img class="pk-icon" src="icons/1020.png?v=41f79a06" loading="lazy"> | 0019 | [小拉达（阿罗拉的样子）](1020_小拉达（阿罗拉的样子）.md) | 恶/一般 | 253 |
-| <img class="pk-icon" src="icons/0020.png?v=219694e2" loading="lazy"> | 0020 | [拉达](0020_拉达.md) | 一般 | 413 |
-| <img class="pk-icon" src="icons/1021.png?v=7e4c4bf2" loading="lazy"> | 0020 | [拉达（阿罗拉的样子）](1021_拉达（阿罗拉的样子）.md) | 恶/一般 | 413 |
-| <img class="pk-icon" src="icons/0021.png?v=d7100690" loading="lazy"> | 0021 | [烈雀](0021_烈雀.md) | 一般/飞行 | 262 |
-| <img class="pk-icon" src="icons/0022.png?v=8d93a1e2" loading="lazy"> | 0022 | [大嘴雀](0022_大嘴雀.md) | 一般/飞行 | 442 |
-| <img class="pk-icon" src="icons/0023.png?v=460c53c1" loading="lazy"> | 0023 | [阿柏蛇](0023_阿柏蛇.md) | 毒 | 288 |
-| <img class="pk-icon" src="icons/0024.png?v=624456fa" loading="lazy"> | 0024 | [阿柏怪](0024_阿柏怪.md) | 毒 | 448 |
-| <img class="pk-icon" src="icons/0025.png?v=2d414043" loading="lazy"> | 0025 | [皮卡丘](0025_皮卡丘.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1085.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（冲浪的样子）](1085_皮卡丘（冲浪的样子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1086.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（飞翔的样子）](1086_皮卡丘（飞翔的样子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1087.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（换装）](1087_皮卡丘（换装）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1088.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（蒙面摔角手换装）](1088_皮卡丘（蒙面摔角手换装）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1089.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（流行偶像换装）](1089_皮卡丘（流行偶像换装）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1090.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（摇滚换装）](1090_皮卡丘（摇滚换装）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1091.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（美丽换装）](1091_皮卡丘（美丽换装）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1092.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（博士换装）](1092_皮卡丘（博士换装）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1093.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（初代帽子）](1093_皮卡丘（初代帽子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1094.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（丰缘帽子）](1094_皮卡丘（丰缘帽子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1095.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（神奥帽子）](1095_皮卡丘（神奥帽子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1096.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（合众帽子）](1096_皮卡丘（合众帽子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1097.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（卡洛斯帽子）](1097_皮卡丘（卡洛斯帽子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1098.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（阿罗拉帽子）](1098_皮卡丘（阿罗拉帽子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1099.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（搭档帽子）](1099_皮卡丘（搭档帽子）.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/1264.png?v=624456fa" loading="lazy"> | 0025 | [超极巨化皮卡丘](1264_超极巨化皮卡丘.md) | 电 | 320 |
-| <img class="pk-icon" src="icons/0026.png?v=9c7a34aa" loading="lazy"> | 0026 | [雷丘](0026_雷丘.md) | 电 | 485 |
-| <img class="pk-icon" src="icons/0270.png?v=2d414043" loading="lazy"> | 0026 | [雷丘](0270_雷丘.md) | 电 | 585 |
-| <img class="pk-icon" src="icons/1022.png?v=90f0c077" loading="lazy"> | 0026 | [雷丘（阿罗拉的样子）](1022_雷丘（阿罗拉的样子）.md) | 电/超能力 | 485 |
-| <img class="pk-icon" src="icons/0027.png?v=81216fe7" loading="lazy"> | 0027 | [穿山鼠](0027_穿山鼠.md) | 地面 | 300 |
-| <img class="pk-icon" src="icons/1023.png?v=ea47e6e1" loading="lazy"> | 0027 | [穿山鼠（阿罗拉的样子）](1023_穿山鼠（阿罗拉的样子）.md) | 冰/钢 | 300 |
-| <img class="pk-icon" src="icons/0028.png?v=a46d5172" loading="lazy"> | 0028 | [穿山王](0028_穿山王.md) | 地面 | 450 |
-| <img class="pk-icon" src="icons/1024.png?v=2684b86b" loading="lazy"> | 0028 | [穿山王（阿罗拉的样子）](1024_穿山王（阿罗拉的样子）.md) | 冰/钢 | 450 |
-| <img class="pk-icon" src="icons/0029.png?v=9bab0010" loading="lazy"> | 0029 | [尼多兰♀](0029_尼多兰♀.md) | 毒 | 275 |
-| <img class="pk-icon" src="icons/0030.png?v=c7819467" loading="lazy"> | 0030 | [尼多娜](0030_尼多娜.md) | 毒 | 365 |
-| <img class="pk-icon" src="icons/0031.png?v=c85dbd17" loading="lazy"> | 0031 | [尼多后](0031_尼多后.md) | 毒/地面 | 505 |
-| <img class="pk-icon" src="icons/0032.png?v=2bbb600a" loading="lazy"> | 0032 | [尼多郎♂](0032_尼多郎♂.md) | 毒 | 273 |
-| <img class="pk-icon" src="icons/0033.png?v=a38633e8" loading="lazy"> | 0033 | [尼多力诺](0033_尼多力诺.md) | 毒 | 365 |
-| <img class="pk-icon" src="icons/0034.png?v=d8d58311" loading="lazy"> | 0034 | [尼多王](0034_尼多王.md) | 毒/地面 | 505 |
-| <img class="pk-icon" src="icons/0035.png?v=4b94b537" loading="lazy"> | 0035 | [皮皮](0035_皮皮.md) | 妖精 | 323 |
-| <img class="pk-icon" src="icons/0036.png?v=876fd0ae" loading="lazy"> | 0036 | [皮可西](0036_皮可西.md) | 妖精 | 483 |
-| <img class="pk-icon" src="icons/0271.png?v=4b94b537" loading="lazy"> | 0036 | [皮可西](0271_皮可西.md) | 妖精/飞行 | 583 |
-| <img class="pk-icon" src="icons/0037.png?v=602d00cd" loading="lazy"> | 0037 | [六尾](0037_六尾.md) | 火 | 299 |
-| <img class="pk-icon" src="icons/1025.png?v=573f7a60" loading="lazy"> | 0037 | [六尾（阿罗拉的样子）](1025_六尾（阿罗拉的样子）.md) | 冰 | 299 |
-| <img class="pk-icon" src="icons/0038.png?v=93cbcfbb" loading="lazy"> | 0038 | [九尾](0038_九尾.md) | 火 | 505 |
-| <img class="pk-icon" src="icons/1026.png?v=2e3a2d42" loading="lazy"> | 0038 | [九尾（阿罗拉的样子）](1026_九尾（阿罗拉的样子）.md) | 冰/妖精 | 505 |
-| <img class="pk-icon" src="icons/0039.png?v=b4a9d42f" loading="lazy"> | 0039 | [胖丁](0039_胖丁.md) | 一般/妖精 | 270 |
-| <img class="pk-icon" src="icons/0040.png?v=0de25a9d" loading="lazy"> | 0040 | [胖可丁](0040_胖可丁.md) | 一般/妖精 | 435 |
-| <img class="pk-icon" src="icons/0041.png?v=d93c3b70" loading="lazy"> | 0041 | [超音蝠](0041_超音蝠.md) | 毒/飞行 | 245 |
-| <img class="pk-icon" src="icons/0042.png?v=6296f972" loading="lazy"> | 0042 | [大嘴蝠](0042_大嘴蝠.md) | 毒/飞行 | 455 |
-| <img class="pk-icon" src="icons/0043.png?v=546f5c96" loading="lazy"> | 0043 | [走路草](0043_走路草.md) | 草/毒 | 320 |
-| <img class="pk-icon" src="icons/0044.png?v=18f00a86" loading="lazy"> | 0044 | [臭臭花](0044_臭臭花.md) | 草/毒 | 395 |
-| <img class="pk-icon" src="icons/0045.png?v=142a5bc4" loading="lazy"> | 0045 | [霸王花](0045_霸王花.md) | 草/毒 | 490 |
-| <img class="pk-icon" src="icons/0046.png?v=c5248819" loading="lazy"> | 0046 | [派拉斯](0046_派拉斯.md) | 虫/草 | 285 |
-| <img class="pk-icon" src="icons/0047.png?v=667e01fb" loading="lazy"> | 0047 | [派拉斯特](0047_派拉斯特.md) | 虫/草 | 405 |
-| <img class="pk-icon" src="icons/0048.png?v=0b00c023" loading="lazy"> | 0048 | [毛球](0048_毛球.md) | 虫/毒 | 305 |
-| <img class="pk-icon" src="icons/0049.png?v=62f49df2" loading="lazy"> | 0049 | [摩鲁蛾](0049_摩鲁蛾.md) | 虫/毒 | 450 |
-| <img class="pk-icon" src="icons/0050.png?v=67045900" loading="lazy"> | 0050 | [地鼠](0050_地鼠.md) | 地面 | 265 |
-| <img class="pk-icon" src="icons/1027.png?v=86f76161" loading="lazy"> | 0050 | [地鼠（阿罗拉的样子）](1027_地鼠（阿罗拉的样子）.md) | 地面/钢 | 265 |
-| <img class="pk-icon" src="icons/0051.png?v=f5c40d4b" loading="lazy"> | 0051 | [三地鼠](0051_三地鼠.md) | 地面 | 425 |
-| <img class="pk-icon" src="icons/1028.png?v=fd70be37" loading="lazy"> | 0051 | [三地鼠（阿罗拉的样子）](1028_三地鼠（阿罗拉的样子）.md) | 地面/钢 | 425 |
-| <img class="pk-icon" src="icons/0052.png?v=b4e1d9fa" loading="lazy"> | 0052 | [喵喵](0052_喵喵.md) | 一般 | 290 |
-| <img class="pk-icon" src="icons/1029.png?v=69e98ebf" loading="lazy"> | 0052 | [喵喵（阿罗拉的样子）](1029_喵喵（阿罗拉的样子）.md) | 恶 | 290 |
-| <img class="pk-icon" src="icons/1212.png?v=4a9586e8" loading="lazy"> | 0052 | [喵喵（伽勒尔的样子）](1212_喵喵（伽勒尔的样子）.md) | 钢 | 290 |
-| <img class="pk-icon" src="icons/1265.png?v=f5c40d4b" loading="lazy"> | 0052 | [超极巨化喵喵](1265_超极巨化喵喵.md) | 一般 | 290 |
-| <img class="pk-icon" src="icons/0053.png?v=a6dd4461" loading="lazy"> | 0053 | [猫老大](0053_猫老大.md) | 一般 | 440 |
-| <img class="pk-icon" src="icons/1030.png?v=d8a8a8f0" loading="lazy"> | 0053 | [猫老大（阿罗拉的样子）](1030_猫老大（阿罗拉的样子）.md) | 恶 | 440 |
-| <img class="pk-icon" src="icons/0054.png?v=458d0ef5" loading="lazy"> | 0054 | [可达鸭](0054_可达鸭.md) | 水 | 320 |
-| <img class="pk-icon" src="icons/0055.png?v=63a2ea8c" loading="lazy"> | 0055 | [哥达鸭](0055_哥达鸭.md) | 水 | 500 |
-| <img class="pk-icon" src="icons/0056.png?v=67fdb47f" loading="lazy"> | 0056 | [猴怪](0056_猴怪.md) | 格斗 | 305 |
-| <img class="pk-icon" src="icons/0057.png?v=d2117c59" loading="lazy"> | 0057 | [火暴猴](0057_火暴猴.md) | 格斗 | 455 |
-| <img class="pk-icon" src="icons/0058.png?v=dc9823ba" loading="lazy"> | 0058 | [卡蒂狗](0058_卡蒂狗.md) | 火 | 350 |
-| <img class="pk-icon" src="icons/1234.png?v=6b6c5819" loading="lazy"> | 0058 | [卡蒂狗（洗翠的样子）](1234_卡蒂狗（洗翠的样子）.md) | 火/岩石 | 350 |
-| <img class="pk-icon" src="icons/0059.png?v=aa430a29" loading="lazy"> | 0059 | [风速狗](0059_风速狗.md) | 火 | 555 |
-| <img class="pk-icon" src="icons/1235.png?v=d7f18c98" loading="lazy"> | 0059 | [风速狗（洗翠的样子）](1235_风速狗（洗翠的样子）.md) | 火/岩石 | 555 |
-| <img class="pk-icon" src="icons/0060.png?v=116c7af1" loading="lazy"> | 0060 | [蚊香蝌蚪](0060_蚊香蝌蚪.md) | 水 | 300 |
-| <img class="pk-icon" src="icons/0061.png?v=7a081563" loading="lazy"> | 0061 | [蚊香君](0061_蚊香君.md) | 水 | 385 |
-| <img class="pk-icon" src="icons/0062.png?v=18b17e54" loading="lazy"> | 0062 | [蚊香泳士](0062_蚊香泳士.md) | 水/格斗 | 510 |
-| <img class="pk-icon" src="icons/0063.png?v=09adf07a" loading="lazy"> | 0063 | [凯西](0063_凯西.md) | 超能力 | 310 |
-| <img class="pk-icon" src="icons/0064.png?v=30d3cae6" loading="lazy"> | 0064 | [勇基拉](0064_勇基拉.md) | 超能力 | 400 |
-| <img class="pk-icon" src="icons/0065.png?v=db06fb7c" loading="lazy"> | 0065 | [胡地](0065_胡地.md) | 超能力 | 500 |
-| <img class="pk-icon" src="icons/0875.png?v=700b2587" loading="lazy"> | 0065 | [超级胡地](0875_超级胡地.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/0066.png?v=3833f2d9" loading="lazy"> | 0066 | [腕力](0066_腕力.md) | 格斗 | 305 |
-| <img class="pk-icon" src="icons/0067.png?v=beb64f9d" loading="lazy"> | 0067 | [豪力](0067_豪力.md) | 格斗 | 405 |
-| <img class="pk-icon" src="icons/0068.png?v=3a83b969" loading="lazy"> | 0068 | [怪力](0068_怪力.md) | 格斗 | 505 |
-| <img class="pk-icon" src="icons/1266.png?v=beb64f9d" loading="lazy"> | 0068 | [超极巨化怪力](1266_超极巨化怪力.md) | 格斗 | 505 |
-| <img class="pk-icon" src="icons/0069.png?v=2158fdc2" loading="lazy"> | 0069 | [喇叭芽](0069_喇叭芽.md) | 草/毒 | 300 |
-| <img class="pk-icon" src="icons/0070.png?v=6a98a53e" loading="lazy"> | 0070 | [口呆花](0070_口呆花.md) | 草/毒 | 390 |
-| <img class="pk-icon" src="icons/0071.png?v=bfe6cac2" loading="lazy"> | 0071 | [大食花](0071_大食花.md) | 草/毒 | 490 |
-| <img class="pk-icon" src="icons/0266.png?v=6a98a53e" loading="lazy"> | 0071 | [大食花](0266_大食花.md) | 草/毒 | 590 |
-| <img class="pk-icon" src="icons/0072.png?v=e848280d" loading="lazy"> | 0072 | [玛瑙水母](0072_玛瑙水母.md) | 水/毒 | 335 |
-| <img class="pk-icon" src="icons/0073.png?v=bb0c8f94" loading="lazy"> | 0073 | [毒刺水母](0073_毒刺水母.md) | 水/毒 | 515 |
-| <img class="pk-icon" src="icons/0074.png?v=20167429" loading="lazy"> | 0074 | [小拳石](0074_小拳石.md) | 岩石/地面 | 300 |
-| <img class="pk-icon" src="icons/1031.png?v=4b81f373" loading="lazy"> | 0074 | [小拳石（阿罗拉的样子）](1031_小拳石（阿罗拉的样子）.md) | 岩石/电 | 300 |
-| <img class="pk-icon" src="icons/0075.png?v=3a6c854c" loading="lazy"> | 0075 | [隆隆石](0075_隆隆石.md) | 岩石/地面 | 390 |
-| <img class="pk-icon" src="icons/1032.png?v=406c4049" loading="lazy"> | 0075 | [隆隆石（阿罗拉的样子）](1032_隆隆石（阿罗拉的样子）.md) | 岩石/电 | 390 |
-| <img class="pk-icon" src="icons/0076.png?v=280ee7ca" loading="lazy"> | 0076 | [隆隆岩](0076_隆隆岩.md) | 岩石/地面 | 495 |
-| <img class="pk-icon" src="icons/1033.png?v=e90c765f" loading="lazy"> | 0076 | [隆隆岩（阿罗拉的样子）](1033_隆隆岩（阿罗拉的样子）.md) | 岩石/电 | 495 |
-| <img class="pk-icon" src="icons/0077.png?v=3e9bd52d" loading="lazy"> | 0077 | [小火马](0077_小火马.md) | 火 | 410 |
-| <img class="pk-icon" src="icons/1213.png?v=f58c4d3d" loading="lazy"> | 0077 | [小火马（伽勒尔的样子）](1213_小火马（伽勒尔的样子）.md) | 超能力 | 410 |
-| <img class="pk-icon" src="icons/0078.png?v=c06fbad7" loading="lazy"> | 0078 | [烈焰马](0078_烈焰马.md) | 火 | 500 |
-| <img class="pk-icon" src="icons/1214.png?v=adef692d" loading="lazy"> | 0078 | [烈焰马（伽勒尔的样子）](1214_烈焰马（伽勒尔的样子）.md) | 超能力/妖精 | 500 |
-| <img class="pk-icon" src="icons/0079.png?v=6c6728d3" loading="lazy"> | 0079 | [呆呆兽](0079_呆呆兽.md) | 水/超能力 | 315 |
-| <img class="pk-icon" src="icons/1215.png?v=9fcef2c0" loading="lazy"> | 0079 | [呆呆兽（伽勒尔的样子）](1215_呆呆兽（伽勒尔的样子）.md) | 超能力 | 315 |
-| <img class="pk-icon" src="icons/0080.png?v=526d5407" loading="lazy"> | 0080 | [呆壳兽](0080_呆壳兽.md) | 水/超能力 | 490 |
-| <img class="pk-icon" src="icons/0876.png?v=bad88b5c" loading="lazy"> | 0080 | [超级呆壳兽](0876_超级呆壳兽.md) | 水/超能力 | 590 |
-| <img class="pk-icon" src="icons/1216.png?v=6f8ee534" loading="lazy"> | 0080 | [呆壳兽（伽勒尔的样子）](1216_呆壳兽（伽勒尔的样子）.md) | 毒/超能力 | 490 |
-| <img class="pk-icon" src="icons/0081.png?v=64806d59" loading="lazy"> | 0081 | [小磁怪](0081_小磁怪.md) | 电/钢 | 325 |
-| <img class="pk-icon" src="icons/0082.png?v=0a15f258" loading="lazy"> | 0082 | [三合一磁怪](0082_三合一磁怪.md) | 电/钢 | 465 |
-| <img class="pk-icon" src="icons/0083.png?v=418be6fc" loading="lazy"> | 0083 | [大葱鸭](0083_大葱鸭.md) | 一般/飞行 | 377 |
-| <img class="pk-icon" src="icons/1217.png?v=9b47bcc6" loading="lazy"> | 0083 | [大葱鸭（伽勒尔的样子）](1217_大葱鸭（伽勒尔的样子）.md) | 格斗 | 377 |
-| <img class="pk-icon" src="icons/0084.png?v=e0dbdbd0" loading="lazy"> | 0084 | [嘟嘟](0084_嘟嘟.md) | 一般/飞行 | 310 |
-| <img class="pk-icon" src="icons/0085.png?v=fd6db3c4" loading="lazy"> | 0085 | [嘟嘟利](0085_嘟嘟利.md) | 一般/飞行 | 470 |
-| <img class="pk-icon" src="icons/0086.png?v=d75b7c6c" loading="lazy"> | 0086 | [小海狮](0086_小海狮.md) | 水 | 325 |
-| <img class="pk-icon" src="icons/0087.png?v=89f03972" loading="lazy"> | 0087 | [白海狮](0087_白海狮.md) | 水/冰 | 475 |
-| <img class="pk-icon" src="icons/0088.png?v=d01ff982" loading="lazy"> | 0088 | [臭泥](0088_臭泥.md) | 毒 | 325 |
-| <img class="pk-icon" src="icons/1034.png?v=ba226168" loading="lazy"> | 0088 | [臭泥（阿罗拉的样子）](1034_臭泥（阿罗拉的样子）.md) | 毒/恶 | 325 |
-| <img class="pk-icon" src="icons/0089.png?v=1048fdfb" loading="lazy"> | 0089 | [臭臭泥](0089_臭臭泥.md) | 毒 | 500 |
-| <img class="pk-icon" src="icons/1035.png?v=fa764a1d" loading="lazy"> | 0089 | [臭臭泥（阿罗拉的样子）](1035_臭臭泥（阿罗拉的样子）.md) | 毒/恶 | 500 |
-| <img class="pk-icon" src="icons/0090.png?v=6048a76d" loading="lazy"> | 0090 | [大舌贝](0090_大舌贝.md) | 水 | 305 |
-| <img class="pk-icon" src="icons/0091.png?v=61917708" loading="lazy"> | 0091 | [刺甲贝](0091_刺甲贝.md) | 水/冰 | 525 |
-| <img class="pk-icon" src="icons/0092.png?v=88f6c51e" loading="lazy"> | 0092 | [鬼斯](0092_鬼斯.md) | 幽灵/毒 | 310 |
-| <img class="pk-icon" src="icons/0093.png?v=a4c18b5d" loading="lazy"> | 0093 | [鬼斯通](0093_鬼斯通.md) | 幽灵/毒 | 405 |
-| <img class="pk-icon" src="icons/0094.png?v=65efbf26" loading="lazy"> | 0094 | [耿鬼](0094_耿鬼.md) | 幽灵/毒 | 500 |
-| <img class="pk-icon" src="icons/0877.png?v=7c1add47" loading="lazy"> | 0094 | [超级耿鬼](0877_超级耿鬼.md) | 幽灵/毒 | 600 |
-| <img class="pk-icon" src="icons/1267.png?v=a4c18b5d" loading="lazy"> | 0094 | [超极巨化耿鬼](1267_超极巨化耿鬼.md) | 幽灵/毒 | 500 |
-| <img class="pk-icon" src="icons/0095.png?v=3f0fb4d2" loading="lazy"> | 0095 | [大岩蛇](0095_大岩蛇.md) | 岩石/地面 | 385 |
-| <img class="pk-icon" src="icons/0096.png?v=e5840180" loading="lazy"> | 0096 | [催眠貘](0096_催眠貘.md) | 超能力 | 328 |
-| <img class="pk-icon" src="icons/0097.png?v=d76fd5ec" loading="lazy"> | 0097 | [引梦貘人](0097_引梦貘人.md) | 超能力 | 483 |
-| <img class="pk-icon" src="icons/0098.png?v=4cce30c6" loading="lazy"> | 0098 | [大钳蟹](0098_大钳蟹.md) | 水 | 325 |
-| <img class="pk-icon" src="icons/0099.png?v=7583e5d8" loading="lazy"> | 0099 | [巨钳蟹](0099_巨钳蟹.md) | 水 | 475 |
-| <img class="pk-icon" src="icons/1268.png?v=4cce30c6" loading="lazy"> | 0099 | [超极巨化巨钳蟹](1268_超极巨化巨钳蟹.md) | 水 | 475 |
-| <img class="pk-icon" src="icons/0100.png?v=d83b28a9" loading="lazy"> | 0100 | [霹雳电球](0100_霹雳电球.md) | 电 | 330 |
-| <img class="pk-icon" src="icons/1236.png?v=0226f101" loading="lazy"> | 0100 | [霹雳电球（洗翠的样子）](1236_霹雳电球（洗翠的样子）.md) | 电/草 | 330 |
-| <img class="pk-icon" src="icons/0101.png?v=174b0e11" loading="lazy"> | 0101 | [顽皮雷弹](0101_顽皮雷弹.md) | 电 | 490 |
-| <img class="pk-icon" src="icons/1237.png?v=293049f2" loading="lazy"> | 0101 | [顽皮雷弹（洗翠的样子）](1237_顽皮雷弹（洗翠的样子）.md) | 电/草 | 490 |
-| <img class="pk-icon" src="icons/0102.png?v=e36895ff" loading="lazy"> | 0102 | [蛋蛋](0102_蛋蛋.md) | 草/超能力 | 325 |
-| <img class="pk-icon" src="icons/1036.png?v=e36895ff" loading="lazy"> | 0102 | [蛋蛋（阿罗拉的样子）](1036_蛋蛋（阿罗拉的样子）.md) | 草/超能力 | 325 |
-| <img class="pk-icon" src="icons/0103.png?v=0b4360f0" loading="lazy"> | 0103 | [椰蛋树](0103_椰蛋树.md) | 草/超能力 | 530 |
-| <img class="pk-icon" src="icons/1037.png?v=daa7373d" loading="lazy"> | 0103 | [椰蛋树（阿罗拉的样子）](1037_椰蛋树（阿罗拉的样子）.md) | 草/龙 | 530 |
-| <img class="pk-icon" src="icons/0104.png?v=81c6aadc" loading="lazy"> | 0104 | [卡拉卡拉](0104_卡拉卡拉.md) | 地面 | 320 |
-| <img class="pk-icon" src="icons/1038.png?v=81c6aadc" loading="lazy"> | 0104 | [卡拉卡拉（阿罗拉的样子）](1038_卡拉卡拉（阿罗拉的样子）.md) | 地面 | 320 |
-| <img class="pk-icon" src="icons/0105.png?v=e089f69f" loading="lazy"> | 0105 | [嘎啦嘎啦](0105_嘎啦嘎啦.md) | 地面 | 425 |
-| <img class="pk-icon" src="icons/1039.png?v=860b4863" loading="lazy"> | 0105 | [嘎啦嘎啦（阿罗拉的样子）](1039_嘎啦嘎啦（阿罗拉的样子）.md) | 火/幽灵 | 425 |
-| <img class="pk-icon" src="icons/0106.png?v=5e96d843" loading="lazy"> | 0106 | [飞腿郎](0106_飞腿郎.md) | 格斗 | 455 |
-| <img class="pk-icon" src="icons/0107.png?v=2b6a0fb6" loading="lazy"> | 0107 | [快拳郎](0107_快拳郎.md) | 格斗 | 455 |
-| <img class="pk-icon" src="icons/0108.png?v=a8ef5df7" loading="lazy"> | 0108 | [大舌头](0108_大舌头.md) | 一般 | 385 |
-| <img class="pk-icon" src="icons/0109.png?v=58d36411" loading="lazy"> | 0109 | [瓦斯弹](0109_瓦斯弹.md) | 毒 | 340 |
-| <img class="pk-icon" src="icons/1218.png?v=58d36411" loading="lazy"> | 0109 | [瓦斯弹（伽勒尔的样子）](1218_瓦斯弹（伽勒尔的样子）.md) | 毒 | 340 |
-| <img class="pk-icon" src="icons/0110.png?v=d10bbdcd" loading="lazy"> | 0110 | [双弹瓦斯](0110_双弹瓦斯.md) | 毒 | 490 |
-| <img class="pk-icon" src="icons/1219.png?v=49bdbe1b" loading="lazy"> | 0110 | [双弹瓦斯（伽勒尔的样子）](1219_双弹瓦斯（伽勒尔的样子）.md) | 毒/妖精 | 490 |
-| <img class="pk-icon" src="icons/0111.png?v=98d0d963" loading="lazy"> | 0111 | [独角犀牛](0111_独角犀牛.md) | 地面/岩石 | 345 |
-| <img class="pk-icon" src="icons/0112.png?v=cf51af8b" loading="lazy"> | 0112 | [钻角犀兽](0112_钻角犀兽.md) | 地面/岩石 | 485 |
-| <img class="pk-icon" src="icons/0113.png?v=8b744edf" loading="lazy"> | 0113 | [吉利蛋](0113_吉利蛋.md) | 一般 | 450 |
-| <img class="pk-icon" src="icons/0114.png?v=af2ac9cf" loading="lazy"> | 0114 | [蔓藤怪](0114_蔓藤怪.md) | 草 | 435 |
-| <img class="pk-icon" src="icons/0115.png?v=6067495a" loading="lazy"> | 0115 | [袋兽](0115_袋兽.md) | 一般 | 490 |
-| <img class="pk-icon" src="icons/0878.png?v=1ea9fc6b" loading="lazy"> | 0115 | [超级袋兽](0878_超级袋兽.md) | 一般 | 590 |
-| <img class="pk-icon" src="icons/0116.png?v=05c22218" loading="lazy"> | 0116 | [墨海马](0116_墨海马.md) | 水 | 295 |
-| <img class="pk-icon" src="icons/0117.png?v=d06699eb" loading="lazy"> | 0117 | [海刺龙](0117_海刺龙.md) | 水 | 440 |
-| <img class="pk-icon" src="icons/0118.png?v=19433bd6" loading="lazy"> | 0118 | [角金鱼](0118_角金鱼.md) | 水 | 320 |
-| <img class="pk-icon" src="icons/0119.png?v=c40e0840" loading="lazy"> | 0119 | [金鱼王](0119_金鱼王.md) | 水 | 450 |
-| <img class="pk-icon" src="icons/0120.png?v=430359f1" loading="lazy"> | 0120 | [海星星](0120_海星星.md) | 水 | 340 |
-| <img class="pk-icon" src="icons/0121.png?v=b333c463" loading="lazy"> | 0121 | [宝石海星](0121_宝石海星.md) | 水/超能力 | 520 |
-| <img class="pk-icon" src="icons/0276.png?v=430359f1" loading="lazy"> | 0121 | [宝石海星](0276_宝石海星.md) | 水/超能力 | 620 |
-| <img class="pk-icon" src="icons/0122.png?v=b4830b2d" loading="lazy"> | 0122 | [魔墙人偶](0122_魔墙人偶.md) | 超能力/妖精 | 460 |
-| <img class="pk-icon" src="icons/1220.png?v=06fb32cc" loading="lazy"> | 0122 | [魔墙人偶（伽勒尔的样子）](1220_魔墙人偶（伽勒尔的样子）.md) | 冰/超能力 | 460 |
-| <img class="pk-icon" src="icons/0123.png?v=f43b6b55" loading="lazy"> | 0123 | [飞天螳螂](0123_飞天螳螂.md) | 虫/飞行 | 500 |
-| <img class="pk-icon" src="icons/0124.png?v=77912188" loading="lazy"> | 0124 | [迷唇姐](0124_迷唇姐.md) | 冰/超能力 | 455 |
-| <img class="pk-icon" src="icons/0125.png?v=7293521b" loading="lazy"> | 0125 | [电击兽](0125_电击兽.md) | 电 | 490 |
-| <img class="pk-icon" src="icons/0126.png?v=43dd5306" loading="lazy"> | 0126 | [鸭嘴火兽](0126_鸭嘴火兽.md) | 火 | 495 |
-| <img class="pk-icon" src="icons/0127.png?v=68e286f0" loading="lazy"> | 0127 | [凯罗斯](0127_凯罗斯.md) | 虫 | 500 |
-| <img class="pk-icon" src="icons/0879.png?v=9ace6f45" loading="lazy"> | 0127 | [超级凯罗斯](0879_超级凯罗斯.md) | 虫/飞行 | 600 |
-| <img class="pk-icon" src="icons/0128.png?v=f4463373" loading="lazy"> | 0128 | [肯泰罗](0128_肯泰罗.md) | 一般 | 490 |
-| <img class="pk-icon" src="icons/0129.png?v=2b35b783" loading="lazy"> | 0129 | [鲤鱼王](0129_鲤鱼王.md) | 水 | 200 |
-| <img class="pk-icon" src="icons/0130.png?v=ea76096a" loading="lazy"> | 0130 | [暴鲤龙](0130_暴鲤龙.md) | 水/飞行 | 540 |
-| <img class="pk-icon" src="icons/0880.png?v=510bea75" loading="lazy"> | 0130 | [超级暴鲤龙](0880_超级暴鲤龙.md) | 水/恶 | 640 |
-| <img class="pk-icon" src="icons/0131.png?v=ba97b315" loading="lazy"> | 0131 | [拉普拉斯](0131_拉普拉斯.md) | 水/冰 | 535 |
-| <img class="pk-icon" src="icons/1269.png?v=ea76096a" loading="lazy"> | 0131 | [超极巨化拉普拉斯](1269_超极巨化拉普拉斯.md) | 水/冰 | 535 |
-| <img class="pk-icon" src="icons/0132.png?v=a2b706fe" loading="lazy"> | 0132 | [百变怪](0132_百变怪.md) | 一般 | 288 |
-| <img class="pk-icon" src="icons/0133.png?v=22ab3c37" loading="lazy"> | 0133 | [伊布](0133_伊布.md) | 一般 | 325 |
-| <img class="pk-icon" src="icons/1270.png?v=a2b706fe" loading="lazy"> | 0133 | [超极巨化伊布](1270_超极巨化伊布.md) | 一般 | 325 |
-| <img class="pk-icon" src="icons/0134.png?v=a8c0f151" loading="lazy"> | 0134 | [水伊布](0134_水伊布.md) | 水 | 525 |
-| <img class="pk-icon" src="icons/0135.png?v=86d86554" loading="lazy"> | 0135 | [雷伊布](0135_雷伊布.md) | 电 | 525 |
-| <img class="pk-icon" src="icons/0136.png?v=cd30300d" loading="lazy"> | 0136 | [火伊布](0136_火伊布.md) | 火 | 525 |
-| <img class="pk-icon" src="icons/0137.png?v=d59108b3" loading="lazy"> | 0137 | [多边兽](0137_多边兽.md) | 一般 | 395 |
-| <img class="pk-icon" src="icons/0138.png?v=1a14501a" loading="lazy"> | 0138 | [菊石兽](0138_菊石兽.md) | 岩石/水 | 355 |
-| <img class="pk-icon" src="icons/0139.png?v=ba124de0" loading="lazy"> | 0139 | [多刺菊石兽](0139_多刺菊石兽.md) | 岩石/水 | 495 |
-| <img class="pk-icon" src="icons/0140.png?v=28f6434a" loading="lazy"> | 0140 | [化石盔](0140_化石盔.md) | 岩石/水 | 355 |
-| <img class="pk-icon" src="icons/0141.png?v=f7a912ad" loading="lazy"> | 0141 | [镰刀盔](0141_镰刀盔.md) | 岩石/水 | 495 |
-| <img class="pk-icon" src="icons/0142.png?v=a95e2752" loading="lazy"> | 0142 | [化石翼龙](0142_化石翼龙.md) | 岩石/飞行 | 515 |
-| <img class="pk-icon" src="icons/0881.png?v=ce8f5955" loading="lazy"> | 0142 | [超级化石翼龙](0881_超级化石翼龙.md) | 岩石/飞行 | 615 |
-| <img class="pk-icon" src="icons/0143.png?v=1786889f" loading="lazy"> | 0143 | [卡比兽](0143_卡比兽.md) | 一般 | 540 |
-| <img class="pk-icon" src="icons/1271.png?v=a95e2752" loading="lazy"> | 0143 | [超极巨化卡比兽](1271_超极巨化卡比兽.md) | 一般 | 540 |
-| <img class="pk-icon" src="icons/0144.png?v=aa96c8a9" loading="lazy"> | 0144 | [急冻鸟](0144_急冻鸟.md) | 冰/飞行 | 580 |
-| <img class="pk-icon" src="icons/1221.png?v=7ea70505" loading="lazy"> | 0144 | [急冻鸟（伽勒尔的样子）](1221_急冻鸟（伽勒尔的样子）.md) | 超能力/飞行 | 580 |
-| <img class="pk-icon" src="icons/0145.png?v=45281e40" loading="lazy"> | 0145 | [闪电鸟](0145_闪电鸟.md) | 电/飞行 | 580 |
-| <img class="pk-icon" src="icons/1222.png?v=8d601f54" loading="lazy"> | 0145 | [闪电鸟（伽勒尔的样子）](1222_闪电鸟（伽勒尔的样子）.md) | 格斗/飞行 | 580 |
-| <img class="pk-icon" src="icons/0146.png?v=040751f5" loading="lazy"> | 0146 | [火焰鸟](0146_火焰鸟.md) | 火/飞行 | 580 |
-| <img class="pk-icon" src="icons/1223.png?v=151f7bd5" loading="lazy"> | 0146 | [火焰鸟（伽勒尔的样子）](1223_火焰鸟（伽勒尔的样子）.md) | 恶/飞行 | 580 |
-| <img class="pk-icon" src="icons/0147.png?v=f7721a47" loading="lazy"> | 0147 | [迷你龙](0147_迷你龙.md) | 龙 | 300 |
-| <img class="pk-icon" src="icons/0148.png?v=64a47385" loading="lazy"> | 0148 | [哈克龙](0148_哈克龙.md) | 龙 | 420 |
-| <img class="pk-icon" src="icons/0149.png?v=5538ea03" loading="lazy"> | 0149 | [快龙](0149_快龙.md) | 龙/飞行 | 600 |
-| <img class="pk-icon" src="icons/0150.png?v=3701903c" loading="lazy"> | 0150 | [超梦](0150_超梦.md) | 超能力 | 680 |
-| <img class="pk-icon" src="icons/0882.png?v=f5ac60ed" loading="lazy"> | 0150 | [超级超梦X](0882_超级超梦X.md) | 超能力/格斗 | 780 |
-| <img class="pk-icon" src="icons/0883.png?v=5d402989" loading="lazy"> | 0150 | [超级超梦Y](0883_超级超梦Y.md) | 超能力 | 780 |
-| <img class="pk-icon" src="icons/0151.png?v=37f136ba" loading="lazy"> | 0151 | [梦幻](0151_梦幻.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/0152.png?v=3cb9b537" loading="lazy"> | 0152 | [菊草叶](0152_菊草叶.md) | 草 | 318 |
-| <img class="pk-icon" src="icons/0153.png?v=9e95000a" loading="lazy"> | 0153 | [月桂叶](0153_月桂叶.md) | 草 | 405 |
-| <img class="pk-icon" src="icons/0154.png?v=cc707575" loading="lazy"> | 0154 | [大竺葵](0154_大竺葵.md) | 草 | 525 |
-| <img class="pk-icon" src="icons/0263.png?v=9e95000a" loading="lazy"> | 0154 | [大竺葵](0263_大竺葵.md) | 草/妖精 | 625 |
-| <img class="pk-icon" src="icons/0155.png?v=5d13fc55" loading="lazy"> | 0155 | [火球鼠](0155_火球鼠.md) | 火 | 309 |
-| <img class="pk-icon" src="icons/0156.png?v=de241944" loading="lazy"> | 0156 | [火岩鼠](0156_火岩鼠.md) | 火 | 405 |
-| <img class="pk-icon" src="icons/0157.png?v=163fb96f" loading="lazy"> | 0157 | [火暴兽](0157_火暴兽.md) | 火 | 534 |
-| <img class="pk-icon" src="icons/0264.png?v=de241944" loading="lazy"> | 0157 | [火暴兽](0264_火暴兽.md) | 火 | 634 |
-| <img class="pk-icon" src="icons/1238.png?v=0ff42e62" loading="lazy"> | 0157 | [火暴兽（洗翠的样子）](1238_火暴兽（洗翠的样子）.md) | 火/幽灵 | 534 |
-| <img class="pk-icon" src="icons/0158.png?v=0a63a3ac" loading="lazy"> | 0158 | [小锯鳄](0158_小锯鳄.md) | 水 | 314 |
-| <img class="pk-icon" src="icons/0159.png?v=fc865312" loading="lazy"> | 0159 | [蓝鳄](0159_蓝鳄.md) | 水 | 405 |
-| <img class="pk-icon" src="icons/0160.png?v=8932730e" loading="lazy"> | 0160 | [大力鳄](0160_大力鳄.md) | 水 | 530 |
-| <img class="pk-icon" src="icons/0265.png?v=fc865312" loading="lazy"> | 0160 | [大力鳄](0265_大力鳄.md) | 水/龙 | 630 |
-| <img class="pk-icon" src="icons/0161.png?v=d3f9520c" loading="lazy"> | 0161 | [尾立](0161_尾立.md) | 一般 | 215 |
-| <img class="pk-icon" src="icons/0162.png?v=5c915ebc" loading="lazy"> | 0162 | [大尾立](0162_大尾立.md) | 一般 | 415 |
-| <img class="pk-icon" src="icons/0163.png?v=1e3bc181" loading="lazy"> | 0163 | [咕咕](0163_咕咕.md) | 一般/飞行 | 262 |
-| <img class="pk-icon" src="icons/0164.png?v=947f4552" loading="lazy"> | 0164 | [猫头夜鹰](0164_猫头夜鹰.md) | 一般/飞行 | 452 |
-| <img class="pk-icon" src="icons/0165.png?v=2cf04c82" loading="lazy"> | 0165 | [芭瓢虫](0165_芭瓢虫.md) | 虫/飞行 | 265 |
-| <img class="pk-icon" src="icons/0166.png?v=7c67d5fb" loading="lazy"> | 0166 | [安瓢虫](0166_安瓢虫.md) | 虫/飞行 | 390 |
-| <img class="pk-icon" src="icons/0167.png?v=13545031" loading="lazy"> | 0167 | [圆丝蛛](0167_圆丝蛛.md) | 虫/毒 | 250 |
-| <img class="pk-icon" src="icons/0168.png?v=70b62d15" loading="lazy"> | 0168 | [阿利多斯](0168_阿利多斯.md) | 虫/毒 | 400 |
-| <img class="pk-icon" src="icons/0169.png?v=2881ef55" loading="lazy"> | 0169 | [叉字蝠](0169_叉字蝠.md) | 毒/飞行 | 535 |
-| <img class="pk-icon" src="icons/0170.png?v=adebf38c" loading="lazy"> | 0170 | [灯笼鱼](0170_灯笼鱼.md) | 水/电 | 330 |
-| <img class="pk-icon" src="icons/0171.png?v=e03088e7" loading="lazy"> | 0171 | [电灯怪](0171_电灯怪.md) | 水/电 | 460 |
-| <img class="pk-icon" src="icons/0172.png?v=cedf9c88" loading="lazy"> | 0172 | [皮丘](0172_皮丘.md) | 电 | 205 |
-| <img class="pk-icon" src="icons/1100.png?v=e03088e7" loading="lazy"> | 0172 | [皮丘（尖耳朵）](1100_皮丘（尖耳朵）.md) | 电 | 205 |
-| <img class="pk-icon" src="icons/0173.png?v=52facbfd" loading="lazy"> | 0173 | [皮宝宝](0173_皮宝宝.md) | 妖精 | 218 |
-| <img class="pk-icon" src="icons/0174.png?v=a751a112" loading="lazy"> | 0174 | [宝宝丁](0174_宝宝丁.md) | 一般/妖精 | 210 |
-| <img class="pk-icon" src="icons/0175.png?v=85f87d86" loading="lazy"> | 0175 | [波克比](0175_波克比.md) | 妖精 | 245 |
-| <img class="pk-icon" src="icons/0176.png?v=c9378780" loading="lazy"> | 0176 | [波克基古](0176_波克基古.md) | 妖精/飞行 | 405 |
-| <img class="pk-icon" src="icons/0177.png?v=fc2d6db4" loading="lazy"> | 0177 | [天然雀](0177_天然雀.md) | 超能力/飞行 | 320 |
-| <img class="pk-icon" src="icons/0178.png?v=42a974d8" loading="lazy"> | 0178 | [天然鸟](0178_天然鸟.md) | 超能力/飞行 | 470 |
-| <img class="pk-icon" src="icons/0179.png?v=88ecc361" loading="lazy"> | 0179 | [咩利羊](0179_咩利羊.md) | 电 | 280 |
-| <img class="pk-icon" src="icons/0180.png?v=40b77ac9" loading="lazy"> | 0180 | [茸茸羊](0180_茸茸羊.md) | 电 | 365 |
-| <img class="pk-icon" src="icons/0181.png?v=79091441" loading="lazy"> | 0181 | [电龙](0181_电龙.md) | 电 | 510 |
-| <img class="pk-icon" src="icons/0884.png?v=ab1b540c" loading="lazy"> | 0181 | [超级电龙](0884_超级电龙.md) | 电/龙 | 610 |
-| <img class="pk-icon" src="icons/0182.png?v=79fe74d2" loading="lazy"> | 0182 | [美丽花](0182_美丽花.md) | 草 | 490 |
-| <img class="pk-icon" src="icons/0183.png?v=0050629a" loading="lazy"> | 0183 | [玛力露](0183_玛力露.md) | 水/妖精 | 250 |
-| <img class="pk-icon" src="icons/0184.png?v=982821af" loading="lazy"> | 0184 | [玛力露丽](0184_玛力露丽.md) | 水/妖精 | 420 |
-| <img class="pk-icon" src="icons/0185.png?v=d8620d17" loading="lazy"> | 0185 | [树才怪](0185_树才怪.md) | 岩石 | 410 |
-| <img class="pk-icon" src="icons/0186.png?v=afac6a89" loading="lazy"> | 0186 | [蚊香蛙皇](0186_蚊香蛙皇.md) | 水 | 500 |
-| <img class="pk-icon" src="icons/0187.png?v=394772c2" loading="lazy"> | 0187 | [毽子草](0187_毽子草.md) | 草/飞行 | 250 |
-| <img class="pk-icon" src="icons/0188.png?v=72649401" loading="lazy"> | 0188 | [毽子花](0188_毽子花.md) | 草/飞行 | 340 |
-| <img class="pk-icon" src="icons/0189.png?v=ef7b90d7" loading="lazy"> | 0189 | [毽子棉](0189_毽子棉.md) | 草/飞行 | 460 |
-| <img class="pk-icon" src="icons/0190.png?v=eff53712" loading="lazy"> | 0190 | [长尾怪手](0190_长尾怪手.md) | 一般 | 360 |
-| <img class="pk-icon" src="icons/0191.png?v=d411a887" loading="lazy"> | 0191 | [向日种子](0191_向日种子.md) | 草 | 180 |
-| <img class="pk-icon" src="icons/0192.png?v=03bd0d54" loading="lazy"> | 0192 | [向日花怪](0192_向日花怪.md) | 草 | 425 |
-| <img class="pk-icon" src="icons/0193.png?v=1aed3a0b" loading="lazy"> | 0193 | [蜻蜻蜓](0193_蜻蜻蜓.md) | 虫/飞行 | 390 |
-| <img class="pk-icon" src="icons/0194.png?v=5ba90f6a" loading="lazy"> | 0194 | [乌波](0194_乌波.md) | 水/地面 | 210 |
-| <img class="pk-icon" src="icons/0258.png?v=1aed3a0b" loading="lazy"> | 0194 | [乌波](0258_乌波.md) | 毒/地面 | 210 |
-| <img class="pk-icon" src="icons/0195.png?v=39c83295" loading="lazy"> | 0195 | [沼王](0195_沼王.md) | 水/地面 | 430 |
-| <img class="pk-icon" src="icons/0196.png?v=7de678ce" loading="lazy"> | 0196 | [太阳伊布](0196_太阳伊布.md) | 超能力 | 525 |
-| <img class="pk-icon" src="icons/0197.png?v=2d8b4a5d" loading="lazy"> | 0197 | [月亮伊布](0197_月亮伊布.md) | 恶 | 525 |
-| <img class="pk-icon" src="icons/0198.png?v=1127ec63" loading="lazy"> | 0198 | [黑暗鸦](0198_黑暗鸦.md) | 恶/飞行 | 405 |
-| <img class="pk-icon" src="icons/0199.png?v=fa6db724" loading="lazy"> | 0199 | [呆呆王](0199_呆呆王.md) | 水/超能力 | 490 |
-| <img class="pk-icon" src="icons/1224.png?v=6cb38280" loading="lazy"> | 0199 | [呆呆王（伽勒尔的样子）](1224_呆呆王（伽勒尔的样子）.md) | 毒/超能力 | 490 |
-| <img class="pk-icon" src="icons/0200.png?v=b0da099a" loading="lazy"> | 0200 | [梦妖](0200_梦妖.md) | 幽灵 | 435 |
-| <img class="pk-icon" src="icons/0201.png?v=57188a5e" loading="lazy"> | 0201 | [未知图腾](0201_未知图腾.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0413.png?v=6908f5f6" loading="lazy"> | 0201 | [未知图腾（B）](0413_未知图腾（B）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0414.png?v=80f2800b" loading="lazy"> | 0201 | [未知图腾（C）](0414_未知图腾（C）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0415.png?v=5f329000" loading="lazy"> | 0201 | [未知图腾（D）](0415_未知图腾（D）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0416.png?v=4505daed" loading="lazy"> | 0201 | [未知图腾（E）](0416_未知图腾（E）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0417.png?v=e81c91e1" loading="lazy"> | 0201 | [未知图腾（F）](0417_未知图腾（F）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0418.png?v=abd3af77" loading="lazy"> | 0201 | [未知图腾（G）](0418_未知图腾（G）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0419.png?v=2dc17514" loading="lazy"> | 0201 | [未知图腾（H）](0419_未知图腾（H）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0420.png?v=77dfe3dc" loading="lazy"> | 0201 | [未知图腾（I）](0420_未知图腾（I）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0421.png?v=ee372d2c" loading="lazy"> | 0201 | [未知图腾（J）](0421_未知图腾（J）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0422.png?v=e4e94548" loading="lazy"> | 0201 | [未知图腾（K）](0422_未知图腾（K）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0423.png?v=ffb45e7c" loading="lazy"> | 0201 | [未知图腾（L）](0423_未知图腾（L）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0424.png?v=a5661ccd" loading="lazy"> | 0201 | [未知图腾（M）](0424_未知图腾（M）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0425.png?v=e06c34b1" loading="lazy"> | 0201 | [未知图腾（N）](0425_未知图腾（N）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0426.png?v=c29cf983" loading="lazy"> | 0201 | [未知图腾（O）](0426_未知图腾（O）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0427.png?v=d6afdb34" loading="lazy"> | 0201 | [未知图腾（P）](0427_未知图腾（P）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0428.png?v=271eff56" loading="lazy"> | 0201 | [未知图腾（Q）](0428_未知图腾（Q）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0429.png?v=aba104fd" loading="lazy"> | 0201 | [未知图腾（R）](0429_未知图腾（R）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0430.png?v=6d6046ba" loading="lazy"> | 0201 | [未知图腾（S）](0430_未知图腾（S）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0431.png?v=ff507a15" loading="lazy"> | 0201 | [未知图腾（T）](0431_未知图腾（T）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0432.png?v=81c1c5d1" loading="lazy"> | 0201 | [未知图腾（U）](0432_未知图腾（U）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0433.png?v=efc21083" loading="lazy"> | 0201 | [未知图腾（V）](0433_未知图腾（V）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0434.png?v=aaf894a0" loading="lazy"> | 0201 | [未知图腾（W）](0434_未知图腾（W）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0435.png?v=f250a020" loading="lazy"> | 0201 | [未知图腾（X）](0435_未知图腾（X）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0436.png?v=2f188c6f" loading="lazy"> | 0201 | [未知图腾（Y）](0436_未知图腾（Y）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0437.png?v=2e4ff8b2" loading="lazy"> | 0201 | [未知图腾（Z）](0437_未知图腾（Z）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0438.png?v=727da8e6" loading="lazy"> | 0201 | [未知图腾（EXCLAMATION）](0438_未知图腾（EXCLAMATION）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0439.png?v=c1fffbd3" loading="lazy"> | 0201 | [未知图腾（QUESTION）](0439_未知图腾（QUESTION）.md) | 超能力 | 336 |
-| <img class="pk-icon" src="icons/0202.png?v=d1e5ba72" loading="lazy"> | 0202 | [果然翁](0202_果然翁.md) | 超能力 | 405 |
-| <img class="pk-icon" src="icons/0203.png?v=d687b56a" loading="lazy"> | 0203 | [麒麟奇](0203_麒麟奇.md) | 一般/超能力 | 455 |
-| <img class="pk-icon" src="icons/0204.png?v=81e4310f" loading="lazy"> | 0204 | [榛果球](0204_榛果球.md) | 虫 | 290 |
-| <img class="pk-icon" src="icons/0205.png?v=09f4de7c" loading="lazy"> | 0205 | [佛烈托斯](0205_佛烈托斯.md) | 虫/钢 | 465 |
-| <img class="pk-icon" src="icons/0206.png?v=341723d6" loading="lazy"> | 0206 | [土龙弟弟](0206_土龙弟弟.md) | 一般 | 415 |
-| <img class="pk-icon" src="icons/0207.png?v=a7241565" loading="lazy"> | 0207 | [天蝎](0207_天蝎.md) | 地面/飞行 | 430 |
-| <img class="pk-icon" src="icons/0208.png?v=92e1cfe2" loading="lazy"> | 0208 | [大钢蛇](0208_大钢蛇.md) | 钢/地面 | 510 |
-| <img class="pk-icon" src="icons/0885.png?v=6739c459" loading="lazy"> | 0208 | [超级大钢蛇](0885_超级大钢蛇.md) | 钢/地面 | 610 |
-| <img class="pk-icon" src="icons/0209.png?v=05317c70" loading="lazy"> | 0209 | [布鲁](0209_布鲁.md) | 妖精 | 300 |
-| <img class="pk-icon" src="icons/0210.png?v=d0629ac9" loading="lazy"> | 0210 | [布鲁皇](0210_布鲁皇.md) | 妖精 | 450 |
-| <img class="pk-icon" src="icons/0211.png?v=1461904a" loading="lazy"> | 0211 | [千针鱼](0211_千针鱼.md) | 水/毒 | 440 |
-| <img class="pk-icon" src="icons/1239.png?v=10c88a22" loading="lazy"> | 0211 | [千针鱼（洗翠的样子）](1239_千针鱼（洗翠的样子）.md) | 恶/毒 | 440 |
-| <img class="pk-icon" src="icons/0212.png?v=94ca8e6f" loading="lazy"> | 0212 | [巨钳螳螂](0212_巨钳螳螂.md) | 虫/钢 | 500 |
-| <img class="pk-icon" src="icons/0886.png?v=648f54fb" loading="lazy"> | 0212 | [超级巨钳螳螂](0886_超级巨钳螳螂.md) | 虫/钢 | 600 |
-| <img class="pk-icon" src="icons/0213.png?v=86b74b8f" loading="lazy"> | 0213 | [壶壶](0213_壶壶.md) | 虫/岩石 | 505 |
-| <img class="pk-icon" src="icons/0214.png?v=1e7f5567" loading="lazy"> | 0214 | [赫拉克罗斯](0214_赫拉克罗斯.md) | 虫/格斗 | 500 |
-| <img class="pk-icon" src="icons/0887.png?v=3dfc29bc" loading="lazy"> | 0214 | [超级赫拉克罗斯](0887_超级赫拉克罗斯.md) | 虫/格斗 | 600 |
-| <img class="pk-icon" src="icons/0215.png?v=ac871266" loading="lazy"> | 0215 | [狃拉](0215_狃拉.md) | 恶/冰 | 430 |
-| <img class="pk-icon" src="icons/1240.png?v=b9329bf6" loading="lazy"> | 0215 | [狃拉（洗翠的样子）](1240_狃拉（洗翠的样子）.md) | 毒/格斗 | 430 |
-| <img class="pk-icon" src="icons/0216.png?v=eb76b5be" loading="lazy"> | 0216 | [熊宝宝](0216_熊宝宝.md) | 一般 | 330 |
-| <img class="pk-icon" src="icons/0217.png?v=76f419a0" loading="lazy"> | 0217 | [圈圈熊](0217_圈圈熊.md) | 一般 | 500 |
-| <img class="pk-icon" src="icons/0218.png?v=ca416498" loading="lazy"> | 0218 | [熔岩虫](0218_熔岩虫.md) | 火 | 250 |
-| <img class="pk-icon" src="icons/0219.png?v=5b5a2771" loading="lazy"> | 0219 | [熔岩蜗牛](0219_熔岩蜗牛.md) | 火/岩石 | 430 |
-| <img class="pk-icon" src="icons/0220.png?v=77d44133" loading="lazy"> | 0220 | [小山猪](0220_小山猪.md) | 冰/地面 | 250 |
-| <img class="pk-icon" src="icons/0221.png?v=0242c54f" loading="lazy"> | 0221 | [长毛猪](0221_长毛猪.md) | 冰/地面 | 450 |
-| <img class="pk-icon" src="icons/0222.png?v=5240a870" loading="lazy"> | 0222 | [太阳珊瑚](0222_太阳珊瑚.md) | 水/岩石 | 410 |
-| <img class="pk-icon" src="icons/1225.png?v=3574406b" loading="lazy"> | 0222 | [太阳珊瑚（伽勒尔的样子）](1225_太阳珊瑚（伽勒尔的样子）.md) | 幽灵 | 410 |
-| <img class="pk-icon" src="icons/0223.png?v=35bf15a3" loading="lazy"> | 0223 | [铁炮鱼](0223_铁炮鱼.md) | 水 | 300 |
-| <img class="pk-icon" src="icons/0224.png?v=44cc01b1" loading="lazy"> | 0224 | [章鱼桶](0224_章鱼桶.md) | 水 | 480 |
-| <img class="pk-icon" src="icons/0225.png?v=f278feb5" loading="lazy"> | 0225 | [信使鸟](0225_信使鸟.md) | 冰/飞行 | 330 |
-| <img class="pk-icon" src="icons/0226.png?v=3eba41f9" loading="lazy"> | 0226 | [巨翅飞鱼](0226_巨翅飞鱼.md) | 水/飞行 | 485 |
-| <img class="pk-icon" src="icons/0227.png?v=03f8fd85" loading="lazy"> | 0227 | [盔甲鸟](0227_盔甲鸟.md) | 钢/飞行 | 465 |
-| <img class="pk-icon" src="icons/0272.png?v=3eba41f9" loading="lazy"> | 0227 | [盔甲鸟](0272_盔甲鸟.md) | 钢/飞行 | 565 |
-| <img class="pk-icon" src="icons/0228.png?v=b506d9c3" loading="lazy"> | 0228 | [戴鲁比](0228_戴鲁比.md) | 恶/火 | 330 |
-| <img class="pk-icon" src="icons/0229.png?v=71afa864" loading="lazy"> | 0229 | [黑鲁加](0229_黑鲁加.md) | 恶/火 | 500 |
-| <img class="pk-icon" src="icons/0888.png?v=a2ae375a" loading="lazy"> | 0229 | [超级黑鲁加](0888_超级黑鲁加.md) | 恶/火 | 600 |
-| <img class="pk-icon" src="icons/0230.png?v=d584978e" loading="lazy"> | 0230 | [刺龙王](0230_刺龙王.md) | 水/龙 | 540 |
-| <img class="pk-icon" src="icons/0231.png?v=a7678e76" loading="lazy"> | 0231 | [小小象](0231_小小象.md) | 地面 | 330 |
-| <img class="pk-icon" src="icons/0232.png?v=a1d0d444" loading="lazy"> | 0232 | [顿甲](0232_顿甲.md) | 地面 | 500 |
-| <img class="pk-icon" src="icons/0233.png?v=7b317e89" loading="lazy"> | 0233 | [多边兽2](0233_多边兽2.md) | 一般 | 515 |
-| <img class="pk-icon" src="icons/0234.png?v=57cad4e0" loading="lazy"> | 0234 | [惊角鹿](0234_惊角鹿.md) | 一般 | 465 |
-| <img class="pk-icon" src="icons/0235.png?v=4c980515" loading="lazy"> | 0235 | [图图犬](0235_图图犬.md) | 一般 | 250 |
-| <img class="pk-icon" src="icons/0236.png?v=91e37ec8" loading="lazy"> | 0236 | [无畏小子](0236_无畏小子.md) | 格斗 | 210 |
-| <img class="pk-icon" src="icons/0237.png?v=b9308da9" loading="lazy"> | 0237 | [战舞郎](0237_战舞郎.md) | 格斗 | 455 |
-| <img class="pk-icon" src="icons/0238.png?v=f953c8bd" loading="lazy"> | 0238 | [迷唇娃](0238_迷唇娃.md) | 冰/超能力 | 305 |
-| <img class="pk-icon" src="icons/0239.png?v=5d5dbaae" loading="lazy"> | 0239 | [电击怪](0239_电击怪.md) | 电 | 360 |
-| <img class="pk-icon" src="icons/0240.png?v=b96bccf4" loading="lazy"> | 0240 | [鸭嘴宝宝](0240_鸭嘴宝宝.md) | 火 | 365 |
-| <img class="pk-icon" src="icons/0241.png?v=1108cd17" loading="lazy"> | 0241 | [大奶罐](0241_大奶罐.md) | 一般 | 490 |
-| <img class="pk-icon" src="icons/0242.png?v=f7d7acd5" loading="lazy"> | 0242 | [幸福蛋](0242_幸福蛋.md) | 一般 | 540 |
-| <img class="pk-icon" src="icons/0243.png?v=00119419" loading="lazy"> | 0243 | [雷公](0243_雷公.md) | 电 | 580 |
-| <img class="pk-icon" src="icons/0244.png?v=330a2f62" loading="lazy"> | 0244 | [炎帝](0244_炎帝.md) | 火 | 580 |
-| <img class="pk-icon" src="icons/0245.png?v=0a6fb66a" loading="lazy"> | 0245 | [水君](0245_水君.md) | 水 | 580 |
-| <img class="pk-icon" src="icons/0246.png?v=af3215f9" loading="lazy"> | 0246 | [幼基拉斯](0246_幼基拉斯.md) | 岩石/地面 | 300 |
-| <img class="pk-icon" src="icons/0247.png?v=09b399da" loading="lazy"> | 0247 | [沙基拉斯](0247_沙基拉斯.md) | 岩石/地面 | 410 |
-| <img class="pk-icon" src="icons/0248.png?v=83ee9794" loading="lazy"> | 0248 | [班基拉斯](0248_班基拉斯.md) | 岩石/恶 | 600 |
-| <img class="pk-icon" src="icons/0889.png?v=dd34167a" loading="lazy"> | 0248 | [超级班基拉斯](0889_超级班基拉斯.md) | 岩石/恶 | 700 |
-| <img class="pk-icon" src="icons/0249.png?v=34f3bba2" loading="lazy"> | 0249 | [洛奇亚](0249_洛奇亚.md) | 超能力/飞行 | 680 |
-| <img class="pk-icon" src="icons/0250.png?v=2c40ffbe" loading="lazy"> | 0250 | [凤王](0250_凤王.md) | 火/飞行 | 680 |
-| <img class="pk-icon" src="icons/0251.png?v=f5c1b40d" loading="lazy"> | 0251 | [时拉比](0251_时拉比.md) | 超能力/草 | 600 |
-| <img class="pk-icon" src="icons/0277.png?v=39c595c5" loading="lazy"> | 0252 | [木守宫](0277_木守宫.md) | 草 | 310 |
-| <img class="pk-icon" src="icons/0278.png?v=c94d3dcb" loading="lazy"> | 0253 | [森林蜥蜴](0278_森林蜥蜴.md) | 草 | 405 |
-| <img class="pk-icon" src="icons/0279.png?v=8efba34b" loading="lazy"> | 0254 | [蜥蜴王](0279_蜥蜴王.md) | 草 | 530 |
-| <img class="pk-icon" src="icons/0890.png?v=60d175b5" loading="lazy"> | 0254 | [超级蜥蜴王](0890_超级蜥蜴王.md) | 草/龙 | 630 |
-| <img class="pk-icon" src="icons/0280.png?v=4aa782c8" loading="lazy"> | 0255 | [火稚鸡](0280_火稚鸡.md) | 火 | 310 |
-| <img class="pk-icon" src="icons/0281.png?v=c6427c82" loading="lazy"> | 0256 | [力壮鸡](0281_力壮鸡.md) | 火/格斗 | 405 |
-| <img class="pk-icon" src="icons/0282.png?v=cd6d7483" loading="lazy"> | 0257 | [火焰鸡](0282_火焰鸡.md) | 火/格斗 | 530 |
-| <img class="pk-icon" src="icons/0891.png?v=5d99d00c" loading="lazy"> | 0257 | [超级火焰鸡](0891_超级火焰鸡.md) | 火/格斗 | 630 |
-| <img class="pk-icon" src="icons/0283.png?v=9820108b" loading="lazy"> | 0258 | [水跃鱼](0283_水跃鱼.md) | 水 | 310 |
-| <img class="pk-icon" src="icons/0284.png?v=71b5acc1" loading="lazy"> | 0259 | [沼跃鱼](0284_沼跃鱼.md) | 水/地面 | 405 |
-| <img class="pk-icon" src="icons/0285.png?v=83daac6d" loading="lazy"> | 0260 | [巨沼怪](0285_巨沼怪.md) | 水/地面 | 535 |
-| <img class="pk-icon" src="icons/0892.png?v=8645da6f" loading="lazy"> | 0260 | [超级巨沼怪](0892_超级巨沼怪.md) | 水/地面 | 635 |
-| <img class="pk-icon" src="icons/0286.png?v=79e3483b" loading="lazy"> | 0261 | [土狼犬](0286_土狼犬.md) | 恶 | 220 |
-| <img class="pk-icon" src="icons/0287.png?v=79493044" loading="lazy"> | 0262 | [大狼犬](0287_大狼犬.md) | 恶 | 420 |
-| <img class="pk-icon" src="icons/0288.png?v=4f3c982a" loading="lazy"> | 0263 | [蛇纹熊](0288_蛇纹熊.md) | 一般 | 240 |
-| <img class="pk-icon" src="icons/1226.png?v=eb8fb83d" loading="lazy"> | 0263 | [蛇纹熊（伽勒尔的样子）](1226_蛇纹熊（伽勒尔的样子）.md) | 恶/一般 | 240 |
-| <img class="pk-icon" src="icons/0289.png?v=4beef569" loading="lazy"> | 0264 | [直冲熊](0289_直冲熊.md) | 一般 | 420 |
-| <img class="pk-icon" src="icons/1227.png?v=7ea7827c" loading="lazy"> | 0264 | [直冲熊（伽勒尔的样子）](1227_直冲熊（伽勒尔的样子）.md) | 恶/一般 | 420 |
-| <img class="pk-icon" src="icons/0290.png?v=fdf3d130" loading="lazy"> | 0265 | [刺尾虫](0290_刺尾虫.md) | 虫 | 195 |
-| <img class="pk-icon" src="icons/0291.png?v=53cd9697" loading="lazy"> | 0266 | [甲壳茧](0291_甲壳茧.md) | 虫 | 205 |
-| <img class="pk-icon" src="icons/0292.png?v=385e6705" loading="lazy"> | 0267 | [狩猎凤蝶](0292_狩猎凤蝶.md) | 虫/飞行 | 395 |
-| <img class="pk-icon" src="icons/0293.png?v=5491d14b" loading="lazy"> | 0268 | [盾甲茧](0293_盾甲茧.md) | 虫 | 205 |
-| <img class="pk-icon" src="icons/0294.png?v=e1fe30dd" loading="lazy"> | 0269 | [毒粉蛾](0294_毒粉蛾.md) | 虫/毒 | 385 |
-| <img class="pk-icon" src="icons/0295.png?v=35f23bc5" loading="lazy"> | 0270 | [莲叶童子](0295_莲叶童子.md) | 水/草 | 220 |
-| <img class="pk-icon" src="icons/0296.png?v=5e2c7cb2" loading="lazy"> | 0271 | [莲帽小童](0296_莲帽小童.md) | 水/草 | 340 |
-| <img class="pk-icon" src="icons/0297.png?v=eaa09509" loading="lazy"> | 0272 | [乐天河童](0297_乐天河童.md) | 水/草 | 480 |
-| <img class="pk-icon" src="icons/0298.png?v=614b1407" loading="lazy"> | 0273 | [橡实果](0298_橡实果.md) | 草 | 220 |
-| <img class="pk-icon" src="icons/0299.png?v=3bee84ef" loading="lazy"> | 0274 | [长鼻叶](0299_长鼻叶.md) | 草/恶 | 340 |
-| <img class="pk-icon" src="icons/0300.png?v=f2fec1e9" loading="lazy"> | 0275 | [狡猾天狗](0300_狡猾天狗.md) | 草/恶 | 480 |
-| <img class="pk-icon" src="icons/0304.png?v=bb32fb36" loading="lazy"> | 0276 | [傲骨燕](0304_傲骨燕.md) | 一般/飞行 | 270 |
-| <img class="pk-icon" src="icons/0305.png?v=ef8a7ed4" loading="lazy"> | 0277 | [大王燕](0305_大王燕.md) | 一般/飞行 | 455 |
-| <img class="pk-icon" src="icons/0309.png?v=288c1489" loading="lazy"> | 0278 | [长翅鸥](0309_长翅鸥.md) | 水/飞行 | 270 |
-| <img class="pk-icon" src="icons/0310.png?v=9dfa7d29" loading="lazy"> | 0279 | [大嘴鸥](0310_大嘴鸥.md) | 水/飞行 | 440 |
-| <img class="pk-icon" src="icons/0392.png?v=78f14465" loading="lazy"> | 0280 | [拉鲁拉丝](0392_拉鲁拉丝.md) | 超能力/妖精 | 198 |
-| <img class="pk-icon" src="icons/0393.png?v=0a85ae9f" loading="lazy"> | 0281 | [奇鲁莉安](0393_奇鲁莉安.md) | 超能力/妖精 | 278 |
-| <img class="pk-icon" src="icons/0394.png?v=49b33251" loading="lazy"> | 0282 | [沙奈朵](0394_沙奈朵.md) | 超能力/妖精 | 518 |
-| <img class="pk-icon" src="icons/0893.png?v=743c0d1f" loading="lazy"> | 0282 | [超级沙奈朵](0893_超级沙奈朵.md) | 超能力/妖精 | 618 |
-| <img class="pk-icon" src="icons/0311.png?v=b9aa9004" loading="lazy"> | 0283 | [溜溜糖球](0311_溜溜糖球.md) | 虫/水 | 269 |
-| <img class="pk-icon" src="icons/0312.png?v=6b3f36d0" loading="lazy"> | 0284 | [雨翅蛾](0312_雨翅蛾.md) | 虫/飞行 | 454 |
-| <img class="pk-icon" src="icons/0306.png?v=d3fe5d57" loading="lazy"> | 0285 | [蘑蘑菇](0306_蘑蘑菇.md) | 草 | 295 |
-| <img class="pk-icon" src="icons/0307.png?v=2eb2aa4b" loading="lazy"> | 0286 | [斗笠菇](0307_斗笠菇.md) | 草/格斗 | 460 |
-| <img class="pk-icon" src="icons/0364.png?v=a7f6352a" loading="lazy"> | 0287 | [懒人獭](0364_懒人獭.md) | 一般 | 280 |
-| <img class="pk-icon" src="icons/0365.png?v=60355167" loading="lazy"> | 0288 | [过动猿](0365_过动猿.md) | 一般 | 440 |
-| <img class="pk-icon" src="icons/0366.png?v=6ffc8096" loading="lazy"> | 0289 | [请假王](0366_请假王.md) | 一般 | 670 |
-| <img class="pk-icon" src="icons/0301.png?v=ae2a379d" loading="lazy"> | 0290 | [土居忍士](0301_土居忍士.md) | 虫/地面 | 266 |
-| <img class="pk-icon" src="icons/0302.png?v=0ba9158f" loading="lazy"> | 0291 | [铁面忍者](0302_铁面忍者.md) | 虫/飞行 | 456 |
-| <img class="pk-icon" src="icons/0303.png?v=a0ff879e" loading="lazy"> | 0292 | [脱壳忍者](0303_脱壳忍者.md) | 虫/幽灵 | 236 |
-| <img class="pk-icon" src="icons/0370.png?v=5adb6553" loading="lazy"> | 0293 | [咕妞妞](0370_咕妞妞.md) | 一般 | 240 |
-| <img class="pk-icon" src="icons/0371.png?v=85454482" loading="lazy"> | 0294 | [吼爆弹](0371_吼爆弹.md) | 一般 | 360 |
-| <img class="pk-icon" src="icons/0372.png?v=82de6c96" loading="lazy"> | 0295 | [爆音怪](0372_爆音怪.md) | 一般 | 490 |
-| <img class="pk-icon" src="icons/0335.png?v=9970f7a3" loading="lazy"> | 0296 | [幕下力士](0335_幕下力士.md) | 格斗 | 237 |
-| <img class="pk-icon" src="icons/0336.png?v=f66fd259" loading="lazy"> | 0297 | [铁掌力士](0336_铁掌力士.md) | 格斗 | 474 |
-| <img class="pk-icon" src="icons/0350.png?v=dd548b6b" loading="lazy"> | 0298 | [露力丽](0350_露力丽.md) | 一般/妖精 | 190 |
-| <img class="pk-icon" src="icons/0320.png?v=975c8ddd" loading="lazy"> | 0299 | [朝北鼻](0320_朝北鼻.md) | 岩石 | 375 |
-| <img class="pk-icon" src="icons/0315.png?v=43945ca7" loading="lazy"> | 0300 | [向尾喵](0315_向尾喵.md) | 一般 | 260 |
-| <img class="pk-icon" src="icons/0316.png?v=91ea04f3" loading="lazy"> | 0301 | [优雅猫](0316_优雅猫.md) | 一般 | 400 |
-| <img class="pk-icon" src="icons/0322.png?v=809bb3a7" loading="lazy"> | 0302 | [勾魂眼](0322_勾魂眼.md) | 恶/幽灵 | 380 |
-| <img class="pk-icon" src="icons/0894.png?v=caded6dd" loading="lazy"> | 0302 | [超级勾魂眼](0894_超级勾魂眼.md) | 恶/幽灵 | 480 |
-| <img class="pk-icon" src="icons/0355.png?v=6ea6fda7" loading="lazy"> | 0303 | [大嘴娃](0355_大嘴娃.md) | 钢/妖精 | 380 |
-| <img class="pk-icon" src="icons/0895.png?v=986027b0" loading="lazy"> | 0303 | [超级大嘴娃](0895_超级大嘴娃.md) | 钢/妖精 | 480 |
-| <img class="pk-icon" src="icons/0382.png?v=a215608e" loading="lazy"> | 0304 | [可可多拉](0382_可可多拉.md) | 钢/岩石 | 330 |
-| <img class="pk-icon" src="icons/0383.png?v=d9213fd6" loading="lazy"> | 0305 | [可多拉](0383_可多拉.md) | 钢/岩石 | 430 |
-| <img class="pk-icon" src="icons/0384.png?v=afe9cd87" loading="lazy"> | 0306 | [波士可多拉](0384_波士可多拉.md) | 钢/岩石 | 530 |
-| <img class="pk-icon" src="icons/0896.png?v=98e964f6" loading="lazy"> | 0306 | [超级波士可多拉](0896_超级波士可多拉.md) | 钢 | 630 |
-| <img class="pk-icon" src="icons/0356.png?v=1f60d04b" loading="lazy"> | 0307 | [玛沙那](0356_玛沙那.md) | 格斗/超能力 | 280 |
-| <img class="pk-icon" src="icons/0357.png?v=d250b232" loading="lazy"> | 0308 | [恰雷姆](0357_恰雷姆.md) | 格斗/超能力 | 410 |
-| <img class="pk-icon" src="icons/0897.png?v=cf4c41ec" loading="lazy"> | 0308 | [超级恰雷姆](0897_超级恰雷姆.md) | 格斗/超能力 | 510 |
-| <img class="pk-icon" src="icons/0337.png?v=c1245394" loading="lazy"> | 0309 | [落雷兽](0337_落雷兽.md) | 电 | 295 |
-| <img class="pk-icon" src="icons/0338.png?v=da9562f7" loading="lazy"> | 0310 | [雷电兽](0338_雷电兽.md) | 电 | 475 |
-| <img class="pk-icon" src="icons/0898.png?v=7c1854c4" loading="lazy"> | 0310 | [超级雷电兽](0898_超级雷电兽.md) | 电 | 575 |
-| <img class="pk-icon" src="icons/0353.png?v=0397ed6b" loading="lazy"> | 0311 | [正电拍拍](0353_正电拍拍.md) | 电 | 405 |
-| <img class="pk-icon" src="icons/0354.png?v=2f5f02e2" loading="lazy"> | 0312 | [负电拍拍](0354_负电拍拍.md) | 电 | 405 |
-| <img class="pk-icon" src="icons/0386.png?v=e3246ff4" loading="lazy"> | 0313 | [电萤虫](0386_电萤虫.md) | 虫 | 430 |
-| <img class="pk-icon" src="icons/0387.png?v=22ce690e" loading="lazy"> | 0314 | [甜甜萤](0387_甜甜萤.md) | 虫 | 430 |
-| <img class="pk-icon" src="icons/0363.png?v=f3c03978" loading="lazy"> | 0315 | [毒蔷薇](0363_毒蔷薇.md) | 草/毒 | 400 |
-| <img class="pk-icon" src="icons/0367.png?v=9ec64328" loading="lazy"> | 0316 | [溶食兽](0367_溶食兽.md) | 毒 | 302 |
-| <img class="pk-icon" src="icons/0368.png?v=f46d988c" loading="lazy"> | 0317 | [吞食兽](0368_吞食兽.md) | 毒 | 467 |
-| <img class="pk-icon" src="icons/0330.png?v=ae27b0ed" loading="lazy"> | 0318 | [利牙鱼](0330_利牙鱼.md) | 水/恶 | 305 |
-| <img class="pk-icon" src="icons/0331.png?v=146e79d0" loading="lazy"> | 0319 | [巨牙鲨](0331_巨牙鲨.md) | 水/恶 | 460 |
-| <img class="pk-icon" src="icons/0899.png?v=5a624eb5" loading="lazy"> | 0319 | [超级巨牙鲨](0899_超级巨牙鲨.md) | 水/恶 | 560 |
-| <img class="pk-icon" src="icons/0313.png?v=8aeacef4" loading="lazy"> | 0320 | [吼吼鲸](0313_吼吼鲸.md) | 水 | 400 |
-| <img class="pk-icon" src="icons/0314.png?v=fa74ba61" loading="lazy"> | 0321 | [吼鲸王](0314_吼鲸王.md) | 水 | 500 |
-| <img class="pk-icon" src="icons/0339.png?v=8e7cdae9" loading="lazy"> | 0322 | [呆火驼](0339_呆火驼.md) | 火/地面 | 305 |
-| <img class="pk-icon" src="icons/0340.png?v=cd99ff16" loading="lazy"> | 0323 | [喷火驼](0340_喷火驼.md) | 火/地面 | 460 |
-| <img class="pk-icon" src="icons/0900.png?v=1ae01b45" loading="lazy"> | 0323 | [超级喷火驼](0900_超级喷火驼.md) | 火/地面 | 560 |
-| <img class="pk-icon" src="icons/0321.png?v=7887145b" loading="lazy"> | 0324 | [煤炭龟](0321_煤炭龟.md) | 火 | 470 |
-| <img class="pk-icon" src="icons/0351.png?v=6b9c35fd" loading="lazy"> | 0325 | [跳跳猪](0351_跳跳猪.md) | 超能力 | 330 |
-| <img class="pk-icon" src="icons/0352.png?v=7263d67e" loading="lazy"> | 0326 | [噗噗猪](0352_噗噗猪.md) | 超能力 | 470 |
-| <img class="pk-icon" src="icons/0308.png?v=6f9c1ce2" loading="lazy"> | 0327 | [晃晃斑](0308_晃晃斑.md) | 一般 | 360 |
-| <img class="pk-icon" src="icons/0332.png?v=2f5ec926" loading="lazy"> | 0328 | [大颚蚁](0332_大颚蚁.md) | 地面 | 290 |
-| <img class="pk-icon" src="icons/0333.png?v=29b922ed" loading="lazy"> | 0329 | [超音波幼虫](0333_超音波幼虫.md) | 地面/龙 | 340 |
-| <img class="pk-icon" src="icons/0334.png?v=154118fd" loading="lazy"> | 0330 | [沙漠蜻蜓](0334_沙漠蜻蜓.md) | 地面/龙 | 520 |
-| <img class="pk-icon" src="icons/0344.png?v=219d59d5" loading="lazy"> | 0331 | [刺球仙人掌](0344_刺球仙人掌.md) | 草 | 335 |
-| <img class="pk-icon" src="icons/0345.png?v=812bef8d" loading="lazy"> | 0332 | [梦歌仙人掌](0345_梦歌仙人掌.md) | 草/恶 | 475 |
-| <img class="pk-icon" src="icons/0358.png?v=9eaed3cd" loading="lazy"> | 0333 | [青绵鸟](0358_青绵鸟.md) | 一般/飞行 | 310 |
-| <img class="pk-icon" src="icons/0359.png?v=45de9c36" loading="lazy"> | 0334 | [七夕青鸟](0359_七夕青鸟.md) | 龙/飞行 | 490 |
-| <img class="pk-icon" src="icons/0901.png?v=1ba17d0b" loading="lazy"> | 0334 | [超级七夕青鸟](0901_超级七夕青鸟.md) | 龙/妖精 | 590 |
-| <img class="pk-icon" src="icons/0380.png?v=697184ee" loading="lazy"> | 0335 | [猫鼬斩](0380_猫鼬斩.md) | 一般 | 458 |
-| <img class="pk-icon" src="icons/0379.png?v=0f55c4e4" loading="lazy"> | 0336 | [饭匙蛇](0379_饭匙蛇.md) | 毒 | 458 |
-| <img class="pk-icon" src="icons/0348.png?v=5bd820b9" loading="lazy"> | 0337 | [月石](0348_月石.md) | 岩石/超能力 | 460 |
-| <img class="pk-icon" src="icons/0349.png?v=23231a1f" loading="lazy"> | 0338 | [太阳岩](0349_太阳岩.md) | 岩石/超能力 | 460 |
-| <img class="pk-icon" src="icons/0323.png?v=72dbdbfd" loading="lazy"> | 0339 | [泥泥鳅](0323_泥泥鳅.md) | 水/地面 | 288 |
-| <img class="pk-icon" src="icons/0324.png?v=921a3ec1" loading="lazy"> | 0340 | [鲶鱼王](0324_鲶鱼王.md) | 水/地面 | 468 |
-| <img class="pk-icon" src="icons/0326.png?v=7e60cd11" loading="lazy"> | 0341 | [龙虾小兵](0326_龙虾小兵.md) | 水 | 308 |
-| <img class="pk-icon" src="icons/0327.png?v=d785a2b3" loading="lazy"> | 0342 | [铁螯龙虾](0327_铁螯龙虾.md) | 水/恶 | 468 |
-| <img class="pk-icon" src="icons/0318.png?v=bb56ee16" loading="lazy"> | 0343 | [天秤偶](0318_天秤偶.md) | 地面/超能力 | 300 |
-| <img class="pk-icon" src="icons/0319.png?v=6e631d89" loading="lazy"> | 0344 | [念力土偶](0319_念力土偶.md) | 地面/超能力 | 500 |
-| <img class="pk-icon" src="icons/0388.png?v=b5f5d1bb" loading="lazy"> | 0345 | [触手百合](0388_触手百合.md) | 岩石/草 | 355 |
-| <img class="pk-icon" src="icons/0389.png?v=e03cf207" loading="lazy"> | 0346 | [摇篮百合](0389_摇篮百合.md) | 岩石/草 | 495 |
-| <img class="pk-icon" src="icons/0390.png?v=7c531076" loading="lazy"> | 0347 | [太古羽虫](0390_太古羽虫.md) | 岩石/虫 | 355 |
-| <img class="pk-icon" src="icons/0391.png?v=f2a54ef4" loading="lazy"> | 0348 | [太古盔甲](0391_太古盔甲.md) | 岩石/虫 | 495 |
-| <img class="pk-icon" src="icons/0328.png?v=ff6a1f87" loading="lazy"> | 0349 | [丑丑鱼](0328_丑丑鱼.md) | 水 | 200 |
-| <img class="pk-icon" src="icons/0329.png?v=05be07d1" loading="lazy"> | 0350 | [美纳斯](0329_美纳斯.md) | 水 | 540 |
-| <img class="pk-icon" src="icons/0385.png?v=c779a304" loading="lazy"> | 0351 | [飘浮泡泡](0385_飘浮泡泡.md) | 一般 | 420 |
-| <img class="pk-icon" src="icons/0317.png?v=c80541f5" loading="lazy"> | 0352 | [变隐龙](0317_变隐龙.md) | 一般 | 440 |
-| <img class="pk-icon" src="icons/0377.png?v=38c063a5" loading="lazy"> | 0353 | [怨影娃娃](0377_怨影娃娃.md) | 幽灵 | 295 |
-| <img class="pk-icon" src="icons/0378.png?v=2814730a" loading="lazy"> | 0354 | [诅咒娃娃](0378_诅咒娃娃.md) | 幽灵 | 455 |
-| <img class="pk-icon" src="icons/0902.png?v=29e84a8f" loading="lazy"> | 0354 | [超级诅咒娃娃](0902_超级诅咒娃娃.md) | 幽灵 | 555 |
-| <img class="pk-icon" src="icons/0361.png?v=401f5bf9" loading="lazy"> | 0355 | [夜巡灵](0361_夜巡灵.md) | 幽灵 | 295 |
-| <img class="pk-icon" src="icons/0362.png?v=d89bbf1e" loading="lazy"> | 0356 | [彷徨夜灵](0362_彷徨夜灵.md) | 幽灵 | 455 |
-| <img class="pk-icon" src="icons/0369.png?v=e846f89d" loading="lazy"> | 0357 | [热带龙](0369_热带龙.md) | 草/飞行 | 460 |
-| <img class="pk-icon" src="icons/0411.png?v=3be788a3" loading="lazy"> | 0358 | [风铃铃](0411_风铃铃.md) | 超能力 | 455 |
-| <img class="pk-icon" src="icons/0376.png?v=27514d1c" loading="lazy"> | 0359 | [阿勃梭鲁](0376_阿勃梭鲁.md) | 恶 | 465 |
-| <img class="pk-icon" src="icons/0903.png?v=fbeb5515" loading="lazy"> | 0359 | [超级阿勃梭鲁](0903_超级阿勃梭鲁.md) | 恶 | 565 |
-| <img class="pk-icon" src="icons/0360.png?v=3539474b" loading="lazy"> | 0360 | [小果然](0360_小果然.md) | 超能力 | 260 |
-| <img class="pk-icon" src="icons/0346.png?v=98975d1a" loading="lazy"> | 0361 | [雪童子](0346_雪童子.md) | 冰 | 300 |
-| <img class="pk-icon" src="icons/0347.png?v=91bbf392" loading="lazy"> | 0362 | [冰鬼护](0347_冰鬼护.md) | 冰 | 480 |
-| <img class="pk-icon" src="icons/0904.png?v=79fe6953" loading="lazy"> | 0362 | [超级冰鬼护](0904_超级冰鬼护.md) | 冰 | 580 |
-| <img class="pk-icon" src="icons/0341.png?v=40a2313d" loading="lazy"> | 0363 | [海豹球](0341_海豹球.md) | 冰/水 | 290 |
-| <img class="pk-icon" src="icons/0342.png?v=9ba38e96" loading="lazy"> | 0364 | [海魔狮](0342_海魔狮.md) | 冰/水 | 410 |
-| <img class="pk-icon" src="icons/0343.png?v=5fbc6373" loading="lazy"> | 0365 | [帝牙海狮](0343_帝牙海狮.md) | 冰/水 | 530 |
-| <img class="pk-icon" src="icons/0373.png?v=ee9981ed" loading="lazy"> | 0366 | [珍珠贝](0373_珍珠贝.md) | 水 | 345 |
-| <img class="pk-icon" src="icons/0374.png?v=8be7cf37" loading="lazy"> | 0367 | [猎斑鱼](0374_猎斑鱼.md) | 水 | 485 |
-| <img class="pk-icon" src="icons/0375.png?v=a0b5a3a6" loading="lazy"> | 0368 | [樱花鱼](0375_樱花鱼.md) | 水 | 485 |
-| <img class="pk-icon" src="icons/0381.png?v=0eb82d37" loading="lazy"> | 0369 | [古空棘鱼](0381_古空棘鱼.md) | 水/岩石 | 485 |
-| <img class="pk-icon" src="icons/0325.png?v=0f083a5f" loading="lazy"> | 0370 | [爱心鱼](0325_爱心鱼.md) | 水 | 330 |
-| <img class="pk-icon" src="icons/0395.png?v=b4056c2a" loading="lazy"> | 0371 | [宝贝龙](0395_宝贝龙.md) | 龙 | 300 |
-| <img class="pk-icon" src="icons/0396.png?v=9401848d" loading="lazy"> | 0372 | [甲壳龙](0396_甲壳龙.md) | 龙 | 420 |
-| <img class="pk-icon" src="icons/0397.png?v=9db1f1ff" loading="lazy"> | 0373 | [暴飞龙](0397_暴飞龙.md) | 龙/飞行 | 600 |
-| <img class="pk-icon" src="icons/0905.png?v=84232f85" loading="lazy"> | 0373 | [超级暴飞龙](0905_超级暴飞龙.md) | 龙/飞行 | 700 |
-| <img class="pk-icon" src="icons/0398.png?v=d471c34b" loading="lazy"> | 0374 | [铁哑铃](0398_铁哑铃.md) | 钢/超能力 | 300 |
-| <img class="pk-icon" src="icons/0399.png?v=ce1bedcc" loading="lazy"> | 0375 | [金属怪](0399_金属怪.md) | 钢/超能力 | 420 |
-| <img class="pk-icon" src="icons/0400.png?v=a5a1a1f3" loading="lazy"> | 0376 | [巨金怪](0400_巨金怪.md) | 钢/超能力 | 600 |
-| <img class="pk-icon" src="icons/0906.png?v=2adf4be5" loading="lazy"> | 0376 | [超级巨金怪](0906_超级巨金怪.md) | 钢/超能力 | 700 |
-| <img class="pk-icon" src="icons/0401.png?v=3fd3fcfb" loading="lazy"> | 0377 | [雷吉洛克](0401_雷吉洛克.md) | 岩石 | 580 |
-| <img class="pk-icon" src="icons/0402.png?v=d2d79b96" loading="lazy"> | 0378 | [雷吉艾斯](0402_雷吉艾斯.md) | 冰 | 580 |
-| <img class="pk-icon" src="icons/0403.png?v=ca36bd18" loading="lazy"> | 0379 | [雷吉斯奇鲁](0403_雷吉斯奇鲁.md) | 钢 | 580 |
-| <img class="pk-icon" src="icons/0407.png?v=898f7b6b" loading="lazy"> | 0380 | [拉帝亚斯](0407_拉帝亚斯.md) | 龙/超能力 | 600 |
-| <img class="pk-icon" src="icons/0907.png?v=a813a429" loading="lazy"> | 0380 | [超级拉帝亚斯](0907_超级拉帝亚斯.md) | 龙/超能力 | 700 |
-| <img class="pk-icon" src="icons/0408.png?v=45cc4506" loading="lazy"> | 0381 | [拉帝欧斯](0408_拉帝欧斯.md) | 龙/超能力 | 600 |
-| <img class="pk-icon" src="icons/0908.png?v=a93c355f" loading="lazy"> | 0381 | [超级拉帝欧斯](0908_超级拉帝欧斯.md) | 龙/超能力 | 700 |
-| <img class="pk-icon" src="icons/0404.png?v=b99b7e04" loading="lazy"> | 0382 | [盖欧卡](0404_盖欧卡.md) | 水 | 670 |
-| <img class="pk-icon" src="icons/0910.png?v=45cc4506" loading="lazy"> | 0382 | [原始盖欧卡](0910_原始盖欧卡.md) | 水 | 770 |
-| <img class="pk-icon" src="icons/0405.png?v=144cfd1e" loading="lazy"> | 0383 | [固拉多](0405_固拉多.md) | 地面 | 670 |
-| <img class="pk-icon" src="icons/0909.png?v=b99b7e04" loading="lazy"> | 0383 | [原始固拉多](0909_原始固拉多.md) | 地面/火 | 770 |
-| <img class="pk-icon" src="icons/0406.png?v=3fc19cea" loading="lazy"> | 0384 | [烈空坐](0406_烈空坐.md) | 龙/飞行 | 680 |
-| <img class="pk-icon" src="icons/0911.png?v=5687de90" loading="lazy"> | 0384 | [超级烈空坐](0911_超级烈空坐.md) | 龙/飞行 | 780 |
-| <img class="pk-icon" src="icons/0409.png?v=fde37053" loading="lazy"> | 0385 | [基拉祈](0409_基拉祈.md) | 钢/超能力 | 600 |
-| <img class="pk-icon" src="icons/0410.png?v=c7113ff5" loading="lazy"> | 0386 | [代欧奇希斯](0410_代欧奇希斯.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/1040.png?v=fde37053" loading="lazy"> | 0386 | [代欧奇希斯（攻击形态）](1040_代欧奇希斯（攻击形态）.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/1041.png?v=fde37053" loading="lazy"> | 0386 | [代欧奇希斯（防御形态）](1041_代欧奇希斯（防御形态）.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/1042.png?v=fde37053" loading="lazy"> | 0386 | [代欧奇希斯（速度形态）](1042_代欧奇希斯（速度形态）.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/0440.png?v=2b98b044" loading="lazy"> | 0387 | [草苗龟](0440_草苗龟.md) | 草 | 318 |
-| <img class="pk-icon" src="icons/0441.png?v=ae279a4f" loading="lazy"> | 0388 | [树林龟](0441_树林龟.md) | 草 | 405 |
-| <img class="pk-icon" src="icons/0442.png?v=74a14e51" loading="lazy"> | 0389 | [土台龟](0442_土台龟.md) | 草/地面 | 525 |
-| <img class="pk-icon" src="icons/0443.png?v=77787ac4" loading="lazy"> | 0390 | [小火焰猴](0443_小火焰猴.md) | 火 | 309 |
-| <img class="pk-icon" src="icons/0444.png?v=980531a8" loading="lazy"> | 0391 | [猛火猴](0444_猛火猴.md) | 火/格斗 | 405 |
-| <img class="pk-icon" src="icons/0445.png?v=c0c924d6" loading="lazy"> | 0392 | [烈焰猴](0445_烈焰猴.md) | 火/格斗 | 534 |
-| <img class="pk-icon" src="icons/0446.png?v=36d5263c" loading="lazy"> | 0393 | [波加曼](0446_波加曼.md) | 水 | 314 |
-| <img class="pk-icon" src="icons/0447.png?v=9ce7291e" loading="lazy"> | 0394 | [波皇子](0447_波皇子.md) | 水 | 405 |
-| <img class="pk-icon" src="icons/0448.png?v=af1e17da" loading="lazy"> | 0395 | [帝王拿波](0448_帝王拿波.md) | 水/钢 | 530 |
-| <img class="pk-icon" src="icons/0449.png?v=20bcf423" loading="lazy"> | 0396 | [姆克儿](0449_姆克儿.md) | 一般/飞行 | 245 |
-| <img class="pk-icon" src="icons/0450.png?v=28f57c12" loading="lazy"> | 0397 | [姆克鸟](0450_姆克鸟.md) | 一般/飞行 | 340 |
-| <img class="pk-icon" src="icons/0273.png?v=28f57c12" loading="lazy"> | 0398 | [姆克鹰](0273_姆克鹰.md) | 格斗/飞行 | 585 |
-| <img class="pk-icon" src="icons/0451.png?v=372bb53f" loading="lazy"> | 0398 | [姆克鹰](0451_姆克鹰.md) | 一般/飞行 | 485 |
-| <img class="pk-icon" src="icons/0452.png?v=dec4347e" loading="lazy"> | 0399 | [大牙狸](0452_大牙狸.md) | 一般 | 250 |
-| <img class="pk-icon" src="icons/0453.png?v=d91bff4f" loading="lazy"> | 0400 | [大尾狸](0453_大尾狸.md) | 一般/水 | 410 |
-| <img class="pk-icon" src="icons/0454.png?v=3ae57c5e" loading="lazy"> | 0401 | [圆法师](0454_圆法师.md) | 虫 | 194 |
-| <img class="pk-icon" src="icons/0455.png?v=2546cdef" loading="lazy"> | 0402 | [音箱蟀](0455_音箱蟀.md) | 虫 | 384 |
-| <img class="pk-icon" src="icons/0456.png?v=dcf6b285" loading="lazy"> | 0403 | [小猫怪](0456_小猫怪.md) | 电 | 263 |
-| <img class="pk-icon" src="icons/0457.png?v=46836298" loading="lazy"> | 0404 | [勒克猫](0457_勒克猫.md) | 电 | 363 |
-| <img class="pk-icon" src="icons/0458.png?v=e215184b" loading="lazy"> | 0405 | [伦琴猫](0458_伦琴猫.md) | 电 | 523 |
-| <img class="pk-icon" src="icons/0459.png?v=9e796ac2" loading="lazy"> | 0406 | [含羞苞](0459_含羞苞.md) | 草/毒 | 280 |
-| <img class="pk-icon" src="icons/0460.png?v=88c91465" loading="lazy"> | 0407 | [罗丝雷朵](0460_罗丝雷朵.md) | 草/毒 | 515 |
-| <img class="pk-icon" src="icons/0461.png?v=5964af59" loading="lazy"> | 0408 | [头盖龙](0461_头盖龙.md) | 岩石 | 350 |
-| <img class="pk-icon" src="icons/0462.png?v=f3f8c145" loading="lazy"> | 0409 | [战槌龙](0462_战槌龙.md) | 岩石 | 495 |
-| <img class="pk-icon" src="icons/0463.png?v=1b0acf8a" loading="lazy"> | 0410 | [盾甲龙](0463_盾甲龙.md) | 岩石/钢 | 350 |
-| <img class="pk-icon" src="icons/0464.png?v=86104fbd" loading="lazy"> | 0411 | [护城龙](0464_护城龙.md) | 岩石/钢 | 495 |
-| <img class="pk-icon" src="icons/0465.png?v=4deaa874" loading="lazy"> | 0412 | [结草儿](0465_结草儿.md) | 虫 | 224 |
-| <img class="pk-icon" src="icons/0707.png?v=86104fbd" loading="lazy"> | 0412 | [结草儿（砂土蓑衣）](0707_结草儿（砂土蓑衣）.md) | 虫 | 224 |
-| <img class="pk-icon" src="icons/0708.png?v=86104fbd" loading="lazy"> | 0412 | [结草儿（垃圾蓑衣）](0708_结草儿（垃圾蓑衣）.md) | 虫 | 224 |
-| <img class="pk-icon" src="icons/0466.png?v=23612326" loading="lazy"> | 0413 | [结草贵妇](0466_结草贵妇.md) | 虫/草 | 424 |
-| <img class="pk-icon" src="icons/0709.png?v=4deaa874" loading="lazy"> | 0413 | [结草贵妇（砂土蓑衣）](0709_结草贵妇（砂土蓑衣）.md) | 虫/地面 | 424 |
-| <img class="pk-icon" src="icons/0710.png?v=4deaa874" loading="lazy"> | 0413 | [结草贵妇（垃圾蓑衣）](0710_结草贵妇（垃圾蓑衣）.md) | 虫/钢 | 424 |
-| <img class="pk-icon" src="icons/0467.png?v=f0fd15f7" loading="lazy"> | 0414 | [绅士蛾](0467_绅士蛾.md) | 虫/飞行 | 424 |
-| <img class="pk-icon" src="icons/0468.png?v=88499a65" loading="lazy"> | 0415 | [三蜜蜂](0468_三蜜蜂.md) | 虫/飞行 | 244 |
-| <img class="pk-icon" src="icons/0469.png?v=af92bb01" loading="lazy"> | 0416 | [蜂女王](0469_蜂女王.md) | 虫/飞行 | 474 |
-| <img class="pk-icon" src="icons/0470.png?v=87c56896" loading="lazy"> | 0417 | [帕奇利兹](0470_帕奇利兹.md) | 电 | 405 |
-| <img class="pk-icon" src="icons/0471.png?v=fbabb2f1" loading="lazy"> | 0418 | [泳圈鼬](0471_泳圈鼬.md) | 水 | 330 |
-| <img class="pk-icon" src="icons/0472.png?v=8c233df0" loading="lazy"> | 0419 | [浮潜鼬](0472_浮潜鼬.md) | 水 | 495 |
-| <img class="pk-icon" src="icons/0473.png?v=bf608ce2" loading="lazy"> | 0420 | [樱花宝](0473_樱花宝.md) | 草 | 275 |
-| <img class="pk-icon" src="icons/0474.png?v=48df30df" loading="lazy"> | 0421 | [樱花儿](0474_樱花儿.md) | 草 | 450 |
-| <img class="pk-icon" src="icons/0751.png?v=bf608ce2" loading="lazy"> | 0421 | [樱花儿（阳光形态）](0751_樱花儿（阳光形态）.md) | 草 | 450 |
-| <img class="pk-icon" src="icons/0475.png?v=3330c13c" loading="lazy"> | 0422 | [无壳海兔](0475_无壳海兔.md) | 水 | 325 |
-| <img class="pk-icon" src="icons/0711.png?v=48df30df" loading="lazy"> | 0422 | [无壳海兔（东海的样子）](0711_无壳海兔（东海的样子）.md) | 水 | 325 |
-| <img class="pk-icon" src="icons/0476.png?v=135cd2b1" loading="lazy"> | 0423 | [海兔兽](0476_海兔兽.md) | 水/地面 | 475 |
-| <img class="pk-icon" src="icons/0712.png?v=3330c13c" loading="lazy"> | 0423 | [海兔兽（东海的样子）](0712_海兔兽（东海的样子）.md) | 水/地面 | 475 |
-| <img class="pk-icon" src="icons/0477.png?v=59299966" loading="lazy"> | 0424 | [双尾怪手](0477_双尾怪手.md) | 一般 | 482 |
-| <img class="pk-icon" src="icons/0478.png?v=7bde0b27" loading="lazy"> | 0425 | [飘飘球](0478_飘飘球.md) | 幽灵/飞行 | 348 |
-| <img class="pk-icon" src="icons/0479.png?v=caf33338" loading="lazy"> | 0426 | [随风球](0479_随风球.md) | 幽灵/飞行 | 498 |
-| <img class="pk-icon" src="icons/0480.png?v=fdc005de" loading="lazy"> | 0427 | [卷卷耳](0480_卷卷耳.md) | 一般 | 350 |
-| <img class="pk-icon" src="icons/0481.png?v=d4d9b420" loading="lazy"> | 0428 | [长耳兔](0481_长耳兔.md) | 一般 | 480 |
-| <img class="pk-icon" src="icons/0912.png?v=8ec9423c" loading="lazy"> | 0428 | [超级长耳兔](0912_超级长耳兔.md) | 一般/格斗 | 580 |
-| <img class="pk-icon" src="icons/0482.png?v=ef71a8fb" loading="lazy"> | 0429 | [梦妖魔](0482_梦妖魔.md) | 幽灵 | 495 |
-| <img class="pk-icon" src="icons/0483.png?v=dbb0a204" loading="lazy"> | 0430 | [乌鸦头头](0483_乌鸦头头.md) | 恶/飞行 | 505 |
-| <img class="pk-icon" src="icons/0484.png?v=6134271d" loading="lazy"> | 0431 | [魅力喵](0484_魅力喵.md) | 一般 | 310 |
-| <img class="pk-icon" src="icons/0485.png?v=86c5fe0b" loading="lazy"> | 0432 | [东施喵](0485_东施喵.md) | 一般 | 452 |
-| <img class="pk-icon" src="icons/0486.png?v=9d5fd698" loading="lazy"> | 0433 | [铃铛响](0486_铃铛响.md) | 超能力 | 285 |
-| <img class="pk-icon" src="icons/0487.png?v=b7c5d52b" loading="lazy"> | 0434 | [臭鼬噗](0487_臭鼬噗.md) | 毒/恶 | 329 |
-| <img class="pk-icon" src="icons/0488.png?v=ead40d36" loading="lazy"> | 0435 | [坦克臭鼬](0488_坦克臭鼬.md) | 毒/恶 | 479 |
-| <img class="pk-icon" src="icons/0489.png?v=9d0d7181" loading="lazy"> | 0436 | [铜镜怪](0489_铜镜怪.md) | 钢/超能力 | 300 |
-| <img class="pk-icon" src="icons/0490.png?v=78d36c76" loading="lazy"> | 0437 | [青铜钟](0490_青铜钟.md) | 钢/超能力 | 500 |
-| <img class="pk-icon" src="icons/0491.png?v=f9a9680c" loading="lazy"> | 0438 | [盆才怪](0491_盆才怪.md) | 岩石 | 290 |
-| <img class="pk-icon" src="icons/0492.png?v=ce027e56" loading="lazy"> | 0439 | [魔尼尼](0492_魔尼尼.md) | 超能力/妖精 | 310 |
-| <img class="pk-icon" src="icons/1228.png?v=ce027e56" loading="lazy"> | 0439 | [魔尼尼（伽勒尔的样子）](1228_魔尼尼（伽勒尔的样子）.md) | 超能力/妖精 | 310 |
-| <img class="pk-icon" src="icons/0493.png?v=21c1581e" loading="lazy"> | 0440 | [小福蛋](0493_小福蛋.md) | 一般 | 220 |
-| <img class="pk-icon" src="icons/0494.png?v=c6840611" loading="lazy"> | 0441 | [聒噪鸟](0494_聒噪鸟.md) | 一般/飞行 | 411 |
-| <img class="pk-icon" src="icons/0495.png?v=5def5ec8" loading="lazy"> | 0442 | [花岩怪](0495_花岩怪.md) | 幽灵/恶 | 485 |
-| <img class="pk-icon" src="icons/0496.png?v=0bf25614" loading="lazy"> | 0443 | [圆陆鲨](0496_圆陆鲨.md) | 龙/地面 | 300 |
-| <img class="pk-icon" src="icons/0497.png?v=99758f87" loading="lazy"> | 0444 | [尖牙陆鲨](0497_尖牙陆鲨.md) | 龙/地面 | 410 |
-| <img class="pk-icon" src="icons/0498.png?v=40f86baa" loading="lazy"> | 0445 | [烈咬陆鲨](0498_烈咬陆鲨.md) | 龙/地面 | 600 |
-| <img class="pk-icon" src="icons/0913.png?v=66793846" loading="lazy"> | 0445 | [超级烈咬陆鲨](0913_超级烈咬陆鲨.md) | 龙/地面 | 700 |
-| <img class="pk-icon" src="icons/0499.png?v=964de33f" loading="lazy"> | 0446 | [小卡比兽](0499_小卡比兽.md) | 一般 | 390 |
-| <img class="pk-icon" src="icons/0500.png?v=89ce9572" loading="lazy"> | 0447 | [利欧路](0500_利欧路.md) | 格斗 | 285 |
-| <img class="pk-icon" src="icons/0501.png?v=cd0ccc70" loading="lazy"> | 0448 | [路卡利欧](0501_路卡利欧.md) | 格斗/钢 | 525 |
-| <img class="pk-icon" src="icons/0914.png?v=2b0f496b" loading="lazy"> | 0448 | [超级路卡利欧](0914_超级路卡利欧.md) | 格斗/钢 | 625 |
-| <img class="pk-icon" src="icons/0502.png?v=74a5e199" loading="lazy"> | 0449 | [沙河马](0502_沙河马.md) | 地面 | 330 |
-| <img class="pk-icon" src="icons/0744.png?v=cd0ccc70" loading="lazy"> | 0449 | [沙河马（雌性）](0744_沙河马（雌性）.md) | 地面 | 330 |
-| <img class="pk-icon" src="icons/0503.png?v=5cefca6d" loading="lazy"> | 0450 | [河马兽](0503_河马兽.md) | 地面 | 525 |
-| <img class="pk-icon" src="icons/0745.png?v=74a5e199" loading="lazy"> | 0450 | [河马兽（雌性）](0745_河马兽（雌性）.md) | 地面 | 525 |
-| <img class="pk-icon" src="icons/0504.png?v=36e06f26" loading="lazy"> | 0451 | [钳尾蝎](0504_钳尾蝎.md) | 毒/虫 | 330 |
-| <img class="pk-icon" src="icons/0505.png?v=89261a09" loading="lazy"> | 0452 | [龙王蝎](0505_龙王蝎.md) | 毒/恶 | 500 |
-| <img class="pk-icon" src="icons/0506.png?v=23a1055f" loading="lazy"> | 0453 | [不良蛙](0506_不良蛙.md) | 毒/格斗 | 300 |
-| <img class="pk-icon" src="icons/0507.png?v=2b0b0a9c" loading="lazy"> | 0454 | [毒骷蛙](0507_毒骷蛙.md) | 毒/格斗 | 490 |
-| <img class="pk-icon" src="icons/0508.png?v=2eb64261" loading="lazy"> | 0455 | [尖牙笼](0508_尖牙笼.md) | 草 | 454 |
-| <img class="pk-icon" src="icons/0509.png?v=5a7be5c1" loading="lazy"> | 0456 | [荧光鱼](0509_荧光鱼.md) | 水 | 330 |
-| <img class="pk-icon" src="icons/0510.png?v=19d1ab19" loading="lazy"> | 0457 | [霓虹鱼](0510_霓虹鱼.md) | 水 | 460 |
-| <img class="pk-icon" src="icons/0511.png?v=00ce97d9" loading="lazy"> | 0458 | [小球飞鱼](0511_小球飞鱼.md) | 水/飞行 | 345 |
-| <img class="pk-icon" src="icons/0512.png?v=860b5ada" loading="lazy"> | 0459 | [雪笠怪](0512_雪笠怪.md) | 草/冰 | 334 |
-| <img class="pk-icon" src="icons/0513.png?v=e7b726b7" loading="lazy"> | 0460 | [暴雪王](0513_暴雪王.md) | 草/冰 | 494 |
-| <img class="pk-icon" src="icons/0915.png?v=ffb83a65" loading="lazy"> | 0460 | [超级暴雪王](0915_超级暴雪王.md) | 草/冰 | 594 |
-| <img class="pk-icon" src="icons/0514.png?v=4efc7169" loading="lazy"> | 0461 | [玛狃拉](0514_玛狃拉.md) | 恶/冰 | 510 |
-| <img class="pk-icon" src="icons/0515.png?v=5ddb1a05" loading="lazy"> | 0462 | [自爆磁怪](0515_自爆磁怪.md) | 电/钢 | 535 |
-| <img class="pk-icon" src="icons/0516.png?v=3981c2d4" loading="lazy"> | 0463 | [大舌舔](0516_大舌舔.md) | 一般 | 515 |
-| <img class="pk-icon" src="icons/0517.png?v=b71c0988" loading="lazy"> | 0464 | [超甲狂犀](0517_超甲狂犀.md) | 地面/岩石 | 535 |
-| <img class="pk-icon" src="icons/0518.png?v=8ab4238e" loading="lazy"> | 0465 | [巨蔓藤](0518_巨蔓藤.md) | 草 | 535 |
-| <img class="pk-icon" src="icons/0519.png?v=d01db274" loading="lazy"> | 0466 | [电击魔兽](0519_电击魔兽.md) | 电 | 540 |
-| <img class="pk-icon" src="icons/0520.png?v=8db4e21d" loading="lazy"> | 0467 | [鸭嘴炎兽](0520_鸭嘴炎兽.md) | 火 | 540 |
-| <img class="pk-icon" src="icons/0521.png?v=019a165e" loading="lazy"> | 0468 | [波克基斯](0521_波克基斯.md) | 妖精/飞行 | 545 |
-| <img class="pk-icon" src="icons/0522.png?v=b7520996" loading="lazy"> | 0469 | [远古巨蜓](0522_远古巨蜓.md) | 虫/飞行 | 515 |
-| <img class="pk-icon" src="icons/0523.png?v=f3b9b29a" loading="lazy"> | 0470 | [叶伊布](0523_叶伊布.md) | 草 | 525 |
-| <img class="pk-icon" src="icons/0524.png?v=9e676380" loading="lazy"> | 0471 | [冰伊布](0524_冰伊布.md) | 冰 | 525 |
-| <img class="pk-icon" src="icons/0525.png?v=bfef2e98" loading="lazy"> | 0472 | [天蝎王](0525_天蝎王.md) | 地面/飞行 | 510 |
-| <img class="pk-icon" src="icons/0526.png?v=8c5f4b51" loading="lazy"> | 0473 | [象牙猪](0526_象牙猪.md) | 冰/地面 | 530 |
-| <img class="pk-icon" src="icons/0527.png?v=65eb44c6" loading="lazy"> | 0474 | [多边兽Z](0527_多边兽Z.md) | 一般 | 535 |
-| <img class="pk-icon" src="icons/0528.png?v=2107b83e" loading="lazy"> | 0475 | [艾路雷朵](0528_艾路雷朵.md) | 超能力/格斗 | 518 |
-| <img class="pk-icon" src="icons/0916.png?v=eb17ac2b" loading="lazy"> | 0475 | [超级艾路雷朵](0916_超级艾路雷朵.md) | 超能力/格斗 | 618 |
-| <img class="pk-icon" src="icons/0529.png?v=3f771389" loading="lazy"> | 0476 | [大朝北鼻](0529_大朝北鼻.md) | 岩石/钢 | 525 |
-| <img class="pk-icon" src="icons/0530.png?v=52a42659" loading="lazy"> | 0477 | [黑夜魔灵](0530_黑夜魔灵.md) | 幽灵 | 525 |
-| <img class="pk-icon" src="icons/0531.png?v=a273d6c2" loading="lazy"> | 0478 | [雪妖女](0531_雪妖女.md) | 冰/幽灵 | 480 |
-| <img class="pk-icon" src="icons/0532.png?v=aa0f950c" loading="lazy"> | 0479 | [洛托姆](0532_洛托姆.md) | 电/幽灵 | 440 |
-| <img class="pk-icon" src="icons/0713.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（加热形态）](0713_洛托姆（加热形态）.md) | 电/火 | 520 |
-| <img class="pk-icon" src="icons/0714.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（清洗形态）](0714_洛托姆（清洗形态）.md) | 电/水 | 520 |
-| <img class="pk-icon" src="icons/0715.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（结冰形态）](0715_洛托姆（结冰形态）.md) | 电/冰 | 520 |
-| <img class="pk-icon" src="icons/0716.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（旋转形态）](0716_洛托姆（旋转形态）.md) | 电/飞行 | 520 |
-| <img class="pk-icon" src="icons/0717.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（切割形态）](0717_洛托姆（切割形态）.md) | 电/草 | 520 |
-| <img class="pk-icon" src="icons/0533.png?v=e6e2021f" loading="lazy"> | 0480 | [由克希](0533_由克希.md) | 超能力 | 580 |
-| <img class="pk-icon" src="icons/0534.png?v=863db1ea" loading="lazy"> | 0481 | [艾姆利多](0534_艾姆利多.md) | 超能力 | 580 |
-| <img class="pk-icon" src="icons/0535.png?v=078dcf18" loading="lazy"> | 0482 | [亚克诺姆](0535_亚克诺姆.md) | 超能力 | 580 |
-| <img class="pk-icon" src="icons/0536.png?v=e9388de8" loading="lazy"> | 0483 | [帝牙卢卡](0536_帝牙卢卡.md) | 钢/龙 | 680 |
-| <img class="pk-icon" src="icons/0919.png?v=078dcf18" loading="lazy"> | 0483 | [帝牙卢卡（起源形态）](0919_帝牙卢卡（起源形态）.md) | 钢/龙 | 680 |
-| <img class="pk-icon" src="icons/0537.png?v=9b105ccf" loading="lazy"> | 0484 | [帕路奇亚](0537_帕路奇亚.md) | 水/龙 | 680 |
-| <img class="pk-icon" src="icons/0920.png?v=e9388de8" loading="lazy"> | 0484 | [帕路奇亚（起源形态）](0920_帕路奇亚（起源形态）.md) | 水/龙 | 680 |
-| <img class="pk-icon" src="icons/0538.png?v=15f3c94b" loading="lazy"> | 0485 | [席多蓝恩](0538_席多蓝恩.md) | 火/钢 | 600 |
-| <img class="pk-icon" src="icons/0539.png?v=e60f269c" loading="lazy"> | 0486 | [雷吉奇卡斯](0539_雷吉奇卡斯.md) | 一般 | 670 |
-| <img class="pk-icon" src="icons/0540.png?v=af082c98" loading="lazy"> | 0487 | [骑拉帝纳](0540_骑拉帝纳.md) | 幽灵/龙 | 680 |
-| <img class="pk-icon" src="icons/0718.png?v=e60f269c" loading="lazy"> | 0487 | [骑拉帝纳（起源形态）](0718_骑拉帝纳（起源形态）.md) | 幽灵/龙 | 680 |
-| <img class="pk-icon" src="icons/0541.png?v=525fd04f" loading="lazy"> | 0488 | [克雷色利亚](0541_克雷色利亚.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/0542.png?v=f6c43e31" loading="lazy"> | 0489 | [霏欧纳](0542_霏欧纳.md) | 水 | 480 |
-| <img class="pk-icon" src="icons/0543.png?v=eb9f2200" loading="lazy"> | 0490 | [玛纳霏](0543_玛纳霏.md) | 水 | 600 |
-| <img class="pk-icon" src="icons/0544.png?v=84d529da" loading="lazy"> | 0491 | [达克莱伊](0544_达克莱伊.md) | 恶 | 600 |
-| <img class="pk-icon" src="icons/0545.png?v=7a27f6f9" loading="lazy"> | 0492 | [谢米](0545_谢米.md) | 草 | 600 |
-| <img class="pk-icon" src="icons/0719.png?v=84d529da" loading="lazy"> | 0492 | [谢米（天空形态）](0719_谢米（天空形态）.md) | 草/飞行 | 600 |
-| <img class="pk-icon" src="icons/0546.png?v=120c3e40" loading="lazy"> | 0493 | [阿尔宙斯](0546_阿尔宙斯.md) | 一般 | 720 |
-| <img class="pk-icon" src="icons/0720.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（格斗属性）](0720_阿尔宙斯（格斗属性）.md) | 格斗 | 720 |
-| <img class="pk-icon" src="icons/0721.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（飞行属性）](0721_阿尔宙斯（飞行属性）.md) | 飞行 | 720 |
-| <img class="pk-icon" src="icons/0722.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（毒属性）](0722_阿尔宙斯（毒属性）.md) | 毒 | 720 |
-| <img class="pk-icon" src="icons/0723.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（地面属性）](0723_阿尔宙斯（地面属性）.md) | 地面 | 720 |
-| <img class="pk-icon" src="icons/0724.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（岩石属性）](0724_阿尔宙斯（岩石属性）.md) | 岩石 | 720 |
-| <img class="pk-icon" src="icons/0725.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（虫属性）](0725_阿尔宙斯（虫属性）.md) | 虫 | 720 |
-| <img class="pk-icon" src="icons/0726.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（幽灵属性）](0726_阿尔宙斯（幽灵属性）.md) | 幽灵 | 720 |
-| <img class="pk-icon" src="icons/0727.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（钢属性）](0727_阿尔宙斯（钢属性）.md) | 钢 | 720 |
-| <img class="pk-icon" src="icons/0728.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（火属性）](0728_阿尔宙斯（火属性）.md) | 火 | 720 |
-| <img class="pk-icon" src="icons/0729.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（水属性）](0729_阿尔宙斯（水属性）.md) | 水 | 720 |
-| <img class="pk-icon" src="icons/0730.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（草属性）](0730_阿尔宙斯（草属性）.md) | 草 | 720 |
-| <img class="pk-icon" src="icons/0731.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（电属性）](0731_阿尔宙斯（电属性）.md) | 电 | 720 |
-| <img class="pk-icon" src="icons/0732.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（超能力属性）](0732_阿尔宙斯（超能力属性）.md) | 超能力 | 720 |
-| <img class="pk-icon" src="icons/0733.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（冰属性）](0733_阿尔宙斯（冰属性）.md) | 冰 | 720 |
-| <img class="pk-icon" src="icons/0734.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（龙属性）](0734_阿尔宙斯（龙属性）.md) | 龙 | 720 |
-| <img class="pk-icon" src="icons/0735.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（恶属性）](0735_阿尔宙斯（恶属性）.md) | 恶 | 720 |
-| <img class="pk-icon" src="icons/0834.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（妖精属性）](0834_阿尔宙斯（妖精属性）.md) | 妖精 | 720 |
-| <img class="pk-icon" src="icons/0547.png?v=bbfa613f" loading="lazy"> | 0494 | [比克提尼](0547_比克提尼.md) | 超能力/火 | 600 |
-| <img class="pk-icon" src="icons/0548.png?v=1919e94d" loading="lazy"> | 0495 | [藤藤蛇](0548_藤藤蛇.md) | 草 | 308 |
-| <img class="pk-icon" src="icons/0549.png?v=61f52112" loading="lazy"> | 0496 | [青藤蛇](0549_青藤蛇.md) | 草 | 413 |
-| <img class="pk-icon" src="icons/0550.png?v=2a9e5aad" loading="lazy"> | 0497 | [君主蛇](0550_君主蛇.md) | 草 | 528 |
-| <img class="pk-icon" src="icons/0551.png?v=f7aad000" loading="lazy"> | 0498 | [暖暖猪](0551_暖暖猪.md) | 火 | 308 |
-| <img class="pk-icon" src="icons/0552.png?v=5e80db2a" loading="lazy"> | 0499 | [炒炒猪](0552_炒炒猪.md) | 火/格斗 | 418 |
-| <img class="pk-icon" src="icons/0553.png?v=bcda3d32" loading="lazy"> | 0500 | [炎武王](0553_炎武王.md) | 火/格斗 | 528 |
-| <img class="pk-icon" src="icons/0554.png?v=e9abd84e" loading="lazy"> | 0501 | [水水獭](0554_水水獭.md) | 水 | 308 |
-| <img class="pk-icon" src="icons/0555.png?v=d6dedd8b" loading="lazy"> | 0502 | [双刃丸](0555_双刃丸.md) | 水 | 413 |
-| <img class="pk-icon" src="icons/0556.png?v=886d34b6" loading="lazy"> | 0503 | [大剑鬼](0556_大剑鬼.md) | 水 | 528 |
-| <img class="pk-icon" src="icons/1241.png?v=f6262fc6" loading="lazy"> | 0503 | [大剑鬼（洗翠的样子）](1241_大剑鬼（洗翠的样子）.md) | 水/恶 | 528 |
-| <img class="pk-icon" src="icons/0557.png?v=00ad4a3f" loading="lazy"> | 0504 | [探探鼠](0557_探探鼠.md) | 一般 | 255 |
-| <img class="pk-icon" src="icons/0558.png?v=b846bbb5" loading="lazy"> | 0505 | [步哨鼠](0558_步哨鼠.md) | 一般 | 420 |
-| <img class="pk-icon" src="icons/0559.png?v=a498adcd" loading="lazy"> | 0506 | [小约克](0559_小约克.md) | 一般 | 275 |
-| <img class="pk-icon" src="icons/0560.png?v=7e654e0b" loading="lazy"> | 0507 | [哈约克](0560_哈约克.md) | 一般 | 370 |
-| <img class="pk-icon" src="icons/0561.png?v=09f805b4" loading="lazy"> | 0508 | [长毛狗](0561_长毛狗.md) | 一般 | 500 |
-| <img class="pk-icon" src="icons/0562.png?v=f55aaf04" loading="lazy"> | 0509 | [扒手猫](0562_扒手猫.md) | 恶 | 281 |
-| <img class="pk-icon" src="icons/0563.png?v=11254a12" loading="lazy"> | 0510 | [酷豹](0563_酷豹.md) | 恶 | 446 |
-| <img class="pk-icon" src="icons/0564.png?v=71062770" loading="lazy"> | 0511 | [花椰猴](0564_花椰猴.md) | 草 | 316 |
-| <img class="pk-icon" src="icons/0565.png?v=184b0950" loading="lazy"> | 0512 | [花椰猿](0565_花椰猿.md) | 草 | 498 |
-| <img class="pk-icon" src="icons/0566.png?v=e6c239d8" loading="lazy"> | 0513 | [爆香猴](0566_爆香猴.md) | 火 | 316 |
-| <img class="pk-icon" src="icons/0567.png?v=de57f5eb" loading="lazy"> | 0514 | [爆香猿](0567_爆香猿.md) | 火 | 498 |
-| <img class="pk-icon" src="icons/0568.png?v=cbeb31ef" loading="lazy"> | 0515 | [冷水猴](0568_冷水猴.md) | 水 | 316 |
-| <img class="pk-icon" src="icons/0569.png?v=e2b5c52b" loading="lazy"> | 0516 | [冷水猿](0569_冷水猿.md) | 水 | 498 |
-| <img class="pk-icon" src="icons/0570.png?v=b29856e8" loading="lazy"> | 0517 | [食梦梦](0570_食梦梦.md) | 超能力 | 292 |
-| <img class="pk-icon" src="icons/0571.png?v=df94aa2a" loading="lazy"> | 0518 | [梦梦蚀](0571_梦梦蚀.md) | 超能力 | 487 |
-| <img class="pk-icon" src="icons/0572.png?v=b9d5d1e6" loading="lazy"> | 0519 | [豆豆鸽](0572_豆豆鸽.md) | 一般/飞行 | 264 |
-| <img class="pk-icon" src="icons/0573.png?v=0be9c369" loading="lazy"> | 0520 | [咕咕鸽](0573_咕咕鸽.md) | 一般/飞行 | 358 |
-| <img class="pk-icon" src="icons/0574.png?v=b58420df" loading="lazy"> | 0521 | [高傲雉鸡](0574_高傲雉鸡.md) | 一般/飞行 | 488 |
-| <img class="pk-icon" src="icons/0703.png?v=0be9c369" loading="lazy"> | 0521 | [高傲雉鸡（雌性）](0703_高傲雉鸡（雌性）.md) | 一般/飞行 | 488 |
-| <img class="pk-icon" src="icons/0575.png?v=8a90b97f" loading="lazy"> | 0522 | [斑斑马](0575_斑斑马.md) | 电 | 295 |
-| <img class="pk-icon" src="icons/0576.png?v=fe36699d" loading="lazy"> | 0523 | [雷电斑马](0576_雷电斑马.md) | 电 | 497 |
-| <img class="pk-icon" src="icons/0577.png?v=540d24ec" loading="lazy"> | 0524 | [石丸子](0577_石丸子.md) | 岩石 | 280 |
-| <img class="pk-icon" src="icons/0578.png?v=c1494246" loading="lazy"> | 0525 | [地幔岩](0578_地幔岩.md) | 岩石 | 390 |
-| <img class="pk-icon" src="icons/0579.png?v=ec1e99da" loading="lazy"> | 0526 | [庞岩怪](0579_庞岩怪.md) | 岩石 | 515 |
-| <img class="pk-icon" src="icons/0580.png?v=978d2c14" loading="lazy"> | 0527 | [滚滚蝙蝠](0580_滚滚蝙蝠.md) | 超能力/飞行 | 323 |
-| <img class="pk-icon" src="icons/0581.png?v=1710272d" loading="lazy"> | 0528 | [心蝙蝠](0581_心蝙蝠.md) | 超能力/飞行 | 425 |
-| <img class="pk-icon" src="icons/0582.png?v=b1186fc9" loading="lazy"> | 0529 | [螺钉地鼠](0582_螺钉地鼠.md) | 地面 | 328 |
-| <img class="pk-icon" src="icons/0268.png?v=b1186fc9" loading="lazy"> | 0530 | [龙头地鼠](0268_龙头地鼠.md) | 地面/钢 | 608 |
-| <img class="pk-icon" src="icons/0583.png?v=cb877f8a" loading="lazy"> | 0530 | [龙头地鼠](0583_龙头地鼠.md) | 地面/钢 | 508 |
-| <img class="pk-icon" src="icons/0584.png?v=06d4150b" loading="lazy"> | 0531 | [差不多娃娃](0584_差不多娃娃.md) | 一般 | 445 |
-| <img class="pk-icon" src="icons/0917.png?v=70f4967f" loading="lazy"> | 0531 | [超级差不多娃娃](0917_超级差不多娃娃.md) | 一般/妖精 | 545 |
-| <img class="pk-icon" src="icons/0585.png?v=8ea2ccd9" loading="lazy"> | 0532 | [搬运小匠](0585_搬运小匠.md) | 格斗 | 305 |
-| <img class="pk-icon" src="icons/0586.png?v=e1e189c1" loading="lazy"> | 0533 | [铁骨土人](0586_铁骨土人.md) | 格斗 | 405 |
-| <img class="pk-icon" src="icons/0587.png?v=8d033fb0" loading="lazy"> | 0534 | [修建老匠](0587_修建老匠.md) | 格斗 | 505 |
-| <img class="pk-icon" src="icons/0588.png?v=f4d710db" loading="lazy"> | 0535 | [圆蝌蚪](0588_圆蝌蚪.md) | 水 | 294 |
-| <img class="pk-icon" src="icons/0589.png?v=5586460c" loading="lazy"> | 0536 | [蓝蟾蜍](0589_蓝蟾蜍.md) | 水/地面 | 384 |
-| <img class="pk-icon" src="icons/0590.png?v=c21b6541" loading="lazy"> | 0537 | [蟾蜍王](0590_蟾蜍王.md) | 水/地面 | 509 |
-| <img class="pk-icon" src="icons/0591.png?v=2381d20c" loading="lazy"> | 0538 | [投摔鬼](0591_投摔鬼.md) | 格斗 | 465 |
-| <img class="pk-icon" src="icons/0592.png?v=50b68ef8" loading="lazy"> | 0539 | [打击鬼](0592_打击鬼.md) | 格斗 | 465 |
-| <img class="pk-icon" src="icons/0593.png?v=8f0b5401" loading="lazy"> | 0540 | [虫宝包](0593_虫宝包.md) | 虫/草 | 310 |
-| <img class="pk-icon" src="icons/0594.png?v=51b8958e" loading="lazy"> | 0541 | [宝包茧](0594_宝包茧.md) | 虫/草 | 380 |
-| <img class="pk-icon" src="icons/0595.png?v=be121642" loading="lazy"> | 0542 | [保姆虫](0595_保姆虫.md) | 虫/草 | 500 |
-| <img class="pk-icon" src="icons/0596.png?v=f827dfed" loading="lazy"> | 0543 | [百足蜈蚣](0596_百足蜈蚣.md) | 虫/毒 | 260 |
-| <img class="pk-icon" src="icons/0597.png?v=f19f8b04" loading="lazy"> | 0544 | [车轮球](0597_车轮球.md) | 虫/毒 | 360 |
-| <img class="pk-icon" src="icons/0598.png?v=05ea4516" loading="lazy"> | 0545 | [蜈蚣王](0598_蜈蚣王.md) | 虫/毒 | 485 |
-| <img class="pk-icon" src="icons/0599.png?v=fd68a39e" loading="lazy"> | 0546 | [木棉球](0599_木棉球.md) | 草/妖精 | 280 |
-| <img class="pk-icon" src="icons/0600.png?v=a67f4ff6" loading="lazy"> | 0547 | [风妖精](0600_风妖精.md) | 草/妖精 | 480 |
-| <img class="pk-icon" src="icons/0601.png?v=42cd29f0" loading="lazy"> | 0548 | [百合根娃娃](0601_百合根娃娃.md) | 草 | 280 |
-| <img class="pk-icon" src="icons/0602.png?v=026e5613" loading="lazy"> | 0549 | [裙儿小姐](0602_裙儿小姐.md) | 草 | 480 |
-| <img class="pk-icon" src="icons/1242.png?v=ea5944f0" loading="lazy"> | 0549 | [裙儿小姐（洗翠的样子）](1242_裙儿小姐（洗翠的样子）.md) | 草/格斗 | 480 |
-| <img class="pk-icon" src="icons/0603.png?v=026e5613" loading="lazy"> | 0550 | [野蛮鲈鱼](0603_野蛮鲈鱼.md) | 水 | 460 |
-| <img class="pk-icon" src="icons/0736.png?v=026e5613" loading="lazy"> | 0550 | [野蛮鲈鱼](0736_野蛮鲈鱼.md) | 水 | 460 |
-| <img class="pk-icon" src="icons/1243.png?v=bc5fdd59" loading="lazy"> | 0550 | [野蛮鲈鱼](1243_野蛮鲈鱼.md) | 水 | 460 |
-| <img class="pk-icon" src="icons/0604.png?v=f37e9eda" loading="lazy"> | 0551 | [黑眼鳄](0604_黑眼鳄.md) | 地面/恶 | 292 |
-| <img class="pk-icon" src="icons/0605.png?v=02eee526" loading="lazy"> | 0552 | [混混鳄](0605_混混鳄.md) | 地面/恶 | 351 |
-| <img class="pk-icon" src="icons/0606.png?v=86b47703" loading="lazy"> | 0553 | [流氓鳄](0606_流氓鳄.md) | 地面/恶 | 519 |
-| <img class="pk-icon" src="icons/0607.png?v=016cdd7f" loading="lazy"> | 0554 | [火红不倒翁](0607_火红不倒翁.md) | 火 | 315 |
-| <img class="pk-icon" src="icons/1229.png?v=f1095403" loading="lazy"> | 0554 | [火红不倒翁（伽勒尔的样子）](1229_火红不倒翁（伽勒尔的样子）.md) | 冰 | 315 |
-| <img class="pk-icon" src="icons/0608.png?v=b1eae62f" loading="lazy"> | 0555 | [达摩狒狒](0608_达摩狒狒.md) | 火 | 480 |
-| <img class="pk-icon" src="icons/0737.png?v=016cdd7f" loading="lazy"> | 0555 | [达摩狒狒](0737_达摩狒狒.md) | 火/超能力 | 540 |
-| <img class="pk-icon" src="icons/1230.png?v=b1eae62f" loading="lazy"> | 0555 | [达摩狒狒（伽勒尔的样子）](1230_达摩狒狒（伽勒尔的样子）.md) | 冰 | 480 |
-| <img class="pk-icon" src="icons/1231.png?v=016cdd7f" loading="lazy"> | 0555 | [达摩狒狒（伽勒尔达摩模式）](1231_达摩狒狒（伽勒尔达摩模式）.md) | 冰/火 | 540 |
-| <img class="pk-icon" src="icons/0609.png?v=83681a4b" loading="lazy"> | 0556 | [沙铃仙人掌](0609_沙铃仙人掌.md) | 草 | 461 |
-| <img class="pk-icon" src="icons/0610.png?v=e5c1ea63" loading="lazy"> | 0557 | [石居蟹](0610_石居蟹.md) | 虫/岩石 | 325 |
-| <img class="pk-icon" src="icons/0611.png?v=8f5c530d" loading="lazy"> | 0558 | [岩殿居蟹](0611_岩殿居蟹.md) | 虫/岩石 | 485 |
-| <img class="pk-icon" src="icons/0612.png?v=1167f0d8" loading="lazy"> | 0559 | [滑滑小子](0612_滑滑小子.md) | 恶/格斗 | 348 |
-| <img class="pk-icon" src="icons/0267.png?v=1167f0d8" loading="lazy"> | 0560 | [头巾混混](0267_头巾混混.md) | 恶/格斗 | 588 |
-| <img class="pk-icon" src="icons/0613.png?v=551bd47f" loading="lazy"> | 0560 | [头巾混混](0613_头巾混混.md) | 恶/格斗 | 488 |
-| <img class="pk-icon" src="icons/0614.png?v=7904e81f" loading="lazy"> | 0561 | [象征鸟](0614_象征鸟.md) | 超能力/飞行 | 490 |
-| <img class="pk-icon" src="icons/0615.png?v=94a604a0" loading="lazy"> | 0562 | [哭哭面具](0615_哭哭面具.md) | 幽灵 | 303 |
-| <img class="pk-icon" src="icons/1232.png?v=b98413e0" loading="lazy"> | 0562 | [哭哭面具（伽勒尔的样子）](1232_哭哭面具（伽勒尔的样子）.md) | 地面/幽灵 | 303 |
-| <img class="pk-icon" src="icons/0616.png?v=cf7f2e15" loading="lazy"> | 0563 | [死神棺](0616_死神棺.md) | 幽灵 | 483 |
-| <img class="pk-icon" src="icons/0617.png?v=21813fa7" loading="lazy"> | 0564 | [原盖海龟](0617_原盖海龟.md) | 水/岩石 | 355 |
-| <img class="pk-icon" src="icons/0618.png?v=febfcbd7" loading="lazy"> | 0565 | [肋骨海龟](0618_肋骨海龟.md) | 水/岩石 | 495 |
-| <img class="pk-icon" src="icons/0619.png?v=5fd38e5b" loading="lazy"> | 0566 | [始祖小鸟](0619_始祖小鸟.md) | 岩石/飞行 | 401 |
-| <img class="pk-icon" src="icons/0620.png?v=0b78bb6d" loading="lazy"> | 0567 | [始祖大鸟](0620_始祖大鸟.md) | 岩石/飞行 | 567 |
-| <img class="pk-icon" src="icons/0621.png?v=dbcb0f98" loading="lazy"> | 0568 | [破破袋](0621_破破袋.md) | 毒 | 329 |
-| <img class="pk-icon" src="icons/0622.png?v=664d7693" loading="lazy"> | 0569 | [灰尘山](0622_灰尘山.md) | 毒 | 474 |
-| <img class="pk-icon" src="icons/1272.png?v=dbcb0f98" loading="lazy"> | 0569 | [超极巨化灰尘山](1272_超极巨化灰尘山.md) | 毒 | 474 |
-| <img class="pk-icon" src="icons/0623.png?v=895fbc61" loading="lazy"> | 0570 | [索罗亚](0623_索罗亚.md) | 恶 | 330 |
-| <img class="pk-icon" src="icons/1244.png?v=13d7a4ca" loading="lazy"> | 0570 | [索罗亚（洗翠的样子）](1244_索罗亚（洗翠的样子）.md) | 一般/幽灵 | 330 |
-| <img class="pk-icon" src="icons/0624.png?v=b2d2f20b" loading="lazy"> | 0571 | [索罗亚克](0624_索罗亚克.md) | 恶 | 510 |
-| <img class="pk-icon" src="icons/1245.png?v=2e885493" loading="lazy"> | 0571 | [索罗亚克（洗翠的样子）](1245_索罗亚克（洗翠的样子）.md) | 一般/幽灵 | 510 |
-| <img class="pk-icon" src="icons/0625.png?v=70b94dca" loading="lazy"> | 0572 | [泡沫栗鼠](0625_泡沫栗鼠.md) | 一般 | 300 |
-| <img class="pk-icon" src="icons/0626.png?v=59216b55" loading="lazy"> | 0573 | [奇诺栗鼠](0626_奇诺栗鼠.md) | 一般 | 470 |
-| <img class="pk-icon" src="icons/0627.png?v=b360c91f" loading="lazy"> | 0574 | [哥德宝宝](0627_哥德宝宝.md) | 超能力 | 290 |
-| <img class="pk-icon" src="icons/0628.png?v=33e13e20" loading="lazy"> | 0575 | [哥德小童](0628_哥德小童.md) | 超能力 | 390 |
-| <img class="pk-icon" src="icons/0629.png?v=828c960d" loading="lazy"> | 0576 | [哥德小姐](0629_哥德小姐.md) | 超能力 | 490 |
-| <img class="pk-icon" src="icons/0630.png?v=df797100" loading="lazy"> | 0577 | [单卵细胞球](0630_单卵细胞球.md) | 超能力 | 290 |
-| <img class="pk-icon" src="icons/0631.png?v=93212f6b" loading="lazy"> | 0578 | [双卵细胞球](0631_双卵细胞球.md) | 超能力 | 370 |
-| <img class="pk-icon" src="icons/0632.png?v=6ee5cfda" loading="lazy"> | 0579 | [人造细胞卵](0632_人造细胞卵.md) | 超能力 | 490 |
-| <img class="pk-icon" src="icons/0633.png?v=61b8e514" loading="lazy"> | 0580 | [鸭宝宝](0633_鸭宝宝.md) | 水/飞行 | 305 |
-| <img class="pk-icon" src="icons/0634.png?v=070875c3" loading="lazy"> | 0581 | [舞天鹅](0634_舞天鹅.md) | 水/飞行 | 473 |
-| <img class="pk-icon" src="icons/0635.png?v=b0cd2ab8" loading="lazy"> | 0582 | [迷你冰](0635_迷你冰.md) | 冰 | 305 |
-| <img class="pk-icon" src="icons/0636.png?v=9dda1ffd" loading="lazy"> | 0583 | [多多冰](0636_多多冰.md) | 冰 | 395 |
-| <img class="pk-icon" src="icons/0637.png?v=cb2e8b38" loading="lazy"> | 0584 | [双倍多多冰](0637_双倍多多冰.md) | 冰 | 535 |
-| <img class="pk-icon" src="icons/0638.png?v=59ae6ebe" loading="lazy"> | 0585 | [四季鹿](0638_四季鹿.md) | 一般/草 | 335 |
-| <img class="pk-icon" src="icons/0738.png?v=cb2e8b38" loading="lazy"> | 0585 | [四季鹿（夏天的样子）](0738_四季鹿（夏天的样子）.md) | 一般/草 | 335 |
-| <img class="pk-icon" src="icons/0739.png?v=cb2e8b38" loading="lazy"> | 0585 | [四季鹿（秋天的样子）](0739_四季鹿（秋天的样子）.md) | 一般/草 | 335 |
-| <img class="pk-icon" src="icons/0740.png?v=cb2e8b38" loading="lazy"> | 0585 | [四季鹿（冬天的样子）](0740_四季鹿（冬天的样子）.md) | 一般/草 | 335 |
-| <img class="pk-icon" src="icons/0639.png?v=66dc0428" loading="lazy"> | 0586 | [萌芽鹿](0639_萌芽鹿.md) | 一般/草 | 475 |
-| <img class="pk-icon" src="icons/0741.png?v=59ae6ebe" loading="lazy"> | 0586 | [萌芽鹿（夏天的样子）](0741_萌芽鹿（夏天的样子）.md) | 一般/草 | 475 |
-| <img class="pk-icon" src="icons/0742.png?v=59ae6ebe" loading="lazy"> | 0586 | [萌芽鹿（秋天的样子）](0742_萌芽鹿（秋天的样子）.md) | 一般/草 | 475 |
-| <img class="pk-icon" src="icons/0743.png?v=59ae6ebe" loading="lazy"> | 0586 | [萌芽鹿（冬天的样子）](0743_萌芽鹿（冬天的样子）.md) | 一般/草 | 475 |
-| <img class="pk-icon" src="icons/0640.png?v=0cb2b248" loading="lazy"> | 0587 | [电飞鼠](0640_电飞鼠.md) | 电/飞行 | 428 |
-| <img class="pk-icon" src="icons/0641.png?v=509bb5a9" loading="lazy"> | 0588 | [盖盖虫](0641_盖盖虫.md) | 虫 | 315 |
-| <img class="pk-icon" src="icons/0642.png?v=e3cacd2c" loading="lazy"> | 0589 | [骑士蜗牛](0642_骑士蜗牛.md) | 虫/钢 | 495 |
-| <img class="pk-icon" src="icons/0643.png?v=2ec33b67" loading="lazy"> | 0590 | [哎呀球菇](0643_哎呀球菇.md) | 草/毒 | 294 |
-| <img class="pk-icon" src="icons/0644.png?v=9bfa421b" loading="lazy"> | 0591 | [败露球菇](0644_败露球菇.md) | 草/毒 | 464 |
-| <img class="pk-icon" src="icons/0645.png?v=3725c937" loading="lazy"> | 0592 | [轻飘飘](0645_轻飘飘.md) | 水/幽灵 | 335 |
-| <img class="pk-icon" src="icons/0704.png?v=9bfa421b" loading="lazy"> | 0592 | [轻飘飘（雌性）](0704_轻飘飘（雌性）.md) | 水/幽灵 | 335 |
-| <img class="pk-icon" src="icons/0646.png?v=ba194bd4" loading="lazy"> | 0593 | [胖嘟嘟](0646_胖嘟嘟.md) | 水/幽灵 | 480 |
-| <img class="pk-icon" src="icons/0705.png?v=3725c937" loading="lazy"> | 0593 | [胖嘟嘟（雌性）](0705_胖嘟嘟（雌性）.md) | 水/幽灵 | 480 |
-| <img class="pk-icon" src="icons/0647.png?v=d3409fce" loading="lazy"> | 0594 | [保姆曼波](0647_保姆曼波.md) | 水 | 470 |
-| <img class="pk-icon" src="icons/0648.png?v=33b1a58d" loading="lazy"> | 0595 | [电电虫](0648_电电虫.md) | 虫/电 | 319 |
-| <img class="pk-icon" src="icons/0649.png?v=81f9fbcb" loading="lazy"> | 0596 | [电蜘蛛](0649_电蜘蛛.md) | 虫/电 | 472 |
-| <img class="pk-icon" src="icons/0650.png?v=678fdc0e" loading="lazy"> | 0597 | [种子铁球](0650_种子铁球.md) | 草/钢 | 305 |
-| <img class="pk-icon" src="icons/0651.png?v=40f294b3" loading="lazy"> | 0598 | [坚果哑铃](0651_坚果哑铃.md) | 草/钢 | 489 |
-| <img class="pk-icon" src="icons/0652.png?v=ef2a19ad" loading="lazy"> | 0599 | [齿轮儿](0652_齿轮儿.md) | 钢 | 300 |
-| <img class="pk-icon" src="icons/0653.png?v=d1967d94" loading="lazy"> | 0600 | [齿轮组](0653_齿轮组.md) | 钢 | 440 |
-| <img class="pk-icon" src="icons/0654.png?v=76ffca01" loading="lazy"> | 0601 | [齿轮怪](0654_齿轮怪.md) | 钢 | 520 |
-| <img class="pk-icon" src="icons/0655.png?v=f450e18d" loading="lazy"> | 0602 | [麻麻小鱼](0655_麻麻小鱼.md) | 电 | 275 |
-| <img class="pk-icon" src="icons/0656.png?v=d0797494" loading="lazy"> | 0603 | [麻麻鳗](0656_麻麻鳗.md) | 电 | 405 |
-| <img class="pk-icon" src="icons/0269.png?v=d0797494" loading="lazy"> | 0604 | [麻麻鳗鱼王](0269_麻麻鳗鱼王.md) | 电 | 615 |
-| <img class="pk-icon" src="icons/0657.png?v=4bb7d207" loading="lazy"> | 0604 | [麻麻鳗鱼王](0657_麻麻鳗鱼王.md) | 电 | 515 |
-| <img class="pk-icon" src="icons/0658.png?v=dadb22ef" loading="lazy"> | 0605 | [小灰怪](0658_小灰怪.md) | 超能力 | 335 |
-| <img class="pk-icon" src="icons/0659.png?v=8a8e6453" loading="lazy"> | 0606 | [大宇怪](0659_大宇怪.md) | 超能力 | 485 |
-| <img class="pk-icon" src="icons/0660.png?v=86c9dfae" loading="lazy"> | 0607 | [烛光灵](0660_烛光灵.md) | 幽灵/火 | 275 |
-| <img class="pk-icon" src="icons/0661.png?v=53333d09" loading="lazy"> | 0608 | [灯火幽灵](0661_灯火幽灵.md) | 幽灵/火 | 370 |
-| <img class="pk-icon" src="icons/0262.png?v=53333d09" loading="lazy"> | 0609 | [水晶灯火灵](0262_水晶灯火灵.md) | 幽灵/火 | 620 |
-| <img class="pk-icon" src="icons/0662.png?v=26ca03ef" loading="lazy"> | 0609 | [水晶灯火灵](0662_水晶灯火灵.md) | 幽灵/火 | 520 |
-| <img class="pk-icon" src="icons/0663.png?v=4ed4669e" loading="lazy"> | 0610 | [牙牙](0663_牙牙.md) | 龙 | 320 |
-| <img class="pk-icon" src="icons/0664.png?v=4fddab8b" loading="lazy"> | 0611 | [斧牙龙](0664_斧牙龙.md) | 龙 | 410 |
-| <img class="pk-icon" src="icons/0665.png?v=69d8a394" loading="lazy"> | 0612 | [双斧战龙](0665_双斧战龙.md) | 龙 | 540 |
-| <img class="pk-icon" src="icons/0666.png?v=ca40095c" loading="lazy"> | 0613 | [喷嚏熊](0666_喷嚏熊.md) | 冰 | 305 |
-| <img class="pk-icon" src="icons/0667.png?v=8511a9ee" loading="lazy"> | 0614 | [冻原熊](0667_冻原熊.md) | 冰 | 505 |
-| <img class="pk-icon" src="icons/0668.png?v=19fe734f" loading="lazy"> | 0615 | [几何雪花](0668_几何雪花.md) | 冰 | 515 |
-| <img class="pk-icon" src="icons/0669.png?v=e5a35fd5" loading="lazy"> | 0616 | [小嘴蜗](0669_小嘴蜗.md) | 虫 | 305 |
-| <img class="pk-icon" src="icons/0670.png?v=5055a0b7" loading="lazy"> | 0617 | [敏捷虫](0670_敏捷虫.md) | 虫 | 495 |
-| <img class="pk-icon" src="icons/0671.png?v=f8b49bff" loading="lazy"> | 0618 | [泥巴鱼](0671_泥巴鱼.md) | 地面/电 | 471 |
-| <img class="pk-icon" src="icons/1233.png?v=ca529d0d" loading="lazy"> | 0618 | [泥巴鱼（伽勒尔的样子）](1233_泥巴鱼（伽勒尔的样子）.md) | 地面/钢 | 471 |
-| <img class="pk-icon" src="icons/0672.png?v=f4cbc648" loading="lazy"> | 0619 | [功夫鼬](0672_功夫鼬.md) | 格斗 | 350 |
-| <img class="pk-icon" src="icons/0673.png?v=cc46c352" loading="lazy"> | 0620 | [师父鼬](0673_师父鼬.md) | 格斗 | 510 |
-| <img class="pk-icon" src="icons/0674.png?v=1e731fb4" loading="lazy"> | 0621 | [赤面龙](0674_赤面龙.md) | 龙 | 485 |
-| <img class="pk-icon" src="icons/0675.png?v=f33aa4f7" loading="lazy"> | 0622 | [泥偶小人](0675_泥偶小人.md) | 地面/幽灵 | 303 |
-| <img class="pk-icon" src="icons/0676.png?v=b1053a78" loading="lazy"> | 0623 | [泥偶巨人](0676_泥偶巨人.md) | 地面/幽灵 | 483 |
-| <img class="pk-icon" src="icons/0677.png?v=1141bafa" loading="lazy"> | 0624 | [驹刀小兵](0677_驹刀小兵.md) | 恶/钢 | 340 |
-| <img class="pk-icon" src="icons/0678.png?v=9c1fe84f" loading="lazy"> | 0625 | [劈斩司令](0678_劈斩司令.md) | 恶/钢 | 490 |
-| <img class="pk-icon" src="icons/0679.png?v=3a7c30bc" loading="lazy"> | 0626 | [爆炸头水牛](0679_爆炸头水牛.md) | 一般 | 490 |
-| <img class="pk-icon" src="icons/0680.png?v=065dacf6" loading="lazy"> | 0627 | [毛头小鹰](0680_毛头小鹰.md) | 一般/飞行 | 350 |
-| <img class="pk-icon" src="icons/0681.png?v=886012f7" loading="lazy"> | 0628 | [勇士雄鹰](0681_勇士雄鹰.md) | 一般/飞行 | 510 |
-| <img class="pk-icon" src="icons/1246.png?v=60706f3d" loading="lazy"> | 0628 | [勇士雄鹰（洗翠的样子）](1246_勇士雄鹰（洗翠的样子）.md) | 超能力/飞行 | 510 |
-| <img class="pk-icon" src="icons/0682.png?v=4088b438" loading="lazy"> | 0629 | [秃鹰丫头](0682_秃鹰丫头.md) | 恶/飞行 | 370 |
-| <img class="pk-icon" src="icons/0683.png?v=b5471a7e" loading="lazy"> | 0630 | [秃鹰娜](0683_秃鹰娜.md) | 恶/飞行 | 510 |
-| <img class="pk-icon" src="icons/0684.png?v=a50c17f9" loading="lazy"> | 0631 | [熔蚁兽](0684_熔蚁兽.md) | 火 | 484 |
-| <img class="pk-icon" src="icons/0685.png?v=e33cc2a2" loading="lazy"> | 0632 | [铁蚁](0685_铁蚁.md) | 虫/钢 | 484 |
-| <img class="pk-icon" src="icons/0686.png?v=7cf57e23" loading="lazy"> | 0633 | [单首龙](0686_单首龙.md) | 恶/龙 | 300 |
-| <img class="pk-icon" src="icons/0687.png?v=88d011c1" loading="lazy"> | 0634 | [双首暴龙](0687_双首暴龙.md) | 恶/龙 | 420 |
-| <img class="pk-icon" src="icons/0688.png?v=dad4dafa" loading="lazy"> | 0635 | [三首恶龙](0688_三首恶龙.md) | 恶/龙 | 600 |
-| <img class="pk-icon" src="icons/0689.png?v=6be10da9" loading="lazy"> | 0636 | [燃烧虫](0689_燃烧虫.md) | 虫/火 | 360 |
-| <img class="pk-icon" src="icons/0690.png?v=5cff15a3" loading="lazy"> | 0637 | [火神蛾](0690_火神蛾.md) | 虫/火 | 550 |
-| <img class="pk-icon" src="icons/0691.png?v=2bfc84d2" loading="lazy"> | 0638 | [勾帕路翁](0691_勾帕路翁.md) | 钢/格斗 | 580 |
-| <img class="pk-icon" src="icons/0692.png?v=728d942b" loading="lazy"> | 0639 | [代拉基翁](0692_代拉基翁.md) | 岩石/格斗 | 580 |
-| <img class="pk-icon" src="icons/0693.png?v=de09b8d4" loading="lazy"> | 0640 | [毕力吉翁](0693_毕力吉翁.md) | 草/格斗 | 580 |
-| <img class="pk-icon" src="icons/0694.png?v=11df372c" loading="lazy"> | 0641 | [龙卷云](0694_龙卷云.md) | 飞行 | 580 |
-| <img class="pk-icon" src="icons/0754.png?v=de09b8d4" loading="lazy"> | 0641 | [龙卷云（灵兽形态）](0754_龙卷云（灵兽形态）.md) | 飞行 | 580 |
-| <img class="pk-icon" src="icons/0695.png?v=8b344fc0" loading="lazy"> | 0642 | [雷电云](0695_雷电云.md) | 电/飞行 | 580 |
-| <img class="pk-icon" src="icons/0755.png?v=11df372c" loading="lazy"> | 0642 | [雷电云（灵兽形态）](0755_雷电云（灵兽形态）.md) | 电/飞行 | 580 |
-| <img class="pk-icon" src="icons/0696.png?v=1a2d52c3" loading="lazy"> | 0643 | [莱希拉姆](0696_莱希拉姆.md) | 龙/火 | 680 |
-| <img class="pk-icon" src="icons/0697.png?v=d8e71729" loading="lazy"> | 0644 | [捷克罗姆](0697_捷克罗姆.md) | 龙/电 | 680 |
-| <img class="pk-icon" src="icons/0698.png?v=7fbf8c77" loading="lazy"> | 0645 | [土地云](0698_土地云.md) | 地面/飞行 | 600 |
-| <img class="pk-icon" src="icons/0756.png?v=d8e71729" loading="lazy"> | 0645 | [土地云（灵兽形态）](0756_土地云（灵兽形态）.md) | 地面/飞行 | 600 |
-| <img class="pk-icon" src="icons/0699.png?v=18376c5f" loading="lazy"> | 0646 | [酋雷姆](0699_酋雷姆.md) | 龙/冰 | 660 |
-| <img class="pk-icon" src="icons/0752.png?v=7fbf8c77" loading="lazy"> | 0646 | [暗黑酋雷姆](0752_暗黑酋雷姆.md) | 龙/冰 | 700 |
-| <img class="pk-icon" src="icons/0753.png?v=7fbf8c77" loading="lazy"> | 0646 | [焰白酋雷姆](0753_焰白酋雷姆.md) | 龙/冰 | 700 |
-| <img class="pk-icon" src="icons/0700.png?v=3d78d662" loading="lazy"> | 0647 | [凯路迪欧](0700_凯路迪欧.md) | 水/格斗 | 580 |
-| <img class="pk-icon" src="icons/0757.png?v=18376c5f" loading="lazy"> | 0647 | [凯路迪欧（觉悟的样子）](0757_凯路迪欧（觉悟的样子）.md) | 水/格斗 | 580 |
-| <img class="pk-icon" src="icons/0701.png?v=81d5a4f6" loading="lazy"> | 0648 | [美洛耶塔](0701_美洛耶塔.md) | 一般/超能力 | 600 |
-| <img class="pk-icon" src="icons/0746.png?v=3d78d662" loading="lazy"> | 0648 | [美洛耶塔（舞步形态）](0746_美洛耶塔（舞步形态）.md) | 一般/格斗 | 600 |
-| <img class="pk-icon" src="icons/0702.png?v=2b3c95bf" loading="lazy"> | 0649 | [盖诺赛克特](0702_盖诺赛克特.md) | 虫/钢 | 600 |
-| <img class="pk-icon" src="icons/0747.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（闪电卡带）](0747_盖诺赛克特（闪电卡带）.md) | 虫/钢 | 600 |
-| <img class="pk-icon" src="icons/0748.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（火焰卡带）](0748_盖诺赛克特（火焰卡带）.md) | 虫/钢 | 600 |
-| <img class="pk-icon" src="icons/0749.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（冰冻卡带）](0749_盖诺赛克特（冰冻卡带）.md) | 虫/钢 | 600 |
-| <img class="pk-icon" src="icons/0750.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（水流卡带）](0750_盖诺赛克特（水流卡带）.md) | 虫/钢 | 600 |
-| <img class="pk-icon" src="icons/0758.png?v=737242e1" loading="lazy"> | 0650 | [哈力栗](0758_哈力栗.md) | 草 | 313 |
-| <img class="pk-icon" src="icons/0759.png?v=0fd83b64" loading="lazy"> | 0651 | [胖胖哈力](0759_胖胖哈力.md) | 草 | 405 |
-| <img class="pk-icon" src="icons/0760.png?v=f8586c97" loading="lazy"> | 0652 | [布里卡隆](0760_布里卡隆.md) | 草/格斗 | 530 |
-| <img class="pk-icon" src="icons/0761.png?v=9abe7201" loading="lazy"> | 0653 | [火狐狸](0761_火狐狸.md) | 火 | 307 |
-| <img class="pk-icon" src="icons/0762.png?v=f10937f8" loading="lazy"> | 0654 | [长尾火狐](0762_长尾火狐.md) | 火 | 409 |
-| <img class="pk-icon" src="icons/0763.png?v=c5c08812" loading="lazy"> | 0655 | [妖火红狐](0763_妖火红狐.md) | 火/超能力 | 534 |
-| <img class="pk-icon" src="icons/0764.png?v=ef42c1df" loading="lazy"> | 0656 | [呱呱泡蛙](0764_呱呱泡蛙.md) | 水 | 314 |
-| <img class="pk-icon" src="icons/0765.png?v=b007c548" loading="lazy"> | 0657 | [呱头蛙](0765_呱头蛙.md) | 水 | 405 |
-| <img class="pk-icon" src="icons/0766.png?v=2e70f80a" loading="lazy"> | 0658 | [甲贺忍蛙](0766_甲贺忍蛙.md) | 水/恶 | 530 |
-| <img class="pk-icon" src="icons/0839.png?v=b007c548" loading="lazy"> | 0658 | [甲贺忍蛙](0839_甲贺忍蛙.md) | 水/恶 | 640 |
-| <img class="pk-icon" src="icons/0767.png?v=b792be99" loading="lazy"> | 0659 | [掘掘兔](0767_掘掘兔.md) | 一般 | 237 |
-| <img class="pk-icon" src="icons/0768.png?v=03b9fecb" loading="lazy"> | 0660 | [掘地兔](0768_掘地兔.md) | 一般/地面 | 423 |
-| <img class="pk-icon" src="icons/0769.png?v=2cab2ed7" loading="lazy"> | 0661 | [小箭雀](0769_小箭雀.md) | 一般/飞行 | 278 |
-| <img class="pk-icon" src="icons/0770.png?v=b6ffa8ef" loading="lazy"> | 0662 | [火箭雀](0770_火箭雀.md) | 火/飞行 | 382 |
-| <img class="pk-icon" src="icons/0771.png?v=2498d1c4" loading="lazy"> | 0663 | [烈箭鹰](0771_烈箭鹰.md) | 火/飞行 | 499 |
-| <img class="pk-icon" src="icons/0772.png?v=2e30e4b3" loading="lazy"> | 0664 | [粉蝶虫](0772_粉蝶虫.md) | 虫 | 200 |
-| <img class="pk-icon" src="icons/0773.png?v=10b76152" loading="lazy"> | 0665 | [粉蝶蛹](0773_粉蝶蛹.md) | 虫 | 213 |
-| <img class="pk-icon" src="icons/0774.png?v=e9e61531" loading="lazy"> | 0666 | [彩粉蝶](0774_彩粉蝶.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0868.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（华丽花纹）](0868_彩粉蝶（华丽花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0921.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（群岛花纹）](0921_彩粉蝶（群岛花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0922.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大陆花纹）](0922_彩粉蝶（大陆花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0923.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（高雅花纹）](0923_彩粉蝶（高雅花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0924.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（庭园花纹）](0924_彩粉蝶（庭园花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0925.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（高原花纹）](0925_彩粉蝶（高原花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0926.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（冰雪花纹）](0926_彩粉蝶（冰雪花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0927.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（热带雨林花纹）](0927_彩粉蝶（热带雨林花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0928.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大海花纹）](0928_彩粉蝶（大海花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0929.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（摩登花纹）](0929_彩粉蝶（摩登花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0930.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（雨季花纹）](0930_彩粉蝶（雨季花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0931.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大洋花纹）](0931_彩粉蝶（大洋花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0932.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（精灵球花纹）](0932_彩粉蝶（精灵球花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0933.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（雪国花纹）](0933_彩粉蝶（雪国花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0934.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大河花纹）](0934_彩粉蝶（大河花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0935.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（沙尘暴花纹）](0935_彩粉蝶（沙尘暴花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0936.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（热带草原花纹）](0936_彩粉蝶（热带草原花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0937.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（艳阳花纹）](0937_彩粉蝶（艳阳花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0938.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（雪原花纹）](0938_彩粉蝶（雪原花纹）.md) | 虫/飞行 | 411 |
-| <img class="pk-icon" src="icons/0775.png?v=f0dd294d" loading="lazy"> | 0667 | [小狮狮](0775_小狮狮.md) | 火/一般 | 369 |
-| <img class="pk-icon" src="icons/0776.png?v=a0fdd19e" loading="lazy"> | 0668 | [火炎狮](0776_火炎狮.md) | 火/一般 | 507 |
-| <img class="pk-icon" src="icons/0831.png?v=f0dd294d" loading="lazy"> | 0668 | [火炎狮（雌性）](0831_火炎狮（雌性）.md) | 火/一般 | 507 |
-| <img class="pk-icon" src="icons/0777.png?v=2205cac4" loading="lazy"> | 0669 | [花蓓蓓](0777_花蓓蓓.md) | 妖精 | 303 |
-| <img class="pk-icon" src="icons/0840.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（蓝花）](0840_花蓓蓓（蓝花）.md) | 妖精 | 303 |
-| <img class="pk-icon" src="icons/0841.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（橙花）](0841_花蓓蓓（橙花）.md) | 妖精 | 303 |
-| <img class="pk-icon" src="icons/0842.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（黄花）](0842_花蓓蓓（黄花）.md) | 妖精 | 303 |
-| <img class="pk-icon" src="icons/0843.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（白花）](0843_花蓓蓓（白花）.md) | 妖精 | 303 |
-| <img class="pk-icon" src="icons/0778.png?v=3b43b0a4" loading="lazy"> | 0670 | [花叶蒂](0778_花叶蒂.md) | 妖精 | 371 |
-| <img class="pk-icon" src="icons/0844.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（蓝花）](0844_花叶蒂（蓝花）.md) | 妖精 | 371 |
-| <img class="pk-icon" src="icons/0845.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（橙花）](0845_花叶蒂（橙花）.md) | 妖精 | 371 |
-| <img class="pk-icon" src="icons/0846.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（黄花）](0846_花叶蒂（黄花）.md) | 妖精 | 371 |
-| <img class="pk-icon" src="icons/0847.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（白花）](0847_花叶蒂（白花）.md) | 妖精 | 371 |
-| <img class="pk-icon" src="icons/0848.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（永恒之花）](0848_花叶蒂（永恒之花）.md) | 妖精 | 551 |
-| <img class="pk-icon" src="icons/0779.png?v=892b181f" loading="lazy"> | 0671 | [花洁夫人](0779_花洁夫人.md) | 妖精 | 552 |
-| <img class="pk-icon" src="icons/0849.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（蓝花）](0849_花洁夫人（蓝花）.md) | 妖精 | 552 |
-| <img class="pk-icon" src="icons/0850.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（橙花）](0850_花洁夫人（橙花）.md) | 妖精 | 552 |
-| <img class="pk-icon" src="icons/0851.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（黄花）](0851_花洁夫人（黄花）.md) | 妖精 | 552 |
-| <img class="pk-icon" src="icons/0852.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（白花）](0852_花洁夫人（白花）.md) | 妖精 | 552 |
-| <img class="pk-icon" src="icons/0780.png?v=454f4d82" loading="lazy"> | 0672 | [坐骑小羊](0780_坐骑小羊.md) | 草 | 350 |
-| <img class="pk-icon" src="icons/0781.png?v=631ca921" loading="lazy"> | 0673 | [坐骑山羊](0781_坐骑山羊.md) | 草 | 531 |
-| <img class="pk-icon" src="icons/0782.png?v=9681b672" loading="lazy"> | 0674 | [顽皮熊猫](0782_顽皮熊猫.md) | 格斗 | 348 |
-| <img class="pk-icon" src="icons/0783.png?v=57bdfc03" loading="lazy"> | 0675 | [流氓熊猫](0783_流氓熊猫.md) | 格斗/恶 | 495 |
-| <img class="pk-icon" src="icons/0784.png?v=1143fd1b" loading="lazy"> | 0676 | [多丽米亚](0784_多丽米亚.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0859.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（心形造型）](0859_多丽米亚（心形造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0860.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（菱形造型）](0860_多丽米亚（菱形造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0861.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（星星造型）](0861_多丽米亚（星星造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0862.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（法老造型）](0862_多丽米亚（法老造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0863.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（歌舞伎造型）](0863_多丽米亚（歌舞伎造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0864.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（女王造型）](0864_多丽米亚（女王造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0865.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（淑女造型）](0865_多丽米亚（淑女造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0866.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（贵妇造型）](0866_多丽米亚（贵妇造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0867.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（闺秀造型）](0867_多丽米亚（闺秀造型）.md) | 一般 | 472 |
-| <img class="pk-icon" src="icons/0785.png?v=899e90f3" loading="lazy"> | 0677 | [妙喵](0785_妙喵.md) | 超能力 | 355 |
-| <img class="pk-icon" src="icons/0786.png?v=80be78dd" loading="lazy"> | 0678 | [超能妙喵](0786_超能妙喵.md) | 超能力 | 466 |
-| <img class="pk-icon" src="icons/0832.png?v=899e90f3" loading="lazy"> | 0678 | [超能妙喵（雌性）](0832_超能妙喵（雌性）.md) | 超能力 | 466 |
-| <img class="pk-icon" src="icons/0787.png?v=0dab3550" loading="lazy"> | 0679 | [独剑鞘](0787_独剑鞘.md) | 钢/幽灵 | 325 |
-| <img class="pk-icon" src="icons/0788.png?v=e2f1b32d" loading="lazy"> | 0680 | [双剑鞘](0788_双剑鞘.md) | 钢/幽灵 | 448 |
-| <img class="pk-icon" src="icons/0789.png?v=bd754e0a" loading="lazy"> | 0681 | [坚盾剑怪](0789_坚盾剑怪.md) | 钢/幽灵 | 520 |
-| <img class="pk-icon" src="icons/0833.png?v=e2f1b32d" loading="lazy"> | 0681 | [坚盾剑怪（刀剑形态）](0833_坚盾剑怪（刀剑形态）.md) | 钢/幽灵 | 520 |
-| <img class="pk-icon" src="icons/0790.png?v=47b137ac" loading="lazy"> | 0682 | [粉香香](0790_粉香香.md) | 妖精 | 341 |
-| <img class="pk-icon" src="icons/0791.png?v=81ac1ba5" loading="lazy"> | 0683 | [芳香精](0791_芳香精.md) | 妖精 | 462 |
-| <img class="pk-icon" src="icons/0792.png?v=a17957c4" loading="lazy"> | 0684 | [绵绵泡芙](0792_绵绵泡芙.md) | 妖精 | 341 |
-| <img class="pk-icon" src="icons/0793.png?v=8ea3ff66" loading="lazy"> | 0685 | [胖甜妮](0793_胖甜妮.md) | 妖精 | 480 |
-| <img class="pk-icon" src="icons/0794.png?v=f612c007" loading="lazy"> | 0686 | [好啦鱿](0794_好啦鱿.md) | 恶/超能力 | 288 |
-| <img class="pk-icon" src="icons/0795.png?v=cef9abbe" loading="lazy"> | 0687 | [乌贼王](0795_乌贼王.md) | 恶/超能力 | 482 |
-| <img class="pk-icon" src="icons/0796.png?v=1c959b3f" loading="lazy"> | 0688 | [龟脚脚](0796_龟脚脚.md) | 岩石/水 | 306 |
-| <img class="pk-icon" src="icons/0797.png?v=44a26b28" loading="lazy"> | 0689 | [龟足巨铠](0797_龟足巨铠.md) | 岩石/水 | 500 |
-| <img class="pk-icon" src="icons/0798.png?v=30c090c0" loading="lazy"> | 0690 | [垃垃藻](0798_垃垃藻.md) | 毒/水 | 320 |
-| <img class="pk-icon" src="icons/0799.png?v=fed55027" loading="lazy"> | 0691 | [毒藻龙](0799_毒藻龙.md) | 毒/龙 | 494 |
-| <img class="pk-icon" src="icons/0800.png?v=f3e447f8" loading="lazy"> | 0692 | [铁臂枪虾](0800_铁臂枪虾.md) | 水 | 330 |
-| <img class="pk-icon" src="icons/0801.png?v=37797f64" loading="lazy"> | 0693 | [钢炮臂虾](0801_钢炮臂虾.md) | 水 | 500 |
-| <img class="pk-icon" src="icons/0802.png?v=a8f0f812" loading="lazy"> | 0694 | [伞电蜥](0802_伞电蜥.md) | 电/一般 | 289 |
-| <img class="pk-icon" src="icons/0803.png?v=13b180ba" loading="lazy"> | 0695 | [光电伞蜥](0803_光电伞蜥.md) | 电/一般 | 481 |
-| <img class="pk-icon" src="icons/0804.png?v=986f9799" loading="lazy"> | 0696 | [宝宝暴龙](0804_宝宝暴龙.md) | 岩石/龙 | 362 |
-| <img class="pk-icon" src="icons/0805.png?v=22b472ae" loading="lazy"> | 0697 | [怪颚龙](0805_怪颚龙.md) | 岩石/龙 | 521 |
-| <img class="pk-icon" src="icons/0806.png?v=0788a702" loading="lazy"> | 0698 | [冰雪龙](0806_冰雪龙.md) | 岩石/冰 | 362 |
-| <img class="pk-icon" src="icons/0807.png?v=5a581b7f" loading="lazy"> | 0699 | [冰雪巨龙](0807_冰雪巨龙.md) | 岩石/冰 | 521 |
-| <img class="pk-icon" src="icons/0808.png?v=56f0dbfb" loading="lazy"> | 0700 | [仙子伊布](0808_仙子伊布.md) | 妖精 | 525 |
-| <img class="pk-icon" src="icons/0809.png?v=da396d08" loading="lazy"> | 0701 | [摔角鹰人](0809_摔角鹰人.md) | 格斗/飞行 | 500 |
-| <img class="pk-icon" src="icons/0810.png?v=7b90467d" loading="lazy"> | 0702 | [咚咚鼠](0810_咚咚鼠.md) | 电/妖精 | 431 |
-| <img class="pk-icon" src="icons/0811.png?v=b9d488b4" loading="lazy"> | 0703 | [小碎钻](0811_小碎钻.md) | 岩石/妖精 | 500 |
-| <img class="pk-icon" src="icons/0812.png?v=66885b68" loading="lazy"> | 0704 | [黏黏宝](0812_黏黏宝.md) | 龙 | 300 |
-| <img class="pk-icon" src="icons/0813.png?v=2a4b44c2" loading="lazy"> | 0705 | [黏美儿](0813_黏美儿.md) | 龙 | 452 |
-| <img class="pk-icon" src="icons/1247.png?v=24b61639" loading="lazy"> | 0705 | [黏美儿（洗翠的样子）](1247_黏美儿（洗翠的样子）.md) | 龙/钢 | 452 |
-| <img class="pk-icon" src="icons/0814.png?v=555193d1" loading="lazy"> | 0706 | [黏美龙](0814_黏美龙.md) | 龙 | 600 |
-| <img class="pk-icon" src="icons/1248.png?v=0fd50fac" loading="lazy"> | 0706 | [黏美龙（洗翠的样子）](1248_黏美龙（洗翠的样子）.md) | 龙/钢 | 600 |
-| <img class="pk-icon" src="icons/0815.png?v=cdb50b64" loading="lazy"> | 0707 | [钥圈儿](0815_钥圈儿.md) | 钢/妖精 | 470 |
-| <img class="pk-icon" src="icons/0816.png?v=c9b0af1a" loading="lazy"> | 0708 | [小木灵](0816_小木灵.md) | 幽灵/草 | 309 |
-| <img class="pk-icon" src="icons/0817.png?v=cf785a72" loading="lazy"> | 0709 | [朽木妖](0817_朽木妖.md) | 幽灵/草 | 474 |
-| <img class="pk-icon" src="icons/0818.png?v=d1da4c7f" loading="lazy"> | 0710 | [南瓜精](0818_南瓜精.md) | 幽灵/草 | 335 |
-| <img class="pk-icon" src="icons/0853.png?v=cf785a72" loading="lazy"> | 0710 | [南瓜精（特大尺寸）](0853_南瓜精（特大尺寸）.md) | 幽灵/草 | 335 |
-| <img class="pk-icon" src="icons/0854.png?v=cf785a72" loading="lazy"> | 0710 | [南瓜精（大尺寸）](0854_南瓜精（大尺寸）.md) | 幽灵/草 | 335 |
-| <img class="pk-icon" src="icons/0855.png?v=cf785a72" loading="lazy"> | 0710 | [南瓜精（普通尺寸）](0855_南瓜精（普通尺寸）.md) | 幽灵/草 | 335 |
-| <img class="pk-icon" src="icons/0819.png?v=748d2dac" loading="lazy"> | 0711 | [南瓜怪人](0819_南瓜怪人.md) | 幽灵/草 | 494 |
-| <img class="pk-icon" src="icons/0856.png?v=d1da4c7f" loading="lazy"> | 0711 | [南瓜怪人（特大尺寸）](0856_南瓜怪人（特大尺寸）.md) | 幽灵/草 | 494 |
-| <img class="pk-icon" src="icons/0857.png?v=d1da4c7f" loading="lazy"> | 0711 | [南瓜怪人（大尺寸）](0857_南瓜怪人（大尺寸）.md) | 幽灵/草 | 494 |
-| <img class="pk-icon" src="icons/0858.png?v=d1da4c7f" loading="lazy"> | 0711 | [南瓜怪人（普通尺寸）](0858_南瓜怪人（普通尺寸）.md) | 幽灵/草 | 494 |
-| <img class="pk-icon" src="icons/0820.png?v=39bf44f8" loading="lazy"> | 0712 | [冰宝](0820_冰宝.md) | 冰 | 304 |
-| <img class="pk-icon" src="icons/0821.png?v=8fb2c222" loading="lazy"> | 0713 | [冰岩怪](0821_冰岩怪.md) | 冰 | 514 |
-| <img class="pk-icon" src="icons/1249.png?v=2537cd56" loading="lazy"> | 0713 | [冰岩怪（洗翠的样子）](1249_冰岩怪（洗翠的样子）.md) | 冰/岩石 | 514 |
-| <img class="pk-icon" src="icons/0822.png?v=2686aed6" loading="lazy"> | 0714 | [嗡蝠](0822_嗡蝠.md) | 飞行/龙 | 245 |
-| <img class="pk-icon" src="icons/0823.png?v=540c4bd8" loading="lazy"> | 0715 | [音波龙](0823_音波龙.md) | 飞行/龙 | 535 |
-| <img class="pk-icon" src="icons/0824.png?v=150ce0e0" loading="lazy"> | 0716 | [哲尔尼亚斯](0824_哲尔尼亚斯.md) | 妖精 | 680 |
-| <img class="pk-icon" src="icons/1101.png?v=540c4bd8" loading="lazy"> | 0716 | [哲尔尼亚斯（放松模式）](1101_哲尔尼亚斯（放松模式）.md) | 妖精 | 680 |
-| <img class="pk-icon" src="icons/0825.png?v=72119897" loading="lazy"> | 0717 | [伊裴尔塔尔](0825_伊裴尔塔尔.md) | 恶/飞行 | 680 |
-| <img class="pk-icon" src="icons/0826.png?v=83caa38e" loading="lazy"> | 0718 | [基格尔德](0826_基格尔德.md) | 龙/地面 | 600 |
-| <img class="pk-icon" src="icons/0835.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（细胞）](0835_基格尔德（细胞）.md) | 龙/地面 | 300 |
-| <img class="pk-icon" src="icons/0836.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（核心）](0836_基格尔德（核心）.md) | 龙/地面 | 450 |
-| <img class="pk-icon" src="icons/0837.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（10）](0837_基格尔德（10）.md) | 龙/地面 | 486 |
-| <img class="pk-icon" src="icons/0838.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（完全体形态）](0838_基格尔德（完全体形态）.md) | 龙/地面 | 708 |
-| <img class="pk-icon" src="icons/0827.png?v=f9faba51" loading="lazy"> | 0719 | [蒂安希](0827_蒂安希.md) | 岩石/妖精 | 600 |
-| <img class="pk-icon" src="icons/0918.png?v=fef3a905" loading="lazy"> | 0719 | [超级蒂安希](0918_超级蒂安希.md) | 岩石/妖精 | 700 |
-| <img class="pk-icon" src="icons/0828.png?v=cb1b4404" loading="lazy"> | 0720 | [胡帕](0828_胡帕.md) | 超能力/幽灵 | 600 |
-| <img class="pk-icon" src="icons/0829.png?v=f9faba51" loading="lazy"> | 0720 | [胡帕（解放的样子）](0829_胡帕（解放的样子）.md) | 超能力/恶 | 680 |
-| <img class="pk-icon" src="icons/0830.png?v=aba00dda" loading="lazy"> | 0721 | [波尔凯尼恩](0830_波尔凯尼恩.md) | 火/水 | 600 |
-| <img class="pk-icon" src="icons/0939.png?v=6c0b4135" loading="lazy"> | 0722 | [木木枭](0939_木木枭.md) | 草/飞行 | 320 |
-| <img class="pk-icon" src="icons/0940.png?v=eea658d7" loading="lazy"> | 0723 | [投羽枭](0940_投羽枭.md) | 草/飞行 | 420 |
-| <img class="pk-icon" src="icons/0941.png?v=ca4d9414" loading="lazy"> | 0724 | [狙射树枭](0941_狙射树枭.md) | 草/幽灵 | 530 |
-| <img class="pk-icon" src="icons/1250.png?v=d92ef0ad" loading="lazy"> | 0724 | [狙射树枭（洗翠的样子）](1250_狙射树枭（洗翠的样子）.md) | 草/格斗 | 530 |
-| <img class="pk-icon" src="icons/0942.png?v=85577791" loading="lazy"> | 0725 | [火斑喵](0942_火斑喵.md) | 火 | 320 |
-| <img class="pk-icon" src="icons/0943.png?v=27054ffc" loading="lazy"> | 0726 | [炎热喵](0943_炎热喵.md) | 火 | 420 |
-| <img class="pk-icon" src="icons/0944.png?v=a11cee4d" loading="lazy"> | 0727 | [炽焰咆哮虎](0944_炽焰咆哮虎.md) | 火/恶 | 530 |
-| <img class="pk-icon" src="icons/0945.png?v=3b90246e" loading="lazy"> | 0728 | [球球海狮](0945_球球海狮.md) | 水 | 320 |
-| <img class="pk-icon" src="icons/0946.png?v=e40258f8" loading="lazy"> | 0729 | [花漾海狮](0946_花漾海狮.md) | 水 | 420 |
-| <img class="pk-icon" src="icons/0947.png?v=37a5e824" loading="lazy"> | 0730 | [西狮海壬](0947_西狮海壬.md) | 水/妖精 | 530 |
-| <img class="pk-icon" src="icons/0948.png?v=09e4b457" loading="lazy"> | 0731 | [小笃儿](0948_小笃儿.md) | 一般/飞行 | 265 |
-| <img class="pk-icon" src="icons/0949.png?v=20bc6269" loading="lazy"> | 0732 | [喇叭啄鸟](0949_喇叭啄鸟.md) | 一般/飞行 | 355 |
-| <img class="pk-icon" src="icons/0950.png?v=1db16e3f" loading="lazy"> | 0733 | [铳嘴大鸟](0950_铳嘴大鸟.md) | 一般/飞行 | 485 |
-| <img class="pk-icon" src="icons/0951.png?v=9a854953" loading="lazy"> | 0734 | [猫鼬少](0951_猫鼬少.md) | 一般 | 253 |
-| <img class="pk-icon" src="icons/0952.png?v=9c57dc6c" loading="lazy"> | 0735 | [猫鼬探长](0952_猫鼬探长.md) | 一般 | 418 |
-| <img class="pk-icon" src="icons/0953.png?v=744d1b73" loading="lazy"> | 0736 | [强颚鸡母虫](0953_强颚鸡母虫.md) | 虫 | 300 |
-| <img class="pk-icon" src="icons/0954.png?v=6768eeb1" loading="lazy"> | 0737 | [虫电宝](0954_虫电宝.md) | 虫/电 | 400 |
-| <img class="pk-icon" src="icons/0955.png?v=3ae7c0b9" loading="lazy"> | 0738 | [锹农炮虫](0955_锹农炮虫.md) | 虫/电 | 500 |
-| <img class="pk-icon" src="icons/0956.png?v=56e8d6cd" loading="lazy"> | 0739 | [好胜蟹](0956_好胜蟹.md) | 格斗 | 338 |
-| <img class="pk-icon" src="icons/0957.png?v=58d158b2" loading="lazy"> | 0740 | [好胜毛蟹](0957_好胜毛蟹.md) | 格斗/冰 | 478 |
-| <img class="pk-icon" src="icons/0958.png?v=cc257e5e" loading="lazy"> | 0741 | [花舞鸟](0958_花舞鸟.md) | 火/飞行 | 476 |
-| <img class="pk-icon" src="icons/1043.png?v=58d158b2" loading="lazy"> | 0741 | [花舞鸟（呼拉舞风格）](1043_花舞鸟（呼拉舞风格）.md) | 电/飞行 | 476 |
-| <img class="pk-icon" src="icons/1044.png?v=58d158b2" loading="lazy"> | 0741 | [花舞鸟（啪滋啪滋风格）](1044_花舞鸟（啪滋啪滋风格）.md) | 超能力/飞行 | 476 |
-| <img class="pk-icon" src="icons/1045.png?v=58d158b2" loading="lazy"> | 0741 | [花舞鸟（和服舞风格）](1045_花舞鸟（和服舞风格）.md) | 幽灵/飞行 | 476 |
-| <img class="pk-icon" src="icons/0959.png?v=ec880b5f" loading="lazy"> | 0742 | [萌虻](0959_萌虻.md) | 虫/妖精 | 304 |
-| <img class="pk-icon" src="icons/0960.png?v=1bd4dabf" loading="lazy"> | 0743 | [蝶结萌虻](0960_蝶结萌虻.md) | 虫/妖精 | 464 |
-| <img class="pk-icon" src="icons/0961.png?v=4b7edcf1" loading="lazy"> | 0744 | [岩狗狗](0961_岩狗狗.md) | 岩石 | 280 |
-| <img class="pk-icon" src="icons/0962.png?v=d52cd8db" loading="lazy"> | 0745 | [鬃岩狼人](0962_鬃岩狼人.md) | 岩石 | 487 |
-| <img class="pk-icon" src="icons/1046.png?v=4b7edcf1" loading="lazy"> | 0745 | [鬃岩狼人（黑夜的样子）](1046_鬃岩狼人（黑夜的样子）.md) | 岩石 | 487 |
-| <img class="pk-icon" src="icons/1082.png?v=4b7edcf1" loading="lazy"> | 0745 | [鬃岩狼人（黄昏的样子）](1082_鬃岩狼人（黄昏的样子）.md) | 岩石 | 487 |
-| <img class="pk-icon" src="icons/0963.png?v=f86ace1f" loading="lazy"> | 0746 | [弱丁鱼](0963_弱丁鱼.md) | 水 | 175 |
-| <img class="pk-icon" src="icons/1047.png?v=d52cd8db" loading="lazy"> | 0746 | [弱丁鱼（鱼群的样子）](1047_弱丁鱼（鱼群的样子）.md) | 水 | 620 |
-| <img class="pk-icon" src="icons/0964.png?v=cbb108fc" loading="lazy"> | 0747 | [好坏星](0964_好坏星.md) | 毒/水 | 305 |
-| <img class="pk-icon" src="icons/0965.png?v=22b6602d" loading="lazy"> | 0748 | [超坏星](0965_超坏星.md) | 毒/水 | 495 |
-| <img class="pk-icon" src="icons/0966.png?v=f778eba3" loading="lazy"> | 0749 | [泥驴仔](0966_泥驴仔.md) | 地面 | 385 |
-| <img class="pk-icon" src="icons/0967.png?v=8e22ecdf" loading="lazy"> | 0750 | [重泥挽马](0967_重泥挽马.md) | 地面 | 500 |
-| <img class="pk-icon" src="icons/0968.png?v=44e7a36a" loading="lazy"> | 0751 | [滴蛛](0968_滴蛛.md) | 水/虫 | 269 |
-| <img class="pk-icon" src="icons/0969.png?v=11492f99" loading="lazy"> | 0752 | [滴蛛霸](0969_滴蛛霸.md) | 水/虫 | 454 |
-| <img class="pk-icon" src="icons/0970.png?v=1a3a6ed3" loading="lazy"> | 0753 | [伪螳草](0970_伪螳草.md) | 草 | 250 |
-| <img class="pk-icon" src="icons/0971.png?v=1cf6caa6" loading="lazy"> | 0754 | [兰螳花](0971_兰螳花.md) | 草 | 480 |
-| <img class="pk-icon" src="icons/0972.png?v=d4e8dc3e" loading="lazy"> | 0755 | [睡睡菇](0972_睡睡菇.md) | 草/妖精 | 285 |
-| <img class="pk-icon" src="icons/0973.png?v=9bd03fbb" loading="lazy"> | 0756 | [灯罩夜菇](0973_灯罩夜菇.md) | 草/妖精 | 405 |
-| <img class="pk-icon" src="icons/0974.png?v=dac32373" loading="lazy"> | 0757 | [夜盗火蜥](0974_夜盗火蜥.md) | 毒/火 | 320 |
-| <img class="pk-icon" src="icons/0975.png?v=2430ee01" loading="lazy"> | 0758 | [焰后蜥](0975_焰后蜥.md) | 毒/火 | 480 |
-| <img class="pk-icon" src="icons/0976.png?v=3cbb215f" loading="lazy"> | 0759 | [童偶熊](0976_童偶熊.md) | 一般/格斗 | 340 |
-| <img class="pk-icon" src="icons/0977.png?v=c7aba45b" loading="lazy"> | 0760 | [穿着熊](0977_穿着熊.md) | 一般/格斗 | 500 |
-| <img class="pk-icon" src="icons/0978.png?v=f218fdc6" loading="lazy"> | 0761 | [甜竹竹](0978_甜竹竹.md) | 草 | 210 |
-| <img class="pk-icon" src="icons/0979.png?v=633a167a" loading="lazy"> | 0762 | [甜舞妮](0979_甜舞妮.md) | 草 | 290 |
-| <img class="pk-icon" src="icons/0980.png?v=cf4b7ab9" loading="lazy"> | 0763 | [甜冷美后](0980_甜冷美后.md) | 草 | 510 |
-| <img class="pk-icon" src="icons/0981.png?v=3db55daa" loading="lazy"> | 0764 | [花疗环环](0981_花疗环环.md) | 妖精 | 485 |
-| <img class="pk-icon" src="icons/0982.png?v=7ffb7345" loading="lazy"> | 0765 | [智挥猩](0982_智挥猩.md) | 一般/超能力 | 490 |
-| <img class="pk-icon" src="icons/0983.png?v=abef682f" loading="lazy"> | 0766 | [投掷猴](0983_投掷猴.md) | 格斗 | 490 |
-| <img class="pk-icon" src="icons/0984.png?v=e6cc6f2b" loading="lazy"> | 0767 | [胆小虫](0984_胆小虫.md) | 虫/水 | 230 |
-| <img class="pk-icon" src="icons/0985.png?v=229c1c4f" loading="lazy"> | 0768 | [具甲武者](0985_具甲武者.md) | 虫/水 | 530 |
-| <img class="pk-icon" src="icons/0986.png?v=a2f932f8" loading="lazy"> | 0769 | [沙丘娃](0986_沙丘娃.md) | 幽灵/地面 | 320 |
-| <img class="pk-icon" src="icons/0987.png?v=8a524ce4" loading="lazy"> | 0770 | [噬沙堡爷](0987_噬沙堡爷.md) | 幽灵/地面 | 480 |
-| <img class="pk-icon" src="icons/0988.png?v=09d71ec5" loading="lazy"> | 0771 | [拳海参](0988_拳海参.md) | 水 | 410 |
-| <img class="pk-icon" src="icons/0989.png?v=3ee9b9d7" loading="lazy"> | 0772 | [属性:空](0989_属性空.md) | 一般 | 534 |
-| <img class="pk-icon" src="icons/0990.png?v=d3a174c8" loading="lazy"> | 0773 | [银伴战兽](0990_银伴战兽.md) | 一般 | 570 |
-| <img class="pk-icon" src="icons/1048.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（格斗属性）](1048_银伴战兽（格斗属性）.md) | 格斗 | 570 |
-| <img class="pk-icon" src="icons/1049.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（飞行属性）](1049_银伴战兽（飞行属性）.md) | 飞行 | 570 |
-| <img class="pk-icon" src="icons/1050.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（毒属性）](1050_银伴战兽（毒属性）.md) | 毒 | 570 |
-| <img class="pk-icon" src="icons/1051.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（地面属性）](1051_银伴战兽（地面属性）.md) | 地面 | 570 |
-| <img class="pk-icon" src="icons/1052.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（岩石属性）](1052_银伴战兽（岩石属性）.md) | 岩石 | 570 |
-| <img class="pk-icon" src="icons/1053.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（虫属性）](1053_银伴战兽（虫属性）.md) | 虫 | 570 |
-| <img class="pk-icon" src="icons/1054.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（幽灵属性）](1054_银伴战兽（幽灵属性）.md) | 幽灵 | 570 |
-| <img class="pk-icon" src="icons/1055.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（钢属性）](1055_银伴战兽（钢属性）.md) | 钢 | 570 |
-| <img class="pk-icon" src="icons/1056.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（火属性）](1056_银伴战兽（火属性）.md) | 火 | 570 |
-| <img class="pk-icon" src="icons/1057.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（水属性）](1057_银伴战兽（水属性）.md) | 水 | 570 |
-| <img class="pk-icon" src="icons/1058.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（草属性）](1058_银伴战兽（草属性）.md) | 草 | 570 |
-| <img class="pk-icon" src="icons/1059.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（电属性）](1059_银伴战兽（电属性）.md) | 电 | 570 |
-| <img class="pk-icon" src="icons/1060.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（超能力属性）](1060_银伴战兽（超能力属性）.md) | 超能力 | 570 |
-| <img class="pk-icon" src="icons/1061.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（冰属性）](1061_银伴战兽（冰属性）.md) | 冰 | 570 |
-| <img class="pk-icon" src="icons/1062.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（龙属性）](1062_银伴战兽（龙属性）.md) | 龙 | 570 |
-| <img class="pk-icon" src="icons/1063.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（恶属性）](1063_银伴战兽（恶属性）.md) | 恶 | 570 |
-| <img class="pk-icon" src="icons/1064.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（妖精属性）](1064_银伴战兽（妖精属性）.md) | 妖精 | 570 |
-| <img class="pk-icon" src="icons/0991.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](0991_小陨星.md) | 岩石/飞行 | 440 |
-| <img class="pk-icon" src="icons/1065.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1065_小陨星.md) | 岩石/飞行 | 500 |
-| <img class="pk-icon" src="icons/1066.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1066_小陨星.md) | 岩石/飞行 | 500 |
-| <img class="pk-icon" src="icons/1067.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1067_小陨星.md) | 岩石/飞行 | 500 |
-| <img class="pk-icon" src="icons/1068.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1068_小陨星.md) | 岩石/飞行 | 500 |
-| <img class="pk-icon" src="icons/1069.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1069_小陨星.md) | 岩石/飞行 | 500 |
-| <img class="pk-icon" src="icons/1070.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1070_小陨星.md) | 岩石/飞行 | 500 |
-| <img class="pk-icon" src="icons/1071.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1071_小陨星.md) | 岩石/飞行 | 500 |
-| <img class="pk-icon" src="icons/0992.png?v=b24d67b6" loading="lazy"> | 0775 | [树枕尾熊](0992_树枕尾熊.md) | 一般 | 480 |
-| <img class="pk-icon" src="icons/0993.png?v=05fa30b9" loading="lazy"> | 0776 | [爆焰龟兽](0993_爆焰龟兽.md) | 火/龙 | 485 |
-| <img class="pk-icon" src="icons/0994.png?v=17976fb8" loading="lazy"> | 0777 | [托戈德玛尔](0994_托戈德玛尔.md) | 电/钢 | 435 |
-| <img class="pk-icon" src="icons/0995.png?v=0d3134dd" loading="lazy"> | 0778 | [谜拟Q](0995_谜拟Q.md) | 幽灵/妖精 | 476 |
-| <img class="pk-icon" src="icons/1072.png?v=17976fb8" loading="lazy"> | 0778 | [谜拟Q（破布的样子）](1072_谜拟Q（破布的样子）.md) | 幽灵/妖精 | 476 |
-| <img class="pk-icon" src="icons/0996.png?v=420d0169" loading="lazy"> | 0779 | [磨牙彩皮鱼](0996_磨牙彩皮鱼.md) | 水/超能力 | 475 |
-| <img class="pk-icon" src="icons/0997.png?v=9efc95e9" loading="lazy"> | 0780 | [老翁龙](0997_老翁龙.md) | 一般/龙 | 485 |
-| <img class="pk-icon" src="icons/0998.png?v=604ca252" loading="lazy"> | 0781 | [破破舵轮](0998_破破舵轮.md) | 幽灵/草 | 517 |
-| <img class="pk-icon" src="icons/0999.png?v=fb77f0df" loading="lazy"> | 0782 | [心鳞宝](0999_心鳞宝.md) | 龙 | 300 |
-| <img class="pk-icon" src="icons/1000.png?v=bdd50a6a" loading="lazy"> | 0783 | [鳞甲龙](1000_鳞甲龙.md) | 龙/格斗 | 420 |
-| <img class="pk-icon" src="icons/1001.png?v=17ba8392" loading="lazy"> | 0784 | [杖尾鳞甲龙](1001_杖尾鳞甲龙.md) | 龙/格斗 | 600 |
-| <img class="pk-icon" src="icons/1002.png?v=824809f0" loading="lazy"> | 0785 | [卡璞.鸣鸣](1002_卡璞.鸣鸣.md) | 电/妖精 | 570 |
-| <img class="pk-icon" src="icons/1003.png?v=d0f2415d" loading="lazy"> | 0786 | [卡璞.蝶蝶](1003_卡璞.蝶蝶.md) | 超能力/妖精 | 570 |
-| <img class="pk-icon" src="icons/1004.png?v=da5d1dab" loading="lazy"> | 0787 | [卡璞.哞哞](1004_卡璞.哞哞.md) | 草/妖精 | 570 |
-| <img class="pk-icon" src="icons/1005.png?v=2cb08cdc" loading="lazy"> | 0788 | [卡璞.鳍鳍](1005_卡璞.鳍鳍.md) | 水/妖精 | 570 |
-| <img class="pk-icon" src="icons/1006.png?v=3472ce49" loading="lazy"> | 0789 | [科斯莫古](1006_科斯莫古.md) | 超能力 | 200 |
-| <img class="pk-icon" src="icons/1007.png?v=9c579f5e" loading="lazy"> | 0790 | [科斯莫姆](1007_科斯莫姆.md) | 超能力 | 400 |
-| <img class="pk-icon" src="icons/1008.png?v=d8ae691d" loading="lazy"> | 0791 | [索尔迦雷欧](1008_索尔迦雷欧.md) | 超能力/钢 | 680 |
-| <img class="pk-icon" src="icons/1009.png?v=ecf99f77" loading="lazy"> | 0792 | [露奈雅拉](1009_露奈雅拉.md) | 超能力/幽灵 | 680 |
-| <img class="pk-icon" src="icons/1010.png?v=2007203f" loading="lazy"> | 0793 | [虚吾伊德](1010_虚吾伊德.md) | 岩石/毒 | 570 |
-| <img class="pk-icon" src="icons/1011.png?v=64b89010" loading="lazy"> | 0794 | [爆肌蚊](1011_爆肌蚊.md) | 虫/格斗 | 570 |
-| <img class="pk-icon" src="icons/1012.png?v=0fcceff7" loading="lazy"> | 0795 | [费洛美螂](1012_费洛美螂.md) | 虫/格斗 | 570 |
-| <img class="pk-icon" src="icons/1013.png?v=37ea4c5a" loading="lazy"> | 0796 | [电束木](1013_电束木.md) | 电 | 570 |
-| <img class="pk-icon" src="icons/1014.png?v=e6665862" loading="lazy"> | 0797 | [铁火辉夜](1014_铁火辉夜.md) | 钢/飞行 | 570 |
-| <img class="pk-icon" src="icons/1015.png?v=6cdfb7df" loading="lazy"> | 0798 | [纸御剑](1015_纸御剑.md) | 草/钢 | 570 |
-| <img class="pk-icon" src="icons/1016.png?v=2e6e0a63" loading="lazy"> | 0799 | [恶食大王](1016_恶食大王.md) | 恶/龙 | 570 |
-| <img class="pk-icon" src="icons/1017.png?v=9ebb405b" loading="lazy"> | 0800 | [奈克洛兹玛](1017_奈克洛兹玛.md) | 超能力 | 600 |
-| <img class="pk-icon" src="icons/1079.png?v=2e6e0a63" loading="lazy"> | 0800 | [奈克洛兹玛（黄昏之鬃）](1079_奈克洛兹玛（黄昏之鬃）.md) | 超能力/钢 | 680 |
-| <img class="pk-icon" src="icons/1080.png?v=2e6e0a63" loading="lazy"> | 0800 | [奈克洛兹玛（拂晓之翼）](1080_奈克洛兹玛（拂晓之翼）.md) | 超能力/幽灵 | 680 |
-| <img class="pk-icon" src="icons/1081.png?v=2e6e0a63" loading="lazy"> | 0800 | [究极奈克洛兹玛](1081_究极奈克洛兹玛.md) | 超能力/龙 | 754 |
-| <img class="pk-icon" src="icons/1018.png?v=ecd086ee" loading="lazy"> | 0801 | [玛机雅娜](1018_玛机雅娜.md) | 钢/妖精 | 600 |
-| <img class="pk-icon" src="icons/1073.png?v=9ebb405b" loading="lazy"> | 0801 | [玛机雅娜（500年前的样子）](1073_玛机雅娜（500年前的样子）.md) | 钢/妖精 | 600 |
-| <img class="pk-icon" src="icons/1019.png?v=3b863274" loading="lazy"> | 0802 | [玛夏多](1019_玛夏多.md) | 格斗/幽灵 | 600 |
-| <img class="pk-icon" src="icons/1074.png?v=243506df" loading="lazy"> | 0803 | [毒贝比](1074_毒贝比.md) | 毒 | 420 |
-| <img class="pk-icon" src="icons/1075.png?v=ae7b0364" loading="lazy"> | 0804 | [四颚针龙](1075_四颚针龙.md) | 毒/龙 | 540 |
-| <img class="pk-icon" src="icons/1076.png?v=c2cb67f8" loading="lazy"> | 0805 | [垒磊石](1076_垒磊石.md) | 岩石/钢 | 570 |
-| <img class="pk-icon" src="icons/1077.png?v=dc4ecd7f" loading="lazy"> | 0806 | [砰头小丑](1077_砰头小丑.md) | 火/幽灵 | 570 |
-| <img class="pk-icon" src="icons/1078.png?v=99b29ce8" loading="lazy"> | 0807 | [捷拉奥拉](1078_捷拉奥拉.md) | 电 | 600 |
-| <img class="pk-icon" src="icons/1083.png?v=db7ee7d9" loading="lazy"> | 0808 | [美录坦](1083_美录坦.md) | 钢 | 300 |
-| <img class="pk-icon" src="icons/1084.png?v=b52c4a59" loading="lazy"> | 0809 | [美录梅塔](1084_美录梅塔.md) | 钢 | 600 |
-| <img class="pk-icon" src="icons/1273.png?v=db7ee7d9" loading="lazy"> | 0809 | [超极巨化美录梅塔](1273_超极巨化美录梅塔.md) | 钢 | 600 |
-| <img class="pk-icon" src="icons/1102.png?v=81c101f5" loading="lazy"> | 0810 | [敲音猴](1102_敲音猴.md) | 草 | 310 |
-| <img class="pk-icon" src="icons/1103.png?v=b86c0ffe" loading="lazy"> | 0811 | [啪咚猴](1103_啪咚猴.md) | 草 | 420 |
-| <img class="pk-icon" src="icons/1104.png?v=abb97f8d" loading="lazy"> | 0812 | [轰擂金刚猩](1104_轰擂金刚猩.md) | 草 | 530 |
-| <img class="pk-icon" src="icons/1274.png?v=b86c0ffe" loading="lazy"> | 0812 | [超极巨化轰擂金刚猩](1274_超极巨化轰擂金刚猩.md) | 草 | 530 |
-| <img class="pk-icon" src="icons/1105.png?v=93af90b6" loading="lazy"> | 0813 | [炎兔儿](1105_炎兔儿.md) | 火 | 310 |
-| <img class="pk-icon" src="icons/1106.png?v=ff30fcc8" loading="lazy"> | 0814 | [腾蹴小将](1106_腾蹴小将.md) | 火 | 420 |
-| <img class="pk-icon" src="icons/1107.png?v=39540e33" loading="lazy"> | 0815 | [闪焰王牌](1107_闪焰王牌.md) | 火 | 530 |
-| <img class="pk-icon" src="icons/1275.png?v=ff30fcc8" loading="lazy"> | 0815 | [超极巨化闪焰王牌](1275_超极巨化闪焰王牌.md) | 火 | 530 |
-| <img class="pk-icon" src="icons/1108.png?v=c8a892ed" loading="lazy"> | 0816 | [泪眼蜥](1108_泪眼蜥.md) | 水 | 310 |
-| <img class="pk-icon" src="icons/1109.png?v=80db3d97" loading="lazy"> | 0817 | [变涩蜥](1109_变涩蜥.md) | 水 | 420 |
-| <img class="pk-icon" src="icons/1110.png?v=88b94009" loading="lazy"> | 0818 | [千面避役](1110_千面避役.md) | 水 | 530 |
-| <img class="pk-icon" src="icons/1276.png?v=80db3d97" loading="lazy"> | 0818 | [超极巨化千面避役](1276_超极巨化千面避役.md) | 水 | 530 |
-| <img class="pk-icon" src="icons/1111.png?v=753b8fbf" loading="lazy"> | 0819 | [贪心栗鼠](1111_贪心栗鼠.md) | 一般 | 275 |
-| <img class="pk-icon" src="icons/1112.png?v=f7cad891" loading="lazy"> | 0820 | [藏饱栗鼠](1112_藏饱栗鼠.md) | 一般 | 460 |
-| <img class="pk-icon" src="icons/1113.png?v=2d1ef754" loading="lazy"> | 0821 | [稚山雀](1113_稚山雀.md) | 飞行 | 245 |
-| <img class="pk-icon" src="icons/1114.png?v=75b52039" loading="lazy"> | 0822 | [蓝鸦](1114_蓝鸦.md) | 飞行 | 365 |
-| <img class="pk-icon" src="icons/1115.png?v=d091b58c" loading="lazy"> | 0823 | [钢铠鸦](1115_钢铠鸦.md) | 飞行/钢 | 495 |
-| <img class="pk-icon" src="icons/1277.png?v=75b52039" loading="lazy"> | 0823 | [超极巨化钢铠鸦](1277_超极巨化钢铠鸦.md) | 飞行/钢 | 495 |
-| <img class="pk-icon" src="icons/1116.png?v=ced80541" loading="lazy"> | 0824 | [索侦虫](1116_索侦虫.md) | 虫 | 180 |
-| <img class="pk-icon" src="icons/1117.png?v=ff92c9fb" loading="lazy"> | 0825 | [天罩虫](1117_天罩虫.md) | 虫/超能力 | 335 |
-| <img class="pk-icon" src="icons/1118.png?v=f95d6db1" loading="lazy"> | 0826 | [以欧路普](1118_以欧路普.md) | 虫/超能力 | 505 |
-| <img class="pk-icon" src="icons/1278.png?v=ff92c9fb" loading="lazy"> | 0826 | [超极巨化以欧路普](1278_超极巨化以欧路普.md) | 虫/超能力 | 505 |
-| <img class="pk-icon" src="icons/1119.png?v=d8758f3d" loading="lazy"> | 0827 | [偷儿狐](1119_偷儿狐.md) | 恶 | 245 |
-| <img class="pk-icon" src="icons/1120.png?v=b54fdf3b" loading="lazy"> | 0828 | [狐大盗](1120_狐大盗.md) | 恶 | 455 |
-| <img class="pk-icon" src="icons/1121.png?v=e303dae7" loading="lazy"> | 0829 | [幼棉棉](1121_幼棉棉.md) | 草 | 250 |
-| <img class="pk-icon" src="icons/1122.png?v=245f2b5b" loading="lazy"> | 0830 | [白蓬蓬](1122_白蓬蓬.md) | 草 | 460 |
-| <img class="pk-icon" src="icons/1123.png?v=d062b868" loading="lazy"> | 0831 | [毛辫羊](1123_毛辫羊.md) | 一般 | 270 |
-| <img class="pk-icon" src="icons/1124.png?v=b0d6cca7" loading="lazy"> | 0832 | [毛毛角羊](1124_毛毛角羊.md) | 一般 | 490 |
-| <img class="pk-icon" src="icons/1125.png?v=ad13fd2f" loading="lazy"> | 0833 | [咬咬龟](1125_咬咬龟.md) | 水 | 284 |
-| <img class="pk-icon" src="icons/1126.png?v=a01f800a" loading="lazy"> | 0834 | [暴噬龟](1126_暴噬龟.md) | 水/岩石 | 485 |
-| <img class="pk-icon" src="icons/1279.png?v=ad13fd2f" loading="lazy"> | 0834 | [超极巨化暴噬龟](1279_超极巨化暴噬龟.md) | 水/岩石 | 485 |
-| <img class="pk-icon" src="icons/1127.png?v=e5abcae4" loading="lazy"> | 0835 | [来电汪](1127_来电汪.md) | 电 | 270 |
-| <img class="pk-icon" src="icons/1128.png?v=42d9a6c5" loading="lazy"> | 0836 | [逐电犬](1128_逐电犬.md) | 电 | 490 |
-| <img class="pk-icon" src="icons/1129.png?v=67139e13" loading="lazy"> | 0837 | [小炭仔](1129_小炭仔.md) | 岩石 | 240 |
-| <img class="pk-icon" src="icons/1130.png?v=72609847" loading="lazy"> | 0838 | [大炭车](1130_大炭车.md) | 岩石/火 | 410 |
-| <img class="pk-icon" src="icons/1131.png?v=967c15e7" loading="lazy"> | 0839 | [巨炭山](1131_巨炭山.md) | 岩石/火 | 510 |
-| <img class="pk-icon" src="icons/1280.png?v=72609847" loading="lazy"> | 0839 | [超极巨化巨炭山](1280_超极巨化巨炭山.md) | 岩石/火 | 510 |
-| <img class="pk-icon" src="icons/1132.png?v=b327c912" loading="lazy"> | 0840 | [啃果虫](1132_啃果虫.md) | 草/龙 | 260 |
-| <img class="pk-icon" src="icons/1133.png?v=0daaca61" loading="lazy"> | 0841 | [苹裹龙](1133_苹裹龙.md) | 草/龙 | 485 |
-| <img class="pk-icon" src="icons/1281.png?v=b327c912" loading="lazy"> | 0841 | [超极巨化苹裹龙](1281_超极巨化苹裹龙.md) | 草/龙 | 485 |
-| <img class="pk-icon" src="icons/1134.png?v=02f99c0b" loading="lazy"> | 0842 | [丰蜜龙](1134_丰蜜龙.md) | 草/龙 | 485 |
-| <img class="pk-icon" src="icons/1282.png?v=0daaca61" loading="lazy"> | 0842 | [超极巨化丰蜜龙](1282_超极巨化丰蜜龙.md) | 草/龙 | 485 |
-| <img class="pk-icon" src="icons/1135.png?v=27d97cb1" loading="lazy"> | 0843 | [沙包蛇](1135_沙包蛇.md) | 地面 | 315 |
-| <img class="pk-icon" src="icons/1136.png?v=2e6aae64" loading="lazy"> | 0844 | [沙螺蟒](1136_沙螺蟒.md) | 地面 | 510 |
-| <img class="pk-icon" src="icons/1283.png?v=27d97cb1" loading="lazy"> | 0844 | [超极巨化沙螺蟒](1283_超极巨化沙螺蟒.md) | 地面 | 510 |
-| <img class="pk-icon" src="icons/1137.png?v=37209579" loading="lazy"> | 0845 | [古月鸟](1137_古月鸟.md) | 飞行/水 | 475 |
-| <img class="pk-icon" src="icons/1191.png?v=2e6aae64" loading="lazy"> | 0845 | [古月鸟（大口吞的样子）](1191_古月鸟（大口吞的样子）.md) | 飞行/水 | 475 |
-| <img class="pk-icon" src="icons/1192.png?v=2e6aae64" loading="lazy"> | 0845 | [古月鸟（一口吞的样子）](1192_古月鸟（一口吞的样子）.md) | 飞行/水 | 475 |
-| <img class="pk-icon" src="icons/1138.png?v=8d7dba74" loading="lazy"> | 0846 | [刺梭鱼](1138_刺梭鱼.md) | 水 | 280 |
-| <img class="pk-icon" src="icons/1139.png?v=c3e53150" loading="lazy"> | 0847 | [戽斗尖梭](1139_戽斗尖梭.md) | 水 | 490 |
-| <img class="pk-icon" src="icons/1140.png?v=e242e18a" loading="lazy"> | 0848 | [毒电婴](1140_毒电婴.md) | 电/毒 | 242 |
-| <img class="pk-icon" src="icons/1141.png?v=9940051f" loading="lazy"> | 0849 | [颤弦蝾螈](1141_颤弦蝾螈.md) | 电/毒 | 502 |
-| <img class="pk-icon" src="icons/1193.png?v=e242e18a" loading="lazy"> | 0849 | [颤弦蝾螈（低调的样子）](1193_颤弦蝾螈（低调的样子）.md) | 电/毒 | 502 |
-| <img class="pk-icon" src="icons/1284.png?v=e242e18a" loading="lazy"> | 0849 | [超极巨化颤弦蝾螈](1284_超极巨化颤弦蝾螈.md) | 电/毒 | 502 |
-| <img class="pk-icon" src="icons/1285.png?v=e242e18a" loading="lazy"> | 0849 | [超极巨化颤弦蝾螈（低调的样子）](1285_超极巨化颤弦蝾螈（低调的样子）.md) | 电/毒 | 502 |
-| <img class="pk-icon" src="icons/1142.png?v=e1dcfa0b" loading="lazy"> | 0850 | [烧火蚣](1142_烧火蚣.md) | 火/虫 | 305 |
-| <img class="pk-icon" src="icons/1143.png?v=7425cc83" loading="lazy"> | 0851 | [焚焰蚣](1143_焚焰蚣.md) | 火/虫 | 525 |
-| <img class="pk-icon" src="icons/1286.png?v=e1dcfa0b" loading="lazy"> | 0851 | [超极巨化焚焰蚣](1286_超极巨化焚焰蚣.md) | 火/虫 | 525 |
-| <img class="pk-icon" src="icons/1144.png?v=7b5bf195" loading="lazy"> | 0852 | [拳拳蛸](1144_拳拳蛸.md) | 格斗 | 310 |
-| <img class="pk-icon" src="icons/1145.png?v=a5f7d4b1" loading="lazy"> | 0853 | [八爪武师](1145_八爪武师.md) | 格斗 | 480 |
-| <img class="pk-icon" src="icons/1146.png?v=77761fdb" loading="lazy"> | 0854 | [来悲茶](1146_来悲茶.md) | 幽灵 | 308 |
-| <img class="pk-icon" src="icons/1194.png?v=a5f7d4b1" loading="lazy"> | 0854 | [来悲茶（赝品）](1194_来悲茶（赝品）.md) | 幽灵 | 308 |
-| <img class="pk-icon" src="icons/1147.png?v=c1cb8d8a" loading="lazy"> | 0855 | [怖思壶](1147_怖思壶.md) | 幽灵 | 508 |
-| <img class="pk-icon" src="icons/1195.png?v=77761fdb" loading="lazy"> | 0855 | [怖思壶（赝品）](1195_怖思壶（赝品）.md) | 幽灵 | 508 |
-| <img class="pk-icon" src="icons/1148.png?v=24738f81" loading="lazy"> | 0856 | [迷布莉姆](1148_迷布莉姆.md) | 超能力 | 265 |
-| <img class="pk-icon" src="icons/1149.png?v=39fab640" loading="lazy"> | 0857 | [提布莉姆](1149_提布莉姆.md) | 超能力 | 370 |
-| <img class="pk-icon" src="icons/1150.png?v=223e875c" loading="lazy"> | 0858 | [布莉姆温](1150_布莉姆温.md) | 超能力/妖精 | 510 |
-| <img class="pk-icon" src="icons/1287.png?v=39fab640" loading="lazy"> | 0858 | [超极巨化布莉姆温](1287_超极巨化布莉姆温.md) | 超能力/妖精 | 510 |
-| <img class="pk-icon" src="icons/1151.png?v=9fad3052" loading="lazy"> | 0859 | [捣蛋小妖](1151_捣蛋小妖.md) | 恶/妖精 | 265 |
-| <img class="pk-icon" src="icons/1152.png?v=287cbf10" loading="lazy"> | 0860 | [诈唬魔](1152_诈唬魔.md) | 恶/妖精 | 370 |
-| <img class="pk-icon" src="icons/1153.png?v=6a62a5d8" loading="lazy"> | 0861 | [长毛巨魔](1153_长毛巨魔.md) | 恶/妖精 | 510 |
-| <img class="pk-icon" src="icons/1288.png?v=287cbf10" loading="lazy"> | 0861 | [超极巨化长毛巨魔](1288_超极巨化长毛巨魔.md) | 恶/妖精 | 510 |
-| <img class="pk-icon" src="icons/1154.png?v=07f5fb06" loading="lazy"> | 0862 | [堵拦熊](1154_堵拦熊.md) | 恶/一般 | 520 |
-| <img class="pk-icon" src="icons/1155.png?v=46f8a6c1" loading="lazy"> | 0863 | [喵头目](1155_喵头目.md) | 钢 | 440 |
-| <img class="pk-icon" src="icons/1156.png?v=be25a4a6" loading="lazy"> | 0864 | [魔灵珊瑚](1156_魔灵珊瑚.md) | 幽灵 | 510 |
-| <img class="pk-icon" src="icons/1157.png?v=6ae6d259" loading="lazy"> | 0865 | [葱游兵](1157_葱游兵.md) | 格斗 | 507 |
-| <img class="pk-icon" src="icons/1158.png?v=b590504b" loading="lazy"> | 0866 | [踏冰人偶](1158_踏冰人偶.md) | 冰/超能力 | 520 |
-| <img class="pk-icon" src="icons/1159.png?v=cf970669" loading="lazy"> | 0867 | [死神板](1159_死神板.md) | 地面/幽灵 | 483 |
-| <img class="pk-icon" src="icons/1160.png?v=595f7da3" loading="lazy"> | 0868 | [小仙奶](1160_小仙奶.md) | 妖精 | 270 |
-| <img class="pk-icon" src="icons/1161.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1161_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1196.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1196_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1197.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1197_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1198.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1198_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1199.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1199_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1200.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1200_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1201.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1201_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1289.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1289_霜奶仙.md) | 妖精 | 495 |
-| <img class="pk-icon" src="icons/1162.png?v=1ceb6c3e" loading="lazy"> | 0870 | [列阵兵](1162_列阵兵.md) | 格斗 | 470 |
-| <img class="pk-icon" src="icons/1163.png?v=7855e999" loading="lazy"> | 0871 | [啪嚓海胆](1163_啪嚓海胆.md) | 电 | 435 |
-| <img class="pk-icon" src="icons/1164.png?v=33a3db2f" loading="lazy"> | 0872 | [雪吞虫](1164_雪吞虫.md) | 冰/虫 | 185 |
-| <img class="pk-icon" src="icons/1165.png?v=6ea4563a" loading="lazy"> | 0873 | [雪绒蛾](1165_雪绒蛾.md) | 冰/虫 | 475 |
-| <img class="pk-icon" src="icons/1166.png?v=38156bcd" loading="lazy"> | 0874 | [巨石丁](1166_巨石丁.md) | 岩石 | 470 |
-| <img class="pk-icon" src="icons/1167.png?v=79e2ccfe" loading="lazy"> | 0875 | [冰砌鹅](1167_冰砌鹅.md) | 冰 | 470 |
-| <img class="pk-icon" src="icons/1202.png?v=38156bcd" loading="lazy"> | 0875 | [冰砌鹅（解冻头）](1202_冰砌鹅（解冻头）.md) | 冰 | 470 |
-| <img class="pk-icon" src="icons/1168.png?v=259c0dcc" loading="lazy"> | 0876 | [爱管侍](1168_爱管侍.md) | 超能力/一般 | 475 |
-| <img class="pk-icon" src="icons/1203.png?v=79e2ccfe" loading="lazy"> | 0876 | [爱管侍（雌性）](1203_爱管侍（雌性）.md) | 超能力/一般 | 475 |
-| <img class="pk-icon" src="icons/1169.png?v=b777ce0c" loading="lazy"> | 0877 | [莫鲁贝可](1169_莫鲁贝可.md) | 电/恶 | 436 |
-| <img class="pk-icon" src="icons/1204.png?v=259c0dcc" loading="lazy"> | 0877 | [莫鲁贝可（空腹的样子）](1204_莫鲁贝可（空腹的样子）.md) | 电/恶 | 436 |
-| <img class="pk-icon" src="icons/1170.png?v=94c0bfeb" loading="lazy"> | 0878 | [铜象](1170_铜象.md) | 钢 | 330 |
-| <img class="pk-icon" src="icons/1171.png?v=37704057" loading="lazy"> | 0879 | [大王铜象](1171_大王铜象.md) | 钢 | 500 |
-| <img class="pk-icon" src="icons/1290.png?v=94c0bfeb" loading="lazy"> | 0879 | [超极巨化大王铜象](1290_超极巨化大王铜象.md) | 钢 | 500 |
-| <img class="pk-icon" src="icons/1172.png?v=0fa9a15d" loading="lazy"> | 0880 | [雷鸟龙](1172_雷鸟龙.md) | 电/龙 | 505 |
-| <img class="pk-icon" src="icons/1173.png?v=00d8b67e" loading="lazy"> | 0881 | [雷鸟海兽](1173_雷鸟海兽.md) | 电/冰 | 505 |
-| <img class="pk-icon" src="icons/1174.png?v=858c7088" loading="lazy"> | 0882 | [鳃鱼龙](1174_鳃鱼龙.md) | 水/龙 | 505 |
-| <img class="pk-icon" src="icons/1175.png?v=5c5c5dff" loading="lazy"> | 0883 | [鳃鱼海兽](1175_鳃鱼海兽.md) | 水/冰 | 505 |
-| <img class="pk-icon" src="icons/1176.png?v=f1231220" loading="lazy"> | 0884 | [铝钢龙](1176_铝钢龙.md) | 钢/龙 | 535 |
-| <img class="pk-icon" src="icons/1291.png?v=5c5c5dff" loading="lazy"> | 0884 | [超极巨化铝钢龙](1291_超极巨化铝钢龙.md) | 钢/龙 | 535 |
-| <img class="pk-icon" src="icons/1177.png?v=c4d76681" loading="lazy"> | 0885 | [多龙梅西亚](1177_多龙梅西亚.md) | 龙/幽灵 | 270 |
-| <img class="pk-icon" src="icons/1178.png?v=29473f66" loading="lazy"> | 0886 | [多龙奇](1178_多龙奇.md) | 龙/幽灵 | 410 |
-| <img class="pk-icon" src="icons/1179.png?v=3a9fac92" loading="lazy"> | 0887 | [多龙巴鲁托](1179_多龙巴鲁托.md) | 龙/幽灵 | 600 |
-| <img class="pk-icon" src="icons/1180.png?v=6c7250c1" loading="lazy"> | 0888 | [苍响](1180_苍响.md) | 妖精 | 670 |
-| <img class="pk-icon" src="icons/1205.png?v=3a9fac92" loading="lazy"> | 0888 | [苍响（剑之王）](1205_苍响（剑之王）.md) | 妖精/钢 | 720 |
-| <img class="pk-icon" src="icons/1181.png?v=30e306bd" loading="lazy"> | 0889 | [藏玛然特](1181_藏玛然特.md) | 格斗 | 670 |
-| <img class="pk-icon" src="icons/1206.png?v=6c7250c1" loading="lazy"> | 0889 | [藏玛然特（盾之王）](1206_藏玛然特（盾之王）.md) | 格斗/钢 | 720 |
-| <img class="pk-icon" src="icons/1182.png?v=1ddf42dd" loading="lazy"> | 0890 | [无极汰那](1182_无极汰那.md) | 毒/龙 | 690 |
-| <img class="pk-icon" src="icons/1207.png?v=30e306bd" loading="lazy"> | 0890 | [无极巨化无极汰那](1207_无极巨化无极汰那.md) | 毒/龙 | 1125 |
-| <img class="pk-icon" src="icons/1183.png?v=23e98520" loading="lazy"> | 0891 | [熊徒弟](1183_熊徒弟.md) | 格斗 | 385 |
-| <img class="pk-icon" src="icons/1184.png?v=23e98520" loading="lazy"> | 0892 | [武道熊师](1184_武道熊师.md) | 格斗/恶 | 550 |
-| <img class="pk-icon" src="icons/1208.png?v=23e98520" loading="lazy"> | 0892 | [武道熊师](1208_武道熊师.md) | 格斗/水 | 550 |
-| <img class="pk-icon" src="icons/1292.png?v=23e98520" loading="lazy"> | 0892 | [超极巨化武道熊师](1292_超极巨化武道熊师.md) | 格斗/恶 | 550 |
-| <img class="pk-icon" src="icons/1293.png?v=23e98520" loading="lazy"> | 0892 | [超极巨化武道熊师](1293_超极巨化武道熊师.md) | 格斗/水 | 550 |
-| <img class="pk-icon" src="icons/1185.png?v=83a221a4" loading="lazy"> | 0893 | [萨戮德](1185_萨戮德.md) | 恶/草 | 600 |
-| <img class="pk-icon" src="icons/1209.png?v=8356bfdb" loading="lazy"> | 0893 | [萨戮德（老爹）](1209_萨戮德（老爹）.md) | 恶/草 | 600 |
-| <img class="pk-icon" src="icons/1186.png?v=c6dd0c1b" loading="lazy"> | 0894 | [雷吉艾勒奇](1186_雷吉艾勒奇.md) | 电 | 580 |
-| <img class="pk-icon" src="icons/1187.png?v=c5320cac" loading="lazy"> | 0895 | [雷吉铎拉戈](1187_雷吉铎拉戈.md) | 龙 | 580 |
-| <img class="pk-icon" src="icons/1188.png?v=fd0422be" loading="lazy"> | 0896 | [雪暴马](1188_雪暴马.md) | 冰 | 580 |
-| <img class="pk-icon" src="icons/1189.png?v=89a56fb7" loading="lazy"> | 0897 | [灵幽马](1189_灵幽马.md) | 幽灵 | 580 |
-| <img class="pk-icon" src="icons/1190.png?v=90a903bc" loading="lazy"> | 0898 | [蕾冠王](1190_蕾冠王.md) | 超能力/草 | 500 |
-| <img class="pk-icon" src="icons/1210.png?v=89a56fb7" loading="lazy"> | 0898 | [蕾冠王（骑白马的样子）](1210_蕾冠王（骑白马的样子）.md) | 超能力/冰 | 680 |
-| <img class="pk-icon" src="icons/1211.png?v=89a56fb7" loading="lazy"> | 0898 | [蕾冠王（骑黑马的样子）](1211_蕾冠王（骑黑马的样子）.md) | 超能力/幽灵 | 680 |
-| <img class="pk-icon" src="icons/1251.png?v=38b2332a" loading="lazy"> | 0899 | [诡角鹿](1251_诡角鹿.md) | 一般/超能力 | 525 |
-| <img class="pk-icon" src="icons/1252.png?v=8a10ed5d" loading="lazy"> | 0900 | [劈斧螳螂](1252_劈斧螳螂.md) | 虫/岩石 | 500 |
-| <img class="pk-icon" src="icons/1253.png?v=ea9c51a5" loading="lazy"> | 0901 | [月月熊](1253_月月熊.md) | 一般/地面 | 550 |
-| <img class="pk-icon" src="icons/1254.png?v=ea9c51a5" loading="lazy"> | 0902 | [幽尾玄鱼](1254_幽尾玄鱼.md) | 水/幽灵 | 530 |
-| <img class="pk-icon" src="icons/1255.png?v=ea9c51a5" loading="lazy"> | 0902 | [幽尾玄鱼](1255_幽尾玄鱼.md) | 水/幽灵 | 530 |
-| <img class="pk-icon" src="icons/1256.png?v=96704053" loading="lazy"> | 0903 | [大狃拉](1256_大狃拉.md) | 毒/格斗 | 510 |
-| <img class="pk-icon" src="icons/1257.png?v=78c16de8" loading="lazy"> | 0904 | [万针鱼](1257_万针鱼.md) | 恶/毒 | 510 |
-| <img class="pk-icon" src="icons/1258.png?v=43bdbb4f" loading="lazy"> | 0905 | [眷恋云](1258_眷恋云.md) | 妖精/飞行 | 580 |
-| <img class="pk-icon" src="icons/1259.png?v=78c16de8" loading="lazy"> | 0905 | [眷恋云（灵兽形态）](1259_眷恋云（灵兽形态）.md) | 妖精/飞行 | 580 |
-| <img class="pk-icon" src="icons/0257.png?v=e37517fc" loading="lazy"> | 0979 | [弃世猴](0257_弃世猴.md) | 格斗/幽灵 | 535 |
-| <img class="pk-icon" src="icons/0259.png?v=7be8d90d" loading="lazy"> | 0980 | [土王](0259_土王.md) | 毒/地面 | 430 |
-| <img class="pk-icon" src="icons/0254.png?v=694b82e8" loading="lazy"> | 0981 | [奇麒麟](0254_奇麒麟.md) | 一般/超能力 | 520 |
-| <img class="pk-icon" src="icons/0255.png?v=b4d21ef2" loading="lazy"> | 0982 | [土龙节节](0255_土龙节节.md) | 一般 | 520 |
-| <img class="pk-icon" src="icons/0256.png?v=b4d21ef2" loading="lazy"> | 0982 | [土龙节节](0256_土龙节节.md) | 一般 | 520 |
-| <img class="pk-icon" src="icons/0274.png?v=5a3f4901" loading="lazy"> | 0998 | [戟脊龙](0274_戟脊龙.md) | 龙/冰 | 700 |
-| <img class="pk-icon" src="sprites/0275.png?v=b70a3b87" loading="lazy"> | 1027 | [多边兽零式](0275_多边兽零式.md) | 一般 | 535 |
-| <img class="pk-icon" src="sprites/0253.png?v=fd226e43" loading="lazy"> | — | [MISSINGNO.](0253_MISSINGNO..md) | ? | 1530 |
-| <img class="pk-icon" src="sprites/0260.png?v=a56cabf3" loading="lazy"> | — | [杰克霜精](0260_杰克霜精.md) | 冰/妖精 | 600 |
-| <img class="pk-icon" src="icons/0249.png?v=34f3bba2" loading="lazy"> | — | [洛奇亚](0261_洛奇亚.md) | 恶/飞行 | 740 |
-| <img class="pk-icon" src="sprites/0706.png?v=27393c79" loading="lazy"> | — | [战士](0706_战士.md) | 幽灵/恶 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0001.png?v=a653cf44" loading="lazy"> | 0001 | [妙蛙种子](0001_妙蛙种子.md) | 草/毒 | 318 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0002.png?v=71489f4e" loading="lazy"> | 0002 | [妙蛙草](0002_妙蛙草.md) | 草/毒 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0003.png?v=6c64ca3c" loading="lazy"> | 0003 | [妙蛙花](0003_妙蛙花.md) | 草/毒 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0869.png?v=8a653104" loading="lazy"> | 0003 | [超级妙蛙花](0869_超级妙蛙花.md) | 草/毒 | 625 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1260.png?v=71489f4e" loading="lazy"> | 0003 | [超极巨化妙蛙花](1260_超极巨化妙蛙花.md) | 草/毒 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0004.png?v=fba8f2e9" loading="lazy"> | 0004 | [小火龙](0004_小火龙.md) | 火 | 309 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0005.png?v=16435a08" loading="lazy"> | 0005 | [火恐龙](0005_火恐龙.md) | 火 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0006.png?v=362e8c05" loading="lazy"> | 0006 | [喷火龙](0006_喷火龙.md) | 火/飞行 | 534 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0870.png?v=50fe594e" loading="lazy"> | 0006 | [超级喷火龙X](0870_超级喷火龙X.md) | 火/龙 | 634 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0871.png?v=ea462a83" loading="lazy"> | 0006 | [超级喷火龙Y](0871_超级喷火龙Y.md) | 火/飞行 | 634 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1261.png?v=16435a08" loading="lazy"> | 0006 | [超极巨化喷火龙](1261_超极巨化喷火龙.md) | 火/飞行 | 534 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0007.png?v=9ab31a6b" loading="lazy"> | 0007 | [杰尼龟](0007_杰尼龟.md) | 水 | 314 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0008.png?v=ea49546e" loading="lazy"> | 0008 | [卡咪龟](0008_卡咪龟.md) | 水 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0009.png?v=d23420ce" loading="lazy"> | 0009 | [水箭龟](0009_水箭龟.md) | 水 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0872.png?v=fd121fb1" loading="lazy"> | 0009 | [超级水箭龟](0872_超级水箭龟.md) | 水 | 630 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1262.png?v=ea49546e" loading="lazy"> | 0009 | [超极巨化水箭龟](1262_超极巨化水箭龟.md) | 水 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0010.png?v=dac2aa6d" loading="lazy"> | 0010 | [绿毛虫](0010_绿毛虫.md) | 虫 | 195 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0011.png?v=e950781d" loading="lazy"> | 0011 | [铁甲蛹](0011_铁甲蛹.md) | 虫 | 205 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0012.png?v=53e95883" loading="lazy"> | 0012 | [巴大蝶](0012_巴大蝶.md) | 虫/飞行 | 395 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1263.png?v=e950781d" loading="lazy"> | 0012 | [超极巨化巴大蝶](1263_超极巨化巴大蝶.md) | 虫/飞行 | 395 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0013.png?v=9046b7b7" loading="lazy"> | 0013 | [独角虫](0013_独角虫.md) | 虫/毒 | 195 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0014.png?v=d27ae73c" loading="lazy"> | 0014 | [铁壳蛹](0014_铁壳蛹.md) | 虫/毒 | 205 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0015.png?v=42708cff" loading="lazy"> | 0015 | [大针蜂](0015_大针蜂.md) | 虫/毒 | 395 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0873.png?v=df671f3c" loading="lazy"> | 0015 | [超级大针蜂](0873_超级大针蜂.md) | 虫/毒 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0016.png?v=978e292f" loading="lazy"> | 0016 | [波波](0016_波波.md) | 一般/飞行 | 251 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0017.png?v=01c1bdf6" loading="lazy"> | 0017 | [比比鸟](0017_比比鸟.md) | 一般/飞行 | 349 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0018.png?v=08279607" loading="lazy"> | 0018 | [大比鸟](0018_大比鸟.md) | 一般/飞行 | 479 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0874.png?v=d19a7a14" loading="lazy"> | 0018 | [超级大比鸟](0874_超级大比鸟.md) | 一般/飞行 | 579 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0019.png?v=5a2a7420" loading="lazy"> | 0019 | [小拉达](0019_小拉达.md) | 一般 | 253 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1020.png?v=41f79a06" loading="lazy"> | 0019 | [小拉达（阿罗拉的样子）](1020_小拉达（阿罗拉的样子）.md) | 恶/一般 | 253 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0020.png?v=219694e2" loading="lazy"> | 0020 | [拉达](0020_拉达.md) | 一般 | 413 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1021.png?v=7e4c4bf2" loading="lazy"> | 0020 | [拉达（阿罗拉的样子）](1021_拉达（阿罗拉的样子）.md) | 恶/一般 | 413 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0021.png?v=d7100690" loading="lazy"> | 0021 | [烈雀](0021_烈雀.md) | 一般/飞行 | 262 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0022.png?v=8d93a1e2" loading="lazy"> | 0022 | [大嘴雀](0022_大嘴雀.md) | 一般/飞行 | 442 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0023.png?v=460c53c1" loading="lazy"> | 0023 | [阿柏蛇](0023_阿柏蛇.md) | 毒 | 288 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0024.png?v=624456fa" loading="lazy"> | 0024 | [阿柏怪](0024_阿柏怪.md) | 毒 | 448 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0025.png?v=2d414043" loading="lazy"> | 0025 | [皮卡丘](0025_皮卡丘.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1085.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（冲浪的样子）](1085_皮卡丘（冲浪的样子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1086.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（飞翔的样子）](1086_皮卡丘（飞翔的样子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1087.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（换装）](1087_皮卡丘（换装）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1088.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（蒙面摔角手换装）](1088_皮卡丘（蒙面摔角手换装）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1089.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（流行偶像换装）](1089_皮卡丘（流行偶像换装）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1090.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（摇滚换装）](1090_皮卡丘（摇滚换装）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1091.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（美丽换装）](1091_皮卡丘（美丽换装）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1092.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（博士换装）](1092_皮卡丘（博士换装）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1093.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（初代帽子）](1093_皮卡丘（初代帽子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1094.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（丰缘帽子）](1094_皮卡丘（丰缘帽子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1095.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（神奥帽子）](1095_皮卡丘（神奥帽子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1096.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（合众帽子）](1096_皮卡丘（合众帽子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1097.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（卡洛斯帽子）](1097_皮卡丘（卡洛斯帽子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1098.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（阿罗拉帽子）](1098_皮卡丘（阿罗拉帽子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1099.png?v=624456fa" loading="lazy"> | 0025 | [皮卡丘（搭档帽子）](1099_皮卡丘（搭档帽子）.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1264.png?v=624456fa" loading="lazy"> | 0025 | [超极巨化皮卡丘](1264_超极巨化皮卡丘.md) | 电 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0026.png?v=9c7a34aa" loading="lazy"> | 0026 | [雷丘](0026_雷丘.md) | 电 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0270.png?v=2d414043" loading="lazy"> | 0026 | [雷丘](0270_雷丘.md) | 电 | 585 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1022.png?v=90f0c077" loading="lazy"> | 0026 | [雷丘（阿罗拉的样子）](1022_雷丘（阿罗拉的样子）.md) | 电/超能力 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0027.png?v=81216fe7" loading="lazy"> | 0027 | [穿山鼠](0027_穿山鼠.md) | 地面 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1023.png?v=ea47e6e1" loading="lazy"> | 0027 | [穿山鼠（阿罗拉的样子）](1023_穿山鼠（阿罗拉的样子）.md) | 冰/钢 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0028.png?v=a46d5172" loading="lazy"> | 0028 | [穿山王](0028_穿山王.md) | 地面 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1024.png?v=2684b86b" loading="lazy"> | 0028 | [穿山王（阿罗拉的样子）](1024_穿山王（阿罗拉的样子）.md) | 冰/钢 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0029.png?v=9bab0010" loading="lazy"> | 0029 | [尼多兰♀](0029_尼多兰♀.md) | 毒 | 275 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0030.png?v=c7819467" loading="lazy"> | 0030 | [尼多娜](0030_尼多娜.md) | 毒 | 365 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0031.png?v=c85dbd17" loading="lazy"> | 0031 | [尼多后](0031_尼多后.md) | 毒/地面 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0032.png?v=2bbb600a" loading="lazy"> | 0032 | [尼多郎♂](0032_尼多郎♂.md) | 毒 | 273 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0033.png?v=a38633e8" loading="lazy"> | 0033 | [尼多力诺](0033_尼多力诺.md) | 毒 | 365 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0034.png?v=d8d58311" loading="lazy"> | 0034 | [尼多王](0034_尼多王.md) | 毒/地面 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0035.png?v=4b94b537" loading="lazy"> | 0035 | [皮皮](0035_皮皮.md) | 妖精 | 323 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0036.png?v=876fd0ae" loading="lazy"> | 0036 | [皮可西](0036_皮可西.md) | 妖精 | 483 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0271.png?v=4b94b537" loading="lazy"> | 0036 | [皮可西](0271_皮可西.md) | 妖精/飞行 | 583 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0037.png?v=602d00cd" loading="lazy"> | 0037 | [六尾](0037_六尾.md) | 火 | 299 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1025.png?v=573f7a60" loading="lazy"> | 0037 | [六尾（阿罗拉的样子）](1025_六尾（阿罗拉的样子）.md) | 冰 | 299 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0038.png?v=93cbcfbb" loading="lazy"> | 0038 | [九尾](0038_九尾.md) | 火 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1026.png?v=2e3a2d42" loading="lazy"> | 0038 | [九尾（阿罗拉的样子）](1026_九尾（阿罗拉的样子）.md) | 冰/妖精 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0039.png?v=b4a9d42f" loading="lazy"> | 0039 | [胖丁](0039_胖丁.md) | 一般/妖精 | 270 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0040.png?v=0de25a9d" loading="lazy"> | 0040 | [胖可丁](0040_胖可丁.md) | 一般/妖精 | 435 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0041.png?v=d93c3b70" loading="lazy"> | 0041 | [超音蝠](0041_超音蝠.md) | 毒/飞行 | 245 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0042.png?v=6296f972" loading="lazy"> | 0042 | [大嘴蝠](0042_大嘴蝠.md) | 毒/飞行 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0043.png?v=546f5c96" loading="lazy"> | 0043 | [走路草](0043_走路草.md) | 草/毒 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0044.png?v=18f00a86" loading="lazy"> | 0044 | [臭臭花](0044_臭臭花.md) | 草/毒 | 395 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0045.png?v=142a5bc4" loading="lazy"> | 0045 | [霸王花](0045_霸王花.md) | 草/毒 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0046.png?v=c5248819" loading="lazy"> | 0046 | [派拉斯](0046_派拉斯.md) | 虫/草 | 285 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0047.png?v=667e01fb" loading="lazy"> | 0047 | [派拉斯特](0047_派拉斯特.md) | 虫/草 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0048.png?v=0b00c023" loading="lazy"> | 0048 | [毛球](0048_毛球.md) | 虫/毒 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0049.png?v=62f49df2" loading="lazy"> | 0049 | [摩鲁蛾](0049_摩鲁蛾.md) | 虫/毒 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0050.png?v=67045900" loading="lazy"> | 0050 | [地鼠](0050_地鼠.md) | 地面 | 265 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1027.png?v=86f76161" loading="lazy"> | 0050 | [地鼠（阿罗拉的样子）](1027_地鼠（阿罗拉的样子）.md) | 地面/钢 | 265 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0051.png?v=f5c40d4b" loading="lazy"> | 0051 | [三地鼠](0051_三地鼠.md) | 地面 | 425 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1028.png?v=fd70be37" loading="lazy"> | 0051 | [三地鼠（阿罗拉的样子）](1028_三地鼠（阿罗拉的样子）.md) | 地面/钢 | 425 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0052.png?v=b4e1d9fa" loading="lazy"> | 0052 | [喵喵](0052_喵喵.md) | 一般 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1029.png?v=69e98ebf" loading="lazy"> | 0052 | [喵喵（阿罗拉的样子）](1029_喵喵（阿罗拉的样子）.md) | 恶 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1212.png?v=4a9586e8" loading="lazy"> | 0052 | [喵喵（伽勒尔的样子）](1212_喵喵（伽勒尔的样子）.md) | 钢 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1265.png?v=f5c40d4b" loading="lazy"> | 0052 | [超极巨化喵喵](1265_超极巨化喵喵.md) | 一般 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0053.png?v=a6dd4461" loading="lazy"> | 0053 | [猫老大](0053_猫老大.md) | 一般 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1030.png?v=d8a8a8f0" loading="lazy"> | 0053 | [猫老大（阿罗拉的样子）](1030_猫老大（阿罗拉的样子）.md) | 恶 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0054.png?v=458d0ef5" loading="lazy"> | 0054 | [可达鸭](0054_可达鸭.md) | 水 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0055.png?v=63a2ea8c" loading="lazy"> | 0055 | [哥达鸭](0055_哥达鸭.md) | 水 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0056.png?v=67fdb47f" loading="lazy"> | 0056 | [猴怪](0056_猴怪.md) | 格斗 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0057.png?v=d2117c59" loading="lazy"> | 0057 | [火暴猴](0057_火暴猴.md) | 格斗 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0058.png?v=dc9823ba" loading="lazy"> | 0058 | [卡蒂狗](0058_卡蒂狗.md) | 火 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1234.png?v=6b6c5819" loading="lazy"> | 0058 | [卡蒂狗（洗翠的样子）](1234_卡蒂狗（洗翠的样子）.md) | 火/岩石 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0059.png?v=aa430a29" loading="lazy"> | 0059 | [风速狗](0059_风速狗.md) | 火 | 555 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1235.png?v=d7f18c98" loading="lazy"> | 0059 | [风速狗（洗翠的样子）](1235_风速狗（洗翠的样子）.md) | 火/岩石 | 555 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0060.png?v=116c7af1" loading="lazy"> | 0060 | [蚊香蝌蚪](0060_蚊香蝌蚪.md) | 水 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0061.png?v=7a081563" loading="lazy"> | 0061 | [蚊香君](0061_蚊香君.md) | 水 | 385 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0062.png?v=18b17e54" loading="lazy"> | 0062 | [蚊香泳士](0062_蚊香泳士.md) | 水/格斗 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0063.png?v=09adf07a" loading="lazy"> | 0063 | [凯西](0063_凯西.md) | 超能力 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0064.png?v=30d3cae6" loading="lazy"> | 0064 | [勇基拉](0064_勇基拉.md) | 超能力 | 400 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0065.png?v=db06fb7c" loading="lazy"> | 0065 | [胡地](0065_胡地.md) | 超能力 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0875.png?v=700b2587" loading="lazy"> | 0065 | [超级胡地](0875_超级胡地.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0066.png?v=3833f2d9" loading="lazy"> | 0066 | [腕力](0066_腕力.md) | 格斗 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0067.png?v=beb64f9d" loading="lazy"> | 0067 | [豪力](0067_豪力.md) | 格斗 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0068.png?v=3a83b969" loading="lazy"> | 0068 | [怪力](0068_怪力.md) | 格斗 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1266.png?v=beb64f9d" loading="lazy"> | 0068 | [超极巨化怪力](1266_超极巨化怪力.md) | 格斗 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0069.png?v=2158fdc2" loading="lazy"> | 0069 | [喇叭芽](0069_喇叭芽.md) | 草/毒 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0070.png?v=6a98a53e" loading="lazy"> | 0070 | [口呆花](0070_口呆花.md) | 草/毒 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0071.png?v=bfe6cac2" loading="lazy"> | 0071 | [大食花](0071_大食花.md) | 草/毒 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0266.png?v=6a98a53e" loading="lazy"> | 0071 | [大食花](0266_大食花.md) | 草/毒 | 590 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0072.png?v=e848280d" loading="lazy"> | 0072 | [玛瑙水母](0072_玛瑙水母.md) | 水/毒 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0073.png?v=bb0c8f94" loading="lazy"> | 0073 | [毒刺水母](0073_毒刺水母.md) | 水/毒 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0074.png?v=20167429" loading="lazy"> | 0074 | [小拳石](0074_小拳石.md) | 岩石/地面 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1031.png?v=4b81f373" loading="lazy"> | 0074 | [小拳石（阿罗拉的样子）](1031_小拳石（阿罗拉的样子）.md) | 岩石/电 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0075.png?v=3a6c854c" loading="lazy"> | 0075 | [隆隆石](0075_隆隆石.md) | 岩石/地面 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1032.png?v=406c4049" loading="lazy"> | 0075 | [隆隆石（阿罗拉的样子）](1032_隆隆石（阿罗拉的样子）.md) | 岩石/电 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0076.png?v=280ee7ca" loading="lazy"> | 0076 | [隆隆岩](0076_隆隆岩.md) | 岩石/地面 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1033.png?v=e90c765f" loading="lazy"> | 0076 | [隆隆岩（阿罗拉的样子）](1033_隆隆岩（阿罗拉的样子）.md) | 岩石/电 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0077.png?v=3e9bd52d" loading="lazy"> | 0077 | [小火马](0077_小火马.md) | 火 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1213.png?v=f58c4d3d" loading="lazy"> | 0077 | [小火马（伽勒尔的样子）](1213_小火马（伽勒尔的样子）.md) | 超能力 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0078.png?v=c06fbad7" loading="lazy"> | 0078 | [烈焰马](0078_烈焰马.md) | 火 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1214.png?v=adef692d" loading="lazy"> | 0078 | [烈焰马（伽勒尔的样子）](1214_烈焰马（伽勒尔的样子）.md) | 超能力/妖精 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0079.png?v=6c6728d3" loading="lazy"> | 0079 | [呆呆兽](0079_呆呆兽.md) | 水/超能力 | 315 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1215.png?v=9fcef2c0" loading="lazy"> | 0079 | [呆呆兽（伽勒尔的样子）](1215_呆呆兽（伽勒尔的样子）.md) | 超能力 | 315 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0080.png?v=526d5407" loading="lazy"> | 0080 | [呆壳兽](0080_呆壳兽.md) | 水/超能力 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0876.png?v=bad88b5c" loading="lazy"> | 0080 | [超级呆壳兽](0876_超级呆壳兽.md) | 水/超能力 | 590 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1216.png?v=6f8ee534" loading="lazy"> | 0080 | [呆壳兽（伽勒尔的样子）](1216_呆壳兽（伽勒尔的样子）.md) | 毒/超能力 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0081.png?v=64806d59" loading="lazy"> | 0081 | [小磁怪](0081_小磁怪.md) | 电/钢 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0082.png?v=0a15f258" loading="lazy"> | 0082 | [三合一磁怪](0082_三合一磁怪.md) | 电/钢 | 465 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0083.png?v=418be6fc" loading="lazy"> | 0083 | [大葱鸭](0083_大葱鸭.md) | 一般/飞行 | 377 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1217.png?v=9b47bcc6" loading="lazy"> | 0083 | [大葱鸭（伽勒尔的样子）](1217_大葱鸭（伽勒尔的样子）.md) | 格斗 | 377 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0084.png?v=e0dbdbd0" loading="lazy"> | 0084 | [嘟嘟](0084_嘟嘟.md) | 一般/飞行 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0085.png?v=fd6db3c4" loading="lazy"> | 0085 | [嘟嘟利](0085_嘟嘟利.md) | 一般/飞行 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0086.png?v=d75b7c6c" loading="lazy"> | 0086 | [小海狮](0086_小海狮.md) | 水 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0087.png?v=89f03972" loading="lazy"> | 0087 | [白海狮](0087_白海狮.md) | 水/冰 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0088.png?v=d01ff982" loading="lazy"> | 0088 | [臭泥](0088_臭泥.md) | 毒 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1034.png?v=ba226168" loading="lazy"> | 0088 | [臭泥（阿罗拉的样子）](1034_臭泥（阿罗拉的样子）.md) | 毒/恶 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0089.png?v=1048fdfb" loading="lazy"> | 0089 | [臭臭泥](0089_臭臭泥.md) | 毒 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1035.png?v=fa764a1d" loading="lazy"> | 0089 | [臭臭泥（阿罗拉的样子）](1035_臭臭泥（阿罗拉的样子）.md) | 毒/恶 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0090.png?v=6048a76d" loading="lazy"> | 0090 | [大舌贝](0090_大舌贝.md) | 水 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0091.png?v=61917708" loading="lazy"> | 0091 | [刺甲贝](0091_刺甲贝.md) | 水/冰 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0092.png?v=88f6c51e" loading="lazy"> | 0092 | [鬼斯](0092_鬼斯.md) | 幽灵/毒 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0093.png?v=a4c18b5d" loading="lazy"> | 0093 | [鬼斯通](0093_鬼斯通.md) | 幽灵/毒 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0094.png?v=65efbf26" loading="lazy"> | 0094 | [耿鬼](0094_耿鬼.md) | 幽灵/毒 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0877.png?v=7c1add47" loading="lazy"> | 0094 | [超级耿鬼](0877_超级耿鬼.md) | 幽灵/毒 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1267.png?v=a4c18b5d" loading="lazy"> | 0094 | [超极巨化耿鬼](1267_超极巨化耿鬼.md) | 幽灵/毒 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0095.png?v=3f0fb4d2" loading="lazy"> | 0095 | [大岩蛇](0095_大岩蛇.md) | 岩石/地面 | 385 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0096.png?v=e5840180" loading="lazy"> | 0096 | [催眠貘](0096_催眠貘.md) | 超能力 | 328 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0097.png?v=d76fd5ec" loading="lazy"> | 0097 | [引梦貘人](0097_引梦貘人.md) | 超能力 | 483 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0098.png?v=4cce30c6" loading="lazy"> | 0098 | [大钳蟹](0098_大钳蟹.md) | 水 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0099.png?v=7583e5d8" loading="lazy"> | 0099 | [巨钳蟹](0099_巨钳蟹.md) | 水 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1268.png?v=4cce30c6" loading="lazy"> | 0099 | [超极巨化巨钳蟹](1268_超极巨化巨钳蟹.md) | 水 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0100.png?v=d83b28a9" loading="lazy"> | 0100 | [霹雳电球](0100_霹雳电球.md) | 电 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1236.png?v=0226f101" loading="lazy"> | 0100 | [霹雳电球（洗翠的样子）](1236_霹雳电球（洗翠的样子）.md) | 电/草 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0101.png?v=174b0e11" loading="lazy"> | 0101 | [顽皮雷弹](0101_顽皮雷弹.md) | 电 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1237.png?v=293049f2" loading="lazy"> | 0101 | [顽皮雷弹（洗翠的样子）](1237_顽皮雷弹（洗翠的样子）.md) | 电/草 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0102.png?v=e36895ff" loading="lazy"> | 0102 | [蛋蛋](0102_蛋蛋.md) | 草/超能力 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1036.png?v=e36895ff" loading="lazy"> | 0102 | [蛋蛋（阿罗拉的样子）](1036_蛋蛋（阿罗拉的样子）.md) | 草/超能力 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0103.png?v=0b4360f0" loading="lazy"> | 0103 | [椰蛋树](0103_椰蛋树.md) | 草/超能力 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1037.png?v=daa7373d" loading="lazy"> | 0103 | [椰蛋树（阿罗拉的样子）](1037_椰蛋树（阿罗拉的样子）.md) | 草/龙 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0104.png?v=81c6aadc" loading="lazy"> | 0104 | [卡拉卡拉](0104_卡拉卡拉.md) | 地面 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1038.png?v=81c6aadc" loading="lazy"> | 0104 | [卡拉卡拉（阿罗拉的样子）](1038_卡拉卡拉（阿罗拉的样子）.md) | 地面 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0105.png?v=e089f69f" loading="lazy"> | 0105 | [嘎啦嘎啦](0105_嘎啦嘎啦.md) | 地面 | 425 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1039.png?v=860b4863" loading="lazy"> | 0105 | [嘎啦嘎啦（阿罗拉的样子）](1039_嘎啦嘎啦（阿罗拉的样子）.md) | 火/幽灵 | 425 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0106.png?v=5e96d843" loading="lazy"> | 0106 | [飞腿郎](0106_飞腿郎.md) | 格斗 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0107.png?v=2b6a0fb6" loading="lazy"> | 0107 | [快拳郎](0107_快拳郎.md) | 格斗 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0108.png?v=a8ef5df7" loading="lazy"> | 0108 | [大舌头](0108_大舌头.md) | 一般 | 385 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0109.png?v=58d36411" loading="lazy"> | 0109 | [瓦斯弹](0109_瓦斯弹.md) | 毒 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1218.png?v=58d36411" loading="lazy"> | 0109 | [瓦斯弹（伽勒尔的样子）](1218_瓦斯弹（伽勒尔的样子）.md) | 毒 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0110.png?v=d10bbdcd" loading="lazy"> | 0110 | [双弹瓦斯](0110_双弹瓦斯.md) | 毒 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1219.png?v=49bdbe1b" loading="lazy"> | 0110 | [双弹瓦斯（伽勒尔的样子）](1219_双弹瓦斯（伽勒尔的样子）.md) | 毒/妖精 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0111.png?v=98d0d963" loading="lazy"> | 0111 | [独角犀牛](0111_独角犀牛.md) | 地面/岩石 | 345 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0112.png?v=cf51af8b" loading="lazy"> | 0112 | [钻角犀兽](0112_钻角犀兽.md) | 地面/岩石 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0113.png?v=8b744edf" loading="lazy"> | 0113 | [吉利蛋](0113_吉利蛋.md) | 一般 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0114.png?v=af2ac9cf" loading="lazy"> | 0114 | [蔓藤怪](0114_蔓藤怪.md) | 草 | 435 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0115.png?v=6067495a" loading="lazy"> | 0115 | [袋兽](0115_袋兽.md) | 一般 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0878.png?v=1ea9fc6b" loading="lazy"> | 0115 | [超级袋兽](0878_超级袋兽.md) | 一般 | 590 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0116.png?v=05c22218" loading="lazy"> | 0116 | [墨海马](0116_墨海马.md) | 水 | 295 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0117.png?v=d06699eb" loading="lazy"> | 0117 | [海刺龙](0117_海刺龙.md) | 水 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0118.png?v=19433bd6" loading="lazy"> | 0118 | [角金鱼](0118_角金鱼.md) | 水 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0119.png?v=c40e0840" loading="lazy"> | 0119 | [金鱼王](0119_金鱼王.md) | 水 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0120.png?v=430359f1" loading="lazy"> | 0120 | [海星星](0120_海星星.md) | 水 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0121.png?v=b333c463" loading="lazy"> | 0121 | [宝石海星](0121_宝石海星.md) | 水/超能力 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0276.png?v=430359f1" loading="lazy"> | 0121 | [宝石海星](0276_宝石海星.md) | 水/超能力 | 620 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0122.png?v=b4830b2d" loading="lazy"> | 0122 | [魔墙人偶](0122_魔墙人偶.md) | 超能力/妖精 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1220.png?v=06fb32cc" loading="lazy"> | 0122 | [魔墙人偶（伽勒尔的样子）](1220_魔墙人偶（伽勒尔的样子）.md) | 冰/超能力 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0123.png?v=f43b6b55" loading="lazy"> | 0123 | [飞天螳螂](0123_飞天螳螂.md) | 虫/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0124.png?v=77912188" loading="lazy"> | 0124 | [迷唇姐](0124_迷唇姐.md) | 冰/超能力 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0125.png?v=7293521b" loading="lazy"> | 0125 | [电击兽](0125_电击兽.md) | 电 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0126.png?v=43dd5306" loading="lazy"> | 0126 | [鸭嘴火兽](0126_鸭嘴火兽.md) | 火 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0127.png?v=68e286f0" loading="lazy"> | 0127 | [凯罗斯](0127_凯罗斯.md) | 虫 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0879.png?v=9ace6f45" loading="lazy"> | 0127 | [超级凯罗斯](0879_超级凯罗斯.md) | 虫/飞行 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0128.png?v=f4463373" loading="lazy"> | 0128 | [肯泰罗](0128_肯泰罗.md) | 一般 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0129.png?v=2b35b783" loading="lazy"> | 0129 | [鲤鱼王](0129_鲤鱼王.md) | 水 | 200 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0130.png?v=ea76096a" loading="lazy"> | 0130 | [暴鲤龙](0130_暴鲤龙.md) | 水/飞行 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0880.png?v=510bea75" loading="lazy"> | 0130 | [超级暴鲤龙](0880_超级暴鲤龙.md) | 水/恶 | 640 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0131.png?v=ba97b315" loading="lazy"> | 0131 | [拉普拉斯](0131_拉普拉斯.md) | 水/冰 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1269.png?v=ea76096a" loading="lazy"> | 0131 | [超极巨化拉普拉斯](1269_超极巨化拉普拉斯.md) | 水/冰 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0132.png?v=a2b706fe" loading="lazy"> | 0132 | [百变怪](0132_百变怪.md) | 一般 | 288 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0133.png?v=22ab3c37" loading="lazy"> | 0133 | [伊布](0133_伊布.md) | 一般 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1270.png?v=a2b706fe" loading="lazy"> | 0133 | [超极巨化伊布](1270_超极巨化伊布.md) | 一般 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0134.png?v=a8c0f151" loading="lazy"> | 0134 | [水伊布](0134_水伊布.md) | 水 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0135.png?v=86d86554" loading="lazy"> | 0135 | [雷伊布](0135_雷伊布.md) | 电 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0136.png?v=cd30300d" loading="lazy"> | 0136 | [火伊布](0136_火伊布.md) | 火 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0137.png?v=d59108b3" loading="lazy"> | 0137 | [多边兽](0137_多边兽.md) | 一般 | 395 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0138.png?v=1a14501a" loading="lazy"> | 0138 | [菊石兽](0138_菊石兽.md) | 岩石/水 | 355 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0139.png?v=ba124de0" loading="lazy"> | 0139 | [多刺菊石兽](0139_多刺菊石兽.md) | 岩石/水 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0140.png?v=28f6434a" loading="lazy"> | 0140 | [化石盔](0140_化石盔.md) | 岩石/水 | 355 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0141.png?v=f7a912ad" loading="lazy"> | 0141 | [镰刀盔](0141_镰刀盔.md) | 岩石/水 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0142.png?v=a95e2752" loading="lazy"> | 0142 | [化石翼龙](0142_化石翼龙.md) | 岩石/飞行 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0881.png?v=ce8f5955" loading="lazy"> | 0142 | [超级化石翼龙](0881_超级化石翼龙.md) | 岩石/飞行 | 615 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0143.png?v=1786889f" loading="lazy"> | 0143 | [卡比兽](0143_卡比兽.md) | 一般 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1271.png?v=a95e2752" loading="lazy"> | 0143 | [超极巨化卡比兽](1271_超极巨化卡比兽.md) | 一般 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0144.png?v=aa96c8a9" loading="lazy"> | 0144 | [急冻鸟](0144_急冻鸟.md) | 冰/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1221.png?v=7ea70505" loading="lazy"> | 0144 | [急冻鸟（伽勒尔的样子）](1221_急冻鸟（伽勒尔的样子）.md) | 超能力/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0145.png?v=45281e40" loading="lazy"> | 0145 | [闪电鸟](0145_闪电鸟.md) | 电/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1222.png?v=8d601f54" loading="lazy"> | 0145 | [闪电鸟（伽勒尔的样子）](1222_闪电鸟（伽勒尔的样子）.md) | 格斗/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0146.png?v=040751f5" loading="lazy"> | 0146 | [火焰鸟](0146_火焰鸟.md) | 火/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1223.png?v=151f7bd5" loading="lazy"> | 0146 | [火焰鸟（伽勒尔的样子）](1223_火焰鸟（伽勒尔的样子）.md) | 恶/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0147.png?v=f7721a47" loading="lazy"> | 0147 | [迷你龙](0147_迷你龙.md) | 龙 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0148.png?v=64a47385" loading="lazy"> | 0148 | [哈克龙](0148_哈克龙.md) | 龙 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0149.png?v=5538ea03" loading="lazy"> | 0149 | [快龙](0149_快龙.md) | 龙/飞行 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0150.png?v=3701903c" loading="lazy"> | 0150 | [超梦](0150_超梦.md) | 超能力 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0882.png?v=f5ac60ed" loading="lazy"> | 0150 | [超级超梦X](0882_超级超梦X.md) | 超能力/格斗 | 780 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0883.png?v=5d402989" loading="lazy"> | 0150 | [超级超梦Y](0883_超级超梦Y.md) | 超能力 | 780 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0151.png?v=37f136ba" loading="lazy"> | 0151 | [梦幻](0151_梦幻.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0152.png?v=3cb9b537" loading="lazy"> | 0152 | [菊草叶](0152_菊草叶.md) | 草 | 318 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0153.png?v=9e95000a" loading="lazy"> | 0153 | [月桂叶](0153_月桂叶.md) | 草 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0154.png?v=cc707575" loading="lazy"> | 0154 | [大竺葵](0154_大竺葵.md) | 草 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0263.png?v=9e95000a" loading="lazy"> | 0154 | [大竺葵](0263_大竺葵.md) | 草/妖精 | 625 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0155.png?v=5d13fc55" loading="lazy"> | 0155 | [火球鼠](0155_火球鼠.md) | 火 | 309 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0156.png?v=de241944" loading="lazy"> | 0156 | [火岩鼠](0156_火岩鼠.md) | 火 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0157.png?v=163fb96f" loading="lazy"> | 0157 | [火暴兽](0157_火暴兽.md) | 火 | 534 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0264.png?v=de241944" loading="lazy"> | 0157 | [火暴兽](0264_火暴兽.md) | 火 | 634 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1238.png?v=0ff42e62" loading="lazy"> | 0157 | [火暴兽（洗翠的样子）](1238_火暴兽（洗翠的样子）.md) | 火/幽灵 | 534 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0158.png?v=0a63a3ac" loading="lazy"> | 0158 | [小锯鳄](0158_小锯鳄.md) | 水 | 314 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0159.png?v=fc865312" loading="lazy"> | 0159 | [蓝鳄](0159_蓝鳄.md) | 水 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0160.png?v=8932730e" loading="lazy"> | 0160 | [大力鳄](0160_大力鳄.md) | 水 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0265.png?v=fc865312" loading="lazy"> | 0160 | [大力鳄](0265_大力鳄.md) | 水/龙 | 630 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0161.png?v=d3f9520c" loading="lazy"> | 0161 | [尾立](0161_尾立.md) | 一般 | 215 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0162.png?v=5c915ebc" loading="lazy"> | 0162 | [大尾立](0162_大尾立.md) | 一般 | 415 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0163.png?v=1e3bc181" loading="lazy"> | 0163 | [咕咕](0163_咕咕.md) | 一般/飞行 | 262 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0164.png?v=947f4552" loading="lazy"> | 0164 | [猫头夜鹰](0164_猫头夜鹰.md) | 一般/飞行 | 452 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0165.png?v=2cf04c82" loading="lazy"> | 0165 | [芭瓢虫](0165_芭瓢虫.md) | 虫/飞行 | 265 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0166.png?v=7c67d5fb" loading="lazy"> | 0166 | [安瓢虫](0166_安瓢虫.md) | 虫/飞行 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0167.png?v=13545031" loading="lazy"> | 0167 | [圆丝蛛](0167_圆丝蛛.md) | 虫/毒 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0168.png?v=70b62d15" loading="lazy"> | 0168 | [阿利多斯](0168_阿利多斯.md) | 虫/毒 | 400 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0169.png?v=2881ef55" loading="lazy"> | 0169 | [叉字蝠](0169_叉字蝠.md) | 毒/飞行 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0170.png?v=adebf38c" loading="lazy"> | 0170 | [灯笼鱼](0170_灯笼鱼.md) | 水/电 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0171.png?v=e03088e7" loading="lazy"> | 0171 | [电灯怪](0171_电灯怪.md) | 水/电 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0172.png?v=cedf9c88" loading="lazy"> | 0172 | [皮丘](0172_皮丘.md) | 电 | 205 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1100.png?v=e03088e7" loading="lazy"> | 0172 | [皮丘（尖耳朵）](1100_皮丘（尖耳朵）.md) | 电 | 205 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0173.png?v=52facbfd" loading="lazy"> | 0173 | [皮宝宝](0173_皮宝宝.md) | 妖精 | 218 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0174.png?v=a751a112" loading="lazy"> | 0174 | [宝宝丁](0174_宝宝丁.md) | 一般/妖精 | 210 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0175.png?v=85f87d86" loading="lazy"> | 0175 | [波克比](0175_波克比.md) | 妖精 | 245 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0176.png?v=c9378780" loading="lazy"> | 0176 | [波克基古](0176_波克基古.md) | 妖精/飞行 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0177.png?v=fc2d6db4" loading="lazy"> | 0177 | [天然雀](0177_天然雀.md) | 超能力/飞行 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0178.png?v=42a974d8" loading="lazy"> | 0178 | [天然鸟](0178_天然鸟.md) | 超能力/飞行 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0179.png?v=88ecc361" loading="lazy"> | 0179 | [咩利羊](0179_咩利羊.md) | 电 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0180.png?v=40b77ac9" loading="lazy"> | 0180 | [茸茸羊](0180_茸茸羊.md) | 电 | 365 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0181.png?v=79091441" loading="lazy"> | 0181 | [电龙](0181_电龙.md) | 电 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0884.png?v=ab1b540c" loading="lazy"> | 0181 | [超级电龙](0884_超级电龙.md) | 电/龙 | 610 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0182.png?v=79fe74d2" loading="lazy"> | 0182 | [美丽花](0182_美丽花.md) | 草 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0183.png?v=0050629a" loading="lazy"> | 0183 | [玛力露](0183_玛力露.md) | 水/妖精 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0184.png?v=982821af" loading="lazy"> | 0184 | [玛力露丽](0184_玛力露丽.md) | 水/妖精 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0185.png?v=d8620d17" loading="lazy"> | 0185 | [树才怪](0185_树才怪.md) | 岩石 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0186.png?v=afac6a89" loading="lazy"> | 0186 | [蚊香蛙皇](0186_蚊香蛙皇.md) | 水 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0187.png?v=394772c2" loading="lazy"> | 0187 | [毽子草](0187_毽子草.md) | 草/飞行 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0188.png?v=72649401" loading="lazy"> | 0188 | [毽子花](0188_毽子花.md) | 草/飞行 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0189.png?v=ef7b90d7" loading="lazy"> | 0189 | [毽子棉](0189_毽子棉.md) | 草/飞行 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0190.png?v=eff53712" loading="lazy"> | 0190 | [长尾怪手](0190_长尾怪手.md) | 一般 | 360 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0191.png?v=d411a887" loading="lazy"> | 0191 | [向日种子](0191_向日种子.md) | 草 | 180 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0192.png?v=03bd0d54" loading="lazy"> | 0192 | [向日花怪](0192_向日花怪.md) | 草 | 425 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0193.png?v=1aed3a0b" loading="lazy"> | 0193 | [蜻蜻蜓](0193_蜻蜻蜓.md) | 虫/飞行 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0194.png?v=5ba90f6a" loading="lazy"> | 0194 | [乌波](0194_乌波.md) | 水/地面 | 210 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0258.png?v=1aed3a0b" loading="lazy"> | 0194 | [乌波](0258_乌波.md) | 毒/地面 | 210 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0195.png?v=39c83295" loading="lazy"> | 0195 | [沼王](0195_沼王.md) | 水/地面 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0196.png?v=7de678ce" loading="lazy"> | 0196 | [太阳伊布](0196_太阳伊布.md) | 超能力 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0197.png?v=2d8b4a5d" loading="lazy"> | 0197 | [月亮伊布](0197_月亮伊布.md) | 恶 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0198.png?v=1127ec63" loading="lazy"> | 0198 | [黑暗鸦](0198_黑暗鸦.md) | 恶/飞行 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0199.png?v=fa6db724" loading="lazy"> | 0199 | [呆呆王](0199_呆呆王.md) | 水/超能力 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1224.png?v=6cb38280" loading="lazy"> | 0199 | [呆呆王（伽勒尔的样子）](1224_呆呆王（伽勒尔的样子）.md) | 毒/超能力 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0200.png?v=b0da099a" loading="lazy"> | 0200 | [梦妖](0200_梦妖.md) | 幽灵 | 435 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0201.png?v=57188a5e" loading="lazy"> | 0201 | [未知图腾](0201_未知图腾.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0413.png?v=6908f5f6" loading="lazy"> | 0201 | [未知图腾（B）](0413_未知图腾（B）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0414.png?v=80f2800b" loading="lazy"> | 0201 | [未知图腾（C）](0414_未知图腾（C）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0415.png?v=5f329000" loading="lazy"> | 0201 | [未知图腾（D）](0415_未知图腾（D）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0416.png?v=4505daed" loading="lazy"> | 0201 | [未知图腾（E）](0416_未知图腾（E）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0417.png?v=e81c91e1" loading="lazy"> | 0201 | [未知图腾（F）](0417_未知图腾（F）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0418.png?v=abd3af77" loading="lazy"> | 0201 | [未知图腾（G）](0418_未知图腾（G）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0419.png?v=2dc17514" loading="lazy"> | 0201 | [未知图腾（H）](0419_未知图腾（H）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0420.png?v=77dfe3dc" loading="lazy"> | 0201 | [未知图腾（I）](0420_未知图腾（I）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0421.png?v=ee372d2c" loading="lazy"> | 0201 | [未知图腾（J）](0421_未知图腾（J）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0422.png?v=e4e94548" loading="lazy"> | 0201 | [未知图腾（K）](0422_未知图腾（K）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0423.png?v=ffb45e7c" loading="lazy"> | 0201 | [未知图腾（L）](0423_未知图腾（L）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0424.png?v=a5661ccd" loading="lazy"> | 0201 | [未知图腾（M）](0424_未知图腾（M）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0425.png?v=e06c34b1" loading="lazy"> | 0201 | [未知图腾（N）](0425_未知图腾（N）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0426.png?v=c29cf983" loading="lazy"> | 0201 | [未知图腾（O）](0426_未知图腾（O）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0427.png?v=d6afdb34" loading="lazy"> | 0201 | [未知图腾（P）](0427_未知图腾（P）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0428.png?v=271eff56" loading="lazy"> | 0201 | [未知图腾（Q）](0428_未知图腾（Q）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0429.png?v=aba104fd" loading="lazy"> | 0201 | [未知图腾（R）](0429_未知图腾（R）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0430.png?v=6d6046ba" loading="lazy"> | 0201 | [未知图腾（S）](0430_未知图腾（S）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0431.png?v=ff507a15" loading="lazy"> | 0201 | [未知图腾（T）](0431_未知图腾（T）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0432.png?v=81c1c5d1" loading="lazy"> | 0201 | [未知图腾（U）](0432_未知图腾（U）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0433.png?v=efc21083" loading="lazy"> | 0201 | [未知图腾（V）](0433_未知图腾（V）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0434.png?v=aaf894a0" loading="lazy"> | 0201 | [未知图腾（W）](0434_未知图腾（W）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0435.png?v=f250a020" loading="lazy"> | 0201 | [未知图腾（X）](0435_未知图腾（X）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0436.png?v=2f188c6f" loading="lazy"> | 0201 | [未知图腾（Y）](0436_未知图腾（Y）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0437.png?v=2e4ff8b2" loading="lazy"> | 0201 | [未知图腾（Z）](0437_未知图腾（Z）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0438.png?v=727da8e6" loading="lazy"> | 0201 | [未知图腾（EXCLAMATION）](0438_未知图腾（EXCLAMATION）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0439.png?v=c1fffbd3" loading="lazy"> | 0201 | [未知图腾（QUESTION）](0439_未知图腾（QUESTION）.md) | 超能力 | 336 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0202.png?v=d1e5ba72" loading="lazy"> | 0202 | [果然翁](0202_果然翁.md) | 超能力 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0203.png?v=d687b56a" loading="lazy"> | 0203 | [麒麟奇](0203_麒麟奇.md) | 一般/超能力 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0204.png?v=81e4310f" loading="lazy"> | 0204 | [榛果球](0204_榛果球.md) | 虫 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0205.png?v=09f4de7c" loading="lazy"> | 0205 | [佛烈托斯](0205_佛烈托斯.md) | 虫/钢 | 465 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0206.png?v=341723d6" loading="lazy"> | 0206 | [土龙弟弟](0206_土龙弟弟.md) | 一般 | 415 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0207.png?v=a7241565" loading="lazy"> | 0207 | [天蝎](0207_天蝎.md) | 地面/飞行 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0208.png?v=92e1cfe2" loading="lazy"> | 0208 | [大钢蛇](0208_大钢蛇.md) | 钢/地面 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0885.png?v=6739c459" loading="lazy"> | 0208 | [超级大钢蛇](0885_超级大钢蛇.md) | 钢/地面 | 610 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0209.png?v=05317c70" loading="lazy"> | 0209 | [布鲁](0209_布鲁.md) | 妖精 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0210.png?v=d0629ac9" loading="lazy"> | 0210 | [布鲁皇](0210_布鲁皇.md) | 妖精 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0211.png?v=1461904a" loading="lazy"> | 0211 | [千针鱼](0211_千针鱼.md) | 水/毒 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1239.png?v=10c88a22" loading="lazy"> | 0211 | [千针鱼（洗翠的样子）](1239_千针鱼（洗翠的样子）.md) | 恶/毒 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0212.png?v=94ca8e6f" loading="lazy"> | 0212 | [巨钳螳螂](0212_巨钳螳螂.md) | 虫/钢 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0886.png?v=648f54fb" loading="lazy"> | 0212 | [超级巨钳螳螂](0886_超级巨钳螳螂.md) | 虫/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0213.png?v=86b74b8f" loading="lazy"> | 0213 | [壶壶](0213_壶壶.md) | 虫/岩石 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0214.png?v=1e7f5567" loading="lazy"> | 0214 | [赫拉克罗斯](0214_赫拉克罗斯.md) | 虫/格斗 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0887.png?v=3dfc29bc" loading="lazy"> | 0214 | [超级赫拉克罗斯](0887_超级赫拉克罗斯.md) | 虫/格斗 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0215.png?v=ac871266" loading="lazy"> | 0215 | [狃拉](0215_狃拉.md) | 恶/冰 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1240.png?v=b9329bf6" loading="lazy"> | 0215 | [狃拉（洗翠的样子）](1240_狃拉（洗翠的样子）.md) | 毒/格斗 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0216.png?v=eb76b5be" loading="lazy"> | 0216 | [熊宝宝](0216_熊宝宝.md) | 一般 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0217.png?v=76f419a0" loading="lazy"> | 0217 | [圈圈熊](0217_圈圈熊.md) | 一般 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0218.png?v=ca416498" loading="lazy"> | 0218 | [熔岩虫](0218_熔岩虫.md) | 火 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0219.png?v=5b5a2771" loading="lazy"> | 0219 | [熔岩蜗牛](0219_熔岩蜗牛.md) | 火/岩石 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0220.png?v=77d44133" loading="lazy"> | 0220 | [小山猪](0220_小山猪.md) | 冰/地面 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0221.png?v=0242c54f" loading="lazy"> | 0221 | [长毛猪](0221_长毛猪.md) | 冰/地面 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0222.png?v=5240a870" loading="lazy"> | 0222 | [太阳珊瑚](0222_太阳珊瑚.md) | 水/岩石 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1225.png?v=3574406b" loading="lazy"> | 0222 | [太阳珊瑚（伽勒尔的样子）](1225_太阳珊瑚（伽勒尔的样子）.md) | 幽灵 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0223.png?v=35bf15a3" loading="lazy"> | 0223 | [铁炮鱼](0223_铁炮鱼.md) | 水 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0224.png?v=44cc01b1" loading="lazy"> | 0224 | [章鱼桶](0224_章鱼桶.md) | 水 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0225.png?v=f278feb5" loading="lazy"> | 0225 | [信使鸟](0225_信使鸟.md) | 冰/飞行 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0226.png?v=3eba41f9" loading="lazy"> | 0226 | [巨翅飞鱼](0226_巨翅飞鱼.md) | 水/飞行 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0227.png?v=03f8fd85" loading="lazy"> | 0227 | [盔甲鸟](0227_盔甲鸟.md) | 钢/飞行 | 465 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0272.png?v=3eba41f9" loading="lazy"> | 0227 | [盔甲鸟](0272_盔甲鸟.md) | 钢/飞行 | 565 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0228.png?v=b506d9c3" loading="lazy"> | 0228 | [戴鲁比](0228_戴鲁比.md) | 恶/火 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0229.png?v=71afa864" loading="lazy"> | 0229 | [黑鲁加](0229_黑鲁加.md) | 恶/火 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0888.png?v=a2ae375a" loading="lazy"> | 0229 | [超级黑鲁加](0888_超级黑鲁加.md) | 恶/火 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0230.png?v=d584978e" loading="lazy"> | 0230 | [刺龙王](0230_刺龙王.md) | 水/龙 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0231.png?v=a7678e76" loading="lazy"> | 0231 | [小小象](0231_小小象.md) | 地面 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0232.png?v=a1d0d444" loading="lazy"> | 0232 | [顿甲](0232_顿甲.md) | 地面 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0233.png?v=7b317e89" loading="lazy"> | 0233 | [多边兽2](0233_多边兽2.md) | 一般 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0234.png?v=57cad4e0" loading="lazy"> | 0234 | [惊角鹿](0234_惊角鹿.md) | 一般 | 465 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0235.png?v=4c980515" loading="lazy"> | 0235 | [图图犬](0235_图图犬.md) | 一般 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0236.png?v=91e37ec8" loading="lazy"> | 0236 | [无畏小子](0236_无畏小子.md) | 格斗 | 210 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0237.png?v=b9308da9" loading="lazy"> | 0237 | [战舞郎](0237_战舞郎.md) | 格斗 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0238.png?v=f953c8bd" loading="lazy"> | 0238 | [迷唇娃](0238_迷唇娃.md) | 冰/超能力 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0239.png?v=5d5dbaae" loading="lazy"> | 0239 | [电击怪](0239_电击怪.md) | 电 | 360 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0240.png?v=b96bccf4" loading="lazy"> | 0240 | [鸭嘴宝宝](0240_鸭嘴宝宝.md) | 火 | 365 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0241.png?v=1108cd17" loading="lazy"> | 0241 | [大奶罐](0241_大奶罐.md) | 一般 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0242.png?v=f7d7acd5" loading="lazy"> | 0242 | [幸福蛋](0242_幸福蛋.md) | 一般 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0243.png?v=00119419" loading="lazy"> | 0243 | [雷公](0243_雷公.md) | 电 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0244.png?v=330a2f62" loading="lazy"> | 0244 | [炎帝](0244_炎帝.md) | 火 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0245.png?v=0a6fb66a" loading="lazy"> | 0245 | [水君](0245_水君.md) | 水 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0246.png?v=af3215f9" loading="lazy"> | 0246 | [幼基拉斯](0246_幼基拉斯.md) | 岩石/地面 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0247.png?v=09b399da" loading="lazy"> | 0247 | [沙基拉斯](0247_沙基拉斯.md) | 岩石/地面 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0248.png?v=83ee9794" loading="lazy"> | 0248 | [班基拉斯](0248_班基拉斯.md) | 岩石/恶 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0889.png?v=dd34167a" loading="lazy"> | 0248 | [超级班基拉斯](0889_超级班基拉斯.md) | 岩石/恶 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0249.png?v=34f3bba2" loading="lazy"> | 0249 | [洛奇亚](0249_洛奇亚.md) | 超能力/飞行 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0250.png?v=2c40ffbe" loading="lazy"> | 0250 | [凤王](0250_凤王.md) | 火/飞行 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0251.png?v=f5c1b40d" loading="lazy"> | 0251 | [时拉比](0251_时拉比.md) | 超能力/草 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0277.png?v=39c595c5" loading="lazy"> | 0252 | [木守宫](0277_木守宫.md) | 草 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0278.png?v=c94d3dcb" loading="lazy"> | 0253 | [森林蜥蜴](0278_森林蜥蜴.md) | 草 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0279.png?v=8efba34b" loading="lazy"> | 0254 | [蜥蜴王](0279_蜥蜴王.md) | 草 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0890.png?v=60d175b5" loading="lazy"> | 0254 | [超级蜥蜴王](0890_超级蜥蜴王.md) | 草/龙 | 630 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0280.png?v=4aa782c8" loading="lazy"> | 0255 | [火稚鸡](0280_火稚鸡.md) | 火 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0281.png?v=c6427c82" loading="lazy"> | 0256 | [力壮鸡](0281_力壮鸡.md) | 火/格斗 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0282.png?v=cd6d7483" loading="lazy"> | 0257 | [火焰鸡](0282_火焰鸡.md) | 火/格斗 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0891.png?v=5d99d00c" loading="lazy"> | 0257 | [超级火焰鸡](0891_超级火焰鸡.md) | 火/格斗 | 630 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0283.png?v=9820108b" loading="lazy"> | 0258 | [水跃鱼](0283_水跃鱼.md) | 水 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0284.png?v=71b5acc1" loading="lazy"> | 0259 | [沼跃鱼](0284_沼跃鱼.md) | 水/地面 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0285.png?v=83daac6d" loading="lazy"> | 0260 | [巨沼怪](0285_巨沼怪.md) | 水/地面 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0892.png?v=8645da6f" loading="lazy"> | 0260 | [超级巨沼怪](0892_超级巨沼怪.md) | 水/地面 | 635 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0286.png?v=79e3483b" loading="lazy"> | 0261 | [土狼犬](0286_土狼犬.md) | 恶 | 220 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0287.png?v=79493044" loading="lazy"> | 0262 | [大狼犬](0287_大狼犬.md) | 恶 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0288.png?v=4f3c982a" loading="lazy"> | 0263 | [蛇纹熊](0288_蛇纹熊.md) | 一般 | 240 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1226.png?v=eb8fb83d" loading="lazy"> | 0263 | [蛇纹熊（伽勒尔的样子）](1226_蛇纹熊（伽勒尔的样子）.md) | 恶/一般 | 240 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0289.png?v=4beef569" loading="lazy"> | 0264 | [直冲熊](0289_直冲熊.md) | 一般 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1227.png?v=7ea7827c" loading="lazy"> | 0264 | [直冲熊（伽勒尔的样子）](1227_直冲熊（伽勒尔的样子）.md) | 恶/一般 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0290.png?v=fdf3d130" loading="lazy"> | 0265 | [刺尾虫](0290_刺尾虫.md) | 虫 | 195 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0291.png?v=53cd9697" loading="lazy"> | 0266 | [甲壳茧](0291_甲壳茧.md) | 虫 | 205 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0292.png?v=385e6705" loading="lazy"> | 0267 | [狩猎凤蝶](0292_狩猎凤蝶.md) | 虫/飞行 | 395 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0293.png?v=5491d14b" loading="lazy"> | 0268 | [盾甲茧](0293_盾甲茧.md) | 虫 | 205 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0294.png?v=e1fe30dd" loading="lazy"> | 0269 | [毒粉蛾](0294_毒粉蛾.md) | 虫/毒 | 385 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0295.png?v=35f23bc5" loading="lazy"> | 0270 | [莲叶童子](0295_莲叶童子.md) | 水/草 | 220 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0296.png?v=5e2c7cb2" loading="lazy"> | 0271 | [莲帽小童](0296_莲帽小童.md) | 水/草 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0297.png?v=eaa09509" loading="lazy"> | 0272 | [乐天河童](0297_乐天河童.md) | 水/草 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0298.png?v=614b1407" loading="lazy"> | 0273 | [橡实果](0298_橡实果.md) | 草 | 220 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0299.png?v=3bee84ef" loading="lazy"> | 0274 | [长鼻叶](0299_长鼻叶.md) | 草/恶 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0300.png?v=f2fec1e9" loading="lazy"> | 0275 | [狡猾天狗](0300_狡猾天狗.md) | 草/恶 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0304.png?v=bb32fb36" loading="lazy"> | 0276 | [傲骨燕](0304_傲骨燕.md) | 一般/飞行 | 270 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0305.png?v=ef8a7ed4" loading="lazy"> | 0277 | [大王燕](0305_大王燕.md) | 一般/飞行 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0309.png?v=288c1489" loading="lazy"> | 0278 | [长翅鸥](0309_长翅鸥.md) | 水/飞行 | 270 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0310.png?v=9dfa7d29" loading="lazy"> | 0279 | [大嘴鸥](0310_大嘴鸥.md) | 水/飞行 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0392.png?v=78f14465" loading="lazy"> | 0280 | [拉鲁拉丝](0392_拉鲁拉丝.md) | 超能力/妖精 | 198 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0393.png?v=0a85ae9f" loading="lazy"> | 0281 | [奇鲁莉安](0393_奇鲁莉安.md) | 超能力/妖精 | 278 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0394.png?v=49b33251" loading="lazy"> | 0282 | [沙奈朵](0394_沙奈朵.md) | 超能力/妖精 | 518 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0893.png?v=743c0d1f" loading="lazy"> | 0282 | [超级沙奈朵](0893_超级沙奈朵.md) | 超能力/妖精 | 618 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0311.png?v=b9aa9004" loading="lazy"> | 0283 | [溜溜糖球](0311_溜溜糖球.md) | 虫/水 | 269 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0312.png?v=6b3f36d0" loading="lazy"> | 0284 | [雨翅蛾](0312_雨翅蛾.md) | 虫/飞行 | 454 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0306.png?v=d3fe5d57" loading="lazy"> | 0285 | [蘑蘑菇](0306_蘑蘑菇.md) | 草 | 295 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0307.png?v=2eb2aa4b" loading="lazy"> | 0286 | [斗笠菇](0307_斗笠菇.md) | 草/格斗 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0364.png?v=a7f6352a" loading="lazy"> | 0287 | [懒人獭](0364_懒人獭.md) | 一般 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0365.png?v=60355167" loading="lazy"> | 0288 | [过动猿](0365_过动猿.md) | 一般 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0366.png?v=6ffc8096" loading="lazy"> | 0289 | [请假王](0366_请假王.md) | 一般 | 670 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0301.png?v=ae2a379d" loading="lazy"> | 0290 | [土居忍士](0301_土居忍士.md) | 虫/地面 | 266 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0302.png?v=0ba9158f" loading="lazy"> | 0291 | [铁面忍者](0302_铁面忍者.md) | 虫/飞行 | 456 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0303.png?v=a0ff879e" loading="lazy"> | 0292 | [脱壳忍者](0303_脱壳忍者.md) | 虫/幽灵 | 236 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0370.png?v=5adb6553" loading="lazy"> | 0293 | [咕妞妞](0370_咕妞妞.md) | 一般 | 240 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0371.png?v=85454482" loading="lazy"> | 0294 | [吼爆弹](0371_吼爆弹.md) | 一般 | 360 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0372.png?v=82de6c96" loading="lazy"> | 0295 | [爆音怪](0372_爆音怪.md) | 一般 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0335.png?v=9970f7a3" loading="lazy"> | 0296 | [幕下力士](0335_幕下力士.md) | 格斗 | 237 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0336.png?v=f66fd259" loading="lazy"> | 0297 | [铁掌力士](0336_铁掌力士.md) | 格斗 | 474 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0350.png?v=dd548b6b" loading="lazy"> | 0298 | [露力丽](0350_露力丽.md) | 一般/妖精 | 190 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0320.png?v=975c8ddd" loading="lazy"> | 0299 | [朝北鼻](0320_朝北鼻.md) | 岩石 | 375 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0315.png?v=43945ca7" loading="lazy"> | 0300 | [向尾喵](0315_向尾喵.md) | 一般 | 260 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0316.png?v=91ea04f3" loading="lazy"> | 0301 | [优雅猫](0316_优雅猫.md) | 一般 | 400 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0322.png?v=809bb3a7" loading="lazy"> | 0302 | [勾魂眼](0322_勾魂眼.md) | 恶/幽灵 | 380 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0894.png?v=caded6dd" loading="lazy"> | 0302 | [超级勾魂眼](0894_超级勾魂眼.md) | 恶/幽灵 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0355.png?v=6ea6fda7" loading="lazy"> | 0303 | [大嘴娃](0355_大嘴娃.md) | 钢/妖精 | 380 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0895.png?v=986027b0" loading="lazy"> | 0303 | [超级大嘴娃](0895_超级大嘴娃.md) | 钢/妖精 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0382.png?v=a215608e" loading="lazy"> | 0304 | [可可多拉](0382_可可多拉.md) | 钢/岩石 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0383.png?v=d9213fd6" loading="lazy"> | 0305 | [可多拉](0383_可多拉.md) | 钢/岩石 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0384.png?v=afe9cd87" loading="lazy"> | 0306 | [波士可多拉](0384_波士可多拉.md) | 钢/岩石 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0896.png?v=98e964f6" loading="lazy"> | 0306 | [超级波士可多拉](0896_超级波士可多拉.md) | 钢 | 630 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0356.png?v=1f60d04b" loading="lazy"> | 0307 | [玛沙那](0356_玛沙那.md) | 格斗/超能力 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0357.png?v=d250b232" loading="lazy"> | 0308 | [恰雷姆](0357_恰雷姆.md) | 格斗/超能力 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0897.png?v=cf4c41ec" loading="lazy"> | 0308 | [超级恰雷姆](0897_超级恰雷姆.md) | 格斗/超能力 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0337.png?v=c1245394" loading="lazy"> | 0309 | [落雷兽](0337_落雷兽.md) | 电 | 295 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0338.png?v=da9562f7" loading="lazy"> | 0310 | [雷电兽](0338_雷电兽.md) | 电 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0898.png?v=7c1854c4" loading="lazy"> | 0310 | [超级雷电兽](0898_超级雷电兽.md) | 电 | 575 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0353.png?v=0397ed6b" loading="lazy"> | 0311 | [正电拍拍](0353_正电拍拍.md) | 电 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0354.png?v=2f5f02e2" loading="lazy"> | 0312 | [负电拍拍](0354_负电拍拍.md) | 电 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0386.png?v=e3246ff4" loading="lazy"> | 0313 | [电萤虫](0386_电萤虫.md) | 虫 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0387.png?v=22ce690e" loading="lazy"> | 0314 | [甜甜萤](0387_甜甜萤.md) | 虫 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0363.png?v=f3c03978" loading="lazy"> | 0315 | [毒蔷薇](0363_毒蔷薇.md) | 草/毒 | 400 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0367.png?v=9ec64328" loading="lazy"> | 0316 | [溶食兽](0367_溶食兽.md) | 毒 | 302 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0368.png?v=f46d988c" loading="lazy"> | 0317 | [吞食兽](0368_吞食兽.md) | 毒 | 467 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0330.png?v=ae27b0ed" loading="lazy"> | 0318 | [利牙鱼](0330_利牙鱼.md) | 水/恶 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0331.png?v=146e79d0" loading="lazy"> | 0319 | [巨牙鲨](0331_巨牙鲨.md) | 水/恶 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0899.png?v=5a624eb5" loading="lazy"> | 0319 | [超级巨牙鲨](0899_超级巨牙鲨.md) | 水/恶 | 560 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0313.png?v=8aeacef4" loading="lazy"> | 0320 | [吼吼鲸](0313_吼吼鲸.md) | 水 | 400 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0314.png?v=fa74ba61" loading="lazy"> | 0321 | [吼鲸王](0314_吼鲸王.md) | 水 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0339.png?v=8e7cdae9" loading="lazy"> | 0322 | [呆火驼](0339_呆火驼.md) | 火/地面 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0340.png?v=cd99ff16" loading="lazy"> | 0323 | [喷火驼](0340_喷火驼.md) | 火/地面 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0900.png?v=1ae01b45" loading="lazy"> | 0323 | [超级喷火驼](0900_超级喷火驼.md) | 火/地面 | 560 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0321.png?v=7887145b" loading="lazy"> | 0324 | [煤炭龟](0321_煤炭龟.md) | 火 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0351.png?v=6b9c35fd" loading="lazy"> | 0325 | [跳跳猪](0351_跳跳猪.md) | 超能力 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0352.png?v=7263d67e" loading="lazy"> | 0326 | [噗噗猪](0352_噗噗猪.md) | 超能力 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0308.png?v=6f9c1ce2" loading="lazy"> | 0327 | [晃晃斑](0308_晃晃斑.md) | 一般 | 360 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0332.png?v=2f5ec926" loading="lazy"> | 0328 | [大颚蚁](0332_大颚蚁.md) | 地面 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0333.png?v=29b922ed" loading="lazy"> | 0329 | [超音波幼虫](0333_超音波幼虫.md) | 地面/龙 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0334.png?v=154118fd" loading="lazy"> | 0330 | [沙漠蜻蜓](0334_沙漠蜻蜓.md) | 地面/龙 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0344.png?v=219d59d5" loading="lazy"> | 0331 | [刺球仙人掌](0344_刺球仙人掌.md) | 草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0345.png?v=812bef8d" loading="lazy"> | 0332 | [梦歌仙人掌](0345_梦歌仙人掌.md) | 草/恶 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0358.png?v=9eaed3cd" loading="lazy"> | 0333 | [青绵鸟](0358_青绵鸟.md) | 一般/飞行 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0359.png?v=45de9c36" loading="lazy"> | 0334 | [七夕青鸟](0359_七夕青鸟.md) | 龙/飞行 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0901.png?v=1ba17d0b" loading="lazy"> | 0334 | [超级七夕青鸟](0901_超级七夕青鸟.md) | 龙/妖精 | 590 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0380.png?v=697184ee" loading="lazy"> | 0335 | [猫鼬斩](0380_猫鼬斩.md) | 一般 | 458 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0379.png?v=0f55c4e4" loading="lazy"> | 0336 | [饭匙蛇](0379_饭匙蛇.md) | 毒 | 458 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0348.png?v=5bd820b9" loading="lazy"> | 0337 | [月石](0348_月石.md) | 岩石/超能力 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0349.png?v=23231a1f" loading="lazy"> | 0338 | [太阳岩](0349_太阳岩.md) | 岩石/超能力 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0323.png?v=72dbdbfd" loading="lazy"> | 0339 | [泥泥鳅](0323_泥泥鳅.md) | 水/地面 | 288 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0324.png?v=921a3ec1" loading="lazy"> | 0340 | [鲶鱼王](0324_鲶鱼王.md) | 水/地面 | 468 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0326.png?v=7e60cd11" loading="lazy"> | 0341 | [龙虾小兵](0326_龙虾小兵.md) | 水 | 308 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0327.png?v=d785a2b3" loading="lazy"> | 0342 | [铁螯龙虾](0327_铁螯龙虾.md) | 水/恶 | 468 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0318.png?v=bb56ee16" loading="lazy"> | 0343 | [天秤偶](0318_天秤偶.md) | 地面/超能力 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0319.png?v=6e631d89" loading="lazy"> | 0344 | [念力土偶](0319_念力土偶.md) | 地面/超能力 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0388.png?v=b5f5d1bb" loading="lazy"> | 0345 | [触手百合](0388_触手百合.md) | 岩石/草 | 355 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0389.png?v=e03cf207" loading="lazy"> | 0346 | [摇篮百合](0389_摇篮百合.md) | 岩石/草 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0390.png?v=7c531076" loading="lazy"> | 0347 | [太古羽虫](0390_太古羽虫.md) | 岩石/虫 | 355 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0391.png?v=f2a54ef4" loading="lazy"> | 0348 | [太古盔甲](0391_太古盔甲.md) | 岩石/虫 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0328.png?v=ff6a1f87" loading="lazy"> | 0349 | [丑丑鱼](0328_丑丑鱼.md) | 水 | 200 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0329.png?v=05be07d1" loading="lazy"> | 0350 | [美纳斯](0329_美纳斯.md) | 水 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0385.png?v=c779a304" loading="lazy"> | 0351 | [飘浮泡泡](0385_飘浮泡泡.md) | 一般 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0317.png?v=c80541f5" loading="lazy"> | 0352 | [变隐龙](0317_变隐龙.md) | 一般 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0377.png?v=38c063a5" loading="lazy"> | 0353 | [怨影娃娃](0377_怨影娃娃.md) | 幽灵 | 295 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0378.png?v=2814730a" loading="lazy"> | 0354 | [诅咒娃娃](0378_诅咒娃娃.md) | 幽灵 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0902.png?v=29e84a8f" loading="lazy"> | 0354 | [超级诅咒娃娃](0902_超级诅咒娃娃.md) | 幽灵 | 555 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0361.png?v=401f5bf9" loading="lazy"> | 0355 | [夜巡灵](0361_夜巡灵.md) | 幽灵 | 295 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0362.png?v=d89bbf1e" loading="lazy"> | 0356 | [彷徨夜灵](0362_彷徨夜灵.md) | 幽灵 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0369.png?v=e846f89d" loading="lazy"> | 0357 | [热带龙](0369_热带龙.md) | 草/飞行 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0411.png?v=3be788a3" loading="lazy"> | 0358 | [风铃铃](0411_风铃铃.md) | 超能力 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0376.png?v=27514d1c" loading="lazy"> | 0359 | [阿勃梭鲁](0376_阿勃梭鲁.md) | 恶 | 465 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0903.png?v=fbeb5515" loading="lazy"> | 0359 | [超级阿勃梭鲁](0903_超级阿勃梭鲁.md) | 恶 | 565 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0360.png?v=3539474b" loading="lazy"> | 0360 | [小果然](0360_小果然.md) | 超能力 | 260 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0346.png?v=98975d1a" loading="lazy"> | 0361 | [雪童子](0346_雪童子.md) | 冰 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0347.png?v=91bbf392" loading="lazy"> | 0362 | [冰鬼护](0347_冰鬼护.md) | 冰 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0904.png?v=79fe6953" loading="lazy"> | 0362 | [超级冰鬼护](0904_超级冰鬼护.md) | 冰 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0341.png?v=40a2313d" loading="lazy"> | 0363 | [海豹球](0341_海豹球.md) | 冰/水 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0342.png?v=9ba38e96" loading="lazy"> | 0364 | [海魔狮](0342_海魔狮.md) | 冰/水 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0343.png?v=5fbc6373" loading="lazy"> | 0365 | [帝牙海狮](0343_帝牙海狮.md) | 冰/水 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0373.png?v=ee9981ed" loading="lazy"> | 0366 | [珍珠贝](0373_珍珠贝.md) | 水 | 345 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0374.png?v=8be7cf37" loading="lazy"> | 0367 | [猎斑鱼](0374_猎斑鱼.md) | 水 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0375.png?v=a0b5a3a6" loading="lazy"> | 0368 | [樱花鱼](0375_樱花鱼.md) | 水 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0381.png?v=0eb82d37" loading="lazy"> | 0369 | [古空棘鱼](0381_古空棘鱼.md) | 水/岩石 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0325.png?v=0f083a5f" loading="lazy"> | 0370 | [爱心鱼](0325_爱心鱼.md) | 水 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0395.png?v=b4056c2a" loading="lazy"> | 0371 | [宝贝龙](0395_宝贝龙.md) | 龙 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0396.png?v=9401848d" loading="lazy"> | 0372 | [甲壳龙](0396_甲壳龙.md) | 龙 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0397.png?v=9db1f1ff" loading="lazy"> | 0373 | [暴飞龙](0397_暴飞龙.md) | 龙/飞行 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0905.png?v=84232f85" loading="lazy"> | 0373 | [超级暴飞龙](0905_超级暴飞龙.md) | 龙/飞行 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0398.png?v=d471c34b" loading="lazy"> | 0374 | [铁哑铃](0398_铁哑铃.md) | 钢/超能力 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0399.png?v=ce1bedcc" loading="lazy"> | 0375 | [金属怪](0399_金属怪.md) | 钢/超能力 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0400.png?v=a5a1a1f3" loading="lazy"> | 0376 | [巨金怪](0400_巨金怪.md) | 钢/超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0906.png?v=2adf4be5" loading="lazy"> | 0376 | [超级巨金怪](0906_超级巨金怪.md) | 钢/超能力 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0401.png?v=3fd3fcfb" loading="lazy"> | 0377 | [雷吉洛克](0401_雷吉洛克.md) | 岩石 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0402.png?v=d2d79b96" loading="lazy"> | 0378 | [雷吉艾斯](0402_雷吉艾斯.md) | 冰 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0403.png?v=ca36bd18" loading="lazy"> | 0379 | [雷吉斯奇鲁](0403_雷吉斯奇鲁.md) | 钢 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0407.png?v=898f7b6b" loading="lazy"> | 0380 | [拉帝亚斯](0407_拉帝亚斯.md) | 龙/超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0907.png?v=a813a429" loading="lazy"> | 0380 | [超级拉帝亚斯](0907_超级拉帝亚斯.md) | 龙/超能力 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0408.png?v=45cc4506" loading="lazy"> | 0381 | [拉帝欧斯](0408_拉帝欧斯.md) | 龙/超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0908.png?v=a93c355f" loading="lazy"> | 0381 | [超级拉帝欧斯](0908_超级拉帝欧斯.md) | 龙/超能力 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0404.png?v=b99b7e04" loading="lazy"> | 0382 | [盖欧卡](0404_盖欧卡.md) | 水 | 670 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0910.png?v=45cc4506" loading="lazy"> | 0382 | [原始盖欧卡](0910_原始盖欧卡.md) | 水 | 770 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0405.png?v=144cfd1e" loading="lazy"> | 0383 | [固拉多](0405_固拉多.md) | 地面 | 670 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0909.png?v=b99b7e04" loading="lazy"> | 0383 | [原始固拉多](0909_原始固拉多.md) | 地面/火 | 770 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0406.png?v=3fc19cea" loading="lazy"> | 0384 | [烈空坐](0406_烈空坐.md) | 龙/飞行 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0911.png?v=5687de90" loading="lazy"> | 0384 | [超级烈空坐](0911_超级烈空坐.md) | 龙/飞行 | 780 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0409.png?v=fde37053" loading="lazy"> | 0385 | [基拉祈](0409_基拉祈.md) | 钢/超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0410.png?v=c7113ff5" loading="lazy"> | 0386 | [代欧奇希斯](0410_代欧奇希斯.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1040.png?v=fde37053" loading="lazy"> | 0386 | [代欧奇希斯（攻击形态）](1040_代欧奇希斯（攻击形态）.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1041.png?v=fde37053" loading="lazy"> | 0386 | [代欧奇希斯（防御形态）](1041_代欧奇希斯（防御形态）.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1042.png?v=fde37053" loading="lazy"> | 0386 | [代欧奇希斯（速度形态）](1042_代欧奇希斯（速度形态）.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0440.png?v=2b98b044" loading="lazy"> | 0387 | [草苗龟](0440_草苗龟.md) | 草 | 318 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0441.png?v=ae279a4f" loading="lazy"> | 0388 | [树林龟](0441_树林龟.md) | 草 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0442.png?v=74a14e51" loading="lazy"> | 0389 | [土台龟](0442_土台龟.md) | 草/地面 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0443.png?v=77787ac4" loading="lazy"> | 0390 | [小火焰猴](0443_小火焰猴.md) | 火 | 309 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0444.png?v=980531a8" loading="lazy"> | 0391 | [猛火猴](0444_猛火猴.md) | 火/格斗 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0445.png?v=c0c924d6" loading="lazy"> | 0392 | [烈焰猴](0445_烈焰猴.md) | 火/格斗 | 534 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0446.png?v=36d5263c" loading="lazy"> | 0393 | [波加曼](0446_波加曼.md) | 水 | 314 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0447.png?v=9ce7291e" loading="lazy"> | 0394 | [波皇子](0447_波皇子.md) | 水 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0448.png?v=af1e17da" loading="lazy"> | 0395 | [帝王拿波](0448_帝王拿波.md) | 水/钢 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0449.png?v=20bcf423" loading="lazy"> | 0396 | [姆克儿](0449_姆克儿.md) | 一般/飞行 | 245 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0450.png?v=28f57c12" loading="lazy"> | 0397 | [姆克鸟](0450_姆克鸟.md) | 一般/飞行 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0273.png?v=28f57c12" loading="lazy"> | 0398 | [姆克鹰](0273_姆克鹰.md) | 格斗/飞行 | 585 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0451.png?v=372bb53f" loading="lazy"> | 0398 | [姆克鹰](0451_姆克鹰.md) | 一般/飞行 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0452.png?v=dec4347e" loading="lazy"> | 0399 | [大牙狸](0452_大牙狸.md) | 一般 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0453.png?v=d91bff4f" loading="lazy"> | 0400 | [大尾狸](0453_大尾狸.md) | 一般/水 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0454.png?v=3ae57c5e" loading="lazy"> | 0401 | [圆法师](0454_圆法师.md) | 虫 | 194 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0455.png?v=2546cdef" loading="lazy"> | 0402 | [音箱蟀](0455_音箱蟀.md) | 虫 | 384 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0456.png?v=dcf6b285" loading="lazy"> | 0403 | [小猫怪](0456_小猫怪.md) | 电 | 263 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0457.png?v=46836298" loading="lazy"> | 0404 | [勒克猫](0457_勒克猫.md) | 电 | 363 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0458.png?v=e215184b" loading="lazy"> | 0405 | [伦琴猫](0458_伦琴猫.md) | 电 | 523 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0459.png?v=9e796ac2" loading="lazy"> | 0406 | [含羞苞](0459_含羞苞.md) | 草/毒 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0460.png?v=88c91465" loading="lazy"> | 0407 | [罗丝雷朵](0460_罗丝雷朵.md) | 草/毒 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0461.png?v=5964af59" loading="lazy"> | 0408 | [头盖龙](0461_头盖龙.md) | 岩石 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0462.png?v=f3f8c145" loading="lazy"> | 0409 | [战槌龙](0462_战槌龙.md) | 岩石 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0463.png?v=1b0acf8a" loading="lazy"> | 0410 | [盾甲龙](0463_盾甲龙.md) | 岩石/钢 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0464.png?v=86104fbd" loading="lazy"> | 0411 | [护城龙](0464_护城龙.md) | 岩石/钢 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0465.png?v=4deaa874" loading="lazy"> | 0412 | [结草儿](0465_结草儿.md) | 虫 | 224 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0707.png?v=86104fbd" loading="lazy"> | 0412 | [结草儿（砂土蓑衣）](0707_结草儿（砂土蓑衣）.md) | 虫 | 224 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0708.png?v=86104fbd" loading="lazy"> | 0412 | [结草儿（垃圾蓑衣）](0708_结草儿（垃圾蓑衣）.md) | 虫 | 224 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0466.png?v=23612326" loading="lazy"> | 0413 | [结草贵妇](0466_结草贵妇.md) | 虫/草 | 424 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0709.png?v=4deaa874" loading="lazy"> | 0413 | [结草贵妇（砂土蓑衣）](0709_结草贵妇（砂土蓑衣）.md) | 虫/地面 | 424 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0710.png?v=4deaa874" loading="lazy"> | 0413 | [结草贵妇（垃圾蓑衣）](0710_结草贵妇（垃圾蓑衣）.md) | 虫/钢 | 424 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0467.png?v=f0fd15f7" loading="lazy"> | 0414 | [绅士蛾](0467_绅士蛾.md) | 虫/飞行 | 424 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0468.png?v=88499a65" loading="lazy"> | 0415 | [三蜜蜂](0468_三蜜蜂.md) | 虫/飞行 | 244 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0469.png?v=af92bb01" loading="lazy"> | 0416 | [蜂女王](0469_蜂女王.md) | 虫/飞行 | 474 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0470.png?v=87c56896" loading="lazy"> | 0417 | [帕奇利兹](0470_帕奇利兹.md) | 电 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0471.png?v=fbabb2f1" loading="lazy"> | 0418 | [泳圈鼬](0471_泳圈鼬.md) | 水 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0472.png?v=8c233df0" loading="lazy"> | 0419 | [浮潜鼬](0472_浮潜鼬.md) | 水 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0473.png?v=bf608ce2" loading="lazy"> | 0420 | [樱花宝](0473_樱花宝.md) | 草 | 275 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0474.png?v=48df30df" loading="lazy"> | 0421 | [樱花儿](0474_樱花儿.md) | 草 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0751.png?v=bf608ce2" loading="lazy"> | 0421 | [樱花儿（阳光形态）](0751_樱花儿（阳光形态）.md) | 草 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0475.png?v=3330c13c" loading="lazy"> | 0422 | [无壳海兔](0475_无壳海兔.md) | 水 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0711.png?v=48df30df" loading="lazy"> | 0422 | [无壳海兔（东海的样子）](0711_无壳海兔（东海的样子）.md) | 水 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0476.png?v=135cd2b1" loading="lazy"> | 0423 | [海兔兽](0476_海兔兽.md) | 水/地面 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0712.png?v=3330c13c" loading="lazy"> | 0423 | [海兔兽（东海的样子）](0712_海兔兽（东海的样子）.md) | 水/地面 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0477.png?v=59299966" loading="lazy"> | 0424 | [双尾怪手](0477_双尾怪手.md) | 一般 | 482 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0478.png?v=7bde0b27" loading="lazy"> | 0425 | [飘飘球](0478_飘飘球.md) | 幽灵/飞行 | 348 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0479.png?v=caf33338" loading="lazy"> | 0426 | [随风球](0479_随风球.md) | 幽灵/飞行 | 498 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0480.png?v=fdc005de" loading="lazy"> | 0427 | [卷卷耳](0480_卷卷耳.md) | 一般 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0481.png?v=d4d9b420" loading="lazy"> | 0428 | [长耳兔](0481_长耳兔.md) | 一般 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0912.png?v=8ec9423c" loading="lazy"> | 0428 | [超级长耳兔](0912_超级长耳兔.md) | 一般/格斗 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0482.png?v=ef71a8fb" loading="lazy"> | 0429 | [梦妖魔](0482_梦妖魔.md) | 幽灵 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0483.png?v=dbb0a204" loading="lazy"> | 0430 | [乌鸦头头](0483_乌鸦头头.md) | 恶/飞行 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0484.png?v=6134271d" loading="lazy"> | 0431 | [魅力喵](0484_魅力喵.md) | 一般 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0485.png?v=86c5fe0b" loading="lazy"> | 0432 | [东施喵](0485_东施喵.md) | 一般 | 452 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0486.png?v=9d5fd698" loading="lazy"> | 0433 | [铃铛响](0486_铃铛响.md) | 超能力 | 285 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0487.png?v=b7c5d52b" loading="lazy"> | 0434 | [臭鼬噗](0487_臭鼬噗.md) | 毒/恶 | 329 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0488.png?v=ead40d36" loading="lazy"> | 0435 | [坦克臭鼬](0488_坦克臭鼬.md) | 毒/恶 | 479 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0489.png?v=9d0d7181" loading="lazy"> | 0436 | [铜镜怪](0489_铜镜怪.md) | 钢/超能力 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0490.png?v=78d36c76" loading="lazy"> | 0437 | [青铜钟](0490_青铜钟.md) | 钢/超能力 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0491.png?v=f9a9680c" loading="lazy"> | 0438 | [盆才怪](0491_盆才怪.md) | 岩石 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0492.png?v=ce027e56" loading="lazy"> | 0439 | [魔尼尼](0492_魔尼尼.md) | 超能力/妖精 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1228.png?v=ce027e56" loading="lazy"> | 0439 | [魔尼尼（伽勒尔的样子）](1228_魔尼尼（伽勒尔的样子）.md) | 超能力/妖精 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0493.png?v=21c1581e" loading="lazy"> | 0440 | [小福蛋](0493_小福蛋.md) | 一般 | 220 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0494.png?v=c6840611" loading="lazy"> | 0441 | [聒噪鸟](0494_聒噪鸟.md) | 一般/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0495.png?v=5def5ec8" loading="lazy"> | 0442 | [花岩怪](0495_花岩怪.md) | 幽灵/恶 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0496.png?v=0bf25614" loading="lazy"> | 0443 | [圆陆鲨](0496_圆陆鲨.md) | 龙/地面 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0497.png?v=99758f87" loading="lazy"> | 0444 | [尖牙陆鲨](0497_尖牙陆鲨.md) | 龙/地面 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0498.png?v=40f86baa" loading="lazy"> | 0445 | [烈咬陆鲨](0498_烈咬陆鲨.md) | 龙/地面 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0913.png?v=66793846" loading="lazy"> | 0445 | [超级烈咬陆鲨](0913_超级烈咬陆鲨.md) | 龙/地面 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0499.png?v=964de33f" loading="lazy"> | 0446 | [小卡比兽](0499_小卡比兽.md) | 一般 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0500.png?v=89ce9572" loading="lazy"> | 0447 | [利欧路](0500_利欧路.md) | 格斗 | 285 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0501.png?v=cd0ccc70" loading="lazy"> | 0448 | [路卡利欧](0501_路卡利欧.md) | 格斗/钢 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0914.png?v=2b0f496b" loading="lazy"> | 0448 | [超级路卡利欧](0914_超级路卡利欧.md) | 格斗/钢 | 625 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0502.png?v=74a5e199" loading="lazy"> | 0449 | [沙河马](0502_沙河马.md) | 地面 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0744.png?v=cd0ccc70" loading="lazy"> | 0449 | [沙河马（雌性）](0744_沙河马（雌性）.md) | 地面 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0503.png?v=5cefca6d" loading="lazy"> | 0450 | [河马兽](0503_河马兽.md) | 地面 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0745.png?v=74a5e199" loading="lazy"> | 0450 | [河马兽（雌性）](0745_河马兽（雌性）.md) | 地面 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0504.png?v=36e06f26" loading="lazy"> | 0451 | [钳尾蝎](0504_钳尾蝎.md) | 毒/虫 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0505.png?v=89261a09" loading="lazy"> | 0452 | [龙王蝎](0505_龙王蝎.md) | 毒/恶 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0506.png?v=23a1055f" loading="lazy"> | 0453 | [不良蛙](0506_不良蛙.md) | 毒/格斗 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0507.png?v=2b0b0a9c" loading="lazy"> | 0454 | [毒骷蛙](0507_毒骷蛙.md) | 毒/格斗 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0508.png?v=2eb64261" loading="lazy"> | 0455 | [尖牙笼](0508_尖牙笼.md) | 草 | 454 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0509.png?v=5a7be5c1" loading="lazy"> | 0456 | [荧光鱼](0509_荧光鱼.md) | 水 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0510.png?v=19d1ab19" loading="lazy"> | 0457 | [霓虹鱼](0510_霓虹鱼.md) | 水 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0511.png?v=00ce97d9" loading="lazy"> | 0458 | [小球飞鱼](0511_小球飞鱼.md) | 水/飞行 | 345 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0512.png?v=860b5ada" loading="lazy"> | 0459 | [雪笠怪](0512_雪笠怪.md) | 草/冰 | 334 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0513.png?v=e7b726b7" loading="lazy"> | 0460 | [暴雪王](0513_暴雪王.md) | 草/冰 | 494 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0915.png?v=ffb83a65" loading="lazy"> | 0460 | [超级暴雪王](0915_超级暴雪王.md) | 草/冰 | 594 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0514.png?v=4efc7169" loading="lazy"> | 0461 | [玛狃拉](0514_玛狃拉.md) | 恶/冰 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0515.png?v=5ddb1a05" loading="lazy"> | 0462 | [自爆磁怪](0515_自爆磁怪.md) | 电/钢 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0516.png?v=3981c2d4" loading="lazy"> | 0463 | [大舌舔](0516_大舌舔.md) | 一般 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0517.png?v=b71c0988" loading="lazy"> | 0464 | [超甲狂犀](0517_超甲狂犀.md) | 地面/岩石 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0518.png?v=8ab4238e" loading="lazy"> | 0465 | [巨蔓藤](0518_巨蔓藤.md) | 草 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0519.png?v=d01db274" loading="lazy"> | 0466 | [电击魔兽](0519_电击魔兽.md) | 电 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0520.png?v=8db4e21d" loading="lazy"> | 0467 | [鸭嘴炎兽](0520_鸭嘴炎兽.md) | 火 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0521.png?v=019a165e" loading="lazy"> | 0468 | [波克基斯](0521_波克基斯.md) | 妖精/飞行 | 545 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0522.png?v=b7520996" loading="lazy"> | 0469 | [远古巨蜓](0522_远古巨蜓.md) | 虫/飞行 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0523.png?v=f3b9b29a" loading="lazy"> | 0470 | [叶伊布](0523_叶伊布.md) | 草 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0524.png?v=9e676380" loading="lazy"> | 0471 | [冰伊布](0524_冰伊布.md) | 冰 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0525.png?v=bfef2e98" loading="lazy"> | 0472 | [天蝎王](0525_天蝎王.md) | 地面/飞行 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0526.png?v=8c5f4b51" loading="lazy"> | 0473 | [象牙猪](0526_象牙猪.md) | 冰/地面 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0527.png?v=65eb44c6" loading="lazy"> | 0474 | [多边兽Z](0527_多边兽Z.md) | 一般 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0528.png?v=2107b83e" loading="lazy"> | 0475 | [艾路雷朵](0528_艾路雷朵.md) | 超能力/格斗 | 518 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0916.png?v=eb17ac2b" loading="lazy"> | 0475 | [超级艾路雷朵](0916_超级艾路雷朵.md) | 超能力/格斗 | 618 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0529.png?v=3f771389" loading="lazy"> | 0476 | [大朝北鼻](0529_大朝北鼻.md) | 岩石/钢 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0530.png?v=52a42659" loading="lazy"> | 0477 | [黑夜魔灵](0530_黑夜魔灵.md) | 幽灵 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0531.png?v=a273d6c2" loading="lazy"> | 0478 | [雪妖女](0531_雪妖女.md) | 冰/幽灵 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0532.png?v=aa0f950c" loading="lazy"> | 0479 | [洛托姆](0532_洛托姆.md) | 电/幽灵 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0713.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（加热形态）](0713_洛托姆（加热形态）.md) | 电/火 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0714.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（清洗形态）](0714_洛托姆（清洗形态）.md) | 电/水 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0715.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（结冰形态）](0715_洛托姆（结冰形态）.md) | 电/冰 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0716.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（旋转形态）](0716_洛托姆（旋转形态）.md) | 电/飞行 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0717.png?v=a273d6c2" loading="lazy"> | 0479 | [洛托姆（切割形态）](0717_洛托姆（切割形态）.md) | 电/草 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0533.png?v=e6e2021f" loading="lazy"> | 0480 | [由克希](0533_由克希.md) | 超能力 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0534.png?v=863db1ea" loading="lazy"> | 0481 | [艾姆利多](0534_艾姆利多.md) | 超能力 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0535.png?v=078dcf18" loading="lazy"> | 0482 | [亚克诺姆](0535_亚克诺姆.md) | 超能力 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0536.png?v=e9388de8" loading="lazy"> | 0483 | [帝牙卢卡](0536_帝牙卢卡.md) | 钢/龙 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0919.png?v=078dcf18" loading="lazy"> | 0483 | [帝牙卢卡（起源形态）](0919_帝牙卢卡（起源形态）.md) | 钢/龙 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0537.png?v=9b105ccf" loading="lazy"> | 0484 | [帕路奇亚](0537_帕路奇亚.md) | 水/龙 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0920.png?v=e9388de8" loading="lazy"> | 0484 | [帕路奇亚（起源形态）](0920_帕路奇亚（起源形态）.md) | 水/龙 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0538.png?v=15f3c94b" loading="lazy"> | 0485 | [席多蓝恩](0538_席多蓝恩.md) | 火/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0539.png?v=e60f269c" loading="lazy"> | 0486 | [雷吉奇卡斯](0539_雷吉奇卡斯.md) | 一般 | 670 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0540.png?v=af082c98" loading="lazy"> | 0487 | [骑拉帝纳](0540_骑拉帝纳.md) | 幽灵/龙 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0718.png?v=e60f269c" loading="lazy"> | 0487 | [骑拉帝纳（起源形态）](0718_骑拉帝纳（起源形态）.md) | 幽灵/龙 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0541.png?v=525fd04f" loading="lazy"> | 0488 | [克雷色利亚](0541_克雷色利亚.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0542.png?v=f6c43e31" loading="lazy"> | 0489 | [霏欧纳](0542_霏欧纳.md) | 水 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0543.png?v=eb9f2200" loading="lazy"> | 0490 | [玛纳霏](0543_玛纳霏.md) | 水 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0544.png?v=84d529da" loading="lazy"> | 0491 | [达克莱伊](0544_达克莱伊.md) | 恶 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0545.png?v=7a27f6f9" loading="lazy"> | 0492 | [谢米](0545_谢米.md) | 草 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0719.png?v=84d529da" loading="lazy"> | 0492 | [谢米（天空形态）](0719_谢米（天空形态）.md) | 草/飞行 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0546.png?v=120c3e40" loading="lazy"> | 0493 | [阿尔宙斯](0546_阿尔宙斯.md) | 一般 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0720.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（格斗属性）](0720_阿尔宙斯（格斗属性）.md) | 格斗 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0721.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（飞行属性）](0721_阿尔宙斯（飞行属性）.md) | 飞行 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0722.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（毒属性）](0722_阿尔宙斯（毒属性）.md) | 毒 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0723.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（地面属性）](0723_阿尔宙斯（地面属性）.md) | 地面 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0724.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（岩石属性）](0724_阿尔宙斯（岩石属性）.md) | 岩石 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0725.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（虫属性）](0725_阿尔宙斯（虫属性）.md) | 虫 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0726.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（幽灵属性）](0726_阿尔宙斯（幽灵属性）.md) | 幽灵 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0727.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（钢属性）](0727_阿尔宙斯（钢属性）.md) | 钢 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0728.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（火属性）](0728_阿尔宙斯（火属性）.md) | 火 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0729.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（水属性）](0729_阿尔宙斯（水属性）.md) | 水 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0730.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（草属性）](0730_阿尔宙斯（草属性）.md) | 草 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0731.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（电属性）](0731_阿尔宙斯（电属性）.md) | 电 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0732.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（超能力属性）](0732_阿尔宙斯（超能力属性）.md) | 超能力 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0733.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（冰属性）](0733_阿尔宙斯（冰属性）.md) | 冰 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0734.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（龙属性）](0734_阿尔宙斯（龙属性）.md) | 龙 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0735.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（恶属性）](0735_阿尔宙斯（恶属性）.md) | 恶 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0834.png?v=7a27f6f9" loading="lazy"> | 0493 | [阿尔宙斯（妖精属性）](0834_阿尔宙斯（妖精属性）.md) | 妖精 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0547.png?v=bbfa613f" loading="lazy"> | 0494 | [比克提尼](0547_比克提尼.md) | 超能力/火 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0548.png?v=1919e94d" loading="lazy"> | 0495 | [藤藤蛇](0548_藤藤蛇.md) | 草 | 308 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0549.png?v=61f52112" loading="lazy"> | 0496 | [青藤蛇](0549_青藤蛇.md) | 草 | 413 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0550.png?v=2a9e5aad" loading="lazy"> | 0497 | [君主蛇](0550_君主蛇.md) | 草 | 528 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0551.png?v=f7aad000" loading="lazy"> | 0498 | [暖暖猪](0551_暖暖猪.md) | 火 | 308 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0552.png?v=5e80db2a" loading="lazy"> | 0499 | [炒炒猪](0552_炒炒猪.md) | 火/格斗 | 418 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0553.png?v=bcda3d32" loading="lazy"> | 0500 | [炎武王](0553_炎武王.md) | 火/格斗 | 528 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0554.png?v=e9abd84e" loading="lazy"> | 0501 | [水水獭](0554_水水獭.md) | 水 | 308 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0555.png?v=d6dedd8b" loading="lazy"> | 0502 | [双刃丸](0555_双刃丸.md) | 水 | 413 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0556.png?v=886d34b6" loading="lazy"> | 0503 | [大剑鬼](0556_大剑鬼.md) | 水 | 528 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1241.png?v=f6262fc6" loading="lazy"> | 0503 | [大剑鬼（洗翠的样子）](1241_大剑鬼（洗翠的样子）.md) | 水/恶 | 528 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0557.png?v=00ad4a3f" loading="lazy"> | 0504 | [探探鼠](0557_探探鼠.md) | 一般 | 255 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0558.png?v=b846bbb5" loading="lazy"> | 0505 | [步哨鼠](0558_步哨鼠.md) | 一般 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0559.png?v=a498adcd" loading="lazy"> | 0506 | [小约克](0559_小约克.md) | 一般 | 275 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0560.png?v=7e654e0b" loading="lazy"> | 0507 | [哈约克](0560_哈约克.md) | 一般 | 370 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0561.png?v=09f805b4" loading="lazy"> | 0508 | [长毛狗](0561_长毛狗.md) | 一般 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0562.png?v=f55aaf04" loading="lazy"> | 0509 | [扒手猫](0562_扒手猫.md) | 恶 | 281 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0563.png?v=11254a12" loading="lazy"> | 0510 | [酷豹](0563_酷豹.md) | 恶 | 446 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0564.png?v=71062770" loading="lazy"> | 0511 | [花椰猴](0564_花椰猴.md) | 草 | 316 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0565.png?v=184b0950" loading="lazy"> | 0512 | [花椰猿](0565_花椰猿.md) | 草 | 498 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0566.png?v=e6c239d8" loading="lazy"> | 0513 | [爆香猴](0566_爆香猴.md) | 火 | 316 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0567.png?v=de57f5eb" loading="lazy"> | 0514 | [爆香猿](0567_爆香猿.md) | 火 | 498 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0568.png?v=cbeb31ef" loading="lazy"> | 0515 | [冷水猴](0568_冷水猴.md) | 水 | 316 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0569.png?v=e2b5c52b" loading="lazy"> | 0516 | [冷水猿](0569_冷水猿.md) | 水 | 498 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0570.png?v=b29856e8" loading="lazy"> | 0517 | [食梦梦](0570_食梦梦.md) | 超能力 | 292 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0571.png?v=df94aa2a" loading="lazy"> | 0518 | [梦梦蚀](0571_梦梦蚀.md) | 超能力 | 487 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0572.png?v=b9d5d1e6" loading="lazy"> | 0519 | [豆豆鸽](0572_豆豆鸽.md) | 一般/飞行 | 264 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0573.png?v=0be9c369" loading="lazy"> | 0520 | [咕咕鸽](0573_咕咕鸽.md) | 一般/飞行 | 358 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0574.png?v=b58420df" loading="lazy"> | 0521 | [高傲雉鸡](0574_高傲雉鸡.md) | 一般/飞行 | 488 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0703.png?v=0be9c369" loading="lazy"> | 0521 | [高傲雉鸡（雌性）](0703_高傲雉鸡（雌性）.md) | 一般/飞行 | 488 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0575.png?v=8a90b97f" loading="lazy"> | 0522 | [斑斑马](0575_斑斑马.md) | 电 | 295 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0576.png?v=fe36699d" loading="lazy"> | 0523 | [雷电斑马](0576_雷电斑马.md) | 电 | 497 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0577.png?v=540d24ec" loading="lazy"> | 0524 | [石丸子](0577_石丸子.md) | 岩石 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0578.png?v=c1494246" loading="lazy"> | 0525 | [地幔岩](0578_地幔岩.md) | 岩石 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0579.png?v=ec1e99da" loading="lazy"> | 0526 | [庞岩怪](0579_庞岩怪.md) | 岩石 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0580.png?v=978d2c14" loading="lazy"> | 0527 | [滚滚蝙蝠](0580_滚滚蝙蝠.md) | 超能力/飞行 | 323 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0581.png?v=1710272d" loading="lazy"> | 0528 | [心蝙蝠](0581_心蝙蝠.md) | 超能力/飞行 | 425 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0582.png?v=b1186fc9" loading="lazy"> | 0529 | [螺钉地鼠](0582_螺钉地鼠.md) | 地面 | 328 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0268.png?v=b1186fc9" loading="lazy"> | 0530 | [龙头地鼠](0268_龙头地鼠.md) | 地面/钢 | 608 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0583.png?v=cb877f8a" loading="lazy"> | 0530 | [龙头地鼠](0583_龙头地鼠.md) | 地面/钢 | 508 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0584.png?v=06d4150b" loading="lazy"> | 0531 | [差不多娃娃](0584_差不多娃娃.md) | 一般 | 445 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0917.png?v=70f4967f" loading="lazy"> | 0531 | [超级差不多娃娃](0917_超级差不多娃娃.md) | 一般/妖精 | 545 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0585.png?v=8ea2ccd9" loading="lazy"> | 0532 | [搬运小匠](0585_搬运小匠.md) | 格斗 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0586.png?v=e1e189c1" loading="lazy"> | 0533 | [铁骨土人](0586_铁骨土人.md) | 格斗 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0587.png?v=8d033fb0" loading="lazy"> | 0534 | [修建老匠](0587_修建老匠.md) | 格斗 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0588.png?v=f4d710db" loading="lazy"> | 0535 | [圆蝌蚪](0588_圆蝌蚪.md) | 水 | 294 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0589.png?v=5586460c" loading="lazy"> | 0536 | [蓝蟾蜍](0589_蓝蟾蜍.md) | 水/地面 | 384 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0590.png?v=c21b6541" loading="lazy"> | 0537 | [蟾蜍王](0590_蟾蜍王.md) | 水/地面 | 509 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0591.png?v=2381d20c" loading="lazy"> | 0538 | [投摔鬼](0591_投摔鬼.md) | 格斗 | 465 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0592.png?v=50b68ef8" loading="lazy"> | 0539 | [打击鬼](0592_打击鬼.md) | 格斗 | 465 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0593.png?v=8f0b5401" loading="lazy"> | 0540 | [虫宝包](0593_虫宝包.md) | 虫/草 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0594.png?v=51b8958e" loading="lazy"> | 0541 | [宝包茧](0594_宝包茧.md) | 虫/草 | 380 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0595.png?v=be121642" loading="lazy"> | 0542 | [保姆虫](0595_保姆虫.md) | 虫/草 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0596.png?v=f827dfed" loading="lazy"> | 0543 | [百足蜈蚣](0596_百足蜈蚣.md) | 虫/毒 | 260 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0597.png?v=f19f8b04" loading="lazy"> | 0544 | [车轮球](0597_车轮球.md) | 虫/毒 | 360 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0598.png?v=05ea4516" loading="lazy"> | 0545 | [蜈蚣王](0598_蜈蚣王.md) | 虫/毒 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0599.png?v=fd68a39e" loading="lazy"> | 0546 | [木棉球](0599_木棉球.md) | 草/妖精 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0600.png?v=a67f4ff6" loading="lazy"> | 0547 | [风妖精](0600_风妖精.md) | 草/妖精 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0601.png?v=42cd29f0" loading="lazy"> | 0548 | [百合根娃娃](0601_百合根娃娃.md) | 草 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0602.png?v=026e5613" loading="lazy"> | 0549 | [裙儿小姐](0602_裙儿小姐.md) | 草 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1242.png?v=ea5944f0" loading="lazy"> | 0549 | [裙儿小姐（洗翠的样子）](1242_裙儿小姐（洗翠的样子）.md) | 草/格斗 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0603.png?v=026e5613" loading="lazy"> | 0550 | [野蛮鲈鱼](0603_野蛮鲈鱼.md) | 水 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0736.png?v=026e5613" loading="lazy"> | 0550 | [野蛮鲈鱼](0736_野蛮鲈鱼.md) | 水 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1243.png?v=bc5fdd59" loading="lazy"> | 0550 | [野蛮鲈鱼](1243_野蛮鲈鱼.md) | 水 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0604.png?v=f37e9eda" loading="lazy"> | 0551 | [黑眼鳄](0604_黑眼鳄.md) | 地面/恶 | 292 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0605.png?v=02eee526" loading="lazy"> | 0552 | [混混鳄](0605_混混鳄.md) | 地面/恶 | 351 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0606.png?v=86b47703" loading="lazy"> | 0553 | [流氓鳄](0606_流氓鳄.md) | 地面/恶 | 519 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0607.png?v=016cdd7f" loading="lazy"> | 0554 | [火红不倒翁](0607_火红不倒翁.md) | 火 | 315 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1229.png?v=f1095403" loading="lazy"> | 0554 | [火红不倒翁（伽勒尔的样子）](1229_火红不倒翁（伽勒尔的样子）.md) | 冰 | 315 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0608.png?v=b1eae62f" loading="lazy"> | 0555 | [达摩狒狒](0608_达摩狒狒.md) | 火 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0737.png?v=016cdd7f" loading="lazy"> | 0555 | [达摩狒狒](0737_达摩狒狒.md) | 火/超能力 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1230.png?v=b1eae62f" loading="lazy"> | 0555 | [达摩狒狒（伽勒尔的样子）](1230_达摩狒狒（伽勒尔的样子）.md) | 冰 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1231.png?v=016cdd7f" loading="lazy"> | 0555 | [达摩狒狒（伽勒尔达摩模式）](1231_达摩狒狒（伽勒尔达摩模式）.md) | 冰/火 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0609.png?v=83681a4b" loading="lazy"> | 0556 | [沙铃仙人掌](0609_沙铃仙人掌.md) | 草 | 461 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0610.png?v=e5c1ea63" loading="lazy"> | 0557 | [石居蟹](0610_石居蟹.md) | 虫/岩石 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0611.png?v=8f5c530d" loading="lazy"> | 0558 | [岩殿居蟹](0611_岩殿居蟹.md) | 虫/岩石 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0612.png?v=1167f0d8" loading="lazy"> | 0559 | [滑滑小子](0612_滑滑小子.md) | 恶/格斗 | 348 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0267.png?v=1167f0d8" loading="lazy"> | 0560 | [头巾混混](0267_头巾混混.md) | 恶/格斗 | 588 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0613.png?v=551bd47f" loading="lazy"> | 0560 | [头巾混混](0613_头巾混混.md) | 恶/格斗 | 488 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0614.png?v=7904e81f" loading="lazy"> | 0561 | [象征鸟](0614_象征鸟.md) | 超能力/飞行 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0615.png?v=94a604a0" loading="lazy"> | 0562 | [哭哭面具](0615_哭哭面具.md) | 幽灵 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1232.png?v=b98413e0" loading="lazy"> | 0562 | [哭哭面具（伽勒尔的样子）](1232_哭哭面具（伽勒尔的样子）.md) | 地面/幽灵 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0616.png?v=cf7f2e15" loading="lazy"> | 0563 | [死神棺](0616_死神棺.md) | 幽灵 | 483 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0617.png?v=21813fa7" loading="lazy"> | 0564 | [原盖海龟](0617_原盖海龟.md) | 水/岩石 | 355 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0618.png?v=febfcbd7" loading="lazy"> | 0565 | [肋骨海龟](0618_肋骨海龟.md) | 水/岩石 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0619.png?v=5fd38e5b" loading="lazy"> | 0566 | [始祖小鸟](0619_始祖小鸟.md) | 岩石/飞行 | 401 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0620.png?v=0b78bb6d" loading="lazy"> | 0567 | [始祖大鸟](0620_始祖大鸟.md) | 岩石/飞行 | 567 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0621.png?v=dbcb0f98" loading="lazy"> | 0568 | [破破袋](0621_破破袋.md) | 毒 | 329 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0622.png?v=664d7693" loading="lazy"> | 0569 | [灰尘山](0622_灰尘山.md) | 毒 | 474 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1272.png?v=dbcb0f98" loading="lazy"> | 0569 | [超极巨化灰尘山](1272_超极巨化灰尘山.md) | 毒 | 474 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0623.png?v=895fbc61" loading="lazy"> | 0570 | [索罗亚](0623_索罗亚.md) | 恶 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1244.png?v=13d7a4ca" loading="lazy"> | 0570 | [索罗亚（洗翠的样子）](1244_索罗亚（洗翠的样子）.md) | 一般/幽灵 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0624.png?v=b2d2f20b" loading="lazy"> | 0571 | [索罗亚克](0624_索罗亚克.md) | 恶 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1245.png?v=2e885493" loading="lazy"> | 0571 | [索罗亚克（洗翠的样子）](1245_索罗亚克（洗翠的样子）.md) | 一般/幽灵 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0625.png?v=70b94dca" loading="lazy"> | 0572 | [泡沫栗鼠](0625_泡沫栗鼠.md) | 一般 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0626.png?v=59216b55" loading="lazy"> | 0573 | [奇诺栗鼠](0626_奇诺栗鼠.md) | 一般 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0627.png?v=b360c91f" loading="lazy"> | 0574 | [哥德宝宝](0627_哥德宝宝.md) | 超能力 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0628.png?v=33e13e20" loading="lazy"> | 0575 | [哥德小童](0628_哥德小童.md) | 超能力 | 390 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0629.png?v=828c960d" loading="lazy"> | 0576 | [哥德小姐](0629_哥德小姐.md) | 超能力 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0630.png?v=df797100" loading="lazy"> | 0577 | [单卵细胞球](0630_单卵细胞球.md) | 超能力 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0631.png?v=93212f6b" loading="lazy"> | 0578 | [双卵细胞球](0631_双卵细胞球.md) | 超能力 | 370 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0632.png?v=6ee5cfda" loading="lazy"> | 0579 | [人造细胞卵](0632_人造细胞卵.md) | 超能力 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0633.png?v=61b8e514" loading="lazy"> | 0580 | [鸭宝宝](0633_鸭宝宝.md) | 水/飞行 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0634.png?v=070875c3" loading="lazy"> | 0581 | [舞天鹅](0634_舞天鹅.md) | 水/飞行 | 473 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0635.png?v=b0cd2ab8" loading="lazy"> | 0582 | [迷你冰](0635_迷你冰.md) | 冰 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0636.png?v=9dda1ffd" loading="lazy"> | 0583 | [多多冰](0636_多多冰.md) | 冰 | 395 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0637.png?v=cb2e8b38" loading="lazy"> | 0584 | [双倍多多冰](0637_双倍多多冰.md) | 冰 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0638.png?v=59ae6ebe" loading="lazy"> | 0585 | [四季鹿](0638_四季鹿.md) | 一般/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0738.png?v=cb2e8b38" loading="lazy"> | 0585 | [四季鹿（夏天的样子）](0738_四季鹿（夏天的样子）.md) | 一般/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0739.png?v=cb2e8b38" loading="lazy"> | 0585 | [四季鹿（秋天的样子）](0739_四季鹿（秋天的样子）.md) | 一般/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0740.png?v=cb2e8b38" loading="lazy"> | 0585 | [四季鹿（冬天的样子）](0740_四季鹿（冬天的样子）.md) | 一般/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0639.png?v=66dc0428" loading="lazy"> | 0586 | [萌芽鹿](0639_萌芽鹿.md) | 一般/草 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0741.png?v=59ae6ebe" loading="lazy"> | 0586 | [萌芽鹿（夏天的样子）](0741_萌芽鹿（夏天的样子）.md) | 一般/草 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0742.png?v=59ae6ebe" loading="lazy"> | 0586 | [萌芽鹿（秋天的样子）](0742_萌芽鹿（秋天的样子）.md) | 一般/草 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0743.png?v=59ae6ebe" loading="lazy"> | 0586 | [萌芽鹿（冬天的样子）](0743_萌芽鹿（冬天的样子）.md) | 一般/草 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0640.png?v=0cb2b248" loading="lazy"> | 0587 | [电飞鼠](0640_电飞鼠.md) | 电/飞行 | 428 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0641.png?v=509bb5a9" loading="lazy"> | 0588 | [盖盖虫](0641_盖盖虫.md) | 虫 | 315 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0642.png?v=e3cacd2c" loading="lazy"> | 0589 | [骑士蜗牛](0642_骑士蜗牛.md) | 虫/钢 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0643.png?v=2ec33b67" loading="lazy"> | 0590 | [哎呀球菇](0643_哎呀球菇.md) | 草/毒 | 294 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0644.png?v=9bfa421b" loading="lazy"> | 0591 | [败露球菇](0644_败露球菇.md) | 草/毒 | 464 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0645.png?v=3725c937" loading="lazy"> | 0592 | [轻飘飘](0645_轻飘飘.md) | 水/幽灵 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0704.png?v=9bfa421b" loading="lazy"> | 0592 | [轻飘飘（雌性）](0704_轻飘飘（雌性）.md) | 水/幽灵 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0646.png?v=ba194bd4" loading="lazy"> | 0593 | [胖嘟嘟](0646_胖嘟嘟.md) | 水/幽灵 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0705.png?v=3725c937" loading="lazy"> | 0593 | [胖嘟嘟（雌性）](0705_胖嘟嘟（雌性）.md) | 水/幽灵 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0647.png?v=d3409fce" loading="lazy"> | 0594 | [保姆曼波](0647_保姆曼波.md) | 水 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0648.png?v=33b1a58d" loading="lazy"> | 0595 | [电电虫](0648_电电虫.md) | 虫/电 | 319 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0649.png?v=81f9fbcb" loading="lazy"> | 0596 | [电蜘蛛](0649_电蜘蛛.md) | 虫/电 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0650.png?v=678fdc0e" loading="lazy"> | 0597 | [种子铁球](0650_种子铁球.md) | 草/钢 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0651.png?v=40f294b3" loading="lazy"> | 0598 | [坚果哑铃](0651_坚果哑铃.md) | 草/钢 | 489 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0652.png?v=ef2a19ad" loading="lazy"> | 0599 | [齿轮儿](0652_齿轮儿.md) | 钢 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0653.png?v=d1967d94" loading="lazy"> | 0600 | [齿轮组](0653_齿轮组.md) | 钢 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0654.png?v=76ffca01" loading="lazy"> | 0601 | [齿轮怪](0654_齿轮怪.md) | 钢 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0655.png?v=f450e18d" loading="lazy"> | 0602 | [麻麻小鱼](0655_麻麻小鱼.md) | 电 | 275 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0656.png?v=d0797494" loading="lazy"> | 0603 | [麻麻鳗](0656_麻麻鳗.md) | 电 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0269.png?v=d0797494" loading="lazy"> | 0604 | [麻麻鳗鱼王](0269_麻麻鳗鱼王.md) | 电 | 615 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0657.png?v=4bb7d207" loading="lazy"> | 0604 | [麻麻鳗鱼王](0657_麻麻鳗鱼王.md) | 电 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0658.png?v=dadb22ef" loading="lazy"> | 0605 | [小灰怪](0658_小灰怪.md) | 超能力 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0659.png?v=8a8e6453" loading="lazy"> | 0606 | [大宇怪](0659_大宇怪.md) | 超能力 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0660.png?v=86c9dfae" loading="lazy"> | 0607 | [烛光灵](0660_烛光灵.md) | 幽灵/火 | 275 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0661.png?v=53333d09" loading="lazy"> | 0608 | [灯火幽灵](0661_灯火幽灵.md) | 幽灵/火 | 370 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0262.png?v=53333d09" loading="lazy"> | 0609 | [水晶灯火灵](0262_水晶灯火灵.md) | 幽灵/火 | 620 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0662.png?v=26ca03ef" loading="lazy"> | 0609 | [水晶灯火灵](0662_水晶灯火灵.md) | 幽灵/火 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0663.png?v=4ed4669e" loading="lazy"> | 0610 | [牙牙](0663_牙牙.md) | 龙 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0664.png?v=4fddab8b" loading="lazy"> | 0611 | [斧牙龙](0664_斧牙龙.md) | 龙 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0665.png?v=69d8a394" loading="lazy"> | 0612 | [双斧战龙](0665_双斧战龙.md) | 龙 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0666.png?v=ca40095c" loading="lazy"> | 0613 | [喷嚏熊](0666_喷嚏熊.md) | 冰 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0667.png?v=8511a9ee" loading="lazy"> | 0614 | [冻原熊](0667_冻原熊.md) | 冰 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0668.png?v=19fe734f" loading="lazy"> | 0615 | [几何雪花](0668_几何雪花.md) | 冰 | 515 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0669.png?v=e5a35fd5" loading="lazy"> | 0616 | [小嘴蜗](0669_小嘴蜗.md) | 虫 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0670.png?v=5055a0b7" loading="lazy"> | 0617 | [敏捷虫](0670_敏捷虫.md) | 虫 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0671.png?v=f8b49bff" loading="lazy"> | 0618 | [泥巴鱼](0671_泥巴鱼.md) | 地面/电 | 471 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1233.png?v=ca529d0d" loading="lazy"> | 0618 | [泥巴鱼（伽勒尔的样子）](1233_泥巴鱼（伽勒尔的样子）.md) | 地面/钢 | 471 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0672.png?v=f4cbc648" loading="lazy"> | 0619 | [功夫鼬](0672_功夫鼬.md) | 格斗 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0673.png?v=cc46c352" loading="lazy"> | 0620 | [师父鼬](0673_师父鼬.md) | 格斗 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0674.png?v=1e731fb4" loading="lazy"> | 0621 | [赤面龙](0674_赤面龙.md) | 龙 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0675.png?v=f33aa4f7" loading="lazy"> | 0622 | [泥偶小人](0675_泥偶小人.md) | 地面/幽灵 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0676.png?v=b1053a78" loading="lazy"> | 0623 | [泥偶巨人](0676_泥偶巨人.md) | 地面/幽灵 | 483 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0677.png?v=1141bafa" loading="lazy"> | 0624 | [驹刀小兵](0677_驹刀小兵.md) | 恶/钢 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0678.png?v=9c1fe84f" loading="lazy"> | 0625 | [劈斩司令](0678_劈斩司令.md) | 恶/钢 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0679.png?v=3a7c30bc" loading="lazy"> | 0626 | [爆炸头水牛](0679_爆炸头水牛.md) | 一般 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0680.png?v=065dacf6" loading="lazy"> | 0627 | [毛头小鹰](0680_毛头小鹰.md) | 一般/飞行 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0681.png?v=886012f7" loading="lazy"> | 0628 | [勇士雄鹰](0681_勇士雄鹰.md) | 一般/飞行 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1246.png?v=60706f3d" loading="lazy"> | 0628 | [勇士雄鹰（洗翠的样子）](1246_勇士雄鹰（洗翠的样子）.md) | 超能力/飞行 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0682.png?v=4088b438" loading="lazy"> | 0629 | [秃鹰丫头](0682_秃鹰丫头.md) | 恶/飞行 | 370 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0683.png?v=b5471a7e" loading="lazy"> | 0630 | [秃鹰娜](0683_秃鹰娜.md) | 恶/飞行 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0684.png?v=a50c17f9" loading="lazy"> | 0631 | [熔蚁兽](0684_熔蚁兽.md) | 火 | 484 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0685.png?v=e33cc2a2" loading="lazy"> | 0632 | [铁蚁](0685_铁蚁.md) | 虫/钢 | 484 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0686.png?v=7cf57e23" loading="lazy"> | 0633 | [单首龙](0686_单首龙.md) | 恶/龙 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0687.png?v=88d011c1" loading="lazy"> | 0634 | [双首暴龙](0687_双首暴龙.md) | 恶/龙 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0688.png?v=dad4dafa" loading="lazy"> | 0635 | [三首恶龙](0688_三首恶龙.md) | 恶/龙 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0689.png?v=6be10da9" loading="lazy"> | 0636 | [燃烧虫](0689_燃烧虫.md) | 虫/火 | 360 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0690.png?v=5cff15a3" loading="lazy"> | 0637 | [火神蛾](0690_火神蛾.md) | 虫/火 | 550 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0691.png?v=2bfc84d2" loading="lazy"> | 0638 | [勾帕路翁](0691_勾帕路翁.md) | 钢/格斗 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0692.png?v=728d942b" loading="lazy"> | 0639 | [代拉基翁](0692_代拉基翁.md) | 岩石/格斗 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0693.png?v=de09b8d4" loading="lazy"> | 0640 | [毕力吉翁](0693_毕力吉翁.md) | 草/格斗 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0694.png?v=11df372c" loading="lazy"> | 0641 | [龙卷云](0694_龙卷云.md) | 飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0754.png?v=de09b8d4" loading="lazy"> | 0641 | [龙卷云（灵兽形态）](0754_龙卷云（灵兽形态）.md) | 飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0695.png?v=8b344fc0" loading="lazy"> | 0642 | [雷电云](0695_雷电云.md) | 电/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0755.png?v=11df372c" loading="lazy"> | 0642 | [雷电云（灵兽形态）](0755_雷电云（灵兽形态）.md) | 电/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0696.png?v=1a2d52c3" loading="lazy"> | 0643 | [莱希拉姆](0696_莱希拉姆.md) | 龙/火 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0697.png?v=d8e71729" loading="lazy"> | 0644 | [捷克罗姆](0697_捷克罗姆.md) | 龙/电 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0698.png?v=7fbf8c77" loading="lazy"> | 0645 | [土地云](0698_土地云.md) | 地面/飞行 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0756.png?v=d8e71729" loading="lazy"> | 0645 | [土地云（灵兽形态）](0756_土地云（灵兽形态）.md) | 地面/飞行 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0699.png?v=18376c5f" loading="lazy"> | 0646 | [酋雷姆](0699_酋雷姆.md) | 龙/冰 | 660 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0752.png?v=7fbf8c77" loading="lazy"> | 0646 | [暗黑酋雷姆](0752_暗黑酋雷姆.md) | 龙/冰 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0753.png?v=7fbf8c77" loading="lazy"> | 0646 | [焰白酋雷姆](0753_焰白酋雷姆.md) | 龙/冰 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0700.png?v=3d78d662" loading="lazy"> | 0647 | [凯路迪欧](0700_凯路迪欧.md) | 水/格斗 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0757.png?v=18376c5f" loading="lazy"> | 0647 | [凯路迪欧（觉悟的样子）](0757_凯路迪欧（觉悟的样子）.md) | 水/格斗 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0701.png?v=81d5a4f6" loading="lazy"> | 0648 | [美洛耶塔](0701_美洛耶塔.md) | 一般/超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0746.png?v=3d78d662" loading="lazy"> | 0648 | [美洛耶塔（舞步形态）](0746_美洛耶塔（舞步形态）.md) | 一般/格斗 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0702.png?v=2b3c95bf" loading="lazy"> | 0649 | [盖诺赛克特](0702_盖诺赛克特.md) | 虫/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0747.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（闪电卡带）](0747_盖诺赛克特（闪电卡带）.md) | 虫/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0748.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（火焰卡带）](0748_盖诺赛克特（火焰卡带）.md) | 虫/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0749.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（冰冻卡带）](0749_盖诺赛克特（冰冻卡带）.md) | 虫/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0750.png?v=81d5a4f6" loading="lazy"> | 0649 | [盖诺赛克特（水流卡带）](0750_盖诺赛克特（水流卡带）.md) | 虫/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0758.png?v=737242e1" loading="lazy"> | 0650 | [哈力栗](0758_哈力栗.md) | 草 | 313 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0759.png?v=0fd83b64" loading="lazy"> | 0651 | [胖胖哈力](0759_胖胖哈力.md) | 草 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0760.png?v=f8586c97" loading="lazy"> | 0652 | [布里卡隆](0760_布里卡隆.md) | 草/格斗 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0761.png?v=9abe7201" loading="lazy"> | 0653 | [火狐狸](0761_火狐狸.md) | 火 | 307 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0762.png?v=f10937f8" loading="lazy"> | 0654 | [长尾火狐](0762_长尾火狐.md) | 火 | 409 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0763.png?v=c5c08812" loading="lazy"> | 0655 | [妖火红狐](0763_妖火红狐.md) | 火/超能力 | 534 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0764.png?v=ef42c1df" loading="lazy"> | 0656 | [呱呱泡蛙](0764_呱呱泡蛙.md) | 水 | 314 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0765.png?v=b007c548" loading="lazy"> | 0657 | [呱头蛙](0765_呱头蛙.md) | 水 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0766.png?v=2e70f80a" loading="lazy"> | 0658 | [甲贺忍蛙](0766_甲贺忍蛙.md) | 水/恶 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0839.png?v=b007c548" loading="lazy"> | 0658 | [甲贺忍蛙](0839_甲贺忍蛙.md) | 水/恶 | 640 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0767.png?v=b792be99" loading="lazy"> | 0659 | [掘掘兔](0767_掘掘兔.md) | 一般 | 237 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0768.png?v=03b9fecb" loading="lazy"> | 0660 | [掘地兔](0768_掘地兔.md) | 一般/地面 | 423 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0769.png?v=2cab2ed7" loading="lazy"> | 0661 | [小箭雀](0769_小箭雀.md) | 一般/飞行 | 278 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0770.png?v=b6ffa8ef" loading="lazy"> | 0662 | [火箭雀](0770_火箭雀.md) | 火/飞行 | 382 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0771.png?v=2498d1c4" loading="lazy"> | 0663 | [烈箭鹰](0771_烈箭鹰.md) | 火/飞行 | 499 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0772.png?v=2e30e4b3" loading="lazy"> | 0664 | [粉蝶虫](0772_粉蝶虫.md) | 虫 | 200 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0773.png?v=10b76152" loading="lazy"> | 0665 | [粉蝶蛹](0773_粉蝶蛹.md) | 虫 | 213 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0774.png?v=e9e61531" loading="lazy"> | 0666 | [彩粉蝶](0774_彩粉蝶.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0868.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（华丽花纹）](0868_彩粉蝶（华丽花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0921.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（群岛花纹）](0921_彩粉蝶（群岛花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0922.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大陆花纹）](0922_彩粉蝶（大陆花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0923.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（高雅花纹）](0923_彩粉蝶（高雅花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0924.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（庭园花纹）](0924_彩粉蝶（庭园花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0925.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（高原花纹）](0925_彩粉蝶（高原花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0926.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（冰雪花纹）](0926_彩粉蝶（冰雪花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0927.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（热带雨林花纹）](0927_彩粉蝶（热带雨林花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0928.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大海花纹）](0928_彩粉蝶（大海花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0929.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（摩登花纹）](0929_彩粉蝶（摩登花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0930.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（雨季花纹）](0930_彩粉蝶（雨季花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0931.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大洋花纹）](0931_彩粉蝶（大洋花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0932.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（精灵球花纹）](0932_彩粉蝶（精灵球花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0933.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（雪国花纹）](0933_彩粉蝶（雪国花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0934.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（大河花纹）](0934_彩粉蝶（大河花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0935.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（沙尘暴花纹）](0935_彩粉蝶（沙尘暴花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0936.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（热带草原花纹）](0936_彩粉蝶（热带草原花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0937.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（艳阳花纹）](0937_彩粉蝶（艳阳花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0938.png?v=10b76152" loading="lazy"> | 0666 | [彩粉蝶（雪原花纹）](0938_彩粉蝶（雪原花纹）.md) | 虫/飞行 | 411 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0775.png?v=f0dd294d" loading="lazy"> | 0667 | [小狮狮](0775_小狮狮.md) | 火/一般 | 369 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0776.png?v=a0fdd19e" loading="lazy"> | 0668 | [火炎狮](0776_火炎狮.md) | 火/一般 | 507 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0831.png?v=f0dd294d" loading="lazy"> | 0668 | [火炎狮（雌性）](0831_火炎狮（雌性）.md) | 火/一般 | 507 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0777.png?v=2205cac4" loading="lazy"> | 0669 | [花蓓蓓](0777_花蓓蓓.md) | 妖精 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0840.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（蓝花）](0840_花蓓蓓（蓝花）.md) | 妖精 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0841.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（橙花）](0841_花蓓蓓（橙花）.md) | 妖精 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0842.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（黄花）](0842_花蓓蓓（黄花）.md) | 妖精 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0843.png?v=a0fdd19e" loading="lazy"> | 0669 | [花蓓蓓（白花）](0843_花蓓蓓（白花）.md) | 妖精 | 303 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0778.png?v=3b43b0a4" loading="lazy"> | 0670 | [花叶蒂](0778_花叶蒂.md) | 妖精 | 371 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0844.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（蓝花）](0844_花叶蒂（蓝花）.md) | 妖精 | 371 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0845.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（橙花）](0845_花叶蒂（橙花）.md) | 妖精 | 371 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0846.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（黄花）](0846_花叶蒂（黄花）.md) | 妖精 | 371 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0847.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（白花）](0847_花叶蒂（白花）.md) | 妖精 | 371 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0848.png?v=2205cac4" loading="lazy"> | 0670 | [花叶蒂（永恒之花）](0848_花叶蒂（永恒之花）.md) | 妖精 | 551 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0779.png?v=892b181f" loading="lazy"> | 0671 | [花洁夫人](0779_花洁夫人.md) | 妖精 | 552 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0849.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（蓝花）](0849_花洁夫人（蓝花）.md) | 妖精 | 552 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0850.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（橙花）](0850_花洁夫人（橙花）.md) | 妖精 | 552 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0851.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（黄花）](0851_花洁夫人（黄花）.md) | 妖精 | 552 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0852.png?v=3b43b0a4" loading="lazy"> | 0671 | [花洁夫人（白花）](0852_花洁夫人（白花）.md) | 妖精 | 552 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0780.png?v=454f4d82" loading="lazy"> | 0672 | [坐骑小羊](0780_坐骑小羊.md) | 草 | 350 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0781.png?v=631ca921" loading="lazy"> | 0673 | [坐骑山羊](0781_坐骑山羊.md) | 草 | 531 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0782.png?v=9681b672" loading="lazy"> | 0674 | [顽皮熊猫](0782_顽皮熊猫.md) | 格斗 | 348 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0783.png?v=57bdfc03" loading="lazy"> | 0675 | [流氓熊猫](0783_流氓熊猫.md) | 格斗/恶 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0784.png?v=1143fd1b" loading="lazy"> | 0676 | [多丽米亚](0784_多丽米亚.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0859.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（心形造型）](0859_多丽米亚（心形造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0860.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（菱形造型）](0860_多丽米亚（菱形造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0861.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（星星造型）](0861_多丽米亚（星星造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0862.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（法老造型）](0862_多丽米亚（法老造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0863.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（歌舞伎造型）](0863_多丽米亚（歌舞伎造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0864.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（女王造型）](0864_多丽米亚（女王造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0865.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（淑女造型）](0865_多丽米亚（淑女造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0866.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（贵妇造型）](0866_多丽米亚（贵妇造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0867.png?v=57bdfc03" loading="lazy"> | 0676 | [多丽米亚（闺秀造型）](0867_多丽米亚（闺秀造型）.md) | 一般 | 472 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0785.png?v=899e90f3" loading="lazy"> | 0677 | [妙喵](0785_妙喵.md) | 超能力 | 355 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0786.png?v=80be78dd" loading="lazy"> | 0678 | [超能妙喵](0786_超能妙喵.md) | 超能力 | 466 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0832.png?v=899e90f3" loading="lazy"> | 0678 | [超能妙喵（雌性）](0832_超能妙喵（雌性）.md) | 超能力 | 466 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0787.png?v=0dab3550" loading="lazy"> | 0679 | [独剑鞘](0787_独剑鞘.md) | 钢/幽灵 | 325 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0788.png?v=e2f1b32d" loading="lazy"> | 0680 | [双剑鞘](0788_双剑鞘.md) | 钢/幽灵 | 448 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0789.png?v=bd754e0a" loading="lazy"> | 0681 | [坚盾剑怪](0789_坚盾剑怪.md) | 钢/幽灵 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0833.png?v=e2f1b32d" loading="lazy"> | 0681 | [坚盾剑怪（刀剑形态）](0833_坚盾剑怪（刀剑形态）.md) | 钢/幽灵 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0790.png?v=47b137ac" loading="lazy"> | 0682 | [粉香香](0790_粉香香.md) | 妖精 | 341 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0791.png?v=81ac1ba5" loading="lazy"> | 0683 | [芳香精](0791_芳香精.md) | 妖精 | 462 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0792.png?v=a17957c4" loading="lazy"> | 0684 | [绵绵泡芙](0792_绵绵泡芙.md) | 妖精 | 341 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0793.png?v=8ea3ff66" loading="lazy"> | 0685 | [胖甜妮](0793_胖甜妮.md) | 妖精 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0794.png?v=f612c007" loading="lazy"> | 0686 | [好啦鱿](0794_好啦鱿.md) | 恶/超能力 | 288 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0795.png?v=cef9abbe" loading="lazy"> | 0687 | [乌贼王](0795_乌贼王.md) | 恶/超能力 | 482 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0796.png?v=1c959b3f" loading="lazy"> | 0688 | [龟脚脚](0796_龟脚脚.md) | 岩石/水 | 306 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0797.png?v=44a26b28" loading="lazy"> | 0689 | [龟足巨铠](0797_龟足巨铠.md) | 岩石/水 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0798.png?v=30c090c0" loading="lazy"> | 0690 | [垃垃藻](0798_垃垃藻.md) | 毒/水 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0799.png?v=fed55027" loading="lazy"> | 0691 | [毒藻龙](0799_毒藻龙.md) | 毒/龙 | 494 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0800.png?v=f3e447f8" loading="lazy"> | 0692 | [铁臂枪虾](0800_铁臂枪虾.md) | 水 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0801.png?v=37797f64" loading="lazy"> | 0693 | [钢炮臂虾](0801_钢炮臂虾.md) | 水 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0802.png?v=a8f0f812" loading="lazy"> | 0694 | [伞电蜥](0802_伞电蜥.md) | 电/一般 | 289 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0803.png?v=13b180ba" loading="lazy"> | 0695 | [光电伞蜥](0803_光电伞蜥.md) | 电/一般 | 481 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0804.png?v=986f9799" loading="lazy"> | 0696 | [宝宝暴龙](0804_宝宝暴龙.md) | 岩石/龙 | 362 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0805.png?v=22b472ae" loading="lazy"> | 0697 | [怪颚龙](0805_怪颚龙.md) | 岩石/龙 | 521 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0806.png?v=0788a702" loading="lazy"> | 0698 | [冰雪龙](0806_冰雪龙.md) | 岩石/冰 | 362 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0807.png?v=5a581b7f" loading="lazy"> | 0699 | [冰雪巨龙](0807_冰雪巨龙.md) | 岩石/冰 | 521 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0808.png?v=56f0dbfb" loading="lazy"> | 0700 | [仙子伊布](0808_仙子伊布.md) | 妖精 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0809.png?v=da396d08" loading="lazy"> | 0701 | [摔角鹰人](0809_摔角鹰人.md) | 格斗/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0810.png?v=7b90467d" loading="lazy"> | 0702 | [咚咚鼠](0810_咚咚鼠.md) | 电/妖精 | 431 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0811.png?v=b9d488b4" loading="lazy"> | 0703 | [小碎钻](0811_小碎钻.md) | 岩石/妖精 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0812.png?v=66885b68" loading="lazy"> | 0704 | [黏黏宝](0812_黏黏宝.md) | 龙 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0813.png?v=2a4b44c2" loading="lazy"> | 0705 | [黏美儿](0813_黏美儿.md) | 龙 | 452 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1247.png?v=24b61639" loading="lazy"> | 0705 | [黏美儿（洗翠的样子）](1247_黏美儿（洗翠的样子）.md) | 龙/钢 | 452 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0814.png?v=555193d1" loading="lazy"> | 0706 | [黏美龙](0814_黏美龙.md) | 龙 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1248.png?v=0fd50fac" loading="lazy"> | 0706 | [黏美龙（洗翠的样子）](1248_黏美龙（洗翠的样子）.md) | 龙/钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0815.png?v=cdb50b64" loading="lazy"> | 0707 | [钥圈儿](0815_钥圈儿.md) | 钢/妖精 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0816.png?v=c9b0af1a" loading="lazy"> | 0708 | [小木灵](0816_小木灵.md) | 幽灵/草 | 309 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0817.png?v=cf785a72" loading="lazy"> | 0709 | [朽木妖](0817_朽木妖.md) | 幽灵/草 | 474 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0818.png?v=d1da4c7f" loading="lazy"> | 0710 | [南瓜精](0818_南瓜精.md) | 幽灵/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0853.png?v=cf785a72" loading="lazy"> | 0710 | [南瓜精（特大尺寸）](0853_南瓜精（特大尺寸）.md) | 幽灵/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0854.png?v=cf785a72" loading="lazy"> | 0710 | [南瓜精（大尺寸）](0854_南瓜精（大尺寸）.md) | 幽灵/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0855.png?v=cf785a72" loading="lazy"> | 0710 | [南瓜精（普通尺寸）](0855_南瓜精（普通尺寸）.md) | 幽灵/草 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0819.png?v=748d2dac" loading="lazy"> | 0711 | [南瓜怪人](0819_南瓜怪人.md) | 幽灵/草 | 494 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0856.png?v=d1da4c7f" loading="lazy"> | 0711 | [南瓜怪人（特大尺寸）](0856_南瓜怪人（特大尺寸）.md) | 幽灵/草 | 494 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0857.png?v=d1da4c7f" loading="lazy"> | 0711 | [南瓜怪人（大尺寸）](0857_南瓜怪人（大尺寸）.md) | 幽灵/草 | 494 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0858.png?v=d1da4c7f" loading="lazy"> | 0711 | [南瓜怪人（普通尺寸）](0858_南瓜怪人（普通尺寸）.md) | 幽灵/草 | 494 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0820.png?v=39bf44f8" loading="lazy"> | 0712 | [冰宝](0820_冰宝.md) | 冰 | 304 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0821.png?v=8fb2c222" loading="lazy"> | 0713 | [冰岩怪](0821_冰岩怪.md) | 冰 | 514 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1249.png?v=2537cd56" loading="lazy"> | 0713 | [冰岩怪（洗翠的样子）](1249_冰岩怪（洗翠的样子）.md) | 冰/岩石 | 514 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0822.png?v=2686aed6" loading="lazy"> | 0714 | [嗡蝠](0822_嗡蝠.md) | 飞行/龙 | 245 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0823.png?v=540c4bd8" loading="lazy"> | 0715 | [音波龙](0823_音波龙.md) | 飞行/龙 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0824.png?v=150ce0e0" loading="lazy"> | 0716 | [哲尔尼亚斯](0824_哲尔尼亚斯.md) | 妖精 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1101.png?v=540c4bd8" loading="lazy"> | 0716 | [哲尔尼亚斯（放松模式）](1101_哲尔尼亚斯（放松模式）.md) | 妖精 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0825.png?v=72119897" loading="lazy"> | 0717 | [伊裴尔塔尔](0825_伊裴尔塔尔.md) | 恶/飞行 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0826.png?v=83caa38e" loading="lazy"> | 0718 | [基格尔德](0826_基格尔德.md) | 龙/地面 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0835.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（细胞）](0835_基格尔德（细胞）.md) | 龙/地面 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0836.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（核心）](0836_基格尔德（核心）.md) | 龙/地面 | 450 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0837.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（10）](0837_基格尔德（10）.md) | 龙/地面 | 486 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0838.png?v=72119897" loading="lazy"> | 0718 | [基格尔德（完全体形态）](0838_基格尔德（完全体形态）.md) | 龙/地面 | 708 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0827.png?v=f9faba51" loading="lazy"> | 0719 | [蒂安希](0827_蒂安希.md) | 岩石/妖精 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0918.png?v=fef3a905" loading="lazy"> | 0719 | [超级蒂安希](0918_超级蒂安希.md) | 岩石/妖精 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0828.png?v=cb1b4404" loading="lazy"> | 0720 | [胡帕](0828_胡帕.md) | 超能力/幽灵 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0829.png?v=f9faba51" loading="lazy"> | 0720 | [胡帕（解放的样子）](0829_胡帕（解放的样子）.md) | 超能力/恶 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0830.png?v=aba00dda" loading="lazy"> | 0721 | [波尔凯尼恩](0830_波尔凯尼恩.md) | 火/水 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0939.png?v=6c0b4135" loading="lazy"> | 0722 | [木木枭](0939_木木枭.md) | 草/飞行 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0940.png?v=eea658d7" loading="lazy"> | 0723 | [投羽枭](0940_投羽枭.md) | 草/飞行 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0941.png?v=ca4d9414" loading="lazy"> | 0724 | [狙射树枭](0941_狙射树枭.md) | 草/幽灵 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1250.png?v=d92ef0ad" loading="lazy"> | 0724 | [狙射树枭（洗翠的样子）](1250_狙射树枭（洗翠的样子）.md) | 草/格斗 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0942.png?v=85577791" loading="lazy"> | 0725 | [火斑喵](0942_火斑喵.md) | 火 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0943.png?v=27054ffc" loading="lazy"> | 0726 | [炎热喵](0943_炎热喵.md) | 火 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0944.png?v=a11cee4d" loading="lazy"> | 0727 | [炽焰咆哮虎](0944_炽焰咆哮虎.md) | 火/恶 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0945.png?v=3b90246e" loading="lazy"> | 0728 | [球球海狮](0945_球球海狮.md) | 水 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0946.png?v=e40258f8" loading="lazy"> | 0729 | [花漾海狮](0946_花漾海狮.md) | 水 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0947.png?v=37a5e824" loading="lazy"> | 0730 | [西狮海壬](0947_西狮海壬.md) | 水/妖精 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0948.png?v=09e4b457" loading="lazy"> | 0731 | [小笃儿](0948_小笃儿.md) | 一般/飞行 | 265 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0949.png?v=20bc6269" loading="lazy"> | 0732 | [喇叭啄鸟](0949_喇叭啄鸟.md) | 一般/飞行 | 355 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0950.png?v=1db16e3f" loading="lazy"> | 0733 | [铳嘴大鸟](0950_铳嘴大鸟.md) | 一般/飞行 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0951.png?v=9a854953" loading="lazy"> | 0734 | [猫鼬少](0951_猫鼬少.md) | 一般 | 253 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0952.png?v=9c57dc6c" loading="lazy"> | 0735 | [猫鼬探长](0952_猫鼬探长.md) | 一般 | 418 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0953.png?v=744d1b73" loading="lazy"> | 0736 | [强颚鸡母虫](0953_强颚鸡母虫.md) | 虫 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0954.png?v=6768eeb1" loading="lazy"> | 0737 | [虫电宝](0954_虫电宝.md) | 虫/电 | 400 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0955.png?v=3ae7c0b9" loading="lazy"> | 0738 | [锹农炮虫](0955_锹农炮虫.md) | 虫/电 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0956.png?v=56e8d6cd" loading="lazy"> | 0739 | [好胜蟹](0956_好胜蟹.md) | 格斗 | 338 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0957.png?v=58d158b2" loading="lazy"> | 0740 | [好胜毛蟹](0957_好胜毛蟹.md) | 格斗/冰 | 478 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0958.png?v=cc257e5e" loading="lazy"> | 0741 | [花舞鸟](0958_花舞鸟.md) | 火/飞行 | 476 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1043.png?v=58d158b2" loading="lazy"> | 0741 | [花舞鸟（呼拉舞风格）](1043_花舞鸟（呼拉舞风格）.md) | 电/飞行 | 476 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1044.png?v=58d158b2" loading="lazy"> | 0741 | [花舞鸟（啪滋啪滋风格）](1044_花舞鸟（啪滋啪滋风格）.md) | 超能力/飞行 | 476 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1045.png?v=58d158b2" loading="lazy"> | 0741 | [花舞鸟（和服舞风格）](1045_花舞鸟（和服舞风格）.md) | 幽灵/飞行 | 476 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0959.png?v=ec880b5f" loading="lazy"> | 0742 | [萌虻](0959_萌虻.md) | 虫/妖精 | 304 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0960.png?v=1bd4dabf" loading="lazy"> | 0743 | [蝶结萌虻](0960_蝶结萌虻.md) | 虫/妖精 | 464 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0961.png?v=4b7edcf1" loading="lazy"> | 0744 | [岩狗狗](0961_岩狗狗.md) | 岩石 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0962.png?v=d52cd8db" loading="lazy"> | 0745 | [鬃岩狼人](0962_鬃岩狼人.md) | 岩石 | 487 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1046.png?v=4b7edcf1" loading="lazy"> | 0745 | [鬃岩狼人（黑夜的样子）](1046_鬃岩狼人（黑夜的样子）.md) | 岩石 | 487 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1082.png?v=4b7edcf1" loading="lazy"> | 0745 | [鬃岩狼人（黄昏的样子）](1082_鬃岩狼人（黄昏的样子）.md) | 岩石 | 487 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0963.png?v=f86ace1f" loading="lazy"> | 0746 | [弱丁鱼](0963_弱丁鱼.md) | 水 | 175 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1047.png?v=d52cd8db" loading="lazy"> | 0746 | [弱丁鱼（鱼群的样子）](1047_弱丁鱼（鱼群的样子）.md) | 水 | 620 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0964.png?v=cbb108fc" loading="lazy"> | 0747 | [好坏星](0964_好坏星.md) | 毒/水 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0965.png?v=22b6602d" loading="lazy"> | 0748 | [超坏星](0965_超坏星.md) | 毒/水 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0966.png?v=f778eba3" loading="lazy"> | 0749 | [泥驴仔](0966_泥驴仔.md) | 地面 | 385 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0967.png?v=8e22ecdf" loading="lazy"> | 0750 | [重泥挽马](0967_重泥挽马.md) | 地面 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0968.png?v=44e7a36a" loading="lazy"> | 0751 | [滴蛛](0968_滴蛛.md) | 水/虫 | 269 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0969.png?v=11492f99" loading="lazy"> | 0752 | [滴蛛霸](0969_滴蛛霸.md) | 水/虫 | 454 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0970.png?v=1a3a6ed3" loading="lazy"> | 0753 | [伪螳草](0970_伪螳草.md) | 草 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0971.png?v=1cf6caa6" loading="lazy"> | 0754 | [兰螳花](0971_兰螳花.md) | 草 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0972.png?v=d4e8dc3e" loading="lazy"> | 0755 | [睡睡菇](0972_睡睡菇.md) | 草/妖精 | 285 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0973.png?v=9bd03fbb" loading="lazy"> | 0756 | [灯罩夜菇](0973_灯罩夜菇.md) | 草/妖精 | 405 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0974.png?v=dac32373" loading="lazy"> | 0757 | [夜盗火蜥](0974_夜盗火蜥.md) | 毒/火 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0975.png?v=2430ee01" loading="lazy"> | 0758 | [焰后蜥](0975_焰后蜥.md) | 毒/火 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0976.png?v=3cbb215f" loading="lazy"> | 0759 | [童偶熊](0976_童偶熊.md) | 一般/格斗 | 340 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0977.png?v=c7aba45b" loading="lazy"> | 0760 | [穿着熊](0977_穿着熊.md) | 一般/格斗 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0978.png?v=f218fdc6" loading="lazy"> | 0761 | [甜竹竹](0978_甜竹竹.md) | 草 | 210 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0979.png?v=633a167a" loading="lazy"> | 0762 | [甜舞妮](0979_甜舞妮.md) | 草 | 290 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0980.png?v=cf4b7ab9" loading="lazy"> | 0763 | [甜冷美后](0980_甜冷美后.md) | 草 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0981.png?v=3db55daa" loading="lazy"> | 0764 | [花疗环环](0981_花疗环环.md) | 妖精 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0982.png?v=7ffb7345" loading="lazy"> | 0765 | [智挥猩](0982_智挥猩.md) | 一般/超能力 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0983.png?v=abef682f" loading="lazy"> | 0766 | [投掷猴](0983_投掷猴.md) | 格斗 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0984.png?v=e6cc6f2b" loading="lazy"> | 0767 | [胆小虫](0984_胆小虫.md) | 虫/水 | 230 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0985.png?v=229c1c4f" loading="lazy"> | 0768 | [具甲武者](0985_具甲武者.md) | 虫/水 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0986.png?v=a2f932f8" loading="lazy"> | 0769 | [沙丘娃](0986_沙丘娃.md) | 幽灵/地面 | 320 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0987.png?v=8a524ce4" loading="lazy"> | 0770 | [噬沙堡爷](0987_噬沙堡爷.md) | 幽灵/地面 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0988.png?v=09d71ec5" loading="lazy"> | 0771 | [拳海参](0988_拳海参.md) | 水 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0989.png?v=3ee9b9d7" loading="lazy"> | 0772 | [属性:空](0989_属性空.md) | 一般 | 534 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0990.png?v=d3a174c8" loading="lazy"> | 0773 | [银伴战兽](0990_银伴战兽.md) | 一般 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1048.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（格斗属性）](1048_银伴战兽（格斗属性）.md) | 格斗 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1049.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（飞行属性）](1049_银伴战兽（飞行属性）.md) | 飞行 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1050.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（毒属性）](1050_银伴战兽（毒属性）.md) | 毒 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1051.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（地面属性）](1051_银伴战兽（地面属性）.md) | 地面 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1052.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（岩石属性）](1052_银伴战兽（岩石属性）.md) | 岩石 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1053.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（虫属性）](1053_银伴战兽（虫属性）.md) | 虫 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1054.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（幽灵属性）](1054_银伴战兽（幽灵属性）.md) | 幽灵 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1055.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（钢属性）](1055_银伴战兽（钢属性）.md) | 钢 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1056.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（火属性）](1056_银伴战兽（火属性）.md) | 火 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1057.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（水属性）](1057_银伴战兽（水属性）.md) | 水 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1058.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（草属性）](1058_银伴战兽（草属性）.md) | 草 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1059.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（电属性）](1059_银伴战兽（电属性）.md) | 电 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1060.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（超能力属性）](1060_银伴战兽（超能力属性）.md) | 超能力 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1061.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（冰属性）](1061_银伴战兽（冰属性）.md) | 冰 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1062.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（龙属性）](1062_银伴战兽（龙属性）.md) | 龙 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1063.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（恶属性）](1063_银伴战兽（恶属性）.md) | 恶 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1064.png?v=3ee9b9d7" loading="lazy"> | 0773 | [银伴战兽（妖精属性）](1064_银伴战兽（妖精属性）.md) | 妖精 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0991.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](0991_小陨星.md) | 岩石/飞行 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1065.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1065_小陨星.md) | 岩石/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1066.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1066_小陨星.md) | 岩石/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1067.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1067_小陨星.md) | 岩石/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1068.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1068_小陨星.md) | 岩石/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1069.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1069_小陨星.md) | 岩石/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1070.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1070_小陨星.md) | 岩石/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1071.png?v=d3a174c8" loading="lazy"> | 0774 | [小陨星](1071_小陨星.md) | 岩石/飞行 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0992.png?v=b24d67b6" loading="lazy"> | 0775 | [树枕尾熊](0992_树枕尾熊.md) | 一般 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0993.png?v=05fa30b9" loading="lazy"> | 0776 | [爆焰龟兽](0993_爆焰龟兽.md) | 火/龙 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0994.png?v=17976fb8" loading="lazy"> | 0777 | [托戈德玛尔](0994_托戈德玛尔.md) | 电/钢 | 435 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0995.png?v=0d3134dd" loading="lazy"> | 0778 | [谜拟Q](0995_谜拟Q.md) | 幽灵/妖精 | 476 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1072.png?v=17976fb8" loading="lazy"> | 0778 | [谜拟Q（破布的样子）](1072_谜拟Q（破布的样子）.md) | 幽灵/妖精 | 476 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0996.png?v=420d0169" loading="lazy"> | 0779 | [磨牙彩皮鱼](0996_磨牙彩皮鱼.md) | 水/超能力 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0997.png?v=9efc95e9" loading="lazy"> | 0780 | [老翁龙](0997_老翁龙.md) | 一般/龙 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0998.png?v=604ca252" loading="lazy"> | 0781 | [破破舵轮](0998_破破舵轮.md) | 幽灵/草 | 517 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0999.png?v=fb77f0df" loading="lazy"> | 0782 | [心鳞宝](0999_心鳞宝.md) | 龙 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1000.png?v=bdd50a6a" loading="lazy"> | 0783 | [鳞甲龙](1000_鳞甲龙.md) | 龙/格斗 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1001.png?v=17ba8392" loading="lazy"> | 0784 | [杖尾鳞甲龙](1001_杖尾鳞甲龙.md) | 龙/格斗 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1002.png?v=824809f0" loading="lazy"> | 0785 | [卡璞.鸣鸣](1002_卡璞.鸣鸣.md) | 电/妖精 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1003.png?v=d0f2415d" loading="lazy"> | 0786 | [卡璞.蝶蝶](1003_卡璞.蝶蝶.md) | 超能力/妖精 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1004.png?v=da5d1dab" loading="lazy"> | 0787 | [卡璞.哞哞](1004_卡璞.哞哞.md) | 草/妖精 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1005.png?v=2cb08cdc" loading="lazy"> | 0788 | [卡璞.鳍鳍](1005_卡璞.鳍鳍.md) | 水/妖精 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1006.png?v=3472ce49" loading="lazy"> | 0789 | [科斯莫古](1006_科斯莫古.md) | 超能力 | 200 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1007.png?v=9c579f5e" loading="lazy"> | 0790 | [科斯莫姆](1007_科斯莫姆.md) | 超能力 | 400 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1008.png?v=d8ae691d" loading="lazy"> | 0791 | [索尔迦雷欧](1008_索尔迦雷欧.md) | 超能力/钢 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1009.png?v=ecf99f77" loading="lazy"> | 0792 | [露奈雅拉](1009_露奈雅拉.md) | 超能力/幽灵 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1010.png?v=2007203f" loading="lazy"> | 0793 | [虚吾伊德](1010_虚吾伊德.md) | 岩石/毒 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1011.png?v=64b89010" loading="lazy"> | 0794 | [爆肌蚊](1011_爆肌蚊.md) | 虫/格斗 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1012.png?v=0fcceff7" loading="lazy"> | 0795 | [费洛美螂](1012_费洛美螂.md) | 虫/格斗 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1013.png?v=37ea4c5a" loading="lazy"> | 0796 | [电束木](1013_电束木.md) | 电 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1014.png?v=e6665862" loading="lazy"> | 0797 | [铁火辉夜](1014_铁火辉夜.md) | 钢/飞行 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1015.png?v=6cdfb7df" loading="lazy"> | 0798 | [纸御剑](1015_纸御剑.md) | 草/钢 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1016.png?v=2e6e0a63" loading="lazy"> | 0799 | [恶食大王](1016_恶食大王.md) | 恶/龙 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1017.png?v=9ebb405b" loading="lazy"> | 0800 | [奈克洛兹玛](1017_奈克洛兹玛.md) | 超能力 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1079.png?v=2e6e0a63" loading="lazy"> | 0800 | [奈克洛兹玛（黄昏之鬃）](1079_奈克洛兹玛（黄昏之鬃）.md) | 超能力/钢 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1080.png?v=2e6e0a63" loading="lazy"> | 0800 | [奈克洛兹玛（拂晓之翼）](1080_奈克洛兹玛（拂晓之翼）.md) | 超能力/幽灵 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1081.png?v=2e6e0a63" loading="lazy"> | 0800 | [究极奈克洛兹玛](1081_究极奈克洛兹玛.md) | 超能力/龙 | 754 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1018.png?v=ecd086ee" loading="lazy"> | 0801 | [玛机雅娜](1018_玛机雅娜.md) | 钢/妖精 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1073.png?v=9ebb405b" loading="lazy"> | 0801 | [玛机雅娜（500年前的样子）](1073_玛机雅娜（500年前的样子）.md) | 钢/妖精 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1019.png?v=3b863274" loading="lazy"> | 0802 | [玛夏多](1019_玛夏多.md) | 格斗/幽灵 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1074.png?v=243506df" loading="lazy"> | 0803 | [毒贝比](1074_毒贝比.md) | 毒 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1075.png?v=ae7b0364" loading="lazy"> | 0804 | [四颚针龙](1075_四颚针龙.md) | 毒/龙 | 540 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1076.png?v=c2cb67f8" loading="lazy"> | 0805 | [垒磊石](1076_垒磊石.md) | 岩石/钢 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1077.png?v=dc4ecd7f" loading="lazy"> | 0806 | [砰头小丑](1077_砰头小丑.md) | 火/幽灵 | 570 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1078.png?v=99b29ce8" loading="lazy"> | 0807 | [捷拉奥拉](1078_捷拉奥拉.md) | 电 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1083.png?v=db7ee7d9" loading="lazy"> | 0808 | [美录坦](1083_美录坦.md) | 钢 | 300 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1084.png?v=b52c4a59" loading="lazy"> | 0809 | [美录梅塔](1084_美录梅塔.md) | 钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1273.png?v=db7ee7d9" loading="lazy"> | 0809 | [超极巨化美录梅塔](1273_超极巨化美录梅塔.md) | 钢 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1102.png?v=81c101f5" loading="lazy"> | 0810 | [敲音猴](1102_敲音猴.md) | 草 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1103.png?v=b86c0ffe" loading="lazy"> | 0811 | [啪咚猴](1103_啪咚猴.md) | 草 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1104.png?v=abb97f8d" loading="lazy"> | 0812 | [轰擂金刚猩](1104_轰擂金刚猩.md) | 草 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1274.png?v=b86c0ffe" loading="lazy"> | 0812 | [超极巨化轰擂金刚猩](1274_超极巨化轰擂金刚猩.md) | 草 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1105.png?v=93af90b6" loading="lazy"> | 0813 | [炎兔儿](1105_炎兔儿.md) | 火 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1106.png?v=ff30fcc8" loading="lazy"> | 0814 | [腾蹴小将](1106_腾蹴小将.md) | 火 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1107.png?v=39540e33" loading="lazy"> | 0815 | [闪焰王牌](1107_闪焰王牌.md) | 火 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1275.png?v=ff30fcc8" loading="lazy"> | 0815 | [超极巨化闪焰王牌](1275_超极巨化闪焰王牌.md) | 火 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1108.png?v=c8a892ed" loading="lazy"> | 0816 | [泪眼蜥](1108_泪眼蜥.md) | 水 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1109.png?v=80db3d97" loading="lazy"> | 0817 | [变涩蜥](1109_变涩蜥.md) | 水 | 420 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1110.png?v=88b94009" loading="lazy"> | 0818 | [千面避役](1110_千面避役.md) | 水 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1276.png?v=80db3d97" loading="lazy"> | 0818 | [超极巨化千面避役](1276_超极巨化千面避役.md) | 水 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1111.png?v=753b8fbf" loading="lazy"> | 0819 | [贪心栗鼠](1111_贪心栗鼠.md) | 一般 | 275 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1112.png?v=f7cad891" loading="lazy"> | 0820 | [藏饱栗鼠](1112_藏饱栗鼠.md) | 一般 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1113.png?v=2d1ef754" loading="lazy"> | 0821 | [稚山雀](1113_稚山雀.md) | 飞行 | 245 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1114.png?v=75b52039" loading="lazy"> | 0822 | [蓝鸦](1114_蓝鸦.md) | 飞行 | 365 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1115.png?v=d091b58c" loading="lazy"> | 0823 | [钢铠鸦](1115_钢铠鸦.md) | 飞行/钢 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1277.png?v=75b52039" loading="lazy"> | 0823 | [超极巨化钢铠鸦](1277_超极巨化钢铠鸦.md) | 飞行/钢 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1116.png?v=ced80541" loading="lazy"> | 0824 | [索侦虫](1116_索侦虫.md) | 虫 | 180 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1117.png?v=ff92c9fb" loading="lazy"> | 0825 | [天罩虫](1117_天罩虫.md) | 虫/超能力 | 335 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1118.png?v=f95d6db1" loading="lazy"> | 0826 | [以欧路普](1118_以欧路普.md) | 虫/超能力 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1278.png?v=ff92c9fb" loading="lazy"> | 0826 | [超极巨化以欧路普](1278_超极巨化以欧路普.md) | 虫/超能力 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1119.png?v=d8758f3d" loading="lazy"> | 0827 | [偷儿狐](1119_偷儿狐.md) | 恶 | 245 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1120.png?v=b54fdf3b" loading="lazy"> | 0828 | [狐大盗](1120_狐大盗.md) | 恶 | 455 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1121.png?v=e303dae7" loading="lazy"> | 0829 | [幼棉棉](1121_幼棉棉.md) | 草 | 250 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1122.png?v=245f2b5b" loading="lazy"> | 0830 | [白蓬蓬](1122_白蓬蓬.md) | 草 | 460 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1123.png?v=d062b868" loading="lazy"> | 0831 | [毛辫羊](1123_毛辫羊.md) | 一般 | 270 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1124.png?v=b0d6cca7" loading="lazy"> | 0832 | [毛毛角羊](1124_毛毛角羊.md) | 一般 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1125.png?v=ad13fd2f" loading="lazy"> | 0833 | [咬咬龟](1125_咬咬龟.md) | 水 | 284 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1126.png?v=a01f800a" loading="lazy"> | 0834 | [暴噬龟](1126_暴噬龟.md) | 水/岩石 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1279.png?v=ad13fd2f" loading="lazy"> | 0834 | [超极巨化暴噬龟](1279_超极巨化暴噬龟.md) | 水/岩石 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1127.png?v=e5abcae4" loading="lazy"> | 0835 | [来电汪](1127_来电汪.md) | 电 | 270 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1128.png?v=42d9a6c5" loading="lazy"> | 0836 | [逐电犬](1128_逐电犬.md) | 电 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1129.png?v=67139e13" loading="lazy"> | 0837 | [小炭仔](1129_小炭仔.md) | 岩石 | 240 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1130.png?v=72609847" loading="lazy"> | 0838 | [大炭车](1130_大炭车.md) | 岩石/火 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1131.png?v=967c15e7" loading="lazy"> | 0839 | [巨炭山](1131_巨炭山.md) | 岩石/火 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1280.png?v=72609847" loading="lazy"> | 0839 | [超极巨化巨炭山](1280_超极巨化巨炭山.md) | 岩石/火 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1132.png?v=b327c912" loading="lazy"> | 0840 | [啃果虫](1132_啃果虫.md) | 草/龙 | 260 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1133.png?v=0daaca61" loading="lazy"> | 0841 | [苹裹龙](1133_苹裹龙.md) | 草/龙 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1281.png?v=b327c912" loading="lazy"> | 0841 | [超极巨化苹裹龙](1281_超极巨化苹裹龙.md) | 草/龙 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1134.png?v=02f99c0b" loading="lazy"> | 0842 | [丰蜜龙](1134_丰蜜龙.md) | 草/龙 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1282.png?v=0daaca61" loading="lazy"> | 0842 | [超极巨化丰蜜龙](1282_超极巨化丰蜜龙.md) | 草/龙 | 485 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1135.png?v=27d97cb1" loading="lazy"> | 0843 | [沙包蛇](1135_沙包蛇.md) | 地面 | 315 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1136.png?v=2e6aae64" loading="lazy"> | 0844 | [沙螺蟒](1136_沙螺蟒.md) | 地面 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1283.png?v=27d97cb1" loading="lazy"> | 0844 | [超极巨化沙螺蟒](1283_超极巨化沙螺蟒.md) | 地面 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1137.png?v=37209579" loading="lazy"> | 0845 | [古月鸟](1137_古月鸟.md) | 飞行/水 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1191.png?v=2e6aae64" loading="lazy"> | 0845 | [古月鸟（大口吞的样子）](1191_古月鸟（大口吞的样子）.md) | 飞行/水 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1192.png?v=2e6aae64" loading="lazy"> | 0845 | [古月鸟（一口吞的样子）](1192_古月鸟（一口吞的样子）.md) | 飞行/水 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1138.png?v=8d7dba74" loading="lazy"> | 0846 | [刺梭鱼](1138_刺梭鱼.md) | 水 | 280 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1139.png?v=c3e53150" loading="lazy"> | 0847 | [戽斗尖梭](1139_戽斗尖梭.md) | 水 | 490 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1140.png?v=e242e18a" loading="lazy"> | 0848 | [毒电婴](1140_毒电婴.md) | 电/毒 | 242 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1141.png?v=9940051f" loading="lazy"> | 0849 | [颤弦蝾螈](1141_颤弦蝾螈.md) | 电/毒 | 502 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1193.png?v=e242e18a" loading="lazy"> | 0849 | [颤弦蝾螈（低调的样子）](1193_颤弦蝾螈（低调的样子）.md) | 电/毒 | 502 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1284.png?v=e242e18a" loading="lazy"> | 0849 | [超极巨化颤弦蝾螈](1284_超极巨化颤弦蝾螈.md) | 电/毒 | 502 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1285.png?v=e242e18a" loading="lazy"> | 0849 | [超极巨化颤弦蝾螈（低调的样子）](1285_超极巨化颤弦蝾螈（低调的样子）.md) | 电/毒 | 502 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1142.png?v=e1dcfa0b" loading="lazy"> | 0850 | [烧火蚣](1142_烧火蚣.md) | 火/虫 | 305 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1143.png?v=7425cc83" loading="lazy"> | 0851 | [焚焰蚣](1143_焚焰蚣.md) | 火/虫 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1286.png?v=e1dcfa0b" loading="lazy"> | 0851 | [超极巨化焚焰蚣](1286_超极巨化焚焰蚣.md) | 火/虫 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1144.png?v=7b5bf195" loading="lazy"> | 0852 | [拳拳蛸](1144_拳拳蛸.md) | 格斗 | 310 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1145.png?v=a5f7d4b1" loading="lazy"> | 0853 | [八爪武师](1145_八爪武师.md) | 格斗 | 480 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1146.png?v=77761fdb" loading="lazy"> | 0854 | [来悲茶](1146_来悲茶.md) | 幽灵 | 308 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1194.png?v=a5f7d4b1" loading="lazy"> | 0854 | [来悲茶（赝品）](1194_来悲茶（赝品）.md) | 幽灵 | 308 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1147.png?v=c1cb8d8a" loading="lazy"> | 0855 | [怖思壶](1147_怖思壶.md) | 幽灵 | 508 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1195.png?v=77761fdb" loading="lazy"> | 0855 | [怖思壶（赝品）](1195_怖思壶（赝品）.md) | 幽灵 | 508 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1148.png?v=24738f81" loading="lazy"> | 0856 | [迷布莉姆](1148_迷布莉姆.md) | 超能力 | 265 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1149.png?v=39fab640" loading="lazy"> | 0857 | [提布莉姆](1149_提布莉姆.md) | 超能力 | 370 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1150.png?v=223e875c" loading="lazy"> | 0858 | [布莉姆温](1150_布莉姆温.md) | 超能力/妖精 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1287.png?v=39fab640" loading="lazy"> | 0858 | [超极巨化布莉姆温](1287_超极巨化布莉姆温.md) | 超能力/妖精 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1151.png?v=9fad3052" loading="lazy"> | 0859 | [捣蛋小妖](1151_捣蛋小妖.md) | 恶/妖精 | 265 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1152.png?v=287cbf10" loading="lazy"> | 0860 | [诈唬魔](1152_诈唬魔.md) | 恶/妖精 | 370 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1153.png?v=6a62a5d8" loading="lazy"> | 0861 | [长毛巨魔](1153_长毛巨魔.md) | 恶/妖精 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1288.png?v=287cbf10" loading="lazy"> | 0861 | [超极巨化长毛巨魔](1288_超极巨化长毛巨魔.md) | 恶/妖精 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1154.png?v=07f5fb06" loading="lazy"> | 0862 | [堵拦熊](1154_堵拦熊.md) | 恶/一般 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1155.png?v=46f8a6c1" loading="lazy"> | 0863 | [喵头目](1155_喵头目.md) | 钢 | 440 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1156.png?v=be25a4a6" loading="lazy"> | 0864 | [魔灵珊瑚](1156_魔灵珊瑚.md) | 幽灵 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1157.png?v=6ae6d259" loading="lazy"> | 0865 | [葱游兵](1157_葱游兵.md) | 格斗 | 507 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1158.png?v=b590504b" loading="lazy"> | 0866 | [踏冰人偶](1158_踏冰人偶.md) | 冰/超能力 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1159.png?v=cf970669" loading="lazy"> | 0867 | [死神板](1159_死神板.md) | 地面/幽灵 | 483 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1160.png?v=595f7da3" loading="lazy"> | 0868 | [小仙奶](1160_小仙奶.md) | 妖精 | 270 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1161.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1161_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1196.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1196_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1197.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1197_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1198.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1198_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1199.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1199_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1200.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1200_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1201.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1201_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1289.png?v=595f7da3" loading="lazy"> | 0869 | [霜奶仙](1289_霜奶仙.md) | 妖精 | 495 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1162.png?v=1ceb6c3e" loading="lazy"> | 0870 | [列阵兵](1162_列阵兵.md) | 格斗 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1163.png?v=7855e999" loading="lazy"> | 0871 | [啪嚓海胆](1163_啪嚓海胆.md) | 电 | 435 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1164.png?v=33a3db2f" loading="lazy"> | 0872 | [雪吞虫](1164_雪吞虫.md) | 冰/虫 | 185 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1165.png?v=6ea4563a" loading="lazy"> | 0873 | [雪绒蛾](1165_雪绒蛾.md) | 冰/虫 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1166.png?v=38156bcd" loading="lazy"> | 0874 | [巨石丁](1166_巨石丁.md) | 岩石 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1167.png?v=79e2ccfe" loading="lazy"> | 0875 | [冰砌鹅](1167_冰砌鹅.md) | 冰 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1202.png?v=38156bcd" loading="lazy"> | 0875 | [冰砌鹅（解冻头）](1202_冰砌鹅（解冻头）.md) | 冰 | 470 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1168.png?v=259c0dcc" loading="lazy"> | 0876 | [爱管侍](1168_爱管侍.md) | 超能力/一般 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1203.png?v=79e2ccfe" loading="lazy"> | 0876 | [爱管侍（雌性）](1203_爱管侍（雌性）.md) | 超能力/一般 | 475 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1169.png?v=b777ce0c" loading="lazy"> | 0877 | [莫鲁贝可](1169_莫鲁贝可.md) | 电/恶 | 436 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1204.png?v=259c0dcc" loading="lazy"> | 0877 | [莫鲁贝可（空腹的样子）](1204_莫鲁贝可（空腹的样子）.md) | 电/恶 | 436 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1170.png?v=94c0bfeb" loading="lazy"> | 0878 | [铜象](1170_铜象.md) | 钢 | 330 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1171.png?v=37704057" loading="lazy"> | 0879 | [大王铜象](1171_大王铜象.md) | 钢 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1290.png?v=94c0bfeb" loading="lazy"> | 0879 | [超极巨化大王铜象](1290_超极巨化大王铜象.md) | 钢 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1172.png?v=0fa9a15d" loading="lazy"> | 0880 | [雷鸟龙](1172_雷鸟龙.md) | 电/龙 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1173.png?v=00d8b67e" loading="lazy"> | 0881 | [雷鸟海兽](1173_雷鸟海兽.md) | 电/冰 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1174.png?v=858c7088" loading="lazy"> | 0882 | [鳃鱼龙](1174_鳃鱼龙.md) | 水/龙 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1175.png?v=5c5c5dff" loading="lazy"> | 0883 | [鳃鱼海兽](1175_鳃鱼海兽.md) | 水/冰 | 505 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1176.png?v=f1231220" loading="lazy"> | 0884 | [铝钢龙](1176_铝钢龙.md) | 钢/龙 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1291.png?v=5c5c5dff" loading="lazy"> | 0884 | [超极巨化铝钢龙](1291_超极巨化铝钢龙.md) | 钢/龙 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1177.png?v=c4d76681" loading="lazy"> | 0885 | [多龙梅西亚](1177_多龙梅西亚.md) | 龙/幽灵 | 270 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1178.png?v=29473f66" loading="lazy"> | 0886 | [多龙奇](1178_多龙奇.md) | 龙/幽灵 | 410 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1179.png?v=3a9fac92" loading="lazy"> | 0887 | [多龙巴鲁托](1179_多龙巴鲁托.md) | 龙/幽灵 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1180.png?v=6c7250c1" loading="lazy"> | 0888 | [苍响](1180_苍响.md) | 妖精 | 670 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1205.png?v=3a9fac92" loading="lazy"> | 0888 | [苍响（剑之王）](1205_苍响（剑之王）.md) | 妖精/钢 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1181.png?v=30e306bd" loading="lazy"> | 0889 | [藏玛然特](1181_藏玛然特.md) | 格斗 | 670 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1206.png?v=6c7250c1" loading="lazy"> | 0889 | [藏玛然特（盾之王）](1206_藏玛然特（盾之王）.md) | 格斗/钢 | 720 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1182.png?v=1ddf42dd" loading="lazy"> | 0890 | [无极汰那](1182_无极汰那.md) | 毒/龙 | 690 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1207.png?v=30e306bd" loading="lazy"> | 0890 | [无极巨化无极汰那](1207_无极巨化无极汰那.md) | 毒/龙 | 1125 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1183.png?v=23e98520" loading="lazy"> | 0891 | [熊徒弟](1183_熊徒弟.md) | 格斗 | 385 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1184.png?v=23e98520" loading="lazy"> | 0892 | [武道熊师](1184_武道熊师.md) | 格斗/恶 | 550 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1208.png?v=23e98520" loading="lazy"> | 0892 | [武道熊师](1208_武道熊师.md) | 格斗/水 | 550 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1292.png?v=23e98520" loading="lazy"> | 0892 | [超极巨化武道熊师](1292_超极巨化武道熊师.md) | 格斗/恶 | 550 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1293.png?v=23e98520" loading="lazy"> | 0892 | [超极巨化武道熊师](1293_超极巨化武道熊师.md) | 格斗/水 | 550 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1185.png?v=83a221a4" loading="lazy"> | 0893 | [萨戮德](1185_萨戮德.md) | 恶/草 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1209.png?v=8356bfdb" loading="lazy"> | 0893 | [萨戮德（老爹）](1209_萨戮德（老爹）.md) | 恶/草 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1186.png?v=c6dd0c1b" loading="lazy"> | 0894 | [雷吉艾勒奇](1186_雷吉艾勒奇.md) | 电 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1187.png?v=c5320cac" loading="lazy"> | 0895 | [雷吉铎拉戈](1187_雷吉铎拉戈.md) | 龙 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1188.png?v=fd0422be" loading="lazy"> | 0896 | [雪暴马](1188_雪暴马.md) | 冰 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1189.png?v=89a56fb7" loading="lazy"> | 0897 | [灵幽马](1189_灵幽马.md) | 幽灵 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1190.png?v=90a903bc" loading="lazy"> | 0898 | [蕾冠王](1190_蕾冠王.md) | 超能力/草 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1210.png?v=89a56fb7" loading="lazy"> | 0898 | [蕾冠王（骑白马的样子）](1210_蕾冠王（骑白马的样子）.md) | 超能力/冰 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1211.png?v=89a56fb7" loading="lazy"> | 0898 | [蕾冠王（骑黑马的样子）](1211_蕾冠王（骑黑马的样子）.md) | 超能力/幽灵 | 680 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1251.png?v=38b2332a" loading="lazy"> | 0899 | [诡角鹿](1251_诡角鹿.md) | 一般/超能力 | 525 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1252.png?v=8a10ed5d" loading="lazy"> | 0900 | [劈斧螳螂](1252_劈斧螳螂.md) | 虫/岩石 | 500 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1253.png?v=ea9c51a5" loading="lazy"> | 0901 | [月月熊](1253_月月熊.md) | 一般/地面 | 550 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1254.png?v=ea9c51a5" loading="lazy"> | 0902 | [幽尾玄鱼](1254_幽尾玄鱼.md) | 水/幽灵 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1255.png?v=ea9c51a5" loading="lazy"> | 0902 | [幽尾玄鱼](1255_幽尾玄鱼.md) | 水/幽灵 | 530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1256.png?v=96704053" loading="lazy"> | 0903 | [大狃拉](1256_大狃拉.md) | 毒/格斗 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1257.png?v=78c16de8" loading="lazy"> | 0904 | [万针鱼](1257_万针鱼.md) | 恶/毒 | 510 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1258.png?v=43bdbb4f" loading="lazy"> | 0905 | [眷恋云](1258_眷恋云.md) | 妖精/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1259.png?v=78c16de8" loading="lazy"> | 0905 | [眷恋云（灵兽形态）](1259_眷恋云（灵兽形态）.md) | 妖精/飞行 | 580 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0257.png?v=e37517fc" loading="lazy"> | 0979 | [弃世猴](0257_弃世猴.md) | 格斗/幽灵 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0259.png?v=7be8d90d" loading="lazy"> | 0980 | [土王](0259_土王.md) | 毒/地面 | 430 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0254.png?v=694b82e8" loading="lazy"> | 0981 | [奇麒麟](0254_奇麒麟.md) | 一般/超能力 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0255.png?v=b4d21ef2" loading="lazy"> | 0982 | [土龙节节](0255_土龙节节.md) | 一般 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0256.png?v=b4d21ef2" loading="lazy"> | 0982 | [土龙节节](0256_土龙节节.md) | 一般 | 520 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0274.png?v=5a3f4901" loading="lazy"> | 0998 | [戟脊龙](0274_戟脊龙.md) | 龙/冰 | 700 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="sprites/0275.png?v=b70a3b87" loading="lazy"> | 1027 | [多边兽零式](0275_多边兽零式.md) | 一般 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="sprites/0253.png?v=fd226e43" loading="lazy"> | — | [MISSINGNO.](0253_MISSINGNO..md) | ? | 1530 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="sprites/0260.png?v=a56cabf3" loading="lazy"> | — | [杰克霜精](0260_杰克霜精.md) | 冰/妖精 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0249.png?v=34f3bba2" loading="lazy"> | — | [洛奇亚](0261_洛奇亚.md) | 恶/飞行 | 740 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="sprites/0706.png?v=27393c79" loading="lazy"> | — | [战士](0706_战士.md) | 幽灵/恶 | 540 |

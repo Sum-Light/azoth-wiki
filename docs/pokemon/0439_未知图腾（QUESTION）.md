@@ -1,7 +1,7 @@
 # No.0201 未知图腾（QUESTION）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0439.png?v=2c4f3582" alt="未知图腾（QUESTION）">
+<img class="pk-sprite" width="128" height="128" style="image-rendering:pixelated" src="../sprites/0439.png?v=2c4f3582" alt="未知图腾（QUESTION）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 </div>
