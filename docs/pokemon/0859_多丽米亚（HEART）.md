@@ -1,7 +1,7 @@
 # No.0676 多丽米亚（HEART）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0859.png?v=f239597f" alt="多丽米亚（HEART）">
+<img class="pk-sprite" src="../sprites/0859.png?v=15b548f3" alt="多丽米亚（HEART）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 </div>

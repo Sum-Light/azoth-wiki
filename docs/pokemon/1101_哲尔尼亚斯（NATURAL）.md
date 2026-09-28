@@ -1,7 +1,7 @@
 # No.0716 哲尔尼亚斯（NATURAL）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1101.png?v=59bf907e" alt="哲尔尼亚斯（NATURAL）">
+<img class="pk-sprite" src="../sprites/1101.png?v=e4711bb9" alt="哲尔尼亚斯（NATURAL）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>
@@ -105,7 +105,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[花瓣舞](../moves/0080_花瓣舞.md)、[高速星星](../moves/0129_高速星星.md)
+[花瓣舞](../moves/0080_花瓣舞.md)、[高速星星](../moves/0129_高速星星.md)、[起草](../moves/0992_起草.md)
 </div>
 
 ## 其他数据

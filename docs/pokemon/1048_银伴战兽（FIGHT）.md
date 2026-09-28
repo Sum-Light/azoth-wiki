@@ -1,7 +1,7 @@
 # No.0773 银伴战兽（FIGHT）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1048.png?v=c1c98751" alt="银伴战兽（FIGHT）">
+<img class="pk-sprite" src="../sprites/1048.png?v=118911ad" alt="银伴战兽（FIGHT）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FF8000">格斗</span>
 </div>

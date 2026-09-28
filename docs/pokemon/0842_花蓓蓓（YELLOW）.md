@@ -1,7 +1,7 @@
 # No.0669 花蓓蓓（YELLOW）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0842.png?v=dcf1575f" alt="花蓓蓓（YELLOW）">
+<img class="pk-sprite" src="../sprites/0842.png?v=4fb513ba" alt="花蓓蓓（YELLOW）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>
@@ -104,7 +104,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[仿效](../moves/0456_仿效.md)、[诱惑](../moves/0515_诱惑.md)、[保护色](../moves/0293_保护色.md)、[泪眼汪汪](../moves/0620_泪眼汪汪.md)、[日光束](../moves/0076_日光束.md)、[魔法闪耀](../moves/0466_魔法闪耀.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[蛮干](../moves/0283_蛮干.md)、[奇异之风](../moves/0388_奇异之风.md)、[魅惑之声](../moves/0467_魅惑之声.md)
+[仿效](../moves/0456_仿效.md)、[诱惑](../moves/0515_诱惑.md)、[保护色](../moves/0293_保护色.md)、[泪眼汪汪](../moves/0620_泪眼汪汪.md)、[日光束](../moves/0076_日光束.md)、[魔法闪耀](../moves/0466_魔法闪耀.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[蛮干](../moves/0283_蛮干.md)、[奇异之风](../moves/0388_奇异之风.md)、[魅惑之声](../moves/0467_魅惑之声.md)、[泼冷水](../moves/0952_泼冷水.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[起草](../moves/0992_起草.md)、[魅诱之声](../moves/1011_魅诱之声.md)、[精神噪音](../moves/1014_精神噪音.md)
 </div>
 
 ## 其他数据

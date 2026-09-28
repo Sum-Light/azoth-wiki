@@ -1,7 +1,7 @@
 # No.0670 花叶蒂（ORANGE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0845.png?v=e1b504be" alt="花叶蒂（ORANGE）">
+<img class="pk-sprite" src="../sprites/0845.png?v=dd94668b" alt="花叶蒂（ORANGE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

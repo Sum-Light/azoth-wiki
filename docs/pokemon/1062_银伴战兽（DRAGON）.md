@@ -1,7 +1,7 @@
 # No.0773 银伴战兽（DRAGON）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1062.png?v=705cab07" alt="银伴战兽（DRAGON）">
+<img class="pk-sprite" src="../sprites/1062.png?v=cb3ec557" alt="银伴战兽（DRAGON）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#5060E1">龙</span>
 </div>

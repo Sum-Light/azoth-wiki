@@ -1,7 +1,7 @@
 # No.0898 蕾冠王（SHADOW RIDER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1211.png?v=cb73d2a8" alt="蕾冠王（SHADOW RIDER）">
+<img class="pk-sprite" src="../sprites/1211.png?v=487d5fec" alt="蕾冠王（SHADOW RIDER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 <span class="pk-type" style="background:#704170">幽灵</span>
@@ -124,7 +124,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[聚宝功](../moves/0006_聚宝功.md)、[幻象光线](../moves/0060_幻象光线.md)、[黑夜魔影](../moves/0101_黑夜魔影.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[三重攻击](../moves/0161_三重攻击.md)、[诅咒](../moves/0174_诅咒.md)、[封印](../moves/0286_封印.md)、[泥巴射击](../moves/0341_泥巴射击.md)、[魔法叶](../moves/0345_魔法叶.md)、[恶意追击](../moves/0485_恶意追击.md)、[防守互换](../moves/0519_防守互换.md)、[力量互换](../moves/0523_力量互换.md)、[速度互换](../moves/0614_速度互换.md)
+[聚宝功](../moves/0006_聚宝功.md)、[幻象光线](../moves/0060_幻象光线.md)、[黑夜魔影](../moves/0101_黑夜魔影.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[三重攻击](../moves/0161_三重攻击.md)、[诅咒](../moves/0174_诅咒.md)、[封印](../moves/0286_封印.md)、[泥巴射击](../moves/0341_泥巴射击.md)、[魔法叶](../moves/0345_魔法叶.md)、[恶意追击](../moves/0485_恶意追击.md)、[防守互换](../moves/0519_防守互换.md)、[力量互换](../moves/0523_力量互换.md)、[速度互换](../moves/0614_速度互换.md)、[太晶爆发](../moves/0989_太晶爆发.md)
 </div>
 
 ## 其他数据

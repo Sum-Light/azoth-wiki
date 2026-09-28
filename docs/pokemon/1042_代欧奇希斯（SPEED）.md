@@ -1,7 +1,7 @@
 # No.0386 代欧奇希斯（SPEED）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1042.png?v=14ad99f6" alt="代欧奇希斯（SPEED）">
+<img class="pk-sprite" src="../sprites/1042.png?v=fdf67c2b" alt="代欧奇希斯（SPEED）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 </div>
@@ -140,7 +140,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[百万吨重拳](../moves/0005_百万吨重拳.md)、[百万吨重踢](../moves/0025_百万吨重踢.md)、[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[幻象光线](../moves/0060_幻象光线.md)、[踢倒](../moves/0067_踢倒.md)、[地球上投](../moves/0069_地球上投.md)、[模仿](../moves/0102_模仿.md)、[恶梦](../moves/0171_恶梦.md)、[掷泥](../moves/0189_掷泥.md)、[爆裂拳](../moves/0223_爆裂拳.md)、[预知未来](../moves/0248_预知未来.md)、[封印](../moves/0286_封印.md)
+[百万吨重拳](../moves/0005_百万吨重拳.md)、[百万吨重踢](../moves/0025_百万吨重踢.md)、[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[幻象光线](../moves/0060_幻象光线.md)、[踢倒](../moves/0067_踢倒.md)、[地球上投](../moves/0069_地球上投.md)、[模仿](../moves/0102_模仿.md)、[恶梦](../moves/0171_恶梦.md)、[掷泥](../moves/0189_掷泥.md)、[爆裂拳](../moves/0223_爆裂拳.md)、[预知未来](../moves/0248_预知未来.md)、[封印](../moves/0286_封印.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[精神噪音](../moves/1014_精神噪音.md)
 </div>
 
 ## 其他数据

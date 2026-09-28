@@ -1,7 +1,7 @@
 # No.0585 四季鹿（SUMMER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0738.png?v=89094252" alt="四季鹿（SUMMER）">
+<img class="pk-sprite" src="../sprites/0738.png?v=e9efae43" alt="四季鹿（SUMMER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 <span class="pk-type" style="background:#3FA129">草</span>
@@ -104,7 +104,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[假哭](../moves/0313_假哭.md)、[自然之恩](../moves/0506_自然之恩.md)、[光合作用](../moves/0235_光合作用.md)、[烦恼种子](../moves/0475_烦恼种子.md)、[气味侦测](../moves/0316_气味侦测.md)、[高速移动](../moves/0097_高速移动.md)、[梦话](../moves/0214_梦话.md)、[接棒](../moves/0226_接棒.md)、[草笛](../moves/0320_草笛.md)、[头锤](../moves/0029_头锤.md)、[热带踢](../moves/0623_热带踢.md)、[诅咒](../moves/0174_诅咒.md)、[魔法叶](../moves/0345_魔法叶.md)、[落英缤纷](../moves/0490_落英缤纷.md)、[报仇](../moves/0498_报仇.md)
+[假哭](../moves/0313_假哭.md)、[自然之恩](../moves/0506_自然之恩.md)、[光合作用](../moves/0235_光合作用.md)、[烦恼种子](../moves/0475_烦恼种子.md)、[气味侦测](../moves/0316_气味侦测.md)、[高速移动](../moves/0097_高速移动.md)、[梦话](../moves/0214_梦话.md)、[接棒](../moves/0226_接棒.md)、[草笛](../moves/0320_草笛.md)、[头锤](../moves/0029_头锤.md)、[热带踢](../moves/0623_热带踢.md)、[诅咒](../moves/0174_诅咒.md)、[魔法叶](../moves/0345_魔法叶.md)、[落英缤纷](../moves/0490_落英缤纷.md)、[报仇](../moves/0498_报仇.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[起草](../moves/0992_起草.md)
 </div>
 
 ## 其他数据

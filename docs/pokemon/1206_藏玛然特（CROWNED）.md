@@ -1,7 +1,7 @@
 # No.0889 藏玛然特（CROWNED）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1206.png?v=5a4e51a1" alt="藏玛然特（CROWNED）">
+<img class="pk-sprite" src="../sprites/1206.png?v=c072f4c3" alt="藏玛然特（CROWNED）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FF8000">格斗</span>
 <span class="pk-type" style="background:#60A1B8">钢</span>

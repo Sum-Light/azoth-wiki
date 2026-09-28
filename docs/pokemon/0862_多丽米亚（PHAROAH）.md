@@ -1,7 +1,7 @@
 # No.0676 多丽米亚（PHAROAH）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0862.png?v=9d532292" alt="多丽米亚（PHAROAH）">
+<img class="pk-sprite" src="../sprites/0862.png?v=4a4c8431" alt="多丽米亚（PHAROAH）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 </div>

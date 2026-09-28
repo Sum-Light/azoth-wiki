@@ -1,7 +1,7 @@
 # No.0773 银伴战兽（FLYING）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1049.png?v=d9b07f96" alt="银伴战兽（FLYING）">
+<img class="pk-sprite" src="../sprites/1049.png?v=4d5ecb6d" alt="银伴战兽（FLYING）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#81B9EF">飞行</span>
 </div>

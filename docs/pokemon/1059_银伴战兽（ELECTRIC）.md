@@ -1,7 +1,7 @@
 # No.0773 银伴战兽（ELECTRIC）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1059.png?v=7d8118ed" alt="银伴战兽（ELECTRIC）">
+<img class="pk-sprite" src="../sprites/1059.png?v=82384ca3" alt="银伴战兽（ELECTRIC）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

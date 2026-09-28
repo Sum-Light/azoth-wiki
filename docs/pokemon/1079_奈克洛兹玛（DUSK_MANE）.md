@@ -1,7 +1,7 @@
 # No.0800 奈克洛兹玛（DUSK MANE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1079.png?v=a499ef93" alt="奈克洛兹玛（DUSK MANE）">
+<img class="pk-sprite" src="../sprites/1079.png?v=a8a1c844" alt="奈克洛兹玛（DUSK MANE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 <span class="pk-type" style="background:#60A1B8">钢</span>
@@ -123,7 +123,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[高速星星](../moves/0129_高速星星.md)、[预知未来](../moves/0248_预知未来.md)、[封印](../moves/0286_封印.md)、[流星闪冲](../moves/0619_流星闪冲.md)、[查封](../moves/0665_查封.md)
+[高速星星](../moves/0129_高速星星.md)、[预知未来](../moves/0248_预知未来.md)、[封印](../moves/0286_封印.md)、[流星闪冲](../moves/0619_流星闪冲.md)、[查封](../moves/0665_查封.md)、[太晶爆发](../moves/0989_太晶爆发.md)
 </div>
 
 ## 其他数据

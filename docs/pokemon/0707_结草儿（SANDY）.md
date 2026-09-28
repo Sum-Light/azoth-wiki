@@ -1,7 +1,7 @@
 # No.0412 结草儿（SANDY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0707.png?v=0d152626" alt="结草儿（SANDY）">
+<img class="pk-sprite" src="../sprites/0707.png?v=8933afb1" alt="结草儿（SANDY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 </div>

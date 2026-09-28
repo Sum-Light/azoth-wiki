@@ -1,7 +1,7 @@
 # No.0666 彩粉蝶（MONSOON）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0930.png?v=b8cb4b8e" alt="彩粉蝶（MONSOON）">
+<img class="pk-sprite" src="../sprites/0930.png?v=e2425069" alt="彩粉蝶（MONSOON）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

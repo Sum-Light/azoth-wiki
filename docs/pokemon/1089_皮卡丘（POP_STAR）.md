@@ -1,7 +1,7 @@
 # No.0025 皮卡丘（POP STAR）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1089.png?v=cd4038f2" alt="皮卡丘（POP STAR）">
+<img class="pk-sprite" src="../sprites/1089.png?v=6ec11fa4" alt="皮卡丘（POP STAR）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

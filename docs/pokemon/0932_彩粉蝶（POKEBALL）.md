@@ -1,7 +1,7 @@
 # No.0666 彩粉蝶（POKEBALL）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0932.png?v=22e88259" alt="彩粉蝶（POKEBALL）">
+<img class="pk-sprite" src="../sprites/0932.png?v=4590608c" alt="彩粉蝶（POKEBALL）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

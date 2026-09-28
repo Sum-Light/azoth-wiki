@@ -1,7 +1,7 @@
 # No.0845 古月鸟（GORGING）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1192.png?v=99629a34" alt="古月鸟（GORGING）">
+<img class="pk-sprite" src="../sprites/1192.png?v=00ba19c0" alt="古月鸟（GORGING）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#81B9EF">飞行</span>
 <span class="pk-type" style="background:#2980EF">水</span>
@@ -80,7 +80,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[猛撞](../moves/0036_猛撞.md)、[羽毛舞](../moves/0297_羽毛舞.md)、[空气利刃](../moves/0314_空气利刃.md)、[燕返](../moves/0332_燕返.md)、[羽栖](../moves/0395_羽栖.md)、[恶意追击](../moves/0485_恶意追击.md)、[清除浓雾](../moves/0516_清除浓雾.md)、[水流环](../moves/0639_水流环.md)
+[猛撞](../moves/0036_猛撞.md)、[羽毛舞](../moves/0297_羽毛舞.md)、[空气利刃](../moves/0314_空气利刃.md)、[燕返](../moves/0332_燕返.md)、[羽栖](../moves/0395_羽栖.md)、[恶意追击](../moves/0485_恶意追击.md)、[清除浓雾](../moves/0516_清除浓雾.md)、[水流环](../moves/0639_水流环.md)、[水波刀](../moves/0946_水波刀.md)、[泼冷水](../moves/0952_泼冷水.md)、[虫扑](../moves/0977_虫扑.md)、[太晶爆发](../moves/0989_太晶爆发.md)
 </div>
 
 ## 其他数据

@@ -1,7 +1,7 @@
 # No.0413 结草贵妇（TRASH）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0710.png?v=430d1677" alt="结草贵妇（TRASH）">
+<img class="pk-sprite" src="../sprites/0710.png?v=94756012" alt="结草贵妇（TRASH）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#60A1B8">钢</span>

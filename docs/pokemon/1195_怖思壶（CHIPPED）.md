@@ -1,6 +1,7 @@
 # No.0855 怖思壶（CHIPPED）
 
 <div class="pk-head">
+<img class="pk-sprite" src="../sprites/1195.png?v=bd25d1b6" alt="怖思壶（CHIPPED）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#704170">幽灵</span>
 </div>

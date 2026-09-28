@@ -1,7 +1,7 @@
 # No.0383 固拉多（PRIMAL）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0909.png?v=8aba3a14" alt="固拉多（PRIMAL）">
+<img class="pk-sprite" src="../sprites/0909.png?v=6473b725" alt="固拉多（PRIMAL）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#915121">地面</span>
 <span class="pk-type" style="background:#E62829">火</span>
@@ -130,7 +130,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[百万吨重拳](../moves/0005_百万吨重拳.md)、[百万吨重踢](../moves/0025_百万吨重踢.md)、[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[双倍奉还](../moves/0068_双倍奉还.md)、[地球上投](../moves/0069_地球上投.md)、[模仿](../moves/0102_模仿.md)、[变圆](../moves/0111_变圆.md)、[高速星星](../moves/0129_高速星星.md)、[掷泥](../moves/0189_掷泥.md)、[滚动](../moves/0205_滚动.md)、[连斩](../moves/0210_连斩.md)、[金属爪](../moves/0232_金属爪.md)
+[百万吨重拳](../moves/0005_百万吨重拳.md)、[百万吨重踢](../moves/0025_百万吨重踢.md)、[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[双倍奉还](../moves/0068_双倍奉还.md)、[地球上投](../moves/0069_地球上投.md)、[模仿](../moves/0102_模仿.md)、[变圆](../moves/0111_变圆.md)、[高速星星](../moves/0129_高速星星.md)、[掷泥](../moves/0189_掷泥.md)、[滚动](../moves/0205_滚动.md)、[连斩](../moves/0210_连斩.md)、[金属爪](../moves/0232_金属爪.md)、[太晶爆发](../moves/0989_太晶爆发.md)
 </div>
 
 ## 其他数据

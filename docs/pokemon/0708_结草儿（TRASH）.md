@@ -1,7 +1,7 @@
 # No.0412 结草儿（TRASH）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0708.png?v=bf3cd3d1" alt="结草儿（TRASH）">
+<img class="pk-sprite" src="../sprites/0708.png?v=39e499a7" alt="结草儿（TRASH）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 </div>

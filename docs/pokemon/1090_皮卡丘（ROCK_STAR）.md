@@ -1,7 +1,7 @@
 # No.0025 皮卡丘（ROCK STAR）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1090.png?v=9ce035e5" alt="皮卡丘（ROCK STAR）">
+<img class="pk-sprite" src="../sprites/1090.png?v=b4d28c30" alt="皮卡丘（ROCK STAR）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

@@ -1,7 +1,7 @@
 # No.0413 结草贵妇（SANDY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0709.png?v=9fabfe82" alt="结草贵妇（SANDY）">
+<img class="pk-sprite" src="../sprites/0709.png?v=929d172b" alt="结草贵妇（SANDY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#915121">地面</span>

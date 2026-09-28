@@ -1,7 +1,7 @@
 # No.0670 花叶蒂（YELLOW）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0846.png?v=5f99eb45" alt="花叶蒂（YELLOW）">
+<img class="pk-sprite" src="../sprites/0846.png?v=8a011736" alt="花叶蒂（YELLOW）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

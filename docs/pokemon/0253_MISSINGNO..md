@@ -1,6 +1,7 @@
 # （编外） MISSINGNO.
 
 <div class="pk-head">
+<img class="pk-sprite" src="../sprites/0253.png?v=fd226e43" alt="MISSINGNO.">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#777">类型#9</span>
 </div>

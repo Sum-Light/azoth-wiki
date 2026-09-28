@@ -1,7 +1,7 @@
 # No.0586 萌芽鹿（SUMMER）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0741.png?v=209c7871" alt="萌芽鹿（SUMMER）">
+<img class="pk-sprite" src="../sprites/0741.png?v=eb5ccf1c" alt="萌芽鹿（SUMMER）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 <span class="pk-type" style="background:#3FA129">草</span>

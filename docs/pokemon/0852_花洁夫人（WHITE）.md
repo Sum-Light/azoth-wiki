@@ -1,7 +1,7 @@
 # No.0671 花洁夫人（WHITE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0852.png?v=e3840b23" alt="花洁夫人（WHITE）">
+<img class="pk-sprite" src="../sprites/0852.png?v=0d1ed122" alt="花洁夫人（WHITE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF70EF">妖精</span>
 </div>

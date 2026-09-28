@@ -1,7 +1,7 @@
 # No.0890 无极汰那（ETERNAMAX）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1207.png?v=eda07580" alt="无极汰那（ETERNAMAX）">
+<img class="pk-sprite" src="../sprites/1207.png?v=3b736cc9" alt="无极汰那（ETERNAMAX）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9141CB">毒</span>
 <span class="pk-type" style="background:#5060E1">龙</span>
@@ -89,7 +89,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[猛撞](../moves/0036_猛撞.md)、[流星群](../moves/0369_流星群.md)、[恶意追击](../moves/0485_恶意追击.md)
+[猛撞](../moves/0036_猛撞.md)、[流星群](../moves/0369_流星群.md)、[恶意追击](../moves/0485_恶意追击.md)、[太晶爆发](../moves/0989_太晶爆发.md)
 </div>
 
 ## 其他数据

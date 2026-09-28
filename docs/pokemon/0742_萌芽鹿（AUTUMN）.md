@@ -1,7 +1,7 @@
 # No.0586 萌芽鹿（AUTUMN）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0742.png?v=dae76fa9" alt="萌芽鹿（AUTUMN）">
+<img class="pk-sprite" src="../sprites/0742.png?v=74f06c9a" alt="萌芽鹿（AUTUMN）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 <span class="pk-type" style="background:#3FA129">草</span>

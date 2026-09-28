@@ -1,7 +1,7 @@
 # No.0778 谜拟Q（BUSTED）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1072.png?v=84252b49" alt="谜拟Q（BUSTED）">
+<img class="pk-sprite" src="../sprites/1072.png?v=9692ec14" alt="谜拟Q（BUSTED）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#704170">幽灵</span>
 <span class="pk-type" style="background:#EF70EF">妖精</span>
@@ -112,7 +112,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[猛撞](../moves/0036_猛撞.md)、[黑夜魔影](../moves/0101_黑夜魔影.md)、[奇异之光](../moves/0109_奇异之光.md)、[吸血](../moves/0141_吸血.md)、[恶梦](../moves/0171_恶梦.md)、[诅咒](../moves/0174_诅咒.md)、[同命](../moves/0194_同命.md)、[围攻](../moves/0251_围攻.md)、[怨念](../moves/0288_怨念.md)、[暗袭要害](../moves/0387_暗袭要害.md)、[查封](../moves/0665_查封.md)
+[猛撞](../moves/0036_猛撞.md)、[黑夜魔影](../moves/0101_黑夜魔影.md)、[奇异之光](../moves/0109_奇异之光.md)、[吸血](../moves/0141_吸血.md)、[恶梦](../moves/0171_恶梦.md)、[诅咒](../moves/0174_诅咒.md)、[同命](../moves/0194_同命.md)、[围攻](../moves/0251_围攻.md)、[怨念](../moves/0288_怨念.md)、[暗袭要害](../moves/0387_暗袭要害.md)、[查封](../moves/0665_查封.md)、[虫扑](../moves/0977_虫扑.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[起草](../moves/0992_起草.md)
 </div>
 
 ## 其他数据

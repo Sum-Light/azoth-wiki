@@ -1,7 +1,7 @@
 # No.0773 银伴战兽（GROUND）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1051.png?v=7b2472d3" alt="银伴战兽（GROUND）">
+<img class="pk-sprite" src="../sprites/1051.png?v=c9a24cd2" alt="银伴战兽（GROUND）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#915121">地面</span>
 </div>

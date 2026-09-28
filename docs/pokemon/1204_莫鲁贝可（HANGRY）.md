@@ -1,7 +1,7 @@
 # No.0877 莫鲁贝可（HANGRY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1204.png?v=54178f84" alt="莫鲁贝可（HANGRY）">
+<img class="pk-sprite" src="../sprites/1204.png?v=505e7b43" alt="莫鲁贝可（HANGRY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 <span class="pk-type" style="background:#50413F">恶</span>
@@ -88,7 +88,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[高速星星](../moves/0129_高速星星.md)、[火箭头锤](../moves/0130_火箭头锤.md)、[愤怒门牙](../moves/0162_愤怒门牙.md)、[虚张声势](../moves/0207_虚张声势.md)、[高速旋转](../moves/0229_高速旋转.md)、[击掌奇袭](../moves/0252_击掌奇袭.md)、[充电](../moves/0268_充电.md)、[报复](../moves/0279_报复.md)、[挠痒](../moves/0321_挠痒.md)、[恶意追击](../moves/0485_恶意追击.md)、[抛下狠话](../moves/0560_抛下狠话.md)、[怪异电波](../moves/0568_怪异电波.md)、[延后](../moves/0671_延后.md)
+[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[高速星星](../moves/0129_高速星星.md)、[火箭头锤](../moves/0130_火箭头锤.md)、[愤怒门牙](../moves/0162_愤怒门牙.md)、[虚张声势](../moves/0207_虚张声势.md)、[高速旋转](../moves/0229_高速旋转.md)、[击掌奇袭](../moves/0252_击掌奇袭.md)、[充电](../moves/0268_充电.md)、[报复](../moves/0279_报复.md)、[挠痒](../moves/0321_挠痒.md)、[恶意追击](../moves/0485_恶意追击.md)、[抛下狠话](../moves/0560_抛下狠话.md)、[怪异电波](../moves/0568_怪异电波.md)、[延后](../moves/0671_延后.md)、[太晶爆发](../moves/0989_太晶爆发.md)
 </div>
 
 ## 其他数据

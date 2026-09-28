@@ -1,7 +1,7 @@
 # No.0676 多丽米亚（DANDY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0866.png?v=c0baa592" alt="多丽米亚（DANDY）">
+<img class="pk-sprite" src="../sprites/0866.png?v=8fc077fe" alt="多丽米亚（DANDY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 </div>

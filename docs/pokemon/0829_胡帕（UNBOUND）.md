@@ -1,7 +1,7 @@
 # No.0720 胡帕（UNBOUND）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0829.png?v=14aa1038" alt="胡帕（UNBOUND）">
+<img class="pk-sprite" src="../sprites/0829.png?v=48d2f518" alt="胡帕（UNBOUND）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 <span class="pk-type" style="background:#50413F">恶</span>
@@ -120,7 +120,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[猛撞](../moves/0036_猛撞.md)、[高速星星](../moves/0129_高速星星.md)、[预知未来](../moves/0248_预知未来.md)、[暗影拳](../moves/0325_暗影拳.md)、[奇异之风](../moves/0388_奇异之风.md)、[回复封锁](../moves/0647_回复封锁.md)、[查封](../moves/0665_查封.md)
+[猛撞](../moves/0036_猛撞.md)、[高速星星](../moves/0129_高速星星.md)、[预知未来](../moves/0248_预知未来.md)、[暗影拳](../moves/0325_暗影拳.md)、[奇异之风](../moves/0388_奇异之风.md)、[回复封锁](../moves/0647_回复封锁.md)、[查封](../moves/0665_查封.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[精神噪音](../moves/1014_精神噪音.md)
 </div>
 
 ## 其他数据

@@ -1,7 +1,7 @@
 # No.0849 颤弦蝾螈（LOW KEY GIGA）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1285.png?v=13d02aea" alt="颤弦蝾螈（LOW KEY GIGA）">
+<img class="pk-sprite" src="../sprites/1285.png?v=b65c0420" alt="颤弦蝾螈（LOW KEY GIGA）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 <span class="pk-type" style="background:#9141CB">毒</span>
@@ -108,7 +108,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[百万吨重拳](../moves/0005_百万吨重拳.md)、[百万吨重踢](../moves/0025_百万吨重踢.md)、[猛撞](../moves/0036_猛撞.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[撒娇](../moves/0204_撒娇.md)、[金属音](../moves/0319_金属音.md)、[毒尾](../moves/0342_毒尾.md)
+[百万吨重拳](../moves/0005_百万吨重拳.md)、[百万吨重踢](../moves/0025_百万吨重踢.md)、[猛撞](../moves/0036_猛撞.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[撒娇](../moves/0204_撒娇.md)、[金属音](../moves/0319_金属音.md)、[毒尾](../moves/0342_毒尾.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[起草](../moves/0992_起草.md)、[精神噪音](../moves/1014_精神噪音.md)
 </div>
 
 ## 其他数据

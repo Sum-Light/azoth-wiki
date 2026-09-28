@@ -1,7 +1,7 @@
 # No.0676 多丽米亚（DEBUTANTE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0867.png?v=28596e12" alt="多丽米亚（DEBUTANTE）">
+<img class="pk-sprite" src="../sprites/0867.png?v=75c77335" alt="多丽米亚（DEBUTANTE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 </div>

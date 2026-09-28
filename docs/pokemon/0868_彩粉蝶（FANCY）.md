@@ -1,7 +1,7 @@
 # No.0666 彩粉蝶（FANCY）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0868.png?v=f3748e71" alt="彩粉蝶（FANCY）">
+<img class="pk-sprite" src="../sprites/0868.png?v=558d5f2b" alt="彩粉蝶（FANCY）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>

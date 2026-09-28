@@ -1,7 +1,7 @@
 # No.0649 盖诺赛克特（DOUSE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0750.png?v=f408ce62" alt="盖诺赛克特（DOUSE）">
+<img class="pk-sprite" src="../sprites/0750.png?v=81ef4091" alt="盖诺赛克特（DOUSE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#60A1B8">钢</span>

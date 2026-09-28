@@ -1,7 +1,7 @@
 # No.0800 奈克洛兹玛（DAWN WINGS）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1080.png?v=609e0485" alt="奈克洛兹玛（DAWN WINGS）">
+<img class="pk-sprite" src="../sprites/1080.png?v=aeb9f8cc" alt="奈克洛兹玛（DAWN WINGS）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 <span class="pk-type" style="background:#704170">幽灵</span>
@@ -123,7 +123,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[高速星星](../moves/0129_高速星星.md)、[预知未来](../moves/0248_预知未来.md)、[封印](../moves/0286_封印.md)、[暗影之光](../moves/0598_暗影之光.md)、[查封](../moves/0665_查封.md)
+[高速星星](../moves/0129_高速星星.md)、[预知未来](../moves/0248_预知未来.md)、[封印](../moves/0286_封印.md)、[暗影之光](../moves/0598_暗影之光.md)、[查封](../moves/0665_查封.md)、[太晶爆发](../moves/0989_太晶爆发.md)
 </div>
 
 ## 其他数据

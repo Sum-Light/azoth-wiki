@@ -1,7 +1,7 @@
 # No.0773 银伴战兽（PSYCHIC）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1060.png?v=0ee142ea" alt="银伴战兽（PSYCHIC）">
+<img class="pk-sprite" src="../sprites/1060.png?v=6a725a9c" alt="银伴战兽（PSYCHIC）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#EF4179">超能力</span>
 </div>

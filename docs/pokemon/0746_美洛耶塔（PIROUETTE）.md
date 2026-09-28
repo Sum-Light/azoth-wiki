@@ -1,7 +1,7 @@
 # No.0648 美洛耶塔（PIROUETTE）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0746.png?v=40bbed86" alt="美洛耶塔（PIROUETTE）">
+<img class="pk-sprite" src="../sprites/0746.png?v=14114535" alt="美洛耶塔（PIROUETTE）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#9FA19F">一般</span>
 <span class="pk-type" style="background:#FF8000">格斗</span>
@@ -123,7 +123,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[连续拳](../moves/0004_连续拳.md)、[踢倒](../moves/0067_踢倒.md)、[花瓣舞](../moves/0080_花瓣舞.md)、[模仿](../moves/0102_模仿.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[撒娇](../moves/0204_撒娇.md)、[报仇](../moves/0498_报仇.md)、[查封](../moves/0665_查封.md)
+[连续拳](../moves/0004_连续拳.md)、[踢倒](../moves/0067_踢倒.md)、[花瓣舞](../moves/0080_花瓣舞.md)、[模仿](../moves/0102_模仿.md)、[挥指](../moves/0118_挥指.md)、[高速星星](../moves/0129_高速星星.md)、[撒娇](../moves/0204_撒娇.md)、[报仇](../moves/0498_报仇.md)、[查封](../moves/0665_查封.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[魅诱之声](../moves/1011_魅诱之声.md)
 </div>
 
 ## 其他数据

@@ -1,7 +1,7 @@
 # No.0025 皮卡丘（CAP UNOVA）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/1096.png?v=7905d2ee" alt="皮卡丘（CAP UNOVA）">
+<img class="pk-sprite" src="../sprites/1096.png?v=e87bc87a" alt="皮卡丘（CAP UNOVA）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#FAC000">电</span>
 </div>

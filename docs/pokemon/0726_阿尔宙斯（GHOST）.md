@@ -1,7 +1,7 @@
 # No.0493 阿尔宙斯（GHOST）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0726.png?v=b79554ec" alt="阿尔宙斯（GHOST）">
+<img class="pk-sprite" src="../sprites/0726.png?v=23ff6895" alt="阿尔宙斯（GHOST）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#704170">幽灵</span>
 </div>
@@ -161,7 +161,7 @@
 ## 遗传招式
 
 <div class="pk-learners" markdown="span">
-[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[奇异之光](../moves/0109_奇异之光.md)、[高速星星](../moves/0129_高速星星.md)、[掷泥](../moves/0189_掷泥.md)、[连斩](../moves/0210_连斩.md)、[龙卷风](../moves/0239_龙卷风.md)、[封印](../moves/0286_封印.md)、[潜水](../moves/0291_潜水.md)、[魔法叶](../moves/0345_魔法叶.md)、[流星群](../moves/0369_流星群.md)、[奇异之风](../moves/0388_奇异之风.md)、[酸液炸弹](../moves/0425_酸液炸弹.md)、[报仇](../moves/0498_报仇.md)、[铁蹄光线](../moves/0712_铁蹄光线.md)
+[猛撞](../moves/0036_猛撞.md)、[舍身冲撞](../moves/0038_舍身冲撞.md)、[奇异之光](../moves/0109_奇异之光.md)、[高速星星](../moves/0129_高速星星.md)、[掷泥](../moves/0189_掷泥.md)、[连斩](../moves/0210_连斩.md)、[龙卷风](../moves/0239_龙卷风.md)、[封印](../moves/0286_封印.md)、[潜水](../moves/0291_潜水.md)、[魔法叶](../moves/0345_魔法叶.md)、[流星群](../moves/0369_流星群.md)、[奇异之风](../moves/0388_奇异之风.md)、[酸液炸弹](../moves/0425_酸液炸弹.md)、[报仇](../moves/0498_报仇.md)、[铁蹄光线](../moves/0712_铁蹄光线.md)、[泼冷水](../moves/0952_泼冷水.md)、[太晶爆发](../moves/0989_太晶爆发.md)、[起草](../moves/0992_起草.md)、[闪电强袭](../moves/1013_闪电强袭.md)
 </div>
 
 ## 其他数据

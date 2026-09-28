@@ -1,7 +1,7 @@
 # No.0666 彩粉蝶（ARCHIPELAGO）
 
 <div class="pk-head">
-<img class="pk-sprite" src="../sprites/0921.png?v=ccc58850" alt="彩粉蝶（ARCHIPELAGO）">
+<img class="pk-sprite" src="../sprites/0921.png?v=3a7fe9ff" alt="彩粉蝶（ARCHIPELAGO）">
 <div class="pk-head-types">
 <span class="pk-type" style="background:#91A119">虫</span>
 <span class="pk-type" style="background:#81B9EF">飞行</span>
