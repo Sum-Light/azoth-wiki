@@ -34,7 +34,7 @@ body {
 
 .top {
   display: grid;
-  grid-template-columns: 1fr minmax(300px, 380px) 190px 180px;
+  grid-template-columns: 1fr minmax(300px, 380px) 190px 180px 120px;
   align-items: center;
   gap: 14px;
   margin: 0 auto 10px;
@@ -486,6 +486,22 @@ p { margin: 4px 0 0; color: var(--muted); }
   }
 }
 
+.data-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.data-btn {
+  height: 24px;
+  border: 1px solid rgba(55, 126, 242, .4);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--muted, #5b6b7a);
+  font-size: 12px;
+  cursor: pointer;
+}
+.data-btn:hover { background: rgba(55, 126, 242, .08); }
+
   </style>
 </head>
 <body>
@@ -501,6 +517,11 @@ p { margin: 4px 0 0; color: var(--muted); }
     </section>
     <button class="import-btn" id="importMonBtn" type="button">扫描二维码 / 输入密钥</button>
     <button class="save-btn" id="saveBtn" type="button">保存 HOME 和 SAV</button>
+    <div class="data-btns">
+      <button class="data-btn" id="exportHomeBtn" type="button">导出备份</button>
+      <button class="data-btn" id="importHomeBtn" type="button">导入备份</button>
+      <input type="file" id="homeDataFile" accept=".json,application/json" hidden>
+    </div>
   </header>
 
   <section class="summary" id="summary">等待读取存档。</section>
@@ -1196,6 +1217,11 @@ function monSpriteSrc(mon, data) {
 
 function showDetail(mon, sourceLabel) {
   const data = gameData.species[String(mon.species)] || {};
+  const abilityId = mon.raw && mon.raw.length === BOX_MON_SIZE
+    ? ((new DataView(Uint8Array.from(mon.raw).buffer).getUint32(54, true) >>> 31) ? data.hiddenAbility : (data.abilities || [])[mon.personality & 1])
+    : null;
+  const abilityName = abilityId == null ? "未知" : (gameData.abilities[String(abilityId)] || `Ability ${abilityId}`);
+  const abilityLabel = abilityId != null && abilityId === data.hiddenAbility ? `梦特：${abilityName}` : `特性：${abilityName}`;
   const item = mon.heldItem ? (gameData.items[String(mon.heldItem)] || `Item ${mon.heldItem}`) : "没有道具";
   const typeText = data.types ? data.types.filter(Boolean).join(" / ") : "";
   const moves = mon.moves.map((move) => gameData.moves[String(move)] || `Move ${move}`);
@@ -1206,6 +1232,7 @@ function showDetail(mon, sourceLabel) {
     <div class="detail-body">
       <strong>${sourceLabel} · ${escapeHtml(data.name || `Species ${mon.species}`)} ${mon.level ? `Lv.${mon.level}` : ""} ${mon.shiny ? `<span class="shiny-badge">闪光</span>` : ""}</strong>
       <div>${mon.nickname && mon.nickname !== data.name ? `昵称：${escapeHtml(mon.nickname)} · ` : ""}${escapeHtml(typeText)} · ${escapeHtml(item)}</div>
+      <div>${escapeHtml(abilityLabel)}</div>
       <div>个体值 ${mon.ivs.hp}/${mon.ivs.atk}/${mon.ivs.def}/${mon.ivs.spe}/${mon.ivs.spa}/${mon.ivs.spd} · 努力值 HP${evs.hp}/攻${evs.atk}/防${evs.def}/速${evs.spe}/特攻${evs.spa}/特防${evs.spd}</div>
       <div class="chips">${moves.map((move) => `<span>${escapeHtml(move)}</span>`).join("")}</div>
       <div class="detail-actions"><button type="button" id="shareMonBtn">分享这只宝可梦</button></div>
@@ -1814,6 +1841,46 @@ $("savPrev").onclick = () => changeSavBox(-1);
 $("savNext").onclick = () => changeSavBox(1);
 $("saveBtn").onclick = saveAll;
 $("importMonBtn").onclick = openImportDialog;
+
+function exportHomeData() {
+  const data = localStorage.getItem(HOME_KEY) || JSON.stringify(makeEmptyHomeBoxes());
+  const bytes = new TextEncoder().encode(data);
+  const stamp = new Date().toISOString().slice(0, 10);
+  downloadBytes(bytes, `水银HOME备份_${stamp}.json`);
+  $("summary").textContent = "已导出 HOME 备份（JSON）。换浏览器/清网站数据前请先导出。";
+}
+
+async function importHomeData(file) {
+  try {
+    const parsed = JSON.parse(await file.text());
+    if (!Array.isArray(parsed) || parsed.length !== HOME_BOXES)
+      throw new Error("盒子数量不对，不是有效的 HOME 备份");
+    for (const box of parsed) {
+      if (!Array.isArray(box) || box.length !== BOX_CAPACITY)
+        throw new Error("盒子结构不对，不是有效的 HOME 备份");
+      for (const mon of box) {
+        if (mon !== null && (typeof mon !== "object" || typeof mon.species !== "number"))
+          throw new Error("宝可梦数据格式不对");
+      }
+    }
+    saveHomeBoxes(parsed);
+    homeBoxIndex = 0;
+    selectedRef = null;
+    renderHomeBox();
+    $("summary").textContent = "HOME 备份已导入。";
+  } catch (err) {
+    $("summary").textContent = `导入失败：${err.message}`;
+  }
+}
+
+$("exportHomeBtn").onclick = exportHomeData;
+$("importHomeBtn").onclick = () => $("homeDataFile").click();
+$("homeDataFile").onchange = (event) => {
+  const file = event.target.files[0];
+  if (file) importHomeData(file);
+  event.target.value = "";
+};
+
 renderAllBoxes();
 
   </script>
