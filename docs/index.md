@@ -8,6 +8,7 @@
 <a class="azoth-card" href="abilities/"><strong>特性一览</strong><span>特性效果 / 持有者 / 动态特性说明</span></a>
 <a class="azoth-card" href="items/"><strong>道具一览</strong><span>价格 / 描述 / 野生携带反查</span></a>
 <a class="azoth-card" href="locations/"><strong>地点分布</strong><span>各地图野生宝可梦 · 分时段 / 方式</span></a>
+<a class="azoth-card" href="home/"><strong>水银 HOME</strong><span>本地存档盒子管理 · 读取 / 导出存档</span></a>
 </div>
 
 ## 计划收录

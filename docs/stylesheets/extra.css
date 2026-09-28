@@ -189,6 +189,15 @@
   opacity: .8;
 }
 
+/* -- HOME 嵌入页 -- */
+.home-frame {
+  width: 100%;
+  height: calc(100vh - 7rem);
+  border: 1px solid var(--azoth-card-border);
+  border-radius: .8rem;
+  background: #fff;
+}
+
 /* -- 章节标题 -- */
 .md-typeset h2 {
   border-left: .25rem solid var(--azoth-accent);
