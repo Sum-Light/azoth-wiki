@@ -10,6 +10,6 @@
 
 ## 升级可学会的宝可梦
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [卡璞.鸣鸣](../pokemon/1002_卡璞.鸣鸣.md)、[卡璞.蝶蝶](../pokemon/1003_卡璞.蝶蝶.md)、[卡璞.哞哞](../pokemon/1004_卡璞.哞哞.md)、[卡璞.鳍鳍](../pokemon/1005_卡璞.鳍鳍.md)
 </div>

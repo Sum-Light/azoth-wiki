@@ -73,7 +73,7 @@
 
 ## 教授招式
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [打鼾](../moves/0173_打鼾.md)、[吵闹](../moves/0253_吵闹.md)、[顺风](../moves/0472_顺风.md)、[蛮干](../moves/0283_蛮干.md)、[冰冻之风](../moves/0196_冰冻之风.md)、[水流裂破](../moves/0596_水流裂破.md)、[深渊突刺](../moves/0621_深渊突刺.md)、[蛮力](../moves/0276_蛮力.md)、[高速移动](../moves/0097_高速移动.md)、[潮旋](../moves/0250_潮旋.md)、[绝处逢生](../moves/0179_绝处逢生.md)、[气象球](../moves/0311_气象球.md)、[空气之刃](../moves/0356_空气之刃.md)、[勇鸟猛攻](../moves/0361_勇鸟猛攻.md)、[暴风](../moves/0412_暴风.md)、[水炮](../moves/0056_水炮.md)、[双翼](../moves/0730_双翼.md)
 </div>
 

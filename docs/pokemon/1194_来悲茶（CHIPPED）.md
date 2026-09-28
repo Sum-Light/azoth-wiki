@@ -84,7 +84,7 @@
 
 ## 教授招式
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [打鼾](../moves/0173_打鼾.md)、[头锤](../moves/0029_头锤.md)、[怨恨](../moves/0180_怨恨.md)、[扮演](../moves/0272_扮演.md)、[分担痛楚](../moves/0220_分担痛楚.md)、[戏法](../moves/0271_戏法.md)、[奇妙空间](../moves/0634_奇妙空间.md)、[欺诈](../moves/0535_欺诈.md)、[密语](../moves/0564_密语.md)、[接棒](../moves/0226_接棒.md)、[诡计](../moves/0386_诡计.md)、[辅助力量](../moves/0482_辅助力量.md)、[祸不单行](../moves/0436_祸不单行.md)、[潜灵奇袭](../moves/0489_潜灵奇袭.md)、[灵骚](../moves/0725_灵骚.md)
 </div>
 

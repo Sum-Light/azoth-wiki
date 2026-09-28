@@ -105,7 +105,7 @@
 
 ## 教授招式
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [打鼾](../moves/0173_打鼾.md)、[电网](../moves/0405_电网.md)、[头锤](../moves/0029_头锤.md)、[虫咬](../moves/0450_虫咬.md)、[信号光束](../moves/0324_信号光束.md)、[铁壁](../moves/0334_铁壁.md)、[顺风](../moves/0472_顺风.md)、[蛮干](../moves/0283_蛮干.md)、[磨砺](../moves/0594_磨砺.md)、[自我暗示](../moves/0244_自我暗示.md)、[密语](../moves/0564_密语.md)、[气象球](../moves/0311_气象球.md)、[空气之刃](../moves/0356_空气之刃.md)、[虫鸣](../moves/0362_虫鸣.md)、[花粉团](../moves/0601_花粉团.md)、[暴风](../moves/0412_暴风.md)、[爬击](../moves/0722_爬击.md)、[双翼](../moves/0730_双翼.md)
 </div>
 

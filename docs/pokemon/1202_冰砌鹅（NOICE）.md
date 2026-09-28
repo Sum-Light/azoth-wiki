@@ -72,7 +72,7 @@
 
 ## 教授招式
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [冰冻拳](../moves/0008_冰冻拳.md)、[打鼾](../moves/0173_打鼾.md)、[铁壁](../moves/0334_铁壁.md)、[铁头](../moves/0382_铁头.md)、[冰冻之风](../moves/0196_冰冻之风.md)、[意念头锤](../moves/0401_意念头锤.md)、[水流裂破](../moves/0596_水流裂破.md)、[高速移动](../moves/0097_高速移动.md)、[潮旋](../moves/0250_潮旋.md)、[冰锥](../moves/0333_冰锥.md)、[泰山压顶](../moves/0034_泰山压顶.md)、[绝处逢生](../moves/0179_绝处逢生.md)、[气象球](../moves/0311_气象球.md)、[水炮](../moves/0056_水炮.md)、[快速折返](../moves/0728_快速折返.md)
 </div>
 

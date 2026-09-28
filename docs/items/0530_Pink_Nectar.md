@@ -8,6 +8,6 @@ A flower nectar obtained at Royal Avenue. It changes the form of certain species
 
 ## 携带该道具的野生宝可梦
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [花舞鸟（P）](../pokemon/1044_花舞鸟（P）.md)
 </div>

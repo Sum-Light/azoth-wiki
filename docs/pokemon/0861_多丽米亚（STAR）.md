@@ -90,7 +90,7 @@
 
 ## 教授招式
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [打鼾](../moves/0173_打鼾.md)、[头锤](../moves/0029_头锤.md)、[吵闹](../moves/0253_吵闹.md)、[帮助](../moves/0270_帮助.md)、[扮演](../moves/0272_扮演.md)、[蛮干](../moves/0283_蛮干.md)、[意念头锤](../moves/0401_意念头锤.md)、[巨声](../moves/0304_巨声.md)、[珍藏](../moves/0674_珍藏.md)、[密语](../moves/0564_密语.md)、[雷电牙](../moves/0433_雷电牙.md)、[冰冻牙](../moves/0432_冰冻牙.md)、[火焰牙](../moves/0431_火焰牙.md)、[咬碎](../moves/0242_咬碎.md)、[十万马力](../moves/0592_十万马力.md)、[精神之牙](../moves/0604_精神之牙.md)
 </div>
 

@@ -80,7 +80,7 @@
 
 ## 教授招式
 
-<div class="pk-learners">
+<div class="pk-learners" markdown="span">
 [信号光束](../moves/0324_信号光束.md)、[重力](../moves/0645_重力.md)、[意念移物](../moves/0657_意念移物.md)、[电磁飘浮](../moves/0650_电磁飘浮.md)、[拍落](../moves/0282_拍落.md)、[密语](../moves/0564_密语.md)
 </div>
 
