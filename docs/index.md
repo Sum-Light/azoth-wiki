@@ -9,7 +9,7 @@
 <a class="azoth-card" href="items/"><strong>道具一览</strong><span>价格 / 描述 / 野生携带反查</span></a>
 <a class="azoth-card" href="locations/"><strong>地点分布</strong><span>各地图野生宝可梦 · 分时段 / 方式</span></a>
 <a class="azoth-card" href="home/"><strong>水银 HOME</strong><span>本地存档盒子管理 · 读取 / 导出存档</span></a>
-<a class="azoth-card" href="distribution/"><strong>配信</strong><span>官方配信宝可梦 · 一键领取到 HOME</span></a>
+<a class="azoth-card" href="distribution/"><strong>配信</strong><span>配信宝可梦 · 一键领取到 HOME</span></a>
 </div>
 
 ## 计划收录
