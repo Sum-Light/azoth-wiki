@@ -34,4 +34,5 @@ nav:
   - 宝可梦图鉴: pokemon/index.md
   - 招式一览: moves/index.md
   - 特性一览: abilities/index.md
+  - 道具一览: items/index.md
   - 地点分布: locations/index.md

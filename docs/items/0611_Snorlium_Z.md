@@ -1,0 +1,7 @@
+# Snorlium Z
+
+| 口袋 | 价格 |
+|---|---|
+| 道具 | — |
+
+This is a crystallized form of Z-Power. It upgrades Snorlax's Giga Impact to a Z-Move.
