@@ -487,20 +487,39 @@ p { margin: 4px 0 0; color: var(--muted); }
 }
 
 .data-btns {
+  grid-column: 1 / -1;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  gap: 14px;
 }
 .data-btn {
-  height: 24px;
-  border: 1px solid rgba(55, 126, 242, .4);
-  border-radius: 10px;
-  background: transparent;
-  color: var(--muted, #5b6b7a);
-  font-size: 12px;
+  flex: 1;
+  height: 54px;
+  border: 0;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
   cursor: pointer;
 }
-.data-btn:hover { background: rgba(55, 126, 242, .08); }
+.export-btn {
+  background: #d97706;
+  box-shadow: 0 8px 18px rgba(217, 119, 6, .24);
+}
+.restore-btn {
+  background: #0891b2;
+  box-shadow: 0 8px 18px rgba(8, 145, 178, .22);
+}
+.data-btn:hover { filter: brightness(1.05); }
+.home-note {
+  grid-column: 1 / -1;
+  margin: 4px 0 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(217, 119, 6, .1);
+  border: 1px solid rgba(217, 119, 6, .3);
+  font-size: 13px;
+  line-height: 1.6;
+}
 
   </style>
 </head>
@@ -518,10 +537,11 @@ p { margin: 4px 0 0; color: var(--muted); }
     <button class="import-btn" id="importMonBtn" type="button">扫描二维码 / 输入密钥</button>
     <button class="save-btn" id="saveBtn" type="button">保存 HOME 和 SAV</button>
     <div class="data-btns">
-      <button class="data-btn" id="exportHomeBtn" type="button">导出备份</button>
-      <button class="data-btn" id="importHomeBtn" type="button">导入备份</button>
+      <button class="data-btn export-btn" id="exportHomeBtn" type="button">导出 HOME 备份</button>
+      <button class="data-btn restore-btn" id="importHomeBtn" type="button">导入 HOME 备份</button>
       <input type="file" id="homeDataFile" accept=".json,application/json" hidden>
     </div>
+    <p class="home-note">HOME 数据保存在浏览器本地（localStorage），清除"网站数据"、换浏览器或换设备会丢失——请定期用"导出 HOME 备份"保存 JSON 文件。</p>
   </header>
 
   <section class="summary" id="summary">等待读取存档。</section>
@@ -991,7 +1011,7 @@ function canMoveBetweenSlots(fromMon, toMon) {
 async function saveAll() {
   saveHomeBoxes(homeBoxes);
   if (!currentSave || !currentSaveBuffer || !currentSlot) {
-    $("summary").textContent = "HOME 已保存；还没有读取 SAV，无法导出 SAV。";
+    $("summary").textContent = "HOME 已保存；还没有读取 SAV，无法导出 SAV。建议定期点上方「导出 HOME 备份」保存 JSON 备份。";
     return;
   }
   const out = new Uint8Array(currentSaveBuffer.slice(0));
@@ -1002,7 +1022,7 @@ async function saveAll() {
       const writable = await currentFileHandle.createWritable();
       await writable.write(out);
       await writable.close();
-      $("summary").textContent = "HOME 已保存，并已直接覆盖当前 SAV。";
+      $("summary").textContent = "HOME 已保存，并已直接覆盖当前 SAV。建议定期「导出 HOME 备份」。";
       return;
     } catch (err) {
       $("summary").textContent = `直接覆盖失败，请选择另存为位置：${err.message}`;
@@ -1138,7 +1158,7 @@ async function saveAsBytes(bytes, fileName) {
   if (navigator.canShare && navigator.canShare({ files: [file] }) && navigator.share) {
     try {
       await navigator.share({ files: [file], title: fileName, text: "宝可梦水银 HOME 存档" });
-      $("summary").textContent = "HOME 已保存，并已打开系统分享/存储面板。";
+      $("summary").textContent = "HOME 已保存，并已打开系统分享/存储面板。建议定期「导出 HOME 备份」。";
       showMobileSaveFallback(blob, fileName, "如未成功保存，可点这里再试一次。");
       return;
     } catch (err) {
@@ -1162,7 +1182,7 @@ async function saveAsBytes(bytes, fileName) {
       const writable = await handle.createWritable();
       await writable.write(bytes);
       await writable.close();
-      $("summary").textContent = "HOME 已保存，并已另存为 SAV。";
+      $("summary").textContent = "HOME 已保存，并已另存为 SAV。建议定期「导出 HOME 备份」。";
       return;
     } catch (err) {
       if (err.name === "AbortError") {
