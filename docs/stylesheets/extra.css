@@ -271,6 +271,15 @@
   }
 }
 
+/* -- 公告 -- */
+.news-meta {
+  font-size: .8rem;
+  opacity: .7;
+  margin: -.4rem 0 1rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px dashed var(--azoth-card-border);
+}
+
 /* -- 章节标题 -- */
 .md-typeset h2 {
   border-left: .25rem solid var(--azoth-accent);

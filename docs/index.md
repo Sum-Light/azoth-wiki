@@ -3,6 +3,7 @@
 欢迎来到**宝可梦水银**（Project Azoth）的资料站。本站数据由脚本直接从游戏 ROM 提取生成，与游戏版本保持一致。
 
 <div class="azoth-cards">
+<a class="azoth-card" href="news/"><strong>公告</strong><span>《水银》FC 发布 · 致150年后的你</span></a>
 <a class="azoth-card" href="pokemon/"><strong>宝可梦图鉴</strong><span>1432 只 · 种族值 / 特性 / 进化 / 招式 / 分布</span></a>
 <a class="azoth-card" href="moves/"><strong>招式一览</strong><span>威力 / 命中 / 分类 / 描述 / 可学习宝可梦反查</span></a>
 <a class="azoth-card" href="abilities/"><strong>特性一览</strong><span>特性效果 / 持有者 / 动态特性说明</span></a>
