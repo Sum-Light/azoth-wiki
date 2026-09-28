@@ -13,7 +13,11 @@ theme:
     - content.tabs.link
 
 plugins:
-  - search
+  - search:
+      lang: zh
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - tables

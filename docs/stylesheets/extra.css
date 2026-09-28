@@ -1,0 +1,80 @@
+/* 宝可梦图鉴页面样式 */
+
+.pk-head {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.pk-sprite {
+  width: 128px;
+  height: 128px;
+  image-rendering: pixelated;
+}
+
+.pk-head-types {
+  display: flex;
+  gap: .4rem;
+}
+
+.pk-type {
+  display: inline-block;
+  padding: .15rem .7rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: .8rem;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+}
+
+.pk-stats {
+  max-width: 32rem;
+}
+
+.pk-stat {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  margin: .25rem 0;
+}
+
+.pk-stat-name {
+  width: 3rem;
+  text-align: right;
+  font-size: .75rem;
+  opacity: .75;
+}
+
+.pk-stat-val {
+  width: 2.2rem;
+  text-align: right;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+
+.pk-bar {
+  flex: 1;
+  height: .55rem;
+  background: rgba(128, 128, 128, .2);
+  border-radius: .3rem;
+  overflow: hidden;
+}
+
+.pk-bar i {
+  display: block;
+  height: 100%;
+  border-radius: .3rem;
+  background: linear-gradient(90deg, #4caf50, #8bc34a);
+}
+
+.pk-stat-total .pk-stat-val {
+  color: #e62829;
+}
+
+.pk-icon {
+  width: 40px;
+  height: 40px;
+  image-rendering: pixelated;
+  vertical-align: middle;
+}

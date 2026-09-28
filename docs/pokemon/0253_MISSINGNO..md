@@ -1,12 +1,22 @@
 # No.0253 MISSINGNO.
 
-**属性**: 类型#9
+<div class="pk-head">
+<div class="pk-head-types">
+<span class="pk-type" style="background:#777">类型#9</span>
+</div>
+</div>
 
 ## 种族值
 
-| HP | 攻击 | 防御 | 特攻 | 特防 | 速度 | 总和 |
-|---|---|---|---|---|---|---|
-| 255 | 255 | 255 | 255 | 255 | 255 | **1530** |
+<div class="pk-stats">
+<div class="pk-stat"><span class="pk-stat-name">HP</span><span class="pk-stat-val">255</span><span class="pk-bar"><i style="width:100.0%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">攻击</span><span class="pk-stat-val">255</span><span class="pk-bar"><i style="width:100.0%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">防御</span><span class="pk-stat-val">255</span><span class="pk-bar"><i style="width:100.0%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特攻</span><span class="pk-stat-val">255</span><span class="pk-bar"><i style="width:100.0%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">特防</span><span class="pk-stat-val">255</span><span class="pk-bar"><i style="width:100.0%"></i></span></div>
+<div class="pk-stat"><span class="pk-stat-name">速度</span><span class="pk-stat-val">255</span><span class="pk-bar"><i style="width:100.0%"></i></span></div>
+<div class="pk-stat pk-stat-total"><span class="pk-stat-name">总和</span><span class="pk-stat-val">1530</span><span class="pk-bar"></span></div>
+</div>
 
 ## 特性
 
