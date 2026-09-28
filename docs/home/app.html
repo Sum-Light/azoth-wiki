@@ -1918,6 +1918,17 @@ $("homeDataFile").onchange = (event) => {
 
 renderAllBoxes();
 
+// 配信密钥: ?key=PMH1.xxx 自动导入
+const urlKey = new URLSearchParams(location.search).get("key");
+if (urlKey) {
+  try {
+    addImportedMon(importMonKey(urlKey));
+    history.replaceState(null, "", location.pathname);
+  } catch (err) {
+    $("summary").textContent = `配信密钥导入失败：${err.message}`;
+  }
+}
+
   </script>
 </body>
 </html>

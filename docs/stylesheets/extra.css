@@ -194,6 +194,83 @@
   display: none;
 }
 
+/* -- 配信卡片 -- */
+.dist-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
+  border-radius: .8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+}
+.dist-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .3rem;
+  flex-shrink: 0;
+}
+.dist-sprite {
+  width: 96px;
+  height: 96px;
+  image-rendering: pixelated;
+}
+.dist-icon {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+}
+.dist-body {
+  flex: 1;
+}
+.dist-body strong {
+  font-size: 1.05rem;
+}
+.dist-meta {
+  font-size: .85rem;
+  margin: .3rem 0;
+  opacity: .9;
+}
+.dist-moves {
+  font-size: .85rem;
+  color: var(--azoth-accent);
+  margin-bottom: .4rem;
+}
+.dist-note {
+  font-size: .8rem;
+  opacity: .7;
+  margin-bottom: .5rem;
+}
+.dist-claim {
+  display: inline-block;
+  padding: .45rem 2.2rem;
+  border-radius: 999px;
+  background: #e63946;
+  color: #fff !important;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(230, 57, 70, .35);
+  transition: transform .12s ease;
+}
+.dist-claim:hover {
+  transform: scale(1.05);
+}
+.dist-key {
+  margin-top: .5rem;
+  font-size: .75rem;
+}
+.dist-key code {
+  word-break: break-all;
+}
+@media (max-width: 720px) {
+  .dist-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* -- 章节标题 -- */
 .md-typeset h2 {
   border-left: .25rem solid var(--azoth-accent);
