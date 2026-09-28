@@ -269,7 +269,6 @@
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0172.png?v=cedf9c88" loading="lazy"> | 0172 | [皮丘](0172_皮丘.md) | 电 | 205 |
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1100.png?v=cedf9c88" loading="lazy"> | 0172 | [皮丘（尖耳朵）](1100_皮丘（尖耳朵）.md) | 电 | 205 |
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0173.png?v=52facbfd" loading="lazy"> | 0173 | [皮宝宝](0173_皮宝宝.md) | 妖精 | 218 |
-| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1557.png?v=52facbfd" loading="lazy"> | 0173 | [驳。](1557_驳。.md) | ?/钢 | 300 |
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0174.png?v=a751a112" loading="lazy"> | 0174 | [宝宝丁](0174_宝宝丁.md) | 一般/妖精 | 210 |
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0175.png?v=85f87d86" loading="lazy"> | 0175 | [波克比](0175_波克比.md) | 妖精 | 245 |
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0176.png?v=c9378780" loading="lazy"> | 0176 | [波克基古](0176_波克基古.md) | 妖精/飞行 | 405 |
