@@ -1435,5 +1435,5 @@
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1551.png?v=01186b15" loading="lazy"> | 1024 | [太乐巴戈斯（TERASTAL）](1551_太乐巴戈斯（TERASTAL）.md) | 一般 | 600 |
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1552.png?v=01186b15" loading="lazy"> | 1024 | [太乐巴戈斯（STELLAR）](1552_太乐巴戈斯（STELLAR）.md) | 一般 | 700 |
 | <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/1553.png?v=035e2029" loading="lazy"> | 1026 | [桃歹郎](1553_桃歹郎.md) | 毒/幽灵 | 600 |
-| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="sprites/0275.png?v=b70a3b87" loading="lazy"> | 1027 | [多边兽零式](0275_多边兽零式.md) | 一般 | 535 |
-| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="sprites/0260.png?v=a56cabf3" loading="lazy"> | — | [杰克霜精](0260_杰克霜精.md) | 冰/妖精 | 600 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0275.png?v=1283ee15" loading="lazy"> | 1027 | [多边兽零式](0275_多边兽零式.md) | 一般 | 535 |
+| <img class="pk-icon" width="32" height="32" style="image-rendering:pixelated" src="icons/0260.png?v=4a49c14d" loading="lazy"> | — | [杰克霜精](0260_杰克霜精.md) | 冰/妖精 | 600 |
