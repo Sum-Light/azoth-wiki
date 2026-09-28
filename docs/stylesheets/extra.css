@@ -1,16 +1,39 @@
-/* 宝可梦图鉴页面样式 */
+/* ===== 宝可梦水银百科 主题样式 (52poke 风格) ===== */
 
+/* -- 主题色变量 -- */
+:root {
+  --azoth-accent: #2a9d8f;          /* 水银青 */
+  --azoth-accent-dark: #1d7a6f;
+  --azoth-card-bg: rgba(42, 157, 143, .06);
+  --azoth-card-border: rgba(42, 157, 143, .25);
+}
+[data-md-color-scheme="slate"] {
+  --azoth-card-bg: rgba(42, 157, 143, .12);
+  --azoth-card-border: rgba(42, 157, 143, .4);
+}
+
+/* -- 图鉴页头部卡片 -- */
 .pk-head {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  margin-bottom: 1rem;
+  margin: .6rem 0 1.2rem;
+  padding: .8rem 1.2rem;
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
+  border-radius: .8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
 }
 
 .pk-sprite {
   width: 128px;
   height: 128px;
   image-rendering: pixelated;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, .25));
+  transition: transform .15s ease;
+}
+.pk-sprite:hover {
+  transform: scale(1.08);
 }
 
 .pk-head-types {
@@ -20,30 +43,37 @@
 
 .pk-type {
   display: inline-block;
-  padding: .15rem .7rem;
+  padding: .2rem .9rem;
   border-radius: 1rem;
   color: #fff;
   font-size: .8rem;
   font-weight: bold;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .2);
 }
 
+/* -- 种族值条形图 (官方配色) -- */
 .pk-stats {
-  max-width: 32rem;
+  max-width: 34rem;
+  padding: .8rem 1rem;
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
+  border-radius: .8rem;
 }
 
 .pk-stat {
   display: flex;
   align-items: center;
   gap: .6rem;
-  margin: .25rem 0;
+  margin: .3rem 0;
 }
 
 .pk-stat-name {
   width: 3rem;
   text-align: right;
   font-size: .75rem;
-  opacity: .75;
+  font-weight: bold;
+  opacity: .8;
 }
 
 .pk-stat-val {
@@ -55,8 +85,8 @@
 
 .pk-bar {
   flex: 1;
-  height: .55rem;
-  background: rgba(128, 128, 128, .2);
+  height: .6rem;
+  background: rgba(128, 128, 128, .18);
   border-radius: .3rem;
   overflow: hidden;
 }
@@ -65,16 +95,110 @@
   display: block;
   height: 100%;
   border-radius: .3rem;
-  background: linear-gradient(90deg, #4caf50, #8bc34a);
+  transition: width .3s ease;
 }
+.pk-bar-hp i  { background: linear-gradient(90deg, #ff5959, #ff8a80); }
+.pk-bar-atk i { background: linear-gradient(90deg, #f5ac78, #ffc093); }
+.pk-bar-def i { background: linear-gradient(90deg, #fae078, #ffe89b); }
+.pk-bar-spa i { background: linear-gradient(90deg, #9db7f5, #b4c9f8); }
+.pk-bar-spd i { background: linear-gradient(90deg, #a7db8d, #bde5a7); }
+.pk-bar-spe i { background: linear-gradient(90deg, #fa92b2, #ffb0c8); }
 
+.pk-stat-total {
+  margin-top: .45rem;
+  padding-top: .45rem;
+  border-top: 1px dashed var(--azoth-card-border);
+}
 .pk-stat-total .pk-stat-val {
-  color: #e62829;
+  color: var(--azoth-accent);
+  font-size: .95rem;
 }
 
+/* -- 表格美化 -- */
+.md-typeset table:not([class]) {
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .08);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset table:not([class]) th {
+  background: var(--azoth-accent);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+.md-typeset table:not([class]) tbody tr {
+  transition: background-color .1s ease;
+}
+.md-typeset table:not([class]) tbody tr:hover {
+  background: var(--azoth-card-bg);
+}
+
+/* 总表 sticky 表头 */
+.md-typeset__table table:not([class]) thead th {
+  position: sticky;
+  top: 3rem;
+  z-index: 1;
+  background: var(--azoth-accent);
+}
+
+/* -- 链接列表 (学习者/持有者) -- */
+.pk-learners {
+  padding: .8rem 1rem;
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
+  border-radius: .8rem;
+  line-height: 2;
+}
+.pk-learners a {
+  display: inline-block;
+  padding: 0 .5rem;
+  border-radius: .4rem;
+  transition: background-color .1s ease;
+}
+.pk-learners a:hover {
+  background: var(--azoth-card-border);
+}
+
+/* -- 图标 -- */
 .pk-icon {
-  width: 32px;
-  height: 32px;
-  image-rendering: pixelated;
   vertical-align: middle;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .2));
+}
+
+/* -- 首页卡片 -- */
+.azoth-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: .8rem;
+  margin: 1rem 0;
+}
+.azoth-card {
+  display: block;
+  padding: 1rem 1.2rem;
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
+  border-radius: .8rem;
+  text-decoration: none !important;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.azoth-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
+}
+.azoth-card strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: .3rem;
+  color: var(--azoth-accent);
+}
+.azoth-card span {
+  font-size: .8rem;
+  opacity: .8;
+}
+
+/* -- 章节标题 -- */
+.md-typeset h2 {
+  border-left: .25rem solid var(--azoth-accent);
+  padding-left: .6rem;
 }

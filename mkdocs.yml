@@ -5,7 +5,18 @@ theme:
   name: material
   language: zh
   palette:
-    primary: blue grey
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
   features:
     - navigation.instant
     - navigation.top

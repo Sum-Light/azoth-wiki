@@ -2,13 +2,13 @@
 
 欢迎来到**宝可梦水银**（Project Azoth）的资料站。本站数据由脚本直接从游戏 ROM 提取生成，与游戏版本保持一致。
 
-## 目录
-
-- [宝可梦图鉴](pokemon/index.md) — 种族值、特性、进化、升级招式等
-- [招式一览](moves/index.md) — 威力、命中、分类与描述
-- [特性一览](abilities/index.md) — 特性效果与持有者
-- [道具一览](items/index.md) — 价格、描述与野生携带反查
-- [地点分布](locations/index.md) — 各地点的野生宝可梦（分时段）
+<div class="azoth-cards">
+<a class="azoth-card" href="pokemon/"><strong>宝可梦图鉴</strong><span>1432 只 · 种族值 / 特性 / 进化 / 招式 / 分布</span></a>
+<a class="azoth-card" href="moves/"><strong>招式一览</strong><span>威力 / 命中 / 分类 / 描述 / 可学习宝可梦反查</span></a>
+<a class="azoth-card" href="abilities/"><strong>特性一览</strong><span>特性效果 / 持有者 / 动态特性说明</span></a>
+<a class="azoth-card" href="items/"><strong>道具一览</strong><span>价格 / 描述 / 野生携带反查</span></a>
+<a class="azoth-card" href="locations/"><strong>地点分布</strong><span>各地图野生宝可梦 · 分时段 / 方式</span></a>
+</div>
 
 ## 计划收录
 
