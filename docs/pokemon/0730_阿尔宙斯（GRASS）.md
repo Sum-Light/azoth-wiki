@@ -1,4 +1,4 @@
-# No.0730 阿尔宙斯（GRASS）
+# No.0493 阿尔宙斯（GRASS）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0730.png?v=8fe2bcd1" alt="阿尔宙斯（GRASS）">

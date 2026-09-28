@@ -1,4 +1,4 @@
-# No.1207 无极汰那（ETERNAMAX）
+# No.0890 无极汰那（ETERNAMAX）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1207.png?v=eda07580" alt="无极汰那（ETERNAMAX）">

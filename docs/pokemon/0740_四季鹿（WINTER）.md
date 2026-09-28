@@ -1,4 +1,4 @@
-# No.0740 四季鹿（WINTER）
+# No.0585 四季鹿（WINTER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0740.png?v=707d9bcb" alt="四季鹿（WINTER）">

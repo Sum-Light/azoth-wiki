@@ -1,4 +1,4 @@
-# No.0747 盖诺赛克特（SHOCK）
+# No.0649 盖诺赛克特（SHOCK）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0747.png?v=6ac93fbf" alt="盖诺赛克特（SHOCK）">

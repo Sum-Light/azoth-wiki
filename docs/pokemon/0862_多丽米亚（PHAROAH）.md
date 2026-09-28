@@ -1,4 +1,4 @@
-# No.0862 多丽米亚（PHAROAH）
+# No.0676 多丽米亚（PHAROAH）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0862.png?v=9d532292" alt="多丽米亚（PHAROAH）">

@@ -1,4 +1,4 @@
-# No.1096 皮卡丘（CAP UNOVA）
+# No.0025 皮卡丘（CAP UNOVA）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1096.png?v=7905d2ee" alt="皮卡丘（CAP UNOVA）">

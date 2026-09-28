@@ -1,4 +1,4 @@
-# No.1195 怖思壶（CHIPPED）
+# No.0855 怖思壶（CHIPPED）
 
 <div class="pk-head">
 <div class="pk-head-types">

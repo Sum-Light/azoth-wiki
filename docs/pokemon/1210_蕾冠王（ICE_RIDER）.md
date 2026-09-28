@@ -1,4 +1,4 @@
-# No.1210 蕾冠王（ICE RIDER）
+# No.0898 蕾冠王（ICE RIDER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1210.png?v=2ceff9ac" alt="蕾冠王（ICE RIDER）">

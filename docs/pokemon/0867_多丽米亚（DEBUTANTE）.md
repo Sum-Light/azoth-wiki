@@ -1,4 +1,4 @@
-# No.0867 多丽米亚（DEBUTANTE）
+# No.0676 多丽米亚（DEBUTANTE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0867.png?v=28596e12" alt="多丽米亚（DEBUTANTE）">

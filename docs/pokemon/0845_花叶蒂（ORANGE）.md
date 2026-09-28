@@ -1,4 +1,4 @@
-# No.0845 花叶蒂（ORANGE）
+# No.0670 花叶蒂（ORANGE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0845.png?v=e1b504be" alt="花叶蒂（ORANGE）">

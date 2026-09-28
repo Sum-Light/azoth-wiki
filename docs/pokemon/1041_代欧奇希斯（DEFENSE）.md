@@ -1,4 +1,4 @@
-# No.1041 代欧奇希斯（DEFENSE）
+# No.0386 代欧奇希斯（DEFENSE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1041.png?v=5ce7dc86" alt="代欧奇希斯（DEFENSE）">

@@ -1,4 +1,4 @@
-# No.0729 阿尔宙斯（WATER）
+# No.0493 阿尔宙斯（WATER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0729.png?v=e8a5576c" alt="阿尔宙斯（WATER）">

@@ -1,4 +1,4 @@
-# No.0925 彩粉蝶（HIGH PLAINS）
+# No.0666 彩粉蝶（HIGH PLAINS）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0925.png?v=e2856728" alt="彩粉蝶（HIGH PLAINS）">

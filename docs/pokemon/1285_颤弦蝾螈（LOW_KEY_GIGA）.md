@@ -1,4 +1,4 @@
-# No.1285 颤弦蝾螈（LOW KEY GIGA）
+# No.0849 颤弦蝾螈（LOW KEY GIGA）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1285.png?v=13d02aea" alt="颤弦蝾螈（LOW KEY GIGA）">

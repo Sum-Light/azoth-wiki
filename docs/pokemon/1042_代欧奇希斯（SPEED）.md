@@ -1,4 +1,4 @@
-# No.1042 代欧奇希斯（SPEED）
+# No.0386 代欧奇希斯（SPEED）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1042.png?v=14ad99f6" alt="代欧奇希斯（SPEED）">

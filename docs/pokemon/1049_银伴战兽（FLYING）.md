@@ -1,4 +1,4 @@
-# No.1049 银伴战兽（FLYING）
+# No.0773 银伴战兽（FLYING）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1049.png?v=d9b07f96" alt="银伴战兽（FLYING）">

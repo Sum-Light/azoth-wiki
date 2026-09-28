@@ -1,4 +1,4 @@
-# No.0738 四季鹿（SUMMER）
+# No.0585 四季鹿（SUMMER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0738.png?v=89094252" alt="四季鹿（SUMMER）">

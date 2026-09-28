@@ -1,4 +1,4 @@
-# No.1211 蕾冠王（SHADOW RIDER）
+# No.0898 蕾冠王（SHADOW RIDER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1211.png?v=cb73d2a8" alt="蕾冠王（SHADOW RIDER）">

@@ -1,4 +1,4 @@
-# No.0864 多丽米亚（LA REINE）
+# No.0676 多丽米亚（LA REINE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0864.png?v=fd8ad019" alt="多丽米亚（LA REINE）">

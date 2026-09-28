@@ -1,4 +1,4 @@
-# No.1087 皮卡丘（COSPLAY）
+# No.0025 皮卡丘（COSPLAY）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1087.png?v=b19c7a79" alt="皮卡丘（COSPLAY）">

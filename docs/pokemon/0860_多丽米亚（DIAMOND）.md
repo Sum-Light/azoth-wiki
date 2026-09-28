@@ -1,4 +1,4 @@
-# No.0860 多丽米亚（DIAMOND）
+# No.0676 多丽米亚（DIAMOND）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0860.png?v=920e7ff2" alt="多丽米亚（DIAMOND）">

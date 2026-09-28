@@ -1,4 +1,4 @@
-# No.1206 藏玛然特（CROWNED）
+# No.0889 藏玛然特（CROWNED）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1206.png?v=5a4e51a1" alt="藏玛然特（CROWNED）">

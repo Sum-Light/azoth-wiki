@@ -1,4 +1,4 @@
-# No.0923 彩粉蝶（ELEGANT）
+# No.0666 彩粉蝶（ELEGANT）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0923.png?v=d066fecf" alt="彩粉蝶（ELEGANT）">

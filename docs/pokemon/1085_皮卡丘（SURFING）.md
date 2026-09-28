@@ -1,4 +1,4 @@
-# No.1085 皮卡丘（SURFING）
+# No.0025 皮卡丘（SURFING）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1085.png?v=dc5b1fb0" alt="皮卡丘（SURFING）">

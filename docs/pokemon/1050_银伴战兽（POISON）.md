@@ -1,4 +1,4 @@
-# No.1050 银伴战兽（POISON）
+# No.0773 银伴战兽（POISON）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1050.png?v=89e85a78" alt="银伴战兽（POISON）">

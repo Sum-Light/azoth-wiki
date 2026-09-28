@@ -1,4 +1,4 @@
-# No.0838 基格尔德（COMPLETE）
+# No.0718 基格尔德（COMPLETE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0838.png?v=ff8a3f74" alt="基格尔德（COMPLETE）">

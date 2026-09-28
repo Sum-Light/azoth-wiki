@@ -1,4 +1,4 @@
-# No.0859 多丽米亚（HEART）
+# No.0676 多丽米亚（HEART）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0859.png?v=f239597f" alt="多丽米亚（HEART）">

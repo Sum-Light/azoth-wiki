@@ -1,4 +1,4 @@
-# No.0850 花洁夫人（ORANGE）
+# No.0671 花洁夫人（ORANGE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0850.png?v=c02ff37d" alt="花洁夫人（ORANGE）">

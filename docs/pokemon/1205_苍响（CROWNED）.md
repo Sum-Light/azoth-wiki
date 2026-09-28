@@ -1,4 +1,4 @@
-# No.1205 苍响（CROWNED）
+# No.0888 苍响（CROWNED）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1205.png?v=bd606a81" alt="苍响（CROWNED）">

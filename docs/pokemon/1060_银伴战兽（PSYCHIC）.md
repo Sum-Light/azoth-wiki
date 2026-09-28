@@ -1,4 +1,4 @@
-# No.1060 银伴战兽（PSYCHIC）
+# No.0773 银伴战兽（PSYCHIC）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1060.png?v=0ee142ea" alt="银伴战兽（PSYCHIC）">

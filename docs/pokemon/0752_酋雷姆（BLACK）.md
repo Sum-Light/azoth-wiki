@@ -1,4 +1,4 @@
-# No.0752 酋雷姆（BLACK）
+# No.0646 酋雷姆（BLACK）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0752.png?v=1cd767c2" alt="酋雷姆（BLACK）">

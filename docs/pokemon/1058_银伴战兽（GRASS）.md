@@ -1,4 +1,4 @@
-# No.1058 银伴战兽（GRASS）
+# No.0773 银伴战兽（GRASS）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1058.png?v=c3e4ce6c" alt="银伴战兽（GRASS）">

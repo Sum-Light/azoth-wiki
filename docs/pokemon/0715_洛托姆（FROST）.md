@@ -1,4 +1,4 @@
-# No.0715 洛托姆（FROST）
+# No.0479 洛托姆（FROST）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0715.png?v=51b820c4" alt="洛托姆（FROST）">

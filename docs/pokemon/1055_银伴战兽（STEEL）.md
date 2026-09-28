@@ -1,4 +1,4 @@
-# No.1055 银伴战兽（STEEL）
+# No.0773 银伴战兽（STEEL）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1055.png?v=0bb83e8b" alt="银伴战兽（STEEL）">

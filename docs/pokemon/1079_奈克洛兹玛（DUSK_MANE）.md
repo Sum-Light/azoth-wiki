@@ -1,4 +1,4 @@
-# No.1079 奈克洛兹玛（DUSK MANE）
+# No.0800 奈克洛兹玛（DUSK MANE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1079.png?v=a499ef93" alt="奈克洛兹玛（DUSK MANE）">

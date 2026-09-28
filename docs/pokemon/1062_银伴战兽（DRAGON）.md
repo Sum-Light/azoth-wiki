@@ -1,4 +1,4 @@
-# No.1062 银伴战兽（DRAGON）
+# No.0773 银伴战兽（DRAGON）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1062.png?v=705cab07" alt="银伴战兽（DRAGON）">

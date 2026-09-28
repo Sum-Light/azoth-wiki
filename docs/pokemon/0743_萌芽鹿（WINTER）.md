@@ -1,4 +1,4 @@
-# No.0743 萌芽鹿（WINTER）
+# No.0586 萌芽鹿（WINTER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0743.png?v=c37dcaaa" alt="萌芽鹿（WINTER）">

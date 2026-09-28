@@ -1,4 +1,4 @@
-# No.1090 皮卡丘（ROCK STAR）
+# No.0025 皮卡丘（ROCK STAR）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1090.png?v=9ce035e5" alt="皮卡丘（ROCK STAR）">

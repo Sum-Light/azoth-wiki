@@ -1,4 +1,4 @@
-# No.1059 银伴战兽（ELECTRIC）
+# No.0773 银伴战兽（ELECTRIC）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1059.png?v=7d8118ed" alt="银伴战兽（ELECTRIC）">

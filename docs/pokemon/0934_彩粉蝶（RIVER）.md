@@ -1,4 +1,4 @@
-# No.0934 彩粉蝶（RIVER）
+# No.0666 彩粉蝶（RIVER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0934.png?v=71e1e03e" alt="彩粉蝶（RIVER）">

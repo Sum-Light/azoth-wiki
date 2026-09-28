@@ -1,4 +1,4 @@
-# No.0731 阿尔宙斯（ELECTRIC）
+# No.0493 阿尔宙斯（ELECTRIC）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0731.png?v=843c6802" alt="阿尔宙斯（ELECTRIC）">

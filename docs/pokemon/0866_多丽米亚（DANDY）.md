@@ -1,4 +1,4 @@
-# No.0866 多丽米亚（DANDY）
+# No.0676 多丽米亚（DANDY）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0866.png?v=c0baa592" alt="多丽米亚（DANDY）">

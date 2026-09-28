@@ -1,4 +1,4 @@
-# No.0742 萌芽鹿（AUTUMN）
+# No.0586 萌芽鹿（AUTUMN）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0742.png?v=dae76fa9" alt="萌芽鹿（AUTUMN）">

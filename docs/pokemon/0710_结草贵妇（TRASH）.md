@@ -1,4 +1,4 @@
-# No.0710 结草贵妇（TRASH）
+# No.0413 结草贵妇（TRASH）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0710.png?v=430d1677" alt="结草贵妇（TRASH）">

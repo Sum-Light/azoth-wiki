@@ -1,4 +1,4 @@
-# No.0847 花叶蒂（WHITE）
+# No.0670 花叶蒂（WHITE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0847.png?v=27b9daed" alt="花叶蒂（WHITE）">

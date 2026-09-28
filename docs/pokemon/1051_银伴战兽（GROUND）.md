@@ -1,4 +1,4 @@
-# No.1051 银伴战兽（GROUND）
+# No.0773 银伴战兽（GROUND）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1051.png?v=7b2472d3" alt="银伴战兽（GROUND）">

@@ -1,4 +1,4 @@
-# No.1040 代欧奇希斯（ATTACK）
+# No.0386 代欧奇希斯（ATTACK）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1040.png?v=628ab55c" alt="代欧奇希斯（ATTACK）">

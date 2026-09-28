@@ -1,4 +1,4 @@
-# No.0739 四季鹿（AUTUMN）
+# No.0585 四季鹿（AUTUMN）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0739.png?v=0db5f06e" alt="四季鹿（AUTUMN）">

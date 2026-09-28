@@ -1,4 +1,4 @@
-# No.0863 多丽米亚（KABUKI）
+# No.0676 多丽米亚（KABUKI）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0863.png?v=24e3005d" alt="多丽米亚（KABUKI）">

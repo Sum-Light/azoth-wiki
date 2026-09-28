@@ -1,4 +1,4 @@
-# No.1089 皮卡丘（POP STAR）
+# No.0025 皮卡丘（POP STAR）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1089.png?v=cd4038f2" alt="皮卡丘（POP STAR）">

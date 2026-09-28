@@ -1,4 +1,4 @@
-# No.1202 冰砌鹅（NOICE）
+# No.0875 冰砌鹅（NOICE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1202.png?v=c590568e" alt="冰砌鹅（NOICE）">

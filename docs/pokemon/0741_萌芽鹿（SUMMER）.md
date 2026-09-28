@@ -1,4 +1,4 @@
-# No.0741 萌芽鹿（SUMMER）
+# No.0586 萌芽鹿（SUMMER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0741.png?v=209c7871" alt="萌芽鹿（SUMMER）">

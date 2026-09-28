@@ -1,4 +1,4 @@
-# No.1204 莫鲁贝可（HANGRY）
+# No.0877 莫鲁贝可（HANGRY）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1204.png?v=54178f84" alt="莫鲁贝可（HANGRY）">

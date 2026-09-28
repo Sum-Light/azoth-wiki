@@ -1,4 +1,4 @@
-# No.0846 花叶蒂（YELLOW）
+# No.0670 花叶蒂（YELLOW）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0846.png?v=5f99eb45" alt="花叶蒂（YELLOW）">

@@ -1,4 +1,4 @@
-# No.1064 银伴战兽（FAIRY）
+# No.0773 银伴战兽（FAIRY）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1064.png?v=e73b13e2" alt="银伴战兽（FAIRY）">

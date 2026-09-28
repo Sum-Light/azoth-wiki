@@ -1,4 +1,4 @@
-# No.1095 皮卡丘（CAP SINNOH）
+# No.0025 皮卡丘（CAP SINNOH）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1095.png?v=0905ba2a" alt="皮卡丘（CAP SINNOH）">

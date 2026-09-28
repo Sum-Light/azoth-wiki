@@ -1,4 +1,4 @@
-# No.0932 彩粉蝶（POKEBALL）
+# No.0666 彩粉蝶（POKEBALL）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0932.png?v=22e88259" alt="彩粉蝶（POKEBALL）">

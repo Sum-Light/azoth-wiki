@@ -1,4 +1,4 @@
-# No.0721 阿尔宙斯（FLYING）
+# No.0493 阿尔宙斯（FLYING）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0721.png?v=6fa2829a" alt="阿尔宙斯（FLYING）">

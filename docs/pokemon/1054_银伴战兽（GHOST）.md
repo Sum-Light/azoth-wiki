@@ -1,4 +1,4 @@
-# No.1054 银伴战兽（GHOST）
+# No.0773 银伴战兽（GHOST）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1054.png?v=a2bcda9f" alt="银伴战兽（GHOST）">

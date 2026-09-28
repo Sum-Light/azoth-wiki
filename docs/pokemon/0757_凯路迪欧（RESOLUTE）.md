@@ -1,4 +1,4 @@
-# No.0757 凯路迪欧（RESOLUTE）
+# No.0647 凯路迪欧（RESOLUTE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0757.png?v=0319c34e" alt="凯路迪欧（RESOLUTE）">

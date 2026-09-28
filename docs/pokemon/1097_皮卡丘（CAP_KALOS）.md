@@ -1,4 +1,4 @@
-# No.1097 皮卡丘（CAP KALOS）
+# No.0025 皮卡丘（CAP KALOS）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1097.png?v=2e12ad27" alt="皮卡丘（CAP KALOS）">

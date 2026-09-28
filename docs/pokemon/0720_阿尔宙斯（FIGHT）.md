@@ -1,4 +1,4 @@
-# No.0720 阿尔宙斯（FIGHT）
+# No.0493 阿尔宙斯（FIGHT）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0720.png?v=db03593c" alt="阿尔宙斯（FIGHT）">

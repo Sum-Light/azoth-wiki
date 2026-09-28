@@ -1,4 +1,4 @@
-# No.0931 彩粉蝶（OCEAN）
+# No.0666 彩粉蝶（OCEAN）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0931.png?v=4ab71e07" alt="彩粉蝶（OCEAN）">

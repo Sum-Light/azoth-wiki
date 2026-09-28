@@ -1,4 +1,4 @@
-# No.0842 花蓓蓓（YELLOW）
+# No.0669 花蓓蓓（YELLOW）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0842.png?v=dcf1575f" alt="花蓓蓓（YELLOW）">

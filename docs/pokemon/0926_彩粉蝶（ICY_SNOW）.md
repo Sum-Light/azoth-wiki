@@ -1,4 +1,4 @@
-# No.0926 彩粉蝶（ICY SNOW）
+# No.0666 彩粉蝶（ICY SNOW）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0926.png?v=85e0da96" alt="彩粉蝶（ICY SNOW）">

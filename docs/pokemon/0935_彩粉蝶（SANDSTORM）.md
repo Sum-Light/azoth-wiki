@@ -1,4 +1,4 @@
-# No.0935 彩粉蝶（SANDSTORM）
+# No.0666 彩粉蝶（SANDSTORM）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0935.png?v=aedea427" alt="彩粉蝶（SANDSTORM）">

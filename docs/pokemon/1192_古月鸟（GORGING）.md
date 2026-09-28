@@ -1,4 +1,4 @@
-# No.1192 古月鸟（GORGING）
+# No.0845 古月鸟（GORGING）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1192.png?v=99629a34" alt="古月鸟（GORGING）">

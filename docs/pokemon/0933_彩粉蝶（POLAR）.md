@@ -1,4 +1,4 @@
-# No.0933 彩粉蝶（POLAR）
+# No.0666 彩粉蝶（POLAR）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0933.png?v=d6d26292" alt="彩粉蝶（POLAR）">

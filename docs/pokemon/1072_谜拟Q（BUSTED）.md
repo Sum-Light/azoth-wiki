@@ -1,4 +1,4 @@
-# No.1072 谜拟Q（BUSTED）
+# No.0778 谜拟Q（BUSTED）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1072.png?v=84252b49" alt="谜拟Q（BUSTED）">

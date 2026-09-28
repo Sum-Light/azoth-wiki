@@ -1,4 +1,4 @@
-# No.1080 奈克洛兹玛（DAWN WINGS）
+# No.0800 奈克洛兹玛（DAWN WINGS）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1080.png?v=609e0485" alt="奈克洛兹玛（DAWN WINGS）">

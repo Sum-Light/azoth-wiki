@@ -1,4 +1,4 @@
-# No.0852 花洁夫人（WHITE）
+# No.0671 花洁夫人（WHITE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0852.png?v=e3840b23" alt="花洁夫人（WHITE）">

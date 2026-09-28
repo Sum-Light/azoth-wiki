@@ -1,4 +1,4 @@
-# No.0750 盖诺赛克特（DOUSE）
+# No.0649 盖诺赛克特（DOUSE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0750.png?v=f408ce62" alt="盖诺赛克特（DOUSE）">

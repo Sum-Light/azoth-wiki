@@ -1,4 +1,4 @@
-# No.0910 盖欧卡（PRIMAL）
+# No.0382 盖欧卡（PRIMAL）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0910.png?v=f635a8ac" alt="盖欧卡（PRIMAL）">

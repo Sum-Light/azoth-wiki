@@ -1,4 +1,4 @@
-# No.0909 固拉多（PRIMAL）
+# No.0383 固拉多（PRIMAL）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0909.png?v=8aba3a14" alt="固拉多（PRIMAL）">

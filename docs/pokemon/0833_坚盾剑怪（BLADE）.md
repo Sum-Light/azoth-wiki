@@ -1,4 +1,4 @@
-# No.0833 坚盾剑怪（BLADE）
+# No.0681 坚盾剑怪（BLADE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0833.png?v=20df164c" alt="坚盾剑怪（BLADE）">

@@ -1,4 +1,4 @@
-# No.0921 彩粉蝶（ARCHIPELAGO）
+# No.0666 彩粉蝶（ARCHIPELAGO）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0921.png?v=ccc58850" alt="彩粉蝶（ARCHIPELAGO）">

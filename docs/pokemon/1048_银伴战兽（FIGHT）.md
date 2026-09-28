@@ -1,4 +1,4 @@
-# No.1048 银伴战兽（FIGHT）
+# No.0773 银伴战兽（FIGHT）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1048.png?v=c1c98751" alt="银伴战兽（FIGHT）">

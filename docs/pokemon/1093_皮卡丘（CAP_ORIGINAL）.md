@@ -1,4 +1,4 @@
-# No.1093 皮卡丘（CAP ORIGINAL）
+# No.0025 皮卡丘（CAP ORIGINAL）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1093.png?v=77d1832a" alt="皮卡丘（CAP ORIGINAL）">

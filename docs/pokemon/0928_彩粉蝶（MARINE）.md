@@ -1,4 +1,4 @@
-# No.0928 彩粉蝶（MARINE）
+# No.0666 彩粉蝶（MARINE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0928.png?v=ac447186" alt="彩粉蝶（MARINE）">

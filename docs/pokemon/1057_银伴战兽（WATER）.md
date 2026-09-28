@@ -1,4 +1,4 @@
-# No.1057 银伴战兽（WATER）
+# No.0773 银伴战兽（WATER）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1057.png?v=e41d8fc6" alt="银伴战兽（WATER）">

@@ -1,4 +1,4 @@
-# No.0726 阿尔宙斯（GHOST）
+# No.0493 阿尔宙斯（GHOST）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0726.png?v=b79554ec" alt="阿尔宙斯（GHOST）">

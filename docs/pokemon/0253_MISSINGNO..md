@@ -1,4 +1,4 @@
-# No.0253 MISSINGNO.
+# （编外） MISSINGNO.
 
 <div class="pk-head">
 <div class="pk-head-types">

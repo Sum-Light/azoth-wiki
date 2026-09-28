@@ -1,4 +1,4 @@
-# No.0922 彩粉蝶（CONTINENTAL）
+# No.0666 彩粉蝶（CONTINENTAL）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0922.png?v=a0810a45" alt="彩粉蝶（CONTINENTAL）">

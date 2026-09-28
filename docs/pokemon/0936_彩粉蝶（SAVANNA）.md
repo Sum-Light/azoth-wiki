@@ -1,4 +1,4 @@
-# No.0936 彩粉蝶（SAVANNA）
+# No.0666 彩粉蝶（SAVANNA）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0936.png?v=68c69959" alt="彩粉蝶（SAVANNA）">

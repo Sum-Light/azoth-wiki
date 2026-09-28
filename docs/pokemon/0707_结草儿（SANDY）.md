@@ -1,4 +1,4 @@
-# No.0707 结草儿（SANDY）
+# No.0412 结草儿（SANDY）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0707.png?v=0d152626" alt="结草儿（SANDY）">

@@ -1,4 +1,4 @@
-# No.1081 奈克洛兹玛（ULTRA）
+# No.0800 奈克洛兹玛（ULTRA）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1081.png?v=587d1972" alt="奈克洛兹玛（ULTRA）">

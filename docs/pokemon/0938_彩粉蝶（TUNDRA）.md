@@ -1,4 +1,4 @@
-# No.0938 彩粉蝶（TUNDRA）
+# No.0666 彩粉蝶（TUNDRA）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0938.png?v=5e04165d" alt="彩粉蝶（TUNDRA）">

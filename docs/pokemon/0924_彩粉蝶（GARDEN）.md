@@ -1,4 +1,4 @@
-# No.0924 彩粉蝶（GARDEN）
+# No.0666 彩粉蝶（GARDEN）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0924.png?v=c118f684" alt="彩粉蝶（GARDEN）">

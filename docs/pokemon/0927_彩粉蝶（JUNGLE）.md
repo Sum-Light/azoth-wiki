@@ -1,4 +1,4 @@
-# No.0927 彩粉蝶（JUNGLE）
+# No.0666 彩粉蝶（JUNGLE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0927.png?v=8f4df84e" alt="彩粉蝶（JUNGLE）">

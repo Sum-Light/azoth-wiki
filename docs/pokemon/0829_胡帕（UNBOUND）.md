@@ -1,4 +1,4 @@
-# No.0829 胡帕（UNBOUND）
+# No.0720 胡帕（UNBOUND）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0829.png?v=14aa1038" alt="胡帕（UNBOUND）">

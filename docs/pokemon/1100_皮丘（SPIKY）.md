@@ -1,4 +1,4 @@
-# No.1100 皮丘（SPIKY）
+# No.0172 皮丘（SPIKY）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1100.png?v=9b15cfef" alt="皮丘（SPIKY）">

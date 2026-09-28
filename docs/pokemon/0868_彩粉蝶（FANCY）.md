@@ -1,4 +1,4 @@
-# No.0868 彩粉蝶（FANCY）
+# No.0666 彩粉蝶（FANCY）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0868.png?v=f3748e71" alt="彩粉蝶（FANCY）">

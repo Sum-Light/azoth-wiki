@@ -1,4 +1,4 @@
-# No.0727 阿尔宙斯（STEEL）
+# No.0493 阿尔宙斯（STEEL）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0727.png?v=cf6cc82f" alt="阿尔宙斯（STEEL）">

@@ -1,4 +1,4 @@
-# No.1098 皮卡丘（CAP ALOLA）
+# No.0025 皮卡丘（CAP ALOLA）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1098.png?v=03f2b4ef" alt="皮卡丘（CAP ALOLA）">

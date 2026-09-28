@@ -1,4 +1,4 @@
-# No.0734 阿尔宙斯（DRAGON）
+# No.0493 阿尔宙斯（DRAGON）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0734.png?v=3ac97a31" alt="阿尔宙斯（DRAGON）">

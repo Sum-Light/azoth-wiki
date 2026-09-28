@@ -1,4 +1,4 @@
-# No.0841 花蓓蓓（ORANGE）
+# No.0669 花蓓蓓（ORANGE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/0841.png?v=2c26c3b2" alt="花蓓蓓（ORANGE）">

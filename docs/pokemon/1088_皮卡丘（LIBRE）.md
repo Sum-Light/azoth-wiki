@@ -1,4 +1,4 @@
-# No.1088 皮卡丘（LIBRE）
+# No.0025 皮卡丘（LIBRE）
 
 <div class="pk-head">
 <img class="pk-sprite" src="../sprites/1088.png?v=58f8015e" alt="皮卡丘（LIBRE）">
