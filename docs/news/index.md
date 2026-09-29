@@ -36,6 +36,16 @@
 
 本次发布包含：
 
+- 完整的一周目主线剧情
+- 对战塔
+- 97个支线任务
+- 截止第九世代的宝可梦（朱/紫）
+- 《宝可梦传说 Z-A》新增的超级进化宝可梦（一周目无法获得全部宝可梦）
+- 技能池同步至第九世代（朱紫/ZA）（一周目无法全部获得，同上）
+- 类似《宝可梦传说 Z-A》的Mega机制（游戏中可选）
+- 跟随、同步器、明雷（游戏中可选）
+- 华丽大赛、秘密基地等旁支玩法
+
 <div class="news-gallery">
 <figure><img src="images/fc_synchronizer.gif" alt="同步器"><figcaption>同步器</figcaption></figure>
 <figure><img src="images/fc_dexnav.gif" alt="地图捕捉"><figcaption>地图捕捉</figcaption></figure>
@@ -44,6 +54,15 @@
 <figure><img src="images/fc_demo1.gif" alt="实机演示"><figcaption>实机演示</figcaption></figure>
 <figure><img src="images/fc_demo2.gif" alt="实机演示"><figcaption>实机演示</figcaption></figure>
 </div>
+
+### 下载
+
+| 渠道 | 链接 |
+|---|---|
+| 百度网盘 | [宝可梦水银FC~致150年后的你 Version 1.0.gba](https://pan.baidu.com/s/1PLIvP_928jurJZEAcOrNYw?pwd=c7et)（提取码: `c7et`） |
+| 蓝奏云 | [下载](https://wwapo.lanzouv.com/ijd7e4a6cxja)（密码: `b27i`） |
+
+**交流群**：1群 `534774534` · 2群 `300578495` · 测试群 `435803246` · 口袋改版资源吧官方群 `1091812268`
 
 ### 游玩须知
 
@@ -92,7 +111,7 @@
 
 我们在本作的音乐编排上倾注了大量的心血，请各位玩家尽情享受旅途中的音乐！
 
-??? note "相关名单（展开）"
+!!! note "相关名单"
     **作者**：埋葬_official（夏影）
 
     **制作协力**（排名不分先后）
