@@ -29,9 +29,28 @@
 
 ## 进化
 
-| 条件 | 进化后 |
-|---|---|
-| 当前版本不支持 | [来悲粗茶（MASTERPIECE）](1532_来悲粗茶（MASTERPIECE）.md) |
+<div class="pk-evo">
+<div class="evo-stage-col">
+<div class="evo-member evo-cur">
+<div class="evo-circle"><img class="evo-sprite" src="../sprites/1530.png?v=fa7861c2" alt="斯魔茶（ARTISAN）"></div>
+<div class="evo-stage">未进化</div>
+<a class="evo-name" href="1530_斯魔茶（ARTISAN）.md">斯魔茶（ARTISAN）</a>
+<div class="evo-types"><span class="pk-type" style="background:#3FA129">草</span>
+<span class="pk-type" style="background:#704170">幽灵</span></div>
+</div>
+</div>
+<div class="evo-arrow">→</div>
+<div class="evo-stage-col">
+<div class="evo-member">
+<div class="evo-cond">当前版本不支持</div>
+<div class="evo-circle"><img class="evo-sprite" src="../sprites/1532.png?v=63bd0488" alt="来悲粗茶（MASTERPIECE）"></div>
+<div class="evo-stage">1阶进化</div>
+<a class="evo-name" href="1532_来悲粗茶（MASTERPIECE）.md">来悲粗茶（MASTERPIECE）</a>
+<div class="evo-types"><span class="pk-type" style="background:#3FA129">草</span>
+<span class="pk-type" style="background:#704170">幽灵</span></div>
+</div>
+</div>
+</div>
 
 ## 升级招式
 

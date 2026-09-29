@@ -307,6 +307,99 @@
   border-radius: .4rem;
 }
 
+/* -- 进化链 (神百风格) -- */
+.pk-evo {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: .6rem 0;
+  background: linear-gradient(135deg, #b7d332, #9dbc2a);
+  border-radius: .8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+}
+.evo-stage-col {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+.evo-arrow {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .45);
+  flex-shrink: 0;
+}
+.evo-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 110px;
+  padding: .5rem .6rem .6rem;
+  border-radius: .7rem;
+  background: rgba(255, 255, 255, .18);
+}
+.evo-member.evo-cur {
+  background: rgba(255, 255, 255, .45);
+  outline: 2px solid #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+}
+.evo-circle {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .3rem;
+}
+.evo-sprite {
+  width: 80px;
+  height: 80px;
+  image-rendering: pixelated;
+}
+.evo-cond {
+  font-size: .72rem;
+  font-weight: bold;
+  color: #3d4d00;
+  background: rgba(255, 255, 255, .55);
+  border-radius: .5rem;
+  padding: .1rem .5rem;
+  margin-bottom: .3rem;
+  text-align: center;
+}
+.evo-stage {
+  font-size: .72rem;
+  color: rgba(0, 0, 0, .55);
+}
+.evo-name {
+  font-weight: bold;
+  font-size: .9rem;
+  color: #2b3800 !important;
+  background: rgba(255, 255, 255, .5);
+  border-radius: .5rem;
+  padding: 0 .6rem;
+  margin: .15rem 0;
+}
+.evo-types {
+  display: flex;
+  gap: .25rem;
+  margin-top: .15rem;
+}
+.evo-types .pk-type {
+  font-size: .68rem;
+  padding: .1rem .55rem;
+}
+@media (max-width: 720px) {
+  .pk-evo {
+    justify-content: center;
+  }
+  .evo-arrow {
+    transform: rotate(90deg);
+  }
+}
+
 /* -- 章节标题 -- */
 .md-typeset h2 {
   border-left: .25rem solid var(--azoth-accent);
