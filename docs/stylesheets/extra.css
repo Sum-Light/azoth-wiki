@@ -307,52 +307,60 @@
   border-radius: .4rem;
 }
 
-/* -- 进化链 (神百风格) -- */
+/* -- 进化链 (神百风格, 主题色) -- */
 .pk-evo {
   display: flex;
   align-items: center;
-  gap: .5rem;
+  justify-content: center;
+  gap: .6rem;
   flex-wrap: wrap;
   padding: 1rem;
   margin: .6rem 0;
-  background: linear-gradient(135deg, #b7d332, #9dbc2a);
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
   border-radius: .8rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
 }
 .evo-stage-col {
   display: flex;
-  flex-direction: column;
-  gap: .8rem;
+  gap: .6rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .evo-arrow {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  color: rgba(0, 0, 0, .45);
+  color: var(--azoth-accent);
   flex-shrink: 0;
+  opacity: .7;
 }
 .evo-member {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 110px;
-  padding: .5rem .6rem .6rem;
+  min-width: 112px;
+  padding: .55rem .6rem .6rem;
   border-radius: .7rem;
-  background: rgba(255, 255, 255, .18);
+  background: rgba(128, 128, 128, .1);
+  border: 1px solid transparent;
 }
 .evo-member.evo-cur {
-  background: rgba(255, 255, 255, .45);
-  outline: 2px solid #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  background: var(--azoth-card-bg);
+  border-color: var(--azoth-accent);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .12);
 }
 .evo-circle {
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, .55);
+  background: rgba(255, 255, 255, .7);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: .3rem;
+}
+[data-md-color-scheme="slate"] .evo-circle {
+  background: rgba(255, 255, 255, .15);
 }
 .evo-sprite {
   width: 80px;
@@ -362,22 +370,27 @@
 .evo-cond {
   font-size: .72rem;
   font-weight: bold;
-  color: #3d4d00;
-  background: rgba(255, 255, 255, .55);
+  color: var(--azoth-accent-dark);
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
   border-radius: .5rem;
   padding: .1rem .5rem;
   margin-bottom: .3rem;
   text-align: center;
 }
+[data-md-color-scheme="slate"] .evo-cond {
+  color: #7fd8cb;
+}
 .evo-stage {
   font-size: .72rem;
-  color: rgba(0, 0, 0, .55);
+  opacity: .65;
 }
 .evo-name {
   font-weight: bold;
   font-size: .9rem;
-  color: #2b3800 !important;
-  background: rgba(255, 255, 255, .5);
+  color: var(--azoth-accent) !important;
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
   border-radius: .5rem;
   padding: 0 .6rem;
   margin: .15rem 0;
@@ -392,9 +405,6 @@
   padding: .1rem .55rem;
 }
 @media (max-width: 720px) {
-  .pk-evo {
-    justify-content: center;
-  }
   .evo-arrow {
     transform: rotate(90deg);
   }
