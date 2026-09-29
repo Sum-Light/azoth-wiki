@@ -31,7 +31,7 @@
 
 | 条件 | 进化后 |
 |---|---|
-| 使用 大师球 | [来悲粗茶（MASTERPIECE）](1532_来悲粗茶（MASTERPIECE）.md) |
+| 当前版本不支持 | [来悲粗茶（MASTERPIECE）](1532_来悲粗茶（MASTERPIECE）.md) |
 
 ## 升级招式
 
