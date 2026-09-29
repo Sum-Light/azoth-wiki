@@ -363,8 +363,8 @@
   background: rgba(255, 255, 255, .15);
 }
 .evo-sprite {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   image-rendering: pixelated;
 }
 .evo-cond {
