@@ -19,29 +19,7 @@
 <div class="dist-body">
 <strong>竹兰的圆陆鲨　圆陆鲨 Lv.5 ♂</strong>
 <div class="dist-meta">特性：粗糙皮肤（梦特） · 性格：固执 · 个体：6V · 球种：高级球 · 初训家：竹兰</div>
-<div class="dist-moves">龙之舞、咬住、-、-</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbEAAAAAAAAAAAAAAAAA____vw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbEAAAAAAAAAAAAAAAAA____vw</code></details>
-</div></div>
-
-<div class="dist-card">
-<div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/0496.png" alt="圆陆鲨"><img class="dist-icon" src="../pokemon/icons/0496.png" alt="">
-</div>
-<div class="dist-body">
-<strong>竹兰的圆陆鲨　圆陆鲨 Lv.5 ♂</strong>
-<div class="dist-meta">特性：粗糙皮肤（梦特） · 性格：固执 · 个体：6V · 球种：高级球 · 初训家：竹兰</div>
-<div class="dist-moves">龙之舞、咬住、-、-</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbEAAAAAAAAAAAAAAAAA____vw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbEAAAAAAAAAAAAAAAAA____vw</code></details>
-</div></div>
-
-<div class="dist-card">
-<div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/0496.png" alt="圆陆鲨"><img class="dist-icon" src="../pokemon/icons/0496.png" alt="">
-</div>
-<div class="dist-body">
-<strong>竹兰的圆陆鲨　圆陆鲨 Lv.5 ♂</strong>
-<div class="dist-meta">特性：粗糙皮肤（梦特） · 性格：固执 · 个体：6V · 球种：高级球 · 初训家：竹兰</div>
-<div class="dist-moves">龙之舞、咬住、-、-</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbEAAAAAAAAAAAAAAAAA____vw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbEAAAAAAAAAAAAAAAAA____vw</code></details>
+<div class="dist-moves">龙之舞、咬住、抓、拍击</div>
+<a class="dist-claim" href="../home/app.html?key=PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbGgQAAAAAAAAAAAAAAA____vw">领取</a>
+<details class="dist-key"><summary>手动密钥</summary><code>PMH1.gAAAAAEAAAD_____________AAAQwggx_wAAAPABAACGAAAAADIBXbGgQAAAAAAAAAAAAAAA____vw</code></details>
 </div></div>
