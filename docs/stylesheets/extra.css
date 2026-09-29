@@ -279,6 +279,33 @@
   padding-bottom: .6rem;
   border-bottom: 1px dashed var(--azoth-card-border);
 }
+.news-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: .8rem;
+  margin: 1rem 0;
+}
+.news-gallery figure {
+  margin: 0;
+  background: var(--azoth-card-bg);
+  border: 1px solid var(--azoth-card-border);
+  border-radius: .6rem;
+  overflow: hidden;
+  text-align: center;
+}
+.news-gallery img {
+  width: 100%;
+  display: block;
+  image-rendering: pixelated;
+}
+.news-gallery figcaption {
+  font-size: .8rem;
+  padding: .4rem;
+  opacity: .8;
+}
+.md-typeset img {
+  border-radius: .4rem;
+}
 
 /* -- 章节标题 -- */
 .md-typeset h2 {

@@ -32,6 +32,19 @@
 
 《宝可梦 水银》是以《宝可梦 火红》为蓝本、基于 CFRU（Complete Fire Red Upgrade）引擎开发的 GBA 中文改版，剧情与内容则是基于《宝可梦 金/银/水晶》及《宝可梦 心金/魂银》（GSC/HGSS）二次创作。
 
+![《宝可梦 水银》实机画面](images/fc_banner.png)
+
+本次发布包含：
+
+<div class="news-gallery">
+<figure><img src="images/fc_synchronizer.gif" alt="同步器"><figcaption>同步器</figcaption></figure>
+<figure><img src="images/fc_dexnav.gif" alt="地图捕捉"><figcaption>地图捕捉</figcaption></figure>
+<figure><img src="images/fc_contest.gif" alt="华丽大赛"><figcaption>华丽大赛</figcaption></figure>
+<figure><img src="images/fc_gear.gif" alt="精灵齿轮"><figcaption>精灵齿轮</figcaption></figure>
+<figure><img src="images/fc_demo1.gif" alt="实机演示"><figcaption>实机演示</figcaption></figure>
+<figure><img src="images/fc_demo2.gif" alt="实机演示"><figcaption>实机演示</figcaption></figure>
+</div>
+
 ### 游玩须知
 
 **一、关于游戏性质与设定底线**
