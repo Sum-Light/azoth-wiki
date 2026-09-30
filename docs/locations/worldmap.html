@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分布地图 · 宝可梦水银百科</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Microsoft YaHei", system-ui, sans-serif; background: #0f1a1c; color: #e8f4f2; }
+  header { display: flex; align-items: center; gap: 14px; padding: 10px 18px; background: #14333a; border-bottom: 2px solid #2a9d8f; }
+  header h1 { font-size: 18px; margin: 0; color: #7fd8cb; font-weight: 700; }
+  header a { color: #9ecfc7; font-size: 13px; text-decoration: none; }
+  header .sp { flex: 1; }
+  .btn { background: #2a9d8f; color: #fff; border: 0; border-radius: 8px; padding: 6px 14px; font-size: 13px; font-weight: 700; cursor: pointer; }
+  .btn.ghost { background: transparent; border: 1px solid #2a9d8f; color: #7fd8cb; }
+  main { display: flex; height: calc(100vh - 47px); }
+  #mapWrap { flex: 1; overflow: auto; position: relative; background: #173f4a; }
+  #stage { position: relative; display: inline-block; line-height: 0; user-select: none; }
+  #stage img.base { display: block; max-width: none; }
+  .cell { position: absolute; border-radius: 4px; cursor: pointer; transition: background .12s, box-shadow .12s; }
+  .cell:hover { background: rgba(127, 216, 203, .35); box-shadow: 0 0 0 2px #7fd8cb inset; z-index: 3; }
+  .cell.sel { background: rgba(230, 57, 70, .3); box-shadow: 0 0 0 2px #e63946 inset; z-index: 3; }
+  .cell.outline { box-shadow: 0 0 0 1px rgba(255,255,255,.5) inset; }
+  #panel { width: 380px; min-width: 320px; background: #122a30; border-left: 1px solid #1d4a52; display: flex; flex-direction: column; }
+  #panelHead { padding: 14px 16px 10px; border-bottom: 1px solid #1d4a52; }
+  #panelHead h2 { margin: 0; font-size: 17px; color: #7fd8cb; }
+  #panelHead .sub { font-size: 12px; color: #8fb8b2; margin-top: 4px; }
+  #panelBody { flex: 1; overflow-y: auto; padding: 10px 14px; }
+  .mapcard { background: #163840; border: 1px solid #1d4a52; border-radius: 10px; padding: 8px 10px; margin-bottom: 10px; }
+  .mapcard h3 { margin: 0 0 6px; font-size: 14px; display: flex; justify-content: space-between; align-items: center; }
+  .mapcard h3 a { color: #7fd8cb; font-size: 12px; font-weight: 400; }
+  .mon { display: inline-flex; align-items: center; gap: 4px; background: rgba(127,216,203,.08); border-radius: 6px; padding: 2px 6px 2px 2px; margin: 2px; font-size: 12px; }
+  .mon img { width: 28px; height: 28px; image-rendering: pixelated; }
+  .mon .r { color: #ffd166; font-weight: 700; }
+  .mon .lv { color: #8fb8b2; }
+  .tag { display: inline-block; font-size: 11px; background: #1d7a6f; color: #d9f4ef; border-radius: 6px; padding: 1px 7px; margin-right: 4px; }
+  .hint { color: #8fb8b2; font-size: 13px; padding: 18px 6px; text-align: center; }
+  #calib { display: none; padding: 8px 14px; border-top: 1px solid #1d4a52; font-size: 12px; }
+  #calib.open { display: block; }
+  #calib label { color: #8fb8b2; margin-right: 6px; }
+  #calib select, #calib input { background: #0f1a1c; color: #e8f4f2; border: 1px solid #2a9d8f; border-radius: 6px; padding: 2px 6px; width: 64px; }
+  #calib button { margin: 2px; }
+  @media (max-width: 860px) {
+    main { flex-direction: column; }
+    #panel { width: 100%; border-left: 0; border-top: 1px solid #1d4a52; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>分布地图</h1>
+  <a href="./">← 地点分布</a>
+  <a href="../">百科首页</a>
+  <span class="sp"></span>
+  <button class="btn ghost" id="calibBtn">校准模式</button>
+</header>
+<main>
+  <div id="mapWrap"><div id="stage"></div></div>
+  <aside id="panel">
+    <div id="panelHead"><h2 id="pTitle">点击地图区块</h2><div class="sub" id="pSub">悬停可预览区域名，点击查看分布</div></div>
+    <div id="panelBody"><div class="hint">移动鼠标到地图上，带遭遇的区域会高亮</div></div>
+    <div id="calib">
+      <label>图层 <select id="calLayer"></select></label>
+      <label>X <input id="calX" step="0.5"></label>
+      <label>Y <input id="calY" step="0.5"></label>
+      <label>W <input id="calW" step="0.5"></label>
+      <label>H <input id="calH" step="0.5"></label>
+      <button class="btn" id="calApply">应用</button>
+      <button class="btn ghost" id="calCopy">复制参数</button>
+    </div>
+  </aside>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+// ===== 校准参数 (可在校准模式里调整后复制回这里) =====
+const CONFIG = {
+  johto_w: { x: 9.0, y: 1.4, w: 82.0, h: 28.3 },
+  johto_c: { x: 9.0, y: 1.4, w: 82.0, h: 28.3 },
+  johto_e: { x: 9.0, y: 1.4, w: 82.0, h: 28.3 },
+  kanto:   { x: 0.0, y: 51.4, w: 50.3, h: 28.3 },
+};
+const LAYER_NAMES = { johto_w: "城都·西", johto_c: "城都·中", johto_e: "城都·东", kanto: "关都" };
+const GRID_W = 22, GRID_H = 15;
+let DATA = null, selected = null, calibOn = false;
+
+fetch("worldmap_data.json").then(r => r.json()).then(d => { DATA = d; build(); });
+
+function build() {
+  const stage = $("stage");
+  stage.innerHTML = "";
+  const img = document.createElement("img");
+  img.className = "base";
+  img.src = "worldmap.png";
+  img.style.width = "100%";
+  img.draggable = false;
+  stage.appendChild(img);
+  for (const key of Object.keys(DATA.grids)) renderLayer(key);
+  // 宽度自适应
+  const fit = () => { img.style.width = $("mapWrap").clientWidth - 0 + "px"; };
+  fit();
+}
+
+function renderLayer(key) {
+  const stage = $("stage");
+  const cfg = CONFIG[key];
+  const cellW = cfg.w / GRID_W, cellH = cfg.h / GRID_H;
+  for (const r of DATA.grids[key]) {
+    const d = document.createElement("div");
+    d.className = "cell" + (calibOn ? " outline" : "");
+    d.dataset.layer = key;
+    d.dataset.mapsec = r.mapsec;
+    d.style.left = (cfg.x + r.x * cellW) + "%";
+    d.style.top = (cfg.y + r.y * cellH) + "%";
+    d.style.width = (r.w * cellW) + "%";
+    d.style.height = (r.h * cellH) + "%";
+    d.onmouseenter = () => hover(r.mapsec, d);
+    d.onclick = () => select(r.mapsec, d);
+    stage.appendChild(d);
+  }
+}
+
+function secName(sec) {
+  return DATA.secNames[String(sec)] || "区域 " + sec;
+}
+
+function mapsOf(sec) {
+  return Object.values(DATA.maps).filter(m => m.sec === sec);
+}
+
+function hover(sec, el) {
+  if (selected) return;
+  $("pTitle").textContent = secName(sec);
+  const n = mapsOf(sec).length;
+  $("pSub").textContent = n ? `${n} 张地图 · 点击查看分布` : "该处没有遭遇数据";
+}
+
+function select(sec, el) {
+  if (selected === el) { clearSel(); return; }
+  clearSel();
+  selected = el;
+  el.classList.add("sel");
+  const name = secName(sec);
+  const maps = mapsOf(sec).sort((a, b) => a.name.localeCompare(b.name, "zh"));
+  $("pTitle").textContent = name;
+  $("pSub").textContent = `${maps.length} 张地图 · 再点一次取消`;
+  const body = $("panelBody");
+  body.innerHTML = "";
+  if (!maps.length) {
+    body.innerHTML = '<div class="hint">该处没有遭遇数据</div>';
+    return;
+  }
+  for (const m of maps) {
+    const card = document.createElement("div");
+    card.className = "mapcard";
+    const groups = {};
+    for (const r of m.rows) {
+      const k = r.m + " · " + r.t;
+      (groups[k] = groups[k] || []).push(r);
+    }
+    let html = `<h3>${m.name} <a href="map_${m.g}_${m.n}.md">完整页 →</a></h3>`;
+    for (const k of Object.keys(groups)) {
+      html += `<div><span class="tag">${k}</span></div><div>`;
+      for (const r of groups[k].sort((a, b) => (b.r || 0) - (a.r || 0))) {
+        const lv = r.lo === r.hi ? r.lo : `${r.lo}-${r.hi}`;
+        html += `<span class="mon"><img src="../pokemon/icons/${String(r.s).padStart(4, "0")}.png" loading="lazy" onerror="this.style.display='none'">${r.n} <span class="r">${r.r == null ? "?" : r.r + "%"}</span> <span class="lv">Lv.${lv}</span></span>`;
+      }
+      html += "</div>";
+    }
+    card.innerHTML = html;
+    body.appendChild(card);
+  }
+}
+
+function clearSel() {
+  if (selected) selected.classList.remove("sel");
+  selected = null;
+}
+
+// ===== 校准模式 =====
+$("calibBtn").onclick = () => {
+  calibOn = !calibOn;
+  $("calib").classList.toggle("open", calibOn);
+  build();
+};
+function fillCalib() {
+  const sel = $("calLayer");
+  sel.innerHTML = Object.keys(CONFIG).map(k => `<option value="${k}">${LAYER_NAMES[k]}</option>`).join("");
+  sel.value = "johto_w";
+  const load = () => {
+    const c = CONFIG[sel.value];
+    $("calX").value = c.x; $("calY").value = c.y; $("calW").value = c.w; $("calH").value = c.h;
+  };
+  sel.onchange = load;
+  load();
+}
+$("calApply").onclick = () => {
+  const k = $("calLayer").value;
+  CONFIG[k] = {
+    x: parseFloat($("calX").value), y: parseFloat($("calY").value),
+    w: parseFloat($("calW").value), h: parseFloat($("calH").value),
+  };
+  build();
+};
+$("calCopy").onclick = async () => {
+  const txt = "const CONFIG = " + JSON.stringify(CONFIG, null, 2) + ";";
+  await navigator.clipboard.writeText(txt);
+  $("calCopy").textContent = "已复制!";
+  setTimeout(() => $("calCopy").textContent = "复制参数", 1500);
+};
+fillCalib();
+</script>
+</body>
+</html>
