@@ -31,8 +31,8 @@
 <strong>壮壮妈　呆火鳄 Lv.5 ♂</strong>
 <div class="dist-meta">特性：猛火 · 性格：内敛 · 个体：6V · 球种：梦境球 · 初训家：埋葬</div>
 <div class="dist-moves">撞击、瞪眼、火花</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.KAAAADHUAAAC1AV9HfH_AAAAAAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.KAAAADHUAAAC1AV9HfH_AAAAAAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw</code></details>
+<a class="dist-claim" href="../home/app.html?key=PMH1.KAAAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw">领取</a>
+<details class="dist-key"><summary>手动密钥</summary><code>PMH1.KAAAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw</code></details>
 </div></div>
 
 <div class="dist-card">
