@@ -27,7 +27,7 @@
 | 渠道 | 链接 |
 |---|---|
 | 百度网盘 | [宝可梦 水银](https://pan.baidu.com/s/1j4tAOI8GKWcKDi_lBirClg)（提取码: `69G1`） |
-| 蓝奏云 | [下载](https://wwapo.lanzouv.com/i8wTX4aka5gb)（密码: `6cyb`） |
+| 蓝奏云 | [下载](https://wwapo.lanzouv.com/b004jrjabc)（密码: `egea`） |
 
 ---
 
