@@ -28,42 +28,9 @@
 <div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/1411.png" alt="呆火鳄"><img class="dist-icon" src="../pokemon/icons/1411.png" alt="">
 </div>
 <div class="dist-body">
-<strong>壮壮妈　呆火鳄 Lv.5 ♂</strong>
-<div class="dist-meta">特性：猛火 · 性格：内敛 · 个体：6V · 球种：梦境球 · 初训家：埋葬</div>
-<div class="dist-moves">撞击、瞪眼、火花</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.KAAAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.KAAAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw</code></details>
-</div></div>
-
-<div class="dist-card">
-<div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/1411.png" alt="呆火鳄"><img class="dist-icon" src="../pokemon/icons/1411.png" alt="">
-</div>
-<div class="dist-body">
 <strong>壮壮妈　呆火鳄 Lv.5 ♀</strong>
 <div class="dist-meta">特性：猛火 · 性格：内敛 · 个体：6V · 球种：梦境球 · 初训家：埋葬</div>
 <div class="dist-moves">撞击、瞪眼、火花</div>
 <a class="dist-claim" href="../home/app.html?key=PMH1.HAIAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw">领取</a>
 <details class="dist-key"><summary>手动密钥</summary><code>PMH1.HAIAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____Pw</code></details>
-</div></div>
-
-<div class="dist-card">
-<div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/1411.png" alt="呆火鳄"><img class="dist-icon" src="../pokemon/icons/1411.png" alt="">
-</div>
-<div class="dist-body">
-<strong>壮壮妈　呆火鳄 Lv.5 ♀</strong>
-<div class="dist-meta">特性：纯朴（梦特） · 性格：内敛 · 个体：6V · 球种：梦境球 · 初训家：埋葬</div>
-<div class="dist-moves">撞击、瞪眼、火花</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.HAIAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____vw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.HAIAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____vw</code></details>
-</div></div>
-
-<div class="dist-card">
-<div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/1411.png" alt="呆火鳄"><img class="dist-icon" src="../pokemon/icons/1411.png" alt="">
-</div>
-<div class="dist-body">
-<strong>壮壮妈　呆火鳄 Lv.5 ♀</strong>
-<div class="dist-meta">特性：纯朴（梦特） · 性格：内敛 · 个体：6V · 球种：梦境球 · 初训家：埋葬</div>
-<div class="dist-moves">撞击、瞪眼、火花</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.HAIAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____vw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.HAIAADHUAAD_____________AAAJKw_t_wAAAIMFAACGAAAAADIaIaxAAwAAAAAAAAAAAAAA____vw</code></details>
 </div></div>
