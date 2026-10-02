@@ -45,14 +45,3 @@
 <a class="dist-claim" href="../home/app.html?key=PMH1.TgAAADHUAAAOTQ8GFDX_AAAAAAAJKw_t_wAAAIAFAACGAAAAADIXCpwwJQAAAAAAAAAAAAAA____vw">领取</a>
 <details class="dist-key"><summary>手动密钥</summary><code>PMH1.TgAAADHUAAAOTQ8GFDX_AAAAAAAJKw_t_wAAAIAFAACGAAAAADIXCpwwJQAAAAAAAAAAAAAA____vw</code></details>
 </div></div>
-
-<div class="dist-card">
-<div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/1408.png" alt="新叶喵"><img class="dist-icon" src="../pokemon/icons/1408.png" alt="">
-</div>
-<div class="dist-body">
-<strong>Lv.5 新叶喵　新叶喵 Lv.5 ♂</strong>
-<div class="dist-meta">特性：变换自如（梦特） · 性格：固执 · 个体：6V · 球种：月亮球 · 初训家：埋葬</div>
-<div class="dist-moves">抓、摇尾巴、树叶</div>
-<a class="dist-claim" href="../home/app.html?key=PMH1.TgAAADHUAAAOTQ8GFDX_AAAAAAAJKw_t_wAAAIAFAACGAAAAADIXCpwwJQAAAAAAAAAAAAAA____vw">领取</a>
-<details class="dist-key"><summary>手动密钥</summary><code>PMH1.TgAAADHUAAAOTQ8GFDX_AAAAAAAJKw_t_wAAAIAFAACGAAAAADIXCpwwJQAAAAAAAAAAAAAA____vw</code></details>
-</div></div>
