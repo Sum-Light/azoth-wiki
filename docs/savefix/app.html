@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>存档修复 · 劲敌名字乱码 — 宝可梦水银</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; background: #f4f6f8; color: #223; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.4rem; margin: 0.4em 0 0.2em; }
+  h1 small { font-size: 0.85rem; font-weight: normal; color: #0b8a7b; margin-left: 8px; }
+  .card { background: #fff; border: 1px solid #e0e5e9; border-radius: 10px; padding: 18px 20px; margin: 14px 0; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+  .bg-note { background: #eefaf8; border-left: 4px solid #0b8a7b; }
+  .bg-note h2, .steps h2 { font-size: 1rem; margin: 0 0 8px; color: #0b8a7b; }
+  .bg-note p, .steps ol { font-size: 0.92rem; line-height: 1.75; margin: 6px 0; }
+  .steps ol { padding-left: 1.4em; }
+  label { display: block; font-size: 0.9rem; font-weight: 600; margin: 14px 0 6px; }
+  input[type=text] { width: 100%; padding: 10px 12px; font-size: 1rem; border: 1px solid #c9d2d8; border-radius: 8px; }
+  .file-drop { border: 2px dashed #9db8b4; border-radius: 10px; padding: 22px; text-align: center; cursor: pointer; transition: background .15s; }
+  .file-drop:hover, .file-drop.over { background: #eefaf8; }
+  .file-drop input { display: none; }
+  .file-name { font-size: 0.85rem; color: #567; margin-top: 6px; }
+  button { display: inline-block; margin-top: 16px; padding: 12px 28px; font-size: 1rem; font-weight: 600; color: #fff; background: #0b8a7b; border: none; border-radius: 8px; cursor: pointer; }
+  button:disabled { background: #9db8b4; cursor: not-allowed; }
+  button:not(:disabled):hover { background: #0a7a6d; }
+  pre { background: #10181d; color: #c8e6df; border-radius: 8px; padding: 14px 16px; font-size: 0.82rem; line-height: 1.6; white-space: pre-wrap; word-break: break-all; max-height: 380px; overflow: auto; }
+  .err { color: #d33; font-size: 0.9rem; margin-top: 10px; }
+  .ok  { color: #0b8a7b; font-weight: 600; }
+  a.dl { display: inline-block; margin-top: 12px; padding: 12px 28px; background: #1565c0; color: #fff; border-radius: 8px; text-decoration: none; font-weight: 600; }
+  a.back { font-size: 0.85rem; color: #0b8a7b; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #16181c; color: #dde; }
+    .card { background: #1f2329; border-color: #333a42; }
+    .bg-note { background: #16272a; }
+    .file-drop:hover, .file-drop.over { background: #16272a; }
+    input[type=text] { background: #12161a; color: #dde; border-color: #3a444d; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>存档修复 <small>劲敌名字乱码 · 宝可梦水银</small></h1>
+  <p><a class="back" href="index.html">← 返回说明页</a></p>
+
+  <div class="card bg-note">
+    <h2>功能背景</h2>
+    <p>《宝可梦水银》FC 版中，劲敌名字的存储位置与原版火红不一致：原版在 SaveBlock1 偏移 <code>0x3A4C</code>，本作实际在 <code>0x3A40</code>（布局前移 12 字节）。新存档该位置未被正确初始化，残存的垃圾数据被当成名字显示，战斗中出现 <code>劲敌＋—————— 曹 ……</code> 之类的乱码，甚至牵连后面的图鉴标志位数据。</p>
+    <p>本工具把名字按游戏字库编码写入正确位置（<code>0x3A40</code>），补上 <code>0xFF</code> 结束符，并按游戏自身算法重建扇区校验和；存档的当前份与备份份都会修复。只改动名字 8 字节和校验和，不影响任何其他数据。</p>
+  </div>
+
+  <div class="card steps">
+    <h2>使用步骤</h2>
+    <ol>
+      <li>上传 <code>.sav</code> 电池存档（128 KiB，与 ROM 同名同目录）；</li>
+      <li>输入劲敌名字（中文最多 3 字，英文/数字最多 7 个）；</li>
+      <li>点"修复并下载"，用下载的存档替换原存档（先自行备份）；</li>
+      <li><strong>完全重启模拟器</strong>载入 ROM。切勿从即时存档（.ss1 等）恢复，否则修复会被旧内存覆盖。</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <label>1. 选择存档文件</label>
+    <div class="file-drop" id="drop">
+      <div>点击选择或拖入 <code>.sav</code> 文件</div>
+      <div class="file-name" id="fileName">未选择文件</div>
+      <input type="file" id="file" accept=".sav,.sgm">
+    </div>
+
+    <label for="nameInput">2. 劲敌名字</label>
+    <input type="text" id="nameInput" value="小银" maxlength="12" placeholder="例如：小银">
+    <div class="file-name" id="byteInfo"></div>
+
+    <div><button id="go" disabled>修复并下载</button></div>
+    <div class="err" id="err"></div>
+    <div id="dlWrap"></div>
+  </div>
+
+  <div class="card" id="logCard" style="display:none">
+    <label>处理详情</label>
+    <pre id="log"></pre>
+  </div>
+</div>
+
+<script src="charmap.js"></script>
+<script>
+(function () {
+  'use strict';
+  const SECTOR = 0x1000, SDS = 0xFEC, SB1_SIZE = 0x3D68;
+  const CHUNK3_SIZE = SB1_SIZE - 3 * SDS;        // 0xDA4
+  const RIVAL_OFF = 0x3A40 - 3 * SDS;            // 0xA7C，劲敌名字在 id=4 扇区内的偏移
+  const SIG = 0x08012025;
+
+  const $ = (id) => document.getElementById(id);
+  const fileInput = $('fileInput') || $('file');
+  let savData = null, savName = '';
+
+  function u16(b, o) { return b[o] | (b[o + 1] << 8); }
+  function u32(b, o) { return (b[o] | (b[o + 1] << 8) | (b[o + 2] << 16) | (b[o + 3] << 24)) >>> 0; }
+  function hex(bytes) { return Array.from(bytes, (x) => x.toString(16).padStart(2, '0')).join(' '); }
+
+  function decodeName(bytes) {
+    let out = '', i = 0;
+    while (i < bytes.length) {
+      const b = bytes[i];
+      if (b === 0xFF) break;
+      if (i + 1 < bytes.length) {
+        const k2 = ((b << 8) | bytes[i + 1]).toString(16).toUpperCase().padStart(4, '0');
+        if (CHARMAP_DEC[k2]) { out += CHARMAP_DEC[k2]; i += 2; continue; }
+      }
+      const k1 = b.toString(16).toUpperCase().padStart(2, '0');
+      out += CHARMAP_DEC[k1] || ('<' + k1 + '>');
+      i += 1;
+    }
+    return out;
+  }
+
+  function encodeName(str) {
+    const bytes = [];
+    for (const ch of str) {
+      const b = CHARMAP_ENC[ch];
+      if (!b) throw new Error('无法编码字符：「' + ch + '」（游戏字库中没有该字符）');
+      bytes.push(...b);
+    }
+    if (bytes.length === 0) throw new Error('名字不能为空');
+    if (bytes.length > 7) throw new Error('名字太长：编码后 ' + bytes.length + ' 字节（最多 7 字节，中文最多 3 字、英文数字最多 7 个）');
+    const out = bytes.concat([0xFF]);
+    while (out.length < 8) out.push(0xFF);
+    return out;
+  }
+
+  function parseSectors(data) {
+    const out = [];
+    for (let i = 0; i < data.length / SECTOR; i++) {
+      const off = i * SECTOR;
+      if (u32(data, off + 0xFF8) !== SIG) continue;
+      out.push({ index: i, id: u16(data, off + 0xFF4), counter: u32(data, off + 0xFFC) });
+    }
+    return out;
+  }
+
+  function checksum(data, off, size) {
+    let sum = 0;
+    for (let p = 0; p < size; p += 4) sum = (sum + u32(data, off + p)) >>> 0;
+    return ((sum >>> 16) + sum) & 0xFFFF;
+  }
+
+  function updateByteInfo() {
+    try {
+      const b = encodeName($('nameInput').value.trim());
+      $('byteInfo').textContent = '编码后 ' + (b.indexOf(0xFF)) + ' 字节：' + hex(b);
+      $('err').textContent = '';
+    } catch (e) {
+      $('byteInfo').textContent = '';
+      $('err').textContent = e.message;
+    }
+  }
+
+  function loadFile(file) {
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      savData = new Uint8Array(reader.result);
+      savName = file.name;
+      if (savData.length !== 32 * SECTOR) {
+        savData = null;
+        $('fileName').textContent = file.name + '（大小 ' + reader.result.byteLength + ' 字节，不是 128 KiB 标准 GBA 存档）';
+        $('go').disabled = true;
+        return;
+      }
+      $('fileName').textContent = file.name + '（128 KiB ✓）';
+      $('go').disabled = false;
+      $('dlWrap').innerHTML = '';
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
+  $('drop').addEventListener('click', () => $('file').click());
+  $('file').addEventListener('change', (e) => loadFile(e.target.files[0]));
+  ['dragover', 'dragleave', 'drop'].forEach((ev) =>
+    $('drop').addEventListener(ev, (e) => {
+      e.preventDefault();
+      $('drop').classList.toggle('over', ev === 'dragover');
+      if (ev === 'drop') loadFile(e.dataTransfer.files[0]);
+    })
+  );
+  $('nameInput').addEventListener('input', updateByteInfo);
+
+  $('go').addEventListener('click', () => {
+    $('err').textContent = '';
+    $('dlWrap').innerHTML = '';
+    const log = [];
+    try {
+      if (!savData) throw new Error('请先选择存档文件');
+      const data = new Uint8Array(savData); // 副本上修改
+      const nameBytes = encodeName($('nameInput').value.trim());
+      const nameText = $('nameInput').value.trim();
+
+      const sectors = parseSectors(data);
+      log.push('文件：' + savName);
+      log.push('有效扇区：' + sectors.length + ' / 32');
+      const counters = [...new Set(sectors.map((s) => s.counter))].sort((a, b) => a - b);
+      log.push('存档计数器：' + counters.join('、') + '（较大者为当前份）');
+
+      const targets = sectors.filter((s) => s.id === 4);
+      if (targets.length === 0) throw new Error('未找到 SaveBlock1 第 4 分块（扇区 id=4），不是有效的本作存档');
+      log.push('');
+      for (const t of targets) {
+        const off = t.index * SECTOR;
+        const before = data.slice(off + RIVAL_OFF, off + RIVAL_OFF + 8);
+        const beforeText = decodeName(before);
+        data.set(nameBytes, off + RIVAL_OFF);
+        const ck = checksum(data, off, CHUNK3_SIZE);
+        data[off + 0xFF6] = ck & 0xFF;
+        data[off + 0xFF7] = ck >> 8;
+        log.push('扇区 ' + t.index + '（id=4, 计数器 ' + t.counter + '）');
+        log.push('  修复前：' + hex(before) + (beforeText ? '  “' + beforeText + '”' : '  （空/乱码）'));
+        log.push('  修复后：' + hex(nameBytes) + '  “' + nameText + '”');
+        log.push('  校验和：0x' + ck.toString(16).toUpperCase().padStart(4, '0') + ' ✓');
+      }
+      if (targets.length !== 2) log.push('\n注意：找到 ' + targets.length + ' 个 id=4 扇区（通常为 2 个，当前份+备份份），已全部修复');
+      log.push('\n修复完成 ✓ 请点击下方按钮下载，并用下载文件替换原存档。');
+      log.push('提醒：重启模拟器载入 ROM，不要从即时存档恢复！');
+
+      const blob = new Blob([data], { type: 'application/octet-stream' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = savName.replace(/\.sav$/i, '') + '_已修复.sav';
+      a.className = 'dl';
+      a.textContent = '⬇ 下载修复后的存档';
+      $('dlWrap').appendChild(a);
+    } catch (e) {
+      $('err').textContent = e.message;
+      log.push('出错：' + e.message);
+    }
+    $('logCard').style.display = '';
+    $('log').textContent = log.join('\n');
+  });
+
+  updateByteInfo();
+})();
+</script>
+</body>
+</html>
