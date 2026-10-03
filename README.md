@@ -28,14 +28,15 @@ mkdocs serve                      # http://127.0.0.1:8000
 
 ## 支线任务
 
-导航中的“支线任务”位于首页后，收录任务001–096的目标、原文对白、分支奖励与指令依据。目录支持名称、编号、奖励关键词和类型筛选；奖励反查页与道具、宝可梦详情页相互链接。
+导航中的“支线任务”位于首页后，收录任务001–096的目标、原文对白、分支奖励与依据。目录支持名称、编号、奖励关键词和类型筛选；奖励反查页与道具、宝可梦、招式详情页相互链接。Mega 波动、教学、服装和服务等解锁独立筛选，并保留条件。
 
 - `data/sidequests.json`：已核对台本的独立数据快照，保留源文件校验值。
+- `data/sidequest_unlocks.json`：非背包奖励补充，保留任务号、阶段、确认方式、证据符号及相关页面 ID。
 - `tools/generate_sidequests.py`：生成 `docs/sidequests/` 并维护带标记的反查区块。
 - `docs/stylesheets/sidequests.css`、`docs/javascripts/sidequests.js`：手机、深色模式与即时导航支持。
 
 在 Project-Azoth 仓库中更新人工编排或奖励数据后，运行 `python wiki/tools/generate_sidequests.py --refresh-source`，再运行 `python -m mkdocs build -f wiki/mkdocs.yml`。普通重建只读取 wiki 内的数据快照；`generate_pokemon.py` 结束时也会自动同步反查，避免图鉴重建后丢失。
 
-反查按物种/道具 ID 关联，包含宝可梦携带物；互斥分支、任务交付物、购买与退款按原核对说明区分。本批数据未覆盖全游戏获取途径。
+反查按物种/道具 ID 关联，包含宝可梦携带物；互斥分支、任务交付物、购买与退款按原核对说明区分。Mega 波动关联普通与 Mega 形态，保持独立统计，不当作赠送宝可梦。教学关联招式 ID，费用与开放条件保留在条目中。本批数据未覆盖全游戏获取途径。
 
 构建后可运行 `python wiki/tools/check_sidequests.py` 检查96项编号、对白完整性、条件奖励与新增链接。浏览器检查脚本为 `wiki/tools/check_sidequests_browser.cjs`，需要 Node.js、Playwright 和 Microsoft Edge；通过 `WIKI_PREVIEW_URL` 指定已启动的本地站点地址，默认端口8765。截图输出到 `tmp/wiki-sidequests-preview/`。

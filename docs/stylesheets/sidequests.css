@@ -29,6 +29,9 @@
 .sq-tag-pokemon { color: #277662; }
 .sq-tag-money { color: #84621b; }
 .sq-tag-BP { color: #a14f64; }
+.sq-tag-mega { color: #356ca0; }
+.sq-tag-unlock { color: #8a6428; }
+.sq-basis { color: var(--md-default-fg-color--light); font-size: .65rem; }
 .sq-muted { color: var(--md-default-fg-color--light); }
 .sq-empty { padding: 2rem 0; text-align: center; color: var(--md-default-fg-color--light); }
 .sq-acquisition { padding: .6rem 0 1.2rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); scroll-margin-top: 5rem; }
@@ -48,6 +51,8 @@
 [data-md-color-scheme="slate"] .sq-tag-pokemon { color: #88c9b2; }
 [data-md-color-scheme="slate"] .sq-tag-money { color: #e0c580; }
 [data-md-color-scheme="slate"] .sq-tag-BP { color: #e5a0b4; }
+[data-md-color-scheme="slate"] .sq-tag-mega { color: #8dc4eb; }
+[data-md-color-scheme="slate"] .sq-tag-unlock { color: #dfc185; }
 @media (max-width: 700px) {
   .sq-row { grid-template-columns: 2rem minmax(0, 1fr); gap: .4rem .6rem; }
   .sq-row-rewards { grid-column: 2; margin-top: .3rem; }

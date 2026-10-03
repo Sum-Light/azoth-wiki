@@ -4,15 +4,15 @@ title: 支线任务
 # 支线任务
 
 <p class="sq-lead">从皮丘的旅途，到被解开的封印。</p>
-<div class="sq-stats"><span><strong>96</strong> 项任务</span><span><strong>118</strong> 种道具</span><span><strong>15</strong> 种宝可梦</span></div>
+<div class="sq-stats"><span><strong>96</strong> 项任务</span><span><strong>118</strong> 种道具</span><span><strong>15</strong> 种宝可梦</span><span><strong>8</strong> 种 Mega 波动</span><span><strong>16</strong> 项其他解锁</span></div>
 任务001–096 · 对白与奖励快照：2026-10-03。分支奖励分别列出，不作累计。
 
 <nav class="sq-tabs" aria-label="支线任务导航"><a href="./" aria-current="page">任务目录</a><a href="rewards/">奖励反查</a></nav>
 
 <div class="sq-browser" data-sq-browser="quests">
 <form class="sq-controls" role="search">
-<label class="sq-search"><span>搜索任务</span><input type="search" name="q" autocomplete="off" placeholder="编号、任务名、宝可梦、道具…"></label>
-<label><span>奖励类型</span><select name="kind"><option value="all">全部奖励</option><option value="pokemon">宝可梦与蛋</option><option value="item">道具</option><option value="money">金钱</option><option value="BP">BracerPoints 点数</option></select></label>
+<label class="sq-search"><span>搜索任务</span><input type="search" name="q" autocomplete="off" placeholder="编号、任务名、奖励、Mega 波动…"></label>
+<label><span>奖励类型</span><select name="kind"><option value="all">全部奖励</option><option value="pokemon">宝可梦与蛋</option><option value="item">道具</option><option value="mega">Mega 波动</option><option value="unlock">功能与服装解锁</option><option value="money">金钱</option><option value="BP">BracerPoints 点数</option></select></label>
 </form>
 <p class="sq-result" role="status" aria-live="polite" data-sq-count>共 96 项任务</p>
 <div class="sq-results">
@@ -24,37 +24,39 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP money" data-search="002 任务002 向往天空的理由 帮助阿速寻找向往天空的理由. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 额外获得大比鸟超级进化波动；普通塔内长老赠送的TM70未算入本支线。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="002 任务002 向往天空的理由 帮助阿速寻找向往天空的理由. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 大比鸟超级进化波动 完成奖励 额外获得大比鸟超级进化波动；普通塔内长老赠送的TM70未算入本支线。 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">002</span>
 <div class="sq-row-main"><a class="sq-title" href="002/">向往天空的理由</a><p>帮助阿速寻找向往天空的理由.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">BracerPoints / 金钱</span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../pokemon/icons/0018.png" width="32" height="32" alt="" loading="lazy"><span>大比鸟超级进化波动</span></span>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="003 任务003 钢铁与黑曜 去桐树林寻找阿笔,协助他完成有关虫宝可梦的研究. 黑奇石×1 森林战斗后获得 金属膜×1 森林结尾奖励（源码） BracerPoints 10点 森林结尾奖励（源码） 金钱12000元 森林结尾奖励（源码） 本次补查森林结尾源码：黑奇石、金属膜、10BP、12000元，并解锁巨钳螳螂超级进化波动。原任务表完成Flag与森林源码不同，故上一版文本未收进这段；此处记录源码定义，未声称已验证游戏内触发。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="003 任务003 钢铁与黑曜 去桐树林寻找阿笔,协助他完成有关虫宝可梦的研究. 黑奇石×1 森林战斗后获得 金属膜×1 森林结尾奖励（源码） BracerPoints 10点 森林结尾奖励（源码） 金钱12000元 森林结尾奖励（源码） 巨钳螳螂超级进化波动（源码已定义，触发待核） 森林结尾奖励（源码，触发待核） 本次补查森林结尾源码：黑奇石、金属膜、10BP、12000元，并解锁巨钳螳螂超级进化波动。原任务表完成Flag与森林源码不同，故上一版文本未收进这段；此处记录源码定义，未声称已验证游戏内触发。 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">003</span>
 <div class="sq-row-main"><a class="sq-title" href="003/">钢铁与黑曜</a><p>去桐树林寻找阿笔,协助他完成有关虫宝可梦的研究.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="森林结尾奖励（源码，触发待核）"><img class="sq-icon" src="../pokemon/icons/0212.png" width="32" height="32" alt="" loading="lazy"><span>巨钳螳螂超级进化波动（源码已定义，触发待核）</span></span>
 <span class="sq-reward-preview" title="森林战斗后获得"><img class="sq-icon" src="../home/item_icons/item_02E8.png" width="32" height="32" alt="" loading="lazy"><span>黑奇石×1</span></span>
 <span class="sq-reward-preview" title="森林结尾奖励（源码）"><img class="sq-icon" src="../home/item_icons/item_00C7.png" width="32" height="32" alt="" loading="lazy"><span>金属膜×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="004 任务004 霓虹灯外的月光 帮助小茜与皮可西学会接纳自己. 月之石×1 完成奖励 BracerPoints 10点 完成奖励 金钱12000元 完成奖励 额外解锁皮可西超级进化波动。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="004 任务004 霓虹灯外的月光 帮助小茜与皮可西学会接纳自己. 月之石×1 完成奖励 BracerPoints 10点 完成奖励 金钱12000元 完成奖励 皮可西超级进化波动 完成奖励 额外解锁皮可西超级进化波动。 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">004</span>
 <div class="sq-row-main"><a class="sq-title" href="004/">霓虹灯外的月光</a><p>帮助小茜与皮可西学会接纳自己.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../pokemon/icons/0036.png" width="32" height="32" alt="" loading="lazy"><span>皮可西超级进化波动</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_005E.png" width="32" height="32" alt="" loading="lazy"><span>月之石×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP money" data-search="005 任务005 无法冻结的时间 和柳伯一起去冰天地看看无法融化的冰壁. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 额外解锁雪妖女超级进化波动。小拉普拉斯由柳伯留下，脚本没有把它作为玩家赠礼。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="005 任务005 无法冻结的时间 和柳伯一起去冰天地看看无法融化的冰壁. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 雪妖女超级进化波动 完成奖励 额外解锁雪妖女超级进化波动。小拉普拉斯由柳伯留下，脚本没有把它作为玩家赠礼。 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">005</span>
 <div class="sq-row-main"><a class="sq-title" href="005/">无法冻结的时间</a><p>和柳伯一起去冰天地看看无法融化的冰壁.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">BracerPoints / 金钱</span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../pokemon/icons/0531.png" width="32" height="32" alt="" loading="lazy"><span>雪妖女超级进化波动</span></span>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="" data-search="006 任务006 水与火的修罗场 寻找调和火球鼠与水水獭之间冲突的木木枭. 本阶段未见独立道具、金钱、宝可梦或点数发放；洗翠篇统一结算见任务011。">
@@ -150,13 +152,14 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="item" data-search="017 任务017 精灵爷爷的实验 使用精灵爷爷的新发明让鬼斯通进化吧. 通信电缆×1 接取时交付（用于实验） 通信电缆×3 完成奖励 原对白提示3BP，但已关联的结算脚本未发现对应0x5135加点指令；台本保留“提示3BP，实际加点待核”，不能写成已确认到账。">
+<article class="sq-row" data-sq-entry data-kind="item unlock" data-search="017 任务017 精灵爷爷的实验 使用精灵爷爷的新发明让鬼斯通进化吧. 通信电缆×1 接取时交付（用于实验） 通信电缆×3 完成奖励 精灵爷爷的电话号码 剧情登记电话时 原对白提示3BP，但已关联的结算脚本未发现对应0x5135加点指令；台本保留“提示3BP，实际加点待核”，不能写成已确认到账。 解锁">
 <span class="sq-number">017</span>
 <div class="sq-row-main"><a class="sq-title" href="017/">精灵爷爷的实验</a><p>使用精灵爷爷的新发明让鬼斯通进化吧.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="剧情登记电话时"><span>精灵爷爷的电话号码</span></span>
 <span class="sq-reward-preview" title="接取时交付（用于实验）"><img class="sq-icon" src="../home/item_icons/item_0057.png" width="32" height="32" alt="" loading="lazy"><span>通信电缆×1</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0057.png" width="32" height="32" alt="" loading="lazy"><span>通信电缆×3</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-item">道具</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="" data-search="018 任务018 希鲁夫的遗产 替精灵爷爷去黑暗穴交接一件物品. 这一阶段确认的是U盘交接和修复剧情，未见独立金钱／BP发放；多边兽与12000元、10BP在任务019结算。">
@@ -175,13 +178,14 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item" data-search="020 任务020 收集研究所物资 帮助空木博士的妻子收集研究所需要的物资. 经验糖果XS×2 完成奖励 超级球×5 完成奖励 BracerPoints 4点 完成奖励 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item unlock" data-search="020 任务020 收集研究所物资 帮助空木博士的妻子收集研究所需要的物资. 经验糖果XS×2 完成奖励 超级球×5 完成奖励 BracerPoints 4点 完成奖励 博士妻子的电话号码 剧情登记电话时 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">020</span>
 <div class="sq-row-main"><a class="sq-title" href="020/">收集研究所物资</a><p>帮助空木博士的妻子收集研究所需要的物资.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="剧情登记电话时"><span>博士妻子的电话号码</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0218.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果XS×2</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0003.png" width="32" height="32" alt="" loading="lazy"><span>超级球×5</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="021 任务021 要进化的绿毛虫 帮助吉野市的女孩收服一只绿毛虫. 经验糖果XS×2 完成奖励 BracerPoints 3点 完成奖励 金钱5000元 完成奖励 点数 积分 BP BracerPoints">
@@ -220,13 +224,14 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="025 任务025 修行的难题 帮助喇叭芽之塔的僧侣捕捉一只喇叭芽. 大根茎×1 完成奖励 金钱4000元 完成奖励 BracerPoints 3点 完成奖励 经验糖果XS×2 完成奖励 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="025 任务025 修行的难题 帮助喇叭芽之塔的僧侣捕捉一只喇叭芽. 大根茎×1 完成奖励 金钱4000元 完成奖励 BracerPoints 3点 完成奖励 经验糖果XS×2 完成奖励 僧侣勿念的电话号码 同意交换电话后 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">025</span>
 <div class="sq-row-main"><a class="sq-title" href="025/">修行的难题</a><p>帮助喇叭芽之塔的僧侣捕捉一只喇叭芽.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="同意交换电话后"><span>僧侣勿念的电话号码</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_02BB.png" width="32" height="32" alt="" loading="lazy"><span>大根茎×1</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0218.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果XS×2</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="026 任务026 痛苦的大食花 前往桔梗市树海的深处将大食花丛痛苦中解救出来. 经验糖果S×1 完成奖励 BracerPoints 8点 完成奖励 金钱10000元 完成奖励 光之黏土×1 完成奖励 点数 积分 BP BracerPoints">
@@ -272,12 +277,13 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="031 任务031 阿始的新节目 帮助阿始录制新的电视教学节目. 金钱6000元 完成奖励 气势披带×1 完成奖励 BracerPoints 3点 完成奖励 Lv.1小拉达及其携带气势披带是拍摄用临时队伍；完成奖励另发气势披带×1，不永久赠送小拉达。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="031 任务031 阿始的新节目 帮助阿始录制新的电视教学节目. 金钱6000元 完成奖励 气势披带×1 完成奖励 BracerPoints 3点 完成奖励 阿始的电话号码 剧情登记电话时 Lv.1小拉达及其携带气势披带是拍摄用临时队伍；完成奖励另发气势披带×1，不永久赠送小拉达。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">031</span>
 <div class="sq-row-main"><a class="sq-title" href="031/">阿始的新节目</a><p>帮助阿始录制新的电视教学节目.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="剧情登记电话时"><span>阿始的电话号码</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_02AB.png" width="32" height="32" alt="" loading="lazy"><span>气势披带×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="032 任务032 阿始的极限秀 帮助阿始录制新的极限秀节目. 金钱6000元 完成奖励 剧毒宝珠×1 完成奖励 BracerPoints 8点 完成奖励 Lv.30圈圈熊是临时拍摄队伍；剧毒宝珠×1是独立结算赠礼。 点数 积分 BP BracerPoints">
@@ -288,13 +294,14 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="033 任务033 最后的大哥秀 帮助阿始进行最后的巡回路演. 教学电视×1 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 金色王冠×1 完成奖励 Lv.30暴鲤龙、长耳兔为临时演出队伍，未计入永久赠礼。后续开放极限特训。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="033 任务033 最后的大哥秀 帮助阿始进行最后的巡回路演. 教学电视×1 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 金色王冠×1 完成奖励 极限特训服务（王冠为使用费用） 完成后开放；50级以上宝可梦，使用金色或银色王冠 Lv.30暴鲤龙、长耳兔为临时演出队伍，未计入永久赠礼。后续开放极限特训。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">033</span>
 <div class="sq-row-main"><a class="sq-title" href="033/">最后的大哥秀</a><p>帮助阿始进行最后的巡回路演.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成后开放；50级以上宝可梦，使用金色或银色王冠"><span>极限特训服务（王冠为使用费用）</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_016E.png" width="32" height="32" alt="" loading="lazy"><span>教学电视×1</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0280.png" width="32" height="32" alt="" loading="lazy"><span>金色王冠×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="034 任务034 阿露福遗迹之谜 解开有关阿露福遗迹的真相! 未知图腾笔记×1 接取时获得（两入口同一份） 秘密琥珀×1 完成奖励 贝壳化石×1 完成奖励 甲壳化石×1 完成奖励 BracerPoints 15点 完成奖励 金钱15000元 完成奖励 两个加入研究所入口各写同一份未知图腾笔记，汇总仅算一份。 点数 积分 BP BracerPoints">
@@ -308,12 +315,13 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="035 任务035 沉睡的潜能 帮助阿露福遗迹的超能力者收集所有形态的未知图腾,探究宝可梦沉睡的潜能. TM10×1 完成奖励 BracerPoints 8点 完成奖励 金钱9000元 完成奖励 完成后开放觉醒力量属性查看与修改；修改所需心之鳞片是费用，不是奖励。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="035 任务035 沉睡的潜能 帮助阿露福遗迹的超能力者收集所有形态的未知图腾,探究宝可梦沉睡的潜能. TM10×1 完成奖励 BracerPoints 8点 完成奖励 金钱9000元 完成奖励 觉醒力量属性查看与修改（心之鳞片为修改费用） 完成后开放；修改属性需要心之鳞片 完成后开放觉醒力量属性查看与修改；修改所需心之鳞片是费用，不是奖励。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">035</span>
 <div class="sq-row-main"><a class="sq-title" href="035/">沉睡的潜能</a><p>帮助阿露福遗迹的超能力者收集所有形态的未知图腾,探究宝可梦沉睡的潜能.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成后开放；修改属性需要心之鳞片"><span>觉醒力量属性查看与修改（心之鳞片为修改费用）</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_012A.png" width="32" height="32" alt="" loading="lazy"><span>TM10×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="036 任务036 目标是虫系大师 帮助桧皮镇的女孩制作3个速度球. 白色香草×1 完成奖励 经验糖果XS×5 完成奖励 金钱4000元 完成奖励 BracerPoints 3点 完成奖励 点数 积分 BP BracerPoints">
@@ -359,22 +367,25 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="041 任务041 异样的呆呆兽 调查呆呆兽之井里异样的呆呆兽. 王者之证×3 完成奖励 金钱5000元 完成奖励 BracerPoints 4点 完成奖励 额外解锁呆壳兽超级进化波动。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money unlock" data-search="041 任务041 异样的呆呆兽 调查呆呆兽之井里异样的呆呆兽. 王者之证×3 完成奖励 金钱5000元 完成奖励 BracerPoints 4点 完成奖励 呆壳兽超级进化波动 完成奖励 怪兽狂袋袋的电话号码 剧情登记电话时 额外解锁呆壳兽超级进化波动。 点数 积分 BP BracerPoints Mega 超级进化 波动 解锁">
 <span class="sq-number">041</span>
 <div class="sq-row-main"><a class="sq-title" href="041/">异样的呆呆兽</a><p>调查呆呆兽之井里异样的呆呆兽.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../pokemon/icons/0080.png" width="32" height="32" alt="" loading="lazy"><span>呆壳兽超级进化波动</span></span>
+<span class="sq-reward-preview" title="剧情登记电话时"><span>怪兽狂袋袋的电话号码</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_00BB.png" width="32" height="32" alt="" loading="lazy"><span>王者之证×3</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="item" data-search="042 任务042 闪耀的一等星 帮助满金市地下街的少女寻找她遗失的宝石. 红宝石×1 任务途中领取（需交回的宝石） 星星碎片×4 完成奖励 经验糖果S×2 完成奖励 原对白提示5BP，但本轮关联脚本未发现对应加点指令；两种道具已由发放指令确认。红宝石是任务交付物。">
+<article class="sq-row" data-sq-entry data-kind="item unlock" data-search="042 任务042 闪耀的一等星 帮助满金市地下街的少女寻找她遗失的宝石. 红宝石×1 任务途中领取（需交回的宝石） 星星碎片×4 完成奖励 经验糖果S×2 完成奖励 爱的电话号码 剧情登记电话时 原对白提示5BP，但本轮关联脚本未发现对应加点指令；两种道具已由发放指令确认。红宝石是任务交付物。 解锁">
 <span class="sq-number">042</span>
 <div class="sq-row-main"><a class="sq-title" href="042/">闪耀的一等星</a><p>帮助满金市地下街的少女寻找她遗失的宝石.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="剧情登记电话时"><span>爱的电话号码</span></span>
 <span class="sq-reward-preview" title="任务途中领取（需交回的宝石）"><img class="sq-icon" src="../home/item_icons/item_0175.png" width="32" height="32" alt="" loading="lazy"><span>红宝石×1</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_006D.png" width="32" height="32" alt="" loading="lazy"><span>星星碎片×4</span></span>
-<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0219.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果S×2</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-item">道具</span></div>
+<span class="sq-muted">另有 1 项获得内容</span>
+<div class="sq-tags"><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="043 任务043 闪耀的电波 陪同地下偶像爱去广播塔参加DJ世治的广播节目. 强力香草×3 完成奖励 TM99×1 完成奖励 BracerPoints 10点 完成奖励 金钱10000元 完成奖励 点数 积分 BP BracerPoints">
@@ -386,13 +397,14 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="044 任务044 闪耀的暗影 帮助地下偶像爱调查偷偷潜入她房间的人. 经验糖果S×3 完成奖励 彗星碎片×5 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 完成后开放魔法火焰教学。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="044 任务044 闪耀的暗影 帮助地下偶像爱调查偷偷潜入她房间的人. 经验糖果S×3 完成奖励 彗星碎片×5 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 魔法火焰招式教学 完成后找爱学习 完成后开放魔法火焰教学。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">044</span>
 <div class="sq-row-main"><a class="sq-title" href="044/">闪耀的暗影</a><p>帮助地下偶像爱调查偷偷潜入她房间的人.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成后找爱学习"><span>魔法火焰招式教学</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0219.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果S×3</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0072.png" width="32" height="32" alt="" loading="lazy"><span>彗星碎片×5</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item pokemon" data-search="045 任务045 成为一般系大师 帮助满金市的少女进行对战特训. BracerPoints 5点 完成奖励 经验糖果S×1 完成奖励 向尾喵 Lv.20（携带：逃脱按键） 完成奖励 点数 积分 BP BracerPoints">
@@ -404,12 +416,13 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="046 任务046 诡异的绿光 查明公寓内出现诡异的绿光的真相. BracerPoints 3点 完成奖励 金钱4000元 完成奖励 经验糖果S×1 完成奖励 事件里的绿色超音蝠不是本轮givepokemon发放项；捕获情况另看遭遇事件。后续展示成长后的宝可梦可开放顺风教学。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="046 任务046 诡异的绿光 查明公寓内出现诡异的绿光的真相. BracerPoints 3点 完成奖励 金钱4000元 完成奖励 经验糖果S×1 完成奖励 顺风招式教学 完成后展示成长后的宝可梦；非完成即自动开放 事件里的绿色超音蝠不是本轮givepokemon发放项；捕获情况另看遭遇事件。后续展示成长后的宝可梦可开放顺风教学。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">046</span>
 <div class="sq-row-main"><a class="sq-title" href="046/">诡异的绿光</a><p>查明公寓内出现诡异的绿光的真相.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成后展示成长后的宝可梦；非完成即自动开放"><span>顺风招式教学</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0219.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果S×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="047 任务047 家乡的味道 帮助老爷爷收集制作大马拉萨达所需的5个刺角果,5个椰木果和5个瓜西果. 大马拉萨达×5 完成奖励 神秘摆设×1 完成奖励 BracerPoints 4点 完成奖励 金钱6000元 完成奖励 火斑喵的蛋×1 后续：给火斑喵分享食物 强制锻炼器×1 后续：给孙女分享食物 点数 积分 BP BracerPoints">
@@ -458,12 +471,13 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="052 任务052 如梦似幻般的银 寻找有关服装店店员梦中见到的银色宝可梦的线索. 银之护符×2 完成奖励 BracerPoints 8点 完成奖励 金钱10000元 完成奖励 服装对白与服装状态另列为剧情解锁；不能把它误计成背包中的银之护符。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="052 任务052 如梦似幻般的银 寻找有关服装店店员梦中见到的银色宝可梦的线索. 银之护符×2 完成奖励 BracerPoints 8点 完成奖励 金钱10000元 完成奖励 美极套装（海之神主题；服装解锁） 完成服装后获赠 服装对白与服装状态另列为剧情解锁；不能把它误计成背包中的银之护符。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">052</span>
 <div class="sq-row-main"><a class="sq-title" href="052/">如梦似幻般的银</a><p>寻找有关服装店店员梦中见到的银色宝可梦的线索.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成服装后获赠"><span>美极套装（海之神主题；服装解锁）</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_02E2.png" width="32" height="32" alt="" loading="lazy"><span>银之护符×2</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="053 任务053 失散的过动猿 帮助搬家公司的员工找到走散的过动猿. TM115×1 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 点数 积分 BP BracerPoints">
@@ -582,12 +596,12 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP money" data-search="065 任务065 闪闪发光的误会 解除勾魂眼与小碎钻之间闪闪发光的误会. 金钱6000元 完成奖励 BracerPoints 6点 完成奖励 额外解锁勾魂眼超级进化波动。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="065 任务065 闪闪发光的误会 解除勾魂眼与小碎钻之间闪闪发光的误会. 金钱6000元 完成奖励 BracerPoints 6点 完成奖励 勾魂眼超级进化波动 完成奖励 额外解锁勾魂眼超级进化波动。 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">065</span>
 <div class="sq-row-main"><a class="sq-title" href="065/">闪闪发光的误会</a><p>解除勾魂眼与小碎钻之间闪闪发光的误会.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">BracerPoints / 金钱</span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../pokemon/icons/0322.png" width="32" height="32" alt="" loading="lazy"><span>勾魂眼超级进化波动</span></span>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="066 任务066 姿态各异的舞者 帮助缘朱市的少女找到舞伴. 花舞鸟（形态由变量决定） Lv.20（携带：甜甜蜜） 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 花舞鸟Lv.20，携带甜甜蜜；形态由变量0x4019减0x100后传入givepokemon，不能把变量0x8004当成物种32772。 点数 积分 BP BracerPoints">
@@ -636,12 +650,13 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="071 任务071 遥远的约定 帮助缘朱市的女孩实现和朋友的遥远约定. 经验糖果S×2 完成奖励 金钱5000元 完成奖励 BracerPoints 5点 完成奖励 另有美极套装的服装解锁；不是giveitem背包道具。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="071 任务071 遥远的约定 帮助缘朱市的女孩实现和朋友的遥远约定. 经验糖果S×2 完成奖励 金钱5000元 完成奖励 BracerPoints 5点 完成奖励 美极套装（水君主题；服装解锁） 完成奖励 另有美极套装的服装解锁；不是giveitem背包道具。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">071</span>
 <div class="sq-row-main"><a class="sq-title" href="071/">遥远的约定</a><p>帮助缘朱市的女孩实现和朋友的遥远约定.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成奖励"><span>美极套装（水君主题；服装解锁）</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0219.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果S×2</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="072 任务072 迷路的小锯鳄 帮夏日祭上迷路的小锯鳄找到主人. 经验糖果S×2 完成奖励 卡比丘×1 完成奖励 BracerPoints 8点 完成奖励 金钱6000元 完成奖励 点数 积分 BP BracerPoints">
@@ -688,12 +703,13 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="077 任务077 忍法！捉迷藏 和卡吉镇的忍者来一场捉迷藏吧! 经验糖果S×1 完成奖励 金钱7000元 完成奖励 BracerPoints 5点 完成奖励 额外开放毒菱教学。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="077 任务077 忍法！捉迷藏 和卡吉镇的忍者来一场捉迷藏吧! 经验糖果S×1 完成奖励 金钱7000元 完成奖励 BracerPoints 5点 完成奖励 毒菱招式教学 完成捉迷藏后，前往见习忍者家中学习 额外开放毒菱教学。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">077</span>
 <div class="sq-row-main"><a class="sq-title" href="077/">忍法！捉迷藏</a><p>和卡吉镇的忍者来一场捉迷藏吧!</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成捉迷藏后，前往见习忍者家中学习"><span>毒菱招式教学</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0219.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果S×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="078 任务078 外卖订单的配送 帮助浅葱市餐厅的老板配送外卖订单. 幸运蛋×1 完成奖励 BracerPoints 3点 完成奖励 金钱3000元 完成奖励 点数 积分 BP BracerPoints">
@@ -741,12 +757,13 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="083 任务083 海星连接宇宙 受邀参加通过宝石海星的力量和宇宙交流的集会. 彗星碎片×6 完成奖励 金钱6000元 完成奖励 BracerPoints 6点 完成奖励 额外解锁宝石海星超级进化波动；这不等于givepokemon赠送宝石海星。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="083 任务083 海星连接宇宙 受邀参加通过宝石海星的力量和宇宙交流的集会. 彗星碎片×6 完成奖励 金钱6000元 完成奖励 BracerPoints 6点 完成奖励 宝石海星超级进化波动 完成奖励 额外解锁宝石海星超级进化波动；这不等于givepokemon赠送宝石海星。 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">083</span>
 <div class="sq-row-main"><a class="sq-title" href="083/">海星连接宇宙</a><p>受邀参加通过宝石海星的力量和宇宙交流的集会.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../pokemon/icons/0121.png" width="32" height="32" alt="" loading="lazy"><span>宝石海星超级进化波动</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0072.png" width="32" height="32" alt="" loading="lazy"><span>彗星碎片×6</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="084 任务084 深夜电视异闻录 调查40号道路上方的洋馆中的有关深夜电视的传闻. TM78×1 完成奖励 经验糖果S×2 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 点数 积分 BP BracerPoints">
@@ -818,29 +835,32 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP money" data-search="092 任务092 波导的勇者 孵化亚玄赠予的宝可梦蛋,并将进化后的宝可梦给亚玄看看. BracerPoints 10点 完成奖励 金钱8000元 完成奖励 额外解锁路卡利欧超级进化波动并登记亚玄电话；展示的路卡利欧是玩家已持有的，不是新赠送。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP mega money unlock" data-search="092 任务092 波导的勇者 孵化亚玄赠予的宝可梦蛋,并将进化后的宝可梦给亚玄看看. BracerPoints 10点 完成奖励 金钱8000元 完成奖励 路卡利欧超级进化波动 完成奖励 亚玄的电话号码 剧情登记电话时 额外解锁路卡利欧超级进化波动并登记亚玄电话；展示的路卡利欧是玩家已持有的，不是新赠送。 点数 积分 BP BracerPoints Mega 超级进化 波动 解锁">
 <span class="sq-number">092</span>
 <div class="sq-row-main"><a class="sq-title" href="092/">波导的勇者</a><p>孵化亚玄赠予的宝可梦蛋,并将进化后的宝可梦给亚玄看看.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">BracerPoints / 金钱</span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../pokemon/icons/0501.png" width="32" height="32" alt="" loading="lazy"><span>路卡利欧超级进化波动</span></span>
+<span class="sq-reward-preview" title="剧情登记电话时"><span>亚玄的电话号码</span></span>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="093 任务093 被遗忘的遗忘 帮助遗忘爷爷回忆起遗忘招式的方法. 水晶护符×1 完成奖励 经验糖果S×3 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 完成后开放免费遗忘招式服务。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="093 任务093 被遗忘的遗忘 帮助遗忘爷爷回忆起遗忘招式的方法. 水晶护符×1 完成奖励 经验糖果S×3 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 免费遗忘招式服务 完成后开放 完成后开放免费遗忘招式服务。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">093</span>
 <div class="sq-row-main"><a class="sq-title" href="093/">被遗忘的遗忘</a><p>帮助遗忘爷爷回忆起遗忘招式的方法.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成后开放"><span>免费遗忘招式服务</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_02E7.png" width="32" height="32" alt="" loading="lazy"><span>水晶护符×1</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_0219.png" width="32" height="32" alt="" loading="lazy"><span>经验糖果S×3</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="094 任务094 收集玻璃哨 帮助布尔乔瓦先生收集五种颜色的玻璃哨. 龙之宝石×1 完成奖励 BracerPoints 5点 完成奖励 金钱15000元 完成奖励 完成后可购买宝石；后续购买不能计作任务赠礼。 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="094 任务094 收集玻璃哨 帮助布尔乔瓦先生收集五种颜色的玻璃哨. 龙之宝石×1 完成奖励 BracerPoints 5点 完成奖励 金钱15000元 完成奖励 宝石购买服务（非免费赠送） 完成后开放；后续宝石需另行购买 完成后可购买宝石；后续购买不能计作任务赠礼。 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">094</span>
 <div class="sq-row-main"><a class="sq-title" href="094/">收集玻璃哨</a><p>帮助布尔乔瓦先生收集五种颜色的玻璃哨.</p></div>
 <div class="sq-row-rewards">
+<span class="sq-reward-preview" title="完成后开放；后续宝石需另行购买"><span>宝石购买服务（非免费赠送）</span></span>
 <span class="sq-reward-preview" title="完成奖励"><img class="sq-icon" src="../home/item_icons/item_029E.png" width="32" height="32" alt="" loading="lazy"><span>龙之宝石×1</span></span>
-<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
+<div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
 <article class="sq-row" data-sq-entry data-kind="BP item money" data-search="095 任务095 是谁在捣乱? 寻找周六出现在龙穴的捣乱的宝可梦. 胆怯球×1 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 点数 积分 BP BracerPoints">

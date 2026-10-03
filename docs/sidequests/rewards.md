@@ -5,17 +5,257 @@ hide:
 ---
 # 支线奖励反查
 
-道具、宝可梦、蛋、携带物、金钱与 BracerPoints 的任务获取途径。领取阶段与互斥条件随每条记录保留。
+道具、宝可梦、蛋、携带物、金钱、BracerPoints、Mega 波动与其他解锁的任务来源。波动代表超级进化权限，不代表赠送宝可梦。领取阶段与互斥条件随每条记录保留。
 
 <nav class="sq-tabs" aria-label="支线任务导航"><a href="../">任务目录</a><a href="./" aria-current="page">奖励反查</a></nav>
 
 <div class="sq-browser" data-sq-browser="rewards" markdown="1">
 <form class="sq-controls" role="search">
-<label class="sq-search"><span>搜索获取途径</span><input type="search" name="q" autocomplete="off" placeholder="道具、宝可梦、金钱、点数…"></label>
-<label><span>奖励类型</span><select name="kind"><option value="all">全部奖励</option><option value="pokemon">宝可梦与蛋</option><option value="item">道具</option><option value="money">金钱</option><option value="BP">BracerPoints 点数</option></select></label>
+<label class="sq-search"><span>搜索获取途径</span><input type="search" name="q" autocomplete="off" placeholder="道具、宝可梦、波动、教学、服装…"></label>
+<label><span>奖励类型</span><select name="kind"><option value="all">全部奖励</option><option value="pokemon">宝可梦与蛋</option><option value="item">道具</option><option value="mega">Mega 波动</option><option value="unlock">功能与服装解锁</option><option value="money">金钱</option><option value="BP">BracerPoints 点数</option></select></label>
 </form>
-<p class="sq-result" role="status" aria-live="polite" data-sq-count>共 137 种获得内容</p>
+<p class="sq-result" role="status" aria-live="polite" data-sq-count>共 161 种获得内容</p>
 <div class="sq-results" markdown="1">
+<section class="sq-acquisition" id="mega-18" data-sq-entry data-kind="mega" data-search="大比鸟超级进化波动 002 向往天空的理由 完成奖励 大比鸟超级进化波动 Mega 超级进化 波动" markdown="1">
+
+## 大比鸟超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0018.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[大比鸟（普通形态）](../pokemon/0018_大比鸟.md) · [超级大比鸟（Mega 形态）](../pokemon/0874_超级大比鸟.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务002 · 向往天空的理由](002.md#rewards) | 大比鸟超级进化波动 | 完成奖励<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="mega-36" data-sq-entry data-kind="mega" data-search="皮可西超级进化波动 004 霓虹灯外的月光 完成奖励 皮可西超级进化波动 Mega 超级进化 波动" markdown="1">
+
+## 皮可西超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0036.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[皮可西（普通形态）](../pokemon/0036_皮可西.md) · [皮可西（Mega 形态）](../pokemon/0271_皮可西.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务004 · 霓虹灯外的月光](004.md#rewards) | 皮可西超级进化波动 | 完成奖励<br>源码与对白确认 |
+
+</section>
+<section class="sq-acquisition" id="mega-80" data-sq-entry data-kind="mega" data-search="呆壳兽超级进化波动 041 异样的呆呆兽 完成奖励 呆壳兽超级进化波动 Mega 超级进化 波动" markdown="1">
+
+## 呆壳兽超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0080.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[呆壳兽（普通形态）](../pokemon/0080_呆壳兽.md) · [超级呆壳兽（Mega 形态）](../pokemon/0876_超级呆壳兽.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务041 · 异样的呆呆兽](041.md#rewards) | 呆壳兽超级进化波动 | 完成奖励<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="mega-121" data-sq-entry data-kind="mega" data-search="宝石海星超级进化波动 083 海星连接宇宙 完成奖励 宝石海星超级进化波动 Mega 超级进化 波动" markdown="1">
+
+## 宝石海星超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0121.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[宝石海星（普通形态）](../pokemon/0121_宝石海星.md) · [宝石海星（Mega 形态）](../pokemon/0276_宝石海星.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务083 · 海星连接宇宙](083.md#rewards) | 宝石海星超级进化波动 | 完成奖励<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="mega-212" data-sq-entry data-kind="mega" data-search="巨钳螳螂超级进化波动 003 钢铁与黑曜 森林结尾奖励（源码，触发待核） 巨钳螳螂超级进化波动（源码已定义，触发待核） Mega 超级进化 波动" markdown="1">
+
+## 巨钳螳螂超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0212.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[巨钳螳螂（普通形态）](../pokemon/0212_巨钳螳螂.md) · [超级巨钳螳螂（Mega 形态）](../pokemon/0886_超级巨钳螳螂.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务003 · 钢铁与黑曜](003.md#rewards) | 巨钳螳螂超级进化波动（源码已定义，触发待核） | 森林结尾奖励（源码，触发待核）<br>源码确认，游戏内触发待核 |
+
+</section>
+<section class="sq-acquisition" id="mega-322" data-sq-entry data-kind="mega" data-search="勾魂眼超级进化波动 065 闪闪发光的误会 完成奖励 勾魂眼超级进化波动 Mega 超级进化 波动" markdown="1">
+
+## 勾魂眼超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0322.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[勾魂眼（普通形态）](../pokemon/0322_勾魂眼.md) · [超级勾魂眼（Mega 形态）](../pokemon/0894_超级勾魂眼.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务065 · 闪闪发光的误会](065.md#rewards) | 勾魂眼超级进化波动 | 完成奖励<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="mega-501" data-sq-entry data-kind="mega" data-search="路卡利欧超级进化波动 092 波导的勇者 完成奖励 路卡利欧超级进化波动 Mega 超级进化 波动" markdown="1">
+
+## 路卡利欧超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0501.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[路卡利欧（普通形态）](../pokemon/0501_路卡利欧.md) · [超级路卡利欧（Mega 形态）](../pokemon/0914_超级路卡利欧.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务092 · 波导的勇者](092.md#rewards) | 路卡利欧超级进化波动 | 完成奖励<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="mega-531" data-sq-entry data-kind="mega" data-search="雪妖女超级进化波动 005 无法冻结的时间 完成奖励 雪妖女超级进化波动 Mega 超级进化 波动" markdown="1">
+
+## 雪妖女超级进化波动
+
+<img class="sq-icon" src="../../pokemon/icons/0531.png" width="32" height="32" alt="" loading="lazy"> 关联资料：[雪妖女（普通形态）](../pokemon/0531_雪妖女.md) · [雪妖女（Mega 形态）](../pokemon/1491_雪妖女.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务005 · 无法冻结的时间](005.md#rewards) | 雪妖女超级进化波动 | 完成奖励<br>源码与对白确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-gem-shop" data-sq-entry data-kind="unlock" data-search="宝石购买服务 094 收集玻璃哨 完成后开放；后续宝石需另行购买 宝石购买服务（非免费赠送） 解锁" markdown="1">
+
+## 宝石购买服务
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务094 · 收集玻璃哨](094.md#rewards) | 宝石购买服务（非免费赠送） | 完成后开放；后续宝石需另行购买<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-hidden-power-service" data-sq-entry data-kind="unlock" data-search="觉醒力量属性服务 035 沉睡的潜能 完成后开放；修改属性需要心之鳞片 觉醒力量属性查看与修改（心之鳞片为修改费用） 解锁" markdown="1">
+
+## 觉醒力量属性服务
+
+ 关联资料：[觉醒力量](../moves/0237_觉醒力量.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务035 · 沉睡的潜能](035.md#rewards) | 觉醒力量属性查看与修改（心之鳞片为修改费用） | 完成后开放；修改属性需要心之鳞片<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-hyper-training" data-sq-entry data-kind="unlock" data-search="极限特训 033 最后的大哥秀 完成后开放；50级以上宝可梦，使用金色或银色王冠 极限特训服务（王冠为使用费用） 解锁" markdown="1">
+
+## 极限特训
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务033 · 最后的大哥秀](033.md#rewards) | 极限特训服务（王冠为使用费用） | 完成后开放；50级以上宝可梦，使用金色或银色王冠<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-move-deleter" data-sq-entry data-kind="unlock" data-search="免费遗忘招式 093 被遗忘的遗忘 完成后开放 免费遗忘招式服务 解锁" markdown="1">
+
+## 免费遗忘招式
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务093 · 被遗忘的遗忘](093.md#rewards) | 免费遗忘招式服务 | 完成后开放<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-outfit-sea-guardian" data-sq-entry data-kind="unlock" data-search="美极套装（海之神主题） 052 如梦似幻般的银 完成服装后获赠 美极套装（海之神主题；服装解锁） 解锁" markdown="1">
+
+## 美极套装（海之神主题）
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务052 · 如梦似幻般的银](052.md#rewards) | 美极套装（海之神主题；服装解锁） | 完成服装后获赠<br>对白确认；主题为描述性标注 |
+
+</section>
+<section class="sq-acquisition" id="unlock-outfit-suicune" data-sq-entry data-kind="unlock" data-search="美极套装（水君主题） 071 遥远的约定 完成奖励 美极套装（水君主题；服装解锁） 解锁" markdown="1">
+
+## 美极套装（水君主题）
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务071 · 遥远的约定](071.md#rewards) | 美极套装（水君主题；服装解锁） | 完成奖励<br>对白确认；主题为描述性标注 |
+
+</section>
+<section class="sq-acquisition" id="unlock-phone-ai" data-sq-entry data-kind="unlock" data-search="爱电话 042 闪耀的一等星 剧情登记电话时 爱的电话号码 解锁" markdown="1">
+
+## 爱电话
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务042 · 闪耀的一等星](042.md#rewards) | 爱的电话号码 | 剧情登记电话时<br>登记提示确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-phone-hajime" data-sq-entry data-kind="unlock" data-search="阿始电话 031 阿始的新节目 剧情登记电话时 阿始的电话号码 解锁" markdown="1">
+
+## 阿始电话
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务031 · 阿始的新节目](031.md#rewards) | 阿始的电话号码 | 剧情登记电话时<br>登记提示确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-phone-monk-wunian" data-sq-entry data-kind="unlock" data-search="僧侣勿念电话 025 修行的难题 同意交换电话后 僧侣勿念的电话号码 解锁" markdown="1">
+
+## 僧侣勿念电话
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务025 · 修行的难题](025.md#rewards) | 僧侣勿念的电话号码 | 同意交换电话后<br>登记提示确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-phone-pokemaniac-daidai" data-sq-entry data-kind="unlock" data-search="怪兽狂袋袋电话 041 异样的呆呆兽 剧情登记电话时 怪兽狂袋袋的电话号码 解锁" markdown="1">
+
+## 怪兽狂袋袋电话
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务041 · 异样的呆呆兽](041.md#rewards) | 怪兽狂袋袋的电话号码 | 剧情登记电话时<br>登记提示确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-phone-pokemon-grandpa" data-sq-entry data-kind="unlock" data-search="精灵爷爷电话 017 精灵爷爷的实验 剧情登记电话时 精灵爷爷的电话号码 解锁" markdown="1">
+
+## 精灵爷爷电话
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务017 · 精灵爷爷的实验](017.md#rewards) | 精灵爷爷的电话号码 | 剧情登记电话时<br>登记提示确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-phone-professors-wife" data-sq-entry data-kind="unlock" data-search="博士妻子电话 020 收集研究所物资 剧情登记电话时 博士妻子的电话号码 解锁" markdown="1">
+
+## 博士妻子电话
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务020 · 收集研究所物资](020.md#rewards) | 博士妻子的电话号码 | 剧情登记电话时<br>登记提示确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-phone-riley" data-sq-entry data-kind="unlock" data-search="亚玄电话 092 波导的勇者 剧情登记电话时 亚玄的电话号码 解锁" markdown="1">
+
+## 亚玄电话
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务092 · 波导的勇者](092.md#rewards) | 亚玄的电话号码 | 剧情登记电话时<br>登记提示确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-tutor-mystical-fire" data-sq-entry data-kind="unlock" data-search="魔法火焰教学 044 闪耀的暗影 完成后找爱学习 魔法火焰招式教学 解锁" markdown="1">
+
+## 魔法火焰教学
+
+ 关联资料：[魔法火焰](../moves/0566_魔法火焰.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务044 · 闪耀的暗影](044.md#rewards) | 魔法火焰招式教学 | 完成后找爱学习<br>对白确认 |
+
+</section>
+<section class="sq-acquisition" id="unlock-tutor-tailwind" data-sq-entry data-kind="unlock" data-search="顺风教学 046 诡异的绿光 完成后展示成长后的宝可梦；非完成即自动开放 顺风招式教学 解锁" markdown="1">
+
+## 顺风教学
+
+ 关联资料：[顺风](../moves/0472_顺风.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务046 · 诡异的绿光](046.md#rewards) | 顺风招式教学 | 完成后展示成长后的宝可梦；非完成即自动开放<br>对白确认，展示条件按原文保留 |
+
+</section>
+<section class="sq-acquisition" id="unlock-tutor-toxic-spikes" data-sq-entry data-kind="unlock" data-search="毒菱教学 077 忍法！捉迷藏 完成捉迷藏后，前往见习忍者家中学习 毒菱招式教学 解锁" markdown="1">
+
+## 毒菱教学
+
+ 关联资料：[毒菱](../moves/0469_毒菱.md)
+
+| 来源任务 | 获得内容 | 阶段与条件 |
+|---|---|---|
+| [任务077 · 忍法！捉迷藏](077.md#rewards) | 毒菱招式教学 | 完成捉迷藏后，前往见习忍者家中学习<br>对白确认 |
+
+</section>
 <section class="sq-acquisition" id="items-1" data-sq-entry data-kind="item" data-search="大师球 056 遗失的玩偶 完成奖励 大师球×1" markdown="1">
 
 ## 大师球
