@@ -32,6 +32,12 @@
 .sq-tag-mega { color: #356ca0; }
 .sq-tag-unlock { color: #8a6428; }
 .sq-basis { color: var(--md-default-fg-color--light); font-size: .65rem; }
+.md-typeset .sq-map { margin: 1.2rem 0 1.8rem; max-width: 100%; text-align: left; }
+.sq-map > a { display: block; width: fit-content; max-width: 100%; }
+.sq-map img { display: block; max-width: 100%; max-height: 44rem; object-fit: contain; object-position: left; image-rendering: pixelated; border: 1px solid var(--md-default-fg-color--lightest); }
+.md-typeset .sq-map figcaption { margin: .5rem 0; max-width: 100%; font-style: normal; color: var(--md-default-fg-color--light); font-size: .7rem; overflow-wrap: anywhere; }
+.md-typeset .sq-scene-location { padding: .5rem .7rem; font-size: .7rem; border-left: 3px solid var(--azoth-accent); background: var(--azoth-card-bg); overflow-wrap: anywhere; }
+.sq-location-table td { overflow-wrap: anywhere; }
 .sq-muted { color: var(--md-default-fg-color--light); }
 .sq-empty { padding: 2rem 0; text-align: center; color: var(--md-default-fg-color--light); }
 .sq-acquisition { padding: .6rem 0 1.2rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); scroll-margin-top: 5rem; }
@@ -62,6 +68,10 @@
   .sq-stats { gap: .8rem 1.3rem; }
   .sq-stats strong { font-size: 1.35rem; }
   .sq-acquisition .md-typeset__scrollwrap { margin: 0; }
+  .sq-location-table .md-typeset__scrollwrap { margin: 0; }
+  .sq-location-table .md-typeset__table { display: block; padding: 0; }
+  .md-typeset .sq-location-table table:not([class]) { display: table; width: 100%; table-layout: fixed; font-size: .6rem; }
+  .md-typeset .sq-location-table table:not([class]) th, .md-typeset .sq-location-table table:not([class]) td { min-width: 0; padding: .35rem; overflow-wrap: anywhere; }
   .sq-acquisition .md-typeset__table { display: block; padding: 0; }
   .md-typeset .sq-acquisition table:not([class]) { display: table; width: 100%; table-layout: fixed; font-size: .65rem; }
   .md-typeset .sq-acquisition table:not([class]) th, .md-typeset .sq-acquisition table:not([class]) td { min-width: 0; padding: .45rem; overflow-wrap: anywhere; }
