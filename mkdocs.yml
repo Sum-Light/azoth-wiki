@@ -29,6 +29,10 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/sidequests.css
+
+extra_javascript:
+  - javascripts/sidequests.js
 
 markdown_extensions:
   - tables
@@ -42,6 +46,7 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
+  - 支线任务: sidequests/index.md
   - 公告: news/index.md
   - 宝可梦图鉴: pokemon/index.md
   - 招式一览: moves/index.md

@@ -1,0 +1,66 @@
+/* Quest pages inherit the wiki palette, including its dark scheme. */
+.sq-browser, .sq-dialogue, .sq-objective, .sq-tabs, .sq-stats { letter-spacing: 0; }
+.md-typeset .sq-lead { font-size: 1.1rem; margin: -.6rem 0 1rem; color: var(--md-default-fg-color--light); }
+.sq-stats { display: flex; flex-wrap: wrap; gap: 1rem 2rem; padding: .8rem 0; border-block: 1px solid var(--md-default-fg-color--lightest); }
+.sq-stats span { display: flex; align-items: baseline; gap: .5rem; font-size: .75rem; }
+.sq-stats strong { font-size: 1.65rem; font-variant-numeric: tabular-nums; color: var(--azoth-accent-dark); }
+.sq-tabs { display: flex; gap: 1.4rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); margin: 1.2rem 0; }
+.sq-tabs a { padding: .6rem .15rem; font-weight: 600; border-bottom: 3px solid transparent; }
+.sq-tabs a[aria-current] { border-color: var(--azoth-accent); }
+.sq-controls { display: flex; gap: .75rem; align-items: end; margin: 1rem 0 .5rem; }
+.sq-controls label { display: flex; flex-direction: column; gap: .3rem; font-size: .7rem; min-width: 0; }
+.sq-controls .sq-search { flex: 1; }
+.sq-controls input, .sq-controls select { border: 1px solid var(--md-default-fg-color--lighter); border-radius: 6px; min-height: 44px; padding: .55rem .7rem; font: inherit; font-size: .8rem; color: var(--md-default-fg-color); background: var(--md-default-bg-color); width: 100%; }
+.sq-controls select { min-width: 10rem; }
+.sq-controls input:focus-visible, .sq-controls select:focus-visible, .sq-tabs a:focus-visible, .sq-title:focus-visible { outline: 2px solid var(--azoth-accent); outline-offset: 3px; }
+.md-typeset .sq-result { font-size: .7rem; color: var(--md-default-fg-color--light); margin: .6rem 0; }
+.sq-row { display: grid; grid-template-columns: 2.5rem minmax(0, 1.1fr) minmax(0, 1fr); gap: .8rem; align-items: start; padding: 1rem .5rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.sq-row:hover { background: var(--azoth-card-bg); }
+.sq-row[hidden], .sq-acquisition[hidden], .sq-empty[hidden] { display: none; }
+.sq-number { font-size: .8rem; font-variant-numeric: tabular-nums; color: var(--md-default-fg-color--light); padding-top: .18rem; }
+.sq-title { font-weight: 700; font-size: .9rem; line-height: 1.5; overflow-wrap: anywhere; }
+.md-typeset .sq-row-main p { margin: .35rem 0 0; font-size: .7rem; color: var(--md-default-fg-color--light); line-height: 1.7; overflow-wrap: anywhere; }
+.sq-row-rewards { display: flex; flex-direction: column; gap: .2rem; min-width: 0; font-size: .7rem; }
+.sq-reward-preview { display: flex; gap: .3rem; align-items: center; min-height: 1.6rem; overflow-wrap: anywhere; }
+.sq-icon { display: inline-block; width: 32px; height: 32px; object-fit: contain; image-rendering: pixelated; flex: 0 0 32px; vertical-align: middle; }
+.sq-tags { display: flex; flex-wrap: wrap; gap: .25rem; margin-top: .4rem; }
+.sq-tag { font-size: .6rem; padding: .05rem .4rem; border-radius: 4px; border: 1px solid currentColor; }
+.sq-tag-item { color: #5b659b; }
+.sq-tag-pokemon { color: #277662; }
+.sq-tag-money { color: #84621b; }
+.sq-tag-BP { color: #a14f64; }
+.sq-muted { color: var(--md-default-fg-color--light); }
+.sq-empty { padding: 2rem 0; text-align: center; color: var(--md-default-fg-color--light); }
+.sq-acquisition { padding: .6rem 0 1.2rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); scroll-margin-top: 5rem; }
+.sq-acquisition h2 { margin-top: .5rem; }
+.sq-acquisition table { width: 100%; }
+.sq-objective { border-left: 3px solid var(--azoth-accent); padding: .7rem 1rem; margin: 1.2rem 0; background: var(--azoth-card-bg); }
+.sq-objective > span { color: var(--azoth-accent-dark); font-weight: 700; font-size: .7rem; }
+.md-typeset .sq-objective p { margin: .3rem 0 0; }
+.sq-dialogue { border-left: 1px solid var(--md-default-fg-color--lightest); padding-left: 1rem; margin-bottom: 1.8rem; }
+.sq-speech + .sq-speech { margin-top: 1rem; }
+.sq-speaker { display: block; color: var(--azoth-accent-dark); font-size: .75rem; margin-bottom: .35rem; }
+.md-typeset .sq-speech p { margin: .4rem 0; line-height: 1.9; overflow-wrap: anywhere; }
+.sq-pagination { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--md-default-fg-color--lightest); }
+.sq-pagination a { max-width: 100%; overflow-wrap: anywhere; }
+[data-md-color-scheme="slate"] .sq-stats strong, [data-md-color-scheme="slate"] .sq-speaker, [data-md-color-scheme="slate"] .sq-objective > span { color: #80d5c8; }
+[data-md-color-scheme="slate"] .sq-tag-item { color: #b8bdea; }
+[data-md-color-scheme="slate"] .sq-tag-pokemon { color: #88c9b2; }
+[data-md-color-scheme="slate"] .sq-tag-money { color: #e0c580; }
+[data-md-color-scheme="slate"] .sq-tag-BP { color: #e5a0b4; }
+@media (max-width: 700px) {
+  .sq-row { grid-template-columns: 2rem minmax(0, 1fr); gap: .4rem .6rem; }
+  .sq-row-rewards { grid-column: 2; margin-top: .3rem; }
+  .sq-controls { flex-wrap: wrap; }
+  .sq-controls .sq-search { flex-basis: 100%; }
+  .sq-controls > label:last-child { width: 100%; }
+  .sq-stats { gap: .8rem 1.3rem; }
+  .sq-stats strong { font-size: 1.35rem; }
+  .sq-acquisition .md-typeset__scrollwrap { margin: 0; }
+  .sq-acquisition .md-typeset__table { display: block; padding: 0; }
+  .md-typeset .sq-acquisition table:not([class]) { display: table; width: 100%; table-layout: fixed; font-size: .65rem; }
+  .md-typeset .sq-acquisition table:not([class]) th, .md-typeset .sq-acquisition table:not([class]) td { min-width: 0; padding: .45rem; overflow-wrap: anywhere; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sq-row { transition: none; }
+}
