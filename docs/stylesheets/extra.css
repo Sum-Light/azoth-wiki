@@ -294,8 +294,10 @@
   text-align: center;
 }
 .news-gallery img {
-  width: 100%;
-  display: block;
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
   image-rendering: pixelated;
 }
 .news-gallery figcaption {
