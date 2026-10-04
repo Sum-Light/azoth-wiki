@@ -27,6 +27,15 @@
 19. 修复了擂钵山的弃世猴在周六而不是周日刷新的 BUG
 20. 修复了缘朱市钥匙隐藏道具可能会莫名消失的问题
 
+<div class="news-gallery">
+<figure><img src="images/v12_clock.png" alt="虚拟时钟"><figcaption>11. 虚拟时钟（可调流速）</figcaption></figure>
+<figure><img src="images/v12_passtime.png" alt="消磨时间"><figcaption>15. 消磨时间</figcaption></figure>
+<figure><img src="images/v12_quickbattle.png" alt="快速战斗"><figcaption>13. 快速战斗设置</figcaption></figure>
+<figure><img src="images/v12_sharpness.png" alt="锋锐"><figcaption>6. 艾路雷朵 MEGA「锋锐」</figcaption></figure>
+<figure><img src="images/v12_quest.gif" alt="任务概况"><figcaption>14. 任务概况（SELECT）</figcaption></figure>
+<figure><img src="images/v12_overworld.gif" alt="明雷"><figcaption>13/17. 明雷与快速战斗</figcaption></figure>
+</div>
+
 ### 下载（v1.2）
 
 | 渠道 | 链接 |
