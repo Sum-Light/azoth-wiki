@@ -5,9 +5,13 @@ title: 支线任务
 
 <p class="sq-lead">从皮丘的旅途，到被解开的封印。</p>
 <div class="sq-stats"><span><strong>96</strong> 项任务</span><span><strong>118</strong> 种道具</span><span><strong>15</strong> 种宝可梦</span><span><strong>8</strong> 种 Mega 波动</span><span><strong>16</strong> 项其他解锁</span></div>
-任务001–096 · 对白与奖励快照：2026-10-03。分支奖励分别列出，不作累计。
+任务001–096 · 对白与奖励快照：2026-10-04。分支奖励分别列出，不作累计。
 
 <nav class="sq-tabs" aria-label="支线任务导航"><a href="./" aria-current="page">任务目录</a><a href="rewards/">奖励反查</a></nav>
+
+**266 个剧情阶段 · 300 页游戏见闻录**，已同步阶段条件与补齐对白。
+
+[阶段总表](stages.md) · [涉及地图](maps.md) · [下载修订台本（Word）](downloads/sidequest-scriptbook-20261004.docx)
 
 <div class="sq-browser" data-sq-browser="quests">
 <form class="sq-controls" role="search">
@@ -16,7 +20,7 @@ title: 支线任务
 </form>
 <p class="sq-result" role="status" aria-live="polite" data-sq-count>共 96 项任务</p>
 <div class="sq-results">
-<article class="sq-row" data-sq-entry data-kind="BP pokemon" data-search="001 任务001 皮丘的旅途 带着皮丘去桐树林看看吧. BracerPoints 6点 完成奖励 刺刺耳皮丘 Lv.5（携带：无） 完成奖励 赠送的是刺刺耳皮丘（物种槽1100），不是普通皮丘。岩铁身份已按用户确认。 吉野市 3.67 桐树林 1.121 桐树林 1.121 彩虹百货大楼 0.0 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP pokemon" data-search="001 任务001 皮丘的旅途 带着皮丘去桐树林看看吧. BracerPoints 6点 完成奖励 刺刺耳皮丘 Lv.5（携带：无） 完成奖励 赠送的是刺刺耳皮丘（物种槽1100），不是普通皮丘。岩铁身份已按用户确认。 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 吉野市 3.67 桐树林 1.121 桐树林 1.121 彩虹百货大楼 0.0 点数 积分 BP BracerPoints">
 <span class="sq-number">001</span>
 <div class="sq-row-main"><a class="sq-title" href="001/">皮丘的旅途</a><p>带着皮丘去桐树林看看吧.</p></div>
 <div class="sq-row-rewards">
@@ -32,7 +36,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="003 任务003 钢铁与黑曜 去桐树林寻找阿笔,协助他完成有关虫宝可梦的研究. 黑奇石×1 森林战斗后获得 金属膜×1 森林结尾奖励（源码） BracerPoints 10点 森林结尾奖励（源码） 金钱12000元 森林结尾奖励（源码） 巨钳螳螂超级进化波动（源码已定义，触发待核） 森林结尾奖励（源码，触发待核） 本次补查森林结尾源码：黑奇石、金属膜、10BP、12000元，并解锁巨钳螳螂超级进化波动。原任务表完成Flag与森林源码不同，故上一版文本未收进这段；此处记录源码定义，未声称已验证游戏内触发。  桧皮镇 47.0 点数 积分 BP BracerPoints Mega 超级进化 波动">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="003 任务003 钢铁与黑曜 去桐树林寻找阿笔,协助他完成有关虫宝可梦的研究. 黑奇石×1 森林战斗后获得 金属膜×1 森林结尾奖励（源码） BracerPoints 10点 森林结尾奖励（源码） 金钱12000元 森林结尾奖励（源码） 巨钳螳螂超级进化波动（源码已定义，触发待核） 森林结尾奖励（源码，触发待核） 森林后续已补入台本，任务表接取/完成标志已修正为0xB9A→0xB9E。森林结尾发放黑奇石、金属膜、10BP、12000元，并解锁巨钳螳螂超级进化波动。 桧皮镇 47.0 桐树林 1.121 桐树林 1.121 满金市 3.75 满金市 3.75 满金市 3.75 满金市 3.75 桧皮镇 47.0 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">003</span>
 <div class="sq-row-main"><a class="sq-title" href="003/">钢铁与黑曜</a><p>去桐树林寻找阿笔,协助他完成有关虫宝可梦的研究.</p></div>
 <div class="sq-row-rewards">
@@ -42,7 +46,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="004 任务004 霓虹灯外的月光 帮助小茜与皮可西学会接纳自己. 月之石×1 完成奖励 BracerPoints 10点 完成奖励 金钱12000元 完成奖励 皮可西超级进化波动 完成奖励 额外解锁皮可西超级进化波动。  满金市 50.19 点数 积分 BP BracerPoints Mega 超级进化 波动">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="004 任务004 霓虹灯外的月光 帮助小茜与皮可西学会接纳自己. 月之石×1 完成奖励 BracerPoints 10点 完成奖励 金钱12000元 完成奖励 皮可西超级进化波动 完成奖励 额外解锁皮可西超级进化波动。 自然公园 55.59 满金市 50.28 满金市 50.19 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">004</span>
 <div class="sq-row-main"><a class="sq-title" href="004/">霓虹灯外的月光</a><p>帮助小茜与皮可西学会接纳自己.</p></div>
 <div class="sq-row-rewards">
@@ -51,7 +55,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="005 任务005 无法冻结的时间 和柳伯一起去冰天地看看无法融化的冰壁. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 雪妖女超级进化波动 完成奖励 额外解锁雪妖女超级进化波动。小拉普拉斯由柳伯留下，脚本没有把它作为玩家赠礼。  擂钵山 55.13 点数 积分 BP BracerPoints Mega 超级进化 波动">
+<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="005 任务005 无法冻结的时间 和柳伯一起去冰天地看看无法融化的冰壁. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 雪妖女超级进化波动 完成奖励 额外解锁雪妖女超级进化波动。小拉普拉斯由柳伯留下，脚本没有把它作为玩家赠礼。 擂钵山 55.13 真新镇 52.25 冰天地 53.17 满金市 3.75 冰天地 53.7 擂钵山 55.13 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">005</span>
 <div class="sq-row-main"><a class="sq-title" href="005/">无法冻结的时间</a><p>和柳伯一起去冰天地看看无法融化的冰壁.</p></div>
 <div class="sq-row-rewards">
@@ -75,7 +79,7 @@ title: 支线任务
 <div class="sq-tags"></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="008 任务008 冻土上的捉迷藏 在纯白冻土里找回失散的三只宝可梦. 本阶段未见独立发奖指令；洗翠篇统一结算见任务011。 纯白冻土 52.23 纯白冻土 52.24 纯白冻土 52.24 擂钵山 56.42">
+<article class="sq-row" data-sq-entry data-kind="" data-search="008 任务008 冻土上的捉迷藏 在纯白冻土里找回失散的三只宝可梦. 本阶段未见独立发奖指令；洗翠篇统一结算见任务011。 纯白冻土 52.23 纯白冻土 52.23 纯白冻土 52.24 擂钵山 56.42">
 <span class="sq-number">008</span>
 <div class="sq-row-main"><a class="sq-title" href="008/">冻土上的捉迷藏</a><p>在纯白冻土里找回失散的三只宝可梦.</p></div>
 <div class="sq-row-rewards">
@@ -83,7 +87,7 @@ title: 支线任务
 <div class="sq-tags"></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="009 任务009 纯白的魅影 寻找木木枭时,遭遇了洗翠索罗亚克的幻影.小心它的速度,准备迎战! 本阶段未见独立发奖指令；洗翠篇统一结算见任务011。 纯白冻土 52.24 纯白冻土 52.24 纯白冻土 52.24 擂钵山 56.42">
+<article class="sq-row" data-sq-entry data-kind="" data-search="009 任务009 纯白的魅影 寻找木木枭时,遭遇了洗翠索罗亚克的幻影.小心它的速度,准备迎战! 本阶段未见独立发奖指令；洗翠篇统一结算见任务011。 纯白冻土 52.24 纯白冻土 52.24 擂钵山 56.42">
 <span class="sq-number">009</span>
 <div class="sq-row-main"><a class="sq-title" href="009/">纯白的魅影</a><p>寻找木木枭时,遭遇了洗翠索罗亚克的幻影.小心它的速度,准备迎战!</p></div>
 <div class="sq-row-rewards">
@@ -269,7 +273,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item" data-search="030 任务030 七大不可思议 探究训练家学校七大不可思议的真相. 电气球×1 完成奖励 BracerPoints 8点 完成奖励 桔梗市 46.7 桔梗市 56.7 桔梗市 46.7 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item" data-search="030 任务030 七大不可思议 探究训练家学校七大不可思议的真相. 电气球×1 完成奖励 BracerPoints 8点 完成奖励 桔梗市 46.7 桔梗市 56.7 桔梗市 56.0 桔梗市 56.0 桔梗市 56.0 桔梗市 56.2 桔梗市 56.3 桔梗市 56.3 桔梗市 56.4 桔梗市 56.5 桔梗市 56.5 桔梗市 56.5 桔梗市 56.5 桔梗市 56.6 桔梗市 56.6 桔梗市 56.7 桔梗市 46.7 点数 积分 BP BracerPoints">
 <span class="sq-number">030</span>
 <div class="sq-row-main"><a class="sq-title" href="030/">七大不可思议</a><p>探究训练家学校七大不可思议的真相.</p></div>
 <div class="sq-row-rewards">
@@ -315,7 +319,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="035 任务035 沉睡的潜能 帮助阿露福遗迹的超能力者收集所有形态的未知图腾,探究宝可梦沉睡的潜能. TM10×1 完成奖励 BracerPoints 8点 完成奖励 金钱9000元 完成奖励 觉醒力量属性查看与修改（心之鳞片为修改费用） 完成后开放；修改属性需要心之鳞片 完成后开放觉醒力量属性查看与修改；修改所需心之鳞片是费用，不是奖励。  阿露福遗迹 1.47 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="035 任务035 沉睡的潜能 帮助阿露福遗迹的超能力者收集所有形态的未知图腾,探究宝可梦沉睡的潜能. TM10×1 完成奖励 BracerPoints 8点 完成奖励 金钱9000元 完成奖励 觉醒力量属性查看与修改（心之鳞片为修改费用） 完成后开放；修改属性需要心之鳞片 完成后开放觉醒力量属性查看与修改；修改所需心之鳞片是费用，不是奖励。 阿露福遗迹 1.47 阿露福遗迹 1.47 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">035</span>
 <div class="sq-row-main"><a class="sq-title" href="035/">沉睡的潜能</a><p>帮助阿露福遗迹的超能力者收集所有形态的未知图腾,探究宝可梦沉睡的潜能.</p></div>
 <div class="sq-row-rewards">
@@ -367,7 +371,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item mega money unlock" data-search="041 任务041 异样的呆呆兽 调查呆呆兽之井里异样的呆呆兽. 王者之证×3 完成奖励 金钱5000元 完成奖励 BracerPoints 4点 完成奖励 呆壳兽超级进化波动 完成奖励 怪兽狂袋袋的电话号码 剧情登记电话时 额外解锁呆壳兽超级进化波动。 呆呆兽之井 1.94 呆呆兽之井 1.94 寂静之丘 1.96 呆呆兽之井 1.94 点数 积分 BP BracerPoints Mega 超级进化 波动 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money unlock" data-search="041 任务041 异样的呆呆兽 调查呆呆兽之井里异样的呆呆兽. 王者之证×3 完成奖励 金钱5000元 完成奖励 BracerPoints 4点 完成奖励 呆壳兽超级进化波动 完成奖励 怪兽狂袋袋的电话号码 剧情登记电话时 额外解锁呆壳兽超级进化波动。 呆呆兽之井 1.94 幻影之森 1.112 桐树林 1.121 自然公园 1.124 呆呆兽之井 1.94 寂静之丘 1.96 寂静之丘 1.96 45号道路 3.101 浅葱市 3.72 满金市 3.76 连接洞 3.94 42号道路 3.97 喇叭芽之塔 52.2 擂钵山 55.12 擂钵山 55.8 不知名遗迹 56.21 47号道路 56.25 48号道路 56.26 断崖通道 56.30 破海洞穴 56.35 呆呆兽之井 1.94 点数 积分 BP BracerPoints Mega 超级进化 波动 解锁">
 <span class="sq-number">041</span>
 <div class="sq-row-main"><a class="sq-title" href="041/">异样的呆呆兽</a><p>调查呆呆兽之井里异样的呆呆兽.</p></div>
 <div class="sq-row-rewards">
@@ -471,7 +475,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="052 任务052 如梦似幻般的银 寻找有关服装店店员梦中见到的银色宝可梦的线索. 银之护符×2 完成奖励 BracerPoints 8点 完成奖励 金钱10000元 完成奖励 美极套装（海之神主题；服装解锁） 完成服装后获赠 服装对白与服装状态另列为剧情解锁；不能把它误计成背包中的银之护符。 满金市 50.11 缘朱市 48.1 满金市 50.11 满金市 50.11 满金市 50.11 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="052 任务052 如梦似幻般的银 寻找有关服装店店员梦中见到的银色宝可梦的线索. 银之护符×2 完成奖励 BracerPoints 8点 完成奖励 金钱10000元 完成奖励 美极套装（海之神主题；服装解锁） 完成服装后获赠 服装对白与服装状态另列为剧情解锁；不能把它误计成背包中的银之护符。 满金市 50.11 缘朱市 48.1 满金市 50.11 满金市 50.11 浅葱市 3.72 湛蓝市 49.1 满金市 50.11 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">052</span>
 <div class="sq-row-main"><a class="sq-title" href="052/">如梦似幻般的银</a><p>寻找有关服装店店员梦中见到的银色宝可梦的线索.</p></div>
 <div class="sq-row-rewards">
@@ -532,7 +536,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP money pokemon" data-search="058 任务058 五彩斑斓的头巾 帮助梅丽莎收集五种颜色的头巾. 丑丑鱼 Lv.20（携带：无） 完成奖励 BracerPoints 10点 完成奖励 金钱10000元 完成奖励 丑丑鱼Lv.20，无携带道具。  满金市 35.4 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP money pokemon" data-search="058 任务058 五彩斑斓的头巾 帮助梅丽莎收集五种颜色的头巾. 丑丑鱼 Lv.20（携带：无） 完成奖励 BracerPoints 10点 完成奖励 金钱10000元 完成奖励 丑丑鱼Lv.20，无携带道具。 满金市 4.151 满金市 35.4 点数 积分 BP BracerPoints">
 <span class="sq-number">058</span>
 <div class="sq-row-main"><a class="sq-title" href="058/">五彩斑斓的头巾</a><p>帮助梅丽莎收集五种颜色的头巾.</p></div>
 <div class="sq-row-rewards">
@@ -550,7 +554,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="060 任务060 头号球迷的朝圣 带阿球拜访桧皮镇的钢铁先生. 究极球×5 完成奖励 梦境球×5 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 贵重球×5 后续阿球对战：随机一种（各分支互斥） 黑暗球×5 后续阿球对战：随机一种（各分支互斥） 治愈球×5 后续阿球对战：随机一种（各分支互斥） 先机球×5 后续阿球对战：随机一种（各分支互斥） 狩猎球×5 后续阿球对战：随机一种（各分支互斥） 纪念球×5 后续阿球对战：随机一种（各分支互斥） 究极球×5 后续阿球对战：随机一种（各分支互斥） 梦境球×5 后续阿球对战：随机一种（各分支互斥） 豪华球×5 后续阿球对战：随机一种（各分支互斥） 捕网球×5 后续阿球对战：随机一种（各分支互斥） 潜水球×5 后续阿球对战：随机一种（各分支互斥） 巢穴球×5 后续阿球对战：随机一种（各分支互斥） 重复球×5 后续阿球对战：随机一种（各分支互斥） 计时球×5 后续阿球对战：随机一种（各分支互斥） 后续阿球对战按random 14选择一种球×5，十四种互斥，不是一次各送五个；拜访钢铁本身固定给究极球×5、梦境球×5。 满金市 50.9 桧皮镇 47.2 满金市 50.9 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="060 任务060 头号球迷的朝圣 带阿球拜访桧皮镇的钢铁先生. 究极球×5 完成奖励 梦境球×5 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 贵重球×5 后续阿球对战：随机一种（各分支互斥） 黑暗球×5 后续阿球对战：随机一种（各分支互斥） 治愈球×5 后续阿球对战：随机一种（各分支互斥） 先机球×5 后续阿球对战：随机一种（各分支互斥） 狩猎球×5 后续阿球对战：随机一种（各分支互斥） 纪念球×5 后续阿球对战：随机一种（各分支互斥） 究极球×5 后续阿球对战：随机一种（各分支互斥） 梦境球×5 后续阿球对战：随机一种（各分支互斥） 豪华球×5 后续阿球对战：随机一种（各分支互斥） 捕网球×5 后续阿球对战：随机一种（各分支互斥） 潜水球×5 后续阿球对战：随机一种（各分支互斥） 巢穴球×5 后续阿球对战：随机一种（各分支互斥） 重复球×5 后续阿球对战：随机一种（各分支互斥） 计时球×5 后续阿球对战：随机一种（各分支互斥） 后续阿球对战按random 14选择一种球×5，十四种互斥，不是一次各送五个；拜访钢铁本身固定给究极球×5、梦境球×5。 满金市 50.9 桧皮镇 47.2 桧皮镇 47.2 桧皮镇 47.2 满金市 50.9 点数 积分 BP BracerPoints">
 <span class="sq-number">060</span>
 <div class="sq-row-main"><a class="sq-title" href="060/">头号球迷的朝圣</a><p>带阿球拜访桧皮镇的钢铁先生.</p></div>
 <div class="sq-row-rewards">
@@ -561,7 +565,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="pokemon" data-search="061 任务061 满金Cos大会!? 说服岩铁先生带孙女去参加满金市的CosPlay大会. 图图犬 Lv.20（携带：无） 完成奖励 保留已编入Cos大会颁奖脚本的Lv.20图图犬（物种槽1404），不再单列两个未实装的同名支线；未见独立BP或金钱指令。 满金市 52.37 桧皮镇 47.2">
+<article class="sq-row" data-sq-entry data-kind="pokemon" data-search="061 任务061 满金Cos大会!? 说服岩铁先生带孙女去参加满金市的CosPlay大会. 图图犬 Lv.20（携带：无） 完成奖励 保留已编入Cos大会颁奖脚本的Lv.20图图犬（物种槽1404），不再单列两个未实装的同名支线；未见独立BP或金钱指令。 桧皮镇 47.2 满金市 52.37 若叶镇 43.0 桧皮镇 47.2 桧皮镇 47.2 桧皮镇 47.2 满金市 52.36 桧皮镇 47.2">
 <span class="sq-number">061</span>
 <div class="sq-row-main"><a class="sq-title" href="061/">满金Cos大会!?</a><p>说服岩铁先生带孙女去参加满金市的CosPlay大会.</p></div>
 <div class="sq-row-rewards">
@@ -569,7 +573,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="062 任务062 怯场的男友 通过大师级华丽大赛,鼓励华丽大赛会场的少女的男友. 经验糖果S×3 途中：鼓励男友后 黄色头巾×1 完成奖励 BracerPoints 5点 完成奖励 金钱6000元 完成奖励  满金市 35.4 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="062 任务062 怯场的男友 通过大师级华丽大赛,鼓励华丽大赛会场的少女的男友. 经验糖果S×3 途中：鼓励男友后 黄色头巾×1 完成奖励 BracerPoints 5点 完成奖励 金钱6000元 完成奖励 满金市 4.151 满金市 4.151 满金市 35.4 点数 积分 BP BracerPoints">
 <span class="sq-number">062</span>
 <div class="sq-row-main"><a class="sq-title" href="062/">怯场的男友</a><p>通过大师级华丽大赛,鼓励华丽大赛会场的少女的男友.</p></div>
 <div class="sq-row-rewards">
@@ -578,7 +582,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="063 任务063 胡桃的风景特辑 替胡桃拍下喇叭芽之塔,擂钵山山顶,寂静之丘顶端和海之彼岸四个地方的绝景照片. 经验糖果S×3 完成奖励 卡比丘×2 完成奖励 催眠貘 Lv.20（携带：无） 完成奖励 BracerPoints 15点 完成奖励 金钱10000元 完成奖励 喇叭芽之塔 52.2 寂静之丘 56.40 海之彼岸 56.41 擂钵山 56.42 满金市 50.24 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="063 任务063 胡桃的风景特辑 替胡桃拍下喇叭芽之塔,擂钵山山顶,寂静之丘顶端和海之彼岸四个地方的绝景照片. 经验糖果S×3 完成奖励 卡比丘×2 完成奖励 催眠貘 Lv.20（携带：无） 完成奖励 BracerPoints 15点 完成奖励 金钱10000元 完成奖励 满金市 50.24 喇叭芽之塔 52.2 寂静之丘 56.40 海之彼岸 56.41 擂钵山 56.42 宝可梦联盟 1.79 满金市 50.24 点数 积分 BP BracerPoints">
 <span class="sq-number">063</span>
 <div class="sq-row-main"><a class="sq-title" href="063/">胡桃的风景特辑</a><p>替胡桃拍下喇叭芽之塔,擂钵山山顶,寂静之丘顶端和海之彼岸四个地方的绝景照片.</p></div>
 <div class="sq-row-rewards">
@@ -588,7 +592,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="064 任务064 消失的正辉 帮助正辉的妹妹寻找消失的正辉. 同步器×1 完成奖励 BracerPoints 10点 未首次辨认正确 金钱5000元 未首次辨认正确 BracerPoints 25点 首次辨认正确 金钱10000元 首次辨认正确 两档互斥：首次辨认正确为25BP＋10000元；普通分支为10BP＋5000元。同步器两档都发，不累计为35BP。 满金市 50.31 满金市 50.31 43号道路 3.99 真新镇 52.40 满金市 50.31 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="064 任务064 消失的正辉 帮助正辉的妹妹寻找消失的正辉. 同步器×1 完成奖励 BracerPoints 10点 未首次辨认正确 金钱5000元 未首次辨认正确 BracerPoints 25点 首次辨认正确 金钱10000元 首次辨认正确 两档互斥：首次辨认正确为25BP＋10000元；普通分支为10BP＋5000元。同步器两档都发，不累计为35BP。 满金市 50.31 满金市 50.31 43号道路 3.99 真新镇 52.40 满金市 50.31 真新镇 52.38 真新镇 52.39 满金市 50.31 点数 积分 BP BracerPoints">
 <span class="sq-number">064</span>
 <div class="sq-row-main"><a class="sq-title" href="064/">消失的正辉</a><p>帮助正辉的妹妹寻找消失的正辉.</p></div>
 <div class="sq-row-rewards">
@@ -844,7 +848,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="093 任务093 被遗忘的遗忘 帮助遗忘爷爷回忆起遗忘招式的方法. 水晶护符×1 完成奖励 经验糖果S×3 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 免费遗忘招式服务 完成后开放 完成后开放免费遗忘招式服务。 浅红市 4.71 烟墨市 32.3 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="093 任务093 被遗忘的遗忘 帮助遗忘爷爷回忆起遗忘招式的方法. 水晶护符×1 完成奖励 经验糖果S×3 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 免费遗忘招式服务 完成后开放 完成后开放免费遗忘招式服务。 烟墨市 4.132 烟墨市 4.132 浅红市 4.71 烟墨市 32.3 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">093</span>
 <div class="sq-row-main"><a class="sq-title" href="093/">被遗忘的遗忘</a><p>帮助遗忘爷爷回忆起遗忘招式的方法.</p></div>
 <div class="sq-row-rewards">
