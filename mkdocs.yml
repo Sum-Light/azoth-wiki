@@ -7,6 +7,7 @@ hooks:
 theme:
   name: material
   language: zh
+  font: false
   palette:
     - scheme: default
       primary: teal
@@ -23,6 +24,8 @@ theme:
   features:
     - navigation.instant
     - navigation.top
+    - navigation.tracking
+    - toc.follow
     - search.highlight
     - content.tabs.link
 
@@ -34,10 +37,14 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/sidequests.css
   - stylesheets/locations.css
+  - stylesheets/encyclopedia.css
+  - stylesheets/pixel-images.css
 
 extra_javascript:
   - javascripts/sidequests.js
   - javascripts/locations.js
+  - javascripts/encyclopedia.js
+  - javascripts/pixel-images.js
 
 markdown_extensions:
   - tables

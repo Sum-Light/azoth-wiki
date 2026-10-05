@@ -45,6 +45,7 @@
     #panel { width: 100%; border-left: 0; border-top: 1px solid #1d4a52; }
   }
 </style>
+<link rel="stylesheet" href="../stylesheets/standalone.css">
 </head>
 <body>
 <header>
@@ -53,6 +54,7 @@
   <a id="atlasLink" href="atlas/">查看地图</a>
   <a href="../">百科首页</a>
   <span class="sp"></span>
+  <label class="map-scale-label">显示 <select id="mapScale"><option value="1">1× 原尺寸</option><option value="2">2×</option><option value="3">3×</option></select></label>
   <button class="btn ghost" id="calibBtn">校准模式</button>
 </header>
 <main>
@@ -89,14 +91,16 @@ function build() {
   const img = document.createElement("img");
   img.className = "base";
   img.src = "worldmap.png";
-  img.style.width = "100%";
+  const scale = Number($("mapScale").value);
+  img.style.width = `${512 * scale}px`;
+  img.style.height = `${256 * scale}px`;
+  stage.style.width = `${512 * scale}px`;
+  stage.style.height = `${256 * scale}px`;
   img.draggable = false;
   stage.appendChild(img);
   for (const key of Object.keys(DATA.grids)) renderLayer(key);
-  // 宽度自适应
-  const fit = () => { img.style.width = $("mapWrap").clientWidth - 0 + "px"; };
-  fit();
 }
+$("mapScale").onchange = () => { clearSel(); build(); };
 
 function renderLayer(key) {
   const stage = $("stage");

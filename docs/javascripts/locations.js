@@ -69,8 +69,8 @@
           image.src = new URL(map.image, siteURL).href;
           image.alt = map.label;
           image.loading = "lazy";
-          image.width = 90;
-          image.height = 72;
+          image.width = 96;
+          image.height = 80;
           imageLink.append(image);
           row.append(imageLink);
           const body = element("div", "loc-place-body");

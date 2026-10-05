@@ -1,0 +1,52 @@
+/* Shared presentation for standalone tools. Application behavior stays local. */
+:root { --bg: #f5f7f7; --panel: #fff; --panel-strong: #fff; --line: #b9cdc7; --text: #243332; --muted: #586967; --accent: #287d70; --md-text-font: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif; }
+body { color: #243332; background: #f5f7f7; font-family: var(--md-text-font); font-size: 15px; line-height: 1.7; }
+header { background: #fff; color: #243332; border-bottom: 1px solid #b9cdc7; min-height: 64px; flex-wrap: wrap; }
+header h1, header a { color: #195e54; }
+header h1 { font-size: 22px; }
+header a { font-size: 14px; }
+.map-scale-label { display: flex; gap: 8px; align-items: center; font-size: 13px; }
+.map-scale-label select { font: inherit; color: #243332; background: #fff; border: 1px solid #b9cdc7; border-radius: 3px; padding: 5px 8px; }
+.btn { background: #287d70; border-radius: 4px; }
+.btn.ghost { color: #195e54; border-color: #b9cdc7; }
+main { height: calc(100vh - 65px); }
+#mapWrap { background: #edf3f1; padding: 20px; }
+#stage img.base { image-rendering: pixelated; max-width: none; }
+#panel { background: #fff; border-color: #b9cdc7; width: 410px; }
+#panelHead { border-color: #b9cdc7; }
+#panelHead h2 { color: #195e54; font-size: 19px; }
+#panelHead .sub, .hint, .mon .lv { color: #586967; font-size: 13px; }
+.mapcard { background: #fff; border: 1px solid #b9cdc7; border-radius: 4px; padding: 12px; }
+.mapcard h3, .mapcard h3 a { font-size: 14px; color: #216b9b; }
+.tag { background: #dcebe6; color: #243332; font-size: 12px; border-radius: 3px; }
+.mon { background: #f1f7f5; color: #243332; font-size: 14px; border-radius: 3px; }
+.mon img { width: 32px; height: 32px; max-width: none; image-rendering: pixelated; }
+.mon .r { color: #806216; }
+#calib { border-color: #b9cdc7; }
+#calib label { color: #586967; }
+#calib input, #calib select { background: #fff; color: #243332; border-color: #b9cdc7; }
+.card, .panel, .detail, .drop { border-radius: 5px; box-shadow: none; border-color: #b9cdc7; }
+.panel { background: #fff; }
+.panel-head { background: #dcebe6; }
+.slot { border-radius: 4px; }
+.slot img, .detail-sprite { image-rendering: pixelated; filter: none; max-width: none; }
+.slot img.mon-icon { width: 64px; height: 64px; }
+.slot img.item-icon { width: 24px; height: 24px; }
+.detail { grid-template-columns: 128px minmax(0, 1fr); }
+.detail-sprite { width: 128px; height: 128px; }
+.wrap { max-width: 840px; }
+.wrap h1 { padding-bottom: 12px; border-bottom: 1px solid #b9cdc7; font-size: 26px; }
+.bg-note { background: #f1f7f5; }
+:is(button, a, input, select):focus-visible { outline: 2px solid #287d70; outline-offset: 3px; }
+@media (max-width: 860px) { main { height: auto; } #mapWrap { max-height: 60vh; padding: 12px; } #panel { width: 100%; min-height: 40vh; } }
+@media (max-width: 720px) { .slot img.mon-icon { width: 32px; height: 32px; } .detail { grid-template-columns: 128px minmax(0, 1fr); } }
+@media (prefers-color-scheme: dark) {
+  body { background: #172124; color: #e3ece8; }
+  header, #panel, .mapcard, .card, .panel, .detail, .drop { background: #1c2729; color: #e3ece8; border-color: #435652; }
+  header h1, header a, #panelHead h2 { color: #a1dcca; }
+  .mapcard h3, .mapcard h3 a { color: #88c9ed; }
+  #mapWrap { background: #22312f; }
+  .mon, .tag, .panel-head, .bg-note { background: #304b43; color: #e3ece8; }
+  #panelHead .sub, .hint, .mon .lv { color: #b0c3bd; }
+  .mon .r { color: #e0c580; }
+}

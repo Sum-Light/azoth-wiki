@@ -43,6 +43,9 @@ mkdocs serve                      # http://127.0.0.1:8000
 - 地图当前仅发布城都，以及23号道路、冠军之路和石英高原（含联盟室内）。`hooks/map_publication.py` 按当前 ROM 的 mapsec 与少量地图编号统一控制发布范围，构建时过滤地图数据、详情页、图片、搜索、连接与野生分布入口；26／27号道路和都城瀑布暂随关都屏蔽。源码保留完整快照，便于后续开放。剧情地图与卡吉镇火箭队基地复用了原版区域编号，按具体地图区分；剧情地图不标在原真新镇的大地图位置。同步到独立 Wiki 仓库时必须同时同步 `hooks/`。
 - `tools/generate_sidequests.py`：生成 `docs/sidequests/` 并维护带标记的反查区块。
 - `docs/stylesheets/sidequests.css`、`docs/javascripts/sidequests.js`：手机、深色模式与即时导航支持。
+- 全站阅读样式由最后加载的 `docs/stylesheets/encyclopedia.css` 统一覆盖：正文、侧栏目录、章节导航、带边界与隔行底色的表格、图鉴资料框及地图／任务排版。`docs/javascripts/encyclopedia.js` 为长表格添加本地筛选与列排序，兼容 Material 即时导航，不改动生成的数据正文。
+- 像素图使用 `docs/stylesheets/pixel-images.css` 与 `docs/javascripts/pixel-images.js`，以图片真实宽高乘正整数设置显示尺寸。大图保留原尺寸并在容器内滚动；看图窗口提供1／2／3／4倍；地图列表以原像素裁切预览，禁止缩放成任意尺寸的缩略图。大地图只裁掉空海域，热点仍以完整512×256底图定位；独立分布地图同样只提供整数倍率。不要恢复图片 `max-width:100%`、非整数 `transform:scale()`、`object-fit:contain` 缩略图或任意百分比拉伸。浏览器自身缩放仍由用户控制。
+- `docs/stylesheets/standalone.css` 统一独立分布地图、HOME与修复工具的阅读样式。HOME图标同样按原图尺寸整数倍显示。生成器重建后继续使用这些共享样式和脚本，无需逐个修改数千篇生成页面。
 
 在 Project-Azoth 仓库中更新人工编排或奖励数据后，运行 `python wiki/tools/generate_sidequests.py --refresh-source`，再运行 `python -m mkdocs build -f wiki/mkdocs.yml`。普通重建只读取 wiki 内的数据快照；`generate_pokemon.py` 结束时也会自动同步反查，避免图鉴重建后丢失。
 

@@ -1,0 +1,35 @@
+/* Raster art is always native size or an integer multiple. Never shrink-to-fit. */
+.md-typeset img:not([src$=".svg"]), .pixel-image, .pixel-viewer img {
+  image-rendering: crisp-edges; image-rendering: pixelated;
+  max-width: none; max-height: none; border-radius: 0; transform: none;
+}
+.pixel-image { object-fit: fill !important; }
+.md-typeset .pk-sprite:hover { transform: none; }
+.md-typeset .dist-sprite { width: 128px; height: 128px; }
+.md-typeset .sq-icon { flex: 0 0 auto; width: auto; height: auto; }
+.md-typeset .loc-place-thumb { width: 96px; height: 80px; max-width: none; object-fit: none; object-position: center; }
+.pixel-scroll { display: block; max-width: 100%; overflow: auto; max-height: 600px; overscroll-behavior: contain; background: var(--wiki-paper, #fff); }
+.pixel-scroll:focus-visible { outline-offset: -2px; }
+.md-typeset .pixel-scroll img { display: block; width: auto; height: auto; max-width: none; max-height: none; margin: 0; flex: none; }
+.md-typeset .sq-map > a, .md-typeset .loc-image-link, .md-typeset .loc-stages figure > a { display: block; max-width: 100%; overflow: auto; max-height: 600px; }
+.md-typeset .sq-map img, .md-typeset .loc-image-link img, .md-typeset .loc-stages img, .md-typeset .news-gallery img { width: auto; height: auto; max-width: none; max-height: none; object-fit: none; margin: 0; border: 0; }
+.md-typeset .news-gallery figure { overflow: auto; }
+.pixel-caption { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 7px 0; font-size: 12px; color: var(--wiki-muted, #586967); line-height: 1.6; }
+.pixel-caption button { cursor: pointer; color: var(--md-typeset-a-color, #216b9b); font: inherit; text-decoration: underline; text-underline-offset: 3px; }
+/* Crop unused sea at native resolution. Hit areas remain relative to the full
+   512 x 256 source canvas, so regional coordinates never drift. */
+.loc-world-stage, .loc-world-preview { position: relative; display: block; height: auto; min-height: 160px; aspect-ratio: auto; max-width: 100%; overflow: auto; line-height: 0; }
+.loc-world-crop { display: block; position: relative; width: 384px; height: 160px; overflow: hidden; margin: 0 auto; }
+.loc-world-canvas { position: absolute; display: block; left: -16px; top: 0; width: 512px; height: 256px; }
+.md-typeset .loc-world-canvas > img { width: 512px; height: 256px; max-width: none; max-height: none; margin: 0; }
+.pixel-viewer { box-sizing: border-box; width: calc(100vw - 32px); max-width: 1440px; height: calc(100dvh - 32px); max-height: 100dvh; padding: 0; border: 1px solid var(--wiki-line, #b9cdc7); border-radius: 6px; color: var(--wiki-ink, #243332); background: var(--wiki-paper, #fff); }
+.pixel-viewer[open] { display: flex; flex-direction: column; }
+.pixel-viewer::backdrop { background: rgb(12 26 24 / 76%); }
+.pixel-viewer-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; padding: 12px 16px; border-bottom: 1px solid var(--wiki-line, #b9cdc7); font: 14px/1.5 var(--md-text-font, sans-serif); }
+.pixel-viewer-title { flex: 1; min-width: 150px; font-weight: 700; overflow-wrap: anywhere; }
+.pixel-viewer-bar button { padding: 6px 11px; min-height: 36px; font: inherit; color: inherit; background: var(--wiki-background, #f1f7f5); border: 1px solid var(--wiki-line, #b9cdc7); border-radius: 3px; cursor: pointer; }
+.pixel-viewer-bar button[aria-pressed="true"] { background: var(--azoth-accent, #287d70); color: var(--wiki-paper, #fff); }
+.pixel-viewer-body { flex: 1; min-height: 0; overflow: auto; padding: 16px; background: var(--wiki-background, #f1f7f5); }
+.pixel-viewer-body img { display: block; margin: 0 auto; flex: none; }
+.pixel-viewer-help { padding: 9px 16px; margin: 0; font: 12px/1.5 var(--md-text-font, sans-serif); border-top: 1px solid var(--wiki-line, #b9cdc7); }
+@media (max-width: 640px) { .pixel-viewer { width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; } }

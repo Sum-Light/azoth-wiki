@@ -30,10 +30,6 @@
   height: 128px;
   image-rendering: pixelated;
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, .25));
-  transition: transform .15s ease;
-}
-.pk-sprite:hover {
-  transform: scale(1.08);
 }
 
 .pk-head-types {
