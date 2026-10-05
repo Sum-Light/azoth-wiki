@@ -3,6 +3,7 @@ site_description: 宝可梦水银 (Project Azoth) 非官方资料站
 
 hooks:
   - hooks/map_publication.py
+  - hooks/pokedex.py
 
 theme:
   name: material
@@ -38,12 +39,14 @@ extra_css:
   - stylesheets/sidequests.css
   - stylesheets/locations.css
   - stylesheets/encyclopedia.css
+  - stylesheets/pokedex.css
   - stylesheets/pixel-images.css
 
 extra_javascript:
   - javascripts/sidequests.js
   - javascripts/locations.js
   - javascripts/encyclopedia.js
+  - javascripts/pokedex.js
   - javascripts/pixel-images.js
 
 markdown_extensions:

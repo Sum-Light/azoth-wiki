@@ -44,6 +44,7 @@ mkdocs serve                      # http://127.0.0.1:8000
 - `tools/generate_sidequests.py`：生成 `docs/sidequests/` 并维护带标记的反查区块。
 - `docs/stylesheets/sidequests.css`、`docs/javascripts/sidequests.js`：手机、深色模式与即时导航支持。
 - 全站阅读样式由最后加载的 `docs/stylesheets/encyclopedia.css` 统一覆盖：正文、侧栏目录、章节导航、带边界与隔行底色的表格、图鉴资料框及地图／任务排版。`docs/javascripts/encyclopedia.js` 为长表格添加本地筛选与列排序，兼容 Material 即时导航，不改动生成的数据正文。
+- `hooks/pokedex.py` 在构建时读取生成器现有的图鉴总表，将目录按编号分成世代区段，补上彩色属性、名称／编号／属性筛选；详情页补上相邻条目导航和含特性的资料框。展示由 `pokedex.css`／`pokedex.js` 负责，不重读 ROM、不修改编号、种族值或形态数据。超出世代编号范围的条目保留在“其他编号”。本 hook 同时为本地全站 CSS／JS 添加内容哈希版本号，避免发布后命中旧资源缓存。
 - 像素图使用 `docs/stylesheets/pixel-images.css` 与 `docs/javascripts/pixel-images.js`，以图片真实宽高乘正整数设置显示尺寸。大图保留原尺寸并在容器内滚动；看图窗口提供1／2／3／4倍；地图列表以原像素裁切预览，禁止缩放成任意尺寸的缩略图。大地图只裁掉空海域，热点仍以完整512×256底图定位；独立分布地图同样只提供整数倍率。不要恢复图片 `max-width:100%`、非整数 `transform:scale()`、`object-fit:contain` 缩略图或任意百分比拉伸。浏览器自身缩放仍由用户控制。
 - `docs/stylesheets/standalone.css` 统一独立分布地图、HOME与修复工具的阅读样式。HOME图标同样按原图尺寸整数倍显示。生成器重建后继续使用这些共享样式和脚本，无需逐个修改数千篇生成页面。
 

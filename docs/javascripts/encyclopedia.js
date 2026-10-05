@@ -31,7 +31,7 @@
       path.append(home, make("span", "", "/"), parent);
       heading.after(path);
       const chapters = [...article.querySelectorAll("h2[id]")].slice(0, 10);
-      if (chapters.length >= 2) {
+      if (chapters.length >= 2 && !article.querySelector("[data-pokedex]")) {
         const quick = make("nav", "wiki-section-links");
         quick.setAttribute("aria-label", "条目章节");
         for (const chapter of chapters) {
