@@ -2,7 +2,7 @@
 
 [任务目录](index.md) · [阶段总表](stages.md)
 
-按剧情对白关联到的地图整理。点击任务可查看带入口编号的地图与该处场景。
+按静态地图头的脚本入口与剧情对白整理。点击任务可查看带入口编号的地图与该处场景。
 
 | 地图 | 涉及任务 |
 |---|---|
@@ -41,16 +41,14 @@
 | [42号道路 · 擂钵山南麓 · 3.97](../locations/map_3_97.md#sidequests) | [041 异样的呆呆兽](041.md#map-3-97) |
 | [43号道路 · 通往愤怒之湖 · 3.99](../locations/map_3_99.md#sidequests) | [064 消失的正辉](064.md#map-3-99) |
 | [45号道路 · 纵向山谷 · 3.101](../locations/map_3_101.md#sidequests) | [041 异样的呆呆兽](041.md#map-3-101) |
-| [枯叶市 · 4.35](../locations/map_4_35.md#sidequests) | [022 制服狂暴宝可梦](022.md#map-4-35) |
-| [浅红市 · 4.71](../locations/map_4_71.md#sidequests) | [093 被遗忘的遗忘](093.md#map-4-71) |
-| [湛蓝市 · 4.122](../locations/map_4_122.md#sidequests) | [086 黑色的千针鱼](086.md#map-4-122) |
-| [对战开拓区 · 4.125](../locations/map_4_125.md#sidequests) | [022 制服狂暴宝可梦](022.md#map-4-125) |
-| [烟墨市 · 4.129](../locations/map_4_129.md#sidequests) | [094 收集玻璃哨](094.md#map-4-129) |
-| [烟墨市 · 4.131](../locations/map_4_131.md#sidequests) | [095 是谁在捣乱?](095.md#map-4-131) |
-| [烟墨市 · 4.132](../locations/map_4_132.md#sidequests) | [093 被遗忘的遗忘](093.md#map-4-132) |
-| [石英高原 · 4.140](../locations/map_4_140.md#sidequests) | [022 制服狂暴宝可梦](022.md#map-4-140) |
-| [缘朱市 · 4.147](../locations/map_4_147.md#sidequests) | [071 遥远的约定](071.md#map-4-147) |
-| [满金市 · 4.151](../locations/map_4_151.md#sidequests) | [058 五彩斑斓的头巾](058.md#map-4-151)、[062 怯场的男友](062.md#map-4-151) |
+| [湛蓝市 · 千针鱼目击者的家 · 31.0](../locations/map_31_0.md#sidequests) | [086 黑色的千针鱼](086.md#map-31-0) |
+| [对战开拓区宝可梦中心 · 31.3](../locations/map_31_3.md#sidequests) | [022 制服狂暴宝可梦](022.md#map-31-3) |
+| [烟墨市宝可梦中心 · 32.0](../locations/map_32_0.md#sidequests) | [094 收集玻璃哨](094.md#map-32-0) |
+| [烟墨市 · 园陆鲨委托人的家 · 32.2](../locations/map_32_2.md#sidequests) | [095 是谁在捣乱?](095.md#map-32-2) |
+| [烟墨市 · 招式达人的家 · 32.3](../locations/map_32_3.md#sidequests) | [093 被遗忘的遗忘](093.md#map-32-3) |
+| [石英高原宝可梦中心 · 34.1](../locations/map_34_1.md#sidequests) | [022 制服狂暴宝可梦](022.md#map-34-1) |
+| [缘朱市 · 服装设计师的家 · 35.0](../locations/map_35_0.md#sidequests) | [071 遥远的约定](071.md#map-35-0) |
+| [满金华丽大赛 · 接待大厅 · 35.4](../locations/map_35_4.md#sidequests) | [058 五彩斑斓的头巾](058.md#map-35-4)、[062 怯场的男友](062.md#map-35-4) |
 | [擂钵山雪屋 · 洗翠宝可梦委托 · 42.0](../locations/map_42_0.md#sidequests) | [006 水与火的修罗场](006.md#map-42-0)、[007 山顶的秘密](007.md#map-42-0)、[011 来自未来的回响](011.md#map-42-0) |
 | [主角的家 1F · 43.0](../locations/map_43_0.md#sidequests) | [061 满金Cos大会!?](061.md#map-43-0) |
 | [若叶镇进化研究员的家 · 43.4](../locations/map_43_4.md#sidequests) | [013 进化之谜](013.md#map-43-4) |

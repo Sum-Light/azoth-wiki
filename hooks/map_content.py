@@ -17,6 +17,8 @@ CATEGORIES = (
 def on_pre_build(**kwargs):
     global DATA, LINKS
     DATA = json.loads((DOCS/'locations/map_content.json').read_text(encoding='utf-8'))
+    if DATA.get('event_scope') != 'static':
+        raise ValueError('Re-export static map content before publishing')
     LINKS = {}
     for kind,folder in (('item','items'),('pokemon','pokemon'),('move','moves')):
         LINKS[kind] = {int(p.name.split('_')[0]):p.name for p in (DOCS/folder).glob('*.md')
@@ -247,7 +249,7 @@ def map_content(key):
 def directory():
     stats = DATA['stats']
     rows = ['# 每张地图的获取与对战', '',
-            '收录 **%d 张普通地图**。点击地点查看地面球、隐藏道具、NPC／支线赠送、宝可梦与蛋、商店兑换、招式教学和训练师阵容。' % stats['maps'], '',
+            '按静态地图头收录 **%d 张普通地图**。点击地点查看地面球、隐藏道具、NPC／支线赠送、宝可梦与蛋、商店兑换、招式教学和训练师阵容。' % stats['maps'], '',
             '专用过场地图不单独列入本目录；其中的奖励、馆主战和支线战斗归回实际地点。野生分布继续查看各地点原有的分布表。', '',
             '[地图总览](atlas.md) · [数据范围与残留核对](content_review.md)', '',
             '| 地点 | 地面球 | 隐藏 | NPC／支线 | 宝可梦／蛋 | 商店／兑换 | 教学 | 阵容 | 待核 |','|---|---|---|---|---|---|---|---|---|']
@@ -284,7 +286,7 @@ def audit():
           '[返回地图内容目录](content.md)','',
           '当前快照：%s。覆盖 %s 张普通地图，其中 %s 张有已收录内容；%s 条记录，剔除 %s 条残留或临时队伍记录，%s 条仍待确定。' %
           (DATA['snapshot_date'],stats['maps'],stats['with_content'],stats['records'],stats['excluded'],stats['pending']),'',
-          '事件按动态阶段覆盖、静态覆盖、ROM 原始数据的顺序读取。碰撞、位置、NPC 图像、对白和脚本共同用于核对；柜台后的服务 NPC 保留。地面球以当前图像确认，不能套用原版图像常量。','',
+          '仅收录静态地图头的布局、事件和可达脚本，优先读取引擎静态覆盖，其余读取 ROM 静态数据。动态地图头的布局、事件与获取内容不收录。碰撞、位置、NPC 图像、对白和脚本共同用于核对；柜台后的服务 NPC 保留。地面球以当前图像确认，不能套用原版图像常量。','',
           '支线奖励按实际奖励执行点关联。互斥选择、随机奖池、交付费用、临时参战宝可梦分别保留说明；仅有野生对战指令不能证明可捕获，未混入赠送名单。','',
           '基础阵容取引擎训练师覆盖表，其余读取 ROM；对战设施生成阵容及等级同步另行说明。当前快照不能保证所有原生函数、存档条件和人物移动都已完全还原。','',
           '## 过场内容归属','', '| 演出地图 | 归属地点 | 依据 |','|---|---|---|']

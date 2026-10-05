@@ -20,7 +20,7 @@ title: 支线任务
 </form>
 <p class="sq-result" role="status" aria-live="polite" data-sq-count>共 96 项任务</p>
 <div class="sq-results">
-<article class="sq-row" data-sq-entry data-kind="BP pokemon" data-search="001 任务001 皮丘的旅途 带着皮丘去桐树林看看吧. BracerPoints 6点 完成奖励 刺刺耳皮丘 Lv.5（携带：无） 完成奖励 赠送的是刺刺耳皮丘（物种槽1100），不是普通皮丘。岩铁身份已按用户确认。 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 吉野市 3.67 桐树林 1.121 桐树林 1.121 彩虹百货大楼 0.0 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP pokemon" data-search="001 任务001 皮丘的旅途 带着皮丘去桐树林看看吧. BracerPoints 6点 完成奖励 刺刺耳皮丘 Lv.5（携带：无） 完成奖励 赠送的是刺刺耳皮丘（物种槽1100），不是普通皮丘。岩铁身份已按用户确认。 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 吉野市 3.67 桐树林 1.121 桐树林 1.121 彩虹百货大楼 0.0 点数 积分 BP BracerPoints">
 <span class="sq-number">001</span>
 <div class="sq-row-main"><a class="sq-title" href="001/">皮丘的旅途</a><p>带着皮丘去桐树林看看吧.</p></div>
 <div class="sq-row-rewards">
@@ -113,7 +113,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="012 任务012 少女的烦恼 帮助若叶镇的大牙狸少女寻找不变之石. 经验糖果S×2 完成奖励 TM110×1 完成奖励 金钱5000元 完成奖励 BracerPoints 3点 完成奖励 若叶镇 3.66 若叶镇 3.66 若叶镇 3.66 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="012 任务012 少女的烦恼 帮助若叶镇的大牙狸少女寻找不变之石. 经验糖果S×2 完成奖励 TM110×1 完成奖励 金钱5000元 完成奖励 BracerPoints 3点 完成奖励 若叶镇 3.66 若叶镇 3.66 点数 积分 BP BracerPoints">
 <span class="sq-number">012</span>
 <div class="sq-row-main"><a class="sq-title" href="012/">少女的烦恼</a><p>帮助若叶镇的大牙狸少女寻找不变之石.</p></div>
 <div class="sq-row-rewards">
@@ -200,7 +200,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item" data-search="022 任务022 制服狂暴宝可梦 制服在黑暗洞穴南部的狂暴的宝可梦. BracerPoints 5点 完成奖励 红色碎片×2 完成奖励 黄色碎片×2 完成奖励 TM100×1 完成奖励 协会每日10BP属于日常领取，未叠入本任务5BP。 对战开拓区 4.125 石英高原 4.140 枯叶市 4.35 吉野市宝可梦中心 45.0 桔梗市宝可梦中心 46.0 黑暗洞穴 · 西侧与封印区 1.125 吉野市 45.0 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item" data-search="022 任务022 制服狂暴宝可梦 制服在黑暗洞穴南部的狂暴的宝可梦. BracerPoints 5点 完成奖励 红色碎片×2 完成奖励 黄色碎片×2 完成奖励 TM100×1 完成奖励 协会每日10BP属于日常领取，未叠入本任务5BP。 对战开拓区宝可梦中心 31.3 石英高原宝可梦中心 34.1 吉野市宝可梦中心 45.0 桔梗市宝可梦中心 46.0 黑暗洞穴 · 西侧与封印区 1.125 吉野市 45.0 点数 积分 BP BracerPoints">
 <span class="sq-number">022</span>
 <div class="sq-row-main"><a class="sq-title" href="022/">制服狂暴宝可梦</a><p>制服在黑暗洞穴南部的狂暴的宝可梦.</p></div>
 <div class="sq-row-rewards">
@@ -429,7 +429,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="047 任务047 家乡的味道 帮助老爷爷收集制作大马拉萨达所需的5个刺角果,5个椰木果和5个瓜西果. 大马拉萨达×5 完成奖励 神秘摆设×1 完成奖励 BracerPoints 4点 完成奖励 金钱6000元 完成奖励 火斑喵的蛋×1 后续：给火斑喵分享食物 强制锻炼器×1 后续：给孙女分享食物 阿罗拉移居家庭公寓 50.40 满金市 · 住宅区 3.75 满金市 · 住宅区 3.75 满金市亲密度评定人的家 50.1 满金市 50.40 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="047 任务047 家乡的味道 帮助老爷爷收集制作大马拉萨达所需的5个刺角果,5个椰木果和5个瓜西果. 大马拉萨达×5 完成奖励 神秘摆设×1 完成奖励 BracerPoints 4点 完成奖励 金钱6000元 完成奖励 火斑喵的蛋×1 后续：给火斑喵分享食物 强制锻炼器×1 后续：给孙女分享食物 阿罗拉移居家庭公寓 50.40 满金市 · 住宅区 3.75 满金市亲密度评定人的家 50.1 满金市 50.40 点数 积分 BP BracerPoints">
 <span class="sq-number">047</span>
 <div class="sq-row-main"><a class="sq-title" href="047/">家乡的味道</a><p>帮助老爷爷收集制作大马拉萨达所需的5个刺角果,5个椰木果和5个瓜西果.</p></div>
 <div class="sq-row-rewards">
@@ -459,7 +459,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="050 任务050 聂梓的签名 帮助满金市的追星女孩得到伽勒尔地区知名创作歌手聂梓的签名. BracerPoints 4点 完成奖励 金钱5000元 完成奖励 毒电婴 Lv.5（携带：爽喉喷雾） 完成奖励 满金市 · 道馆与综合大楼区 3.77 满金市 · 道馆与综合大楼区 3.77 满金咖啡馆 55.6 满金市 3.77 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="050 任务050 聂梓的签名 帮助满金市的追星女孩得到伽勒尔地区知名创作歌手聂梓的签名. BracerPoints 4点 完成奖励 金钱5000元 完成奖励 毒电婴 Lv.5（携带：爽喉喷雾） 完成奖励 满金市 · 道馆与综合大楼区 3.77 满金咖啡馆 55.6 满金市 3.77 点数 积分 BP BracerPoints">
 <span class="sq-number">050</span>
 <div class="sq-row-main"><a class="sq-title" href="050/">聂梓的签名</a><p>帮助满金市的追星女孩得到伽勒尔地区知名创作歌手聂梓的签名.</p></div>
 <div class="sq-row-rewards">
@@ -514,7 +514,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="056 任务056 遗失的玩偶 帮助满金市地下商业街的富家少爷找到遗失的玩偶. 皮可西玩偶×1 任务途中领取（并非目标玩偶） 大师球×1 完成奖励 金色王冠×1 完成奖励 BracerPoints 8点 完成奖励 金钱10000元 完成奖励 银色王冠×1 后续：夏日祭求婚后致谢 金珠×1 后续：夏日祭求婚后致谢 满金地下商业街 · 玩偶与挂件店 50.8 满金游戏城 50.20 满金游戏城 50.20 缘朱图书馆 · 夏日祭期间 55.33 满金市 50.8 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="056 任务056 遗失的玩偶 帮助满金市地下商业街的富家少爷找到遗失的玩偶. 皮可西玩偶×1 任务途中领取（并非目标玩偶） 大师球×1 完成奖励 金色王冠×1 完成奖励 BracerPoints 8点 完成奖励 金钱10000元 完成奖励 银色王冠×1 后续：夏日祭求婚后致谢 金珠×1 后续：夏日祭求婚后致谢 满金地下商业街 · 玩偶与挂件店 50.8 满金游戏城 50.20 缘朱图书馆 · 夏日祭期间 55.33 满金市 50.8 点数 积分 BP BracerPoints">
 <span class="sq-number">056</span>
 <div class="sq-row-main"><a class="sq-title" href="056/">遗失的玩偶</a><p>帮助满金市地下商业街的富家少爷找到遗失的玩偶.</p></div>
 <div class="sq-row-rewards">
@@ -536,7 +536,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP money pokemon" data-search="058 任务058 五彩斑斓的头巾 帮助梅丽莎收集五种颜色的头巾. 丑丑鱼 Lv.20（携带：无） 完成奖励 BracerPoints 10点 完成奖励 金钱10000元 完成奖励 丑丑鱼Lv.20，无携带道具。 满金市 4.151 满金市 35.4 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP money pokemon" data-search="058 任务058 五彩斑斓的头巾 帮助梅丽莎收集五种颜色的头巾. 丑丑鱼 Lv.20（携带：无） 完成奖励 BracerPoints 10点 完成奖励 金钱10000元 完成奖励 丑丑鱼Lv.20，无携带道具。 满金华丽大赛 · 接待大厅 35.4 满金市 35.4 点数 积分 BP BracerPoints">
 <span class="sq-number">058</span>
 <div class="sq-row-main"><a class="sq-title" href="058/">五彩斑斓的头巾</a><p>帮助梅丽莎收集五种颜色的头巾.</p></div>
 <div class="sq-row-rewards">
@@ -573,7 +573,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="062 任务062 怯场的男友 通过大师级华丽大赛,鼓励华丽大赛会场的少女的男友. 经验糖果S×3 途中：鼓励男友后 黄色头巾×1 完成奖励 BracerPoints 5点 完成奖励 金钱6000元 完成奖励 满金市 4.151 满金市 4.151 满金市 35.4 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="062 任务062 怯场的男友 通过大师级华丽大赛,鼓励华丽大赛会场的少女的男友. 经验糖果S×3 途中：鼓励男友后 黄色头巾×1 完成奖励 BracerPoints 5点 完成奖励 金钱6000元 完成奖励 满金华丽大赛 · 接待大厅 35.4 满金华丽大赛 · 接待大厅 35.4 满金市 35.4 点数 积分 BP BracerPoints">
 <span class="sq-number">062</span>
 <div class="sq-row-main"><a class="sq-title" href="062/">怯场的男友</a><p>通过大师级华丽大赛,鼓励华丽大赛会场的少女的男友.</p></div>
 <div class="sq-row-rewards">
@@ -592,7 +592,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="064 任务064 消失的正辉 帮助正辉的妹妹寻找消失的正辉. 同步器×1 完成奖励 BracerPoints 10点 未首次辨认正确 金钱5000元 未首次辨认正确 BracerPoints 25点 首次辨认正确 金钱10000元 首次辨认正确 两档互斥：首次辨认正确为25BP＋10000元；普通分支为10BP＋5000元。同步器两档都发，不累计为35BP。 正辉的家 50.31 正辉的家 50.31 43号道路 · 通往愤怒之湖 3.99 正辉的家 · 两只皮皮场景 52.40 满金花店 · 寻找正辉场景 52.38 满金游戏城 · 正辉父亲场景 52.39 满金市 50.31 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="064 任务064 消失的正辉 帮助正辉的妹妹寻找消失的正辉. 同步器×1 完成奖励 BracerPoints 10点 未首次辨认正确 金钱5000元 未首次辨认正确 BracerPoints 25点 首次辨认正确 金钱10000元 首次辨认正确 两档互斥：首次辨认正确为25BP＋10000元；普通分支为10BP＋5000元。同步器两档都发，不累计为35BP。 正辉的家 50.31 43号道路 · 通往愤怒之湖 3.99 正辉的家 · 两只皮皮场景 52.40 满金花店 · 寻找正辉场景 52.38 满金游戏城 · 正辉父亲场景 52.39 满金市 50.31 点数 积分 BP BracerPoints">
 <span class="sq-number">064</span>
 <div class="sq-row-main"><a class="sq-title" href="064/">消失的正辉</a><p>帮助正辉的妹妹寻找消失的正辉.</p></div>
 <div class="sq-row-rewards">
@@ -608,7 +608,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="066 任务066 姿态各异的舞者 帮助缘朱市的少女找到舞伴. 花舞鸟（形态由变量决定） Lv.20（携带：甜甜蜜） 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 花舞鸟Lv.20，携带甜甜蜜；形态由变量0x4019减0x100后传入givepokemon，不能把变量0x8004当成物种32772。 缘朱市 3.70 缘朱图书馆与铃铛塔关卡 52.5 缘朱舞场 48.5 缘朱舞场 48.5 缘朱舞场 48.5 缘朱市友好商店 48.7 缘朱市 3.70 缘朱市 3.70 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="066 任务066 姿态各异的舞者 帮助缘朱市的少女找到舞伴. 花舞鸟（形态由变量决定） Lv.20（携带：甜甜蜜） 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 花舞鸟Lv.20，携带甜甜蜜；形态由变量0x4019减0x100后传入givepokemon，不能把变量0x8004当成物种32772。 缘朱市 3.70 缘朱图书馆与铃铛塔关卡 52.5 缘朱舞场 48.5 缘朱市友好商店 48.7 缘朱市 3.70 缘朱市 3.70 点数 积分 BP BracerPoints">
 <span class="sq-number">066</span>
 <div class="sq-row-main"><a class="sq-title" href="066/">姿态各异的舞者</a><p>帮助缘朱市的少女找到舞伴.</p></div>
 <div class="sq-row-rewards">
@@ -626,7 +626,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="068 任务068 卖假货的奸商 找到缘朱市卖假货的奸商并惩罚他. 美丽之羽×4 完成奖励 经验糖果S×2 完成奖励 金钱4000元 完成奖励 BracerPoints 4点 完成奖励 美丽之羽×1 花10000元购买的假羽毛（非奖励） 金钱10000元 奸商退回购买款（非净收益） 体力之羽×1 奸商对峙后的额外补偿 肌力之羽×1 奸商对峙后的额外补偿 抵抗之羽×1 奸商对峙后的额外补偿 智力之羽×1 奸商对峙后的额外补偿 精神之羽×1 奸商对峙后的额外补偿 瞬发之羽×1 奸商对峙后的额外补偿 奸商退款10000元对应先前购买支出，单列退款；六种羽毛各1个是对峙后的补偿，不与委托人4个美丽之羽混淆。 缘朱市宝可梦中心 48.6 缘朱市 3.70 缘朱市 3.70 32号道路 3.84 缘朱市 48.6 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="068 任务068 卖假货的奸商 找到缘朱市卖假货的奸商并惩罚他. 美丽之羽×4 完成奖励 经验糖果S×2 完成奖励 金钱4000元 完成奖励 BracerPoints 4点 完成奖励 美丽之羽×1 花10000元购买的假羽毛（非奖励） 金钱10000元 奸商退回购买款（非净收益） 体力之羽×1 奸商对峙后的额外补偿 肌力之羽×1 奸商对峙后的额外补偿 抵抗之羽×1 奸商对峙后的额外补偿 智力之羽×1 奸商对峙后的额外补偿 精神之羽×1 奸商对峙后的额外补偿 瞬发之羽×1 奸商对峙后的额外补偿 奸商退款10000元对应先前购买支出，单列退款；六种羽毛各1个是对峙后的补偿，不与委托人4个美丽之羽混淆。 缘朱市宝可梦中心 48.6 缘朱市 3.70 32号道路 3.84 缘朱市 48.6 点数 积分 BP BracerPoints">
 <span class="sq-number">068</span>
 <div class="sq-row-main"><a class="sq-title" href="068/">卖假货的奸商</a><p>找到缘朱市卖假货的奸商并惩罚他.</p></div>
 <div class="sq-row-rewards">
@@ -654,7 +654,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="071 任务071 遥远的约定 帮助缘朱市的女孩实现和朋友的遥远约定. 经验糖果S×2 完成奖励 金钱5000元 完成奖励 BracerPoints 5点 完成奖励 美极套装（水君主题；服装解锁） 完成奖励 另有美极套装的服装解锁；不是giveitem背包道具。 缘朱市 4.147 缘朱图书馆与铃铛塔关卡 52.5 缘朱市 3.70 缘朱市 35.0 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="071 任务071 遥远的约定 帮助缘朱市的女孩实现和朋友的遥远约定. 经验糖果S×2 完成奖励 金钱5000元 完成奖励 BracerPoints 5点 完成奖励 美极套装（水君主题；服装解锁） 完成奖励 另有美极套装的服装解锁；不是giveitem背包道具。 缘朱市 · 服装设计师的家 35.0 缘朱图书馆与铃铛塔关卡 52.5 缘朱市 3.70 缘朱市 35.0 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">071</span>
 <div class="sq-row-main"><a class="sq-title" href="071/">遥远的约定</a><p>帮助缘朱市的女孩实现和朋友的遥远约定.</p></div>
 <div class="sq-row-rewards">
@@ -787,7 +787,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="086 任务086 黑色的千针鱼 调查41号水路漩涡附近出现黑色千针鱼的传闻. 蓝色头巾×1 完成奖励 BracerPoints 3点 完成奖励 金钱4000元 完成奖励 湛蓝市 4.122 湛蓝市海岛传说居民家 49.0 41号水路 · 漩涡岛海域 3.96 41号水路 · 漩涡岛海域 3.96 41号水路 · 漩涡岛海域 3.96 41号水路 · 漩涡岛海域 3.96 湛蓝市 31.0 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="086 任务086 黑色的千针鱼 调查41号水路漩涡附近出现黑色千针鱼的传闻. 蓝色头巾×1 完成奖励 BracerPoints 3点 完成奖励 金钱4000元 完成奖励 湛蓝市 · 千针鱼目击者的家 31.0 湛蓝市海岛传说居民家 49.0 41号水路 · 漩涡岛海域 3.96 41号水路 · 漩涡岛海域 3.96 41号水路 · 漩涡岛海域 3.96 41号水路 · 漩涡岛海域 3.96 湛蓝市 31.0 点数 积分 BP BracerPoints">
 <span class="sq-number">086</span>
 <div class="sq-row-main"><a class="sq-title" href="086/">黑色的千针鱼</a><p>调查41号水路漩涡附近出现黑色千针鱼的传闻.</p></div>
 <div class="sq-row-rewards">
@@ -813,7 +813,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="089 任务089 海浪卷走的乌波 帮助吉野市的山男寻找被海浪卷往51号水路方向的乌波. 索罗亚 Lv.20（携带：甜蜜球） 完成奖励 神秘水滴×1 完成奖励 BracerPoints 4点 完成奖励 金钱5000元 完成奖励 日之石×1 后续：向研究所助手展示爱心球 索罗亚携带的道具在ROM名为“甜蜜球”，对白称“爱心球”；数量和物种按指令记录。任务090碑文的4BP／5000元不叠入本任务。 吉野市 3.67 幻影之森 · 索罗亚与乌波场景 56.43 空木研究所 43.6 空木研究所 43.6 吉野市 3.67 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money pokemon" data-search="089 任务089 海浪卷走的乌波 帮助吉野市的山男寻找被海浪卷往51号水路方向的乌波. 索罗亚 Lv.20（携带：甜蜜球） 完成奖励 神秘水滴×1 完成奖励 BracerPoints 4点 完成奖励 金钱5000元 完成奖励 日之石×1 后续：向研究所助手展示爱心球 索罗亚携带的道具在ROM名为“甜蜜球”，对白称“爱心球”；数量和物种按指令记录。任务090碑文的4BP／5000元不叠入本任务。 吉野市 3.67 幻影之森 · 索罗亚与乌波场景 56.43 空木研究所 43.6 吉野市 3.67 点数 积分 BP BracerPoints">
 <span class="sq-number">089</span>
 <div class="sq-row-main"><a class="sq-title" href="089/">海浪卷走的乌波</a><p>帮助吉野市的山男寻找被海浪卷往51号水路方向的乌波.</p></div>
 <div class="sq-row-rewards">
@@ -848,7 +848,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="093 任务093 被遗忘的遗忘 帮助遗忘爷爷回忆起遗忘招式的方法. 水晶护符×1 完成奖励 经验糖果S×3 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 免费遗忘招式服务 完成后开放 完成后开放免费遗忘招式服务。 烟墨市 4.132 烟墨市 4.132 浅红市 4.71 烟墨市 32.3 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="093 任务093 被遗忘的遗忘 帮助遗忘爷爷回忆起遗忘招式的方法. 水晶护符×1 完成奖励 经验糖果S×3 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 免费遗忘招式服务 完成后开放 完成后开放免费遗忘招式服务。 烟墨市 · 招式达人的家 32.3 烟墨市 · 招式达人的家 32.3 烟墨市 32.3 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">093</span>
 <div class="sq-row-main"><a class="sq-title" href="093/">被遗忘的遗忘</a><p>帮助遗忘爷爷回忆起遗忘招式的方法.</p></div>
 <div class="sq-row-rewards">
@@ -858,7 +858,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="094 任务094 收集玻璃哨 帮助布尔乔瓦先生收集五种颜色的玻璃哨. 龙之宝石×1 完成奖励 BracerPoints 5点 完成奖励 金钱15000元 完成奖励 宝石购买服务（非免费赠送） 完成后开放；后续宝石需另行购买 完成后可购买宝石；后续购买不能计作任务赠礼。 烟墨市 4.129 烟墨市 32.0 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="094 任务094 收集玻璃哨 帮助布尔乔瓦先生收集五种颜色的玻璃哨. 龙之宝石×1 完成奖励 BracerPoints 5点 完成奖励 金钱15000元 完成奖励 宝石购买服务（非免费赠送） 完成后开放；后续宝石需另行购买 完成后可购买宝石；后续购买不能计作任务赠礼。 烟墨市宝可梦中心 32.0 烟墨市 32.0 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">094</span>
 <div class="sq-row-main"><a class="sq-title" href="094/">收集玻璃哨</a><p>帮助布尔乔瓦先生收集五种颜色的玻璃哨.</p></div>
 <div class="sq-row-rewards">
@@ -867,7 +867,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="095 任务095 是谁在捣乱? 寻找周六出现在龙穴的捣乱的宝可梦. 胆怯球×1 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 烟墨市 4.131 烟墨市 32.2 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="095 任务095 是谁在捣乱? 寻找周六出现在龙穴的捣乱的宝可梦. 胆怯球×1 完成奖励 BracerPoints 4点 完成奖励 金钱4000元 完成奖励 烟墨市 · 园陆鲨委托人的家 32.2 烟墨市 32.2 点数 积分 BP BracerPoints">
 <span class="sq-number">095</span>
 <div class="sq-row-main"><a class="sq-title" href="095/">是谁在捣乱?</a><p>寻找周六出现在龙穴的捣乱的宝可梦.</p></div>
 <div class="sq-row-rewards">

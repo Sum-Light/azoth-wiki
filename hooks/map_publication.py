@@ -46,15 +46,22 @@ def apply_identities(payload):
             entry['kind'] = identity['kind']
             entry['category'] = identity['category']
             entry['identity'] = {field: identity[field] for field in ('status', 'confidence', 'basis', 'dialogue')}
+            entry['identity']['dialogue'] = [row for row in identity['dialogue']
+                                             if 'dynamic' not in row.get('event', {}).get('origin', '').lower()]
 
 
 def published(entry):
+    review = map_identities()
+    if review is not None and entry['id'] not in review['maps']:
+        return False
     group, number = map(int, entry['id'].split('.'))
     return group in PUBLISHED_GROUPS or any(
         first <= number <= last for first, last in PUBLISHED_RANGES.get(group, ()))
 
 
 def public_atlas(payload):
+    if payload.get('event_scope') != 'static':
+        raise ValueError('Re-export the atlas with static map headers before publishing')
     result = copy.deepcopy(payload)
     maps = result['maps'] = {key: entry for key, entry in result['maps'].items() if published(entry)}
     apply_identities(result)
@@ -63,9 +70,7 @@ def public_atlas(payload):
         entry['passages'] = [edge for edge in entry['passages']
                              if edge['target'] in maps and all(key in maps for key in edge['via'])]
         entry['warps'] = [edge for edge in entry['warps'] if edge.get('target') is None or edge['target'] in maps]
-        for stage in entry['stages']:
-            stage['warps'] = [edge for edge in stage.get('warps', [])
-                              if edge.get('target') is None or edge['target'] in maps]
+        entry['stages'] = []
     regions = result['regions'] = {
         key: dict(region, maps=[key for key in region['maps'] if key in maps])
         for key, region in result['regions'].items()
@@ -75,11 +80,17 @@ def public_atlas(payload):
     result['grids'] = {layer: [cell for cell in cells
                              if str(cell['mapsec']) in regions and cell['mapsec'] != 88]
                        for layer, cells in result['grids'].items()}
+    result['quest_images'] = [path for path in result['quest_images']
+                              if any(path.endswith('_%s.png' % key.replace('.', '_')) for key in maps)
+                              and '_stage_' not in path]
     return result
 
 
 def hidden_link(value):
-    return any('%s.%s' % match.groups() in _hidden for match in MAP_PATH.finditer(value))
+    # Reject invalid IDs as well as known-but-unpublished atlas entries.
+    return any('%s.%s' % match.groups() in _hidden or
+               not published({'id': '%s.%s' % match.groups()})
+               for match in MAP_PATH.finditer(value))
 
 
 def on_files(files, config):
@@ -102,11 +113,27 @@ def on_files(files, config):
     for entry in world['maps'].values():
         entry['label'] = atlas['maps']['%s.%s' % (entry['g'], entry['n'])]['label']
     replacements = {'locations/atlas_data.json': atlas, 'locations/worldmap_data.json': world}
+    review = copy.deepcopy(map_identities())
+    if review is not None:
+        review['event_scope'] = 'static'
+        review['maps'] = {key: entry for key, entry in review['maps'].items() if key in atlas['maps']}
+        for key, entry in review['maps'].items():
+            for field in ('image', 'connections', 'warps', 'stages'):
+                entry[field] = atlas['maps'][key][field]
+            entry['script_roots'] = [row for row in entry['script_roots']
+                                     if 'dynamic' not in row.get('origin', '').lower()]
+            entry['dialogue'] = atlas['maps'][key]['identity']['dialogue']
+        review['reviewed_maps'] = len(review['maps'])
+        review['counts'] = {status: sum(entry['status'] == status for entry in review['maps'].values())
+                            for status in review['counts']}
+        replacements['locations/map_identities.json'] = review
+    quest_images = set(atlas['quest_images'])
     for file in list(files):
         path = file.src_path.replace('\\', '/')
         image = re.match(r'^locations/atlas/maps/map_(\d+)_(\d+)(?:_stage_\d+)?\.png$', path)
         if (path.startswith('locations/map_') and hidden_link(path)) or (
-                image and '%s.%s' % image.groups() in _hidden) or path in replacements:
+                image and ('_stage_' in path or '%s.%s' % image.groups() not in atlas['maps'])) or (
+                path.startswith('sidequests/maps/') and path not in quest_images) or path in replacements:
             files.remove(file)
     for path, data in replacements.items():
         target = Path(_staging.name) / path

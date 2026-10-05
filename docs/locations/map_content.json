@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
+  "event_scope": "static",
   "snapshot_date": "2026-10-05",
   "rom_sha256": "68c86fe7b8760febe18c26890b7060e5c9b907cdc00cf4fcb460e0f95a3274a0",
-  "script_snapshot_sha256": "0463c0563928a5427224e15cb822d046ba403745fff2a2798d912947518c33ae",
+  "script_snapshot_sha256": "41fa30c24ec9d942f586c74ae52572f76c58cbff3375f067c52498d0e562ee49",
   "sources": {
     "wiki\\data\\map_content_review.json": "4433acb848daa310b78645f80f711af4540a1095ad15b77fd3a087b39c287f5b",
     "wiki\\data\\sidequests.json": "38c63b3295481e8c03010efa9612c90081d3e62270162bf7aae9b485ae6c7405",
-    "wiki\\data\\sidequest_locations.json": "fbd2e8408d94a83c0954fa0cbc8c0442cd176437437e7d9a3f0dca5dd6b1ebfc",
+    "wiki\\data\\sidequest_locations.json": "7ab96d7df2eb98fb39b9c501b8621d370ae1a4aae67c55be73f2e2f1d9e34405",
     "wiki\\data\\move_indexes.json": "df34555addd8fb054bf12c1a2bf5ae4455e036d581fb89a3da27483ffb2ac55a",
     "tools\\review_map_content.py": "f5d79efaf0c71ac4445abd854b5bb7e5ca97986b7a0de2360e38ab3cab9a25cf",
-    "tools\\export_map_content.py": "71166599db89ee6be6d70b1d804ba5aa4ff0e9c20d595672b58c6410dd1f0c09"
+    "tools\\export_map_content.py": "26e2f1e4dab3718e8f53fccd22db14e5f46419f104a4b71cb7f78f5f0bd922ca"
   },
   "maps": {
     "1.39": {
@@ -848,6 +849,35 @@
         {
           "kind": "trainer",
           "ids": [
+            373
+          ],
+          "battle_type": 0,
+          "scale_levels": [],
+          "node": "r:08161697",
+          "instruction": "trainerbattle0 0x0, 0x175, 0x0, 0x817562D, 0x817564A",
+          "origins": [
+            {
+              "map": "1.48",
+              "root": "r:08161697",
+              "kind": "objects",
+              "condition": null,
+              "event": 2,
+              "x": 10,
+              "y": 20,
+              "graphics": "154",
+              "flag": 83,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "菱形瓷砖是 传送方块。 他们是这个高科技建筑 的传送装置。",
+          "reason": "旧事件聚集在底部黑边"
+        },
+        {
+          "kind": "trainer",
+          "ids": [
             374
           ],
           "battle_type": 0,
@@ -901,35 +931,6 @@
           "quest_rewards": [],
           "context_quests": [],
           "quote": "你能解决这个麻烦吗？ 我告诉你，这可不容易！",
-          "reason": "旧事件聚集在底部黑边"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            373
-          ],
-          "battle_type": 0,
-          "scale_levels": [],
-          "node": "r:08161697",
-          "instruction": "trainerbattle0 0x0, 0x175, 0x0, 0x817562D, 0x817564A",
-          "origins": [
-            {
-              "map": "1.48",
-              "root": "r:08161697",
-              "kind": "objects",
-              "condition": null,
-              "event": 2,
-              "x": 10,
-              "y": 20,
-              "graphics": "154",
-              "flag": 83,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "菱形瓷砖是 传送方块。 他们是这个高科技建筑 的传送装置。",
           "reason": "旧事件聚集在底部黑边"
         },
         {
@@ -5933,66 +5934,6 @@
       "kind": "森林",
       "records": [
         {
-          "kind": "item",
-          "ids": [
-            33
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:087B0672",
-          "instruction": "callstd 0x1",
-          "costs": [],
-          "origins": [
-            {
-              "map": "1.112",
-              "root": "r:087B0668",
-              "kind": "objects",
-              "condition": null,
-              "event": 0,
-              "x": 8,
-              "y": 4,
-              "graphics": "92",
-              "flag": 3207,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "category": "balls"
-        },
-        {
-          "kind": "item",
-          "ids": [
-            257
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:087B1F2B",
-          "instruction": "callstd 0x1",
-          "costs": [],
-          "origins": [
-            {
-              "map": "1.112",
-              "root": "r:087B1F21",
-              "kind": "objects",
-              "condition": null,
-              "event": 2,
-              "x": 11,
-              "y": 13,
-              "graphics": "92",
-              "flag": 3278,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "category": "balls"
-        },
-        {
           "kind": "trainer",
           "ids": [
             283
@@ -6128,6 +6069,66 @@
           ],
           "quote": "那么… 我和小乌波就先走了。",
           "category": "quests"
+        },
+        {
+          "kind": "item",
+          "ids": [
+            33
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:087B0672",
+          "instruction": "callstd 0x1",
+          "costs": [],
+          "origins": [
+            {
+              "map": "1.112",
+              "root": "r:087B0668",
+              "kind": "objects",
+              "condition": null,
+              "event": 0,
+              "x": 8,
+              "y": 4,
+              "graphics": "92",
+              "flag": 3207,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "category": "balls"
+        },
+        {
+          "kind": "item",
+          "ids": [
+            257
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:087B1F2B",
+          "instruction": "callstd 0x1",
+          "costs": [],
+          "origins": [
+            {
+              "map": "1.112",
+              "root": "r:087B1F21",
+              "kind": "objects",
+              "condition": null,
+              "event": 2,
+              "x": 11,
+              "y": 13,
+              "graphics": "92",
+              "flag": 3278,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "category": "balls"
         }
       ],
       "pending": [],
@@ -6204,6 +6205,70 @@
       "label": "桐树林",
       "kind": "森林",
       "records": [
+        {
+          "kind": "pickup",
+          "ids": [
+            188
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:08EE77D0",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "55.40",
+              "root": "r:08D56D64",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "桐树林的演出延续"
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "狩猎凤蝶 拼命想保护刺尾虫， 可它不是猫头夜鹰的对手……",
+          "category": "gifts"
+        },
+        {
+          "kind": "pickup",
+          "ids": [
+            179
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:08EE7C72",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "55.40",
+              "root": "r:08D56D64",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "桐树林的演出延续"
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "狩猎凤蝶 拼命想保护刺尾虫， 可它不是猫头夜鹰的对手……",
+          "category": "gifts"
+        },
         {
           "kind": "item",
           "ids": [
@@ -6783,70 +6848,6 @@
             "line": 2747
           },
           "category": "quests"
-        },
-        {
-          "kind": "pickup",
-          "ids": [
-            188
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:08EE77D0",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "55.40",
-              "root": "r:08D56D64",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "桐树林的演出延续"
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "狩猎凤蝶 拼命想保护刺尾虫， 可它不是猫头夜鹰的对手……",
-          "category": "gifts"
-        },
-        {
-          "kind": "pickup",
-          "ids": [
-            179
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:08EE7C72",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "55.40",
-              "root": "r:08D56D64",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "桐树林的演出延续"
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "狩猎凤蝶 拼命想保护刺尾虫， 可它不是猫头夜鹰的对手……",
-          "category": "gifts"
         },
         {
           "kind": "hidden",
@@ -9696,6 +9697,73 @@
       "kind": "城镇",
       "records": [
         {
+          "kind": "pokemon",
+          "ids": [
+            1087
+          ],
+          "levels": [
+            20
+          ],
+          "held_items": [
+            202
+          ],
+          "node": "r:08ED9965",
+          "instruction": "givepokemon 0x43F, 0x14, 0xCA, 0x0, 0x0, 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "56.67",
+              "root": "r:08F4B6DA",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x1",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "若叶镇研究所前连续演出"
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
+          "category": "pokemon"
+        },
+        {
+          "kind": "pickup",
+          "ids": [
+            176
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:08EEB2C7",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "56.67",
+              "root": "r:08F4B6DA",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x1",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "若叶镇研究所前连续演出"
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
+          "category": "gifts"
+        },
+        {
           "kind": "pickup",
           "ids": [
             184
@@ -9712,19 +9780,6 @@
               "root": "r:089C1A1A",
               "kind": "objects",
               "condition": null,
-              "event": 0,
-              "x": 11,
-              "y": 11,
-              "graphics": "23",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.66",
-              "root": "r:089C1A1A",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_22",
               "event": 0,
               "x": 11,
               "y": 11,
@@ -9762,19 +9817,6 @@
               "root": "r:08F506EE",
               "kind": "objects",
               "condition": null,
-              "event": 8,
-              "x": 24,
-              "y": 14,
-              "graphics": "22",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.66",
-              "root": "r:08F506EE",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_22",
               "event": 8,
               "x": 24,
               "y": 14,
@@ -9824,19 +9866,6 @@
               "root": "r:08F506EE",
               "kind": "objects",
               "condition": null,
-              "event": 8,
-              "x": 24,
-              "y": 14,
-              "graphics": "22",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.66",
-              "root": "r:08F506EE",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_22",
               "event": 8,
               "x": 24,
               "y": 14,
@@ -9898,19 +9927,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.66",
-              "root": "r:08AAB13C",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_22",
-              "event": 9,
-              "x": 24,
-              "y": 16,
-              "graphics": "708",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -9938,19 +9954,6 @@
               "root": "r:089C25E6",
               "kind": "coords",
               "condition": null,
-              "event": 0,
-              "x": 5,
-              "y": 12,
-              "graphics": null,
-              "flag": null,
-              "trigger": 20739,
-              "value": 0
-            },
-            {
-              "map": "3.66",
-              "root": "r:089C25E6",
-              "kind": "coords",
-              "condition": "IsDynamicVar5184_22",
               "event": 0,
               "x": 5,
               "y": 12,
@@ -9994,19 +9997,6 @@
               "flag": null,
               "trigger": 20739,
               "value": 0
-            },
-            {
-              "map": "3.66",
-              "root": "r:089C219A",
-              "kind": "coords",
-              "condition": "IsDynamicVar5184_22",
-              "event": 1,
-              "x": 5,
-              "y": 11,
-              "graphics": null,
-              "flag": null,
-              "trigger": 20739,
-              "value": 0
             }
           ],
           "quest_rewards": [],
@@ -10036,19 +10026,6 @@
               "root": "r:089C1D2D",
               "kind": "coords",
               "condition": null,
-              "event": 2,
-              "x": 5,
-              "y": 10,
-              "graphics": null,
-              "flag": null,
-              "trigger": 20739,
-              "value": 0
-            },
-            {
-              "map": "3.66",
-              "root": "r:089C1D2D",
-              "kind": "coords",
-              "condition": "IsDynamicVar5184_22",
               "event": 2,
               "x": 5,
               "y": 10,
@@ -10140,73 +10117,6 @@
           "category": "exchanges"
         },
         {
-          "kind": "pokemon",
-          "ids": [
-            1087
-          ],
-          "levels": [
-            20
-          ],
-          "held_items": [
-            202
-          ],
-          "node": "r:08ED9965",
-          "instruction": "givepokemon 0x43F, 0x14, 0xCA, 0x0, 0x0, 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "56.67",
-              "root": "r:08F4B6DA",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x1",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "若叶镇研究所前连续演出"
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
-          "category": "pokemon"
-        },
-        {
-          "kind": "pickup",
-          "ids": [
-            176
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:08EEB2C7",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "56.67",
-              "root": "r:08F4B6DA",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x1",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "若叶镇研究所前连续演出"
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
-          "category": "gifts"
-        },
-        {
           "kind": "hidden",
           "ids": [
             13
@@ -10221,19 +10131,6 @@
               "root": "hidden:3.66:None:4",
               "kind": "bgs",
               "condition": null,
-              "event": 4,
-              "x": 10,
-              "y": 5,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.66",
-              "root": "hidden:3.66:IsDynamicVar5184_22:4",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_22",
               "event": 4,
               "x": 10,
               "y": 5,
@@ -11673,6 +11570,152 @@
       "kind": "城镇",
       "records": [
         {
+          "kind": "egg",
+          "ids": [
+            1215
+          ],
+          "node": "r:08EE74B0",
+          "instruction": "giveegg 0x4BF",
+          "costs": [],
+          "origins": [
+            {
+              "map": "55.60",
+              "root": "r:08EE6D2E",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "桧皮镇入口传送到两地呆呆兽相遇演出"
+            }
+          ],
+          "quest_rewards": [
+            {
+              "number": "059",
+              "title": "生病的呆呆兽",
+              "phase": "完成奖励",
+              "text": "伽勒尔呆呆兽的蛋×1",
+              "evidence": [
+                "r:08EE74B0"
+              ],
+              "reward": {
+                "kind": "egg",
+                "id": 1215,
+                "name": "呆呆兽"
+              }
+            }
+          ],
+          "context_quests": [
+            "059"
+          ],
+          "quote": "呆呆兽：…… …… …… ……",
+          "category": "pokemon"
+        },
+        {
+          "kind": "pickup",
+          "ids": [
+            237
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:08EE74CF",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "55.60",
+              "root": "r:08EE6D2E",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "桧皮镇入口传送到两地呆呆兽相遇演出"
+            }
+          ],
+          "quest_rewards": [
+            {
+              "number": "059",
+              "title": "生病的呆呆兽",
+              "phase": "完成奖励",
+              "text": "伽勒豆蔻手环×1",
+              "evidence": [
+                "r:08EE74CF"
+              ],
+              "reward": {
+                "kind": "item",
+                "id": 237,
+                "quantity": 1,
+                "name": "伽勒豆蔻手环"
+              }
+            }
+          ],
+          "context_quests": [
+            "059"
+          ],
+          "quote": "呆呆兽：…… …… …… ……",
+          "category": "quests"
+        },
+        {
+          "kind": "pickup",
+          "ids": [
+            238
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:08EE74DE",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "55.60",
+              "root": "r:08EE6D2E",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "桧皮镇入口传送到两地呆呆兽相遇演出"
+            }
+          ],
+          "quest_rewards": [
+            {
+              "number": "059",
+              "title": "生病的呆呆兽",
+              "phase": "完成奖励",
+              "text": "伽勒豆蔻花圈×1",
+              "evidence": [
+                "r:08EE74DE"
+              ],
+              "reward": {
+                "kind": "item",
+                "id": 238,
+                "quantity": 1,
+                "name": "伽勒豆蔻花圈"
+              }
+            }
+          ],
+          "context_quests": [
+            "059"
+          ],
+          "quote": "呆呆兽：…… …… …… ……",
+          "category": "quests"
+        },
+        {
           "kind": "pickup",
           "ids": [
             180
@@ -11843,152 +11886,6 @@
           "context_quests": [],
           "quote": "有一棵柑果树！ ……是白球果！",
           "category": "gifts"
-        },
-        {
-          "kind": "egg",
-          "ids": [
-            1215
-          ],
-          "node": "r:08EE74B0",
-          "instruction": "giveegg 0x4BF",
-          "costs": [],
-          "origins": [
-            {
-              "map": "55.60",
-              "root": "r:08EE6D2E",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "桧皮镇入口传送到两地呆呆兽相遇演出"
-            }
-          ],
-          "quest_rewards": [
-            {
-              "number": "059",
-              "title": "生病的呆呆兽",
-              "phase": "完成奖励",
-              "text": "伽勒尔呆呆兽的蛋×1",
-              "evidence": [
-                "r:08EE74B0"
-              ],
-              "reward": {
-                "kind": "egg",
-                "id": 1215,
-                "name": "呆呆兽"
-              }
-            }
-          ],
-          "context_quests": [
-            "059"
-          ],
-          "quote": "呆呆兽：…… …… …… ……",
-          "category": "pokemon"
-        },
-        {
-          "kind": "pickup",
-          "ids": [
-            237
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:08EE74CF",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "55.60",
-              "root": "r:08EE6D2E",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "桧皮镇入口传送到两地呆呆兽相遇演出"
-            }
-          ],
-          "quest_rewards": [
-            {
-              "number": "059",
-              "title": "生病的呆呆兽",
-              "phase": "完成奖励",
-              "text": "伽勒豆蔻手环×1",
-              "evidence": [
-                "r:08EE74CF"
-              ],
-              "reward": {
-                "kind": "item",
-                "id": 237,
-                "quantity": 1,
-                "name": "伽勒豆蔻手环"
-              }
-            }
-          ],
-          "context_quests": [
-            "059"
-          ],
-          "quote": "呆呆兽：…… …… …… ……",
-          "category": "quests"
-        },
-        {
-          "kind": "pickup",
-          "ids": [
-            238
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:08EE74DE",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "55.60",
-              "root": "r:08EE6D2E",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "桧皮镇入口传送到两地呆呆兽相遇演出"
-            }
-          ],
-          "quest_rewards": [
-            {
-              "number": "059",
-              "title": "生病的呆呆兽",
-              "phase": "完成奖励",
-              "text": "伽勒豆蔻花圈×1",
-              "evidence": [
-                "r:08EE74DE"
-              ],
-              "reward": {
-                "kind": "item",
-                "id": 238,
-                "quantity": 1,
-                "name": "伽勒豆蔻花圈"
-              }
-            }
-          ],
-          "context_quests": [
-            "059"
-          ],
-          "quote": "呆呆兽：…… …… …… ……",
-          "category": "quests"
         },
         {
           "kind": "hidden",
@@ -12399,19 +12296,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08F41DB4",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 19,
-              "x": 52,
-              "y": 42,
-              "graphics": "293",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -12603,19 +12487,6 @@
               "flag": 6020,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [
@@ -12663,19 +12534,6 @@
               "flag": 6020,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -12703,19 +12561,6 @@
               "kind": "objects",
               "condition": null,
               "event": 37,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
               "x": 53,
               "y": 23,
               "graphics": "2799",
@@ -12771,19 +12616,6 @@
               "flag": 6020,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [
@@ -12827,19 +12659,6 @@
               "kind": "objects",
               "condition": null,
               "event": 37,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
               "x": 53,
               "y": 23,
               "graphics": "2799",
@@ -12895,19 +12714,6 @@
               "flag": 6020,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [
@@ -12957,19 +12763,6 @@
               "flag": 6020,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [
@@ -13013,19 +12806,6 @@
               "kind": "objects",
               "condition": null,
               "event": 37,
-              "x": 53,
-              "y": 23,
-              "graphics": "2799",
-              "flag": 6020,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "r:08AF2A50",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 33,
               "x": 53,
               "y": 23,
               "graphics": "2799",
@@ -13185,19 +12965,6 @@
               "flag": null,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "hidden:3.70:IsDynamicVar5120_66:7",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5120_66",
-              "event": 7,
-              "x": 56,
-              "y": 24,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -13219,19 +12986,6 @@
               "root": "hidden:3.70:None:8",
               "kind": "bgs",
               "condition": null,
-              "event": 8,
-              "x": 37,
-              "y": 31,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "hidden:3.70:IsDynamicVar5120_66:8",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5120_66",
               "event": 8,
               "x": 37,
               "y": 31,
@@ -13267,19 +13021,6 @@
               "flag": null,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "hidden:3.70:IsDynamicVar5120_66:9",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5120_66",
-              "event": 9,
-              "x": 63,
-              "y": 26,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -13301,19 +13042,6 @@
               "root": "hidden:3.70:None:10",
               "kind": "bgs",
               "condition": null,
-              "event": 10,
-              "x": 26,
-              "y": 16,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.70",
-              "root": "hidden:3.70:IsDynamicVar5120_66:10",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5120_66",
               "event": 10,
               "x": 26,
               "y": 16,
@@ -13376,6 +13104,56 @@
       "label": "浅葱市",
       "kind": "城市",
       "records": [
+        {
+          "kind": "pickup",
+          "ids": [
+            114
+          ],
+          "quantities": [
+            6
+          ],
+          "node": "r:087B4017",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "52.27",
+              "root": "r:087B3A28",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "浅葱市海星事件入口"
+            }
+          ],
+          "quest_rewards": [
+            {
+              "number": "083",
+              "title": "海星连接宇宙",
+              "phase": "完成奖励",
+              "text": "彗星碎片×6",
+              "evidence": [
+                "r:087B4017"
+              ],
+              "reward": {
+                "kind": "item",
+                "id": 114,
+                "quantity": 6,
+                "name": "彗星碎片"
+              }
+            }
+          ],
+          "context_quests": [
+            "083"
+          ],
+          "quote": "获得了6点BracerPoints和6000$!",
+          "category": "quests"
+        },
         {
           "kind": "item",
           "ids": [
@@ -13698,56 +13476,6 @@
           "category": "quests"
         },
         {
-          "kind": "pickup",
-          "ids": [
-            114
-          ],
-          "quantities": [
-            6
-          ],
-          "node": "r:087B4017",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "52.27",
-              "root": "r:087B3A28",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "浅葱市海星事件入口"
-            }
-          ],
-          "quest_rewards": [
-            {
-              "number": "083",
-              "title": "海星连接宇宙",
-              "phase": "完成奖励",
-              "text": "彗星碎片×6",
-              "evidence": [
-                "r:087B4017"
-              ],
-              "reward": {
-                "kind": "item",
-                "id": 114,
-                "quantity": 6,
-                "name": "彗星碎片"
-              }
-            }
-          ],
-          "context_quests": [
-            "083"
-          ],
-          "quote": "获得了6点BracerPoints和6000$!",
-          "category": "quests"
-        },
-        {
           "kind": "hidden",
           "ids": [
             97
@@ -14037,6 +13765,68 @@
       "kind": "城市",
       "records": [
         {
+          "kind": "trainer",
+          "ids": [
+            384
+          ],
+          "battle_type": 9,
+          "scale_levels": [],
+          "node": "r:08ECD307",
+          "instruction": "trainerbattle0 0x9, 0x180, 0x700, 0x8ECE372, 0x8ECE372",
+          "origins": [
+            {
+              "map": "56.75",
+              "root": "r:08ECD1AE",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "湛蓝海滩夜谈连续演出"
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "不过…… 我还是会继续为你加油的！ 接下来的道馆挑战， 可绝不能让我失望哦。 毕竟…… 你可是我一直 最崇拜、也最信赖的[PLAYER]呀！",
+          "category": "trainers"
+        },
+        {
+          "kind": "pickup",
+          "ids": [
+            346
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:08EDEA2D",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "56.75",
+              "root": "r:08ECD1AE",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x0",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null,
+              "scene": "湛蓝海滩夜谈连续演出"
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "不过…… 我还是会继续为你加油的！ 接下来的道馆挑战， 可绝不能让我失望哦。 毕竟…… 你可是我一直 最崇拜、也最信赖的[PLAYER]呀！",
+          "category": "gifts"
+        },
+        {
           "kind": "pickup",
           "ids": [
             340
@@ -14298,68 +14088,6 @@
           ],
           "quote": "噢噢噢噢！力量涌上来了！ 这就是完美的境界！ 这一拳的威力， 连我自己都感到害怕！ 那么， 这是给你的报酬！",
           "category": "quests"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            384
-          ],
-          "battle_type": 9,
-          "scale_levels": [],
-          "node": "r:08ECD307",
-          "instruction": "trainerbattle0 0x9, 0x180, 0x700, 0x8ECE372, 0x8ECE372",
-          "origins": [
-            {
-              "map": "56.75",
-              "root": "r:08ECD1AE",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "湛蓝海滩夜谈连续演出"
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "不过…… 我还是会继续为你加油的！ 接下来的道馆挑战， 可绝不能让我失望哦。 毕竟…… 你可是我一直 最崇拜、也最信赖的[PLAYER]呀！",
-          "category": "trainers"
-        },
-        {
-          "kind": "pickup",
-          "ids": [
-            346
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:08EDEA2D",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "56.75",
-              "root": "r:08ECD1AE",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null,
-              "scene": "湛蓝海滩夜谈连续演出"
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "不过…… 我还是会继续为你加油的！ 接下来的道馆挑战， 可绝不能让我失望哦。 毕竟…… 你可是我一直 最崇拜、也最信赖的[PLAYER]呀！",
-          "category": "gifts"
         },
         {
           "kind": "hidden",
@@ -14828,19 +14556,6 @@
               "flag": 5780,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.75",
-              "root": "r:08F51091",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 0,
-              "x": 36,
-              "y": 13,
-              "graphics": "740",
-              "flag": 5780,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -14866,19 +14581,6 @@
               "kind": "objects",
               "condition": null,
               "event": 11,
-              "x": 36,
-              "y": 13,
-              "graphics": "740",
-              "flag": 5780,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.75",
-              "root": "r:08F51091",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 0,
               "x": 36,
               "y": 13,
               "graphics": "740",
@@ -14916,19 +14618,6 @@
               "flag": 5780,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.75",
-              "root": "r:08F51091",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 0,
-              "x": 36,
-              "y": 13,
-              "graphics": "740",
-              "flag": 5780,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -14957,19 +14646,6 @@
               "kind": "objects",
               "condition": null,
               "event": 19,
-              "x": 40,
-              "y": 43,
-              "graphics": "1198",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.75",
-              "root": "r:08AEC1D3",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 5,
               "x": 40,
               "y": 43,
               "graphics": "1198",
@@ -15024,19 +14700,6 @@
               "flag": null,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.75",
-              "root": "r:08F338AA",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 9,
-              "x": 13,
-              "y": 34,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -15062,19 +14725,6 @@
               "kind": "bgs",
               "condition": null,
               "event": 12,
-              "x": 44,
-              "y": 46,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.75",
-              "root": "r:08F3392A",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 11,
               "x": 44,
               "y": 46,
               "graphics": null,
@@ -15580,19 +15230,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "r:08F543CF",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 8,
-              "x": 100,
-              "y": 22,
-              "graphics": "224",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -15620,19 +15257,6 @@
               "root": "r:08F56A95",
               "kind": "objects",
               "condition": null,
-              "event": 42,
-              "x": 39,
-              "y": 37,
-              "graphics": "22",
-              "flag": 5780,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "r:08F56A95",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_DTo14",
               "event": 42,
               "x": 39,
               "y": 37,
@@ -15691,19 +15315,6 @@
               "flag": null,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "r:08F33E88",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 8,
-              "x": 23,
-              "y": 28,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -15728,19 +15339,6 @@
               "root": "r:08F33F5B",
               "kind": "bgs",
               "condition": null,
-              "event": 11,
-              "x": 103,
-              "y": 19,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "r:08F33F5B",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
               "event": 11,
               "x": 103,
               "y": 19,
@@ -15777,19 +15375,6 @@
               "flag": null,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "hidden:3.77:IsDynamicVar5184_DTo14:4",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 4,
-              "x": 57,
-              "y": 13,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -15811,19 +15396,6 @@
               "root": "hidden:3.77:None:5",
               "kind": "bgs",
               "condition": null,
-              "event": 5,
-              "x": 56,
-              "y": 13,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "hidden:3.77:IsDynamicVar5184_DTo14:5",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
               "event": 5,
               "x": 56,
               "y": 13,
@@ -15862,19 +15434,6 @@
               "flag": null,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "hidden:3.77:IsDynamicVar5184_DTo14:6",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
-              "event": 6,
-              "x": 57,
-              "y": 12,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -15896,19 +15455,6 @@
               "root": "hidden:3.77:None:7",
               "kind": "bgs",
               "condition": null,
-              "event": 7,
-              "x": 55,
-              "y": 12,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "3.77",
-              "root": "hidden:3.77:IsDynamicVar5184_DTo14:7",
-              "kind": "bgs",
-              "condition": "IsDynamicVar5184_DTo14",
               "event": 7,
               "x": 55,
               "y": 12,
@@ -16003,35 +15549,9 @@
             },
             {
               "map": "3.78",
-              "root": "r:0816828C",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 0,
-              "x": 35,
-              "y": 4,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 1
-            },
-            {
-              "map": "3.78",
               "root": "r:08168298",
               "kind": "coords",
               "condition": null,
-              "event": 1,
-              "x": 35,
-              "y": 5,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 1
-            },
-            {
-              "map": "3.78",
-              "root": "r:08168298",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
               "event": 1,
               "x": 35,
               "y": 5,
@@ -16071,35 +15591,9 @@
             },
             {
               "map": "3.78",
-              "root": "r:0816828C",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 0,
-              "x": 35,
-              "y": 4,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 1
-            },
-            {
-              "map": "3.78",
               "root": "r:08168298",
               "kind": "coords",
               "condition": null,
-              "event": 1,
-              "x": 35,
-              "y": 5,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 1
-            },
-            {
-              "map": "3.78",
-              "root": "r:08168298",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
               "event": 1,
               "x": 35,
               "y": 5,
@@ -16139,35 +15633,9 @@
             },
             {
               "map": "3.78",
-              "root": "r:0816828C",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 0,
-              "x": 35,
-              "y": 4,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 1
-            },
-            {
-              "map": "3.78",
               "root": "r:08168298",
               "kind": "coords",
               "condition": null,
-              "event": 1,
-              "x": 35,
-              "y": 5,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 1
-            },
-            {
-              "map": "3.78",
-              "root": "r:08168298",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
               "event": 1,
               "x": 35,
               "y": 5,
@@ -16207,19 +15675,6 @@
             },
             {
               "map": "3.78",
-              "root": "r:081683ED",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 3,
-              "x": 35,
-              "y": 4,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
               "root": "r:081683F9",
               "kind": "coords",
               "condition": null,
@@ -16233,35 +15688,9 @@
             },
             {
               "map": "3.78",
-              "root": "r:081683F9",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 4,
-              "x": 35,
-              "y": 5,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
               "root": "r:0816840C",
               "kind": "coords",
               "condition": null,
-              "event": 5,
-              "x": 35,
-              "y": 6,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
-              "root": "r:0816840C",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
               "event": 5,
               "x": 35,
               "y": 6,
@@ -16301,19 +15730,6 @@
             },
             {
               "map": "3.78",
-              "root": "r:081683ED",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 3,
-              "x": 35,
-              "y": 4,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
               "root": "r:081683F9",
               "kind": "coords",
               "condition": null,
@@ -16327,35 +15743,9 @@
             },
             {
               "map": "3.78",
-              "root": "r:081683F9",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 4,
-              "x": 35,
-              "y": 5,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
               "root": "r:0816840C",
               "kind": "coords",
               "condition": null,
-              "event": 5,
-              "x": 35,
-              "y": 6,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
-              "root": "r:0816840C",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
               "event": 5,
               "x": 35,
               "y": 6,
@@ -16395,19 +15785,6 @@
             },
             {
               "map": "3.78",
-              "root": "r:081683ED",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 3,
-              "x": 35,
-              "y": 4,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
               "root": "r:081683F9",
               "kind": "coords",
               "condition": null,
@@ -16421,35 +15798,9 @@
             },
             {
               "map": "3.78",
-              "root": "r:081683F9",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
-              "event": 4,
-              "x": 35,
-              "y": 5,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
               "root": "r:0816840C",
               "kind": "coords",
               "condition": null,
-              "event": 5,
-              "x": 35,
-              "y": 6,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16468,
-              "value": 3
-            },
-            {
-              "map": "3.78",
-              "root": "r:0816840C",
-              "kind": "coords",
-              "condition": "IsDynamicVar5120_66",
               "event": 5,
               "x": 35,
               "y": 6,
@@ -36387,40 +35738,6 @@
           "category": "gifts"
         },
         {
-          "kind": "shop",
-          "ids": [
-            709,
-            715,
-            724,
-            726,
-            703,
-            543
-          ],
-          "currency": "money",
-          "pointer": 149802498,
-          "node": "r:08EDCDF2",
-          "instruction": "pokemart 0x8EDCE02",
-          "origins": [
-            {
-              "map": "35.1",
-              "root": "r:08EDCDB5",
-              "kind": "objects",
-              "condition": null,
-              "event": 1,
-              "x": 14,
-              "y": 10,
-              "graphics": "2906",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "哼？这个主题明显不对吧。 原来只是个喜欢 到处瞎凑热闹的普通小鬼啊。 赶紧滚开， 别妨碍大叔我做生意！",
-          "category": "shops"
-        },
-        {
           "kind": "pickup",
           "ids": [
             69
@@ -36723,6 +36040,40 @@
           "context_quests": [],
           "quote": "非常抱歉， 您的BracerPoints不够。",
           "category": "tutors"
+        },
+        {
+          "kind": "shop",
+          "ids": [
+            709,
+            715,
+            724,
+            726,
+            703,
+            543
+          ],
+          "currency": "money",
+          "pointer": 149802498,
+          "node": "r:08EDCDF2",
+          "instruction": "pokemart 0x8EDCE02",
+          "origins": [
+            {
+              "map": "35.1",
+              "root": "r:08EDCDB5",
+              "kind": "objects",
+              "condition": null,
+              "event": 1,
+              "x": 14,
+              "y": 10,
+              "graphics": "2906",
+              "flag": 0,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "哼？这个主题明显不对吧。 原来只是个喜欢 到处瞎凑热闹的普通小鬼啊。 赶紧滚开， 别妨碍大叔我做生意！",
+          "category": "shops"
         }
       ],
       "pending": [],
@@ -36733,6 +36084,71 @@
       "label": "满金华丽大赛 · 接待大厅",
       "kind": "对战设施",
       "records": [
+        {
+          "kind": "pokemon",
+          "ids": [
+            1087
+          ],
+          "levels": [
+            20
+          ],
+          "held_items": [
+            202
+          ],
+          "node": "r:08ED9965",
+          "instruction": "givepokemon 0x43F, 0x14, 0xCA, 0x0, 0x0, 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "35.4",
+              "root": "r:08F4B6DA",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x1",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
+          "category": "pokemon"
+        },
+        {
+          "kind": "pickup",
+          "ids": [
+            176
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:08EEB2C7",
+          "instruction": "callstd 0x0",
+          "costs": [],
+          "origins": [
+            {
+              "map": "35.4",
+              "root": "r:08F4B6DA",
+              "kind": "header",
+              "condition": "Var 0x4099 == 0x1",
+              "event": null,
+              "x": null,
+              "y": null,
+              "graphics": null,
+              "flag": null,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
+          "category": "gifts"
+        },
         {
           "kind": "pickup",
           "ids": [
@@ -37000,71 +36416,6 @@
             "line": 3146
           },
           "category": "quests"
-        },
-        {
-          "kind": "pokemon",
-          "ids": [
-            1087
-          ],
-          "levels": [
-            20
-          ],
-          "held_items": [
-            202
-          ],
-          "node": "r:08ED9965",
-          "instruction": "givepokemon 0x43F, 0x14, 0xCA, 0x0, 0x0, 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "35.4",
-              "root": "r:08F4B6DA",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x1",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
-          "category": "pokemon"
-        },
-        {
-          "kind": "pickup",
-          "ids": [
-            176
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:08EEB2C7",
-          "instruction": "callstd 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "35.4",
-              "root": "r:08F4B6DA",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x1",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "我为华丽大赛制作服装！ 换装皮卡丘还有更多的服装选择， 如果还想换装的话可以继续找我哦！ 照顾好你的皮卡丘吧！",
-          "category": "gifts"
         }
       ],
       "pending": [],
@@ -38837,19 +38188,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "43.6",
-              "root": "r:08EC6ED7",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_23OrLater",
-              "event": 0,
-              "x": 6,
-              "y": 9,
-              "graphics": "55",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [
@@ -38902,19 +38240,6 @@
               "flag": 4116,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "43.6",
-              "root": "r:08169BAB",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_23OrLater",
-              "event": 4,
-              "x": 3,
-              "y": 5,
-              "graphics": "60",
-              "flag": 4116,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -38942,19 +38267,6 @@
               "root": "r:08169D78",
               "kind": "objects",
               "condition": null,
-              "event": 5,
-              "x": 3,
-              "y": 12,
-              "graphics": "152",
-              "flag": 4117,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "43.6",
-              "root": "r:08169D78",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_23OrLater",
               "event": 5,
               "x": 3,
               "y": 12,
@@ -38993,19 +38305,6 @@
               "flag": 4102,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "43.6",
-              "root": "r:08F50A19",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_23OrLater",
-              "event": 7,
-              "x": 4,
-              "y": 4,
-              "graphics": "56",
-              "flag": 4102,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -39030,19 +38329,6 @@
               "root": "r:089C53B7",
               "kind": "coords",
               "condition": null,
-              "event": 0,
-              "x": 3,
-              "y": 8,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16469,
-              "value": 3
-            },
-            {
-              "map": "43.6",
-              "root": "r:089C53B7",
-              "kind": "coords",
-              "condition": "IsDynamicVar5184_23OrLater",
               "event": 0,
               "x": 3,
               "y": 8,
@@ -39081,19 +38367,6 @@
               "flag": null,
               "trigger": 16469,
               "value": 3
-            },
-            {
-              "map": "43.6",
-              "root": "r:089C5309",
-              "kind": "coords",
-              "condition": "IsDynamicVar5184_23OrLater",
-              "event": 1,
-              "x": 2,
-              "y": 8,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16469,
-              "value": 3
             }
           ],
           "quest_rewards": [],
@@ -39125,19 +38398,6 @@
               "flag": null,
               "trigger": 16469,
               "value": 3
-            },
-            {
-              "map": "43.6",
-              "root": "r:089C5463",
-              "kind": "coords",
-              "condition": "IsDynamicVar5184_23OrLater",
-              "event": 3,
-              "x": 4,
-              "y": 8,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16469,
-              "value": 3
             }
           ],
           "quest_rewards": [],
@@ -39162,19 +38422,6 @@
               "root": "r:089C550D",
               "kind": "coords",
               "condition": null,
-              "event": 4,
-              "x": 5,
-              "y": 8,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16469,
-              "value": 3
-            },
-            {
-              "map": "43.6",
-              "root": "r:089C550D",
-              "kind": "coords",
-              "condition": "IsDynamicVar5184_23OrLater",
               "event": 4,
               "x": 5,
               "y": 8,
@@ -39224,190 +38471,6 @@
           "context_quests": [],
           "quote": "我有一个叫做精灵爷爷的熟人。 他总能发现一些奇奇怪怪的东西， 然后兴奋得大喊， “这是重大的发现！” 总之，我刚刚收到 一封他发来的邮件， 说这次一定是真的！ 听起来很有趣，但我们现在 正忙着进行我们的精灵研究。 所以可以请你去替我看看吗？",
           "category": "pokemon"
-        },
-        {
-          "kind": "item",
-          "ids": [
-            1
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "s:EventScript_TaskIcicleCave_ElmGiftCutscene:90",
-          "instruction": "giveitem ITEM_TASK_ICICLE_CAVE_MASTER_BALL 0x1 MSG_OBTAIN",
-          "costs": [],
-          "origins": [
-            {
-              "map": "43.6",
-              "root": "s:EventScript_TaskIcicleCave_ElmGiftCutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x23",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那个……我们正在协助空木博士， 调查之前受火箭队怪电波影响的 宝可梦。 大家恢复得都很好哦！ 这都要多亏了……",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 16648
-          },
-          "category": "gifts"
-        },
-        {
-          "kind": "pokemon",
-          "ids": [
-            152
-          ],
-          "levels": [
-            5
-          ],
-          "held_items": [
-            0
-          ],
-          "node": "s:TaskIcicleCave_GiveChikorita:3",
-          "instruction": "givepokemon SPECIES_CHIKORITA LEVEL_TASK_ICICLE_CAVE_STARTER 0x0 0x0 0x0 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "43.6",
-              "root": "s:EventScript_TaskIcicleCave_ElmGiftCutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x23",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那个……我们正在协助空木博士， 调查之前受火箭队怪电波影响的 宝可梦。 大家恢复得都很好哦！ 这都要多亏了……",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 16812
-          },
-          "category": "pokemon"
-        },
-        {
-          "kind": "pokemon",
-          "ids": [
-            155
-          ],
-          "levels": [
-            5
-          ],
-          "held_items": [
-            0
-          ],
-          "node": "s:TaskIcicleCave_GiveCyndaquil:3",
-          "instruction": "givepokemon SPECIES_CYNDAQUIL LEVEL_TASK_ICICLE_CAVE_STARTER 0x0 0x0 0x0 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "43.6",
-              "root": "s:EventScript_TaskIcicleCave_ElmGiftCutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x23",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那个……我们正在协助空木博士， 调查之前受火箭队怪电波影响的 宝可梦。 大家恢复得都很好哦！ 这都要多亏了……",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 16798
-          },
-          "category": "pokemon"
-        },
-        {
-          "kind": "pokemon",
-          "ids": [
-            158
-          ],
-          "levels": [
-            5
-          ],
-          "held_items": [
-            0
-          ],
-          "node": "s:TaskIcicleCave_GiveTotodile:3",
-          "instruction": "givepokemon SPECIES_TOTODILE LEVEL_TASK_ICICLE_CAVE_STARTER 0x0 0x0 0x0 0x0",
-          "costs": [],
-          "origins": [
-            {
-              "map": "43.6",
-              "root": "s:EventScript_TaskIcicleCave_ElmGiftCutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x23",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那个……我们正在协助空木博士， 调查之前受火箭队怪电波影响的 宝可梦。 大家恢复得都很好哦！ 这都要多亏了……",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 16784
-          },
-          "category": "pokemon"
-        },
-        {
-          "kind": "item",
-          "ids": [
-            533
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "s:TaskIcicleCave_WaveDone:1",
-          "instruction": "giveitem 0x215 0x1 MSG_OBTAIN",
-          "costs": [],
-          "origins": [
-            {
-              "map": "43.6",
-              "root": "s:EventScript_TaskIcicleCave_ElmGiftCutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x23",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那个……我们正在协助空木博士， 调查之前受火箭队怪电波影响的 宝可梦。 大家恢复得都很好哦！ 这都要多亏了……",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 16872
-          },
-          "category": "gifts"
         }
       ],
       "pending": [],
@@ -39429,19 +38492,6 @@
               "root": "r:08169595",
               "kind": "objects",
               "condition": null,
-              "event": 3,
-              "x": 12,
-              "y": 8,
-              "graphics": "71",
-              "flag": 43,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "43.6",
-              "root": "r:08169595",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_23OrLater",
               "event": 3,
               "x": 12,
               "y": 8,
@@ -39480,19 +38530,6 @@
               "flag": 43,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "43.6",
-              "root": "r:08169595",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_23OrLater",
-              "event": 3,
-              "x": 12,
-              "y": 8,
-              "graphics": "71",
-              "flag": 43,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -39520,19 +38557,6 @@
               "root": "r:08169DAE",
               "kind": "objects",
               "condition": null,
-              "event": 6,
-              "x": 12,
-              "y": 8,
-              "graphics": "92",
-              "flag": 42,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "43.6",
-              "root": "r:08169DAE",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_23OrLater",
               "event": 6,
               "x": 12,
               "y": 8,
@@ -40375,6 +39399,69 @@
         {
           "kind": "shop",
           "ids": [
+            121,
+            122,
+            123
+          ],
+          "currency": "money",
+          "pointer": 144473019,
+          "node": "r:089C7B43",
+          "instruction": "pokemart 0x89C7BBB",
+          "origins": [
+            {
+              "map": "45.1",
+              "root": "r:089C7B34",
+              "kind": "objects",
+              "condition": null,
+              "event": 0,
+              "x": 1,
+              "y": 4,
+              "graphics": "67",
+              "flag": 0,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "嗨！ 有什么能帮到你的吗？",
+          "category": "shops"
+        },
+        {
+          "kind": "shop",
+          "ids": [
+            121,
+            122,
+            123,
+            241
+          ],
+          "currency": "money",
+          "pointer": 144473028,
+          "node": "r:089C7B5B",
+          "instruction": "pokemart 0x89C7BC4",
+          "origins": [
+            {
+              "map": "45.1",
+              "root": "r:089C7B34",
+              "kind": "objects",
+              "condition": null,
+              "event": 0,
+              "x": 1,
+              "y": 4,
+              "graphics": "67",
+              "flag": 0,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "嗨！ 有什么能帮到你的吗？",
+          "category": "shops"
+        },
+        {
+          "kind": "shop",
+          "ids": [
             13,
             14,
             18
@@ -40992,69 +40079,6 @@
           "context_quests": [],
           "quote": "你好， [PLAYER]是吧？ 这是你妈妈寄给你的包裹， 请收下吧！",
           "category": "gifts"
-        },
-        {
-          "kind": "shop",
-          "ids": [
-            121,
-            122,
-            123
-          ],
-          "currency": "money",
-          "pointer": 144473019,
-          "node": "r:089C7B43",
-          "instruction": "pokemart 0x89C7BBB",
-          "origins": [
-            {
-              "map": "45.1",
-              "root": "r:089C7B34",
-              "kind": "objects",
-              "condition": null,
-              "event": 0,
-              "x": 1,
-              "y": 4,
-              "graphics": "67",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "嗨！ 有什么能帮到你的吗？",
-          "category": "shops"
-        },
-        {
-          "kind": "shop",
-          "ids": [
-            121,
-            122,
-            123,
-            241
-          ],
-          "currency": "money",
-          "pointer": 144473028,
-          "node": "r:089C7B5B",
-          "instruction": "pokemart 0x89C7BC4",
-          "origins": [
-            {
-              "map": "45.1",
-              "root": "r:089C7B34",
-              "kind": "objects",
-              "condition": null,
-              "event": 0,
-              "x": 1,
-              "y": 4,
-              "graphics": "67",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "嗨！ 有什么能帮到你的吗？",
-          "category": "shops"
         }
       ],
       "pending": [],
@@ -47105,19 +46129,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "48.5",
-              "root": "r:089D9334",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 5,
-              "x": 10,
-              "y": 16,
-              "graphics": "61",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -47158,225 +46169,12 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "48.5",
-              "root": "r:08F5B48B",
-              "kind": "objects",
-              "condition": "IsDynamicVar5120_66",
-              "event": 8,
-              "x": 11,
-              "y": 16,
-              "graphics": "368",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
           "context_quests": [],
           "quote": "钻角犀兽吃下了[BUFFER1]。",
           "category": "exchanges"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            519
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "s:EventScript_TaskEcruteakDanceTrial_Cutscene:25",
-          "instruction": "trainerbattle3 0x3 TRAINER_TASK_ECRUTEAK_DANCE_XIAOJUN 0x0 gText_TaskEcruteakDance_XiaojunDefeat",
-          "origins": [
-            {
-              "map": "48.5",
-              "root": "s:EventScript_TaskEcruteakDanceTrial_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x1C",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "没错。 缘朱市的道馆馆主， 已经结束修行回来了。 就在刚才， 缘朱道馆的大门， 已经重新向挑战者敞开。",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13287
-          },
-          "category": "trainers"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            520
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "s:EventScript_TaskEcruteakDanceTrial_Cutscene:38",
-          "instruction": "trainerbattle3 0x3 TRAINER_TASK_ECRUTEAK_DANCE_XIAOMEI 0x0 gText_TaskEcruteakDance_XiaomeiDefeat",
-          "origins": [
-            {
-              "map": "48.5",
-              "root": "s:EventScript_TaskEcruteakDanceTrial_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x1C",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "没错。 缘朱市的道馆馆主， 已经结束修行回来了。 就在刚才， 缘朱道馆的大门， 已经重新向挑战者敞开。",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13287
-          },
-          "category": "trainers"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            521
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "s:EventScript_TaskEcruteakDanceTrial_Cutscene:51",
-          "instruction": "trainerbattle3 0x3 TRAINER_TASK_ECRUTEAK_DANCE_XIAOTAO 0x0 gText_TaskEcruteakDance_XiaotaoDefeat",
-          "origins": [
-            {
-              "map": "48.5",
-              "root": "s:EventScript_TaskEcruteakDanceTrial_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x1C",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "没错。 缘朱市的道馆馆主， 已经结束修行回来了。 就在刚才， 缘朱道馆的大门， 已经重新向挑战者敞开。",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13287
-          },
-          "category": "trainers"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            522
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "s:EventScript_TaskEcruteakDanceTrial_Cutscene:64",
-          "instruction": "trainerbattle3 0x3 TRAINER_TASK_ECRUTEAK_DANCE_SAKURA 0x0 gText_TaskEcruteakDance_SakuraDefeat",
-          "origins": [
-            {
-              "map": "48.5",
-              "root": "s:EventScript_TaskEcruteakDanceTrial_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x1C",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "没错。 缘朱市的道馆馆主， 已经结束修行回来了。 就在刚才， 缘朱道馆的大门， 已经重新向挑战者敞开。",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13287
-          },
-          "category": "trainers"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            523
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "s:EventScript_TaskEcruteakDanceTrial_Cutscene:77",
-          "instruction": "trainerbattle3 0x3 TRAINER_TASK_ECRUTEAK_DANCE_TAMA 0x0 gText_TaskEcruteakDance_TamaDefeat",
-          "origins": [
-            {
-              "map": "48.5",
-              "root": "s:EventScript_TaskEcruteakDanceTrial_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x1C",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "没错。 缘朱市的道馆馆主， 已经结束修行回来了。 就在刚才， 缘朱道馆的大门， 已经重新向挑战者敞开。",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13287
-          },
-          "category": "trainers"
-        },
-        {
-          "kind": "item",
-          "ids": [
-            472
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "s:EventScript_TaskEcruteakDanceTrial_Cutscene:82",
-          "instruction": "giveitem ITEM_RAINBOW_WING 0x1 MSG_OBTAIN",
-          "costs": [],
-          "origins": [
-            {
-              "map": "48.5",
-              "root": "s:EventScript_TaskEcruteakDanceTrial_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x5184 == 0x1C",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "没错。 缘朱市的道馆馆主， 已经结束修行回来了。 就在刚才， 缘朱道馆的大门， 已经重新向挑战者敞开。",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13287
-          },
-          "category": "gifts"
         },
         {
           "kind": "pickup",
@@ -51286,78 +50084,6 @@
         {
           "kind": "item",
           "ids": [
-            70
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "r:081BEB62",
-          "instruction": "callstd 0x1",
-          "costs": [],
-          "origins": [
-            {
-              "map": "49.16",
-              "root": "r:081BEB58",
-              "kind": "objects",
-              "condition": null,
-              "event": 4,
-              "x": 27,
-              "y": 1,
-              "graphics": "92",
-              "flag": 457,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "category": "balls"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            349
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "r:08161ED3",
-          "instruction": "trainerbattle0 0x3, 0x15D, 0x0, 0x81771AB",
-          "origins": [
-            {
-              "map": "49.16",
-              "root": "r:08161E88",
-              "kind": "coords",
-              "condition": null,
-              "event": 0,
-              "x": 22,
-              "y": 1,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16480,
-              "value": 0
-            },
-            {
-              "map": "49.16",
-              "root": "r:08161E94",
-              "kind": "coords",
-              "condition": null,
-              "event": 1,
-              "x": 20,
-              "y": 1,
-              "graphics": null,
-              "flag": null,
-              "trigger": 16480,
-              "value": 0
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "啊，[PLAYER]！ 我们又见面了！ 总裁和我正在讨论 一个重要的商业计划。 你还是别太关心 大人的事为好…… 知道这些可是相当痛苦的呢！",
-          "category": "trainers"
-        },
-        {
-          "kind": "item",
-          "ids": [
             1
           ],
           "quantities": [
@@ -51443,6 +50169,78 @@
           "quest_rewards": [],
           "context_quests": [],
           "quote": "站住！你和我的老大 预约过吗？",
+          "category": "trainers"
+        },
+        {
+          "kind": "item",
+          "ids": [
+            70
+          ],
+          "quantities": [
+            1
+          ],
+          "node": "r:081BEB62",
+          "instruction": "callstd 0x1",
+          "costs": [],
+          "origins": [
+            {
+              "map": "49.16",
+              "root": "r:081BEB58",
+              "kind": "objects",
+              "condition": null,
+              "event": 4,
+              "x": 27,
+              "y": 1,
+              "graphics": "92",
+              "flag": 457,
+              "trigger": null,
+              "value": null
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "category": "balls"
+        },
+        {
+          "kind": "trainer",
+          "ids": [
+            349
+          ],
+          "battle_type": 3,
+          "scale_levels": [],
+          "node": "r:08161ED3",
+          "instruction": "trainerbattle0 0x3, 0x15D, 0x0, 0x81771AB",
+          "origins": [
+            {
+              "map": "49.16",
+              "root": "r:08161E88",
+              "kind": "coords",
+              "condition": null,
+              "event": 0,
+              "x": 22,
+              "y": 1,
+              "graphics": null,
+              "flag": null,
+              "trigger": 16480,
+              "value": 0
+            },
+            {
+              "map": "49.16",
+              "root": "r:08161E94",
+              "kind": "coords",
+              "condition": null,
+              "event": 1,
+              "x": 20,
+              "y": 1,
+              "graphics": null,
+              "flag": null,
+              "trigger": 16480,
+              "value": 0
+            }
+          ],
+          "quest_rewards": [],
+          "context_quests": [],
+          "quote": "啊，[PLAYER]！ 我们又见面了！ 总裁和我正在讨论 一个重要的商业计划。 你还是别太关心 大人的事为好…… 知道这些可是相当痛苦的呢！",
           "category": "trainers"
         },
         {
@@ -56224,19 +55022,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:08F32241",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 4,
-              "x": 6,
-              "y": 2,
-              "graphics": "67",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [
@@ -56304,19 +55089,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:0816CB88",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 5,
-              "x": 13,
-              "y": 3,
-              "graphics": "21",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -56362,19 +55134,6 @@
               "event": 7,
               "x": 18,
               "y": 4,
-              "graphics": "21",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:0816CB88",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 5,
-              "x": 13,
-              "y": 3,
               "graphics": "21",
               "flag": 0,
               "trigger": null,
@@ -56428,19 +55187,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:0816CB88",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 5,
-              "x": 13,
-              "y": 3,
-              "graphics": "21",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -56486,19 +55232,6 @@
               "event": 7,
               "x": 18,
               "y": 4,
-              "graphics": "21",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:0816CB88",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 5,
-              "x": 13,
-              "y": 3,
               "graphics": "21",
               "flag": 0,
               "trigger": null,
@@ -56552,19 +55285,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:0816CB88",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 5,
-              "x": 13,
-              "y": 3,
-              "graphics": "21",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -56610,19 +55330,6 @@
               "event": 7,
               "x": 18,
               "y": 4,
-              "graphics": "21",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:0816CB88",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 5,
-              "x": 13,
-              "y": 3,
               "graphics": "21",
               "flag": 0,
               "trigger": null,
@@ -56709,19 +55416,6 @@
               "flag": 91,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:0816CE1D",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 7,
-              "x": 14,
-              "y": 4,
-              "graphics": "21",
-              "flag": 91,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -56762,19 +55456,6 @@
               "x": 5,
               "y": 2,
               "graphics": "21",
-              "flag": 0,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.20",
-              "root": "r:089EAFDB",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 8,
-              "x": 12,
-              "y": 2,
-              "graphics": "91",
               "flag": 0,
               "trigger": null,
               "value": null
@@ -58064,19 +56745,6 @@
               "flag": 5780,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F50B30",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 2,
-              "x": 19,
-              "y": 5,
-              "graphics": "562",
-              "flag": 5780,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -58107,19 +56775,6 @@
               "root": "r:08F50B30",
               "kind": "objects",
               "condition": null,
-              "event": 2,
-              "x": 19,
-              "y": 5,
-              "graphics": "562",
-              "flag": 5780,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F50B30",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
               "event": 2,
               "x": 19,
               "y": 5,
@@ -58164,19 +56819,6 @@
               "flag": 5780,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F50B30",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 2,
-              "x": 19,
-              "y": 5,
-              "graphics": "562",
-              "flag": 5780,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -58206,19 +56848,6 @@
               "y": 8,
               "graphics": "291",
               "flag": 5780,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F51071",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 3,
-              "x": 14,
-              "y": 8,
-              "graphics": "291",
-              "flag": 0,
               "trigger": null,
               "value": null
             }
@@ -58252,19 +56881,6 @@
               "flag": 5780,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F51071",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 3,
-              "x": 14,
-              "y": 8,
-              "graphics": "291",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -58294,19 +56910,6 @@
               "y": 8,
               "graphics": "291",
               "flag": 5780,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F51071",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 3,
-              "x": 14,
-              "y": 8,
-              "graphics": "291",
-              "flag": 0,
               "trigger": null,
               "value": null
             }
@@ -58340,19 +56943,6 @@
               "flag": 5780,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F51071",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 3,
-              "x": 14,
-              "y": 8,
-              "graphics": "291",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -58382,19 +56972,6 @@
               "y": 8,
               "graphics": "291",
               "flag": 5780,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F51071",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 3,
-              "x": 14,
-              "y": 8,
-              "graphics": "291",
-              "flag": 0,
               "trigger": null,
               "value": null
             }
@@ -58428,19 +57005,6 @@
               "flag": 5780,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F51071",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 3,
-              "x": 14,
-              "y": 8,
-              "graphics": "291",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -58470,19 +57034,6 @@
               "y": 8,
               "graphics": "291",
               "flag": 5780,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08F51071",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 3,
-              "x": 14,
-              "y": 8,
-              "graphics": "291",
-              "flag": 0,
               "trigger": null,
               "value": null
             }
@@ -58517,19 +57068,6 @@
               "y": 8,
               "graphics": "73",
               "flag": 2901,
-              "trigger": null,
-              "value": null
-            },
-            {
-              "map": "50.31",
-              "root": "r:08ED8668",
-              "kind": "objects",
-              "condition": "IsMap50_31Flag146DActive",
-              "event": 5,
-              "x": 11,
-              "y": 5,
-              "graphics": "73",
-              "flag": 0,
               "trigger": null,
               "value": null
             }
@@ -62583,19 +61121,6 @@
               "flag": 0,
               "trigger": null,
               "value": null
-            },
-            {
-              "map": "50.48",
-              "root": "r:08F515A6",
-              "kind": "objects",
-              "condition": "IsDynamicVar5184_A",
-              "event": 3,
-              "x": 13,
-              "y": 3,
-              "graphics": "2827",
-              "flag": 0,
-              "trigger": null,
-              "value": null
             }
           ],
           "quest_rewards": [],
@@ -65843,109 +64368,7 @@
     "52.12": {
       "label": "铃音小道 · 铃铛塔前",
       "kind": "道路",
-      "records": [
-        {
-          "kind": "trainer",
-          "ids": [
-            82
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "s:EventScript_TaskEcruteakGym_Matsuba_Cutscene:102",
-          "instruction": "trainerbattle3 0x3 0x52 0x900 gText_TaskEcruteakGym_MatsubaDefeat",
-          "origins": [
-            {
-              "map": "52.12",
-              "root": "s:EventScript_TaskEcruteakGym_Matsuba_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那是当然的呀！ 因为我们是无话不谈的好朋友嘛！",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13483
-          },
-          "category": "trainers"
-        },
-        {
-          "kind": "item",
-          "ids": [
-            318
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "s:EventScript_TaskEcruteakGym_Matsuba_Cutscene:150",
-          "instruction": "giveitem 0x13E 0x1 MSG_OBTAIN",
-          "costs": [],
-          "origins": [
-            {
-              "map": "52.12",
-              "root": "s:EventScript_TaskEcruteakGym_Matsuba_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那是当然的呀！ 因为我们是无话不谈的好朋友嘛！",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13483
-          },
-          "category": "gifts"
-        },
-        {
-          "kind": "trainer",
-          "ids": [
-            524
-          ],
-          "battle_type": 3,
-          "scale_levels": [],
-          "node": "s:EventScript_TaskEcruteakGym_Matsuba_Cutscene:493",
-          "instruction": "trainerbattle3 0x3 0x20C 0x900 gText_TaskEcruteakGym_SanhuaDefeat",
-          "origins": [
-            {
-              "map": "52.12",
-              "root": "s:EventScript_TaskEcruteakGym_Matsuba_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "那是当然的呀！ 因为我们是无话不谈的好朋友嘛！",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 13483
-          },
-          "category": "trainers"
-        }
-      ],
+      "records": [],
       "pending": [],
       "excluded": [],
       "scenes": []
@@ -68039,49 +66462,7 @@
     "53.11": {
       "label": "满金广播塔 · 眺望台",
       "kind": "广播塔",
-      "records": [
-        {
-          "kind": "item",
-          "ids": [
-            473
-          ],
-          "quantities": [
-            1
-          ],
-          "node": "s:EventScript_TaskApolloGoldenrodTower_AfterBattle_Cutscene:37",
-          "instruction": "giveitem ITEM_TASK_APOLLO_DEFEATED_SILVER_WING 0x1 MSG_OBTAIN",
-          "costs": [
-            {
-              "kind": "item",
-              "id": 473,
-              "amount": 1
-            }
-          ],
-          "origins": [
-            {
-              "map": "53.11",
-              "root": "s:EventScript_TaskApolloGoldenrodTower_AfterBattle_Cutscene",
-              "kind": "header",
-              "condition": "Var 0x4099 == 0x0",
-              "event": null,
-              "x": null,
-              "y": null,
-              "graphics": null,
-              "flag": null,
-              "trigger": null,
-              "value": null
-            }
-          ],
-          "quest_rewards": [],
-          "context_quests": [],
-          "quote": "……怎么会这样？ 所有的梦想 现在都破灭了， 我果然还是不行吗。 明白了， 就像坂木大人曾经做过的那样， 我们火箭队 就此解散， 再见。",
-          "source": {
-            "path": "Complete-Fire-Red-Upgrade-dev for Project Azoth/assembly/overworld_scripts/task_scripts.s",
-            "line": 11367
-          },
-          "category": "exchanges"
-        }
-      ],
+      "records": [],
       "pending": [],
       "excluded": [],
       "scenes": []
@@ -95989,171 +94370,6 @@
       ],
       "origin": "ROM"
     },
-    "519": {
-      "trainer_id": 519,
-      "name": "小娟",
-      "trainer_class": 41,
-      "encounter_music": 2,
-      "gender": 1,
-      "pic": 54,
-      "items": [
-        21,
-        0,
-        0,
-        0
-      ],
-      "double_battle": false,
-      "ai_flags": "AI_SCRIPT_CHECK_BAD_MOVE",
-      "party_template": "item_custom",
-      "party": [
-        {
-          "iv": 31,
-          "level": 48,
-          "species": 136,
-          "item": 215,
-          "moves": [
-            434,
-            53,
-            261,
-            98
-          ],
-          "shiny": false
-        }
-      ],
-      "origin": "override"
-    },
-    "520": {
-      "trainer_id": 520,
-      "name": "小梅",
-      "trainer_class": 41,
-      "encounter_music": 1,
-      "gender": 1,
-      "pic": 54,
-      "items": [
-        21,
-        0,
-        0,
-        0
-      ],
-      "double_battle": false,
-      "ai_flags": "AI_SCRIPT_CHECK_BAD_MOVE",
-      "party_template": "item_custom",
-      "party": [
-        {
-          "iv": 30,
-          "level": 48,
-          "species": 196,
-          "item": 214,
-          "moves": [
-            94,
-            466,
-            247,
-            347
-          ],
-          "shiny": false
-        }
-      ],
-      "origin": "override"
-    },
-    "521": {
-      "trainer_id": 521,
-      "name": "小桃",
-      "trainer_class": 41,
-      "encounter_music": 5,
-      "gender": 1,
-      "pic": 54,
-      "items": [
-        21,
-        0,
-        0,
-        0
-      ],
-      "double_battle": false,
-      "ai_flags": "AI_SCRIPT_CHECK_BAD_MOVE",
-      "party_template": "item_custom",
-      "party": [
-        {
-          "iv": 29,
-          "level": 48,
-          "species": 134,
-          "item": 209,
-          "moves": [
-            459,
-            58,
-            639,
-            105
-          ],
-          "shiny": false
-        }
-      ],
-      "origin": "override"
-    },
-    "522": {
-      "trainer_id": 522,
-      "name": "樱花",
-      "trainer_class": 41,
-      "encounter_music": 5,
-      "gender": 1,
-      "pic": 54,
-      "items": [
-        21,
-        0,
-        0,
-        0
-      ],
-      "double_battle": false,
-      "ai_flags": "AI_SCRIPT_CHECK_BAD_MOVE",
-      "party_template": "item_custom",
-      "party": [
-        {
-          "iv": 31,
-          "level": 48,
-          "species": 135,
-          "item": 208,
-          "moves": [
-            85,
-            443,
-            86,
-            247
-          ],
-          "shiny": false
-        }
-      ],
-      "origin": "override"
-    },
-    "523": {
-      "trainer_id": 523,
-      "name": "玉绪",
-      "trainer_class": 41,
-      "encounter_music": 1,
-      "gender": 1,
-      "pic": 54,
-      "items": [
-        21,
-        0,
-        0,
-        0
-      ],
-      "double_battle": false,
-      "ai_flags": "AI_SCRIPT_CHECK_BAD_MOVE",
-      "party_template": "item_custom",
-      "party": [
-        {
-          "iv": 28,
-          "level": 48,
-          "species": 197,
-          "item": 206,
-          "moves": [
-            535,
-            236,
-            92,
-            182
-          ],
-          "shiny": false
-        }
-      ],
-      "origin": "override"
-    },
     "127": {
       "trainer_id": 127,
       "name": "由香",
@@ -96771,78 +94987,6 @@
       ],
       "origin": "override"
     },
-    "349": {
-      "trainer_id": 349,
-      "name": "亚玄",
-      "trainer_class": 39,
-      "encounter_music": 6,
-      "gender": 0,
-      "pic": 46,
-      "items": [
-        353,
-        0,
-        0,
-        0
-      ],
-      "double_battle": false,
-      "ai_flags": "AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY",
-      "party_template": "item_custom",
-      "party": [
-        {
-          "iv": 2,
-          "level": 34,
-          "species": 217,
-          "item": 0,
-          "moves": [
-            332,
-            360,
-            397,
-            163
-          ],
-          "shiny": false
-        },
-        {
-          "iv": 2,
-          "level": 35,
-          "species": 789,
-          "item": 0,
-          "moves": [
-            527,
-            398,
-            247,
-            449
-          ],
-          "shiny": false
-        },
-        {
-          "iv": 2,
-          "level": 35,
-          "species": 376,
-          "item": 0,
-          "moves": [
-            14,
-            387,
-            391,
-            365
-          ],
-          "shiny": false
-        },
-        {
-          "iv": 2,
-          "level": 34,
-          "species": 501,
-          "item": 533,
-          "moves": [
-            232,
-            245,
-            198,
-            359
-          ],
-          "shiny": false
-        }
-      ],
-      "origin": "ROM"
-    },
     "390": {
       "trainer_id": 390,
       "name": "阿速",
@@ -96914,6 +95058,78 @@
         }
       ],
       "origin": "override"
+    },
+    "349": {
+      "trainer_id": 349,
+      "name": "亚玄",
+      "trainer_class": 39,
+      "encounter_music": 6,
+      "gender": 0,
+      "pic": 46,
+      "items": [
+        353,
+        0,
+        0,
+        0
+      ],
+      "double_battle": false,
+      "ai_flags": "AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY",
+      "party_template": "item_custom",
+      "party": [
+        {
+          "iv": 2,
+          "level": 34,
+          "species": 217,
+          "item": 0,
+          "moves": [
+            332,
+            360,
+            397,
+            163
+          ],
+          "shiny": false
+        },
+        {
+          "iv": 2,
+          "level": 35,
+          "species": 789,
+          "item": 0,
+          "moves": [
+            527,
+            398,
+            247,
+            449
+          ],
+          "shiny": false
+        },
+        {
+          "iv": 2,
+          "level": 35,
+          "species": 376,
+          "item": 0,
+          "moves": [
+            14,
+            387,
+            391,
+            365
+          ],
+          "shiny": false
+        },
+        {
+          "iv": 2,
+          "level": 34,
+          "species": 501,
+          "item": 533,
+          "moves": [
+            232,
+            245,
+            198,
+            359
+          ],
+          "shiny": false
+        }
+      ],
+      "origin": "ROM"
     },
     "287": {
       "trainer_id": 287,
@@ -109647,20 +107863,20 @@
   ],
   "stats": {
     "maps": 410,
-    "with_content": 278,
-    "records": 2088,
+    "with_content": 276,
+    "records": 2073,
     "pending": 31,
     "excluded": 191,
     "unassigned": 0,
-    "trainers": 423,
+    "trainers": 418,
     "categories": {
       "balls": 362,
       "hidden": 260,
       "quests": 163,
-      "trainers": 526,
-      "gifts": 336,
-      "pokemon": 46,
-      "exchanges": 197,
+      "trainers": 519,
+      "gifts": 332,
+      "pokemon": 43,
+      "exchanges": 196,
       "tutors": 98,
       "shops": 100
     }
