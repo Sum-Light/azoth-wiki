@@ -10,6 +10,7 @@
 <a class="azoth-card" href="abilities/"><strong>特性一览</strong><span>特性效果 / 持有者 / 动态特性说明</span></a>
 <a class="azoth-card" href="items/"><strong>道具一览</strong><span>价格 / 描述 / 野生携带反查</span></a>
 <a class="azoth-card" href="locations/"><strong>地点分布</strong><span>各地图野生宝可梦 · 分时段 / 方式</span></a>
+<a class="azoth-card" href="locations/atlas/"><strong>查看地图</strong><span>区域地图 / 连接地点 / 通道与室内入口</span></a>
 <a class="azoth-card" href="home/"><strong>水银 HOME</strong><span>本地存档盒子管理 · 读取 / 导出存档</span></a>
 <a class="azoth-card" href="distribution/"><strong>配信</strong><span>配信宝可梦 · 一键领取到 HOME</span></a>
 <a class="azoth-card" href="https://docs.qq.com/sheet/DUHRRdnNGYVZmRW5t?aidPos=detail&no_promotion=1&is_blank_or_template=blank&tab=BB08J2"><strong>BUG反馈</strong><span>腾讯文档在线反馈 · 附截图更佳</span></a>

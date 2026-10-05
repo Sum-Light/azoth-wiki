@@ -37,6 +37,9 @@ mkdocs serve                      # http://127.0.0.1:8000
 - `data/sidequest_locations.json`：从脚本入口追踪分场对白的地图快照，含触发方式、坐标、依据与导航参考。
 - `docs/sidequests/maps/`：复用 Map_event_editor 绘制的地图、人物／宝可梦图像及事件标记，并叠加任务入口编号；动态地图按对应阶段分别导出，图片可点击放大。事件预览保留初始位置，不按存档 Flag 隐藏人物。
 - 地图与事件图像使用编辑器默认的 CFRU `test.gba`（不存在时使用 CFRU `BPRE0.gba`），可通过导出工具的 `--map-rom` 指定；`--rom` 仅指定台本脚本追踪所用 ROM。两者分别记录校验值，避免旧 ROM 与当前图像表地址混用。ROM 区域名“真新镇”在任务地图中显示为“剧情地图”。
+- `python tools/export_wiki_atlas.py`：从编辑器 ROM 导出地图查看功能，沿地图头连接与静态传送事件追踪通道，生成 `docs/locations/atlas_data.json`、地图图像和地点页的 `location-atlas` 区块。区域定位复用现有大地图的 mapsec 与校准值；可变返回出口不推断目的地。先生成图鉴和任务页，再运行此工具补充地图区块。
+  普通通道要求沿途连接可回连；动态剧情阶段的图像与出口单独列出。缺少可靠房间名称的地点保留地图编号，不根据原版命名猜测用途。
+  只调整地点页排版或重建被其他生成器覆盖的区块时，运行 `python tools/export_wiki_atlas.py --pages-only`，复用已导出的地图快照。
 - `tools/generate_sidequests.py`：生成 `docs/sidequests/` 并维护带标记的反查区块。
 - `docs/stylesheets/sidequests.css`、`docs/javascripts/sidequests.js`：手机、深色模式与即时导航支持。
 

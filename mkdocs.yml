@@ -30,9 +30,11 @@ plugins:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/sidequests.css
+  - stylesheets/locations.css
 
 extra_javascript:
   - javascripts/sidequests.js
+  - javascripts/locations.js
 
 markdown_extensions:
   - tables
@@ -53,6 +55,7 @@ nav:
   - 特性一览: abilities/index.md
   - 道具一览: items/index.md
   - 地点分布: locations/index.md
+  - 查看地图: locations/atlas.md
   - 广播: broadcast/index.md
   - 时间事件: events/index.md
   - 存档修复: savefix/index.md
