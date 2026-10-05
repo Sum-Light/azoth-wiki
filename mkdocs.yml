@@ -42,6 +42,7 @@ extra_css:
   - stylesheets/encyclopedia.css
   - stylesheets/pokedex.css
   - stylesheets/pixel-images.css
+  - stylesheets/map-content.css
 
 extra_javascript:
   - javascripts/sidequests.js

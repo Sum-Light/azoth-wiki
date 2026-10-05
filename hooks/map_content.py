@@ -2,12 +2,15 @@
 import collections
 import html
 import json
+import posixpath
 import re
 from pathlib import Path
 
 DOCS = Path(__file__).resolve().parents[1] / 'docs'
 DATA = None
 LINKS = {}
+ASSETS = {}
+ASSET_BASE = ''
 CATEGORIES = (
     ('balls','地上的精灵球'),('hidden','隐藏道具'),('gifts','NPC 赠送'),
     ('quests','支线赠送'),('pokemon','赠送宝可梦与蛋'),('shops','商店'),
@@ -15,11 +18,12 @@ CATEGORIES = (
 
 
 def on_pre_build(**kwargs):
-    global DATA, LINKS
+    global DATA, LINKS, ASSETS
     DATA = json.loads((DOCS/'locations/map_content.json').read_text(encoding='utf-8'))
     if DATA.get('event_scope') not in ('static', 'static+dynamic'):
         raise ValueError('Re-export map content with explicit event scope before publishing')
     LINKS = {}
+    ASSETS = json.loads((DOCS/'assets/map-content/manifest.json').read_text(encoding='utf-8'))['assets']
     for kind,folder in (('item','items'),('pokemon','pokemon'),('move','moves')):
         LINKS[kind] = {int(p.name.split('_')[0]):p.name for p in (DOCS/folder).glob('*.md')
                        if p.name.split('_')[0].isdigit()}
@@ -39,6 +43,18 @@ def link(kind, number):
     filename = LINKS[kind].get(number)
     folder = {'item':'items','pokemon':'pokemon','move':'moves'}[kind]
     return '[%s](../%s/%s)' % (title,folder,filename) if filename else title
+
+
+def icon(kind, number):
+    asset = ASSETS.get(kind, {}).get(str(number))
+    if not asset:
+        return ''
+    return '<img class="mc-icon mc-icon-%s" src="%s/%s" alt="" loading="lazy" width="%s" height="%s">' % (
+        kind, ASSET_BASE, asset['path'], asset['width'], asset['height'])
+
+
+def illustrated(kind, number):
+    return icon(kind, number) + ' ' + link(kind, number)
 
 
 def map_link(key):
@@ -68,7 +84,7 @@ def content(r):
             value += ' · Lv.' + ('／'.join(str(v) for v in levels) if levels else '随条件决定')
         held = [v for v in r.get('held_items',[]) if v]
         if held:
-            value += '<br>携带：' + '／'.join(link('item',i) for i in held)
+            value += '<br>携带：' + '／'.join(illustrated('item',i) for i in held)
     if r.get('random'):
         value = '随机一项：' + value
     return value
@@ -83,7 +99,7 @@ def cost(r):
         amounts = c.get('amounts',[c.get('amount')])
         amount = '／'.join(str(v) for v in amounts if v is not None) or '依选项'
         if c['kind']=='item':
-            costs.append('%s × %s' % (link('item',c['id']),amount))
+            costs.append('%s × %s' % (illustrated('item',c['id']),amount))
         elif c['kind']=='shard':
             costs.append('%s色碎片 × %s' % (c['color'],amount))
         else:
@@ -167,21 +183,29 @@ def trainer(tid, role='对手'):
     if not t:
         return ['%s编号 %s：队伍尚未解码。' % (role,tid),'']
     title = t['name'] if not t['name'].startswith('TRAINER_') else '未署名 NPC'
-    rows = ['**%s：%s** · 队伍编号 %s' % (role,safe(title),tid),'']
+    rows = ['<div class="mc-trainer" markdown="1">', '',
+            '<div class="mc-trainer-heading" markdown="1">', '',
+            '%s **%s：%s**' % (icon('trainer',t.get('pic')),role,safe(title)), '']
     if t.get('dynamic'):
-        return rows+[t['note'],'']
-    rows += ['| 宝可梦 | 基础等级 | 携带物 | 招式 |','|---|---|---|---|']
+        return rows+['</div>', '', t['note'],'', '</div>', '']
+    rows += ['%s · %s · 队伍编号 %s' % (safe(name('trainer_class',t['trainer_class'])),
+              '双打对战' if t.get('double_battle') else '单打对战',tid), '', '</div>', '',
+             '<div class="mc-party loc-table-scroll" markdown="1" tabindex="0" aria-label="训练师队伍，可横向滚动">', '',
+             '| 宝可梦 | 基础等级 | 携带物 | 招式 1 | 招式 2 | 招式 3 | 招式 4 |',
+             '|---|---|---|---|---|---|---|']
     for mon in t['party']:
-        moves = ' / '.join(link('move',m) for m in mon['moves'] if m)
+        moves = [link('move',m) if m else '—' for m in mon['moves'][:4]]
+        moves += ['—'] * (4-len(moves))
         if 'default' in t['party_template']:
-            moves = '按等级自动生成'
-        rows.append('| %s%s | %s | %s | %s |' % (link('pokemon',mon['species']),
+            moves = ['按等级生成'] * 4
+        rows.append('| %s%s | Lv.%s | %s | %s |' % (illustrated('pokemon',mon['species']),
             '（异色）' if mon.get('shiny') else '',mon['level'],
-            link('item',mon['item']) if mon['item'] else '无',moves or '无'))
+            illustrated('item',mon['item']) if mon['item'] else '无',' | '.join(moves)))
+    rows += ['', '</div>', '']
     items = [i for i in t.get('items',[]) if i]
     if items:
-        rows += ['', '训练师可用道具：'+'、'.join(link('item',i) for i in items)+'。']
-    rows += ['']
+        rows += ['训练师可用道具：'+'、'.join(illustrated('item',i) for i in items)+'。', '']
+    rows += ['</div>', '']
     return rows
 
 
@@ -228,16 +252,26 @@ def map_content(key):
                 for tid in r.get('partners',[]):
                     rows += trainer(tid,'同行队友')
             continue
-        if category in ('shops','exchanges','tutors'):
-            rows += ['| 内容 | 位置 | 费用／兑换 | 条件 |','|---|---|---|---|']
-            for index,r in entries:
-                rows.append('| %s | %s | %s | %s |' % (content(r),positions(r),cost(r),conditions(r,index)))
+        rows += ['<div class="mc-acquisition loc-table-scroll" markdown="1" tabindex="0" aria-label="%s，可横向滚动">' % title, '']
+        priced = category in ('shops','exchanges','tutors')
+        if priced:
+            rows += ['| 图像 | 内容 | 位置 | 费用／兑换 | 条件 |','|---|---|---|---|---|']
         else:
-            rows += ['| 内容 | 数量 | 位置 | 条件 |','|---|---|---|---|']
-            for index,r in entries:
-                rows.append('| %s | %s | %s | %s |' % (content(r),
-                    '1 只／枚（依分支）' if category=='pokemon' else quantities(r),positions(r),conditions(r,index)))
-        rows += ['']
+            rows += ['| 图像 | 内容 | 数量 | 位置 | 获取条件 |','|---|---|---|---|---|']
+        for index,r in entries:
+            # One illustrated row per option; keep its branch conditions and evidence.
+            for number in (r.get('ids') or [None]):
+                option = dict(r, ids=[number] if number is not None else [])
+                if r.get('prices') and number is not None:
+                    option['prices'] = {str(number): r['prices'][str(number)]} if str(number) in r['prices'] else {}
+                kind = 'pokemon' if r['kind'] in ('pokemon','egg') else 'item'
+                picture = icon(kind,number) if r['kind']!='tutor' else '—'
+                cells = [picture, content(option)]
+                cells += [positions(r), cost(option)] if priced else [
+                    '1 只／枚（依分支）' if category=='pokemon' else quantities(r), positions(r)]
+                cells.append(conditions(r,index))
+                rows.append('| '+' | '.join(cells)+' |')
+        rows += ['', '</div>', '']
     if entry['pending']:
         rows += ['### 尚待确定的内容','',
                  '下列事件已找到入口，但具体奖池或可达性尚未确定，不计入上面的固定获取清单。','',
@@ -342,6 +376,8 @@ def audit():
 
 
 def on_page_markdown(markdown, page, **kwargs):
+    global ASSET_BASE
+    ASSET_BASE = posixpath.relpath('assets/map-content', posixpath.dirname(page.url))
     path=page.file.src_path.replace('\\','/')
     match=re.fullmatch(r'locations/map_(\d+)_(\d+)\.md',path)
     if match:

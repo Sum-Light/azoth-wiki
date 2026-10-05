@@ -1,0 +1,77 @@
+/* Direction is spatial, including on narrow screens. */
+.md-typeset .loc-compass {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-areas: ". north ." "west current east" ". south .";
+  gap: 10px;
+  max-width: 820px;
+  margin: 18px auto 28px;
+  align-items: center;
+  text-align: center;
+}
+.loc-compass > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 8px;
+  border: 1px solid var(--wiki-line);
+  background: var(--wiki-paper);
+  overflow-wrap: anywhere;
+}
+.loc-compass .loc-compass-current {
+  grid-area: current;
+  background: var(--wiki-head);
+  border: 2px solid var(--azoth-accent);
+}
+.loc-compass-north { grid-area: north; }
+.loc-compass-south { grid-area: south; }
+.loc-compass-west { grid-area: west; }
+.loc-compass-east { grid-area: east; }
+.loc-compass-direction, .loc-compass-current small {
+  color: var(--wiki-muted);
+  font-size: .75rem;
+}
+.md-typeset .mc-icon {
+  display: inline-block;
+  vertical-align: middle;
+  image-rendering: pixelated;
+  max-width: none;
+  margin: 0 5px 0 0;
+}
+.md-typeset .mc-acquisition, .md-typeset .mc-party {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 12px 0 24px;
+}
+.md-typeset .mc-acquisition table, .md-typeset .mc-party table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: .78rem;
+}
+.md-typeset .mc-acquisition th, .md-typeset .mc-party th {
+  background: var(--wiki-head);
+  color: var(--wiki-ink);
+  white-space: nowrap;
+}
+.md-typeset .mc-acquisition td, .md-typeset .mc-party td {
+  vertical-align: middle;
+  padding: 10px 12px;
+  border: 1px solid var(--wiki-line);
+}
+.md-typeset .mc-acquisition td:first-child { width: 56px; text-align: center; }
+.md-typeset .mc-acquisition td:nth-child(2) { min-width: 155px; }
+.md-typeset .mc-acquisition td:last-child { min-width: 230px; }
+.md-typeset .mc-acquisition td:nth-child(3), .md-typeset .mc-party td { white-space: nowrap; }
+.md-typeset .mc-party td:first-child { min-width: 150px; font-weight: 600; background: var(--wiki-head); }
+.md-typeset .mc-party td:nth-child(n+4) { min-width: 100px; }
+.md-typeset .mc-trainer { border: 1px solid var(--wiki-line); margin: 16px 0 28px; padding: 16px; background: var(--wiki-paper); }
+.md-typeset .mc-trainer-heading { border-bottom: 2px solid var(--azoth-accent); padding-bottom: 10px; }
+.md-typeset .mc-trainer-heading p { margin: 4px 0; }
+.md-typeset .mc-trainer-heading .mc-icon-trainer { margin-right: 14px; }
+.md-typeset .mc-trainer > p { font-size: .75rem; }
+@media (max-width: 600px) {
+  .md-typeset .loc-compass { gap: 5px; font-size: .72rem; }
+  .loc-compass > div { padding: 9px 4px; }
+  .md-typeset .mc-trainer { padding: 8px; }
+}
