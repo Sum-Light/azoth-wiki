@@ -166,11 +166,11 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="018 任务018 希鲁夫的遗产 替精灵爷爷去黑暗穴交接一件物品. 这一阶段确认的是U盘交接和修复剧情，未见独立金钱／BP发放；多边兽与12000元、10BP在任务019结算。 31号道路 45.6 黑暗洞穴 1.126 31号道路 45.6">
+<article class="sq-row" data-sq-entry data-kind="" data-search="018 任务018 希鲁夫的遗产 替精灵爷爷去黑暗穴交接一件物品. 开启下一阶段 31号道路 45.6 黑暗洞穴 1.126 31号道路 45.6">
 <span class="sq-number">018</span>
 <div class="sq-row-main"><a class="sq-title" href="018/">希鲁夫的遗产</a><p>替精灵爷爷去黑暗穴交接一件物品.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">奖励待核对</span>
+<span class="sq-muted">开启下一阶段</span>
 <div class="sq-tags"></div>
 </div>
 </article>
