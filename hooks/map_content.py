@@ -20,6 +20,8 @@ CATEGORIES = (
     ('balls','地上的精灵球'),('hidden','隐藏道具'),('gifts','NPC 赠送'),
     ('quests','支线赠送'),('pokemon','赠送宝可梦与蛋'),('shops','商店'),
     ('exchanges','道具兑换'),('tutors','招式教学'),('trainers','NPC 阵容'))
+CURRENCY_UNITS = {'money': '元', 'coins': '枚代币', 'BP': 'BP',
+                  'BracerPoints': 'BracerPoints', 'BeautyPoints': '点 BeautyPoints'}
 
 
 def on_pre_build(**kwargs):
@@ -73,6 +75,12 @@ def quest_link(q):
 
 def quantities(r):
     values = r.get('quantities',[])
+    if r.get('exchange_options'):
+        values = [option['quantity'] for option in r['exchange_options']]
+    if r['kind'] == 'shop' and not values:
+        return '按购买数量'
+    if r['kind'] == 'tutor':
+        return '—'
     return '／'.join(str(v) for v in values) if values else '按分支决定'
 
 
@@ -97,8 +105,18 @@ def content(r):
 
 
 def cost(r):
+    if r.get('exchange_options'):
+        unit = CURRENCY_UNITS[r['currency']]
+        rows = ['每个 %s %s' % (r['unit_price'],unit)] if r.get('unit_price') is not None else []
+        if len(r['exchange_options']) > 1:
+            rows.extend('%s 个 → %s %s' % (option['quantity'],option['amount'],unit)
+                        for option in r['exchange_options'])
+        elif not rows:
+            option = r['exchange_options'][0]
+            rows.append('%s 个 → %s %s' % (option['quantity'],option['amount'],unit))
+        return '<br>'.join(rows)
     if r.get('prices'):
-        unit = '元' if r.get('currency')=='money' else '枚代币'
+        unit = CURRENCY_UNITS.get(r.get('currency'),'（币种待确认）')
         return '；'.join('%s：%s %s' % (link('item',int(i)),v,unit) for i,v in r['prices'].items())
     costs = []
     for c in r.get('costs',[]):
@@ -109,12 +127,25 @@ def cost(r):
         elif c['kind']=='shard':
             costs.append('%s色碎片 × %s' % (c['color'],amount))
         else:
-            costs.append(amount + {'money':' 元','coins':' 枚代币','BP':' BP','BracerPoints':' BracerPoints'}[c['kind']])
+            costs.append(amount + ' ' + CURRENCY_UNITS[c['kind']])
     if costs:
         return '；'.join(costs)
     if r['kind']=='shop':
         return '商店标价；列表随剧情／菜单分支开放' if r['currency']=='money' else 'BP 商店标价'
     return r.get('cost_note','未检出直接收费；开放条件见说明')
+
+
+def acquisition_method(r):
+    category = r['category']
+    if category in ('shops','exchanges','tutors'):
+        currencies = list(dict.fromkeys([r['currency']] if r.get('currency') else
+                          [c['kind'] for c in r.get('costs',[]) if c['kind'] in CURRENCY_UNITS]))
+        names = {'money': '金钱', 'coins': '游戏城代币', 'BP': 'BP',
+                 'BracerPoints': 'BracerPoints', 'BeautyPoints': 'BeautyPoints'}
+        if currencies:
+            currency = '／'.join(names[c] for c in currencies)
+            return currency + ('教学' if category=='tutors' else '购买' if currencies==['money'] else '兑换')
+    return '赠送宝可梦的蛋' if r['kind']=='egg' else dict(CATEGORIES)[category]
 
 
 def positions(r):
@@ -160,6 +191,11 @@ def evidence(r, number):
         rows += ['> '+safe(r['quote']),'']
     if r.get('note'):
         rows += [safe(r['note']),'']
+    if r.get('exchange_options'):
+        rows += ['兑换方式：'+cost(r), '']
+    for field,label in (('exchange_evidence','兑换价格／数量依据'),('condition_evidence','领取条件依据')):
+        if r.get(field):
+            rows += [label+'：'+'、'.join('`'+safe(node)+'`' for node in r[field]), '']
     for o in r['origins']:
         parts = [o['root']]
         if o.get('scene'):
@@ -261,7 +297,7 @@ def map_content(key):
         rows += ['<div class="mc-acquisition loc-table-scroll" markdown="1" tabindex="0" aria-label="%s，可横向滚动">' % title, '']
         priced = category in ('shops','exchanges','tutors')
         if priced:
-            rows += ['| 图像 | 内容 | 位置 | 费用／兑换 | 条件 |','|---|---|---|---|---|']
+            rows += ['| 图像 | 内容 | 数量 | 位置 | 费用／兑换 | 条件 |','|---|---|---|---|---|---|']
         else:
             rows += ['| 图像 | 内容 | 数量 | 位置 | 获取条件 |','|---|---|---|---|---|']
         for index,r in entries:
@@ -273,7 +309,7 @@ def map_content(key):
                 kind = 'pokemon' if r['kind'] in ('pokemon','egg') else 'item'
                 picture = icon(kind,number) if r['kind']!='tutor' else '—'
                 cells = [picture, content(option)]
-                cells += [positions(r), cost(option)] if priced else [
+                cells += [quantities(option), positions(r), cost(option)] if priced else [
                     '1 只／枚（依分支）' if category=='pokemon' else quantities(r), positions(r)]
                 cells.append(conditions(r,index))
                 rows.append('| '+' | '.join(cells)+' |')
@@ -386,7 +422,6 @@ def build_reverse():
     global REVERSE, MACHINES, WILD
     REVERSE = {kind: collections.defaultdict(list) for kind in ('item','pokemon','move','ability')}
     MACHINES, WILD = {}, collections.defaultdict(list)
-    titles = dict(CATEGORIES)
     for key, entry in DATA['maps'].items():
         for index, record in enumerate(entry['records'], 1):
             kind = record['kind']
@@ -394,7 +429,7 @@ def build_reverse():
                       'pokemon' if kind in ('pokemon','egg') else 'move' if kind=='tutor' else None)
             if target is None:
                 continue
-            method = '赠送宝可梦的蛋' if kind=='egg' else titles[record['category']]
+            method = acquisition_method(record)
             row = dict(map=key, method=method, record=record, index=index)
             for number in record.get('ids', []):
                 if number in LINKS[target]:

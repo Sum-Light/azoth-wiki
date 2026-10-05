@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
   "event_scope": "static+dynamic",
-  "snapshot_date": "2026-10-05",
+  "snapshot_date": "2026-10-06",
   "rom_sha256": "68c86fe7b8760febe18c26890b7060e5c9b907cdc00cf4fcb460e0f95a3274a0",
   "script_snapshot_sha256": "92a2d54e3c5e940fe454a64d09addad10e865a064a48f99097b9357437c25299",
   "sources": {
-    "wiki\\data\\map_content_review.json": "59f24a38a00e8baa6510d25533f1bed1356c3d313bd6167d267b2d7883ba7e10",
+    "wiki\\data\\map_content_review.json": "5d6346890e79fa1f404b7eb26887a86504302a3e163d11816da70d95416ea85f",
     "wiki\\data\\sidequests.json": "38c63b3295481e8c03010efa9612c90081d3e62270162bf7aae9b485ae6c7405",
     "wiki\\data\\sidequest_locations.json": "7ab96d7df2eb98fb39b9c501b8621d370ae1a4aae67c55be73f2e2f1d9e34405",
     "wiki\\data\\move_indexes.json": "df34555addd8fb054bf12c1a2bf5ae4455e036d581fb89a3da27483ffb2ac55a",
     "wiki\\docs\\locations\\map_identities.json": "fd7b23978e18861e94e78d4eca189e35a56d46362edb97cf1a24a404de0a63ec",
     "tools\\collect_map_content.py": "6380a3bff58013b5a30e12dc4a7d9f467c979f248188d5f10d36604f6a644fbe",
-    "tools\\review_map_content.py": "49c2768f56c7bb4e9b27edf173efc66c883ab57f84d9ff01673905ffe715bbe3",
-    "tools\\export_map_content.py": "d77e7b67ac095ca3ddbea61908fb0c6ce7ac759dc914ee5973af066fc8658274"
+    "tools\\review_map_content.py": "54b1594f224599c2213dd1ee0eca2cd54ef490d5c9e6f977f2b84f1ddb25d259",
+    "tools\\export_map_content.py": "a3a277c3d5c14b7fff777b7291d6a3f31327f15d61e091dbbd465db1aa748209"
   },
   "maps": {
     "1.39": {
@@ -40545,6 +40545,12 @@
           "node": "r:08EEB2C7",
           "instruction": "callstd 0x0",
           "costs": [],
+          "note": "华丽大赛结算时，完成率达到 90% 或以上，奖励美丽鳞片 1 枚；这是比赛表现奖励，无需用 BeautyPoints 兑换。",
+          "condition_evidence": [
+            "r:08EEB229",
+            "r:08EEB22E",
+            "t:08EEB2CE"
+          ],
           "origins": [
             {
               "map": "35.4",
@@ -40583,7 +40589,26 @@
           ],
           "node": "r:08ED9D00",
           "instruction": "callstd 0x0",
-          "costs": [],
+          "costs": [
+            {
+              "kind": "BeautyPoints",
+              "amount": 40
+            }
+          ],
+          "currency": "BeautyPoints",
+          "unit_price": 40,
+          "exchange_options": [
+            {
+              "quantity": 1,
+              "amount": 40
+            }
+          ],
+          "exchange_evidence": [
+            "r:08ED9CDF",
+            "r:08ED9CED",
+            "r:08ED9CFB"
+          ],
+          "note": "华丽大赛接待大厅的 BeautyPoints 商店，选择一种进化石兑换；每次 1 个，需 40 点 BeautyPoints。",
           "origins": [
             {
               "map": "35.4",
@@ -40605,7 +40630,7 @@
           ],
           "quest_rewards": [],
           "context_quests": [],
-          "category": "gifts"
+          "category": "exchanges"
         },
         {
           "kind": "pickup",
@@ -40617,10 +40642,58 @@
             157,
             158
           ],
-          "quantities": [],
+          "quantities": [
+            1,
+            10,
+            25,
+            50,
+            100
+          ],
           "node": "r:08EDA109",
           "instruction": "callstd 0x0",
-          "costs": [],
+          "costs": [
+            {
+              "kind": "BeautyPoints",
+              "amounts": [],
+              "amount_variables": [
+                32777
+              ],
+              "payment_node": "r:08EDA0F3"
+            }
+          ],
+          "currency": "BeautyPoints",
+          "unit_price": 2,
+          "exchange_options": [
+            {
+              "quantity": 1,
+              "amount": 2
+            },
+            {
+              "quantity": 10,
+              "amount": 20
+            },
+            {
+              "quantity": 25,
+              "amount": 50
+            },
+            {
+              "quantity": 50,
+              "amount": 100
+            },
+            {
+              "quantity": 100,
+              "amount": 200
+            }
+          ],
+          "exchange_evidence": [
+            "r:08EDA166",
+            "r:08EDA172",
+            "r:08EDA17E",
+            "r:08EDA18A",
+            "r:08EDA196",
+            "r:08EDA0F3"
+          ],
+          "note": "华丽大赛接待大厅的 BeautyPoints 商店，先选择一种树果，再选择兑换数量；每个 2 点 BeautyPoints，确认后按所选数量扣点。",
           "origins": [
             {
               "map": "35.4",
@@ -40642,7 +40715,7 @@
           ],
           "quest_rewards": [],
           "context_quests": [],
-          "category": "gifts"
+          "category": "exchanges"
         },
         {
           "kind": "pickup",
@@ -40654,10 +40727,58 @@
             61,
             62
           ],
-          "quantities": [],
+          "quantities": [
+            1,
+            10,
+            25,
+            50,
+            100
+          ],
           "node": "r:08EDA7EC",
           "instruction": "callstd 0x0",
-          "costs": [],
+          "costs": [
+            {
+              "kind": "BeautyPoints",
+              "amounts": [],
+              "amount_variables": [
+                32777
+              ],
+              "payment_node": "r:08EDA7D6"
+            }
+          ],
+          "currency": "BeautyPoints",
+          "unit_price": 3,
+          "exchange_options": [
+            {
+              "quantity": 1,
+              "amount": 3
+            },
+            {
+              "quantity": 10,
+              "amount": 30
+            },
+            {
+              "quantity": 25,
+              "amount": 75
+            },
+            {
+              "quantity": 50,
+              "amount": 150
+            },
+            {
+              "quantity": 100,
+              "amount": 300
+            }
+          ],
+          "exchange_evidence": [
+            "r:08EDA7F1",
+            "r:08EDA7FD",
+            "r:08EDA809",
+            "r:08EDA815",
+            "r:08EDA821",
+            "r:08EDA7D6"
+          ],
+          "note": "华丽大赛接待大厅的 BeautyPoints 商店，先选择一种羽毛，再选择兑换数量；每个 3 点 BeautyPoints，确认后按所选数量扣点。",
           "origins": [
             {
               "map": "35.4",
@@ -40679,7 +40800,7 @@
           ],
           "quest_rewards": [],
           "context_quests": [],
-          "category": "gifts"
+          "category": "exchanges"
         },
         {
           "kind": "pokemon",
@@ -117203,8 +117324,8 @@
       "hidden": 242,
       "quests": 162,
       "trainers": 487,
-      "gifts": 318,
-      "exchanges": 194,
+      "gifts": 315,
+      "exchanges": 197,
       "pokemon": 41,
       "tutors": 98,
       "shops": 100
