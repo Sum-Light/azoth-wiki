@@ -3306,6 +3306,12 @@
         "height": 32,
         "sha256": "6b424ec2fd8f8a696748a23fb8526ef33441b96cbe52b8af6c6421538d14d109"
       },
+      "11": {
+        "path": "pokemon/11.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "527984e317efdadaefd4821dbbe9ad0e328b1d966f8bf26c1418f6648f28a569"
+      },
       "12": {
         "path": "pokemon/12.png",
         "width": 32,
@@ -3552,6 +3558,12 @@
         "height": 32,
         "sha256": "160ef96f46f3b47fa6661dd82c2545ac8df94a82250d486845ece17449f171f6"
       },
+      "53": {
+        "path": "pokemon/53.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "125efd388bf047072eda92d341c89acef9b55cd3530cd08c910816939d0c603f"
+      },
       "54": {
         "path": "pokemon/54.png",
         "width": 32,
@@ -3648,6 +3660,12 @@
         "height": 32,
         "sha256": "69b99eb407095aa853494afccf6869bb2a2a4c126798e578d60b7939fa61e759"
       },
+      "70": {
+        "path": "pokemon/70.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "38d8f0dc75f46236f46b3edcd4df6d216898da20aabcb46a3b5636bd6b1668b9"
+      },
       "71": {
         "path": "pokemon/71.png",
         "width": 32,
@@ -3725,6 +3743,12 @@
         "width": 32,
         "height": 32,
         "sha256": "56c31063f75da185a59921d80aa29d49f91c21d7aaa4347003af701f2c62d1dd"
+      },
+      "85": {
+        "path": "pokemon/85.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "49fe9fea6fa38a90989d214ea5d80db3d0700b2d3decf63cc99b40c60f498db2"
       },
       "86": {
         "path": "pokemon/86.png",
@@ -3971,6 +3995,12 @@
         "width": 32,
         "height": 32,
         "sha256": "ca69ce9d0cae45bc8b46754023d68a4d7fc6bb6665dc29dc30e946c0441e0e12"
+      },
+      "128": {
+        "path": "pokemon/128.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "daa8cd75efbffffe4a709a3a60fe651c4bd9cdbdbce5d892156d0440f191d3fb"
       },
       "129": {
         "path": "pokemon/129.png",
@@ -4290,6 +4320,12 @@
         "height": 32,
         "sha256": "8332fc056bee00571ef1ea1f7a8868686eff953f122b660f1c5ccf46136860b7"
       },
+      "191": {
+        "path": "pokemon/191.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "e6873a5b5cebcb79521188e33fae56ffdd769d8e036c405c1fa378e1a1666bfd"
+      },
       "192": {
         "path": "pokemon/192.png",
         "width": 32,
@@ -4331,6 +4367,18 @@
         "width": 32,
         "height": 32,
         "sha256": "6f1a1facebe52ac8df7e7d593ba40b92be47b971665ebf59db8684cf1fafbe3b"
+      },
+      "200": {
+        "path": "pokemon/200.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "9ad07944ec18b38a967fbeff5cdf7fc74a6bb63662bce8a7000d4a7865b01165"
+      },
+      "201": {
+        "path": "pokemon/201.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "8c0c90b7600d286125e4c60ff92fc7086fb55bb88defb05de99e8e8b5a553e49"
       },
       "202": {
         "path": "pokemon/202.png",
@@ -4458,11 +4506,23 @@
         "height": 32,
         "sha256": "35f1deac27650e143ba7dc97b7f7e6deca75747cfcb7bb1083de7a927224fa11"
       },
+      "224": {
+        "path": "pokemon/224.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "05a9773ff9fa87c1772c771a948c35cca630261e753c5fa509a80ca1f1436d80"
+      },
       "225": {
         "path": "pokemon/225.png",
         "width": 32,
         "height": 32,
         "sha256": "ae5b412be42534060213d359bbb3eef3c7a97da71b27c741fae3415b57263724"
+      },
+      "226": {
+        "path": "pokemon/226.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "376df1e5b67fa4e29da5aed4432423fb69572fb74170a6e20707167a03d33b8b"
       },
       "227": {
         "path": "pokemon/227.png",
@@ -4500,6 +4560,12 @@
         "height": 32,
         "sha256": "e57ac6dac2eb6e709549de25c085240f722b7292d112f2dc58534c30e1d8d3ee"
       },
+      "234": {
+        "path": "pokemon/234.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "bae1c7a19af32c5002fe09cb7e8b658e78ee3dbe2f9a9179dc998a4ba23dd927"
+      },
       "235": {
         "path": "pokemon/235.png",
         "width": 32,
@@ -4535,6 +4601,12 @@
         "width": 32,
         "height": 32,
         "sha256": "d2c8b9c14cbade140ca719d8be39bdab7e6f7b493a5a00c6d331fae148476752"
+      },
+      "246": {
+        "path": "pokemon/246.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "2a5254a755c32a36feaf1d4dd899c46a7c179aa1a303524e4027b4569217d249"
       },
       "247": {
         "path": "pokemon/247.png",
@@ -4602,6 +4674,12 @@
         "height": 32,
         "sha256": "af997a4de16074b14913f177e3e78d81ecb2c9f71070e9a1d292c27da17db333"
       },
+      "280": {
+        "path": "pokemon/280.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "4b5eed02e3b7a9f54322ed98ee9f64288c14bda8d52e47cf080507da7460ee33"
+      },
       "281": {
         "path": "pokemon/281.png",
         "width": 32,
@@ -4626,6 +4704,12 @@
         "height": 32,
         "sha256": "bbe5923f7417a679519bf722b98115bdfe87b0de8ea851d1ca51ffc2ae0dc185"
       },
+      "286": {
+        "path": "pokemon/286.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "6c7ff5463786c1485c77cc96cf93b370e807e17005a0861d3ef379f0f6b5c7b7"
+      },
       "287": {
         "path": "pokemon/287.png",
         "width": 32,
@@ -4644,11 +4728,47 @@
         "height": 32,
         "sha256": "bd2274833c96b2505dd9df05312906861cb85ea41a3fd6b3672ebf7b15f6c627"
       },
+      "290": {
+        "path": "pokemon/290.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "c457d475eb11e7a8a8a35a4e44603db7f20281551e8d723cdc59749b71be50cf"
+      },
+      "291": {
+        "path": "pokemon/291.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "e06dd8393c75ddd602cfa4c6ded200f5adb2ccaf9680bc89f6f8e33aab1de482"
+      },
+      "293": {
+        "path": "pokemon/293.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "58efad0852b44e8ef1a0c8ae4540e60dbfcaba518ee7ca5bb9102524855b118e"
+      },
+      "295": {
+        "path": "pokemon/295.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "3ef78ff64199f242a2aa0e9f3202df308a603f0498dcc03292415d98feb264c9"
+      },
       "296": {
         "path": "pokemon/296.png",
         "width": 32,
         "height": 32,
         "sha256": "7ea64f1337c8828cc00eca22e500f22a9d6d773472be91c5e6f1b9151f1e8d16"
+      },
+      "298": {
+        "path": "pokemon/298.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "e4a7e64af331c0503d40266f7e4eca8d0843f7f1654fece5b6100840df48bbfe"
+      },
+      "299": {
+        "path": "pokemon/299.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "d86263db9a6de30e0cd598e78759251822ecce306d35daf6d04307c4e55776b8"
       },
       "301": {
         "path": "pokemon/301.png",
@@ -4680,6 +4800,12 @@
         "height": 32,
         "sha256": "e67f4cd2309146a9e0097c132c22357a3d588908a80fc5ffd7a1d34d8d4c1ea6"
       },
+      "308": {
+        "path": "pokemon/308.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "aa6ffa00d40ca287740cb6bff8759f405391363c7d5abb867e2fa625a7fbb5e5"
+      },
       "309": {
         "path": "pokemon/309.png",
         "width": 32,
@@ -4691,6 +4817,12 @@
         "width": 32,
         "height": 32,
         "sha256": "f63de92eb68f3e3b26dda78823edd8860fe914e5fdf45d2387cc5b29739b25bf"
+      },
+      "311": {
+        "path": "pokemon/311.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "a0ce5f7f945a5e4df4efe7dd328a8650b47eb499811791a49d807efe22410c66"
       },
       "312": {
         "path": "pokemon/312.png",
@@ -4716,17 +4848,53 @@
         "height": 32,
         "sha256": "8dcb177c5b2b5f9d955a6c39dd2c281a9030087579b4cf76798f72595d714987"
       },
+      "317": {
+        "path": "pokemon/317.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "d0c6b5e8b47159aa2b1d2a0c9fba2f29d82c9dadd6965cd816710a41e69d3456"
+      },
+      "318": {
+        "path": "pokemon/318.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "696ee36da2363d7bda79c89c83998fadfc79fc9d009b3b74b932fbce414441e9"
+      },
+      "319": {
+        "path": "pokemon/319.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "e26e360d5130553384adec4060de8ae7d630fdef901b881307f2bb1865fa07ff"
+      },
       "320": {
         "path": "pokemon/320.png",
         "width": 32,
         "height": 32,
         "sha256": "ba5d9462e5d0b3ce71ca0c3b605c8067b84b09fd1dbe7d36dc8309d7019827f2"
       },
+      "321": {
+        "path": "pokemon/321.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "f0f6a9c96dc413fc2a3f1739854aa91c0c5086bcda3651f248edeb0afa22b880"
+      },
       "322": {
         "path": "pokemon/322.png",
         "width": 32,
         "height": 32,
         "sha256": "27d0195682cae0b2ac6d6a6141821b07ca22d520c795b6c08688cf2e6ad61993"
+      },
+      "323": {
+        "path": "pokemon/323.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "64bb1732a2629c2474b27a967da52f4c7d4c461af708ace9b610cac34f428be7"
+      },
+      "326": {
+        "path": "pokemon/326.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "be24e4a7666310c43197d04637f014a1b3b1340046aa77f7b951db9574eb1919"
       },
       "328": {
         "path": "pokemon/328.png",
@@ -4740,6 +4908,30 @@
         "height": 32,
         "sha256": "ff885c1b822a47a9b95c7c15b7c42e988a12446db2d961b3c5974b6ea79ef6b2"
       },
+      "330": {
+        "path": "pokemon/330.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "ac288804bcddf57e6751ad008d91e4bb475d65cb9cb4c282e295bb345e19714a"
+      },
+      "331": {
+        "path": "pokemon/331.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "09fc019c1f167b1c8a6de8bf1445d1b0c3d78cd64c964d7803ae7d9312830bd2"
+      },
+      "332": {
+        "path": "pokemon/332.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "33e1db5196da45f5abf87d3f307b813673eeef14138e01374d9745561c79d20d"
+      },
+      "333": {
+        "path": "pokemon/333.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "b15c5d54f370eb8e65540d06744b5b1682ca5ce88a51c990773eb9433728a0e8"
+      },
       "335": {
         "path": "pokemon/335.png",
         "width": 32,
@@ -4751,6 +4943,24 @@
         "width": 32,
         "height": 32,
         "sha256": "25e77eea9b95d114dc3d1dcc14cf8186539a3f0af1a7f1dd6e256947b0ca6c09"
+      },
+      "337": {
+        "path": "pokemon/337.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "a5b487f3562b08d0587626e06504bc72bbb4c621de9fedf524a4a8a93c37acb4"
+      },
+      "339": {
+        "path": "pokemon/339.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "fd0086b6a5402a004adca80e886c8987aa56112fbe92572d0b15655cc5c2e098"
+      },
+      "341": {
+        "path": "pokemon/341.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "da4748fd19b6a926672a7320f61d98cd439bcd0da55e57b54c017854d1b4cc6e"
       },
       "346": {
         "path": "pokemon/346.png",
@@ -4769,6 +4979,12 @@
         "width": 32,
         "height": 32,
         "sha256": "1d41f1b901761424d2640cfbaaba580621e9b597c21681331afa8594bc52b517"
+      },
+      "352": {
+        "path": "pokemon/352.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "85ea52b0f7920d04d3fdac83544199b4ff8f23a24a2ab289bf8161e9350e67ef"
       },
       "353": {
         "path": "pokemon/353.png",
@@ -4848,17 +5064,41 @@
         "height": 32,
         "sha256": "809a351b5bd4918d93a8c97c7c4db91dfdd830de74d3843b0f76116237872e8c"
       },
+      "371": {
+        "path": "pokemon/371.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "35ca41088ed0a6d33240e42db2b8f736b6a268b3a1716ae132d8132640966fb9"
+      },
       "376": {
         "path": "pokemon/376.png",
         "width": 32,
         "height": 32,
         "sha256": "fd219612058819bdbff3cea2a21708bb0297b7284535278247323cf7d5cdc7cb"
       },
+      "377": {
+        "path": "pokemon/377.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "0efb3a589c7f483cb34812b8284d8a8c2d25f193dcdd1d8e3c14c34a0c1fa879"
+      },
       "379": {
         "path": "pokemon/379.png",
         "width": 32,
         "height": 32,
         "sha256": "88a3ac3da274ba8d000a49ae6cca7e7398586fceed25a5b6909b23fc2d245a3b"
+      },
+      "380": {
+        "path": "pokemon/380.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "db7a4abaea277ba4e9ac14f9ab4e4fe7314cb4a3da561932bf20074a9e7316ed"
+      },
+      "382": {
+        "path": "pokemon/382.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "1f92e0401cbed411e562308a82f333e3f3e69fb6854f3ea01d6f4715459f1e82"
       },
       "383": {
         "path": "pokemon/383.png",
@@ -5112,6 +5352,18 @@
         "height": 32,
         "sha256": "9ec57588aa10ecf658f4323f1281c3fa9e3258effd35e635ce1ac9f82d73b6fc"
       },
+      "477": {
+        "path": "pokemon/477.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "91c3e39bc53f0b5788e7a2709cf9cb28a920d672ae194ae374b79eab4cefe728"
+      },
+      "478": {
+        "path": "pokemon/478.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "3312630542fa011e85ec4db5d91b5c0d4a4043c34b6fb705fa87e26497d741e2"
+      },
       "479": {
         "path": "pokemon/479.png",
         "width": 32,
@@ -5208,6 +5460,12 @@
         "height": 32,
         "sha256": "2da9f7e6b0fd8f50495d99c8b0a1a85a117564e73af58b6e4b7333f13692f47a"
       },
+      "496": {
+        "path": "pokemon/496.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "0a02a36b5e2d51aad091241548365b98b842da5325139d59560947d278844251"
+      },
       "497": {
         "path": "pokemon/497.png",
         "width": 32,
@@ -5232,11 +5490,23 @@
         "height": 32,
         "sha256": "a0d18de4ac0a2e43179154ff34113b2067e062dc670a33132b70683839c865b5"
       },
+      "502": {
+        "path": "pokemon/502.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "852dc4a537235c5f4d2cbaf48f091381393fe888f65342fe96086d5184ad3321"
+      },
       "503": {
         "path": "pokemon/503.png",
         "width": 32,
         "height": 32,
         "sha256": "e42270af13b2506fcf7910b91787ea1ad1f4de56a3e87d8e355c82deb8ca7c00"
+      },
+      "504": {
+        "path": "pokemon/504.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "5b6871907e6f887fb7eee7fdd4b275bc8a97e1a239fda008965e7d5eb73b0029"
       },
       "505": {
         "path": "pokemon/505.png",
@@ -5316,6 +5586,12 @@
         "height": 32,
         "sha256": "3b40913a451a3f5f9aa8f54372599fa9e3db2fb86d2a76c773325f68e6cc50a2"
       },
+      "518": {
+        "path": "pokemon/518.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "3b3ff66d3c810aaf5782f89e5937a131f8d76015903a349e12fa7423e901ea6e"
+      },
       "519": {
         "path": "pokemon/519.png",
         "width": 32,
@@ -5394,6 +5670,24 @@
         "height": 32,
         "sha256": "7db926939789f1f5c4d99634806bdd09ba9081dfc14a3fecf1b113a12eb04f6d"
       },
+      "554": {
+        "path": "pokemon/554.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "e2d2220d7c75e0ca65a64946ae911a0e875189e85811b2ab44b6a1eb48f26bfa"
+      },
+      "558": {
+        "path": "pokemon/558.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "fcef4c94febc9dc3ba1a47024c127e6efd3a524e81e1cd3f0ae05208513c251c"
+      },
+      "572": {
+        "path": "pokemon/572.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "78badf345762e84a13557d3120c8a0639bf60336cdedde3a14ed087e4fbf3b7c"
+      },
       "577": {
         "path": "pokemon/577.png",
         "width": 32,
@@ -5411,6 +5705,12 @@
         "width": 32,
         "height": 32,
         "sha256": "d0265cc6b6423416a65f69ab11d8db12c510e708ab6ce02aaeeeceed4a952ef3"
+      },
+      "580": {
+        "path": "pokemon/580.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "dae4f2797441b9af28ed120abee5f95ed25fd4bb683c6fd0e9f9d8dc47ac558b"
       },
       "582": {
         "path": "pokemon/582.png",
@@ -5442,6 +5742,30 @@
         "height": 32,
         "sha256": "782144e08f31d5bf7948703215abd25983dd349c7ee3f3b358f56a656141c7fa"
       },
+      "588": {
+        "path": "pokemon/588.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "4e3baf8f5476c57d7ff63c1ef8d8ced06983bc7e15ec5e2d760b44f69bbfb196"
+      },
+      "589": {
+        "path": "pokemon/589.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "9d79a2c27f0548b7a19b8ea3c38a9ba174826355206483d8f8b9ecae19ccb7c2"
+      },
+      "591": {
+        "path": "pokemon/591.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "4c019119120935aa7ff248548fec6847bbee12383fb5adb302a915564075e508"
+      },
+      "592": {
+        "path": "pokemon/592.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "d61873d656bc497e52b1dde4a912917deb37aeb66f0c49db9b4a99c24fb70ce0"
+      },
       "599": {
         "path": "pokemon/599.png",
         "width": 32,
@@ -5453,6 +5777,18 @@
         "width": 32,
         "height": 32,
         "sha256": "4fa8de5044cb54c9f2f7a5e149fdf9b9f75d1259dd7b7a28c6e58bbc5f1860f7"
+      },
+      "605": {
+        "path": "pokemon/605.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "908d636282a6bd1b75cb2a4980a9e268dd50f0f3456875ccc3199edb6af315e5"
+      },
+      "606": {
+        "path": "pokemon/606.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "b15dfa23df6108ab476ff9071b91dc3faf26262f923404d0163eaeef594bf03f"
       },
       "612": {
         "path": "pokemon/612.png",
@@ -5520,6 +5856,12 @@
         "height": 32,
         "sha256": "4ffeb263c1fb61dc302eaebb98f0476f9a7224963a13ee140a7242df90e40fc2"
       },
+      "658": {
+        "path": "pokemon/658.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "be9848f48438bdee66c3e7a2e1d40350e84eb2717bc0a722fd26de1849f39f2d"
+      },
       "660": {
         "path": "pokemon/660.png",
         "width": 32,
@@ -5538,17 +5880,77 @@
         "height": 32,
         "sha256": "cdfba5b9b7970ab7a92c34f9cd9222ed51d4d7ef0bb03d45ed7562a92bd64ecc"
       },
+      "677": {
+        "path": "pokemon/677.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "5c5005bbc3556aafe74b6b198e329056062240d57c5981d2165ce8c8e2f4d8a5"
+      },
+      "680": {
+        "path": "pokemon/680.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "985da193408a4345d1ecf03d044c65c2060310713ee8fa016eb4ecdf81f7bc57"
+      },
       "681": {
         "path": "pokemon/681.png",
         "width": 32,
         "height": 32,
         "sha256": "73fb95dcc37dfb3e8727db1d7f3c3654bb76eff19d8816924c90eaeae5a09578"
       },
+      "686": {
+        "path": "pokemon/686.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "a96c28603b8b9a251e56e2a2fb1ea571b3d7457bcec57a0c2fb0ff6afc6fb60b"
+      },
+      "687": {
+        "path": "pokemon/687.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "dc70481123ebcaa26c1606a8a0c635f5f4b992b3dc1bd58340aaaf890626244a"
+      },
+      "712": {
+        "path": "pokemon/712.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "595baf3811addc3edb2575cefd6f096b2187e5580a7bc49d78cab7716bc9dd50"
+      },
+      "767": {
+        "path": "pokemon/767.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "1c455b70a9a30c5c578bfba058de235720953a811036560600bfdfa3b5cdf56c"
+      },
+      "768": {
+        "path": "pokemon/768.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "fea59b005522195b0e0ddc83bcba71d77bc49794a5d8854461c2c84f6eb3a1a2"
+      },
+      "769": {
+        "path": "pokemon/769.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "f174737b8b1d5fe04bbeec090fa67b2eeb2ba7216502446c762b078b301468b2"
+      },
+      "770": {
+        "path": "pokemon/770.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "7e1900a99bf50912d0c00f430800042dfccf4f28396ccb0efc548d12f04b51c6"
+      },
       "771": {
         "path": "pokemon/771.png",
         "width": 32,
         "height": 32,
         "sha256": "3c99baa921cb0f0d528312647ad493c1b1abc3be61939d9b03a5748e0ca05971"
+      },
+      "777": {
+        "path": "pokemon/777.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "0d1438122dda235d3884564c3eafb1dd99e67091e76bf728177817d2f224fb38"
       },
       "778": {
         "path": "pokemon/778.png",
@@ -5561,6 +5963,12 @@
         "width": 32,
         "height": 32,
         "sha256": "c1e46c90d8ace045397da55ff11bdc7c21b7ed18e8d8cb41454bb19558d8c28e"
+      },
+      "787": {
+        "path": "pokemon/787.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "28d11ece294a7d4d982d2cc731cc303ea404b2d0997487ba8d33f95f53e0dfdc"
       },
       "789": {
         "path": "pokemon/789.png",
@@ -5610,11 +6018,23 @@
         "height": 32,
         "sha256": "5ea078b75b641a9929dc37de156cdef52446dc7f4d804165ec047ba56b6db735"
       },
+      "820": {
+        "path": "pokemon/820.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "b5d3b27c9a91082cbf0215ee1f1acccf9c0b78a17643149a22cbc973e9c2581b"
+      },
       "821": {
         "path": "pokemon/821.png",
         "width": 32,
         "height": 32,
         "sha256": "e7cbcabf34ae5ba0c39eeabfcd3518991aee36a31f3ce8fa717a7c6348f99769"
+      },
+      "822": {
+        "path": "pokemon/822.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "44e47f847a7cac54afd86b1fd9c4d575f275347926053466042ce817cee50344"
       },
       "874": {
         "path": "pokemon/874.png",
@@ -5682,6 +6102,12 @@
         "height": 32,
         "sha256": "b19e3d0f60e5918cc0371aef57c2b8559e59036232e09dfc0cde8a01f0b266ac"
       },
+      "952": {
+        "path": "pokemon/952.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "023943b4364e2f8ed79ef33c16cf0f33666f9c23c2c1c6d533b239e7bbafacce"
+      },
       "958": {
         "path": "pokemon/958.png",
         "width": 32,
@@ -5700,11 +6126,23 @@
         "height": 32,
         "sha256": "0c05575cf4059c2d7853297caa698c85011535ec31d4c1320eb0b947a3d93804"
       },
+      "964": {
+        "path": "pokemon/964.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "b0aa737a5f061e9ea3e06533282975956db49683d8b45d034914070b95bd121d"
+      },
       "965": {
         "path": "pokemon/965.png",
         "width": 32,
         "height": 32,
         "sha256": "92c6dc476b5f8c85e349a81ddea2c8f9741d8df22bac4c8f19322f4faeafcf7a"
+      },
+      "966": {
+        "path": "pokemon/966.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "3f65448ce707fb0b5d933c6a2dccf696ff00c04d96b7a3944f96d370c95e0d0f"
       },
       "976": {
         "path": "pokemon/976.png",
@@ -5718,6 +6156,12 @@
         "height": 32,
         "sha256": "c007ad42a37593d643b387c9d97442df37f688855dc2686d4f41762f599a28dc"
       },
+      "992": {
+        "path": "pokemon/992.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "84251934370c9042b4d2102c2dd45a5407a459e71e659bc8a45e6daa8a4a0c3e"
+      },
       "994": {
         "path": "pokemon/994.png",
         "width": 32,
@@ -5729,6 +6173,12 @@
         "width": 32,
         "height": 32,
         "sha256": "ebffaa98ca2dbb73c52e0e60a02a603369efcf1992be8a0a23ad7d9d1edd2907"
+      },
+      "999": {
+        "path": "pokemon/999.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "97aff7f4e17ba45ed58b679853733aba7948dd040419b204f2fdb0d5490c463f"
       },
       "1022": {
         "path": "pokemon/1022.png",
@@ -5796,11 +6246,41 @@
         "height": 32,
         "sha256": "c272931a3cd9c66d5698080a3f465b5743c371c5c867f2130750eca0d595a755"
       },
+      "1111": {
+        "path": "pokemon/1111.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "c2f3fc81aea1afe5e28a2333b7d7cb7398e9c71d26132716570ee467f01ade74"
+      },
+      "1112": {
+        "path": "pokemon/1112.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "e4b88b35d53c00ea02878311a0912d90a66843f6d32de9538ebd785cd9c3e4ea"
+      },
+      "1113": {
+        "path": "pokemon/1113.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "842a4fbc24bad74e01f26a3c59c9226d06dbd639a14c571cfafe129ac157b202"
+      },
+      "1114": {
+        "path": "pokemon/1114.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "7581f8bdc30fc1ede0496e905317f24871f3602a1df30bb283dd71dbe4705d97"
+      },
       "1115": {
         "path": "pokemon/1115.png",
         "width": 32,
         "height": 32,
         "sha256": "176705a2b76a0775aec7c20ef802d05c19174c148ffb8ee4ea2de09c899a67b1"
+      },
+      "1116": {
+        "path": "pokemon/1116.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "ed2d924495a5a0ea6614e55066de06b701301c4cb0f4666d61ef690b53319a3b"
       },
       "1119": {
         "path": "pokemon/1119.png",
@@ -5814,6 +6294,12 @@
         "height": 32,
         "sha256": "daa15dc888c1dead3396eac23bff6d7c3b16eb3df4fb5aac0356379cdf2d10a6"
       },
+      "1121": {
+        "path": "pokemon/1121.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "67284395e623175d5e0379903ec4264f185bef62d70ee46ce9352190c695073a"
+      },
       "1123": {
         "path": "pokemon/1123.png",
         "width": 32,
@@ -5826,11 +6312,83 @@
         "height": 32,
         "sha256": "a5b7e0b145080cd4e5f2d19f219f51ae15252af4f3b3e82d88a25df1b2bcd86e"
       },
+      "1125": {
+        "path": "pokemon/1125.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "0402bbee637bf86dab41b6b0ee83e859eff2bf56b1fe2b0b936084df8100b374"
+      },
+      "1127": {
+        "path": "pokemon/1127.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "9553642e932d4e94245da1c169dfa3c93bf9df0f3681a21f9af8e051bf030939"
+      },
+      "1129": {
+        "path": "pokemon/1129.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "6d50e09ab828b3a8a1acbea4d7b01e8c938cf1693aa50e65ab6b832da1083b0b"
+      },
+      "1130": {
+        "path": "pokemon/1130.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "f0e97f4301297133bb086037dd94070af6499b2b1f6eb5e9614fd65658bbd9f2"
+      },
+      "1132": {
+        "path": "pokemon/1132.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "2f932ebd05598f76962ee22a3d59cce0fefcbe3c389b7d75ca9fd805c170ef01"
+      },
+      "1135": {
+        "path": "pokemon/1135.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "56a7c3e4dcaa5c2bde8e6b898e2040de5c460abdd4200f292d4f548eeee4227a"
+      },
+      "1137": {
+        "path": "pokemon/1137.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "87cbe3e09265cfd8574db9698c9bbc31859e0ac541ac12b647cd75e21d1e2976"
+      },
       "1140": {
         "path": "pokemon/1140.png",
         "width": 32,
         "height": 32,
         "sha256": "4ca893ea980ced7f702a99571397356628eac7a9c9ce84deffa82e9d4de59594"
+      },
+      "1142": {
+        "path": "pokemon/1142.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "51b09b467db0cd6e546faf73a1a9b2c6558baff4a7bfa0662497ddd2233a0c31"
+      },
+      "1144": {
+        "path": "pokemon/1144.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "c4677cd5fc2229097a2a5aa4fe7069fd6a3a0817c8a1690aa0ca7c1e51a7ce31"
+      },
+      "1146": {
+        "path": "pokemon/1146.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "932b6c935cbbf45a892604525f13b1f47dcb002be509fcee9ab0f434625cc551"
+      },
+      "1148": {
+        "path": "pokemon/1148.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "bddf81046edd431d6a80c6462f61df877f4a8a17367382b5b1fba54e82d3e102"
+      },
+      "1151": {
+        "path": "pokemon/1151.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "4484731d502568c12917f612d46bce86fe6674e809dffaf1c9bbf2b9df54d47d"
       },
       "1157": {
         "path": "pokemon/1157.png",
@@ -5844,11 +6402,29 @@
         "height": 32,
         "sha256": "4b2c50b6f3051cf8ef372f17f5bc50d4bc2ed353eb2cb3ff9e94d6fd3e3c81d6"
       },
+      "1160": {
+        "path": "pokemon/1160.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "1ea33f75b7f2dd8c46d393c154b164a0b6c20dd9c671cd0e3bb9c98195328ca8"
+      },
       "1162": {
         "path": "pokemon/1162.png",
         "width": 32,
         "height": 32,
         "sha256": "5b683252efc518ac99c7b8178cdd18cdec707510536d6e33ca4a412e03fc74f6"
+      },
+      "1164": {
+        "path": "pokemon/1164.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "c24fc1bb5e5e29ebe1f56ec0f8ee1c2ac50bc38ea80bf7531aa22de3742ea9fd"
+      },
+      "1166": {
+        "path": "pokemon/1166.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "061da2fc5a149baae95905114ad00dd88b37cff2d750c32fc21e7c5325e514b7"
       },
       "1167": {
         "path": "pokemon/1167.png",
@@ -5861,6 +6437,12 @@
         "width": 32,
         "height": 32,
         "sha256": "58392a82f70023ef20e843238db9797279576f228a6398c0d6c4df14577c12b0"
+      },
+      "1170": {
+        "path": "pokemon/1170.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "fa11366028e4831f595df9520db6bec30a7aef96e7ae9c9ded717833f1360093"
       },
       "1172": {
         "path": "pokemon/1172.png",
@@ -5886,17 +6468,53 @@
         "height": 32,
         "sha256": "036e330c90b10605c3c59a943daca8ca040fdc5dd81efb6d6c66cdb312fcfc66"
       },
+      "1176": {
+        "path": "pokemon/1176.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "9dc5588361b8a2583b07459a1c8adb72afd34b32bdcb14dcf7476d4afbd6b637"
+      },
+      "1177": {
+        "path": "pokemon/1177.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "75a89239eb44156c99cf29cb8df67aa0ca4bf2ff1ae79b93a95533005b77ea23"
+      },
+      "1212": {
+        "path": "pokemon/1212.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "d884bdf581cffb5cb70334fe7eb84069f2ddfc0f2793c9a4d7187799148833b4"
+      },
       "1215": {
         "path": "pokemon/1215.png",
         "width": 32,
         "height": 32,
         "sha256": "67eb2c53b74843d436e9ee3eb161ab76bdcf808ba0331d0c37e22252112384c7"
       },
+      "1226": {
+        "path": "pokemon/1226.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "7287ea7da01c08dc9eecffcb1f60d43c637ceacc699a675675f613f4c000c5e9"
+      },
+      "1229": {
+        "path": "pokemon/1229.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "b7f320bdebf9b9eeff1da113fe1ea744550e1a72b7b9943552bbb65d1e59d43e"
+      },
       "1238": {
         "path": "pokemon/1238.png",
         "width": 32,
         "height": 32,
         "sha256": "414943dcd95f9208c1fc1b05eb2d48448b2ff36895ea9cbbc37ecf0269f030fd"
+      },
+      "1240": {
+        "path": "pokemon/1240.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "43431e09751199ee63d82d9fb9fc8e50dca1e98efb6e663c489f687b0d6267d4"
       },
       "1404": {
         "path": "pokemon/1404.png",
@@ -5909,6 +6527,54 @@
         "width": 32,
         "height": 32,
         "sha256": "d8beb78c9afe2b890cd6a458fe5bd14414c3278c5f0df7b3b9c17322f5b56eff"
+      },
+      "1417": {
+        "path": "pokemon/1417.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "dfb03293af3a853412b814dee5f4b9f441b0960b37da337705590d3f6f71e357"
+      },
+      "1425": {
+        "path": "pokemon/1425.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "96d4469418fa128d5915d66f8ce73f739d9ca95fa560eae0ebc6b67ff53616fa"
+      },
+      "1426": {
+        "path": "pokemon/1426.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "fb273e90773423adbbaf85647242b79963430195ccfe970b595fb42908b96ffb"
+      },
+      "1428": {
+        "path": "pokemon/1428.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "76e421bf95bf114cddef2aa19165fdd8b3c94906c6b5501ee506eb9dd901f8d5"
+      },
+      "1442": {
+        "path": "pokemon/1442.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "d5ca2f4020d81102cca1a5fb81e5cb1980b739a1bc7cdc012750238fdabe57c0"
+      },
+      "1450": {
+        "path": "pokemon/1450.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "be6dfede8420771458522893a82ca75b4cc214abfdc77052e0f64163fbab1eba"
+      },
+      "1464": {
+        "path": "pokemon/1464.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "bdee8f3d0e5b9a8b791430331c55b18f7ee166c4cb57c724927430a9df90879a"
+      },
+      "1507": {
+        "path": "pokemon/1507.png",
+        "width": 32,
+        "height": 32,
+        "sha256": "8239fc8a640722f03ec5f8064cceeebc3877f8477484735ffc8e3eee57989287"
       },
       "1509": {
         "path": "pokemon/1509.png",

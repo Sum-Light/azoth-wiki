@@ -41,6 +41,8 @@ mkdocs serve                      # http://127.0.0.1:8000
 - `tools/audit_map_content.py` 按事件实际阶段检查共用脚本、人物编号、地图改块坐标与传送来源；`--terrain` 标记初始点位的黑色地块供人工复核。黑色地块不能自动排除，仓库可用地板也可能渲染为黑色；需结合房间边界、碰撞、图像和剧情判断。扫描输出在 `tmp/map-content/`，发布结论保存在人工数据和内容快照。
 - `docs/locations/map_content.json`：只读提取后的发布快照，包括地图内容、训练师阵容、来源和待核项。挖矿、三地鼠挑战等原生小游戏的奖池尚未完整还原，单独标作待确定，不冒充固定奖励。
 - `hooks/map_content.py`：构建时把快照补入地点页和教学索引，生成 `locations/content.md` 与核对目录。普通 MkDocs 构建及独立 Wiki 部署不需要 ROM，也不依赖工作区临时文件。
+- 宝可梦、道具、招式、学习机、定点教学和特性索引均提供地图反查，条目页的 `#map-sources` 列出完整来源。反查只使用已确认地图记录与已发布普通地图的野生分布；训练师队伍、交付费用、待核和排除事件不能当作获取来源。特性与野生携带道具通过对应宝可梦间接关联，不保证每次获得。学习机按物品名称关联机器索引中的实际招式，不假定扩展道具编号连续。钓鱼概率沿用现有分布快照的聚合口径。
+- 地图野生分布（包括广播）复用地图内容图标导出；`export_map_content_assets.py` 会收集已确认普通地图页面中的宝可梦引用。地图反查在图鉴页面生成后运行，Markdown 源链接与图鉴 HTML 输出链接分开解析，支持嵌套页面和独立 Wiki 部署。
 - 地图内容快照更新后运行 `python -X utf8 tools/export_map_content_assets.py`：复用训练师编辑器的道具、宝可梦图标和训练师头像解码流程，导出 `docs/assets/map-content/` 原尺寸透明 PNG 与来源清单。道具图标表从游戏实际使用的指针读取；脚本变量不作为道具编号。图文表格按选项逐行显示，保留获取条件、动态阶段与出处；训练师队伍的四个招式分别列出。
 - `python -X utf8 tools/export_wiki_atlas.py --pages-only` 更新地图连接布局：以当前地点居中，上北下南、左西右东，同方向可列多个地点。只有地图头明确记载的方向进入方位图；出入口、潜水与浮出连接单独显示。
 - 完整工作区更新：`python -X utf8 tools/collect_map_content.py` → `python -X utf8 tools/review_map_content.py` → 核对候选点位、修订人工数据 → `python -X utf8 tools/export_map_content.py` → `python -X utf8 -m mkdocs build -f wiki/mkdocs.yml`。收集默认包含动态阶段，传入 `--static-only` 可重新生成仅静态的对照快照。收集脚本复用地图编辑器及脚本图；图片核对工具为 `tools/map_content_review_images.py`，该工具使用基础事件图，不能据此直接判定新增动态 NPC 的图像。运行期间不写 ROM。

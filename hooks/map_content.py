@@ -5,12 +5,17 @@ import json
 import posixpath
 import re
 from pathlib import Path
+from urllib.parse import quote
+from mkdocs.plugins import event_priority
 
 DOCS = Path(__file__).resolve().parents[1] / 'docs'
 DATA = None
 LINKS = {}
 ASSETS = {}
 ASSET_BASE = ''
+REVERSE = {}
+MACHINES = {}
+WILD = {}
 CATEGORIES = (
     ('balls','地上的精灵球'),('hidden','隐藏道具'),('gifts','NPC 赠送'),
     ('quests','支线赠送'),('pokemon','赠送宝可梦与蛋'),('shops','商店'),
@@ -27,6 +32,7 @@ def on_pre_build(**kwargs):
     for kind,folder in (('item','items'),('pokemon','pokemon'),('move','moves')):
         LINKS[kind] = {int(p.name.split('_')[0]):p.name for p in (DOCS/folder).glob('*.md')
                        if p.name.split('_')[0].isdigit()}
+    build_reverse()
 
 
 def safe(value):
@@ -375,6 +381,194 @@ def audit():
     return '\n'.join(rows)
 
 
+def build_reverse():
+    """Index confirmed acquisitions only; enemy parties and costs are not rewards."""
+    global REVERSE, MACHINES, WILD
+    REVERSE = {kind: collections.defaultdict(list) for kind in ('item','pokemon','move','ability')}
+    MACHINES, WILD = {}, collections.defaultdict(list)
+    titles = dict(CATEGORIES)
+    for key, entry in DATA['maps'].items():
+        for index, record in enumerate(entry['records'], 1):
+            kind = record['kind']
+            target = ('item' if kind in ('item','pickup','hidden','shop') else
+                      'pokemon' if kind in ('pokemon','egg') else 'move' if kind=='tutor' else None)
+            if target is None:
+                continue
+            method = '赠送宝可梦的蛋' if kind=='egg' else titles[record['category']]
+            row = dict(map=key, method=method, record=record, index=index)
+            for number in record.get('ids', []):
+                if number in LINKS[target]:
+                    REVERSE[target][number].append(dict(row, number=number))
+            if target=='pokemon':
+                for number in record.get('held_items', []):
+                    if number and number in LINKS['item']:
+                        REVERSE['item'][number].append(dict(row, number=number, method='赠送宝可梦携带'))
+        # Existing encounter sections are the source of truth for species,
+        # methods, time windows and map publication. Do not index scene maps.
+        path = DOCS / ('locations/map_%s.md' % key.replace('.', '_'))
+        heading = ''
+        for line in path.read_text(encoding='utf-8').splitlines() if path.exists() else []:
+            if line.startswith('## '):
+                heading = line[3:].strip()
+            if not (' · ' in heading or heading.startswith(('广播遇敌','大量出现','特殊广播'))):
+                continue
+            for match in re.finditer(r'\[([^\]]+)\]\(\.\./pokemon/(\d+)_[^)]+\.md\)', line):
+                number = int(match[2])
+                cells = [c.strip() for c in line.strip('|').split('|')]
+                detail = '等级 %s · 概率 %s' % (cells[1], cells[2]) if len(cells)==3 and line.startswith('|') else heading
+                if heading.startswith('广播遇敌') and line.startswith('|'):
+                    detail = cells[0] + ' · ' + heading
+                row = dict(map=key, method=heading, detail=detail, number=number, wild=True)
+                if row not in WILD[number]:
+                    WILD[number].append(row)
+                    REVERSE['pokemon'][number].append(row)
+    # Match the published machine directory to the actual item names, including
+    # the extended TM51..58 names; never assume item IDs are one contiguous run.
+    machine_items = {}
+    for number, title in enumerate(DATA['names']['item']):
+        match = re.fullmatch(r'(TM|HM)(\d+)', title)
+        extra = re.fullmatch(r'招式学习器(\d+)', title)
+        if match or extra:
+            code = '%s%02d' % ((match[1], int(match[2])) if match else ('TM', int(extra[1])))
+            machine_items[code] = number
+    for line in (DOCS/'machines/index.md').read_text(encoding='utf-8').splitlines():
+        match = re.search(r'>(TM\d+|HM\d+)</span>.*?\]\(\.\./moves/(\d+)_', line)
+        if not match:
+            continue
+        code, move = match[1], int(match[2])
+        item = machine_items.get(code)
+        MACHINES[code] = dict(item=item, move=move)
+        for row in REVERSE['item'].get(item, []):
+            REVERSE['move'][move].append(dict(row, method=code+' · '+row['method']))
+    # Wild-held items and abilities point through obtainable species. This is
+    # a possible source, not a promise that a caught Pokemon has that ability/item.
+    for folder, kind, heading in (('items','item','携带该道具的野生宝可梦'),
+                                 ('abilities','ability','拥有该特性的宝可梦')):
+        for path in (DOCS/folder).glob('*.md'):
+            if not path.name.split('_')[0].isdigit():
+                continue
+            text = path.read_text(encoding='utf-8')
+            section = re.search(r'^## '+heading+r'\s*\n(.*?)(?=^## |\Z)', text, re.M|re.S)
+            if not section:
+                continue
+            number = int(path.name.split('_')[0])
+            for sid in dict.fromkeys(int(s) for s in re.findall(r'\]\(\.\./pokemon/(\d+)_', section[1])):
+                sources = WILD.get(sid, []) if kind=='item' else REVERSE['pokemon'].get(sid, [])
+                for row in sources:
+                    REVERSE[kind][number].append(dict(row, via=sid,
+                        method=('野生宝可梦可能携带' if kind=='item' else '拥有该特性的宝可梦')+' · '+row['method']))
+
+
+def reverse_map_link(row):
+    anchor = 'wild-encounters' if row.get('wild') else 'content-evidence-%s' % row['index']
+    return '[%s](../locations/map_%s.md#%s)' % (
+        safe(DATA['maps'][row['map']]['label']), row['map'].replace('.','_'), anchor)
+
+
+def reverse_summary(kind, number, only_tutors=False):
+    rows = REVERSE[kind].get(number, [])
+    if only_tutors:
+        rows = [r for r in rows if r.get('record', {}).get('kind')=='tutor']
+    unique = {}
+    for row in rows:
+        unique.setdefault((row['map'],row['method']),row)
+    if not unique:
+        return '暂未确认地点'
+    result = [reverse_map_link(r)+'（'+safe(r['method'])+'）' for r in list(unique.values())[:2]]
+    if len(unique)>2:
+        filename = LINKS.get(kind, {}).get(number)
+        if kind=='ability':
+            filename = next((p.name for p in (DOCS/'abilities').glob('%04d_*.md' % number)), None)
+        folder = dict(item='items',pokemon='pokemon',move='moves',ability='abilities')[kind]
+        if filename:
+            result.append('[全部 %s 项](../%s/%s#map-sources)' % (len(unique),folder,filename))
+    return '<br>'.join(result)
+
+
+def reverse_detail(kind, number):
+    rows = ['## 地图获取与教学地点 {#map-sources}', '',
+            '只列已确认的地图来源；不同阶段与分支不表示可以同时获得。点击地点查看位置、费用和完整条件。', '']
+    if kind=='ability':
+        rows += ['以下是拥有该特性的宝可梦的获取地点，不保证获得时具有该特性；隐藏特性等限制请查看宝可梦资料。', '']
+    entries = REVERSE[kind].get(number, [])
+    if not entries:
+        return '\n'.join(rows+['当前快照尚未确认地图来源。', ''])
+    rows += ['<div class="mc-reverse loc-table-scroll" markdown="1">', '',
+             '| 地点 | 获取／教学方式 | 内容与条件 |', '|---|---|---|']
+    seen = set()
+    for row in entries:
+        if row.get('wild'):
+            detail = safe(row['detail'])
+        else:
+            record = row['record']
+            option = dict(record)
+            if kind=='item' and str(number) in record.get('prices', {}):
+                option['prices'] = {str(number):record['prices'][str(number)]}
+            detail = positions(record)+'<br>'+conditions(record)
+            if record['category'] in ('shops','exchanges','tutors'):
+                detail += '<br>'+cost(option)
+            elif kind=='pokemon':
+                detail += '<br>'+content(record)
+        if row.get('via'):
+            detail = illustrated('pokemon',row['via'])+'<br>'+detail
+        rendered = '| %s | %s | %s |' % (reverse_map_link(row),safe(row['method']),detail)
+        if rendered not in seen:
+            seen.add(rendered)
+            rows.append(rendered)
+    return '\n'.join(rows+['', '</div>', ''])
+
+
+def with_reverse_detail(markdown, kind, number):
+    markdown = re.sub(r'^(# [^\n]+\n)',
+                      r'\1\n[查看地图获取／教学地点](#map-sources)\n', markdown, count=1)
+    return markdown+'\n\n'+reverse_detail(kind,number)
+
+
+def index_reverse(markdown, kind, directory):
+    result = []
+    for line in markdown.splitlines():
+        if not line.startswith('|'):
+            result.append(line)
+            continue
+        cells = [c.strip() for c in line.strip('|').split('|')]
+        if cells[0]=='编号':
+            extra = '地图获取／教学地点'
+        elif all(re.fullmatch(r':?-+:?', c) for c in cells):
+            extra = '---'
+        else:
+            match = re.search(r'\]\((?:\.\./(?:moves|items|abilities)/)?(\d+)_[^)]+\.md', line)
+            if not match:
+                result.append(line)
+                continue
+            number = int(match[1])
+            if directory=='machines':
+                code = re.search(r'>(TM\d+|HM\d+)</span>',line)
+                item = MACHINES.get(code[1], {}).get('item') if code else None
+                extra = reverse_summary('item',item)
+                if item:
+                    cells[0] = icon('item',item)+' '+cells[0]
+            else:
+                extra = reverse_summary(kind,number,only_tutors=directory=='tutors')
+        result.append('| '+' | '.join(cells+[extra])+' |')
+    return '\n'.join(result)
+
+
+def encounter_icons(markdown):
+    # Only touch links in existing encounter content, before appending gifts
+    # and trainer cards (which already carry their own icons).
+    marked = False
+    output = []
+    for line in markdown.splitlines():
+        if not marked and line.startswith('## ') and (' · ' in line or line.startswith(('## 广播遇敌','## 大量出现','## 特殊广播'))):
+            output += ['<span id="wild-encounters"></span>', '']
+            marked = True
+        line = re.sub(r'(\[[^\]]+\]\(\.\./pokemon/(\d+)_[^)]+\.md\))',
+                      lambda m: icon('pokemon',int(m[2]))+' '+m[1],line)
+        output.append(line)
+    return '\n'.join(output)
+
+
+@event_priority(-50)  # Run after Pokedex generates its HTML directory.
 def on_page_markdown(markdown, page, **kwargs):
     global ASSET_BASE
     ASSET_BASE = posixpath.relpath('assets/map-content', posixpath.dirname(page.url))
@@ -383,11 +577,39 @@ def on_page_markdown(markdown, page, **kwargs):
     if match:
         key='.'.join(match.groups())
         if key in DATA['maps']:
-            return markdown+'\n\n'+map_content(key)
+            return encounter_icons(markdown)+'\n\n'+map_content(key)
     if path=='locations/content.md':
         return directory()
     if path=='locations/content_review.md':
         return audit()
     if path=='tutors/index.md':
-        return markdown+'\n\n'+tutor_directory()
+        return index_reverse(markdown,'move','tutors')+'\n\n'+tutor_directory()
+    for folder,kind in (('items','item'),('moves','move'),('machines','item'),('abilities','ability')):
+        if path==folder+'/index.md':
+            return index_reverse(markdown,kind,folder)
+        match = re.fullmatch(folder+r'/(\d+)_[^/]+\.md',path)
+        if match:
+            return with_reverse_detail(markdown,kind,int(match[1]))
+    if path=='pokemon/index.md':
+        markdown = markdown.replace('<th scope="col">种族值总和</th>',
+                                    '<th scope="col">种族值总和</th><th scope="col">地图获取地点</th>')
+        def add_sources(match):
+            row = match[0]
+            sid = re.search(r'href="(\d+)_',row)
+            if not sid:
+                return row
+            number = int(sid[1])
+            search = safe(' '.join(DATA['maps'][r['map']]['label']+' '+r['method']
+                                   for r in REVERSE['pokemon'].get(number, [])))
+            row = re.sub(r'(data-search="[^"]*)"',lambda m: m[1]+' '+search+'"',row,count=1)
+            # This directory is raw HTML; links must use output URLs, whereas
+            # Markdown tables above deliberately use source-page paths.
+            summary = reverse_summary('pokemon',number)
+            summary = re.sub(r'\[([^\]]+)\]\(([^)]+)\.md(#[^)]*)?\)',
+                lambda m: '<a href="%s/%s">%s</a>' % (quote(m[2],safe='/.'),m[3] or '',m[1]),summary)
+            return row.replace('</tr>','<td class="mc-index-sources">'+summary+'</td></tr>')
+        return re.sub(r'<tr data-dex-entry\b.*?</tr>',add_sources,markdown)
+    match = re.fullmatch(r'pokemon/(\d+)_[^/]+\.md',path)
+    if match:
+        return with_reverse_detail(markdown,'pokemon',int(match[1]))
     return markdown

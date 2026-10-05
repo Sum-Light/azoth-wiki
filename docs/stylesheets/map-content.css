@@ -70,6 +70,17 @@
 .md-typeset .mc-trainer-heading p { margin: 4px 0; }
 .md-typeset .mc-trainer-heading .mc-icon-trainer { margin-right: 14px; }
 .md-typeset .mc-trainer > p { font-size: .75rem; }
+.md-typeset .dex-table .mc-index-sources {
+  min-width: 260px;
+  width: 310px;
+  text-align: left;
+  font-size: .7rem;
+  line-height: 1.7;
+}
+.md-typeset .mc-reverse table { width: 100%; }
+.md-typeset .mc-reverse td { vertical-align: top; }
+.md-typeset .mc-reverse td:first-child { min-width: 160px; }
+.md-typeset .mc-reverse td:last-child { min-width: 260px; }
 @media (max-width: 600px) {
   .md-typeset .loc-compass { gap: 5px; font-size: .72rem; }
   .loc-compass > div { padding: 9px 4px; }
