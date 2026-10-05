@@ -3,6 +3,7 @@ import copy
 import json
 import re
 import tempfile
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -26,6 +27,27 @@ _staging = None
 _hidden = set()
 
 
+@lru_cache(maxsize=1)
+def map_identities():
+    path = Path(__file__).resolve().parents[1] / 'docs/locations/map_identities.json'
+    return json.loads(path.read_text(encoding='utf-8')) if path.exists() else None
+
+
+def apply_identities(payload):
+    review = map_identities()
+    if review is None:
+        return
+    if review['rom_sha256'] != payload['rom_sha256']:
+        raise ValueError('Map identity review belongs to a different atlas ROM')
+    for key, entry in payload['maps'].items():
+        identity = review['maps'].get(key)
+        if identity:
+            entry['label'] = identity['label']
+            entry['kind'] = identity['kind']
+            entry['category'] = identity['category']
+            entry['identity'] = {field: identity[field] for field in ('status', 'confidence', 'basis', 'dialogue')}
+
+
 def published(entry):
     group, number = map(int, entry['id'].split('.'))
     return group in PUBLISHED_GROUPS or any(
@@ -35,6 +57,7 @@ def published(entry):
 def public_atlas(payload):
     result = copy.deepcopy(payload)
     maps = result['maps'] = {key: entry for key, entry in result['maps'].items() if published(entry)}
+    apply_identities(result)
     for entry in maps.values():
         entry['connections'] = [edge for edge in entry['connections'] if edge['target'] in maps]
         entry['passages'] = [edge for edge in entry['passages']
@@ -76,6 +99,8 @@ def on_files(files, config):
                      if '%s.%s' % (entry['g'], entry['n']) in atlas['maps']}
     world['secNames'] = {key: name for key, name in world['secNames'].items() if key in atlas['regions']}
     world['grids'] = atlas['grids']
+    for entry in world['maps'].values():
+        entry['label'] = atlas['maps']['%s.%s' % (entry['g'], entry['n'])]['label']
     replacements = {'locations/atlas_data.json': atlas, 'locations/worldmap_data.json': world}
     for file in list(files):
         path = file.src_path.replace('\\', '/')
@@ -96,6 +121,16 @@ def on_page_markdown(markdown, **kwargs):
     # unpublished rows there and in the old location directory at build time.
     markdown = '\n'.join(line for line in markdown.split('\n')
                          if not (line.lstrip().startswith('|') and hidden_link(line)))
+    review = map_identities()
+    names = review['maps'] if review else {}
+    # The old encounter directory and Pokemon encounter tables share map links.
+    def rename_link(match):
+        key_match = MAP_PATH.search(match.group(2))
+        key = '%s.%s' % key_match.groups() if key_match else None
+        keep_label = re.fullmatch(r'\d+\.\d+', match.group(1)) or match.group(1).startswith(('查看', '返回'))
+        return '[%s](%s)' % (names[key]['label'], match.group(2)) if key in names and not keep_label else match.group(0)
+
+    markdown = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', rename_link, markdown)
     markdown = re.sub(r'\[([^\]]+)\]\(([^)]+)\)',
                       lambda match: match.group(1) if hidden_link(match.group(2)) else match.group(0), markdown)
     return re.sub(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>',

@@ -54,6 +54,10 @@
 .loc-place-body { min-width: 0; }
 .loc-place-title { display: block; font-size: .75rem; font-weight: 600; overflow-wrap: anywhere; }
 .loc-place-meta { font-size: .6rem; color: var(--md-default-fg-color--light); margin: .12rem 0 .2rem; }
+.loc-identity { margin: 1rem 0; }
+.loc-identity small { overflow-wrap: anywhere; }
+.loc-identity details { margin-top: .65rem; }
+.loc-identity summary { cursor: pointer; font-size: .75rem; }
 .loc-place-links { font-size: .6rem; line-height: 1.65; }
 .loc-place-links a { display: inline; overflow-wrap: anywhere; }
 .loc-region-directory { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 1rem; border-top: 1px solid var(--azoth-card-border); padding-top: .5rem; }

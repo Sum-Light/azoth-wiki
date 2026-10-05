@@ -143,7 +143,7 @@ function select(sec, el) {
   $("atlasLink").href = `atlas/?sec=${sec}`;
   el.classList.add("sel");
   const name = secName(sec);
-  const maps = mapsOf(sec).sort((a, b) => a.name.localeCompare(b.name, "zh"));
+  const maps = mapsOf(sec).sort((a, b) => (a.label || a.name).localeCompare(b.label || b.name, "zh"));
   $("pTitle").textContent = name;
   $("pSub").textContent = `${maps.length} 张地图 · 再点一次取消`;
   const body = $("panelBody");
@@ -160,7 +160,7 @@ function select(sec, el) {
       const k = r.m + " · " + r.t;
       (groups[k] = groups[k] || []).push(r);
     }
-    let html = `<h3>${m.name} <a href="map_${m.g}_${m.n}/">查看地图与分布 →</a></h3>`;
+    let html = `<h3>${m.label || m.name} <a href="map_${m.g}_${m.n}/">查看地图与分布 →</a></h3>`;
     for (const k of Object.keys(groups)) {
       html += `<div><span class="tag">${k}</span></div><div>`;
       for (const r of groups[k].sort((a, b) => (b.r || 0) - (a.r || 0))) {

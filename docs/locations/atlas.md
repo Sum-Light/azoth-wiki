@@ -8,6 +8,8 @@ hide:
 
 已开放地图按地点收录，可搜索地点名称或地图编号。
 
+[地图用途核对记录](map_review.md)
+
 <div class="loc-atlas" data-location-atlas data-atlas-url="../atlas_data.json">
   <form class="loc-atlas-toolbar" role="search">
     <label class="loc-search-label"><span>地点</span><input type="search" name="place" placeholder="搜索地点或地图编号" autocomplete="off"></label>

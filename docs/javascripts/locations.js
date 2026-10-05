@@ -3,6 +3,7 @@
   let dispose = () => {};
   const normalize = value => value.normalize("NFKC").toLocaleLowerCase().trim();
   const category = map => {
+    if (map.category) return map.category;
     if (map.kind === "剧情地图") return "story";
     if ([1, 2].includes(map.type)) return "town";
     if ([8, 9].includes(map.type)) return "indoor";
@@ -51,7 +52,7 @@
       const tokens = normalize(query.value).split(/\s+/).filter(Boolean);
       const matches = Object.values(data.maps).filter(map =>
         (sec === null || map.sec === Number(sec)) && (kind.value === "all" || category(map) === kind.value) &&
-        tokens.every(token => normalize(`${map.label} ${map.id} ${data.regions[map.sec].name}`).includes(token)));
+        tokens.every(token => normalize(`${map.label} ${map.id} ${map.kind} ${data.regions[map.sec].name}`).includes(token)));
       list.replaceChildren();
       for (const group of Object.keys(groupNames)) {
         const rows = matches.filter(map => category(map) === group).sort((a, b) =>
@@ -77,6 +78,9 @@
           const link = mapLink(map);
           link.className = "loc-place-title";
           body.append(link, element("div", "loc-place-meta", `${map.kind} · 地图 ${map.id} · ${map.width} × ${map.height} 格`));
+          if (map.identity && map.identity.status !== "confirmed") {
+            body.append(element("div", "loc-place-meta", map.identity.status === "provisional" ? "部分确认" : "用途待核"));
+          }
           const links = element("div", "loc-place-links");
           const neighbors = [...new Set(map.connections.map(edge => edge.target).concat(map.passages.map(edge => edge.target)))];
           neighbors.forEach((id, index) => {
