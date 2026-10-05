@@ -36,6 +36,7 @@ mkdocs serve                      # http://127.0.0.1:8000
 - `data/sidequest_unlocks.json`：非背包奖励补充，保留任务号、阶段、确认方式、证据符号及相关页面 ID。
 - `data/sidequest_locations.json`：从脚本入口追踪分场对白的地图快照，含触发方式、坐标、依据与导航参考。
 - `docs/sidequests/maps/`：复用 Map_event_editor 绘制的地图、人物／宝可梦图像及事件标记，并叠加任务入口编号；动态地图按对应阶段分别导出，图片可点击放大。事件预览保留初始位置，不按存档 Flag 隐藏人物。
+- 地图与事件图像使用编辑器默认的 CFRU `test.gba`（不存在时使用 CFRU `BPRE0.gba`），可通过导出工具的 `--map-rom` 指定；`--rom` 仅指定台本脚本追踪所用 ROM。两者分别记录校验值，避免旧 ROM 与当前图像表地址混用。ROM 区域名“真新镇”在任务地图中显示为“剧情地图”。
 - `tools/generate_sidequests.py`：生成 `docs/sidequests/` 并维护带标记的反查区块。
 - `docs/stylesheets/sidequests.css`、`docs/javascripts/sidequests.js`：手机、深色模式与即时导航支持。
 

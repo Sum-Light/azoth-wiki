@@ -104,18 +104,18 @@
 | [缘朱市 · 52.5](../locations/map_52_5.md#sidequests) | [066 姿态各异的舞者](066.md#map-52-5)、[070 逾期图书的回收](070.md#map-52-5)、[071 遥远的约定](071.md#map-52-5)、[081 海之传说](081.md#map-52-5) |
 | [39号道路 · 52.6](../locations/map_52_6.md#sidequests) | [073 没精神的大奶罐](073.md#map-52-6) |
 | [39号道路 · 52.7](../locations/map_52_7.md#sidequests) | [073 没精神的大奶罐](073.md#map-52-7) |
-| [真新镇 · 52.16](../locations/map_52_16.md#sidequests) | [032 阿始的极限秀](032.md#map-52-16) |
-| [真新镇 · 52.20](../locations/map_52_20.md#sidequests) | [033 最后的大哥秀](033.md#map-52-20) |
-| [真新镇 · 52.21](../locations/map_52_21.md#sidequests) | [002 向往天空的理由](002.md#map-52-21) |
+| [剧情地图 · 52.16](../locations/map_52_16.md#sidequests) | [032 阿始的极限秀](032.md#map-52-16) |
+| [剧情地图 · 52.20](../locations/map_52_20.md#sidequests) | [033 最后的大哥秀](033.md#map-52-20) |
+| [剧情地图 · 52.21](../locations/map_52_21.md#sidequests) | [002 向往天空的理由](002.md#map-52-21) |
 | [纯白冻土 · 52.23](../locations/map_52_23.md#sidequests) | [008 冻土上的捉迷藏](008.md#map-52-23) |
 | [纯白冻土 · 52.24](../locations/map_52_24.md#sidequests) | [008 冻土上的捉迷藏](008.md#map-52-24)、[009 纯白的魅影](009.md#map-52-24)、[010 在未知的土地上](010.md#map-52-24) |
-| [真新镇 · 52.25](../locations/map_52_25.md#sidequests) | [005 无法冻结的时间](005.md#map-52-25) |
+| [剧情地图 · 52.25](../locations/map_52_25.md#sidequests) | [005 无法冻结的时间](005.md#map-52-25) |
 | [40号水路 · 52.27](../locations/map_52_27.md#sidequests) | [083 海星连接宇宙](083.md#map-52-27) |
 | [满金市 · 52.36](../locations/map_52_36.md#sidequests) | [061 满金Cos大会!?](061.md#map-52-36) |
 | [满金市 · 52.37](../locations/map_52_37.md#sidequests) | [061 满金Cos大会!?](061.md#map-52-37) |
-| [真新镇 · 52.38](../locations/map_52_38.md#sidequests) | [064 消失的正辉](064.md#map-52-38) |
-| [真新镇 · 52.39](../locations/map_52_39.md#sidequests) | [064 消失的正辉](064.md#map-52-39) |
-| [真新镇 · 52.40](../locations/map_52_40.md#sidequests) | [064 消失的正辉](064.md#map-52-40) |
+| [剧情地图 · 52.38](../locations/map_52_38.md#sidequests) | [064 消失的正辉](064.md#map-52-38) |
+| [剧情地图 · 52.39](../locations/map_52_39.md#sidequests) | [064 消失的正辉](064.md#map-52-39) |
+| [剧情地图 · 52.40](../locations/map_52_40.md#sidequests) | [064 消失的正辉](064.md#map-52-40) |
 | [卡吉镇 · 53.0](../locations/map_53_0.md#sidequests) | [077 忍法！捉迷藏](077.md#map-53-0) |
 | [卡吉镇 · 53.1](../locations/map_53_1.md#sidequests) | [074 帕底亚的礼物梦](074.md#map-53-1)、[075 非现世的气息](075.md#map-53-1)、[076 错位的忍道](076.md#map-53-1)、[077 忍法！捉迷藏](077.md#map-53-1) |
 | [卡吉镇 · 53.2](../locations/map_53_2.md#sidequests) | [077 忍法！捉迷藏](077.md#map-53-2) |
@@ -127,9 +127,9 @@
 | [擂钵山 · 55.13](../locations/map_55_13.md#sidequests) | [005 无法冻结的时间](005.md#map-55-13) |
 | [缘朱市 · 55.33](../locations/map_55_33.md#sidequests) | [056 遗失的玩偶](056.md#map-55-33)、[059 生病的呆呆兽](059.md#map-55-33)、[081 海之传说](081.md#map-55-33) |
 | [缘朱市 · 55.34](../locations/map_55_34.md#sidequests) | [072 迷路的小锯鳄](072.md#map-55-34) |
-| [真新镇 · 55.49](../locations/map_55_49.md#sidequests) | [043 闪耀的电波](043.md#map-55-49) |
-| [真新镇 · 55.55](../locations/map_55_55.md#sidequests) | [044 闪耀的暗影](044.md#map-55-55) |
-| [真新镇 · 55.58](../locations/map_55_58.md#sidequests) | [004 霓虹灯外的月光](004.md#map-55-58) |
+| [剧情地图 · 55.49](../locations/map_55_49.md#sidequests) | [043 闪耀的电波](043.md#map-55-49) |
+| [剧情地图 · 55.55](../locations/map_55_55.md#sidequests) | [044 闪耀的暗影](044.md#map-55-55) |
+| [剧情地图 · 55.58](../locations/map_55_58.md#sidequests) | [004 霓虹灯外的月光](004.md#map-55-58) |
 | [自然公园 · 55.59](../locations/map_55_59.md#sidequests) | [004 霓虹灯外的月光](004.md#map-55-59) |
 | [呆呆兽之井 · 55.60](../locations/map_55_60.md#sidequests) | [059 生病的呆呆兽](059.md#map-55-60) |
 | [桔梗市 · 56.0](../locations/map_56_0.md#sidequests) | [030 七大不可思议](030.md#map-56-0) |
@@ -139,7 +139,7 @@
 | [桔梗市 · 56.5](../locations/map_56_5.md#sidequests) | [030 七大不可思议](030.md#map-56-5) |
 | [桔梗市 · 56.6](../locations/map_56_6.md#sidequests) | [030 七大不可思议](030.md#map-56-6) |
 | [桔梗市 · 56.7](../locations/map_56_7.md#sidequests) | [030 七大不可思议](030.md#map-56-7) |
-| [真新镇 · 56.8](../locations/map_56_8.md#sidequests) | [031 阿始的新节目](031.md#map-56-8) |
+| [剧情地图 · 56.8](../locations/map_56_8.md#sidequests) | [031 阿始的新节目](031.md#map-56-8) |
 | [阿露福遗迹 · 56.9](../locations/map_56_9.md#sidequests) | [034 阿露福遗迹之谜](034.md#map-56-9) |
 | [满金市 · 56.10](../locations/map_56_10.md#sidequests) | [046 诡异的绿光](046.md#map-56-10) |
 | [满金市 · 56.11](../locations/map_56_11.md#sidequests) | [049 失踪的父亲](049.md#map-56-11) |

@@ -28,7 +28,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="002 任务002 向往天空的理由 帮助阿速寻找向往天空的理由. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 大比鸟超级进化波动 完成奖励 额外获得大比鸟超级进化波动；普通塔内长老赠送的TM70未算入本支线。 喇叭芽之塔 52.2 桔梗市 46.7 喇叭芽之塔 1.90 真新镇 52.21 喇叭芽之塔 52.2 点数 积分 BP BracerPoints Mega 超级进化 波动">
+<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="002 任务002 向往天空的理由 帮助阿速寻找向往天空的理由. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 大比鸟超级进化波动 完成奖励 额外获得大比鸟超级进化波动；普通塔内长老赠送的TM70未算入本支线。 喇叭芽之塔 52.2 桔梗市 46.7 喇叭芽之塔 1.90 剧情地图 52.21 喇叭芽之塔 52.2 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">002</span>
 <div class="sq-row-main"><a class="sq-title" href="002/">向往天空的理由</a><p>帮助阿速寻找向往天空的理由.</p></div>
 <div class="sq-row-rewards">
@@ -46,7 +46,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="004 任务004 霓虹灯外的月光 帮助小茜与皮可西学会接纳自己. 月之石×1 完成奖励 BracerPoints 10点 完成奖励 金钱12000元 完成奖励 皮可西超级进化波动 完成奖励 额外解锁皮可西超级进化波动。 满金市 50.19 真新镇 55.58 自然公园 55.59 满金市 50.19 点数 积分 BP BracerPoints Mega 超级进化 波动">
+<article class="sq-row" data-sq-entry data-kind="BP item mega money" data-search="004 任务004 霓虹灯外的月光 帮助小茜与皮可西学会接纳自己. 月之石×1 完成奖励 BracerPoints 10点 完成奖励 金钱12000元 完成奖励 皮可西超级进化波动 完成奖励 额外解锁皮可西超级进化波动。 满金市 50.19 剧情地图 55.58 自然公园 55.59 满金市 50.19 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">004</span>
 <div class="sq-row-main"><a class="sq-title" href="004/">霓虹灯外的月光</a><p>帮助小茜与皮可西学会接纳自己.</p></div>
 <div class="sq-row-rewards">
@@ -55,7 +55,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="005 任务005 无法冻结的时间 和柳伯一起去冰天地看看无法融化的冰壁. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 雪妖女超级进化波动 完成奖励 额外解锁雪妖女超级进化波动。小拉普拉斯由柳伯留下，脚本没有把它作为玩家赠礼。 擂钵山 55.13 冰天地 53.7 真新镇 52.25 冰天地 53.17 擂钵山 55.13 点数 积分 BP BracerPoints Mega 超级进化 波动">
+<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="005 任务005 无法冻结的时间 和柳伯一起去冰天地看看无法融化的冰壁. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 雪妖女超级进化波动 完成奖励 额外解锁雪妖女超级进化波动。小拉普拉斯由柳伯留下，脚本没有把它作为玩家赠礼。 擂钵山 55.13 冰天地 53.7 剧情地图 52.25 冰天地 53.17 擂钵山 55.13 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">005</span>
 <div class="sq-row-main"><a class="sq-title" href="005/">无法冻结的时间</a><p>和柳伯一起去冰天地看看无法融化的冰壁.</p></div>
 <div class="sq-row-rewards">
@@ -281,7 +281,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="031 任务031 阿始的新节目 帮助阿始录制新的电视教学节目. 金钱6000元 完成奖励 气势披带×1 完成奖励 BracerPoints 3点 完成奖励 阿始的电话号码 剧情登记电话时 Lv.1小拉达及其携带气势披带是拍摄用临时队伍；完成奖励另发气势披带×1，不永久赠送小拉达。 桔梗市 46.0 真新镇 56.8 桔梗市 46.0 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="031 任务031 阿始的新节目 帮助阿始录制新的电视教学节目. 金钱6000元 完成奖励 气势披带×1 完成奖励 BracerPoints 3点 完成奖励 阿始的电话号码 剧情登记电话时 Lv.1小拉达及其携带气势披带是拍摄用临时队伍；完成奖励另发气势披带×1，不永久赠送小拉达。 桔梗市 46.0 剧情地图 56.8 桔梗市 46.0 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">031</span>
 <div class="sq-row-main"><a class="sq-title" href="031/">阿始的新节目</a><p>帮助阿始录制新的电视教学节目.</p></div>
 <div class="sq-row-rewards">
@@ -290,7 +290,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="032 任务032 阿始的极限秀 帮助阿始录制新的极限秀节目. 金钱6000元 完成奖励 剧毒宝珠×1 完成奖励 BracerPoints 8点 完成奖励 Lv.30圈圈熊是临时拍摄队伍；剧毒宝珠×1是独立结算赠礼。 桔梗市 46.0 真新镇 52.16 桔梗市 46.0 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="032 任务032 阿始的极限秀 帮助阿始录制新的极限秀节目. 金钱6000元 完成奖励 剧毒宝珠×1 完成奖励 BracerPoints 8点 完成奖励 Lv.30圈圈熊是临时拍摄队伍；剧毒宝珠×1是独立结算赠礼。 桔梗市 46.0 剧情地图 52.16 桔梗市 46.0 点数 积分 BP BracerPoints">
 <span class="sq-number">032</span>
 <div class="sq-row-main"><a class="sq-title" href="032/">阿始的极限秀</a><p>帮助阿始录制新的极限秀节目.</p></div>
 <div class="sq-row-rewards">
@@ -298,7 +298,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="033 任务033 最后的大哥秀 帮助阿始进行最后的巡回路演. 教学电视×1 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 金色王冠×1 完成奖励 极限特训服务（王冠为使用费用） 完成后开放；50级以上宝可梦，使用金色或银色王冠 Lv.30暴鲤龙、长耳兔为临时演出队伍，未计入永久赠礼。后续开放极限特训。 桔梗市 46.0 真新镇 52.20 桔梗市 46.0 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="033 任务033 最后的大哥秀 帮助阿始进行最后的巡回路演. 教学电视×1 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 金色王冠×1 完成奖励 极限特训服务（王冠为使用费用） 完成后开放；50级以上宝可梦，使用金色或银色王冠 Lv.30暴鲤龙、长耳兔为临时演出队伍，未计入永久赠礼。后续开放极限特训。 桔梗市 46.0 剧情地图 52.20 桔梗市 46.0 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">033</span>
 <div class="sq-row-main"><a class="sq-title" href="033/">最后的大哥秀</a><p>帮助阿始进行最后的巡回路演.</p></div>
 <div class="sq-row-rewards">
@@ -392,7 +392,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-unlock">功能与服装解锁</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="043 任务043 闪耀的电波 陪同地下偶像爱去广播塔参加DJ世治的广播节目. 强力香草×3 完成奖励 TM99×1 完成奖励 BracerPoints 10点 完成奖励 金钱10000元 完成奖励 满金市 50.7 真新镇 55.49 满金市 50.7 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="043 任务043 闪耀的电波 陪同地下偶像爱去广播塔参加DJ世治的广播节目. 强力香草×3 完成奖励 TM99×1 完成奖励 BracerPoints 10点 完成奖励 金钱10000元 完成奖励 满金市 50.7 剧情地图 55.49 满金市 50.7 点数 积分 BP BracerPoints">
 <span class="sq-number">043</span>
 <div class="sq-row-main"><a class="sq-title" href="043/">闪耀的电波</a><p>陪同地下偶像爱去广播塔参加DJ世治的广播节目.</p></div>
 <div class="sq-row-rewards">
@@ -401,7 +401,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="044 任务044 闪耀的暗影 帮助地下偶像爱调查偷偷潜入她房间的人. 经验糖果S×3 完成奖励 彗星碎片×5 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 魔法火焰招式教学 完成后找爱学习 完成后开放魔法火焰教学。 满金市 50.7 真新镇 55.55 满金市 50.7 点数 积分 BP BracerPoints 解锁">
+<article class="sq-row" data-sq-entry data-kind="BP item money unlock" data-search="044 任务044 闪耀的暗影 帮助地下偶像爱调查偷偷潜入她房间的人. 经验糖果S×3 完成奖励 彗星碎片×5 完成奖励 金钱12000元 完成奖励 BracerPoints 10点 完成奖励 魔法火焰招式教学 完成后找爱学习 完成后开放魔法火焰教学。 满金市 50.7 剧情地图 55.55 满金市 50.7 点数 积分 BP BracerPoints 解锁">
 <span class="sq-number">044</span>
 <div class="sq-row-main"><a class="sq-title" href="044/">闪耀的暗影</a><p>帮助地下偶像爱调查偷偷潜入她房间的人.</p></div>
 <div class="sq-row-rewards">
@@ -592,7 +592,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-item">道具</span><span class="sq-tag sq-tag-money">金钱</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="064 任务064 消失的正辉 帮助正辉的妹妹寻找消失的正辉. 同步器×1 完成奖励 BracerPoints 10点 未首次辨认正确 金钱5000元 未首次辨认正确 BracerPoints 25点 首次辨认正确 金钱10000元 首次辨认正确 两档互斥：首次辨认正确为25BP＋10000元；普通分支为10BP＋5000元。同步器两档都发，不累计为35BP。 满金市 50.31 满金市 50.31 43号道路 3.99 真新镇 52.40 真新镇 52.38 真新镇 52.39 满金市 50.31 点数 积分 BP BracerPoints">
+<article class="sq-row" data-sq-entry data-kind="BP item money" data-search="064 任务064 消失的正辉 帮助正辉的妹妹寻找消失的正辉. 同步器×1 完成奖励 BracerPoints 10点 未首次辨认正确 金钱5000元 未首次辨认正确 BracerPoints 25点 首次辨认正确 金钱10000元 首次辨认正确 两档互斥：首次辨认正确为25BP＋10000元；普通分支为10BP＋5000元。同步器两档都发，不累计为35BP。 满金市 50.31 满金市 50.31 43号道路 3.99 剧情地图 52.40 剧情地图 52.38 剧情地图 52.39 满金市 50.31 点数 积分 BP BracerPoints">
 <span class="sq-number">064</span>
 <div class="sq-row-main"><a class="sq-title" href="064/">消失的正辉</a><p>帮助正辉的妹妹寻找消失的正辉.</p></div>
 <div class="sq-row-rewards">
