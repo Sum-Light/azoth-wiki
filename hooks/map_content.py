@@ -17,8 +17,8 @@ CATEGORIES = (
 def on_pre_build(**kwargs):
     global DATA, LINKS
     DATA = json.loads((DOCS/'locations/map_content.json').read_text(encoding='utf-8'))
-    if DATA.get('event_scope') != 'static':
-        raise ValueError('Re-export static map content before publishing')
+    if DATA.get('event_scope') not in ('static', 'static+dynamic'):
+        raise ValueError('Re-export map content with explicit event scope before publishing')
     LINKS = {}
     for kind,folder in (('item','items'),('pokemon','pokemon'),('move','moves')):
         LINKS[kind] = {int(p.name.split('_')[0]):p.name for p in (DOCS/folder).glob('*.md')
@@ -120,8 +120,10 @@ def conditions(r, number=None):
             parts.append(quest_link(dict(number=number_,**DATA['quests'][number_])))
     if r.get('note'):
         parts.append(safe(r['note']))
-    if any(o.get('condition') for o in r['origins']):
+    if any(o.get('condition') or o.get('stage_condition') for o in r['origins']):
         parts.append('分阶段出现')
+    if any(o.get('dynamic') for o in r['origins']):
+        parts.append('含动态阶段事件')
     if number is not None:
         parts.append('[条件与出处](#content-evidence-%d)' % number)
     return '<br>'.join(parts) or '按事件进度领取'
@@ -143,7 +145,11 @@ def evidence(r, number):
         elif o.get('x') is not None:
             parts.append('初始坐标 (%s,%s)' % (o['x'],o['y']))
         if o.get('condition'):
-            parts.append('阶段条件：'+o['condition'])
+            parts.append('地图头条件：'+o['condition'])
+        if o.get('stage_condition'):
+            parts.append(('动态阶段' if o.get('dynamic') else '基础事件阶段')+'：'+o['stage_condition'])
+        if o.get('stage_rule'):
+            parts.append('规则：'+o['stage_rule'])
         if o.get('flag'):
             parts.append('人物隐藏 Flag：0x%X' % o['flag'])
         if o.get('trigger'):
@@ -183,7 +189,18 @@ def map_content(key):
     entry = DATA['maps'][key]
     rows = ['## 本图获取与对战 {#map-content}', '',
             '[按地图查找](content.md) · [教学地点](../tutors/index.md#tutor-locations) · [收录与残留核对](content_review.md)', '',
-            '坐标从 0 开始，对应上方地图的事件初始位置；NPC 可能走动。各分支、不同阶段或随机选项不表示能同时获得。','']
+            '坐标从 0 开始，表示相应事件阶段的初始位置；上方为基础事件图，动态阶段的 NPC 可能不同或发生走动。各分支、不同阶段或随机选项不表示能同时获得。','']
+    stages = DATA.get('stages', {}).get(key, [])
+    if stages:
+        rows += ['### 动态事件阶段 {#content-stages}', '',
+                 '同图规则按表中顺序首次匹配生效；未被动态规则替换的事件或地图头继续使用基础数据。Flag／Var 条件与地图头条件须同时满足。', '',
+                 '| 阶段规则 | 实际生效条件 | 替换内容 |', '|---|---|---|']
+        for stage in stages:
+            if not stage['dynamic']:
+                continue
+            replacements = [label for field,label in (('replaces_events','人物／坐标／背景事件'),('replaces_header','地图头脚本')) if stage[field]]
+            rows.append('| `%s` | %s | %s |' % (stage['condition'],safe(stage['stage_condition']),'、'.join(replacements) or '沿用基础内容'))
+        rows += ['']
     groups = collections.defaultdict(list)
     for index,r in enumerate(entry['records'],1):
         groups[r['category']].append((index,r))
@@ -248,8 +265,9 @@ def map_content(key):
 
 def directory():
     stats = DATA['stats']
+    scope = '静态与动态阶段事件' if DATA['event_scope'] == 'static+dynamic' else '静态地图头'
     rows = ['# 每张地图的获取与对战', '',
-            '按静态地图头收录 **%d 张普通地图**。点击地点查看地面球、隐藏道具、NPC／支线赠送、宝可梦与蛋、商店兑换、招式教学和训练师阵容。' % stats['maps'], '',
+            '按%s收录 **%d 张普通地图**。点击地点查看地面球、隐藏道具、NPC／支线赠送、宝可梦与蛋、商店兑换、招式教学和训练师阵容。' % (scope,stats['maps']), '',
             '专用过场地图不单独列入本目录；其中的奖励、馆主战和支线战斗归回实际地点。野生分布继续查看各地点原有的分布表。', '',
             '[地图总览](atlas.md) · [数据范围与残留核对](content_review.md)', '',
             '| 地点 | 地面球 | 隐藏 | NPC／支线 | 宝可梦／蛋 | 商店／兑换 | 教学 | 阵容 | 待核 |','|---|---|---|---|---|---|---|---|---|']
@@ -282,22 +300,26 @@ def tutor_directory():
 
 def audit():
     stats=DATA['stats']
+    scope = ('获取与对战内容包含静态和动态事件。基础事件优先读取引擎静态覆盖，其余读取 ROM；动态规则按首次匹配生效，分别继承未覆盖的事件和地图头。地图总览与支线台本的地图图像仍使用静态快照。'
+             if DATA['event_scope'] == 'static+dynamic' else '仅收录静态地图头的事件和可达脚本。')
     rows=['# 地图内容收录与残留核对','',
           '[返回地图内容目录](content.md)','',
           '当前快照：%s。覆盖 %s 张普通地图，其中 %s 张有已收录内容；%s 条记录，剔除 %s 条残留或临时队伍记录，%s 条仍待确定。' %
           (DATA['snapshot_date'],stats['maps'],stats['with_content'],stats['records'],stats['excluded'],stats['pending']),'',
-          '仅收录静态地图头的布局、事件和可达脚本，优先读取引擎静态覆盖，其余读取 ROM 静态数据。动态地图头的布局、事件与获取内容不收录。碰撞、位置、NPC 图像、对白和脚本共同用于核对；柜台后的服务 NPC 保留。地面球以当前图像确认，不能套用原版图像常量。','',
+          scope+'碰撞、位置、NPC 图像、对白和脚本共同用于核对；柜台后的服务 NPC 保留。地面球以当前图像确认，不能套用原版图像常量。','',
           '支线奖励按实际奖励执行点关联。互斥选择、随机奖池、交付费用、临时参战宝可梦分别保留说明；仅有野生对战指令不能证明可捕获，未混入赠送名单。','',
           '基础阵容取引擎训练师覆盖表，其余读取 ROM；对战设施生成阵容及等级同步另行说明。当前快照不能保证所有原生函数、存档条件和人物移动都已完全还原。','',
-          '过场只转移逐个核对过的静态脚本入口；同一地图的其他脚本不会自动继承归属。共用结算地图头、回程地点和远方地名不能单独证明奖励地点。','',
+          '过场只转移逐个核对过的脚本入口；同一地图的其他脚本不会自动继承归属。共用结算地图头、回程地点和远方地名不能单独证明奖励地点。','',
           ]
     coverage = DATA.get('review_coverage', {})
     if coverage:
-        rows += ['本次全量复核：%s 张地图、%s 个候选入口，其中 %s 个含内容记录；地形扫描覆盖 %s 张图的 %s 个位置入口，%s 项黑色地块提示已逐项处理。%s' % (
+        rows += ['静态基线复核：%s 张地图、%s 个候选入口，其中 %s 个含内容记录；地形扫描覆盖 %s 张图的 %s 个位置入口，%s 项黑色地块提示已逐项处理。%s' % (
             coverage['maps'], coverage['candidate_origins'], coverage['origins_with_records'],
             coverage['terrain_maps'], coverage['terrain_origins'], coverage['terrain_findings'],
             coverage['method']), '']
         rows += ['- '+note for note in coverage['retained_context']] + ['']
+    if DATA['event_scope'] == 'static+dynamic':
+        rows += ['本轮加入 %s 张地图的 %s 个动态阶段，%s 条已收录记录含动态入口（包括与静态入口重复的内容，不代表全部为新增奖励）。独立的新动态人物不沿用静态坐标排除；原样继承的残留事件继续剔除。' % (stats['dynamic_maps'],stats['dynamic_stages'],stats['dynamic_records']), '']
     rows += ['## 过场内容归属','', '| 演出地图／入口 | 归属地点 | 依据 |','|---|---|---|']
     for key,o in DATA['scene_owners'].items():
         for root,evidence in o['roots'].items():
