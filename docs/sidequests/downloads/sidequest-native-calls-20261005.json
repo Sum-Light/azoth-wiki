@@ -1,0 +1,4869 @@
+{
+  "review_date": "2026-10-05",
+  "quest_count": 96,
+  "method": "按已编排对白关联地图入口，并纳入人工确认的跨地图根脚本；可达调用是核对候选，不等于全部属于本任务正文。",
+  "quests": [
+    {
+      "number": "001",
+      "title": "皮丘的旅途",
+      "roots": [
+        "r:089C1D2D",
+        "r:089C219A",
+        "r:089C25E6",
+        "r:08AAC1FE",
+        "r:08D568C3"
+      ],
+      "calls": [
+        {
+          "node": "r:089C4E75",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C7CD3",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C7D47",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AC52F8",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AC5B45",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE7500",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08AE7B91",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE7B9E",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE7BA8",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08D564D5",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "002",
+      "title": "向往天空的理由",
+      "roots": [
+        "r:08EE79FE",
+        "r:08EE7BD1",
+        "r:08EE8BD1",
+        "r:08EEA3A3"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C4E75",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089D0552",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089D0561",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EEA3F2",
+          "instruction": "callasm 0x896A661",
+          "function": "CB2_OpenAwardsMenus3",
+          "repoints": "Award/repoints",
+          "slot": "0x0896A650",
+          "cinematic": {
+            "callback": "CB2_OpenAwardsMenus3",
+            "slot": "0x0896A650",
+            "condition": "FlagGet(0xB95) && !FlagGet(0xB96)",
+            "sets": [
+              "0xB96"
+            ],
+            "warp": [
+              52,
+              21
+            ],
+            "text_ids": [
+              "c:Award/src/award3.c:sText_NavMenu_TaskCount41_Award3"
+            ],
+            "path": "Award/src/award3.c"
+          }
+        },
+        {
+          "node": "r:08EEA43B",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EEA457",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EEA888",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EEA8A4",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EEA92C",
+          "instruction": "callasm 0x896A661",
+          "function": "CB2_OpenAwardsMenus3",
+          "repoints": "Award/repoints",
+          "slot": "0x0896A650",
+          "cinematic": {
+            "callback": "CB2_OpenAwardsMenus3",
+            "slot": "0x0896A650",
+            "condition": "!FlagGet(0xB95)",
+            "sets": [
+              "0xB95"
+            ],
+            "warp": [
+              52,
+              21
+            ],
+            "text_ids": [
+              "c:Award/src/award3.c:sText_NavMenu_TaskCount40_Award3"
+            ],
+            "path": "Award/src/award3.c"
+          }
+        },
+        {
+          "node": "r:08EEA995",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EEA9A2",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EEB149",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EEB156",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "003",
+      "title": "钢铁与黑曜",
+      "roots": [
+        "r:08EEAA43",
+        "r:08EEAA5A",
+        "s:EventScript_TaskObsidianSteel_ForestTrap"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089D6430",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089D643F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EEAA74",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              4
+            ],
+            "scripts": [
+              "s:EventScript_TaskObsidianSteel_ForestTrap"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEAB5B",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              3
+            ],
+            "scripts": [
+              "s:EventScript_TaskObsidianSteel_GymBugsy"
+            ]
+          }
+        },
+        {
+          "node": "s:EventScript_TaskObsidianSteel_ForestTrap:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskObsidianSteel_GymBugsy:1",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskObsidianSteel_GymBugsy:52",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskObsidianSteel_GymBugsy:54",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskObsidianSteel_GymBugsy:59",
+          "instruction": "callasm ShowFollower",
+          "function": "ShowFollower"
+        },
+        {
+          "node": "s:TaskObsidianSteel_ForestPlayerReady:108",
+          "instruction": "callasm TaskScript_PlayMegaWaveEffect",
+          "function": "TaskScript_PlayMegaWaveEffect"
+        },
+        {
+          "node": "s:TaskObsidianSteel_ForestPlayerReady:166",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskObsidianSteel_ForestPlayerReady:168",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskObsidianSteel_ForestPlayerReady:170",
+          "instruction": "callasm ShowFollower",
+          "function": "ShowFollower"
+        }
+      ]
+    },
+    {
+      "number": "004",
+      "title": "霓虹灯外的月光",
+      "roots": [
+        "r:08EE4A39",
+        "r:08EE4CB8",
+        "r:08EE4F8C",
+        "s:EventScript_TaskMoonlightWhitney_Cutscene"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE4D39",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08EE50F6",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE5112",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EEB5FF",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              10
+            ],
+            "scripts": [
+              "s:EventScript_TaskMoonlightWhitney_Cutscene"
+            ]
+          }
+        },
+        {
+          "node": "s:EventScript_TaskMoonlightWhitney_Cutscene:102",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskMoonlightWhitney_Cutscene:2",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskMoonlightWhitney_Cutscene:30",
+          "instruction": "callasm TaskScript_PlayWhitneyMegaWaveEffect",
+          "function": "TaskScript_PlayWhitneyMegaWaveEffect"
+        },
+        {
+          "node": "s:EventScript_TaskMoonlightWhitney_Cutscene:96",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "005",
+      "title": "无法冻结的时间",
+      "roots": [
+        "r:087B3458",
+        "r:087B3463",
+        "r:087B4198",
+        "s:EventScript_TaskFrozenTime_IceLandWall"
+      ],
+      "calls": [
+        {
+          "node": "r:087B345D",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              93
+            ],
+            "scripts": [
+              "s:EventScript_TaskFrozenTime_PokemonVillagePryce"
+            ]
+          }
+        },
+        {
+          "node": "r:087B3468",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              94
+            ],
+            "scripts": [
+              "s:EventScript_TaskFrozenTime_IceLandWall"
+            ]
+          }
+        },
+        {
+          "node": "r:087B419D",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              95
+            ],
+            "scripts": [
+              "s:EventScript_TaskFrozenTime_CaveInterior"
+            ]
+          }
+        },
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "s:EventScript_TaskFrozenTime_CaveInterior:1",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskFrozenTime_CaveInterior:120",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskFrozenTime_CaveInterior:125",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskFrozenTime_CaveInterior:128",
+          "instruction": "callasm ShowFollower",
+          "function": "ShowFollower"
+        },
+        {
+          "node": "s:EventScript_TaskFrozenTime_IceLandWall:1",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskFrozenTime_IceLandWall:90",
+          "instruction": "callasm ShowFollower",
+          "function": "ShowFollower"
+        },
+        {
+          "node": "s:TaskFrozenTime_ClearBlackText:1",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_END_ROUTINE"
+        },
+        {
+          "node": "s:TaskFrozenTime_ShowBlackText:0",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_START_ROUTINE"
+        },
+        {
+          "node": "s:TaskFrozenTime_VillageAccept:21",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskFrozenTime_VillageAccept:9",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "006",
+      "title": "水与火的修罗场",
+      "roots": [
+        "s:EventScript_TaskHisui_MountainMan"
+      ],
+      "calls": [
+        {
+          "node": "s:EventScript_TaskHisui_MountainMan:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:27",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_START_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:32",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_END_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:39",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:73",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_MountainManAcceptWaterFire:7",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "007",
+      "title": "山顶的秘密",
+      "roots": [
+        "s:EventScript_TaskHisui_MountainMan",
+        "s:EventScript_TaskHisui_SummitTrap",
+        "s:EventScript_TaskHisui_SummitTrapLeft",
+        "s:EventScript_TaskHisui_SummitTrapRight"
+      ],
+      "calls": [
+        {
+          "node": "s:EventScript_TaskHisui_MountainMan:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_SummitTrap:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_SummitTrap:14",
+          "instruction": "callasm TaskScript_PlayHisuiSpaceTimeDistortionNoRestore",
+          "function": "TaskScript_PlayHisuiSpaceTimeDistortionNoRestore"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_SummitTrap:17",
+          "instruction": "callasm TaskScript_ClearHisuiSpaceTimeDistortionMosaic",
+          "function": "TaskScript_ClearHisuiSpaceTimeDistortionMosaic"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_SummitTrap:18",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_START_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_SummitTrap:23",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_END_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_SummitTrapLeft:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_SummitTrapRight:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:27",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_START_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:32",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_END_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:39",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:73",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_MountainManAcceptWaterFire:7",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "008",
+      "title": "冻土上的捉迷藏",
+      "roots": [
+        "s:EventScript_TaskHisui_LowerOshawott",
+        "s:EventScript_TaskHisui_UpperCyndaquil",
+        "s:EventScript_TaskHisui_UpperHeadEvent"
+      ],
+      "calls": [
+        {
+          "node": "s:EventScript_TaskHisui_LowerOshawott:1",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_UpperCyndaquil:1",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:TaskHisui_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_UpperArrivalEvent:23",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "009",
+      "title": "纯白的魅影",
+      "roots": [
+        "s:EventScript_TaskHisui_LowerFakeRowlet",
+        "s:EventScript_TaskHisui_LowerLaventon"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerFakeRowlet:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerFakeRowlet:1",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerFakeRowlet:13",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerLaventon:1",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskHisui_FakeRowletRevealContinue:30",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_FakeRowletRevealContinue:36",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_PlayBlueOrbEffect:0",
+          "instruction": "callasm TaskScript_PlayHisuiSpaceTimeDistortion",
+          "function": "TaskScript_PlayHisuiSpaceTimeDistortion"
+        },
+        {
+          "node": "s:TaskHisui_RunLaventonScene:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskHisui_RunLaventonScene:51",
+          "instruction": "callasm TaskScript_ClearHisuiSpaceTimeDistortionMosaic",
+          "function": "TaskScript_ClearHisuiSpaceTimeDistortionMosaic"
+        },
+        {
+          "node": "s:TaskHisui_RunLaventonScene:58",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "010",
+      "title": "在未知的土地上",
+      "roots": [
+        "s:EventScript_TaskHisui_LowerFakeRowlet",
+        "s:EventScript_TaskHisui_LowerLaventon"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerFakeRowlet:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerFakeRowlet:1",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerFakeRowlet:13",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskHisui_LowerLaventon:1",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskHisui_FakeRowletRevealContinue:30",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_FakeRowletRevealContinue:36",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_PlayBlueOrbEffect:0",
+          "instruction": "callasm TaskScript_PlayHisuiSpaceTimeDistortion",
+          "function": "TaskScript_PlayHisuiSpaceTimeDistortion"
+        },
+        {
+          "node": "s:TaskHisui_RunLaventonScene:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskHisui_RunLaventonScene:51",
+          "instruction": "callasm TaskScript_ClearHisuiSpaceTimeDistortionMosaic",
+          "function": "TaskScript_ClearHisuiSpaceTimeDistortionMosaic"
+        },
+        {
+          "node": "s:TaskHisui_RunLaventonScene:58",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "011",
+      "title": "来自未来的回响",
+      "roots": [
+        "s:EventScript_TaskHisui_MountainMan",
+        "s:TaskHisui_HouseReturnEvent"
+      ],
+      "calls": [
+        {
+          "node": "s:EventScript_TaskHisui_MountainMan:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskHisui_HouseReturnEvent:25",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseReturnEvent:32",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseReturnEvent:35",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_START_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseReturnEvent:40",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_END_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:27",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_START_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:32",
+          "instruction": "callasm TASK_HISUI_BLACK_TEXT_END_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:39",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_HouseTrioPlay:73",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_MountainManAcceptWaterFire:7",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskHisui_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "012",
+      "title": "少女的烦恼",
+      "roots": [
+        "r:08F506EE"
+      ],
+      "calls": [
+        {
+          "node": "r:089E353E",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E3553",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E35E0",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E35ED",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "013",
+      "title": "进化之谜",
+      "roots": [
+        "r:08F50268"
+      ],
+      "calls": [
+        {
+          "node": "r:08AE6626",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE6F02",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE6F63",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE6F75",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "014",
+      "title": "红色火球之谜",
+      "roots": [
+        "r:08F50365"
+      ],
+      "calls": [
+        {
+          "node": "r:08ABA353",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ABA360",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ABB0C6",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ABB0D3",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "015",
+      "title": "小猫怪的耳朵",
+      "roots": [
+        "r:08F50353"
+      ],
+      "calls": [
+        {
+          "node": "r:08AB99F2",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AB99FF",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ABB905",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AC2540",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AC254D",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "016",
+      "title": "口渴的大叔",
+      "roots": [
+        "r:08F50386"
+      ],
+      "calls": [
+        {
+          "node": "r:08AE631B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE6328",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE63FB",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE640D",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "017",
+      "title": "精灵爷爷的实验",
+      "roots": [
+        "r:08EE04B7"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C8F1C",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C8FB5",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E3880",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E388D",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E3F3B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E3F48",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2885",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE2892",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2967",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE2983",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE2A6B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE2A78",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2D44",
+          "instruction": "callasm 0x896A371",
+          "function": "DoOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A360"
+        },
+        {
+          "node": "r:08EE2D55",
+          "instruction": "callasm 0x896A3A1",
+          "function": "FadeOutOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A390"
+        },
+        {
+          "node": "r:08EE2DA5",
+          "instruction": "callasm 0x896A371",
+          "function": "DoOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A360"
+        },
+        {
+          "node": "r:08EE42B4",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE469F",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE46BB",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE5240",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE5267",
+          "instruction": "callasm 0x896A3A1",
+          "function": "FadeOutOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A390"
+        },
+        {
+          "node": "r:08EE527A",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EEB801",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              11
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Grandpa"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:15",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:49",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:9",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_Wave4Clear:19",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_Wave4Clear:26",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "018",
+      "title": "希鲁夫的遗产",
+      "roots": [
+        "r:08EE04B7",
+        "r:08EE1638"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C8F1C",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C8FB5",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E3880",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E388D",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E3F3B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E3F48",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2885",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE2892",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2967",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE2983",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE2A6B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE2A78",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2D44",
+          "instruction": "callasm 0x896A371",
+          "function": "DoOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A360"
+        },
+        {
+          "node": "r:08EE2D55",
+          "instruction": "callasm 0x896A3A1",
+          "function": "FadeOutOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A390"
+        },
+        {
+          "node": "r:08EE2DA5",
+          "instruction": "callasm 0x896A371",
+          "function": "DoOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A360"
+        },
+        {
+          "node": "r:08EE42B4",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE469F",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE46BB",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE5240",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE5267",
+          "instruction": "callasm 0x896A3A1",
+          "function": "FadeOutOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A390"
+        },
+        {
+          "node": "r:08EE527A",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EEB801",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              11
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Grandpa"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:15",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:49",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:9",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_Wave4Clear:19",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_Wave4Clear:26",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "019",
+      "title": "连接未来的牵绊",
+      "roots": [
+        "r:08EE04B7",
+        "r:08EE0FF3",
+        "r:08EE2AC5"
+      ],
+      "calls": [
+        {
+          "node": "r:087B32B1",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:087B32C7",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:087B33B9",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B33C6",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C7CD3",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C7D47",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C8F1C",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C8FB5",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E3880",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E388D",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E3F3B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E3F48",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2885",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE2892",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2967",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE2983",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE2A6B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE2A78",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE2D44",
+          "instruction": "callasm 0x896A371",
+          "function": "DoOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A360"
+        },
+        {
+          "node": "r:08EE2D55",
+          "instruction": "callasm 0x896A3A1",
+          "function": "FadeOutOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A390"
+        },
+        {
+          "node": "r:08EE2DA5",
+          "instruction": "callasm 0x896A371",
+          "function": "DoOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A360"
+        },
+        {
+          "node": "r:08EE42B4",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE469F",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE46BB",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE5240",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE5267",
+          "instruction": "callasm 0x896A3A1",
+          "function": "FadeOutOrbEffect",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A390"
+        },
+        {
+          "node": "r:08EE527A",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EEB801",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              11
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Grandpa"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:15",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:49",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_AcceptWave1:9",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_Wave4Clear:19",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskRampageMega_Wave4Clear:26",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "020",
+      "title": "收集研究所物资",
+      "roots": [
+        "r:08F50277"
+      ],
+      "calls": [
+        {
+          "node": "r:089E46B6",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E46C6",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E46F5",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E4702",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "021",
+      "title": "要进化的绿毛虫",
+      "roots": [
+        "r:08F50377"
+      ],
+      "calls": [
+        {
+          "node": "r:089E2E06",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E2E13",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E32D1",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:089E3754",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E3D6A",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "022",
+      "title": "制服狂暴宝可梦",
+      "roots": [
+        "r:089CEEDC",
+        "r:08AB7667",
+        "r:08F50423"
+      ],
+      "calls": [
+        {
+          "node": "r:089C7CD3",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C7D47",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AC45E3",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AC45F0",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AC4AB3",
+          "instruction": "callasm 0x896A121",
+          "function": "TryChangeNpcSize",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A110"
+        },
+        {
+          "node": "r:08AF0241",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF0253",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "023",
+      "title": "红色碎片告急",
+      "roots": [
+        "r:08F5048E"
+      ],
+      "calls": [
+        {
+          "node": "r:089E5EFF",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E5F0C",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE339C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE33A9",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "024",
+      "title": "复习宝可梦知识",
+      "roots": [
+        "r:089E68AC",
+        "r:08F50740"
+      ],
+      "calls": [
+        {
+          "node": "r:089E6428",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E6435",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "025",
+      "title": "修行的难题",
+      "roots": [
+        "r:08F50432"
+      ],
+      "calls": [
+        {
+          "node": "r:087B21BB",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B21C8",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E74F9",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E7506",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E77E1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE3198",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EECE3C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EECE49",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "026",
+      "title": "痛苦的大食花",
+      "roots": [
+        "r:08F50432"
+      ],
+      "calls": [
+        {
+          "node": "r:087B21BB",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B21C8",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E74F9",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E7506",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E77E1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE3198",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EECE3C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EECE49",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "027",
+      "title": "喇叭芽塔的妖怪",
+      "roots": [
+        "r:08F5124B"
+      ],
+      "calls": [
+        {
+          "node": "r:089E78FA",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E7907",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E8432",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE393E",
+          "instruction": "callasm 0x89B6451"
+        }
+      ]
+    },
+    {
+      "number": "028",
+      "title": "可爱的姆克儿",
+      "roots": [
+        "r:08F50806"
+      ],
+      "calls": [
+        {
+          "node": "r:089E7EDB",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:089E7EE8",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E7FBE",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE342B",
+          "instruction": "callasm 0x89B6451"
+        }
+      ]
+    },
+    {
+      "number": "029",
+      "title": "帅与可爱的精灵",
+      "roots": [
+        "r:08AB61CA",
+        "r:08AC2553",
+        "r:08AE2E99"
+      ],
+      "calls": [
+        {
+          "node": "r:08AC25E0",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AC25ED",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE3EA1",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE3EB3",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "030",
+      "title": "七大不可思议",
+      "roots": [
+        "r:08AE35ED",
+        "r:08AE35FF",
+        "r:08AE3B52",
+        "r:08AE3CCF",
+        "r:08AE4030",
+        "r:08AE443E",
+        "r:08AE449A",
+        "r:08AE465E",
+        "r:08AE4847",
+        "r:08AE50C3",
+        "r:08AE5251",
+        "r:08F50B85"
+      ],
+      "calls": [
+        {
+          "node": "r:08AE2FF0",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE2FFD",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE3D28",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08AE3D3E",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08AE3D58",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08AE3F80",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08AE4047",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08AE4317",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08AE467E",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08AE4853",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08AE50E9",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08AE5436",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08AE54D2",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE596E",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "031",
+      "title": "阿始的新节目",
+      "roots": [
+        "r:087B05BA",
+        "r:08F516A0"
+      ],
+      "calls": [
+        {
+          "node": "r:087B0090",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:087B010F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B07AB",
+          "instruction": "callasm 0x896A731",
+          "function": "GetSelectedPartyMonLevelToVar8006",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A720"
+        },
+        {
+          "node": "r:087B0996",
+          "instruction": "callasm 0x896A731",
+          "function": "GetSelectedPartyMonLevelToVar8006",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A720"
+        },
+        {
+          "node": "r:089C7CD3",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C7D47",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE58AE",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE58BB",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE694E",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE6960",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECFFD6",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ECFFE3",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED2B02",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED2B0F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED2B2C",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08ED2B42",
+          "instruction": "callasm 0x88B0139"
+        }
+      ]
+    },
+    {
+      "number": "032",
+      "title": "阿始的极限秀",
+      "roots": [
+        "r:087B05BA",
+        "r:08ECA01B"
+      ],
+      "calls": [
+        {
+          "node": "r:087B0090",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:087B010F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B07AB",
+          "instruction": "callasm 0x896A731",
+          "function": "GetSelectedPartyMonLevelToVar8006",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A720"
+        },
+        {
+          "node": "r:087B0996",
+          "instruction": "callasm 0x896A731",
+          "function": "GetSelectedPartyMonLevelToVar8006",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A720"
+        },
+        {
+          "node": "r:089C7CD3",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C7D47",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE58AE",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE58BB",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECFFD6",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ECFFE3",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED1EDD",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:08ED1EEC",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED20B2",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED20C4",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED2B02",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED2B0F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED2B2C",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08ED2B42",
+          "instruction": "callasm 0x88B0139"
+        }
+      ]
+    },
+    {
+      "number": "033",
+      "title": "最后的大哥秀",
+      "roots": [
+        "r:087B05BA",
+        "r:08ED3318"
+      ],
+      "calls": [
+        {
+          "node": "r:087B0090",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:087B010F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B07AB",
+          "instruction": "callasm 0x896A731",
+          "function": "GetSelectedPartyMonLevelToVar8006",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A720"
+        },
+        {
+          "node": "r:087B0996",
+          "instruction": "callasm 0x896A731",
+          "function": "GetSelectedPartyMonLevelToVar8006",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A720"
+        },
+        {
+          "node": "r:087B0A03",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B0A10",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B0A1A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C7CD3",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C7D47",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE58AE",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE58BB",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECFFD6",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ECFFE3",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED2B02",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED2B0F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED2B2C",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08ED2B42",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08ED34F7",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08ED352E",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EEF897",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EEF8AD",
+          "instruction": "callasm 0x88B0139"
+        }
+      ]
+    },
+    {
+      "number": "034",
+      "title": "阿露福遗迹之谜",
+      "roots": [
+        "r:08AF0695",
+        "r:08AF0803",
+        "r:08EC8125"
+      ],
+      "calls": [
+        {
+          "node": "r:08AF0972",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF097F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AF098D",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF099A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC860C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC8619",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "035",
+      "title": "沉睡的潜能",
+      "roots": [
+        "r:08EEC9DD"
+      ],
+      "calls": [
+        {
+          "node": "r:08EEC9E2",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              81
+            ],
+            "scripts": [
+              "s:EventScript_TaskSleepingPotential_Researcher"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskSleepingPotential_Accept:6",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskSleepingPotential_ChangeHasScale:11",
+          "instruction": "callasm TaskScript_BufferSleepingPotentialSelectedType",
+          "function": "TaskScript_BufferSleepingPotentialSelectedType"
+        },
+        {
+          "node": "s:TaskSleepingPotential_ChangeHasScale:17",
+          "instruction": "callasm TaskScript_SetSleepingPotentialHiddenPower",
+          "function": "TaskScript_SetSleepingPotentialHiddenPower"
+        },
+        {
+          "node": "s:TaskSleepingPotential_Complete:11",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskSleepingPotential_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskSleepingPotential_View:5",
+          "instruction": "callasm TaskScript_BufferSleepingPotentialHiddenPower",
+          "function": "TaskScript_BufferSleepingPotentialHiddenPower"
+        }
+      ]
+    },
+    {
+      "number": "036",
+      "title": "目标是虫系大师",
+      "roots": [
+        "r:08F50983"
+      ],
+      "calls": [
+        {
+          "node": "r:08AE6F9B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE6FA8",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE725C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE7272",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "037",
+      "title": "传达情书",
+      "roots": [
+        "r:08AE8909",
+        "r:08AE8A25",
+        "r:08AE8BCA",
+        "r:08AE8CC4",
+        "r:08AE8E8D",
+        "r:08F507C9"
+      ],
+      "calls": [
+        {
+          "node": "r:08AE8548",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE8555",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE8FA5",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE8FB2",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "038",
+      "title": "洞穴深处的回响",
+      "roots": [
+        "r:08F34B0E"
+      ],
+      "calls": [
+        {
+          "node": "r:08F34CA4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F34CB1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F34DD4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F34DEC",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "039",
+      "title": "穿玩偶装的人",
+      "roots": [
+        "r:08F50AEC"
+      ],
+      "calls": [
+        {
+          "node": "r:08F34418",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F34425",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F344A4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F344BC",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "040",
+      "title": "抱住圆木的来客",
+      "roots": [
+        "r:08F50AFB"
+      ],
+      "calls": [
+        {
+          "node": "r:08F51F84",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F51F91",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F52156",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F52163",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F5216D",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "041",
+      "title": "异样的呆呆兽",
+      "roots": [
+        "r:08EC50A5",
+        "r:08EDE58A",
+        "r:08EDEDE1",
+        "r:08EEB137",
+        "r:08EEB4BE",
+        "r:08EEB4C9",
+        "r:08EEB4F8",
+        "r:08EEB523",
+        "r:08EEB54E",
+        "r:08EEB579",
+        "r:08EEB5A4",
+        "r:08EEB625",
+        "r:08EEB67B",
+        "r:08EEB686",
+        "r:08EEB6E0",
+        "r:08EEB70B",
+        "r:08EEB73A",
+        "r:08EEB769",
+        "r:08EEB794"
+      ],
+      "calls": [
+        {
+          "node": "r:08EDE593",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08EDE5A8",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08EE01A5",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE01B2",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE03DF",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE03EC",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EEB13C",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              12
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Mawile"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB4C3",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              13
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Scrafty"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB4CE",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              14
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Eelektross"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB4FD",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              15
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Beedrill"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB528",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              16
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Chandelure"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB553",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              17
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Glalie"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB57E",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              18
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Absol"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB5A9",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              19
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Blaziken"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB62A",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              20
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Abomasnow"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB680",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              21
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Aggron"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB68B",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              22
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Swampert"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB6E5",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              24
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Sceptile"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB710",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              25
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Sharpedo"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB73F",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              26
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Heracross"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB76E",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              27
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Tyranitar"
+            ]
+          }
+        },
+        {
+          "node": "r:08EEB799",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              23
+            ],
+            "scripts": [
+              "s:EventScript_TaskRampageMega_Medicham"
+            ]
+          }
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Abomasnow:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Absol:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Aggron:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Beedrill:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Blaziken:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Chandelure:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Eelektross:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Glalie:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Heracross:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Mawile:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Medicham:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Sceptile:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Scrafty:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Sharpedo:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Swampert:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "s:EventScript_TaskRampageMega_Tyranitar:2",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        }
+      ]
+    },
+    {
+      "number": "042",
+      "title": "闪耀的一等星",
+      "roots": [
+        "r:087B0675",
+        "r:08AAFFB0",
+        "r:08AB59D4"
+      ],
+      "calls": [
+        {
+          "node": "r:089DFF40",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089DFF4F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AB2C45",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AB2C52",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ABCA04",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ABCA11",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECB5D9",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECBDD1",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ECBDDE",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F4BADF",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F4BAEC",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F58563",
+          "instruction": "callasm 0x89B6451"
+        }
+      ]
+    },
+    {
+      "number": "043",
+      "title": "闪耀的电波",
+      "roots": [
+        "r:087B0675",
+        "r:08ECECBA"
+      ],
+      "calls": [
+        {
+          "node": "r:089DFF40",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089DFF4F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AB2C45",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AB2C52",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ABCA04",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ABCA11",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECBDD1",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ECBDDE",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECF8F5",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED0008",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F4BADF",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F4BAEC",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "044",
+      "title": "闪耀的暗影",
+      "roots": [
+        "r:087B0675",
+        "r:08ECE47F"
+      ],
+      "calls": [
+        {
+          "node": "r:087B163F",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B164C",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089DFF40",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089DFF4F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AB2C45",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AB2C52",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ABCA04",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ABCA11",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ECBDD1",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ECBDDE",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F4BADF",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F4BAEC",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "045",
+      "title": "成为一般系大师",
+      "roots": [
+        "r:08F56CCA"
+      ],
+      "calls": [
+        {
+          "node": "r:089DFF40",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089DFF4F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE7D8C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE7D99",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE7E12",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE7E1F",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "046",
+      "title": "诡异的绿光",
+      "roots": [
+        "r:08F56A23"
+      ],
+      "calls": [
+        {
+          "node": "r:08AE97B7",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE97C4",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AE98AA",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AE98BC",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "047",
+      "title": "家乡的味道",
+      "roots": [
+        "r:08AEA8AE",
+        "r:08AEC1D3",
+        "r:08F56A32"
+      ],
+      "calls": [
+        {
+          "node": "r:08AEB65A",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEB667",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEB80A",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEB817",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEC1E5",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08AEC204",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08AEC213",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08AEC285",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        }
+      ]
+    },
+    {
+      "number": "048",
+      "title": "如期未至的朋友",
+      "roots": [
+        "r:08AECA4C",
+        "r:08F56A68"
+      ],
+      "calls": [
+        {
+          "node": "r:08AEC702",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEC712",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEC774",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEC781",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "049",
+      "title": "失踪的父亲",
+      "roots": [
+        "r:08AED914",
+        "r:08F4A844",
+        "r:08F56A86"
+      ],
+      "calls": [
+        {
+          "node": "r:089DFF40",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089DFF4F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AECDB3",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AECDC0",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AED91D",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08AEDB46",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08F4A80C",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08F4A8C7",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08F5872C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F58739",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "050",
+      "title": "聂梓的签名",
+      "roots": [
+        "r:08F56A95"
+      ],
+      "calls": [
+        {
+          "node": "r:08AEE415",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEE422",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEE9BC",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEE9C9",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "051",
+      "title": "时髦的宝可梦?",
+      "roots": [
+        "r:08AEF78C",
+        "r:08F56AF7"
+      ],
+      "calls": [
+        {
+          "node": "r:08AEF32C",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEF339",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEF9A1",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEF9AE",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "052",
+      "title": "如梦似幻般的银",
+      "roots": [
+        "r:087B626F",
+        "r:087B641E",
+        "r:087B6435",
+        "r:087B644C",
+        "r:08AEEF2E"
+      ],
+      "calls": [
+        {
+          "node": "r:087B64C4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B64D1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B661A",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B6627",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B66B7",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B66C4",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B7750",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B775D",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEEF18",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEEF25",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "053",
+      "title": "失散的过动猿",
+      "roots": [
+        "r:08AEFC98",
+        "r:08F56B06"
+      ],
+      "calls": [
+        {
+          "node": "r:08AEFA1B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEFA28",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEFC85",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AEFC92",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AEFCA6",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08AEFCBA",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08AEFD22",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        }
+      ]
+    },
+    {
+      "number": "054",
+      "title": "孩子一生平安",
+      "roots": [
+        "r:08EE6A37"
+      ],
+      "calls": [
+        {
+          "node": "r:08D56987",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08D56994",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE7934",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE7941",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "055",
+      "title": "奇怪的树",
+      "roots": [
+        "r:08F56B15"
+      ],
+      "calls": [
+        {
+          "node": "r:08AF0A76",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF0A83",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AF0B13",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF0B20",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "056",
+      "title": "遗失的玩偶",
+      "roots": [
+        "r:08F32241",
+        "r:08F33761",
+        "r:08F5BE76"
+      ],
+      "calls": [
+        {
+          "node": "r:08F32E98",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F32EA5",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F58255",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F5826D",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "057",
+      "title": "传递信件",
+      "roots": [
+        "r:08F4937F",
+        "r:08F493A5"
+      ],
+      "calls": [
+        {
+          "node": "r:08F494E4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F494F1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F58759",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F58766",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "058",
+      "title": "五彩斑斓的头巾",
+      "roots": [
+        "r:08EE5CB9"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE5CBE",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              2
+            ],
+            "scripts": [
+              "s:EventScript_TaskColorfulScarves_Melissa"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskColorfulScarves_Accept:13",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskColorfulScarves_Accept:9",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskColorfulScarves_AllScarvesReady:26",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskColorfulScarves_AllScarvesReady:32",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "059",
+      "title": "生病的呆呆兽",
+      "roots": [
+        "r:089D36C4",
+        "r:08EE6848",
+        "r:08EE6D2E",
+        "r:08F36AEE",
+        "r:08F4A844"
+      ],
+      "calls": [
+        {
+          "node": "r:08EE68CB",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE68D8",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE6E5F",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE6E7B",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE6F0A",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE6F27",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE7513",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE7520",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F4A80C",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08F4A8C7",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08F538F4",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        }
+      ]
+    },
+    {
+      "number": "060",
+      "title": "头号球迷的朝圣",
+      "roots": [
+        "r:08EE4638",
+        "r:08EE5135",
+        "r:08EE59C3",
+        "r:08EE5A2D"
+      ],
+      "calls": [
+        {
+          "node": "r:087B9816",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              107
+            ],
+            "scripts": [
+              "s:EventScript_TaskCosplay_Yantie"
+            ]
+          }
+        },
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C4E75",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089E9F0E",
+          "instruction": "callasm 0x896A071",
+          "function": "ApricornCallBack",
+          "repoints": "任务/repoints",
+          "slot": "0x0896A060"
+        },
+        {
+          "node": "r:08D564D5",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE51AB",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE51B8",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE59F4",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EE5A10",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EE5EA2",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE6012",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE6132",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE614A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "s:EventScript_TaskCosplay_Yantie:27",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskCosplay_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskCosplay_Yantie_MakeCostume:19",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        }
+      ]
+    },
+    {
+      "number": "061",
+      "title": "满金Cos大会!?",
+      "roots": [
+        "r:087B97D1",
+        "r:08A68500",
+        "r:08EE4638",
+        "s:EventScript_TaskCosplay_Awards",
+        "s:EventScript_TaskCosplay_AzaleaArgument",
+        "s:EventScript_TaskCosplay_Contest",
+        "s:EventScript_TaskCosplay_Mother"
+      ],
+      "calls": [
+        {
+          "node": "r:087B97D6",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              106
+            ],
+            "scripts": [
+              "s:EventScript_TaskCosplay_AzaleaArgument"
+            ]
+          }
+        },
+        {
+          "node": "r:087B9816",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              107
+            ],
+            "scripts": [
+              "s:EventScript_TaskCosplay_Yantie"
+            ]
+          }
+        },
+        {
+          "node": "r:087B9839",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              108
+            ],
+            "scripts": [
+              "s:EventScript_TaskCosplay_Mother"
+            ]
+          }
+        },
+        {
+          "node": "r:087BE84A",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:087BEB80",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C4E75",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C628A",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C62AD",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089CC1D5",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089CC1EF",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089E9F0E",
+          "instruction": "callasm 0x896A071",
+          "function": "ApricornCallBack",
+          "repoints": "任务/repoints",
+          "slot": "0x0896A060"
+        },
+        {
+          "node": "r:08D564D5",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE5EA2",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE6012",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE6132",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE614A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "s:EventScript_TaskCosplay_Awards:1",
+          "instruction": "callasm TaskScript_ClearHisuiSpaceTimeDistortionMosaic",
+          "function": "TaskScript_ClearHisuiSpaceTimeDistortionMosaic"
+        },
+        {
+          "node": "s:EventScript_TaskCosplay_Awards:40",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:EventScript_TaskCosplay_Contest:294",
+          "instruction": "callasm TaskScript_PlayHisuiSpaceTimeDistortionNoRestore",
+          "function": "TaskScript_PlayHisuiSpaceTimeDistortionNoRestore"
+        },
+        {
+          "node": "s:EventScript_TaskCosplay_Contest:297",
+          "instruction": "callasm 0x896A771",
+          "function": "CB2_OpenAwardsMenus2",
+          "repoints": "award2/repoints",
+          "slot": "0x0896A760",
+          "cinematic": {
+            "callback": "CB2_OpenAwardsMenus2",
+            "slot": "0x0896A760",
+            "condition": "mapGroup == 52 && mapNum == 36",
+            "sets": [],
+            "warp": [
+              52,
+              37
+            ],
+            "text_ids": [
+              "c:award2/src/award2.c:sBg28Text"
+            ],
+            "path": "award2/src/award2.c"
+          }
+        },
+        {
+          "node": "s:EventScript_TaskCosplay_Yantie:27",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskCosplay_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskCosplay_Yantie_MakeCostume:19",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        }
+      ]
+    },
+    {
+      "number": "062",
+      "title": "怯场的男友",
+      "roots": [
+        "r:08EE7738",
+        "r:08EE7958"
+      ],
+      "calls": [
+        {
+          "node": "r:08EE773D",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              5
+            ],
+            "scripts": [
+              "s:EventScript_TaskStageFright_Girl"
+            ]
+          }
+        },
+        {
+          "node": "r:08EE795D",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              6
+            ],
+            "scripts": [
+              "s:EventScript_TaskStageFright_Boy"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskStageFright_GirlAccept:10",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskStageFright_GirlAccept:7",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskStageFright_GirlComplete:11",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskStageFright_GirlComplete:17",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "063",
+      "title": "胡桃的风景特辑",
+      "roots": [
+        "r:08EEB0E3"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EEB0E8",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              9
+            ],
+            "scripts": [
+              "s:EventScript_TaskScenicFeature_Hutao"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskScenicFeature_Accept:13",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskScenicFeature_Accept:9",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskScenicFeature_Complete:31",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskScenicFeature_Complete:37",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "064",
+      "title": "消失的正辉",
+      "roots": [
+        "r:087B9867",
+        "r:087B98C6",
+        "s:EventScript_TaskMissingBill_FlowerShop",
+        "s:EventScript_TaskMissingBill_GameCorner",
+        "s:EventScript_TaskMissingBill_Home"
+      ],
+      "calls": [
+        {
+          "node": "r:087B3267",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              88
+            ],
+            "scripts": [
+              "s:EventScript_TaskPhone_PokemaniacXiaocheng"
+            ]
+          }
+        },
+        {
+          "node": "r:087B9E2F",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B9E3C",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "s:TaskMissingBill_Finish:1",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskMissingBill_ShowTaskToast:5",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        }
+      ]
+    },
+    {
+      "number": "065",
+      "title": "闪闪发光的误会",
+      "roots": [
+        "s:sMap_51_9_Obj19Script"
+      ],
+      "calls": [
+        {
+          "node": "s:sMap_51_9_Obj19Script:0",
+          "instruction": "callasm 0x08CA0051"
+        },
+        {
+          "node": "s:sMap_51_9_Obj19Script_Script0:86",
+          "instruction": "callasm 0x088B0001"
+        },
+        {
+          "node": "s:sMap_51_9_Obj19Script_Script0:91",
+          "instruction": "callasm 0x088B0139"
+        },
+        {
+          "node": "s:sMap_51_9_Obj19Script_Script1:16",
+          "instruction": "callasm 0x089B6451"
+        },
+        {
+          "node": "s:sMap_51_9_Obj19Script_Script1:18",
+          "instruction": "callasm 0x08FB0101"
+        }
+      ]
+    },
+    {
+      "number": "066",
+      "title": "姿态各异的舞者",
+      "roots": [
+        "r:08AF1787",
+        "r:08AF18B5",
+        "r:08EC11EE",
+        "r:08F5B495",
+        "r:08F5C9B3"
+      ],
+      "calls": [
+        {
+          "node": "r:089C2B7E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089C2BA1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AF1427",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF1434",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AF255F",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF256C",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC1248",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC1255",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "067",
+      "title": "遗失的钥匙",
+      "roots": [
+        "r:08F5B6E3"
+      ],
+      "calls": [
+        {
+          "node": "r:08AF264D",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF265A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AF2974",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF298C",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "068",
+      "title": "卖假货的奸商",
+      "roots": [
+        "r:089D1C09",
+        "r:08AF2A50",
+        "r:08F5B4B3"
+      ],
+      "calls": [
+        {
+          "node": "r:08AF2A27",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF2A34",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F5BA74",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F5BA81",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "069",
+      "title": "像气球的宝可梦",
+      "roots": [
+        "r:08F5B4A4"
+      ],
+      "calls": [
+        {
+          "node": "r:08AF3068",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF3075",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AF30CF",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF30DC",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "070",
+      "title": "逾期图书的回收",
+      "roots": [
+        "r:08AF3556",
+        "r:08AF356D",
+        "r:08AF3916",
+        "r:08F5B4EA"
+      ],
+      "calls": [
+        {
+          "node": "r:08AF33F2",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF33FF",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F5BAA9",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F5BAB6",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "071",
+      "title": "遥远的约定",
+      "roots": [
+        "r:08EC008B",
+        "r:08EC07EE",
+        "r:08EC11EE"
+      ],
+      "calls": [
+        {
+          "node": "r:089C4E75",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:08AF255F",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF256C",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08D564D5",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC046E",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC047B",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC090E",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08EC0924",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08EC0967",
+          "instruction": "callasm 0x896A0F1",
+          "function": "NpcFace",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A0E0"
+        },
+        {
+          "node": "r:08EC1248",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC1255",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "072",
+      "title": "迷路的小锯鳄",
+      "roots": [
+        "r:08F5BB77"
+      ],
+      "calls": [
+        {
+          "node": "r:08F5BCE2",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F5BCEF",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "073",
+      "title": "没精神的大奶罐",
+      "roots": [
+        "r:08AF3D21",
+        "r:08EC1429"
+      ],
+      "calls": [
+        {
+          "node": "r:08AF3BA3",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF3BB0",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AF3CC7",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AF3CD4",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "074",
+      "title": "帕底亚的礼物梦",
+      "roots": [
+        "r:08F5CFDC"
+      ],
+      "calls": [
+        {
+          "node": "r:08F5D64D",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F5D65A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F5D68B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F5D698",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F5D6A2",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "075",
+      "title": "非现世的气息",
+      "roots": [
+        "r:08F5CFCD"
+      ],
+      "calls": [
+        {
+          "node": "r:08F34FB2",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F34FBF",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F35026",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F3503E",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "076",
+      "title": "错位的忍道",
+      "roots": [
+        "r:08EDEC43",
+        "r:08EDF2BE"
+      ],
+      "calls": [
+        {
+          "node": "r:08EE077C",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08EE0BBE",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE0BCB",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE113F",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE114C",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:09CCF8BC",
+          "instruction": "callasm 0x9D2D219",
+          "function": "HideFollower",
+          "symbols": "Complete-Fire-Red-Upgrade-dev for Project Azoth/build/linked.o.rom_symbols.json"
+        },
+        {
+          "node": "r:09CCF8E3",
+          "instruction": "callasm 0x9D30F49",
+          "function": "UpdateFollowerPokemonGraphic",
+          "symbols": "Complete-Fire-Red-Upgrade-dev for Project Azoth/build/linked.o.rom_symbols.json"
+        },
+        {
+          "node": "r:09CCF8E8",
+          "instruction": "callasm 0x9D31CC5",
+          "function": "ShowFollower",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x08CA000C"
+        }
+      ]
+    },
+    {
+      "number": "077",
+      "title": "忍法！捉迷藏",
+      "roots": [
+        "r:08EDF2F7",
+        "r:08EE1377",
+        "r:08EE16DE",
+        "r:08EE183E"
+      ],
+      "calls": [
+        {
+          "node": "r:08EE0F43",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE0F50",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE18C6",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE18D3",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "078",
+      "title": "外卖订单的配送",
+      "roots": [
+        "r:08AF99DF",
+        "r:08F5EE3A"
+      ],
+      "calls": [
+        {
+          "node": "r:08AFC45A",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFC467",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AFD0F6",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFD108",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "079",
+      "title": "白色长裙的女孩",
+      "roots": [
+        "r:08F5EE01"
+      ],
+      "calls": [
+        {
+          "node": "r:08AFCFFA",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFD402",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFD40F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AFD547",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "080",
+      "title": "彼岸的宝可梦",
+      "roots": [
+        "r:08F5EE10"
+      ],
+      "calls": [
+        {
+          "node": "r:08AFD56D",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFD57A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AFD7BD",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC1D81",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED3E65",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED3E72",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED3FA4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED3FB6",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "081",
+      "title": "海之传说",
+      "roots": [
+        "r:089F0FCA",
+        "r:08F5EE10"
+      ],
+      "calls": [
+        {
+          "node": "r:08AFD56D",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFD57A",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AFD7BD",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC1D81",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED3E65",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED3E72",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08ED3FA4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08ED3FB6",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "082",
+      "title": "电气鼠派对",
+      "roots": [
+        "r:08AFE51D",
+        "r:08AFF0BA",
+        "r:08F5EDF2"
+      ],
+      "calls": [
+        {
+          "node": "r:08AFE377",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFE384",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AFF194",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFF1A1",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AFF238",
+          "instruction": "callasm 0x896A011",
+          "function": "TakePhoto",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A000"
+        }
+      ]
+    },
+    {
+      "number": "083",
+      "title": "海星连接宇宙",
+      "roots": [
+        "r:087B06E9",
+        "r:087B3A28"
+      ],
+      "calls": [
+        {
+          "node": "r:087B378F",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B379C",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:087B404F",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:087B405C",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "084",
+      "title": "深夜电视异闻录",
+      "roots": [
+        "r:08D53000",
+        "r:08EC1A78",
+        "r:08F5EDE3"
+      ],
+      "calls": [
+        {
+          "node": "r:08AC4460",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AC446D",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08D53076",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC1F94",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "085",
+      "title": "不安的太阳珊瑚",
+      "roots": [
+        "r:08EC3198"
+      ],
+      "calls": [
+        {
+          "node": "r:08AFFA5A",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFFA67",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08AFFACA",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08AFFAE2",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "086",
+      "title": "黑色的千针鱼",
+      "roots": [
+        "r:08F34B1C",
+        "r:08F4F6B5"
+      ],
+      "calls": [
+        {
+          "node": "r:08F354A4",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F354BC",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F35516",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F35523",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "087",
+      "title": "被抢走的宝可梦",
+      "roots": [
+        "r:08EC31AA"
+      ],
+      "calls": [
+        {
+          "node": "r:08EC3295",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC32AD",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "088",
+      "title": "完美的能量餐",
+      "roots": [
+        "r:08EDF34F",
+        "r:08EDF426"
+      ],
+      "calls": [
+        {
+          "node": "r:08EE1D2A",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE1D37",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EE21A8",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EE21C0",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "089",
+      "title": "海浪卷走的乌波",
+      "roots": [
+        "r:08EC5E56",
+        "r:08EC6ED7",
+        "r:08EC7041"
+      ],
+      "calls": [
+        {
+          "node": "r:089D0552",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089D0561",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08D54FF9",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08D55006",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08D55481",
+          "instruction": "callasm 0x88B0001"
+        },
+        {
+          "node": "r:08D554A3",
+          "instruction": "callasm 0x88B0139"
+        },
+        {
+          "node": "r:08D55521",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08D5552E",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC7043",
+          "instruction": "callasm 0x8CA0051"
+        }
+      ]
+    },
+    {
+      "number": "090",
+      "title": "漆黑的魅影",
+      "roots": [
+        "r:08EC6E54"
+      ],
+      "calls": [
+        {
+          "node": "r:08D55C30",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08D55C3D",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "091",
+      "title": "亚玄的修炼",
+      "roots": [
+        "r:08EC51F1",
+        "r:08EC53E1",
+        "r:08EC5690",
+        "r:08EC5721"
+      ],
+      "calls": [
+        {
+          "node": "r:089D0552",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:089D0561",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC545B",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC5468",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC5629",
+          "instruction": "callasm 0x896A121",
+          "function": "TryChangeNpcSize",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A110"
+        },
+        {
+          "node": "r:08EC66EF",
+          "instruction": "callasm 0x896A011",
+          "function": "TakePhoto",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A000"
+        }
+      ]
+    },
+    {
+      "number": "092",
+      "title": "波导的勇者",
+      "roots": [
+        "r:08EC5BA7"
+      ],
+      "calls": [
+        {
+          "node": "r:08EC5D0E",
+          "instruction": "callasm 0x8FB0001"
+        },
+        {
+          "node": "r:08EC5D1D",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC5DEE",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC5DFB",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08EC609E",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08EC60AB",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "093",
+      "title": "被遗忘的遗忘",
+      "roots": [
+        "r:0816D895",
+        "r:08EE0897",
+        "r:08EE4666"
+      ],
+      "calls": [
+        {
+          "node": "r:08EE089C",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              0
+            ],
+            "scripts": [
+              "s:EventScript_TaskForgottenForget_NpcA"
+            ]
+          }
+        },
+        {
+          "node": "r:08EE466B",
+          "instruction": "callasm 0x896A6C1",
+          "function": "TaskScript_ExecuteFromVar8004",
+          "repoints": "Complete-Fire-Red-Upgrade-dev for Project Azoth/repoints",
+          "slot": "0x0896A6B0",
+          "dispatch": {
+            "indices": [
+              1
+            ],
+            "scripts": [
+              "s:EventScript_TaskForgottenForget_NpcB"
+            ]
+          }
+        },
+        {
+          "node": "s:TaskForgottenForget_NpcAAccept:7",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskForgottenForget_NpcAAccept:9",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskForgottenForget_NpcBHasHeartScale:0",
+          "instruction": "callasm HideFollower",
+          "function": "HideFollower"
+        },
+        {
+          "node": "s:TaskForgottenForget_NpcBHasHeartScale:27",
+          "instruction": "callasm TASK_SCRIPT_POPUP_ROUTINE"
+        },
+        {
+          "node": "s:TaskForgottenForget_NpcBHasHeartScale:32",
+          "instruction": "callasm TASK_SCRIPT_REFRESH_ROUTINE"
+        },
+        {
+          "node": "s:TaskForgottenForget_NpcBHasHeartScale:34",
+          "instruction": "callasm ShowFollower",
+          "function": "ShowFollower"
+        }
+      ]
+    },
+    {
+      "number": "094",
+      "title": "收集玻璃哨",
+      "roots": [
+        "r:087BA79C"
+      ],
+      "calls": [
+        {
+          "node": "r:08F3F960",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F3F96D",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F3FA1A",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F3FA32",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "095",
+      "title": "是谁在捣乱?",
+      "roots": [
+        "r:087BA76D"
+      ],
+      "calls": [
+        {
+          "node": "r:08F3FB72",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F3FB7F",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F3FEAE",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F3FEC6",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    },
+    {
+      "number": "096",
+      "title": "被解开的封印",
+      "roots": [
+        "r:087BA75B",
+        "r:08F3EDBC"
+      ],
+      "calls": [
+        {
+          "node": "r:08F3E763",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F3E778",
+          "instruction": "callasm 0x8FB0101"
+        },
+        {
+          "node": "r:08F3EBE6",
+          "instruction": "callasm 0x8CA0051"
+        },
+        {
+          "node": "r:08F3EE00",
+          "instruction": "callasm 0x89B6451"
+        },
+        {
+          "node": "r:08F3EE1D",
+          "instruction": "callasm 0x8FB0101"
+        }
+      ]
+    }
+  ],
+  "source_fingerprint": "6360cfd24d7b5ded2df29ff758f25a0467badb9bacd464803ff27fbe9970979f",
+  "excluded_story_cinematics": [
+    {
+      "callback": "CB2_OpenAwardsMenus",
+      "path": "Award/src/award.c",
+      "calls": [
+        "r:08F381E4",
+        "r:08A68C7C",
+        "r:087B5B56"
+      ],
+      "reason": "缘朱圣女演出、爱的地下通道拥抱及演出回看入口；不属于96项支线。"
+    },
+    {
+      "callback": "CB2_OpenAwardsMenus2",
+      "path": "award2/src/award.c",
+      "scripts": [
+        "EventScript_TaskEcruteakDanceTheaterSecret_Cutscene",
+        "EventScript_TaskEcruteakAncientHistory_Cutscene"
+      ],
+      "reason": "和服女孩与古籍的主线过场；96项支线中只有52.36的BG28模式需补入。"
+    },
+    {
+      "callback": "CB2_OpenAwardsMenus2",
+      "path": "Award/src/award2.c",
+      "script": "EventScript_TaskEcruteakLegendaryBeasts_Aftermath",
+      "reason": "三圣兽主线的纯画面演出；无叙事字符串。"
+    }
+  ]
+}

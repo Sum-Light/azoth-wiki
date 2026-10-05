@@ -106,6 +106,7 @@
 | [39号道路 · 52.7](../locations/map_52_7.md#sidequests) | [073 没精神的大奶罐](073.md#map-52-7) |
 | [真新镇 · 52.16](../locations/map_52_16.md#sidequests) | [032 阿始的极限秀](032.md#map-52-16) |
 | [真新镇 · 52.20](../locations/map_52_20.md#sidequests) | [033 最后的大哥秀](033.md#map-52-20) |
+| [真新镇 · 52.21](../locations/map_52_21.md#sidequests) | [002 向往天空的理由](002.md#map-52-21) |
 | [纯白冻土 · 52.23](../locations/map_52_23.md#sidequests) | [008 冻土上的捉迷藏](008.md#map-52-23) |
 | [纯白冻土 · 52.24](../locations/map_52_24.md#sidequests) | [008 冻土上的捉迷藏](008.md#map-52-24)、[009 纯白的魅影](009.md#map-52-24)、[010 在未知的土地上](010.md#map-52-24) |
 | [真新镇 · 52.25](../locations/map_52_25.md#sidequests) | [005 无法冻结的时间](005.md#map-52-25) |

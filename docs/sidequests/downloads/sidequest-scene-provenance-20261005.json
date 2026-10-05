@@ -1,5 +1,5 @@
 {
-  "source_fingerprint": "370c643caff3831318f5c5848b3039db90392e52ef8a6e6bda870894b16fcde0",
+  "source_fingerprint": "6360cfd24d7b5ded2df29ff758f25a0467badb9bacd464803ff27fbe9970979f",
   "dispatch_calls": [
     {
       "node": "r:08EEC9E2",
@@ -582,6 +582,60 @@
       ]
     }
   ],
+  "native_cinematic_calls": [
+    {
+      "node": "r:08EEA3F2",
+      "instruction": "callasm 0x896A661",
+      "callback": "CB2_OpenAwardsMenus3",
+      "slot": "0x0896A650",
+      "condition": "FlagGet(0xB95) && !FlagGet(0xB96)",
+      "sets": [
+        "0xB96"
+      ],
+      "warp": [
+        52,
+        21
+      ],
+      "text_ids": [
+        "c:Award/src/award3.c:sText_NavMenu_TaskCount41_Award3"
+      ],
+      "path": "Award/src/award3.c"
+    },
+    {
+      "node": "r:08EEA92C",
+      "instruction": "callasm 0x896A661",
+      "callback": "CB2_OpenAwardsMenus3",
+      "slot": "0x0896A650",
+      "condition": "!FlagGet(0xB95)",
+      "sets": [
+        "0xB95"
+      ],
+      "warp": [
+        52,
+        21
+      ],
+      "text_ids": [
+        "c:Award/src/award3.c:sText_NavMenu_TaskCount40_Award3"
+      ],
+      "path": "Award/src/award3.c"
+    },
+    {
+      "node": "s:EventScript_TaskCosplay_Contest:297",
+      "instruction": "callasm 0x896A771",
+      "callback": "CB2_OpenAwardsMenus2",
+      "slot": "0x0896A760",
+      "condition": "mapGroup == 52 && mapNum == 36",
+      "sets": [],
+      "warp": [
+        52,
+        37
+      ],
+      "text_ids": [
+        "c:award2/src/award2.c:sBg28Text"
+      ],
+      "path": "award2/src/award2.c"
+    }
+  ],
   "scene_roots": [
     {
       "number": "001",
@@ -674,6 +728,80 @@
         "t:08AAC718",
         "t:089C2964",
         "t:089C2980"
+      ]
+    },
+    {
+      "number": "002",
+      "title": "源码过场一：穿云与上升气流",
+      "root": "r:08EE79FE",
+      "events": [
+        {
+          "map_group": 52,
+          "map_num": 2,
+          "kind": "objects",
+          "event": 10,
+          "x": 14,
+          "y": 11,
+          "origin": "ROM",
+          "local_id": 11
+        }
+      ],
+      "text_ids": [
+        "c:Award/src/award3.c:sText_NavMenu_TaskCount40_Award3"
+      ]
+    },
+    {
+      "number": "002",
+      "title": "塔顶接续：波波！？",
+      "root": "r:08EEA3A3",
+      "events": [
+        {
+          "map_group": 52,
+          "map_num": 21,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "ROM",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "t:08EEA52E"
+      ]
+    },
+    {
+      "number": "002",
+      "title": "源码过场二：大气层之外",
+      "root": "r:08EEA3A3",
+      "events": [
+        {
+          "map_group": 52,
+          "map_num": 21,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "ROM",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "c:Award/src/award3.c:sText_NavMenu_TaskCount41_Award3"
+      ]
+    },
+    {
+      "number": "002",
+      "title": "塔顶接续：鸟因为想飞才飞",
+      "root": "r:08EEA3A3",
+      "events": [
+        {
+          "map_group": 52,
+          "map_num": 21,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "ROM",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "t:08EEAE64"
       ]
     },
     {
@@ -923,6 +1051,24 @@
         "s:gText_TaskCosplay_JoyFinalContestant",
         "s:gText_TaskCosplay_SukizoFavorite",
         "s:gText_TaskCosplay_JennyFinalContestant"
+      ]
+    },
+    {
+      "number": "061",
+      "title": "源码过场：像素化世界与冠军祝福",
+      "root": "s:EventScript_TaskCosplay_Contest",
+      "events": [
+        {
+          "map_group": 52,
+          "map_num": 36,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "CFRU override",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "c:award2/src/award2.c:sBg28Text"
       ]
     },
     {

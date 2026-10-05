@@ -9,9 +9,9 @@ title: 支线任务
 
 <nav class="sq-tabs" aria-label="支线任务导航"><a href="./" aria-current="page">任务目录</a><a href="rewards/">奖励反查</a></nav>
 
-**266 个剧情阶段 · 335 页游戏见闻录**，已同步阶段条件与补齐对白。
+**268 个剧情阶段 · 338 页游戏见闻录**，已同步阶段条件与补齐对白。
 
-[阶段总表](stages.md) · [涉及地图](maps.md) · [下载修订台本（Word）](downloads/sidequest-scriptbook-20261004.docx)
+[阶段总表](stages.md) · [涉及地图](maps.md) · [下载修订台本（Word）](downloads/sidequest-scriptbook-20261004.docx) · [源码过场核对](downloads/sidequest-native-calls-20261005.json)
 
 <div class="sq-browser" data-sq-browser="quests">
 <form class="sq-controls" role="search">
@@ -28,7 +28,7 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-pokemon">宝可梦</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="002 任务002 向往天空的理由 帮助阿速寻找向往天空的理由. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 大比鸟超级进化波动 完成奖励 额外获得大比鸟超级进化波动；普通塔内长老赠送的TM70未算入本支线。 喇叭芽之塔 52.2 桔梗市 46.7 喇叭芽之塔 1.90 喇叭芽之塔 52.2 点数 积分 BP BracerPoints Mega 超级进化 波动">
+<article class="sq-row" data-sq-entry data-kind="BP mega money" data-search="002 任务002 向往天空的理由 帮助阿速寻找向往天空的理由. BracerPoints 10点 完成奖励 金钱12000元 完成奖励 大比鸟超级进化波动 完成奖励 额外获得大比鸟超级进化波动；普通塔内长老赠送的TM70未算入本支线。 喇叭芽之塔 52.2 桔梗市 46.7 喇叭芽之塔 1.90 真新镇 52.21 喇叭芽之塔 52.2 点数 积分 BP BracerPoints Mega 超级进化 波动">
 <span class="sq-number">002</span>
 <div class="sq-row-main"><a class="sq-title" href="002/">向往天空的理由</a><p>帮助阿速寻找向往天空的理由.</p></div>
 <div class="sq-row-rewards">
