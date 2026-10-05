@@ -9,7 +9,7 @@ title: 支线任务
 
 <nav class="sq-tabs" aria-label="支线任务导航"><a href="./" aria-current="page">任务目录</a><a href="rewards/">奖励反查</a></nav>
 
-**266 个剧情阶段 · 300 页游戏见闻录**，已同步阶段条件与补齐对白。
+**266 个剧情阶段 · 332 页游戏见闻录**，已同步阶段条件与补齐对白。
 
 [阶段总表](stages.md) · [涉及地图](maps.md) · [下载修订台本（Word）](downloads/sidequest-scriptbook-20261004.docx)
 
