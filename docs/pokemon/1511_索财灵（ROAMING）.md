@@ -25,6 +25,40 @@
 |---|---|
 | 特性1 | [胆怯](../abilities/0199_胆怯.md) |
 
+## 进化
+
+<div class="pk-evo">
+<div class="evo-stage-col">
+<div class="evo-member">
+<div class="evo-circle"><img class="evo-sprite" src="../sprites/1510.png?v=7c6da20c" alt="索财灵"></div>
+<div class="evo-stage">未进化</div>
+<a class="evo-name" href="../1510_%E7%B4%A2%E8%B4%A2%E7%81%B5/">索财灵</a>
+<div class="evo-types"><span class="pk-type" style="background:#704170">幽灵</span></div>
+</div>
+<div class="evo-member evo-cur">
+<div class="evo-circle"><img class="evo-sprite" src="../sprites/1511.png?v=3ebed88e" alt="索财灵（ROAMING）"></div>
+<div class="evo-stage">未进化</div>
+<a class="evo-name" href="../1511_%E7%B4%A2%E8%B4%A2%E7%81%B5%EF%BC%88ROAMING%EF%BC%89/">索财灵（ROAMING）</a>
+<div class="evo-types"><span class="pk-type" style="background:#704170">幽灵</span></div>
+</div>
+</div>
+<div class="evo-arrow">→</div>
+<div class="evo-stage-col">
+<div class="evo-member">
+<div class="evo-cond">
+<div class="evo-route" data-evo-source="1510" data-evo-target="1512">由索财灵：升到 30 级或以上</div>
+<div class="evo-or">或</div>
+<div class="evo-route" data-evo-source="1511" data-evo-target="1512">由索财灵（ROAMING）：升到 30 级或以上</div>
+</div>
+<div class="evo-circle"><img class="evo-sprite" src="../sprites/1512.png?v=ef302dfd" alt="赛富豪"></div>
+<div class="evo-stage">1阶进化</div>
+<a class="evo-name" href="../1512_%E8%B5%9B%E5%AF%8C%E8%B1%AA/">赛富豪</a>
+<div class="evo-types"><span class="pk-type" style="background:#60A1B8">钢</span>
+<span class="pk-type" style="background:#704170">幽灵</span></div>
+</div>
+</div>
+</div>
+
 ## 升级招式
 
 | 等级 | 招式 |

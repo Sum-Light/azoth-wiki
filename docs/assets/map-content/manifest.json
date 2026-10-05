@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rom_sha256": "68c86fe7b8760febe18c26890b7060e5c9b907cdc00cf4fcb460e0f95a3274a0",
-  "snapshot_sha256": "ee50af4dbe0b864ee861c135e969c67225b882da878c9666113db8e76eee9955",
+  "snapshot_sha256": "c6a23de3f4763caf916e211f22791a3809bae33d64c08030c94d6e8ce59a31bf",
   "assets": {
     "item": {
       "1": {

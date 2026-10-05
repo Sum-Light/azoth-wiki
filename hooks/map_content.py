@@ -20,8 +20,8 @@ CATEGORIES = (
     ('balls','地上的精灵球'),('hidden','隐藏道具'),('gifts','NPC 赠送'),
     ('quests','支线赠送'),('pokemon','赠送宝可梦与蛋'),('shops','商店'),
     ('exchanges','道具兑换'),('tutors','招式教学'),('trainers','NPC 阵容'))
-CURRENCY_UNITS = {'money': '元', 'coins': '枚代币', 'BP': 'BP',
-                  'BracerPoints': 'BracerPoints', 'BeautyPoints': '点 BeautyPoints'}
+CURRENCY_UNITS = {'money': '元', 'coins': '枚代币', 'BP': 'BP（对战点数）',
+                  'BracerPoints': '点协会积分（BracerPoints）', 'BeautyPoints': '点华丽大赛积分（BeautyPoints）'}
 
 
 def on_pre_build(**kwargs):
@@ -81,7 +81,7 @@ def quantities(r):
         return '按购买数量'
     if r['kind'] == 'tutor':
         return '—'
-    return '／'.join(str(v) for v in values) if values else '按分支决定'
+    return '／'.join(str(v) for v in values) if values else '依所选奖励而定'
 
 
 def content(r):
@@ -89,7 +89,7 @@ def content(r):
     if r.get('resolved_label'):
         value = safe(r['resolved_label'])
     else:
-        value = '、'.join(link(kind,i) for i in r.get('ids',[])) or '运行时决定的内容'
+        value = '、'.join(link(kind,i) for i in r.get('ids',[])) or '具体奖励尚待确认'
     if r['kind'] in ('pokemon','egg'):
         if r['kind']=='egg':
             value += '的蛋'
@@ -106,7 +106,7 @@ def content(r):
 
 def cost(r):
     if r.get('unlock_cost') is not None:
-        return '首次解锁 %s 点 BracerPoints；解锁后免费教学' % r['unlock_cost']
+        return '首次解锁 %s 点协会积分（BracerPoints）；解锁后免费教学' % r['unlock_cost']
     if r.get('exchange_options'):
         unit = CURRENCY_UNITS[r['currency']]
         rows = ['每个 %s %s' % (r['unit_price'],unit)] if r.get('unit_price') is not None else []
@@ -136,8 +136,8 @@ def cost(r):
     if costs:
         return '；'.join(costs) + ('；' + safe(r['cost_note']) if r.get('cost_note') else '')
     if r['kind']=='shop':
-        return '商店标价；列表随剧情／菜单分支开放' if r['currency']=='money' else 'BP 商店标价'
-    return r.get('cost_note','未检出直接收费；开放条件见说明')
+        return '按商店标价购买；商品会随剧情或选择变化' if r['currency']=='money' else '按商店标价支付BP'
+    return r.get('cost_note','费用或所需材料见获取说明')
 
 
 def acquisition_method(r):
@@ -146,7 +146,7 @@ def acquisition_method(r):
         currencies = list(dict.fromkeys([r['currency']] if r.get('currency') else
                           [c['kind'] for c in r.get('costs',[]) if c['kind'] in CURRENCY_UNITS]))
         names = {'money': '金钱', 'coins': '游戏城代币', 'BP': 'BP',
-                 'BracerPoints': 'BracerPoints', 'BeautyPoints': 'BeautyPoints'}
+                 'BracerPoints': '协会积分（BracerPoints）', 'BeautyPoints': '华丽大赛积分（BeautyPoints）'}
         if currencies:
             currency = '／'.join(names[c] for c in currencies)
             return currency + ('教学' if category=='tutors' else '购买' if currencies==['money'] else '兑换')
@@ -171,7 +171,7 @@ def positions(r):
     positions = []
     for origin in r['origins']:
         if origin.get('scene'):
-            text = '从本地点进入后续演出'
+            text = '在这里开始剧情，随后领取'
         elif origin.get('x') is not None:
             text = '（%s，%s）' % (origin['x'],origin['y'])
         else:
@@ -184,11 +184,14 @@ def positions(r):
 def conditions(r, number=None):
     parts = []
     for q in r.get('quest_rewards',[]):
-        text = quest_link(q) + ' · ' + safe(q['phase'])
+        phase = q['phase']
+        if re.search(r'0x[\dA-Fa-f]+|Flag|Var', phase):
+            phase = '额外奖励（要求见下文）' if '额外' in phase else '任务奖励（领取步骤见下文）'
+        text = quest_link(q) + ' · ' + safe(phase)
         if text not in parts:
             parts.append(text)
     if not parts and r.get('context_quests'):
-        parts.append('同一事件涉及的支线（不代表本项的全部前置）：' + '、'.join(
+        parts.append('相关任务（领取步骤见下文）：' + '、'.join(
             quest_link(dict(number=number_,**DATA['quests'][number_])) for number_ in r['context_quests']))
     if r.get('note'):
         parts.append(safe(r['note']))
@@ -206,30 +209,32 @@ def conditions(r, number=None):
             gate.append('事件显示标记 0x%X 未设置' % o['flag'])
         description = o.get('acquisition_condition', '')
         branches.setdefault(description, [])
-        text = '；'.join(gate) or '此入口无额外地图阶段限制'
+        text = '；'.join(gate) or '此处没有额外的剧情出现限制'
         if text not in branches[description]:
             branches[description].append(text)
     alternatives = []
     for description, gates in branches.items():
         entry = [safe(description)] if description else []
-        if gates != ['此入口无额外地图阶段限制'] or len(branches) > 1:
-            entry.append(('入口限制（满足任一组；组内条件同时满足）：' if len(gates) > 1 else '') + '<br>'.join(safe(g) for g in gates))
+        if not entry and len(branches) > 1:
+            entry.append('按本处人物的对话或提示领取。')
+        if gates != ['此处没有额外的剧情出现限制']:
+            entry.append('<details class="mc-technical"><summary>剧情出现条件（技术资料）</summary>' +
+                         ('以下条件满足任意一组即可；每组内须全部满足。<br>' if len(gates) > 1 else '') +
+                         '<br>'.join(safe(g) for g in gates) + '</details>')
         if entry:
             alternatives.append('<br>'.join(entry))
     if len(branches) > 1:
-        parts.append('以下获取入口任选其一，分别满足各自条件：<br>' + '<br>'.join(
-            '入口%s：%s' % (i, text) for i, text in enumerate(alternatives, 1)))
+        parts.append('以下获取方式任选其一：<br>' + '<br>'.join(
+            '方式%s：%s' % (i, text) for i, text in enumerate(alternatives, 1)))
     else:
         parts.extend(alternatives)
-    if any(o.get('dynamic') for o in r['origins']):
-        parts.append('含动态阶段事件')
     if number is not None:
-        parts.append('[条件与出处](#content-evidence-%d)' % number)
-    return '<br>'.join(parts) or '按事件进度领取'
+        parts.append('[查看资料出处](#content-evidence-%d)' % number)
+    return '<br>'.join(parts) or '按当前剧情推进后领取'
 
 
 def evidence(r, number):
-    rows = ['<details id="content-evidence-%d" markdown="1"><summary>出处 %d · %s</summary>' %
+    rows = ['<details id="content-evidence-%d" markdown="1"><summary>资料出处 %d · %s</summary>' %
             (number,number,positions(r)), '']
     for q in r.get('quest_rewards',[]):
         rows += [quest_link(q)+'：'+safe(q['text'])+'（'+safe(q['phase'])+'）','']
@@ -237,6 +242,8 @@ def evidence(r, number):
         rows += ['> '+safe(r['quote']),'']
     if r.get('note'):
         rows += [safe(r['note']),'']
+    for text in ([r['technical_note']] if r.get('technical_note') else []) + r.get('technical_conditions', []):
+        rows += ['核对依据：' + safe(text), '']
     for text in r.get('acquisition_conditions', []):
         rows += [safe(text), '']
     for item, detail in r.get('option_details', {}).items():
@@ -252,6 +259,8 @@ def evidence(r, number):
         parts = [o['root']]
         if o.get('acquisition_condition'):
             rows += [safe(o['acquisition_condition']), '']
+        if o.get('technical_condition'):
+            rows += ['原始条件：' + safe(o['technical_condition']), '']
         if o.get('scene'):
             parts.append(o['scene']+'；演出地图 '+o['map'])
         elif o.get('x') is not None:
@@ -311,10 +320,11 @@ def map_content(key):
     entry = DATA['maps'][key]
     rows = ['## 本图获取与对战 {#map-content}', '',
             '[按地图查找](content.md) · [教学地点](../tutors/index.md#tutor-locations) · [收录与残留核对](content_review.md)', '',
-            '坐标从 0 开始，表示相应事件阶段的初始位置；上方为基础事件图，动态阶段的 NPC 可能不同或发生走动。各分支、不同阶段或随机选项不表示能同时获得。','']
+            '按坐标寻找道具或人物（坐标从0开始）。剧情推进后，人物可能移动或暂时离开，位置以游戏内为准。随机奖励和需要作选择的奖励，每次只能获得其中一项。','']
     stages = DATA.get('stages', {}).get(key, [])
     if stages:
-        rows += ['### 动态事件阶段 {#content-stages}', '',
+        rows += ['<details markdown="1"><summary>地图随剧情变化的规则（技术资料）</summary>', '',
+                 '### 动态事件阶段 {#content-stages}', '',
                  '同图规则按表中顺序首次匹配生效；未被动态规则替换的事件或地图头继续使用基础数据。Flag／Var 条件与地图头条件须同时满足。', '',
                  '| 阶段规则 | 实际生效条件 | 替换内容 |', '|---|---|---|']
         for stage in stages:
@@ -322,7 +332,7 @@ def map_content(key):
                 continue
             replacements = [label for field,label in (('replaces_events','人物／坐标／背景事件'),('replaces_header','地图头脚本')) if stage[field]]
             rows.append('| `%s` | %s | %s |' % (stage['condition'],safe(stage['stage_condition']),'、'.join(replacements) or '沿用基础内容'))
-        rows += ['']
+        rows += ['', '</details>', '']
     groups = collections.defaultdict(list)
     for index,r in enumerate(entry['records'],1):
         groups[r['category']].append((index,r))
@@ -330,10 +340,10 @@ def map_content(key):
         rows += ['### '+title+' {#content-'+category+'}', '']
         entries = groups[category]
         if not entries:
-            rows += ['当前快照未确认本类内容。','']
+            rows += ['暂未收录。','']
             continue
         if category=='trainers':
-            rows += ['等级为队伍表基础值；再战等脚本可能调整等级及进化。不同分支的对手分开列出。','']
+            rows += ['下方列出基础队伍；再战时等级和进化形态可能变化，不同对战情况分别列出。','']
             seen = set()
             for index,r in entries:
                 signature = (tuple(r['ids']),tuple(r.get('second_opponents',[])),tuple(r.get('partners',[])),tuple(r.get('scale_levels',[])))
@@ -342,7 +352,7 @@ def map_content(key):
                 seen.add(signature)
                 rows += [positions(r)+' · '+conditions(r,index),'']
                 if True in r.get('scale_levels',[]):
-                    rows += ['此战分支设置等级同步：等级会按玩家队伍调整，不能把下表基础等级当作固定实战等级。','']
+                    rows += ['这场对战会根据你的队伍调整等级，实际等级可能与下表不同。','']
                 for tid in r['ids']:
                     rows += trainer(tid)
                 for tid in r.get('second_opponents',[]):
@@ -370,17 +380,18 @@ def map_content(key):
         rows += ['', '</div>', '']
     if entry['pending']:
         rows += ['### 尚待确定的内容','',
-                 '下列事件已找到入口，但具体奖池或可达性尚未确定，不计入上面的固定获取清单。','',
+                 '以下奖励的种类或具体领取位置还在核实，请暂时不要把它们当作确定的获取途径。','',
                  '| 位置 | 已知内容 | 待确认原因 |','|---|---|---|']
         seen=set()
         for r in entry['pending']:
-            description = r.get('note') or r.get('quote') or r.get('instruction',content(r))
-            row = '| %s | %s | %s |' % (positions(r),safe(description),safe(r['reason']))
+            description = r.get('note') or r.get('quote') or content(r)
+            reason = ('奖励种类尚待确认' if not r.get('ids') else '目前还不能确认能否在这里与人物交谈或触发对战')
+            row = '| %s | %s | %s |' % (positions(r),safe(description),reason)
             if row not in seen:
                 seen.add(row)
                 rows.append(row)
         rows += ['']
-    rows += ['### 获取条件与脚本依据','']
+    rows += ['### 资料出处（可展开查看）','']
     for index,r in enumerate(entry['records'],1):
         rows += evidence(r,index)
     if entry['excluded']:
@@ -395,9 +406,8 @@ def map_content(key):
 
 def directory():
     stats = DATA['stats']
-    scope = '静态与动态阶段事件' if DATA['event_scope'] == 'static+dynamic' else '静态地图头'
     rows = ['# 每张地图的获取与对战', '',
-            '按%s收录 **%d 张普通地图**。点击地点查看地面球、隐藏道具、NPC／支线赠送、宝可梦与蛋、商店兑换、招式教学和训练师阵容。' % (scope,stats['maps']), '',
+            '收录 **%d 张地图**的道具、宝可梦、商店、招式教学和训练师阵容。点击地点，查看在哪里领取、需要先做什么，以及费用和领取次数。' % stats['maps'], '',
             '专用过场地图不单独列入本目录；其中的奖励、馆主战和支线战斗归回实际地点。野生分布继续查看各地点原有的分布表。', '',
             '[地图总览](atlas.md) · [数据范围与残留核对](content_review.md)', '',
             '| 地点 | 地面球 | 隐藏 | NPC／支线 | 宝可梦／蛋 | 商店／兑换 | 教学 | 阵容 | 待核 |','|---|---|---|---|---|---|---|---|---|']
@@ -406,13 +416,13 @@ def directory():
         rows.append('| %s · %s | %s | %s | %s | %s | %s | %s | %s | %s |' % (map_link(key),key,
             counts['balls'],counts['hidden'],counts['gifts']+counts['quests'],counts['pokemon'],
             counts['shops']+counts['exchanges'],counts['tutors'],counts['trainers'],len(e['pending'])))
-    rows += ['', '数字表示事件记录／脚本分支数；商店一条可含多种商品，同一奖励的重复入口已合并。0 表示当前未确认，不等于证明地图中绝对不存在。','']
+    rows += ['', '数字表示已收录的获取方式或对战情况，一家商店可能出售多种商品。0表示暂未收录。','']
     return '\n'.join(rows)
 
 
 def tutor_directory():
     rows = ['## 教学 NPC 地点 {#tutor-locations}', '',
-            '点击地点查看 NPC 坐标、费用与支线开放条件。这里只列本次地图快照确认的教学入口。', '',
+            '点击地点查看老师的位置、费用和需要先完成的任务。', '',
             '| 招式 | 地点 | 费用／条件 |','|---|---|---|']
     seen=set()
     for key,e in DATA['maps'].items():
@@ -580,12 +590,12 @@ def reverse_summary(kind, number, only_tutors=False):
 
 def reverse_detail(kind, number):
     rows = ['## 地图获取与教学地点 {#map-sources}', '',
-            '只列已确认的地图来源；不同阶段与分支不表示可以同时获得。点击地点查看位置、费用和完整条件。', '']
+            '点击地点查看领取位置、费用和需要先完成的任务。若奖励需要作选择，或是随机赠送，请按每条说明领取。', '']
     if kind=='ability':
         rows += ['以下是拥有该特性的宝可梦的获取地点，不保证获得时具有该特性；隐藏特性等限制请查看宝可梦资料。', '']
     entries = REVERSE[kind].get(number, [])
     if not entries:
-        return '\n'.join(rows+['当前快照尚未确认地图来源。', ''])
+        return '\n'.join(rows+['暂未收录已确认的获取地点。', ''])
     rows += ['<div class="mc-reverse loc-table-scroll" markdown="1">', '',
              '| 地点 | 获取／教学方式 | 内容与条件 |', '|---|---|---|']
     seen = set()

@@ -34,7 +34,7 @@
 <div class="evo-member evo-cur">
 <div class="evo-circle"><img class="evo-sprite" src="../sprites/1530.png?v=fa7861c2" alt="斯魔茶（ARTISAN）"></div>
 <div class="evo-stage">未进化</div>
-<a class="evo-name" href="1530_斯魔茶（ARTISAN）.md">斯魔茶（ARTISAN）</a>
+<a class="evo-name" href="../1530_%E6%96%AF%E9%AD%94%E8%8C%B6%EF%BC%88ARTISAN%EF%BC%89/">斯魔茶（ARTISAN）</a>
 <div class="evo-types"><span class="pk-type" style="background:#3FA129">草</span>
 <span class="pk-type" style="background:#704170">幽灵</span></div>
 </div>
@@ -42,10 +42,12 @@
 <div class="evo-arrow">→</div>
 <div class="evo-stage-col">
 <div class="evo-member">
-<div class="evo-cond">当前版本不支持</div>
+<div class="evo-cond">
+<div class="evo-route" data-evo-source="1530" data-evo-target="1532">由斯魔茶（ARTISAN）：这条方式目前无法在背包中使用：大师球不是可使用的进化道具</div>
+</div>
 <div class="evo-circle"><img class="evo-sprite" src="../sprites/1532.png?v=63bd0488" alt="来悲粗茶（MASTERPIECE）"></div>
 <div class="evo-stage">1阶进化</div>
-<a class="evo-name" href="1532_来悲粗茶（MASTERPIECE）.md">来悲粗茶（MASTERPIECE）</a>
+<a class="evo-name" href="../1532_%E6%9D%A5%E6%82%B2%E7%B2%97%E8%8C%B6%EF%BC%88MASTERPIECE%EF%BC%89/">来悲粗茶（MASTERPIECE）</a>
 <div class="evo-types"><span class="pk-type" style="background:#3FA129">草</span>
 <span class="pk-type" style="background:#704170">幽灵</span></div>
 </div>

@@ -375,6 +375,25 @@
   padding: .1rem .5rem;
   margin-bottom: .3rem;
   text-align: center;
+  max-width: 19rem;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.evo-or {
+  margin: .3rem 0;
+  font-weight: normal;
+  opacity: .8;
+  border-top: 1px solid var(--azoth-card-border);
+}
+.evo-form-routes {
+  flex-basis: 100%;
+  min-width: 0;
+  font-size: .75rem;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.evo-form-routes p {
+  margin: .4rem 0;
 }
 [data-md-color-scheme="slate"] .evo-cond {
   color: #7fd8cb;
