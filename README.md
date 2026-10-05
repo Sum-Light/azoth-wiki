@@ -35,7 +35,7 @@ mkdocs serve                      # http://127.0.0.1:8000
 - `data/sidequests.json`：已核对台本的独立数据快照，保留源文件校验值。
 - `data/sidequest_unlocks.json`：非背包奖励补充，保留任务号、阶段、确认方式、证据符号及相关页面 ID。
 - `data/sidequest_locations.json`：从脚本入口追踪分场对白的地图快照，含触发方式、坐标、依据与导航参考。
-- `docs/sidequests/maps/`：Map_event_editor 原生渲染的地图与任务入口标记图；随修订台本重新导出，图片可点击放大。
+- `docs/sidequests/maps/`：复用 Map_event_editor 绘制的地图、人物／宝可梦图像及事件标记，并叠加任务入口编号；动态地图按对应阶段分别导出，图片可点击放大。事件预览保留初始位置，不按存档 Flag 隐藏人物。
 - `tools/generate_sidequests.py`：生成 `docs/sidequests/` 并维护带标记的反查区块。
 - `docs/stylesheets/sidequests.css`、`docs/javascripts/sidequests.js`：手机、深色模式与即时导航支持。
 
