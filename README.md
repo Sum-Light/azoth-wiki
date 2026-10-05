@@ -40,6 +40,7 @@ mkdocs serve                      # http://127.0.0.1:8000
 - `python tools/export_wiki_atlas.py`：从编辑器 ROM 导出地图查看功能，沿地图头连接与静态传送事件追踪通道，生成 `docs/locations/atlas_data.json`、地图图像和地点页的 `location-atlas` 区块。区域定位复用现有大地图的 mapsec 与校准值；可变返回出口不推断目的地。先生成图鉴和任务页，再运行此工具补充地图区块。
   普通通道要求沿途连接可回连；动态剧情阶段的图像与出口单独列出。缺少可靠房间名称的地点保留地图编号，不根据原版命名猜测用途。
   只调整地点页排版或重建被其他生成器覆盖的区块时，运行 `python tools/export_wiki_atlas.py --pages-only`，复用已导出的地图快照。
+- 地图当前仅发布城都，以及23号道路、冠军之路和石英高原（含联盟室内）。`hooks/map_publication.py` 按当前 ROM 的 mapsec 与少量地图编号统一控制发布范围，构建时过滤地图数据、详情页、图片、搜索、连接与野生分布入口；26／27号道路和都城瀑布暂随关都屏蔽。源码保留完整快照，便于后续开放。剧情地图与卡吉镇火箭队基地复用了原版区域编号，按具体地图区分；剧情地图不标在原真新镇的大地图位置。同步到独立 Wiki 仓库时必须同时同步 `hooks/`。
 - `tools/generate_sidequests.py`：生成 `docs/sidequests/` 并维护带标记的反查区块。
 - `docs/stylesheets/sidequests.css`、`docs/javascripts/sidequests.js`：手机、深色模式与即时导航支持。
 

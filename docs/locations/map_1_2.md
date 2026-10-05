@@ -23,9 +23,8 @@
 <nav class="loc-neighbors" aria-label="出入口连接地点">
 <div><a href="../map_1_1/">呆呆兽之井 · 洞窟 1.1</a></div>
 <div><a href="../map_1_3/">呆呆兽之井 · 洞窟 1.3</a></div>
-<div><a href="../map_3_22/">4号公路</a></div>
 </nav>
-<details class="loc-entrances"><summary>地图入口与出口 · 8 处</summary>
+<details class="loc-entrances"><summary>地图入口与出口 · 7 处</summary>
 <div class="loc-table-scroll"><table><thead><tr><th>入口</th><th>位置</th><th>连接地点</th></tr></thead><tbody>
 <tr><td>1</td><td>（3，3）</td><td><a href="../map_1_1/">呆呆兽之井 · 洞窟 1.1</a></td></tr>
 <tr><td>2</td><td>（25，4）</td><td><a href="../map_1_1/">呆呆兽之井 · 洞窟 1.1</a></td></tr>
@@ -34,7 +33,6 @@
 <tr><td>5</td><td>（17，5）</td><td><a href="../map_1_3/">呆呆兽之井 · 洞窟 1.3</a></td></tr>
 <tr><td>6</td><td>（26，36）</td><td><a href="../map_1_3/">呆呆兽之井 · 洞窟 1.3</a></td></tr>
 <tr><td>7</td><td>（39，4）</td><td><a href="../map_1_3/">呆呆兽之井 · 洞窟 1.3</a></td></tr>
-<tr><td>8</td><td>（45，4）</td><td><a href="../map_3_22/">4号公路</a></td></tr>
 </tbody></table></div></details>
 </div>
 

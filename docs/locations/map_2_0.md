@@ -29,7 +29,6 @@
 <figcaption>IsDynamicVar5120_63</figcaption></figure>
 <ul class="loc-stage-exits">
 <li>出口 1（9，12）：<a href="../map_2_36/">脐之岩 · 洞窟 2.36</a></li>
-<li>出口 2（9，16）：<a href="../map_0_0/">彩虹百货大楼 · 室内 0.0</a></li>
 </ul>
 </details>
 </div>

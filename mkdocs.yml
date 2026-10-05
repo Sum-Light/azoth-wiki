@@ -1,6 +1,9 @@
 site_name: 宝可梦水银 百科
 site_description: 宝可梦水银 (Project Azoth) 非官方资料站
 
+hooks:
+  - hooks/map_publication.py
+
 theme:
   name: material
   language: zh
