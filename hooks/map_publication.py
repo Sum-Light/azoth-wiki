@@ -1,4 +1,4 @@
-"""Publish the Johto atlas while keeping the complete editor snapshot in source."""
+"""Publish approved map IDs while preserving the complete editor snapshot."""
 import copy
 import json
 import re
@@ -6,25 +6,30 @@ import tempfile
 from pathlib import Path
 
 
-# These are the CURRENT ROM's mapsec values, not vanilla FireRed constants.
-# 97 / 123 / 132 are Indigo Plateau, Route 23 and Victory Road. League
-# interiors (137) belong to Indigo Plateau and remain available as well.
-HIDDEN_SECTIONS = (
-    set(range(89, 97)) | {98} | (set(range(101, 126)) - {123}) |
-    {126, 128, 131, 136, 138, 139, 141, 196, 202, 203, 210}
-)
-# Section 88 also labels Johto cutscenes; section 133 also labels Mahogany's
-# Rocket hideout. Only the original Pallet / Celadon maps are withheld.
-HIDDEN_MAPS = {'3.0', '4.0', '4.1', '4.2', '4.3'} | {
-    '1.%d' % number for number in range(42, 47)
+# Map numbers are integer pairs, never decimals. All endpoints are inclusive.
+PUBLISHED_RANGES = {
+    1: ((39, 41), (47, 57), (75, 80), (88, 90), (94, 95), (96, 108),
+        (110, 113), (121, 126)),
+    2: ((0, 0), (36, 36), (43, 46), (54, 55)),
+    3: ((42, 42), (46, 47), (49, 49), (66, 115)),
+    13: ((0, 0),),
+    31: ((0, 0), (2, 3)),
+    32: ((0, 0), (2, 3)),
+    33: ((1, 1),),
+    34: ((0, 1), (3, 7)),
+    35: ((0, 1), (4, 4)),
+    37: ((0, 0), (3, 3)),
 }
+PUBLISHED_GROUPS = range(39, 58)
 MAP_PATH = re.compile(r'(?:^|/)map_(\d+)_(\d+)(?:\.md|/)?(?=[?#\s\"\'<>)]|$)')
 _staging = None
 _hidden = set()
 
 
 def published(entry):
-    return entry['sec'] not in HIDDEN_SECTIONS and entry['id'] not in HIDDEN_MAPS
+    group, number = map(int, entry['id'].split('.'))
+    return group in PUBLISHED_GROUPS or any(
+        first <= number <= last for first, last in PUBLISHED_RANGES.get(group, ()))
 
 
 def public_atlas(payload):

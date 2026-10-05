@@ -6,7 +6,7 @@ hide:
 
 # 查看地图
 
-目前开放城都地图，以及23号道路、冠军之路和石英高原。其余关都地点暂不开放。
+已开放地图按地点收录，可搜索地点名称或地图编号。
 
 <div class="loc-atlas" data-location-atlas data-atlas-url="../atlas_data.json">
   <form class="loc-atlas-toolbar" role="search">
