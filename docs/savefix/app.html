@@ -54,7 +54,7 @@
   <div class="card steps">
     <h2>使用步骤</h2>
     <ol>
-      <li>上传 <code>.sav</code> 电池存档（128 KiB，与 ROM 同名同目录）；</li>
+      <li>上传 <code>.sav</code> 电池存档（128 KiB，也支持带 16 字节附加数据的存档，与 ROM 同名同目录）；</li>
       <li>输入劲敌名字（中文最多 3 字，英文/数字最多 7 个）；</li>
       <li>点"修复并下载"，用下载的存档替换原存档（先自行备份）；</li>
       <li><strong>完全重启模拟器</strong>载入 ROM。切勿从即时存档（.ss1 等）恢复，否则修复会被旧内存覆盖。</li>
@@ -89,6 +89,7 @@
 (function () {
   'use strict';
   const SECTOR = 0x1000, SDS = 0xFEC, SB1_SIZE = 0x3D68;
+  const SAVE_SIZE = 32 * SECTOR, EXTRA_SIZE = 16;
   const CHUNK3_SIZE = SB1_SIZE - 3 * SDS;        // 0xDA4
   const RIVAL_OFF = 0x3A40 - 3 * SDS;            // 0xA7C，劲敌名字在 id=4 扇区内的偏移
   const SIG = 0x08012025;
@@ -133,7 +134,7 @@
 
   function parseSectors(data) {
     const out = [];
-    for (let i = 0; i < data.length / SECTOR; i++) {
+    for (let i = 0; i < SAVE_SIZE / SECTOR; i++) {
       const off = i * SECTOR;
       if (u32(data, off + 0xFF8) !== SIG) continue;
       out.push({ index: i, id: u16(data, off + 0xFF4), counter: u32(data, off + 0xFFC) });
@@ -164,15 +165,16 @@
     reader.onload = () => {
       savData = new Uint8Array(reader.result);
       savName = file.name;
-      if (savData.length !== 32 * SECTOR) {
+      $('dlWrap').innerHTML = '';
+      $('logCard').style.display = 'none';
+      if (savData.length !== SAVE_SIZE && savData.length !== SAVE_SIZE + EXTRA_SIZE) {
         savData = null;
-        $('fileName').textContent = file.name + '（大小 ' + reader.result.byteLength + ' 字节，不是 128 KiB 标准 GBA 存档）';
+        $('fileName').textContent = file.name + '（大小 ' + reader.result.byteLength + ' 字节，仅支持 131072 或 131088 字节的 GBA 电池存档）';
         $('go').disabled = true;
         return;
       }
-      $('fileName').textContent = file.name + '（128 KiB ✓）';
+      $('fileName').textContent = file.name + (savData.length === SAVE_SIZE ? '（128 KiB ✓）' : '（128 KiB + 16 字节附加数据 ✓）');
       $('go').disabled = false;
-      $('dlWrap').innerHTML = '';
     };
     reader.readAsArrayBuffer(file);
   }
@@ -200,6 +202,7 @@
 
       const sectors = parseSectors(data);
       log.push('文件：' + savName);
+      if (data.length > SAVE_SIZE) log.push('末尾 16 字节附加数据原样保留，下载文件大小不变');
       log.push('有效扇区：' + sectors.length + ' / 32');
       const counters = [...new Set(sectors.map((s) => s.counter))].sort((a, b) => a - b);
       log.push('存档计数器：' + counters.join('、') + '（较大者为当前份）');
