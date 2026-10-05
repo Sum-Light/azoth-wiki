@@ -152,6 +152,23 @@ def on_page_markdown(markdown, page, **kwargs):
     path = page.file.src_path.replace('\\', '/')
     if path == 'pokemon/index.md':
         return directory()
+    if path == 'moves/index.md':
+        return markdown.replace('# 招式一览\n', '# 招式一览\n\n'
+                                '[招式学习机索引](../machines/index.md) · '
+                                '[定点教学索引](../tutors/index.md)\n', 1)
     if path.startswith('pokemon/') and path.split('/')[-1] in _by_file:
+        def evolution_url(match):
+            target = _by_file.get(match[2])
+            return match[1] + (entry_url(target[1], True) if target else match[2]) + match[3]
+
+        markdown = re.sub(r'(<a class="evo-name" href=")([^"/]+\.md)(")',
+                          evolution_url, markdown)
+        markdown = markdown.replace('## 技能机器\n',
+                                    '## 技能机器\n\n[招式学习机索引](../machines/index.md)\n')
+        markdown = markdown.replace('## 教授招式\n',
+                                    '## 教授招式\n\n[定点教学索引](../tutors/index.md)\n')
+        markdown = re.sub(r'^\| ((?:TM|HM)\d+) \|',
+                          lambda match: '| [%s](../machines/index.md#%s) |' % (
+                              match[1], match[1].lower()), markdown, flags=re.MULTILINE)
         return profile(markdown, path.split('/')[-1])
     return markdown

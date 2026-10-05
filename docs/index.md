@@ -14,6 +14,8 @@ hide:
 <div class="azoth-cards">
 <a class="azoth-card" href="pokemon/"><strong>宝可梦图鉴</strong><span>按图鉴编号查阅属性、种族值、特性、进化与学习招式。</span></a>
 <a class="azoth-card" href="moves/"><strong>招式</strong><span>查询威力、命中与效果，反查能够学会招式的宝可梦。</span></a>
+<a class="azoth-card" href="machines/"><strong>招式学习机</strong><span>TM／HM 编号、对应招式与可学习宝可梦。</span></a>
+<a class="azoth-card" href="tutors/"><strong>定点教学</strong><span>教学招式、属性与可学习宝可梦。</span></a>
 <a class="azoth-card" href="abilities/"><strong>特性</strong><span>查阅特性说明、持有者，以及本作的动态特性效果。</span></a>
 <a class="azoth-card" href="items/"><strong>道具</strong><span>查询道具用途、价格、野生携带与任务获取途径。</span></a>
 </div>

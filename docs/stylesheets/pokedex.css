@@ -50,7 +50,10 @@
 .dex-facts dt { background: var(--azoth-card-bg); font-weight: 600; border-right: 1px solid var(--wiki-line); }
 .dex-facts dd { font-variant-numeric: tabular-nums; }
 .dex-lead { font-size: 16px; }
-.md-typeset:has(.dex-infobox) > h2, .md-typeset:has(.dex-infobox) > .md-typeset__scrollwrap { overflow: hidden; }
+.md-typeset:has(.dex-infobox) > h2 { display: flow-root; }
+.md-typeset:has(.dex-infobox) > .md-typeset__scrollwrap {
+  display: flow-root; max-height: none; overflow-x: auto;
+}
 @media (max-width: 760px) {
   .dex-infobox { float: none; width: 100%; margin: 0 0 22px; }
   .dex-filters { padding: 12px; gap: 10px; }

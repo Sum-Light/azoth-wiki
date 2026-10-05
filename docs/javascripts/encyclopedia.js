@@ -2,7 +2,7 @@
   "use strict";
   const site = new URL("../", document.currentScript.src);
   const sections = {
-    pokemon: "宝可梦图鉴", moves: "招式资料", abilities: "特性资料", items: "道具资料",
+    pokemon: "宝可梦图鉴", moves: "招式资料", machines: "招式学习机", tutors: "定点教学", abilities: "特性资料", items: "道具资料",
     locations: "地点与地图", sidequests: "支线任务", news: "公告", distribution: "配信",
     broadcast: "广播", events: "时间事件", home: "水银 HOME", savefix: "存档修复"
   };
