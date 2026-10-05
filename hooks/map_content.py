@@ -105,6 +105,8 @@ def content(r):
 
 
 def cost(r):
+    if r.get('unlock_cost') is not None:
+        return '首次解锁 %s 点 BracerPoints；解锁后免费教学' % r['unlock_cost']
     if r.get('exchange_options'):
         unit = CURRENCY_UNITS[r['currency']]
         rows = ['每个 %s %s' % (r['unit_price'],unit)] if r.get('unit_price') is not None else []
@@ -117,19 +119,22 @@ def cost(r):
         return '<br>'.join(rows)
     if r.get('prices'):
         unit = CURRENCY_UNITS.get(r.get('currency'),'（币种待确认）')
-        return '；'.join('%s：%s %s' % (link('item',int(i)),v,unit) for i,v in r['prices'].items())
+        kind = 'pokemon' if r['kind'] in ('pokemon','egg') else 'item'
+        return '；'.join('%s：%s %s' % (link(kind,int(i)),v,unit) for i,v in r['prices'].items())
     costs = []
     for c in r.get('costs',[]):
         amounts = c.get('amounts',[c.get('amount')])
         amount = '／'.join(str(v) for v in amounts if v is not None) or '依选项'
         if c['kind']=='item':
             costs.append('%s × %s' % (illustrated('item',c['id']),amount))
+        elif c['kind']=='selected_item':
+            costs.append('%s × %s' % (safe(c['label']),amount))
         elif c['kind']=='shard':
             costs.append('%s色碎片 × %s' % (c['color'],amount))
         else:
             costs.append(amount + ' ' + CURRENCY_UNITS[c['kind']])
     if costs:
-        return '；'.join(costs)
+        return '；'.join(costs) + ('；' + safe(r['cost_note']) if r.get('cost_note') else '')
     if r['kind']=='shop':
         return '商店标价；列表随剧情／菜单分支开放' if r['currency']=='money' else 'BP 商店标价'
     return r.get('cost_note','未检出直接收费；开放条件见说明')
@@ -137,7 +142,7 @@ def cost(r):
 
 def acquisition_method(r):
     category = r['category']
-    if category in ('shops','exchanges','tutors'):
+    if category in ('shops','exchanges','tutors','pokemon'):
         currencies = list(dict.fromkeys([r['currency']] if r.get('currency') else
                           [c['kind'] for c in r.get('costs',[]) if c['kind'] in CURRENCY_UNITS]))
         names = {'money': '金钱', 'coins': '游戏城代币', 'BP': 'BP',
@@ -146,6 +151,20 @@ def acquisition_method(r):
             currency = '／'.join(names[c] for c in currencies)
             return currency + ('教学' if category=='tutors' else '购买' if currencies==['money'] else '兑换')
     return '赠送宝可梦的蛋' if r['kind']=='egg' else dict(CATEGORIES)[category]
+
+
+def record_option(record, number):
+    """Keep the selected reward's branch details in map and reverse rows."""
+    option = dict(record, ids=[number] if number is not None else [])
+    if record.get('prices') and number is not None:
+        option['prices'] = {str(number): record['prices'][str(number)]} if str(number) in record['prices'] else {}
+    detail = record.get('option_details', {}).get(str(number), {})
+    if detail.get('condition'):
+        option['acquisition_conditions'] = record.get('acquisition_conditions', []) + [detail['condition']]
+    if 'costs' in detail:
+        option['costs'] = detail['costs']
+        option.pop('cost_note', None)
+    return option
 
 
 def positions(r):
@@ -168,13 +187,40 @@ def conditions(r, number=None):
         text = quest_link(q) + ' · ' + safe(q['phase'])
         if text not in parts:
             parts.append(text)
-    if not parts:
-        for number_ in r.get('context_quests',[]):
-            parts.append(quest_link(dict(number=number_,**DATA['quests'][number_])))
+    if not parts and r.get('context_quests'):
+        parts.append('同一事件涉及的支线（不代表本项的全部前置）：' + '、'.join(
+            quest_link(dict(number=number_,**DATA['quests'][number_])) for number_ in r['context_quests']))
     if r.get('note'):
         parts.append(safe(r['note']))
-    if any(o.get('condition') or o.get('stage_condition') for o in r['origins']):
-        parts.append('分阶段出现')
+    parts.extend(safe(text) for text in r.get('acquisition_conditions', []) if safe(text) not in parts)
+    branches = collections.OrderedDict()
+    for o in r['origins']:
+        gate = []
+        if o.get('condition'):
+            gate.append('地图入口条件：' + o['condition'])
+        if o.get('stage_condition'):
+            gate.append(('动态阶段条件：' if o.get('dynamic') else '基础事件出现条件：') + o['stage_condition'])
+        if o.get('trigger'):
+            gate.append('踏入事件坐标时 Var 0x%X = %s' % (o['trigger'], o['value']))
+        if o.get('flag'):
+            gate.append('事件显示标记 0x%X 未设置' % o['flag'])
+        description = o.get('acquisition_condition', '')
+        branches.setdefault(description, [])
+        text = '；'.join(gate) or '此入口无额外地图阶段限制'
+        if text not in branches[description]:
+            branches[description].append(text)
+    alternatives = []
+    for description, gates in branches.items():
+        entry = [safe(description)] if description else []
+        if gates != ['此入口无额外地图阶段限制'] or len(branches) > 1:
+            entry.append(('入口限制（满足任一组；组内条件同时满足）：' if len(gates) > 1 else '') + '<br>'.join(safe(g) for g in gates))
+        if entry:
+            alternatives.append('<br>'.join(entry))
+    if len(branches) > 1:
+        parts.append('以下获取入口任选其一，分别满足各自条件：<br>' + '<br>'.join(
+            '入口%s：%s' % (i, text) for i, text in enumerate(alternatives, 1)))
+    else:
+        parts.extend(alternatives)
     if any(o.get('dynamic') for o in r['origins']):
         parts.append('含动态阶段事件')
     if number is not None:
@@ -191,6 +237,12 @@ def evidence(r, number):
         rows += ['> '+safe(r['quote']),'']
     if r.get('note'):
         rows += [safe(r['note']),'']
+    for text in r.get('acquisition_conditions', []):
+        rows += [safe(text), '']
+    for item, detail in r.get('option_details', {}).items():
+        option = record_option(r, int(item))
+        rows += [content(option) + '：' + safe(detail.get('condition', '')) +
+                 ('；费用：' + cost(option) if 'costs' in detail else ''), '']
     if r.get('exchange_options'):
         rows += ['兑换方式：'+cost(r), '']
     for field,label in (('exchange_evidence','兑换价格／数量依据'),('condition_evidence','领取条件依据')):
@@ -198,6 +250,8 @@ def evidence(r, number):
             rows += [label+'：'+'、'.join('`'+safe(node)+'`' for node in r[field]), '']
     for o in r['origins']:
         parts = [o['root']]
+        if o.get('acquisition_condition'):
+            rows += [safe(o['acquisition_condition']), '']
         if o.get('scene'):
             parts.append(o['scene']+'；演出地图 '+o['map'])
         elif o.get('x') is not None:
@@ -210,6 +264,8 @@ def evidence(r, number):
             parts.append('规则：'+o['stage_rule'])
         if o.get('flag'):
             parts.append('人物隐藏 Flag：0x%X' % o['flag'])
+        if 'hidden_item_id' in o:
+            parts.append('隐藏道具领取编号：%s' % o['hidden_item_id'])
         if o.get('trigger'):
             parts.append('触发 Var 0x%X = %s' % (o['trigger'],o['value']))
         rows += ['- '+safe(' · '.join(parts))]
@@ -295,7 +351,7 @@ def map_content(key):
                     rows += trainer(tid,'同行队友')
             continue
         rows += ['<div class="mc-acquisition loc-table-scroll" markdown="1" tabindex="0" aria-label="%s，可横向滚动">' % title, '']
-        priced = category in ('shops','exchanges','tutors')
+        priced = category in ('shops','exchanges','tutors') or any(r.get('costs') or r.get('cost_note') for _,r in entries)
         if priced:
             rows += ['| 图像 | 内容 | 数量 | 位置 | 费用／兑换 | 条件 |','|---|---|---|---|---|---|']
         else:
@@ -303,15 +359,13 @@ def map_content(key):
         for index,r in entries:
             # One illustrated row per option; keep its branch conditions and evidence.
             for number in (r.get('ids') or [None]):
-                option = dict(r, ids=[number] if number is not None else [])
-                if r.get('prices') and number is not None:
-                    option['prices'] = {str(number): r['prices'][str(number)]} if str(number) in r['prices'] else {}
+                option = record_option(r, number)
                 kind = 'pokemon' if r['kind'] in ('pokemon','egg') else 'item'
                 picture = icon(kind,number) if r['kind']!='tutor' else '—'
                 cells = [picture, content(option)]
-                cells += [quantities(option), positions(r), cost(option)] if priced else [
+                cells += ['1 只／枚' if category=='pokemon' else quantities(option), positions(r), cost(option)] if priced else [
                     '1 只／枚（依分支）' if category=='pokemon' else quantities(r), positions(r)]
-                cells.append(conditions(r,index))
+                cells.append(conditions(option,index))
                 rows.append('| '+' | '.join(cells)+' |')
         rows += ['', '</div>', '']
     if entry['pending']:
@@ -388,6 +442,9 @@ def audit():
           '过场只转移逐个核对过的脚本入口；同一地图的其他脚本不会自动继承归属。共用结算地图头、回程地点和远方地名不能单独证明奖励地点。','',
           ]
     coverage = DATA.get('review_coverage', {})
+    acquisition = stats.get('acquisition_conditions', {})
+    if acquisition:
+        rows += ['获取条件：%s 条含人工整理说明，%s 条采用已核对的标准拾取规则，%s 条仍待补充。标准拾取规则不等同于逐条人工核对可达路线。' % (acquisition.get('manual', 0), acquisition.get('standard_pickup', 0), acquisition.get('pending', 0)), '']
     if coverage:
         rows += ['静态基线复核：%s 张地图、%s 个候选入口，其中 %s 个含内容记录；地形扫描覆盖 %s 张图的 %s 个位置入口，%s 项黑色地块提示已逐项处理。%s' % (
             coverage['maps'], coverage['candidate_origins'], coverage['origins_with_records'],
@@ -403,7 +460,8 @@ def audit():
     rows += ['', '## 待确定的内容','', '| 地点 | 位置 | 内容与依据 |','|---|---|---|']
     for key,e in DATA['maps'].items():
         for r in e['pending']:
-            rows.append('| %s | %s | %s · `%s` |' % (map_link(key),positions(r),safe(r.get('note',r['reason'])),r['node']))
+            detail = (r['note'] + '；' if r.get('note') else '') + r['reason']
+            rows.append('| %s | %s | %s · `%s` |' % (map_link(key),positions(r),safe(detail),r['node']))
     if DATA['audit']:
         rows += ['', '## 未归入普通地图的演出事件','', '| 原地图 | 入口 | 处理 |','|---|---|---|']
         seen=set()
@@ -536,14 +594,13 @@ def reverse_detail(kind, number):
             detail = safe(row['detail'])
         else:
             record = row['record']
-            option = dict(record)
-            if kind=='item' and str(number) in record.get('prices', {}):
-                option['prices'] = {str(number):record['prices'][str(number)]}
-            detail = positions(record)+'<br>'+conditions(record)
-            if record['category'] in ('shops','exchanges','tutors'):
+            reward = row.get('via', row['number'])
+            option = record_option(record, reward) if reward in record['ids'] else dict(record)
+            detail = positions(record)+'<br>'+conditions(option)
+            if record['category'] in ('shops','exchanges','tutors') or option.get('costs') or option.get('cost_note'):
                 detail += '<br>'+cost(option)
-            elif kind=='pokemon':
-                detail += '<br>'+content(record)
+            if record['kind'] in ('pokemon','egg'):
+                detail += '<br>'+content(option)
         if row.get('via'):
             detail = illustrated('pokemon',row['via'])+'<br>'+detail
         rendered = '| %s | %s | %s |' % (reverse_map_link(row),safe(row['method']),detail)
