@@ -30,7 +30,16 @@ mkdocs serve                      # http://127.0.0.1:8000
 
 招式学习机与定点教学索引由 `python wiki/tools/generate_move_indexes.py` 从 `data/move_indexes.json` 和现有图鉴／招式页生成，列出128个TM／HM与146个普通教学招式。使用 `--refresh-source` 可只读当前ROM的招式表并更新快照；完整图鉴生成也会同步索引。索引中的可学习条目数量包括不同形态，点击数量可进入招式页的对应学习名单，不代表教学NPC位置或剧情开放条件。
 
-## 支线任务
+## 按地图获取与对战
+
+“地图获取与对战”目录覆盖已开放的普通地图，专用过场不单列；馆主战、支线奖励归回实际触发地点。地点页按地面球、隐藏道具、NPC／支线赠送、赠送宝可梦与蛋、商店、兑换、教学和 NPC 阵容分栏，并保留初始坐标、阶段条件与脚本出处。定点教学索引同时列出教学 NPC 的地点与费用。
+
+- `data/map_content_review.json`：人工核对的点位排除、柜台保留、随机奖池、兑换价格、临时队伍排除与过场归属；不要用脚本地址或碰撞位一刀切排除事件。
+- `docs/locations/map_content.json`：只读提取后的发布快照，包括地图内容、训练师阵容、来源和待核项。挖矿、三地鼠挑战等原生小游戏的奖池尚未完整还原，单独标作待确定，不冒充固定奖励。
+- `hooks/map_content.py`：构建时把快照补入地点页和教学索引，生成 `locations/content.md` 与核对目录。普通 MkDocs 构建及独立 Wiki 部署不需要 ROM，也不依赖工作区临时文件。
+- 完整工作区更新：`python -X utf8 tools/collect_map_content.py` → `python -X utf8 tools/review_map_content.py` → 核对候选点位、修订人工数据 → `python -X utf8 tools/export_map_content.py` → `python -X utf8 -m mkdocs build -f wiki/mkdocs.yml`。收集脚本复用地图编辑器及脚本图；图片核对工具为 `tools/map_content_review_images.py`。运行期间不写 ROM。
+
+## 支线任务资料
 
 2026-10-05补齐小茜百货大楼开场与跨地图演出，并按callasm任务分发表衔接源码过场；33条漏收对白补入对应位置，20项任务的内容或编排更新。台本和Wiki共用有顺序的场景选编，姓名框标签只用于说话人。
 

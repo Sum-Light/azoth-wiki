@@ -3,6 +3,7 @@ site_description: 宝可梦水银 (Project Azoth) 非官方资料站
 
 hooks:
   - hooks/map_publication.py
+  - hooks/map_content.py
   - hooks/pokedex.py
 
 theme:
@@ -71,6 +72,7 @@ nav:
   - 道具一览: items/index.md
   - 地点分布: locations/index.md
   - 查看地图: locations/atlas.md
+  - 地图获取与对战: locations/content.md
   - 广播: broadcast/index.md
   - 时间事件: events/index.md
   - 存档修复: savefix/index.md
