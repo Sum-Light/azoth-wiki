@@ -63,43 +63,43 @@ title: 支线任务
 <div class="sq-tags"><span class="sq-tag sq-tag-BP">BracerPoints</span><span class="sq-tag sq-tag-mega">Mega 波动</span><span class="sq-tag sq-tag-money">金钱</span></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="006 任务006 水与火的修罗场 寻找调和火球鼠与水水獭之间冲突的木木枭. 本阶段未见独立道具、金钱、宝可梦或点数发放；洗翠篇统一结算见任务011。 擂钵山 42.0 擂钵山 42.0">
+<article class="sq-row" data-sq-entry data-kind="" data-search="006 任务006 水与火的修罗场 寻找调和火球鼠与水水獭之间冲突的木木枭. 开启下一阶段 擂钵山 42.0 擂钵山 42.0">
 <span class="sq-number">006</span>
 <div class="sq-row-main"><a class="sq-title" href="006/">水与火的修罗场</a><p>寻找调和火球鼠与水水獭之间冲突的木木枭.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">奖励待核对</span>
+<span class="sq-muted">开启下一阶段</span>
 <div class="sq-tags"></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="007 任务007 山顶的秘密 追上逃向擂钵山山顶的三只宝可梦. 本阶段未见独立发奖指令；洗翠篇统一结算见任务011。 擂钵山 42.0 擂钵山 56.42 擂钵山 56.42 擂钵山 56.42 擂钵山 42.0">
+<article class="sq-row" data-sq-entry data-kind="" data-search="007 任务007 山顶的秘密 追上逃向擂钵山山顶的三只宝可梦. 开启下一阶段 擂钵山 42.0 擂钵山 56.42 擂钵山 56.42 擂钵山 56.42 擂钵山 42.0">
 <span class="sq-number">007</span>
 <div class="sq-row-main"><a class="sq-title" href="007/">山顶的秘密</a><p>追上逃向擂钵山山顶的三只宝可梦.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">奖励待核对</span>
+<span class="sq-muted">开启下一阶段</span>
 <div class="sq-tags"></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="008 任务008 冻土上的捉迷藏 在纯白冻土里找回失散的三只宝可梦. 本阶段未见独立发奖指令；洗翠篇统一结算见任务011。 纯白冻土 52.23 纯白冻土 52.23 纯白冻土 52.24 擂钵山 56.42">
+<article class="sq-row" data-sq-entry data-kind="" data-search="008 任务008 冻土上的捉迷藏 在纯白冻土里找回失散的三只宝可梦. 开启下一阶段 纯白冻土 52.23 纯白冻土 52.23 纯白冻土 52.24 擂钵山 56.42">
 <span class="sq-number">008</span>
 <div class="sq-row-main"><a class="sq-title" href="008/">冻土上的捉迷藏</a><p>在纯白冻土里找回失散的三只宝可梦.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">奖励待核对</span>
+<span class="sq-muted">开启下一阶段</span>
 <div class="sq-tags"></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="009 任务009 纯白的魅影 寻找木木枭时,遭遇了洗翠索罗亚克的幻影.小心它的速度,准备迎战! 本阶段未见独立发奖指令；洗翠篇统一结算见任务011。 纯白冻土 52.24 纯白冻土 52.24 纯白冻土 52.24 擂钵山 56.42">
+<article class="sq-row" data-sq-entry data-kind="" data-search="009 任务009 纯白的魅影 寻找木木枭时,遭遇了洗翠索罗亚克的幻影.小心它的速度,准备迎战! 开启下一阶段 纯白冻土 52.24 纯白冻土 52.24 纯白冻土 52.24 擂钵山 56.42">
 <span class="sq-number">009</span>
 <div class="sq-row-main"><a class="sq-title" href="009/">纯白的魅影</a><p>寻找木木枭时,遭遇了洗翠索罗亚克的幻影.小心它的速度,准备迎战!</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">奖励待核对</span>
+<span class="sq-muted">开启下一阶段</span>
 <div class="sq-tags"></div>
 </div>
 </article>
-<article class="sq-row" data-sq-entry data-kind="" data-search="010 任务010 在未知的土地上 结识拉苯博士,倾听他的梦想,见证这段羁绊的开端与落幕. 回到现代后的道具、15BP和20000元归任务011统一结算，本章不重复累计。 纯白冻土 52.24 纯白冻土 52.24 纯白冻土 52.24 擂钵山 56.42">
+<article class="sq-row" data-sq-entry data-kind="" data-search="010 任务010 在未知的土地上 结识拉苯博士,倾听他的梦想,见证这段羁绊的开端与落幕. 开启下一阶段 纯白冻土 52.24 纯白冻土 52.24 纯白冻土 52.24 擂钵山 56.42">
 <span class="sq-number">010</span>
 <div class="sq-row-main"><a class="sq-title" href="010/">在未知的土地上</a><p>结识拉苯博士,倾听他的梦想,见证这段羁绊的开端与落幕.</p></div>
 <div class="sq-row-rewards">
-<span class="sq-muted">奖励待核对</span>
+<span class="sq-muted">开启下一阶段</span>
 <div class="sq-tags"></div>
 </div>
 </article>
