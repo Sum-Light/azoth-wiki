@@ -289,9 +289,19 @@ def audit():
           '仅收录静态地图头的布局、事件和可达脚本，优先读取引擎静态覆盖，其余读取 ROM 静态数据。动态地图头的布局、事件与获取内容不收录。碰撞、位置、NPC 图像、对白和脚本共同用于核对；柜台后的服务 NPC 保留。地面球以当前图像确认，不能套用原版图像常量。','',
           '支线奖励按实际奖励执行点关联。互斥选择、随机奖池、交付费用、临时参战宝可梦分别保留说明；仅有野生对战指令不能证明可捕获，未混入赠送名单。','',
           '基础阵容取引擎训练师覆盖表，其余读取 ROM；对战设施生成阵容及等级同步另行说明。当前快照不能保证所有原生函数、存档条件和人物移动都已完全还原。','',
-          '## 过场内容归属','', '| 演出地图 | 归属地点 | 依据 |','|---|---|---|']
+          '过场只转移逐个核对过的静态脚本入口；同一地图的其他脚本不会自动继承归属。共用结算地图头、回程地点和远方地名不能单独证明奖励地点。','',
+          ]
+    coverage = DATA.get('review_coverage', {})
+    if coverage:
+        rows += ['本次全量复核：%s 张地图、%s 个候选入口，其中 %s 个含内容记录；地形扫描覆盖 %s 张图的 %s 个位置入口，%s 项黑色地块提示已逐项处理。%s' % (
+            coverage['maps'], coverage['candidate_origins'], coverage['origins_with_records'],
+            coverage['terrain_maps'], coverage['terrain_origins'], coverage['terrain_findings'],
+            coverage['method']), '']
+        rows += ['- '+note for note in coverage['retained_context']] + ['']
+    rows += ['## 过场内容归属','', '| 演出地图／入口 | 归属地点 | 依据 |','|---|---|---|']
     for key,o in DATA['scene_owners'].items():
-        rows.append('| %s | %s | %s |' % (key,map_link(o['map']),safe(o['reason'])))
+        for root,evidence in o['roots'].items():
+            rows.append('| %s · `%s` | %s | %s；%s |' % (key,root,map_link(o['map']),safe(o['reason']),safe(evidence)))
     rows += ['', '## 待确定的内容','', '| 地点 | 位置 | 内容与依据 |','|---|---|---|']
     for key,e in DATA['maps'].items():
         for r in e['pending']:

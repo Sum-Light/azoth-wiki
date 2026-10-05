@@ -37,6 +37,8 @@ mkdocs serve                      # http://127.0.0.1:8000
 Wiki 仅收录静态地图头：布局、地图事件、获取内容及支线地点均优先读取引擎静态覆盖，其余读取 ROM 静态数据。动态地图头的布局、事件、出口及其带入的获取内容不收录；静态脚本自身的 Flag／Var 分支条件仍保留。地图快照以 `event_scope: static` 标记，旧动态图片在构建时排除。
 
 - `data/map_content_review.json`：人工核对的点位排除、柜台保留、随机奖池、兑换价格、临时队伍排除与过场归属；不要用脚本地址或碰撞位一刀切排除事件。
+- 过场归属以 `scene_owners[地图].roots[脚本入口]` 逐项批准，并附静态传送链或已核对的原生回调依据。未批准入口进入待核目录，不继承整张地图的归属；`pending_roots` 用于入口或交互位置未确认的内容。同一脚本在不同坐标重复出现时，只剔除确认无效的位置。正文对白仅接受 `record_quotes` 的人工对应，不从分支合集随意挑一句当奖励说明。
+- `tools/audit_map_content.py` 全量检查静态入口的共用脚本、人物编号、地图改块坐标与传送来源；`--terrain` 标记初始点位的黑色地块供人工复核。黑色地块不能自动排除，仓库可用地板也可能渲染为黑色；需结合房间边界、碰撞、图像和剧情判断。扫描输出在 `tmp/map-content/`，发布结论保存在人工数据和内容快照。
 - `docs/locations/map_content.json`：只读提取后的发布快照，包括地图内容、训练师阵容、来源和待核项。挖矿、三地鼠挑战等原生小游戏的奖池尚未完整还原，单独标作待确定，不冒充固定奖励。
 - `hooks/map_content.py`：构建时把快照补入地点页和教学索引，生成 `locations/content.md` 与核对目录。普通 MkDocs 构建及独立 Wiki 部署不需要 ROM，也不依赖工作区临时文件。
 - 完整工作区更新：`python -X utf8 tools/collect_map_content.py` → `python -X utf8 tools/review_map_content.py` → 核对候选点位、修订人工数据 → `python -X utf8 tools/export_map_content.py` → `python -X utf8 -m mkdocs build -f wiki/mkdocs.yml`。收集脚本复用地图编辑器及脚本图；图片核对工具为 `tools/map_content_review_images.py`。运行期间不写 ROM。
