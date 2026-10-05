@@ -9,9 +9,13 @@ title: 支线任务资料说明
 
 本页收录经人工编排的 96 项支线任务，连续编号为**任务001–任务096**。任务001为“皮丘的旅途”，任务096为“被解开的封印”。原任务表中两项未实装任务不收录。皮丘章节的长者身份已确认为岩铁。
 
-台本已同步到 **2026年10月5日标点修订版**：96项任务、266个解锁阶段（含6个可选分支）、332页游戏见闻录。奖励保留此前核对快照，剧情沿用10月4日人工审核补齐的场景。每项任务列明对应Flag／Var与修订说明。
+台本已同步到 **2026年10月5日剧情补全版**：96项任务、266个解锁阶段（含6个可选分支）、335页游戏见闻录。奖励保留此前核对快照，剧情沿用10月4日人工审核补齐的场景。每项任务列明对应Flag／Var与修订说明。
 
 见闻录正文中半角逗号`,`和句点`.`统一为句号`。`，感叹号`!`改为`！`，问号`?`改为`？`。游戏字库不支持的顿号也排为句号；台本、Wiki与游戏保持相同正文和分页。阶段条件保持原样。
+
+同日补全跨地图与源码过场：小茜从百货大楼求助开始，接上街道噪声、自然公园倾诉和源码中的对战收尾；另补阿球首次登门受拒等遗漏。补入33条此前未收录的对白引用，调整20项任务的内容或编排。柳伯、洗翠、七夜调查与Cos大会的补充场景插回剧情所在位置，姓名框标签仅作为说话人。地图入口随场景更新。
+
+[场景与callasm接续依据](downloads/sidequest-scene-provenance-20261005.json)记录了当前58处任务分发调用，以及人工确认的场景入口。共享NPC的其他任务和日常服务仍按各自归属处理。
 
 [阶段总表](stages.md) · [涉及地图](maps.md) · [修订台本Word](downloads/sidequest-scriptbook-20261004.docx) · [阶段数据JSON](downloads/sidequest-stages-20261004.json)
 
@@ -46,6 +50,8 @@ title: 支线任务资料说明
 ## 维护
 
 页面由 `wiki/tools/generate_sidequests.py` 生成，修订台本、游戏详情与阶段条件一同保存在 `wiki/data/sidequests.json`，经核对的波动和功能解锁另存于 `wiki/data/sidequest_unlocks.json`。普通构建直接读取这些快照；各任务末尾可展开查看奖励依据。
+
+完整工作区先运行 `tools/refresh_sidequest_scene_sources.py`，从当前ROM和源码刷新选编文本；再运行 `tools/build_mission_journals.py --book`。台本与Wiki共用 `tools/sidequest_scene_data.py` 的场景编排，支持插入指定场景之前或之后，避免重新生成时把开场追加到尾声。
 
 地点快照另存于 `wiki/data/sidequest_locations.json`，图片位于 `wiki/docs/sidequests/maps/`；由完整工作区的 `tools/export_sidequest_locations.py` 导出。普通构建同时合并地点快照，并检查任务号与分场标题一致。
 

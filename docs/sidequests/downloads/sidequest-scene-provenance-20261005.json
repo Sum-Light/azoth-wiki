@@ -1,0 +1,963 @@
+{
+  "source_fingerprint": "370c643caff3831318f5c5848b3039db90392e52ef8a6e6bda870894b16fcde0",
+  "dispatch_calls": [
+    {
+      "node": "r:08EEC9E2",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        81
+      ],
+      "scripts": [
+        "s:EventScript_TaskSleepingPotential_Researcher"
+      ]
+    },
+    {
+      "node": "r:087B95A5",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        105
+      ],
+      "scripts": [
+        "s:EventScript_TaskEcruteakLegendaryBeasts_Aftermath"
+      ]
+    },
+    {
+      "node": "r:08EEB76E",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        27
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Tyranitar"
+      ]
+    },
+    {
+      "node": "r:08EEB6E5",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        24
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Sceptile"
+      ]
+    },
+    {
+      "node": "r:08EEB4FD",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        15
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Beedrill"
+      ]
+    },
+    {
+      "node": "r:08EEB73F",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        26
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Heracross"
+      ]
+    },
+    {
+      "node": "r:087B8545",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        101
+      ],
+      "scripts": [
+        "s:EventScript_TaskEcruteakLegendaryBeasts_Cutscene"
+      ]
+    },
+    {
+      "node": "r:08EEB4CE",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        14
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Eelektross"
+      ]
+    },
+    {
+      "node": "r:08EEB4C3",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        13
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Scrafty"
+      ]
+    },
+    {
+      "node": "r:087B3246",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        85
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_SchoolboyCleo"
+      ]
+    },
+    {
+      "node": "r:087B323B",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        84
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_LassAxiang"
+      ]
+    },
+    {
+      "node": "r:087B3251",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        86
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_PokefanJianrong"
+      ]
+    },
+    {
+      "node": "r:08EEB13C",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        12
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Mawile"
+      ]
+    },
+    {
+      "node": "r:087B3230",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        83
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_FisherMio"
+      ]
+    },
+    {
+      "node": "r:08EEB553",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        17
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Glalie"
+      ]
+    },
+    {
+      "node": "r:087B3272",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        89
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_BirdKeeperBenhong"
+      ]
+    },
+    {
+      "node": "r:087B327D",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        90
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_FisherXiuze"
+      ]
+    },
+    {
+      "node": "r:087B325C",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        87
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_PicnickerQianhui"
+      ]
+    },
+    {
+      "node": "r:08EEB5A9",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        19
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Blaziken"
+      ]
+    },
+    {
+      "node": "r:08EE089C",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        0
+      ],
+      "scripts": [
+        "s:EventScript_TaskForgottenForget_NpcA"
+      ]
+    },
+    {
+      "node": "r:08EE466B",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        1
+      ],
+      "scripts": [
+        "s:EventScript_TaskForgottenForget_NpcB"
+      ]
+    },
+    {
+      "node": "r:087BB0ED",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        109
+      ],
+      "scripts": [
+        "s:EventScript_TaskShardMoveTutor2"
+      ]
+    },
+    {
+      "node": "r:08EE7BED",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        8
+      ],
+      "scripts": [
+        "s:EventScript_TaskContestBeautyForCoins"
+      ]
+    },
+    {
+      "node": "r:08EE7A3E",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        7
+      ],
+      "scripts": [
+        "s:EventScript_TaskContestBeautyHack"
+      ]
+    },
+    {
+      "node": "r:08EE5CBE",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        2
+      ],
+      "scripts": [
+        "s:EventScript_TaskColorfulScarves_Melissa"
+      ]
+    },
+    {
+      "node": "r:08EE773D",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        5
+      ],
+      "scripts": [
+        "s:EventScript_TaskStageFright_Girl"
+      ]
+    },
+    {
+      "node": "r:08EE795D",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        6
+      ],
+      "scripts": [
+        "s:EventScript_TaskStageFright_Boy"
+      ]
+    },
+    {
+      "node": "r:087B05DE",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        82
+      ],
+      "scripts": [
+        "s:EventScript_TaskShardMoveTutor"
+      ]
+    },
+    {
+      "node": "r:087B97D6",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        106
+      ],
+      "scripts": [
+        "s:EventScript_TaskCosplay_AzaleaArgument"
+      ]
+    },
+    {
+      "node": "r:087B3293",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        92
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_GentlemanKaneer"
+      ]
+    },
+    {
+      "node": "r:087B3288",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        91
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_SailorJinyuan"
+      ]
+    },
+    {
+      "node": "r:08EEB0E8",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        9
+      ],
+      "scripts": [
+        "s:EventScript_TaskScenicFeature_Hutao"
+      ]
+    },
+    {
+      "node": "r:087BB6A2",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        118
+      ],
+      "scripts": [
+        "s:EventScript_TaskEcruteakMatsubaGuide"
+      ]
+    },
+    {
+      "node": "r:08EEB799",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        23
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Medicham"
+      ]
+    },
+    {
+      "node": "r:087B419D",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        95
+      ],
+      "scripts": [
+        "s:EventScript_TaskFrozenTime_CaveInterior"
+      ]
+    },
+    {
+      "node": "r:087B9584",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        102
+      ],
+      "scripts": [
+        "s:EventScript_TaskEcruteakDanceTheaterSecret_Cutscene"
+      ]
+    },
+    {
+      "node": "r:087B958F",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        103
+      ],
+      "scripts": [
+        "s:EventScript_TaskEcruteakLibraryPassage_Cutscene"
+      ]
+    },
+    {
+      "node": "r:087B959A",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        104
+      ],
+      "scripts": [
+        "s:EventScript_TaskEcruteakAncientHistory_Cutscene"
+      ]
+    },
+    {
+      "node": "r:087B3468",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        94
+      ],
+      "scripts": [
+        "s:EventScript_TaskFrozenTime_IceLandWall"
+      ]
+    },
+    {
+      "node": "r:087B5E01",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        97
+      ],
+      "scripts": [
+        "s:EventScript_TaskRocketBroadcast_Cutscene"
+      ]
+    },
+    {
+      "node": "r:08EEB62A",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        20
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Abomasnow"
+      ]
+    },
+    {
+      "node": "r:087B345D",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        93
+      ],
+      "scripts": [
+        "s:EventScript_TaskFrozenTime_PokemonVillagePryce"
+      ]
+    },
+    {
+      "node": "r:08EEB528",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        16
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Chandelure"
+      ]
+    },
+    {
+      "node": "r:08EEB710",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        25
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Sharpedo"
+      ]
+    },
+    {
+      "node": "r:08EEB57E",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        18
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Absol"
+      ]
+    },
+    {
+      "node": "r:08EEB680",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        21
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Aggron"
+      ]
+    },
+    {
+      "node": "r:08EEB68B",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        22
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Swampert"
+      ]
+    },
+    {
+      "node": "r:087B5D15",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        96
+      ],
+      "scripts": [
+        "s:EventScript_TaskRocketEvolutionWave_Cutscene"
+      ]
+    },
+    {
+      "node": "r:087B700C",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        99
+      ],
+      "scripts": [
+        "s:EventScript_TaskWhirlIslandsRecovery_Cutscene"
+      ]
+    },
+    {
+      "node": "r:087B71FC",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        100
+      ],
+      "scripts": [
+        "s:EventScript_TaskOlivineCrisisBriefing_Cutscene"
+      ]
+    },
+    {
+      "node": "r:087B8B71",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        98
+      ],
+      "scripts": [
+        "s:EventScript_TaskApolloMegaOpening_Cutscene"
+      ]
+    },
+    {
+      "node": "r:087B3267",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        88
+      ],
+      "scripts": [
+        "s:EventScript_TaskPhone_PokemaniacXiaocheng"
+      ]
+    },
+    {
+      "node": "r:08EEAA74",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        4
+      ],
+      "scripts": [
+        "s:EventScript_TaskObsidianSteel_ForestTrap"
+      ]
+    },
+    {
+      "node": "r:08EEAB5B",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        3
+      ],
+      "scripts": [
+        "s:EventScript_TaskObsidianSteel_GymBugsy"
+      ]
+    },
+    {
+      "node": "r:087B9816",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        107
+      ],
+      "scripts": [
+        "s:EventScript_TaskCosplay_Yantie"
+      ]
+    },
+    {
+      "node": "r:087B9839",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        108
+      ],
+      "scripts": [
+        "s:EventScript_TaskCosplay_Mother"
+      ]
+    },
+    {
+      "node": "r:08EEB801",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        11
+      ],
+      "scripts": [
+        "s:EventScript_TaskRampageMega_Grandpa"
+      ]
+    },
+    {
+      "node": "r:08EEB5FF",
+      "instruction": "callasm 0x896A6C1",
+      "indices": [
+        10
+      ],
+      "scripts": [
+        "s:EventScript_TaskMoonlightWhitney_Cutscene"
+      ]
+    }
+  ],
+  "scene_roots": [
+    {
+      "number": "001",
+      "title": "初始委托分支：仍有事情要忙与皮丘同行",
+      "root": "r:089C25E6",
+      "events": [
+        {
+          "map_group": 3,
+          "map_num": 66,
+          "kind": "coords",
+          "event": 0,
+          "x": 5,
+          "y": 12,
+          "origin": "CFRU override"
+        },
+        {
+          "map_group": 3,
+          "map_num": 66,
+          "kind": "coords",
+          "event": 0,
+          "x": 5,
+          "y": 12,
+          "origin": "CFRU dynamic",
+          "condition": "IsDynamicVar5184_22"
+        }
+      ],
+      "text_ids": [
+        "t:08AAC718",
+        "t:089C2964",
+        "t:089C2980"
+      ]
+    },
+    {
+      "number": "001",
+      "title": "初始委托分支：仍有事情要忙与皮丘同行",
+      "root": "r:089C219A",
+      "events": [
+        {
+          "map_group": 3,
+          "map_num": 66,
+          "kind": "coords",
+          "event": 1,
+          "x": 5,
+          "y": 11,
+          "origin": "CFRU override"
+        },
+        {
+          "map_group": 3,
+          "map_num": 66,
+          "kind": "coords",
+          "event": 1,
+          "x": 5,
+          "y": 11,
+          "origin": "CFRU dynamic",
+          "condition": "IsDynamicVar5184_22"
+        }
+      ],
+      "text_ids": [
+        "t:08AAC718",
+        "t:089C2964",
+        "t:089C2980"
+      ]
+    },
+    {
+      "number": "001",
+      "title": "初始委托分支：仍有事情要忙与皮丘同行",
+      "root": "r:089C1D2D",
+      "events": [
+        {
+          "map_group": 3,
+          "map_num": 66,
+          "kind": "coords",
+          "event": 2,
+          "x": 5,
+          "y": 10,
+          "origin": "CFRU override"
+        },
+        {
+          "map_group": 3,
+          "map_num": 66,
+          "kind": "coords",
+          "event": 2,
+          "x": 5,
+          "y": 10,
+          "origin": "CFRU dynamic",
+          "condition": "IsDynamicVar5184_22"
+        }
+      ],
+      "text_ids": [
+        "t:08AAC718",
+        "t:089C2964",
+        "t:089C2980"
+      ]
+    },
+    {
+      "number": "003",
+      "title": "桐树林：联战、黑奇石与钢铁的答案",
+      "root": "s:EventScript_TaskObsidianSteel_ForestTrap",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskObsidianSteel_ForestDiscovery",
+        "s:gText_TaskObsidianSteel_ForestGrowing",
+        "s:gText_TaskObsidianSteel_ForestOutOfControl",
+        "s:gText_TaskObsidianSteel_ForestNoMega",
+        "s:gText_TaskObsidianSteel_ForestTeamUp",
+        "s:gText_TaskObsidianSteel_ForestDrop",
+        "s:gText_TaskObsidianSteel_ForestBlackAugurite",
+        "s:gText_TaskObsidianSteel_ForestSteelRealization",
+        "s:gText_TaskObsidianSteel_ForestMegaWave",
+        "s:gText_TaskObsidianSteel_ForestBattleIntro",
+        "s:gText_TaskObsidianSteel_ForestTrainerBattle",
+        "s:gText_TaskObsidianSteel_ForestAfterTrainerBattle",
+        "s:gText_TaskObsidianSteel_ForestWaveStored",
+        "s:gText_TaskObsidianSteel_ForestFinalWord",
+        "s:gText_TaskObsidianSteel_Completed",
+        "s:gText_TaskObsidianSteel_RewardSummary"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "百货大楼初遇：失去精神的皮可西",
+      "root": "r:08EE4A39",
+      "events": [
+        {
+          "map_group": 50,
+          "map_num": 19,
+          "kind": "objects",
+          "event": 4,
+          "x": 8,
+          "y": 7,
+          "origin": "ROM",
+          "local_id": 5
+        }
+      ],
+      "text_ids": [
+        "t:08EE4BE7",
+        "t:08EE4BFC",
+        "t:08EE4C09",
+        "t:08EE4B75"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "街道：霓虹与噪声中的异样",
+      "root": "r:08EE4CB8",
+      "events": [
+        {
+          "map_group": 55,
+          "map_num": 58,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "ROM",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "t:08EE4F3C",
+        "t:08EE4F7C",
+        "t:08EE4F17"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "自然公园：重见月光",
+      "root": "r:08EE4F8C",
+      "events": [
+        {
+          "map_group": 55,
+          "map_num": 59,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "ROM",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "t:08EE56AB",
+        "t:08EE56BA",
+        "t:08EE56DC"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "哭过之后",
+      "root": "s:EventScript_TaskMoonlightWhitney_Cutscene",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskMoonlightWhitney_Intro",
+        "s:gText_TaskMoonlightWhitney_ClefableQuestion",
+        "s:gText_TaskMoonlightWhitney_ClefableTalk"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "皮可西的邀战",
+      "root": "s:EventScript_TaskMoonlightWhitney_Cutscene",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskMoonlightWhitney_MegaWave",
+        "s:gText_TaskMoonlightWhitney_BattleIntro"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "战后谢礼",
+      "root": "s:EventScript_TaskMoonlightWhitney_Cutscene",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskMoonlightWhitney_AfterBattle",
+        "s:gText_TaskMoonlightWhitney_ShareLight",
+        "s:gText_TaskMoonlightWhitney_WaveStored"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "返回城市前的告别",
+      "root": "s:EventScript_TaskMoonlightWhitney_Cutscene",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskMoonlightWhitney_Final"
+      ]
+    },
+    {
+      "number": "004",
+      "title": "结算与离场",
+      "root": "s:EventScript_TaskMoonlightWhitney_Cutscene",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskMoonlightWhitney_Completed",
+        "s:gText_TaskMoonlightWhitney_RewardSummary"
+      ]
+    },
+    {
+      "number": "005",
+      "title": "冰壁之前：三十年前的塌方与救命之恩",
+      "root": "s:EventScript_TaskFrozenTime_IceLandWall",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskFrozenTime_IceLandArrival",
+        "s:gText_TaskFrozenTime_IceLandMemory",
+        "s:gText_TaskFrozenTime_IceLandMemoryRescue"
+      ]
+    },
+    {
+      "number": "060",
+      "title": "首次登门：阿球的热爱与钢铁的拒绝",
+      "root": "r:08EE5A2D",
+      "events": [
+        {
+          "map_group": 47,
+          "map_num": 2,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "ROM",
+          "condition": "Var 0x51CA == 0x1"
+        }
+      ],
+      "text_ids": [
+        "t:08EE5E00",
+        "t:08EE5DB4",
+        "t:08EE5D7F",
+        "t:08EE5CE0"
+      ]
+    },
+    {
+      "number": "061",
+      "title": "桧皮镇：爷孙争执的开场",
+      "root": "s:EventScript_TaskCosplay_AzaleaArgument",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskCosplay_GranddaughterArgument",
+        "s:gText_TaskCosplay_YantieArgument"
+      ]
+    },
+    {
+      "number": "061",
+      "title": "若叶镇：妈妈珍藏的童年衣服",
+      "root": "s:EventScript_TaskCosplay_Mother",
+      "events": [],
+      "text_ids": [
+        "s:gText_TaskCosplay_MotherGreeting",
+        "s:gText_TaskCosplay_MotherKeepsake",
+        "s:gText_TaskCosplay_MotherFinished",
+        "s:gText_TaskCosplay_NostalgicOutfitNotice"
+      ]
+    },
+    {
+      "number": "061",
+      "title": "满金大会：主持、评委与选手们的完整过场",
+      "root": "s:EventScript_TaskCosplay_Contest",
+      "events": [
+        {
+          "map_group": 52,
+          "map_num": 36,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "CFRU override",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "s:gText_TaskCosplay_HutaoOpening",
+        "s:gText_TaskCosplay_HutaoIntroducesJoy",
+        "s:gText_TaskCosplay_JoyGreeting",
+        "s:gText_TaskCosplay_HutaoIntroducesSukizo",
+        "s:gText_TaskCosplay_SukizoGreeting",
+        "s:gText_TaskCosplay_HutaoIntroducesJenny",
+        "s:gText_TaskCosplay_JennyGreeting",
+        "s:gText_TaskCosplay_HutaoCallsContestants",
+        "s:gText_TaskCosplay_HutaoLinkCostume",
+        "s:gText_TaskCosplay_JoyLinkCostume",
+        "s:gText_TaskCosplay_SukizoLikes",
+        "s:gText_TaskCosplay_JennyMistakesZelda",
+        "s:gText_TaskCosplay_LinkContestantCorrection",
+        "s:gText_TaskCosplay_HutaoSlowpokeCostume",
+        "s:gText_TaskCosplay_JoySlowpokeCostume",
+        "s:gText_TaskCosplay_SukizoLikes",
+        "s:gText_TaskCosplay_JennySlowpokeCostume",
+        "s:gText_TaskCosplay_HutaoPiplupCostume",
+        "s:gText_TaskCosplay_PiplupManReaction",
+        "s:gText_TaskCosplay_JoyPiplupCostume",
+        "s:gText_TaskCosplay_SukizoLikes",
+        "s:gText_TaskCosplay_JennyPiplupCostume",
+        "s:gText_TaskCosplay_PiplupLooksFamiliar",
+        "s:gText_TaskCosplay_HutaoWhitneyCostume",
+        "s:gText_TaskCosplay_WhitneyCostume",
+        "s:gText_TaskCosplay_JoyWhitneyCostume",
+        "s:gText_TaskCosplay_SukizoLikes",
+        "s:gText_TaskCosplay_JennyWhitneyCostume",
+        "s:gText_TaskCosplay_HutaoShortsKid",
+        "s:gText_TaskCosplay_JoyShortsKid",
+        "s:gText_TaskCosplay_ShortsKidIdentity",
+        "s:gText_TaskCosplay_JoyRejectsShortsKid",
+        "s:gText_TaskCosplay_ShortsKidFourthWall",
+        "s:gText_TaskCosplay_JennyFourthWall",
+        "s:gText_TaskCosplay_SukizoDislikes",
+        "s:gText_TaskCosplay_ShortsKidRetort",
+        "s:gText_TaskCosplay_HutaoFinalContestant",
+        "s:gText_TaskCosplay_JoyFinalContestant",
+        "s:gText_TaskCosplay_SukizoFavorite",
+        "s:gText_TaskCosplay_JennyFinalContestant"
+      ]
+    },
+    {
+      "number": "061",
+      "title": "颁奖：图图犬、像素回忆与任务结算",
+      "root": "s:EventScript_TaskCosplay_Awards",
+      "events": [
+        {
+          "map_group": 52,
+          "map_num": 37,
+          "kind": "header",
+          "header_type": 2,
+          "origin": "CFRU override",
+          "condition": "Var 0x4099 == 0x0"
+        }
+      ],
+      "text_ids": [
+        "s:gText_TaskCosplay_Completed8Bit",
+        "s:gText_TaskCosplay_JoyChampionReward",
+        "s:gText_TaskCosplay_ObtainedSmeargle",
+        "s:gText_TaskCosplay_SukizoSmeargle",
+        "s:gText_TaskCosplay_ChieCongratulations",
+        "s:gText_TaskCosplay_YantiePixelMemories",
+        "s:gText_TaskCosplay_CompletedMain",
+        "s:gText_TaskCosplay_YantieThanks"
+      ]
+    },
+    {
+      "number": "019",
+      "title": "来客未现身时的冷言",
+      "root": "r:08EE2AC5",
+      "events": [],
+      "text_ids": [
+        "t:08EE3AB9"
+      ]
+    }
+  ]
+}

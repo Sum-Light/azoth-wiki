@@ -8,7 +8,6 @@
 |---|---|
 | [阿露福遗迹 · 1.47](../locations/map_1_47.md#sidequests) | [035 沉睡的潜能](035.md#map-1-47) |
 | [阿露福遗迹 · 1.50](../locations/map_1_50.md#sidequests) | [034 阿露福遗迹之谜](034.md#map-1-50) |
-| [宝可梦联盟 · 1.79](../locations/map_1_79.md#sidequests) | [063 胡桃的风景特辑](063.md#map-1-79) |
 | [喇叭芽之塔 · 1.88](../locations/map_1_88.md#sidequests) | [025 修行的难题](025.md#map-1-88)、[026 痛苦的大食花](026.md#map-1-88) |
 | [喇叭芽之塔 · 1.90](../locations/map_1_90.md#sidequests) | [002 向往天空的理由](002.md#map-1-90) |
 | [呆呆兽之井 · 1.94](../locations/map_1_94.md#sidequests) | [041 异样的呆呆兽](041.md#map-1-94) |
@@ -28,7 +27,7 @@
 | [浅葱市 · 3.72](../locations/map_3_72.md#sidequests) | [041 异样的呆呆兽](041.md#map-3-72)、[052 如梦似幻般的银](052.md#map-3-72)、[079 白色长裙的女孩](079.md#map-3-72)、[082 电气鼠派对](082.md#map-3-72)、[083 海星连接宇宙](083.md#map-3-72) |
 | [湛蓝市 · 3.73](../locations/map_3_73.md#sidequests) | [085 不安的太阳珊瑚](085.md#map-3-73)、[088 完美的能量餐](088.md#map-3-73) |
 | [卡吉镇 · 3.74](../locations/map_3_74.md#sidequests) | [076 错位的忍道](076.md#map-3-74)、[077 忍法！捉迷藏](077.md#map-3-74) |
-| [满金市 · 3.75](../locations/map_3_75.md#sidequests) | [003 钢铁与黑曜](003.md#map-3-75)、[005 无法冻结的时间](005.md#map-3-75)、[047 家乡的味道](047.md#map-3-75) |
+| [满金市 · 3.75](../locations/map_3_75.md#sidequests) | [047 家乡的味道](047.md#map-3-75) |
 | [满金市 · 3.76](../locations/map_3_76.md#sidequests) | [041 异样的呆呆兽](041.md#map-3-76)、[045 成为一般系大师](045.md#map-3-76)、[059 生病的呆呆兽](059.md#map-3-76) |
 | [满金市 · 3.77](../locations/map_3_77.md#sidequests) | [050 聂梓的签名](050.md#map-3-77) |
 | [满金市 · 3.78](../locations/map_3_78.md#sidequests) | [053 失散的过动猿](053.md#map-3-78) |
@@ -42,6 +41,7 @@
 | [42号道路 · 3.97](../locations/map_3_97.md#sidequests) | [041 异样的呆呆兽](041.md#map-3-97) |
 | [43号道路 · 3.99](../locations/map_3_99.md#sidequests) | [064 消失的正辉](064.md#map-3-99) |
 | [45号道路 · 3.101](../locations/map_3_101.md#sidequests) | [041 异样的呆呆兽](041.md#map-3-101) |
+| [枯叶市 · 4.35](../locations/map_4_35.md#sidequests) | [022 制服狂暴宝可梦](022.md#map-4-35) |
 | [浅红市 · 4.71](../locations/map_4_71.md#sidequests) | [093 被遗忘的遗忘](093.md#map-4-71) |
 | [湛蓝市 · 4.122](../locations/map_4_122.md#sidequests) | [086 黑色的千针鱼](086.md#map-4-122) |
 | [对战开拓区 · 4.125](../locations/map_4_125.md#sidequests) | [022 制服狂暴宝可梦](022.md#map-4-125) |
@@ -89,10 +89,10 @@
 | [满金市 · 50.8](../locations/map_50_8.md#sidequests) | [056 遗失的玩偶](056.md#map-50-8) |
 | [满金市 · 50.9](../locations/map_50_9.md#sidequests) | [060 头号球迷的朝圣](060.md#map-50-9) |
 | [满金市 · 50.11](../locations/map_50_11.md#sidequests) | [042 闪耀的一等星](042.md#map-50-11)、[052 如梦似幻般的银](052.md#map-50-11) |
+| [满金市 · 50.19](../locations/map_50_19.md#sidequests) | [004 霓虹灯外的月光](004.md#map-50-19) |
 | [满金市 · 50.20](../locations/map_50_20.md#sidequests) | [056 遗失的玩偶](056.md#map-50-20) |
 | [满金市 · 50.22](../locations/map_50_22.md#sidequests) | [055 奇怪的树](055.md#map-50-22) |
 | [满金市 · 50.24](../locations/map_50_24.md#sidequests) | [063 胡桃的风景特辑](063.md#map-50-24) |
-| [满金市 · 50.28](../locations/map_50_28.md#sidequests) | [004 霓虹灯外的月光](004.md#map-50-28) |
 | [满金市 · 50.31](../locations/map_50_31.md#sidequests) | [064 消失的正辉](064.md#map-50-31) |
 | [满金市 · 50.32](../locations/map_50_32.md#sidequests) | [037 传达情书](037.md#map-50-32) |
 | [满金市 · 50.36](../locations/map_50_36.md#sidequests) | [053 失散的过动猿](053.md#map-50-36) |
@@ -128,6 +128,7 @@
 | [缘朱市 · 55.34](../locations/map_55_34.md#sidequests) | [072 迷路的小锯鳄](072.md#map-55-34) |
 | [真新镇 · 55.49](../locations/map_55_49.md#sidequests) | [043 闪耀的电波](043.md#map-55-49) |
 | [真新镇 · 55.55](../locations/map_55_55.md#sidequests) | [044 闪耀的暗影](044.md#map-55-55) |
+| [真新镇 · 55.58](../locations/map_55_58.md#sidequests) | [004 霓虹灯外的月光](004.md#map-55-58) |
 | [自然公园 · 55.59](../locations/map_55_59.md#sidequests) | [004 霓虹灯外的月光](004.md#map-55-59) |
 | [呆呆兽之井 · 55.60](../locations/map_55_60.md#sidequests) | [059 生病的呆呆兽](059.md#map-55-60) |
 | [桔梗市 · 56.0](../locations/map_56_0.md#sidequests) | [030 七大不可思议](030.md#map-56-0) |

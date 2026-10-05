@@ -28,7 +28,9 @@ mkdocs serve                      # http://127.0.0.1:8000
 
 ## 支线任务
 
-导航中的“支线任务”已同步2026-10-05标点修订版：96项、266个条件阶段（含6个可选阶段）、332页游戏见闻。见闻录正文中`,`、`.`改为`。`，`!`改为`！`，`?`改为`？`；顿号因游戏字库限制也排为句号。任务页包括阶段Flag／Var、修订说明、原文与补齐对白、地图和分支奖励；另有阶段总表、涉及地图目录、Word下载，以及地点页返回任务和具体场景的链接。
+2026-10-05补齐小茜百货大楼开场与跨地图演出，并按callasm任务分发表衔接源码过场；33条漏收对白补入对应位置，20项任务的内容或编排更新。台本和Wiki共用有顺序的场景选编，姓名框标签只用于说话人。
+
+导航中的“支线任务”已同步2026-10-05剧情补全版：96项、266个条件阶段（含6个可选阶段）、335页游戏见闻。见闻录正文中`,`、`.`改为`。`，`!`改为`！`，`?`改为`？`；顿号因游戏字库限制也排为句号。任务页包括阶段Flag／Var、修订说明、原文与补齐对白、地图和分支奖励；另有阶段总表、涉及地图目录、Word下载，以及地点页返回任务和具体场景的链接。
 
 - `data/sidequests.json`：已核对台本的独立数据快照，保留源文件校验值。
 - `data/sidequest_unlocks.json`：非背包奖励补充，保留任务号、阶段、确认方式、证据符号及相关页面 ID。
@@ -46,6 +48,8 @@ mkdocs serve                      # http://127.0.0.1:8000
 同步修订台本与地图，在完整Project-Azoth根目录依次执行：
 
 ```text
+python -X utf8 tools/refresh_sidequest_scene_sources.py
+python -X utf8 tools/build_mission_journals.py --book
 python -X utf8 wiki/tools/generate_sidequests.py --refresh-review --snapshot-only
 python -X utf8 tools/export_sidequest_locations.py
 python -X utf8 wiki/tools/generate_sidequests.py
