@@ -9,7 +9,10 @@ header a { font-size: 14px; }
 .map-scale-label select { font: inherit; color: #243332; background: #fff; border: 1px solid #b9cdc7; border-radius: 3px; padding: 5px 8px; }
 .btn { background: #287d70; border-radius: 4px; }
 .btn.ghost { color: #195e54; border-color: #b9cdc7; }
-main { height: calc(100vh - 65px); }
+/* Only the distribution map fills the viewport; HOME boxes size to their rows. */
+main:has(> #mapWrap) { height: calc(100vh - 65px); }
+.home-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.home-layout .panel { min-height: 0; }
 #mapWrap { background: #edf3f1; padding: 20px; }
 #stage img.base { image-rendering: pixelated; max-width: none; }
 #panel { background: #fff; border-color: #b9cdc7; width: 410px; }
@@ -28,6 +31,8 @@ main { height: calc(100vh - 65px); }
 .card, .panel, .detail, .drop { border-radius: 5px; box-shadow: none; border-color: #b9cdc7; }
 .panel { background: #fff; }
 .panel-head { background: #dcebe6; }
+.home-layout .nav-btn { color: #195e54; background: rgba(255, 255, 255, .85); }
+.home-layout .nav-btn:hover { background: #fff; }
 .slot { border-radius: 4px; }
 .slot img, .detail-sprite { image-rendering: pixelated; filter: none; max-width: none; }
 .slot img.mon-icon { width: 64px; height: 64px; }
@@ -38,8 +43,10 @@ main { height: calc(100vh - 65px); }
 .wrap h1 { padding-bottom: 12px; border-bottom: 1px solid #b9cdc7; font-size: 26px; }
 .bg-note { background: #f1f7f5; }
 :is(button, a, input, select):focus-visible { outline: 2px solid #287d70; outline-offset: 3px; }
-@media (max-width: 860px) { main { height: auto; } #mapWrap { max-height: 60vh; padding: 12px; } #panel { width: 100%; min-height: 40vh; } }
+@media (max-width: 980px) { .home-layout { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 860px) { main:has(> #mapWrap) { height: auto; } #mapWrap { max-height: 60vh; padding: 12px; } #panel { width: 100%; min-height: 40vh; } }
 @media (max-width: 720px) { .slot img.mon-icon { width: 32px; height: 32px; } .detail { grid-template-columns: 128px minmax(0, 1fr); } }
+@media (max-width: 420px) { .detail { grid-template-columns: minmax(0, 1fr); } }
 @media (prefers-color-scheme: dark) {
   body { background: #172124; color: #e3ece8; }
   header, #panel, .mapcard, .card, .panel, .detail, .drop { background: #1c2729; color: #e3ece8; border-color: #435652; }
