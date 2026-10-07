@@ -41,6 +41,13 @@
 <figure><img src="images/v13_7.gif" alt="菜单中的帮助系统入口演示"><figcaption>菜单中的帮助入口</figcaption></figure>
 </div>
 
+### 下载（v1.3）
+
+| 渠道 | 链接 |
+|---|---|
+| 百度网盘 | [宝可梦 水银](https://pan.baidu.com/s/1j4tAOI8GKWcKDi_lBirClg)（提取码: `69G1`） |
+| 蓝奏云 | [下载](https://wwapo.lanzouv.com/b004jrjabc)（密码: `egea`） |
+
 ### 想对大家说的话
 
 国庆假期即将过去，一段时间以内应该不会再更新了，后续也将潜心于后续内容的制作，同时一些问题也许不能够即时回答大家了，请见谅。
@@ -183,7 +190,7 @@
 ### 下载
 
 !!! warning "版本更新"
-    已有 **Version 1.3**，请参阅[上方的最新更新公告](#version-13)。
+    已有 **Version 1.3**，请使用[上方的最新下载链接](#v13)。
 
 | 渠道 | 链接 |
 |---|---|
