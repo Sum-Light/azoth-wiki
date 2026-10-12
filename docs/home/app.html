@@ -538,8 +538,6 @@ p { margin: 4px 0 0; color: var(--muted); }
   </style>
 <link rel="stylesheet" href="../stylesheets/standalone.css?v=home-layout-20261006">
 <link rel="stylesheet" href="../stylesheets/pixel-images.css">
-<link rel="stylesheet" href="save-access.css?v=20261012">
-<script src="save-access.js?v=20261012"></script>
 <script defer src="../javascripts/pixel-images.js"></script>
 </head>
 <body data-pixel-document>
@@ -550,38 +548,12 @@ p { margin: 4px 0 0; color: var(--muted); }
       <p>左侧是本地 HOME 盒子，右侧是读取到的 CFRU 存档盒子。</p>
     </div>
     <section class="drop" id="drop">
-      <input type="file" id="file" accept=".sav,.sa1,.fla,.srm">
+      <input type="file" id="file" accept=".sav,.sa1,.fla">
       <strong>选择或拖入 SAV</strong>
       <span>128 KiB GBA Flash Save</span>
     </section>
     <button class="import-btn" id="importMonBtn" type="button">扫描二维码 / 输入密钥</button>
     <button class="save-btn" id="saveBtn" type="button">保存 HOME 和 SAV</button>
-    <section class="save-access" aria-labelledby="saveAccessTitle">
-      <details id="saveFinder" open>
-      <summary id="saveAccessTitle">查找模拟器存档</summary>
-      <div class="save-fields">
-        <label>模拟器<select id="emulator"><option value="other">其他 / 手动选择</option><option value="pizza">Pizza Boy / Pizza Boy A</option><option value="myboy">My Boy!</option><option value="delta">Delta（iOS）</option></select></label>
-        <label>ROM 名称<input id="romName" type="search" placeholder="例如：宝可梦水银.gba（可只填部分名称）" autocomplete="off"></label>
-      </div>
-      <div class="save-actions">
-        <button id="chooseDirectory" class="primary" type="button">选择存档文件夹</button>
-        <button id="searchSaves" type="button" disabled>搜索存档 / 重新授权</button>
-        <button id="forgetDirectory" type="button" hidden>忘记目录</button>
-      </div>
-      <input id="directoryFiles" type="file" webkitdirectory multiple hidden>
-      <p id="accessSupport"></p>
-      <p id="directoryStatus" role="status">尚未选择存档目录，也可以直接点上方「选择或拖入 SAV」。</p>
-      <details id="emulatorHelp"><summary>在哪里找存档 / 如何放回模拟器</summary><p id="emulatorGuide"></p><p>请选择游戏内保存产生的 128 KiB 存档，不是即时存档。编辑前先在游戏内保存并退出游戏；完成后从游戏标题画面读取存档，不要恢复旧的即时存档。若选的是导出备份目录，保存后仍需在模拟器中导入。</p></details>
-      <p id="searchStatus" role="status"></p>
-      <div id="saveResults" class="save-results"></div>
-      </details>
-      <p id="fileStatus" role="status">尚未读取 SAV。</p>
-      <div class="save-actions"><button id="exportSavBtn" type="button" disabled>导出 SAV 副本（保留原文件名）</button></div>
-      <div id="saveBackup" class="save-backup" hidden>
-        <p id="backupStatus"></p>
-        <div class="save-actions"><button id="downloadSavBackup" type="button">下载覆盖前 SAV</button><button id="downloadHomeBackup" type="button">下载配套 HOME 备份</button></div>
-      </div>
-    </section>
     <div class="data-btns">
       <button class="data-btn export-btn" id="exportHomeBtn" type="button">导出 HOME 备份</button>
       <button class="data-btn restore-btn" id="importHomeBtn" type="button">导入 HOME 备份</button>
@@ -645,18 +617,11 @@ let currentSaveBuffer = null;
 let currentSaveName = "modified.sav";
 let currentSlot = null;
 let currentFileHandle = null;
-let currentSavePath = "";
-let originalSaveBuffer = null;
-let originalHome = null;
-let loadBusy = false;
-let saveBusy = false;
-let unsavedChanges = false;
 let homeBoxIndex = 0;
 let savBoxIndex = 0;
 let draggedRef = null;
 let selectedRef = null;
 let homeBoxes = loadHomeBoxes();
-let committedHome = JSON.stringify(homeBoxes);
 
 const $ = (id) => document.getElementById(id);
 
@@ -918,7 +883,6 @@ function renderBoxGrid(root, slots, source) {
   }
   
 function handleSlotClick(source, slot, mon) {
-  if (saveBusy || loadBusy) return;
   if (selectedRef) {
     if (selectedRef.source === source && selectedRef.slot === slot) {
       selectedRef = null;
@@ -945,7 +909,6 @@ function handleSlotClick(source, slot, mon) {
 }
 
 function moveSavMonToHome(savSlot, targetSlot = null) {
-  if (saveBusy || loadBusy) return;
   const mon = getSavSlotMon(savSlot);
   if (!mon) return;
   const boxes = homeBoxes;
@@ -957,7 +920,6 @@ function moveSavMonToHome(savSlot, targetSlot = null) {
   }
   boxes[homeBoxIndex][homeSlot] = cloneMon(mon);
   removeSavMon(savBoxIndex, savSlot);
-  unsavedChanges = true;
   $("summary").textContent = `已移动 ${getSpeciesName(mon)} 到 HOME盒子 ${homeBoxIndex + 1}。点击保存后才会写入 HOME 和 SAV。`;
   renderHomeBox();
   renderSavBox();
@@ -978,7 +940,6 @@ function moveSelectedToSlot(targetSource, targetSlot) {
 }
 
 function dropToSlot(targetSource, targetSlot) {
-  if (saveBusy || loadBusy) return;
   clearDropTargets();
   if (!draggedRef) return;
   const boxes = homeBoxes;
@@ -1025,7 +986,6 @@ function dropToSlot(targetSource, targetSlot) {
   }
 
   draggedRef = null;
-  unsavedChanges = true;
   renderHomeBox();
   renderSavBox();
   $("summary").textContent = "已移动/交换，点击保存后才会写入 HOME 和 SAV。";
@@ -1067,68 +1027,26 @@ function canMoveBetweenSlots(fromMon, toMon) {
 }
 
 async function saveAll() {
-  await persistSave(false);
-}
-
-async function persistSave(exportOnly) {
-  if (saveBusy || loadBusy) return;
-  saveBusy = true;
-  $("saveBtn").disabled = true;
-  $("exportSavBtn").disabled = true;
-  let wroteFile = false;
-  try {
-    if (!currentSave) {
-      saveHomeBoxes(homeBoxes);
-      committedHome = JSON.stringify(homeBoxes);
-      unsavedChanges = false;
-      $("summary").textContent = "HOME 已保存；尚未读取 SAV。";
-      return;
-    }
-    const out = new Uint8Array(currentSaveBuffer.slice(0));
-    writeSavBoxes(out, currentSave);
-    if (currentFileHandle && !exportOnly) {
-      if (!await HomeFiles.permission(currentFileHandle, "readwrite")) {
-        $("summary").textContent = "未获得写入权限，HOME 和 SAV 均未保存。可再次点保存授权，或点「导出 SAV 副本」。";
-        return;
-      }
-      const savChanged = !HomeFiles.sameBytes(out, originalSaveBuffer);
-      if (savChanged) {
-        await HomeFiles.overwrite(currentFileHandle, originalSaveBuffer, out, {
-          name: currentSaveName, home: originalHome,
-        });
-        wroteFile = true;
-      } else if (!HomeFiles.sameBytes(await (await currentFileHandle.getFile()).arrayBuffer(), originalSaveBuffer)) {
-        throw new Error("原存档已被模拟器或其他程序修改，已停止保存。请先导出当前编辑副本。");
-      }
-      originalSaveBuffer = out.buffer.slice(0);
-      currentSaveBuffer = out.buffer.slice(0);
-      currentSlot = parseSave(out.buffer).slot;
-      saveHomeBoxes(homeBoxes);
-      committedHome = JSON.stringify(homeBoxes);
-      originalHome = committedHome;
-      unsavedChanges = false;
-      hideMobileSaveFallback();
-      $("summary").textContent = savChanged
-        ? "HOME 已保存，并已覆盖原 SAV。覆盖前 SAV 与配套 HOME 备份可在上方下载。请从游戏标题画面读取存档。"
-        : "HOME 已保存；SAV 没有变化，无需覆盖。上一次覆盖前备份仍保留。";
-    } else {
-      // Sharing/download only delivers a copy; the web page cannot confirm re-import.
-      if (!await saveAsBytes(out, savedFileName(currentSaveName))) return;
-      saveHomeBoxes(homeBoxes);
-      committedHome = JSON.stringify(homeBoxes);
-      unsavedChanges = false;
-      $("summary").textContent = "HOME 已保存，SAV 已交给系统导出；原文件未覆盖。请确认文件保存成功，再在模拟器中导入或手动替换。";
-    }
-  } catch (err) {
-    $("summary").textContent = wroteFile
-      ? "SAV 已写入，但 HOME 本地保存失败。请立即导出 HOME 备份，或下载覆盖前的配套备份恢复：" + err.message
-      : "保存未完成，当前编辑仍保留：" + err.message;
-  } finally {
-    saveBusy = false;
-    $("saveBtn").disabled = false;
-    $("exportSavBtn").disabled = !currentSave;
-    refreshBackup();
+  saveHomeBoxes(homeBoxes);
+  if (!currentSave || !currentSaveBuffer || !currentSlot) {
+    $("summary").textContent = "HOME 已保存；还没有读取 SAV，无法导出 SAV。建议定期点上方「导出 HOME 备份」保存 JSON 备份。";
+    return;
   }
+  const out = new Uint8Array(currentSaveBuffer.slice(0));
+  writeSavBoxes(out, currentSave);
+  currentSaveBuffer = out.buffer.slice(0);
+  if (currentFileHandle) {
+    try {
+      const writable = await currentFileHandle.createWritable();
+      await writable.write(out);
+      await writable.close();
+      $("summary").textContent = "HOME 已保存，并已直接覆盖当前 SAV。建议定期「导出 HOME 备份」。";
+      return;
+    } catch (err) {
+      $("summary").textContent = `直接覆盖失败，请选择另存为位置：${err.message}`;
+    }
+  }
+  await saveAsBytes(out, savedFileName(currentSaveName));
 }
 
 function writeSavBoxes(out, save) {
@@ -1253,33 +1171,52 @@ function downloadBytes(bytes, fileName) {
 }
 
 async function saveAsBytes(bytes, fileName) {
-  hideMobileSaveFallback();
   const blob = new Blob([bytes], { type: "application/octet-stream" });
   const file = new File([blob], fileName, { type: "application/octet-stream" });
   if (navigator.canShare && navigator.canShare({ files: [file] }) && navigator.share) {
     try {
       await navigator.share({ files: [file], title: fileName, text: "宝可梦水银 HOME 存档" });
+      $("summary").textContent = "HOME 已保存，并已打开系统分享/存储面板。建议定期「导出 HOME 备份」。";
       showMobileSaveFallback(blob, fileName, "如未成功保存，可点这里再试一次。");
-      return true;
+      return;
     } catch (err) {
       if (err.name === "AbortError") {
-        $("summary").textContent = "已取消导出，HOME 未保存，当前编辑仍保留。";
-        return false;
+        showMobileSaveFallback(blob, fileName, "已取消系统保存；如需要导出，请点这里手动保存。");
+        return;
       }
       $("summary").textContent = `系统分享保存失败，改用下载链接：${err.message}`;
     }
   }
 
+  if (window.showSaveFilePicker) {
+    try {
+      const handle = await window.showSaveFilePicker({
+        suggestedName: fileName,
+        types: [{
+          description: "GBA Save",
+          accept: { "application/octet-stream": [".sav"] },
+        }],
+      });
+      const writable = await handle.createWritable();
+      await writable.write(bytes);
+      await writable.close();
+      $("summary").textContent = "HOME 已保存，并已另存为 SAV。建议定期「导出 HOME 备份」。";
+      return;
+    } catch (err) {
+      if (err.name === "AbortError") {
+        showMobileSaveFallback(blob, fileName, "已取消另存为；如需要导出，请点这里手动保存。");
+        return;
+      }
+      $("summary").textContent = `另存为失败，已改为下载导出：${err.message}`;
+    }
+  }
   downloadBytes(bytes, fileName);
-  return true;
 }
 
 function showMobileSaveFallback(blob, fileName, message) {
   const panel = $("mobileSave");
   if (!panel) return;
-  if (panel.dataset.url) URL.revokeObjectURL(panel.dataset.url);
   const url = URL.createObjectURL(blob);
-  panel.dataset.url = url;
   panel.hidden = false;
   panel.innerHTML = "";
   const text = document.createElement("span");
@@ -1295,17 +1232,17 @@ function showMobileSaveFallback(blob, fileName, message) {
   share.onclick = async () => {
     const file = new File([blob], fileName, { type: "application/octet-stream" });
     if (navigator.canShare && navigator.canShare({ files: [file] }) && navigator.share) {
-      try { await navigator.share({ files: [file], title: fileName, text: "宝可梦水银 HOME 存档" }); }
-      catch (err) { if (err.name !== "AbortError") text.textContent = "分享失败，请使用保存链接：" + err.message; }
+      await navigator.share({ files: [file], title: fileName, text: "宝可梦水银 HOME 存档" });
     } else {
       link.click();
     }
   };
   panel.append(text, lineBreak, link, share);
+  setTimeout(() => URL.revokeObjectURL(url), 10 * 60 * 1000);
 }
 
 function savedFileName(name) {
-  return name || "modified.sav";
+  return name.replace(/(\.[^.]+)?$/, "_home$1");
 }
 
 function clearDropTargets() {
@@ -1371,7 +1308,6 @@ function importMonKey(key) {
 }
 
 function addImportedMon(mon) {
-  if (saveBusy || loadBusy) return;
   if (!isSupportedSpecies(mon)) {
     $("summary").textContent = `${getSpeciesName(mon)} 不在 HOME 数据库中，暂不支持移入。`;
     return;
@@ -1382,7 +1318,6 @@ function addImportedMon(mon) {
     return;
   }
   homeBoxes[homeBoxIndex][slot] = cloneMon(mon);
-  unsavedChanges = true;
   renderHomeBox();
   showDetail(mon, "HOME");
   $("summary").textContent = `已通过分享密钥导入 ${getSpeciesName(mon)}，点保存后写入 HOME。`;
@@ -1877,58 +1812,43 @@ function escapeHtml(value) {
   }[ch]));
 }
 
-async function loadFile(file, handle = null, path = file.name, isCurrent = () => true) {
-  if (saveBusy || loadBusy) return;
-  if (unsavedChanges && currentSave) {
-    $("summary").textContent = "当前有未保存的编辑，请先保存或导出 SAV 副本，再读取另一份存档。";
-    return;
-  }
+function loadFile(file) {
   if (!gameData) {
     $("summary").textContent = "数据包还没加载完成。";
     return;
   }
-  loadBusy = true;
-  try {
-    if (file.size !== 128 * 1024) throw new Error("请选择 128 KiB 游戏内存档，不是 ROM 或即时存档。");
-    const buffer = await file.arrayBuffer();
-    if (!isCurrent()) return false;
-    const parsed = parseSave(buffer);
-    // Do not replace the loaded save or its handle until validation succeeds.
-    hideMobileSaveFallback();
-    currentSaveBuffer = buffer.slice(0);
-    originalSaveBuffer = buffer.slice(0);
-    originalHome = committedHome;
-    currentSaveName = file.name || "modified.sav";
-    currentSavePath = path || currentSaveName;
-    currentFileHandle = handle;
-    selectedRef = null;
-    draggedRef = null;
-    render(parsed);
-    updateFileStatus();
-    $("saveFinder").open = false;
-    return true;
-  } catch (err) {
-    $("summary").textContent = "读取失败，原先读取的存档保持不变：" + err.message;
-  } finally { loadBusy = false; }
+  hideMobileSaveFallback();
+  file.arrayBuffer()
+    .then((buffer) => {
+      currentSaveBuffer = buffer.slice(0);
+      currentSaveName = file.name || "modified.sav";
+      currentFileHandle = null;
+      return parseSave(buffer);
+    })
+    .then(render)
+    .catch((err) => $("summary").textContent = `读取失败：${err.message}`);
 }
 
 async function openSavWithHandle() {
-  if (saveBusy || loadBusy) return;
   if (!window.showOpenFilePicker) {
     $("file").click();
     return;
   }
   try {
     const [handle] = await window.showOpenFilePicker({
-      id: "mercury-save",
       types: [{
         description: "GBA Save",
-        accept: { "application/octet-stream": [".sav", ".sa1", ".fla", ".srm"] },
+        accept: { "application/octet-stream": [".sav", ".sa1", ".fla"] },
       }],
       multiple: false,
     });
     const file = await handle.getFile();
-    await loadFile(file, handle);
+    const buffer = await file.arrayBuffer();
+    hideMobileSaveFallback();
+    currentFileHandle = handle;
+    currentSaveBuffer = buffer.slice(0);
+    currentSaveName = file.name || "modified.sav";
+    render(parseSave(buffer));
   } catch (err) {
     if (err.name !== "AbortError") $("summary").textContent = `读取失败：${err.message}`;
   }
@@ -1938,17 +1858,12 @@ function hideMobileSaveFallback() {
   const panel = $("mobileSave");
   if (!panel) return;
   panel.hidden = true;
-  if (panel.dataset.url) URL.revokeObjectURL(panel.dataset.url);
-  delete panel.dataset.url;
   panel.innerHTML = "";
 }
 
 const drop = $("drop");
 drop.onclick = () => openSavWithHandle();
-$("file").onchange = (event) => {
-  if (event.target.files[0]) loadFile(event.target.files[0]);
-  event.target.value = "";
-};
+$("file").onchange = (event) => event.target.files[0] && loadFile(event.target.files[0]);
 drop.ondragover = (event) => { event.preventDefault(); drop.classList.add("drag"); };
 drop.ondragleave = () => drop.classList.remove("drag");
 drop.ondrop = (event) => {
@@ -1966,7 +1881,7 @@ $("saveBtn").onclick = saveAll;
 $("importMonBtn").onclick = openImportDialog;
 
 function exportHomeData() {
-  const data = JSON.stringify(homeBoxes);
+  const data = localStorage.getItem(HOME_KEY) || JSON.stringify(makeEmptyHomeBoxes());
   const bytes = new TextEncoder().encode(data);
   const stamp = new Date().toISOString().slice(0, 10);
   downloadBytes(bytes, `水银HOME备份_${stamp}.json`);
@@ -1974,11 +1889,6 @@ function exportHomeData() {
 }
 
 async function importHomeData(file) {
-  if (saveBusy || loadBusy || unsavedChanges) {
-    $("summary").textContent = "请先完成当前保存或导出，再导入 HOME 备份。";
-    return;
-  }
-  loadBusy = true;
   try {
     const parsed = JSON.parse(await file.text());
     if (!Array.isArray(parsed) || parsed.length !== HOME_BOXES)
@@ -1992,16 +1902,13 @@ async function importHomeData(file) {
       }
     }
     saveHomeBoxes(parsed);
-    homeBoxes = parsed;
-    committedHome = JSON.stringify(parsed);
-    if (currentSave) originalHome = committedHome;
     homeBoxIndex = 0;
     selectedRef = null;
     renderHomeBox();
     $("summary").textContent = "HOME 备份已导入。";
   } catch (err) {
     $("summary").textContent = `导入失败：${err.message}`;
-  } finally { loadBusy = false; }
+  }
 }
 
 $("exportHomeBtn").onclick = exportHomeData;
@@ -2026,6 +1933,5 @@ if (urlKey) {
 }
 
   </script>
-  <script src="home-files-ui.js?v=20261012-auto-read"></script>
 </body>
 </html>
