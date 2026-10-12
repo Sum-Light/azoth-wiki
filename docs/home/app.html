@@ -1877,7 +1877,7 @@ function escapeHtml(value) {
   }[ch]));
 }
 
-async function loadFile(file, handle = null, path = file.name) {
+async function loadFile(file, handle = null, path = file.name, isCurrent = () => true) {
   if (saveBusy || loadBusy) return;
   if (unsavedChanges && currentSave) {
     $("summary").textContent = "当前有未保存的编辑，请先保存或导出 SAV 副本，再读取另一份存档。";
@@ -1891,6 +1891,7 @@ async function loadFile(file, handle = null, path = file.name) {
   try {
     if (file.size !== 128 * 1024) throw new Error("请选择 128 KiB 游戏内存档，不是 ROM 或即时存档。");
     const buffer = await file.arrayBuffer();
+    if (!isCurrent()) return false;
     const parsed = parseSave(buffer);
     // Do not replace the loaded save or its handle until validation succeeds.
     hideMobileSaveFallback();
@@ -1905,6 +1906,7 @@ async function loadFile(file, handle = null, path = file.name) {
     render(parsed);
     updateFileStatus();
     $("saveFinder").open = false;
+    return true;
   } catch (err) {
     $("summary").textContent = "读取失败，原先读取的存档保持不变：" + err.message;
   } finally { loadBusy = false; }
@@ -2024,6 +2026,6 @@ if (urlKey) {
 }
 
   </script>
-  <script src="home-files-ui.js?v=20261012"></script>
+  <script src="home-files-ui.js?v=20261012-auto-read"></script>
 </body>
 </html>

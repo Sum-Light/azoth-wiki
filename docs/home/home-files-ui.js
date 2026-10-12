@@ -84,6 +84,7 @@ async function searchSaves() {
   const epoch = directoryEpoch;
   const directory = saveDirectory;
   const files = selectedDirectoryFiles;
+  const query = $('romName').value;
   rememberPreferences();
   $('searchStatus').textContent = '正在搜索所选目录…';
   try {
@@ -91,7 +92,7 @@ async function searchSaves() {
       if (epoch === directoryEpoch) $('searchStatus').textContent = '未获得目录读取权限。请再次点搜索授权，或重新选择目录。';
       return;
     }
-    const result = await HomeFiles.search(directory, files, $('romName').value, () => epoch !== directoryEpoch);
+    const result = await HomeFiles.search(directory, files, query, () => epoch !== directoryEpoch);
     if (epoch !== directoryEpoch) return;
     for (const entry of result.entries.slice(0, 100)) {
       const button = document.createElement('button');
@@ -102,10 +103,7 @@ async function searchSaves() {
       const info = document.createElement('small');
       info.textContent = '128 KiB · ' + new Date(entry.file.lastModified).toLocaleString() + (entry.handle ? ' · 可申请覆盖' : ' · 导入副本') + ' · 点击读取';
       button.append(title, info);
-      button.onclick = async () => {
-        try { await loadFile(entry.handle ? await entry.handle.getFile() : entry.file, entry.handle, entry.path); }
-        catch (err) { $('summary').textContent = '读取失败：' + err.message + '。请重新搜索或授权目录。'; }
-      };
+      button.onclick = () => readSearchEntry(entry, epoch);
       $('saveResults').append(button);
     }
     $('searchStatus').textContent = result.entries.length
@@ -113,8 +111,31 @@ async function searchSaves() {
       : '没有找到匹配的 128 KiB 存档。试试缩短 / 清空 ROM 名，或选择模拟器导出的 SAV。';
     if (result.skipped) $('searchStatus').textContent += ' 有 ' + result.skipped + ' 个文件或目录无法读取。';
     if (result.limited) $('searchStatus').textContent += ' 目录过大或层级过深，搜索未完成；请改选更具体的存档文件夹。';
+    // Auto-open only an unambiguous match from a complete search. Never choose by date.
+    const exact = HomeFiles.romStem(query) ? result.entries.filter(entry => entry.rank === 0) : [];
+    const automatic = result.entries.length === 1 ? result.entries[0] : exact.length === 1 ? exact[0] : null;
+    if (automatic && !result.skipped && !result.limited) {
+      if (saveBusy || loadBusy || unsavedChanges && currentSave) {
+        $('searchStatus').textContent += ' 当前操作尚未完成，已保留结果，请保存当前编辑后再读取。';
+      } else if (await readSearchEntry(automatic, epoch)) {
+        $('searchStatus').textContent = '已自动读取：' + automatic.path;
+        $('summary').textContent = '已自动读取：' + automatic.path + '。' + $('summary').textContent;
+      }
+    }
   } catch (err) {
     if (epoch === directoryEpoch) $('searchStatus').textContent = '搜索失败：' + err.message;
+  }
+}
+
+async function readSearchEntry(entry, epoch) {
+  try {
+    if (epoch !== directoryEpoch) return false;
+    const file = entry.handle ? await entry.handle.getFile() : entry.file;
+    if (epoch !== directoryEpoch) return false;
+    return await loadFile(file, entry.handle, entry.path, () => epoch === directoryEpoch);
+  } catch (err) {
+    if (epoch === directoryEpoch) $('summary').textContent = '读取失败：' + err.message + '。请重新搜索或授权目录。';
+    return false;
   }
 }
 
