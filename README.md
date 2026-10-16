@@ -1,6 +1,6 @@
 # 宝可梦水银 百科
 
-## HOME 当前版本兼容（2026-10-16）
+## HOME 新版对战塔兼容（2026-10-16）
 
 `docs/home/app.html` 是当前 Wiki HOME 界面维护源；旧 CFRU 的 HOME bundler 不含新版转换层，不用它覆盖本页。HOME 内嵌数据库、25箱、58B与PMH1格式保持，`decomp-data.js`、`decomp-compat.js` 独立适配当前BAG16/PC18的18箱、61B及现有编号映射。无旧映射的物种／携带物／招式整只拒绝，交换双方先检查再提交。
 

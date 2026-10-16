@@ -2,7 +2,7 @@
 (function (global) {
   "use strict";
   const meta = global.AZOTH_HOME_DECOMP_DATA;
-  if (!meta || meta.schema !== 1) throw new Error("当前版本转换数据未加载，请刷新页面。");
+  if (!meta || meta.schema !== 1) throw new Error("新版对战塔转换数据未加载，请刷新页面。");
   const SIGNATURE = 0x41313601, SECTOR = 4096, PAYLOAD = 3968;
   const sizes = [meta.layout.sb2, PAYLOAD, PAYLOAD, PAYLOAD, meta.layout.sb1 - 3 * PAYLOAD,
     ...Array(8).fill(PAYLOAD), meta.layout.pc - 8 * PAYLOAD];
@@ -57,7 +57,7 @@
     let cursor = 0;
     for (const [name, width] of fields) {
       const value = record[name] ?? 0;
-      if (!Number.isInteger(value) || value < 0 || value >= 2 ** width) throw new Error("当前版本字段越界：" + name);
+      if (!Number.isInteger(value) || value < 0 || value >= 2 ** width) throw new Error("新版对战塔字段越界：" + name);
       for (let i = 0; i < width; i++, cursor++) raw[cursor >> 3] |= (Math.floor(value / 2 ** i) & 1) << (cursor & 7);
     }
     return raw;
@@ -99,7 +99,7 @@
       const label = {species: "宝可梦／形态", items: "携带道具", moves: "招式"}[kind];
       const name = toCurrent ? (kind==="species" ? home.species[id]?.name : home[kind][id])
         : (kind==="species" ? meta.species[id]?.name : meta.names[kind][id]);
-      throw new Error(label + (name ? "「"+name+"」" : "") + " #" + id + (toCurrent ? "没有当前版本映射" : "在旧版 HOME 中不存在") + "，无法传送。");
+      throw new Error(label + (name ? "「"+name+"」" : "") + " #" + id + (toCurrent ? "没有新版对战塔映射" : "在旧版 HOME 中不存在") + "，无法传送。");
     }
     return value;
   }
@@ -134,7 +134,7 @@
     if ((raw[19] & 1) || !dv.getUint16(28,true)) throw new Error("坏蛋或空个体不能传送。");
     r.personality = dv.getUint32(0,true); r.otId = dv.getUint32(4,true);
     r.species = mapped("species",dv.getUint16(28,true),true);
-    if (!meta.species[r.species]) throw new Error("当前版本没有启用这个物种。");
+    if (!meta.species[r.species]) throw new Error("新版对战塔没有启用这个物种。");
     r.heldItem = mapped("items",dv.getUint16(30,true),true);
     let packed = 0n;
     for (let i=0;i<5;i++) packed |= BigInt(raw[39+i]) << BigInt(i*8);
@@ -157,7 +157,7 @@
     if (tera>=1 && tera<=18 && tera!==10) r.teraType=tera;
     else if (tera===24 || tera===25) r.teraType=tera===24?19:20;
     else if (tera===0) r.teraType=meta.species[r.species].types[r.personality&1];
-    else throw new Error("此太晶设置无法转换到当前版本。");
+    else throw new Error("此太晶设置无法转换到新版对战塔。");
     const result=parseCurrent(writeRecord(r));
     if (result.invalidReason) throw new Error(result.invalidReason);
     // Session-only provenance preserves reviewed duplicate IDs on an immediate return.
