@@ -1,5 +1,11 @@
 # 宝可梦水银 百科
 
+## HOME 当前版本兼容（2026-10-16）
+
+`docs/home/app.html` 是当前 Wiki HOME 界面维护源；旧 CFRU 的 HOME bundler 不含新版转换层，不用它覆盖本页。HOME 内嵌数据库、25箱、58B与PMH1格式保持，`decomp-data.js`、`decomp-compat.js` 独立适配当前BAG16/PC18的18箱、61B及现有编号映射。无旧映射的物种／携带物／招式整只拒绝，交换双方先检查再提交。
+
+兼容快照由 `D:/New Project Azoth/dev_scripts/export_home_compat.py` 生成，普通构建与独立Wiki只需docs资源。修改后运行 `node wiki/tools/check_home_compat.cjs`；有两类只读测试存档时可追加FC路径、PC18路径及输出目录。真实Edge入口 `wiki/tools/check_home_browser.cjs` 读取PC18夹具和前一检查输出，支持第三参数构建站点目录。当前工程另有 `check_home_compat_arm.py` 独立验证真实游戏解码。网页接口和保护规则见该工程 `docs/azoth-home-compat.md`。
+
 基于 MkDocs Material 的资料站，图鉴数据由脚本直接从 ROM 提取。
 
 ## 本地预览
