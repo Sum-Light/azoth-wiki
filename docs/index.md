@@ -9,6 +9,20 @@ hide:
 
 <div class="wiki-notice">地图目录收录当前开放地点。像素图按原尺寸或整数倍显示，大图可滚动或点击放大查看。</div>
 
+## 公告
+
+<div class="azoth-cards">
+<a class="azoth-card" href="news/"><strong>公告</strong><span>发布消息、制作记录与游戏更新。</span></a>
+</div>
+
+## 交流群
+
+- 1群：534774534
+- 2群：300578495
+- 3群：435803246
+- 4群：2162080179
+- **口袋改版资源吧官方群：1091812268（推荐）**
+
 ## 游戏资料
 
 <div class="azoth-cards">
@@ -30,10 +44,9 @@ hide:
 <a class="azoth-card" href="broadcast/"><strong>广播</strong><span>查阅广播内容与相关遭遇资料。</span></a>
 </div>
 
-## 公告与工具
+## 实用工具
 
 <div class="azoth-cards">
-<a class="azoth-card" href="news/"><strong>公告</strong><span>发布消息、制作记录与游戏更新。</span></a>
 <a class="azoth-card" href="home/"><strong>水银 HOME</strong><span>在浏览器中管理本地存档盒子，导入、导出与分享宝可梦。</span></a>
 <a class="azoth-card" href="distribution/"><strong>配信</strong><span>查看可领取的宝可梦，导入水银 HOME。</span></a>
 <a class="azoth-card" href="savefix/"><strong>存档修复</strong><span>查看劲敌名字乱码的修复说明与工具。</span></a>
