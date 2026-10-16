@@ -23,6 +23,12 @@ hide:
 - 4群：2162080179
 - **口袋改版资源吧官方群：1091812268（推荐）**
 
+## 直接游玩（功能测试中）
+
+<div class="azoth-cards">
+<a class="azoth-card" href="play/"><strong>直接游玩 →</strong><span>新版对战塔 · 功能测试中</span></a>
+</div>
+
 ## 游戏资料
 
 <div class="azoth-cards">

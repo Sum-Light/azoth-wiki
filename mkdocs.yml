@@ -63,6 +63,7 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
+  - 直接游玩（功能测试中）: play/index.md
   - 支线任务: sidequests/index.md
   - 公告: news/index.md
   - 宝可梦图鉴: pokemon/index.md

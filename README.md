@@ -1,5 +1,16 @@
 # 宝可梦水银 百科
 
+## 直接游玩（功能测试中，2026-10-16）
+
+本轮验证：MkDocs构建通过，真实Edge完整36项及子目录显示31项通过；截图、存档往返/刷新与三份HTML一致性已核对。iOS实机未测；网页发布沿用现有Wiki同步与Pages流程。
+
+导航和首页入口为`docs/play/index.md`，开始卡片同标签完整打开`docs/play/app.html`，沿用HOME工具的独立页面方式。游戏沿用`D:/New Project Azoth/azoth-web-player.html`单文件v4快照：24,545,286字节，SHA-256 `461e1fcf7b037061e22ab546516c04c4924f6e60367b4d476f91a3d3240e0e01`；内置ROM为`52808835e884f28a4da424a583567addadaa577fd0d3be993af241ef98700c87`。
+
+单线程mGBA、ROM、CSS/JS和许可全部内嵌，普通MkDocs构建及独立Wiki同步只需docs文件，不重新读取ROM或调用新工区打包器。HTTPS下无需COOP/COEP；保留简洁触屏、横屏/全屏、音频回退和存档导入导出。游戏存档在当前站点IndexedDB，与HOME的localStorage相互独立；本地HTML的旧存档需导出.sav后导入网页，不会自动迁移。iOS实机兼容仍待验证。
+
+更新时二进制复制已核对的单文件快照到`docs/play/app.html`，同步来源/哈希记录后构建；`target="_self"`用于绕过Material即时导航，不能把游戏脚本作为普通文档注入。现有sync-wiki工作流已覆盖docs目录，无需新增构建依赖。验证使用新工区`dev_scripts/check_web_player.cjs --wiki-url <构建站点根URL>`，可追加`--display-only`；准确结果见该工程`docs/azoth-web-player.md`。发布使用既有Wiki同步与Pages流程，完成后核对线上入口与HTML快照。
+
+
 ## HOME 新版对战塔兼容（2026-10-16）
 
 `docs/home/app.html` 是当前 Wiki HOME 界面维护源；旧 CFRU 的 HOME bundler 不含新版转换层，不用它覆盖本页。HOME 内嵌数据库、25箱、58B与PMH1格式保持，`decomp-data.js`、`decomp-compat.js` 独立适配当前BAG16/PC18的18箱、61B及现有编号映射。无旧映射的物种／携带物／招式整只拒绝，交换双方先检查再提交。
