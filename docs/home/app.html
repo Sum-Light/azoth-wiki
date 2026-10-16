@@ -606,7 +606,8 @@ window.SAVE_HOME_GAME_DATA={"species":{"0":{"macro":"SPECIES_NONE","name":"?????
   </script>
   <script src="decomp-data.js?v=20261016"></script>
   <script src="decomp-compat.js?v=20261016"></script>
-<script src="browser-save.js?v=20261017"></script>
+<script src="../play/native-save.js?v=20261017-local1"></script>
+<script src="browser-save.js?v=20261017-local1"></script>
   <script>
 const SECTOR_SIZE = 0x1000;
 const SECTOR_DATA = 0xFF0;
@@ -636,6 +637,7 @@ let currentSaveName = "modified.sav";
 let currentSlot = null;
 let currentFileHandle = null;
 let currentBrowserSave = false;
+let currentNativeSave = false;
 let currentBrowserProfile = "tower";
 let homeStorageSnapshot = localStorage.getItem(HOME_KEY);
 let homeIOBusy = false;
@@ -646,7 +648,7 @@ function setHomeBusy(busy) {
 }
 function setSaveSource(browser) {
   currentBrowserSave = browser;
-  $("saveBtn").textContent = browser ? "保存到浏览器" : "保存 HOME 和 SAV";
+  $("saveBtn").textContent = browser ? (currentNativeSave ? "保存到本地文件" : "保存到浏览器") : "保存 HOME 和 SAV";
 }
 async function loadBrowserSave() {
   if (homeIOBusy || homeRecoveryBlocked) return;
@@ -663,10 +665,11 @@ async function loadBrowserSave() {
     currentSaveName = spec.key.split("/").pop();
     currentBrowserProfile = profile;
     currentFileHandle = null;
+    currentNativeSave = loaded.local;
     setSaveSource(true);
     hideMobileSaveFallback();
     render(parsed);
-    $("summary").textContent = `已读取 ${spec.label} 网页存档；整理后点击保存，再重新打开对应游戏。`;
+    $("summary").textContent = `已读取 ${spec.label} ${loaded.local ? loaded.name : "网页存档"}；整理后点击保存，再重新打开对应游戏。`;
   } catch (err) { $("summary").textContent = `读取失败：${err.message}`; }
   finally { setHomeBusy(false); }
 }
@@ -1069,10 +1072,11 @@ async function saveAll() {
       currentSave.slot = verified.slot;
       if (result.pending) {
         homeRecoveryBlocked = true;
-        $("summary").textContent = "网页存档已写入，HOME 待恢复。请释放浏览器存储空间并刷新此页，勿清除网站数据。";
+        $("summary").textContent = `保存尚未完成：${result.error.message} 请重试恢复，勿清除网站数据。`;
+        showSaveRecovery();
       } else {
         homeStorageSnapshot = homeAfter;
-        $("summary").textContent = "HOME 和网页存档已保存，可重新打开直接游玩。请从游戏内继续，勿读取旧即时存档。";
+        $("summary").textContent = `HOME 和${currentNativeSave ? "本地文件" : "网页存档"}已保存，可重新打开直接游玩。请从游戏内继续，勿读取旧即时存档。`;
       }
       return;
     }
@@ -1992,6 +1996,23 @@ $("homeDataFile").onchange = (event) => {
   event.target.value = "";
 };
 
+function showSaveRecovery() {
+  let dialog = document.getElementById("saveRecoveryDialog");
+  if (!dialog) {
+    dialog = document.createElement("dialog"); dialog.id = "saveRecoveryDialog";
+    dialog.innerHTML = '<p>保存尚未完成，请保留网站数据。</p><button type="button">重试恢复</button><p role="status"></p>';
+    document.body.append(dialog);
+    dialog.addEventListener("cancel", event => event.preventDefault());
+    dialog.querySelector("button").onclick = async () => {
+      try {
+        await window.AzothBrowserSave.recover(HOME_KEY, true);
+        location.reload();
+      } catch (error) { dialog.querySelector('[role="status"]').textContent = error.message; }
+    };
+  }
+  document.body.inert = false;
+  if (!dialog.open) dialog.showModal();
+}
 setHomeBusy(true);
 window.homeBrowserReady = window.AzothBrowserSave.recover(HOME_KEY).then(() => {
   homeStorageSnapshot = localStorage.getItem(HOME_KEY);
@@ -1999,6 +2020,7 @@ window.homeBrowserReady = window.AzothBrowserSave.recover(HOME_KEY).then(() => {
   renderAllBoxes();
 }).catch(err => {
   homeRecoveryBlocked = true;
+  showSaveRecovery();
   $("summary").textContent = `HOME 恢复未完成：${err.message} 请保留网站数据并刷新重试。`;
 }).finally(() => setHomeBusy(false));
 
