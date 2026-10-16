@@ -91,6 +91,12 @@ dialog>div{display:flex;justify-content:flex-end;gap:10px}
 .is-landscape .screen-wrap{border-radius:4px}
 @media(max-width:700px){main{margin:12px auto}.toolbar{gap:6px}}
 </style>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="宝可梦水银">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
   <main>
@@ -124,7 +130,7 @@ dialog>div{display:flex;justify-content:flex-end;gap:10px}
         <span id="save-status" role="status">尚未开始</span>
         <input type="file" id="save-file" accept=".sav" hidden>
         <details class="key-guide"><summary>按键</summary><p>方向键移动 · Z / X 确认取消<br>Enter / Shift 开始选择 · A / S 肩键 · 空格暂停</p></details>
-        <footer><span id="build-id"></span><a href="assets/26173e7311a3510fc839e39573a3040723309146a632ab63bdbe5a7a54409537.txt" target="_blank" rel="noopener">开源许可</a></footer>
+        <footer><span id="build-id"></span><a href="assets/26173e7311a3510fc839e39573a3040723309146a632ab63bdbe5a7a54409537.txt" target="_blank" rel="noopener">开源许可</a><a href="./">选择版本</a></footer>
       </details>
       <div id="toast" role="status" hidden></div>
       <dialog id="confirm-dialog"><h2 id="confirm-title"></h2><p id="confirm-detail"></p><div><button id="confirm-cancel">取消</button><button id="confirm-ok" class="primary">确认</button></div></dialog>
