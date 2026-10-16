@@ -63,6 +63,57 @@
     return raw;
   }
   function shinyValue(pid, ot) { return ((pid & 65535) ^ (pid >>> 16) ^ (ot & 65535) ^ (ot >>> 16)) >>> 0; }
+  function gender(pid, ratio) {
+    if (!Number.isInteger(ratio) || ratio < 0 || ratio > 255) throw new Error("缺少性别比例数据，请刷新页面后重试。");
+    return ratio === 255 ? 2 : ratio === 254 ? 1 : Number((pid & 255) < ratio);
+  }
+  function unownLetter(pid) {
+    return (((pid & 0x03000000) >>> 18) | ((pid & 0x00030000) >>> 12) |
+      ((pid & 0x00000300) >>> 6) | (pid & 3)) % 28;
+  }
+  function compatiblePersonality(r, species) {
+    const current = meta.species[r.species], old = home.species[species], original = r.personality;
+    const nature = original % 25, sex = gender(original, current.genderRatio), oldSex = gender(original, old.genderRatio);
+    const shiny = Boolean((shinyValue(original, r.otId) < meta.layout.shinyOdds) ^ r.shinyModifier);
+    // Slots follow the reviewed species/ability import policy, not numeric ability IDs or translated names.
+    if (!current.abilities[r.abilityNum] || (r.abilityNum === 2 && !old.hiddenAbility) ||
+        (r.abilityNum !== 2 && !old.abilities[r.abilityNum]))
+      throw new Error("此个体的特性槽在旧版 HOME 中不存在，无法传送。");
+    const macro = old.macro || "", isUnown = /^SPECIES_UNOWN(?:_|$)/.test(macro);
+    const isMinior = /^SPECIES_MINIOR(?:_|$)/.test(macro);
+    const isRareEvolution = /^SPECIES_(?:DUNSPARCE|DUDUNSPARCE|TANDEMAUS|MAUSHOLD)(?:_|$)/.test(macro);
+    const lowFits = pid => gender(pid, current.genderRatio) === sex && gender(pid, old.genderRatio) === oldSex &&
+      (r.abilityNum === 2 || ((old.abilities[1] ? pid & 1 : 0) === r.abilityNum &&
+       (current.abilities[1] ? pid & 1 : 0) === r.abilityNum));
+    const fits = pid => lowFits(pid) && pid % 25 === nature && (shinyValue(pid, r.otId) < 16) === shiny &&
+      (!isUnown || unownLetter(pid) === unownLetter(original)) &&
+      (!isMinior || pid % 7 === original % 7) &&
+      (macro !== "SPECIES_WURMPLE" || ((pid >>> 16) % 10 < 5) === ((original >>> 16) % 10 < 5)) &&
+      (!isRareEvolution || (pid % 100 === 0) === (original % 100 === 0));
+    if (fits(original)) return original;
+    if (macro === "SPECIES_SPINDA") throw new Error("此晃晃斑需要调整 PID，但会改变斑纹，无法传送。");
+    if (!Array.from({length: 256}, (_, low) => low).some(lowFits))
+      throw new Error("此个体的性别与特性槽无法同时保留到旧版 HOME，无法传送。");
+    if (shiny) {
+      // Complete, bounded shiny search: each low half and all 16 FC shiny XOR values.
+      const trainerXor = (r.otId & 65535) ^ (r.otId >>> 16);
+      for (let step = 0; step < 65536; step++) {
+        const low = ((original & 65535) + step) & 65535;
+        if (!lowFits(low)) continue;
+        for (let xor = 0; xor < 16; xor++) {
+          const candidate = ((trainerXor ^ low ^ xor) * 65536 + low) >>> 0;
+          if (fits(candidate)) return candidate;
+        }
+      }
+    } else {
+      // Nature-preserving nearby candidates; no RNG and no unsigned-wrap nature changes.
+      for (let step = 1; step <= 65536; step++) {
+        for (const candidate of [original + step * 25, original - step * 25])
+          if (candidate >= 0 && candidate <= 0xffffffff && fits(candidate)) return candidate;
+      }
+    }
+    throw new Error("未找到能同时保留性格、性别、闪光、特性和特殊形态／进化分支的 PID，无法传送。");
+  }
   const tokenCache = new WeakMap();
   function tokens(charmap) {
     if (tokenCache.has(charmap)) return tokenCache.get(charmap);
@@ -164,7 +215,7 @@
     result.homeOrigin=Array.from(raw);
     return result;
   }
-  function toHome(mon) {
+  function toHome(mon, notices = []) {
     if (!mon) return null;
     if (mon.format!=="decomp") {
       const result=parseHome(bytes(mon.raw,58));
@@ -183,14 +234,11 @@
     const moves=[0,1,2,3].map(i=>mapped("moves",r["move"+i],false));
     const unsupported=["natureModifier","daysSinceFormChange","evolutionTracker1","evolutionTracker2","dynamaxLevel","shadow","fateful","glamour",...stats.map(s=>"hyper_"+s)];
     if (unsupported.some(k=>r[k])) throw new Error("此个体含旧版 HOME 无法保存的薄荷／训练／其他个体状态，无法无损传送。");
-    const actualShiny=Boolean((shinyValue(r.personality,r.otId)<meta.layout.shinyOdds)^r.shinyModifier);
-    if (actualShiny!==(shinyValue(r.personality,r.otId)<16)) throw new Error("此个体的闪光修正无法保留到旧版 HOME，无法传送。");
-    if (r.abilityNum!==2 && r.abilityNum!==(meta.species[r.species].abilities[1] ? r.personality&1 : 0))
-      throw new Error("此个体的特性槽无法保留到旧版 HOME，无法传送。");
-    const ball=ballReverse[r.ball];
+    const personality=compatiblePersonality(r,species);
+    const ball=ballReverse[r.ball===0 ? 1 : r.ball]; // BALL_STRANGE -> BALL_POKE; legacy ID comes from the mapping.
     if (ball===undefined) throw new Error("此精灵球在旧版 HOME 中不存在，无法传送。");
     const raw=new Uint8Array(58), dv=view(raw);
-    dv.setUint32(0,r.personality,true);dv.setUint32(4,r.otId,true);
+    dv.setUint32(0,personality,true);dv.setUint32(4,r.otId,true);
     raw.set(encode(decode(Array.from({length:12},(_,i)=>r["nick"+i]),meta.chars),home.charmap,10,"昵称"),8);
     raw.set(encode(decode(Array.from({length:7},(_,i)=>r["ot"+i]),meta.chars),home.charmap,7,"训练家姓名"),20);
     raw[18]=r.language;
@@ -206,7 +254,10 @@
     raw[50]=r.pokerus;raw[51]=r.metLocation<=0x6c?r.metLocation+0x58:r.metLocation>=0xfd?r.metLocation:0xff;
     dv.setUint16(52,r.metLevel|(r.metGame<<7)|(r.gigantamax<<11)|(r.otGender<<15),true);
     dv.setUint32(54,ivs,true);
-    return parseHome(raw);
+    const result=parseHome(raw);
+    if (personality!==r.personality) notices.push("传入 HOME／分享时会调整 PID，保留特性槽、性格、性别和闪光状态；传回后使用转换后的 PID。");
+    if (r.ball===0) notices.push("奇异球会转换为普通精灵球，传回后仍为精灵球。");
+    return result;
   }
   function checksum(raw) {
     const dv=view(raw);let sum=0;
@@ -284,7 +335,18 @@
   }
   function displayId(kind,id,mon) {return mon.format==="decomp"?reverse[kind][id]:id;}
   function displayName(kind,id,mon) {return mon.format==="decomp"?meta.names[kind][id]:home[kind][id];}
-  function reason(mon) {try{toHome(mon);return "";}catch(e){return e.message;}}
+  const conversionCache=new WeakMap();
+  function conversionInfo(mon) {
+    if (!mon || mon.format!=="decomp") return {reason:"",notices:[]};
+    const signature=JSON.stringify([mon.raw,mon.homeOrigin]);
+    const cached=conversionCache.get(mon);
+    if (cached && cached.signature===signature) return {reason:cached.reason,notices:[...cached.notices]};
+    const notices=[];let reason="";
+    try {toHome(mon,notices);} catch(e) {reason=e.message;notices.length=0;}
+    conversionCache.set(mon,{signature,reason,notices});
+    return {reason,notices:[...notices]};
+  }
+  function reason(mon) {if(mon?.format==="decomp")return conversionInfo(mon).reason;try{toHome(mon);return "";}catch(e){return e.message;}}
   global.AzothHomeCompat={configure,parseSave,writeSave,toCurrent,toHome,parseCurrent,readRecord,writeRecord,
-    displaySpecies,displayId,displayName,reason,checksum,crc,readSlot,meta,sizes,fields};
+    displaySpecies,displayId,displayName,reason,conversionInfo,checksum,crc,readSlot,meta,sizes,fields};
 })(window);

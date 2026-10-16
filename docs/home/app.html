@@ -185,7 +185,7 @@ p { margin: 4px 0 0; color: var(--muted); }
 .slot.locked {
   cursor: not-allowed;
 }
-.slot.locked::before {
+.slot.locked::before, .slot.converting::before {
   content: "LOCK";
   position: absolute;
   left: 4px;
@@ -198,6 +198,9 @@ p { margin: 4px 0 0; color: var(--muted); }
   font-size: 10px;
   font-weight: 700;
 }
+.slot.converting::before { content: "转换"; background: #87520b; }
+.compat-notice { color: #87520b; margin: 6px 0; line-height: 1.6; }
+@media (prefers-color-scheme: dark) { .compat-notice { color: #ffc568; } }
 .slot.locked img.mon-icon {
   filter: grayscale(.8) opacity(.72);
 }
@@ -842,7 +845,9 @@ function renderBoxGrid(root, slots, source) {
       slot.type = "button";
       slot.className = "slot" + (mon ? "" : " empty");
       slot.draggable = Boolean(mon && isSupportedSpecies(mon));
-      slot.title = mon && mon.format === "decomp" ? compat.reason(mon) : "";
+      const conversion = compat.conversionInfo(mon);
+      slot.title = conversion.reason || conversion.notices.join(" ");
+      if (!conversion.reason && conversion.notices.length) slot.classList.add("converting");
       slot.dataset.source = source;
       slot.dataset.slot = String(i);
       if (selectedRef && selectedRef.source === source && selectedRef.slot === i) {
@@ -919,7 +924,7 @@ function handleSlotClick(source, slot, mon) {
   renderHomeBox();
   renderSavBox();
   showDetail(mon, source === "home" ? "HOME" : "SAV");
-  $("summary").textContent = `已选中 ${getSpeciesName(mon)}，再点击目标格即可移动或交换。`;
+  $("summary").textContent = `已选中 ${getSpeciesName(mon)}，再点击目标格即可移动或交换。` + compat.conversionInfo(mon).notices.join(" ");
 }
 
 function moveSavMonToHome(savSlot, targetSlot = null) {
@@ -953,7 +958,8 @@ function dropToSlot(targetSource, targetSlot) {
     const fromMon = from.source === "home" ? homeBoxes[homeBoxIndex][from.slot] : getSavSlotMon(from.slot);
     const toMon = targetSource === "home" ? homeBoxes[homeBoxIndex][targetSlot] : getSavSlotMon(targetSlot);
     if (!fromMon || (from.source === targetSource && from.slot === targetSlot)) return;
-    const convert = (mon, target) => !mon ? null : target === "home" ? compat.toHome(mon) : currentSave.format === "decomp" ? compat.toCurrent(mon) : compat.toHome(mon);
+    const notices = [];
+    const convert = (mon, target) => !mon ? null : target === "home" ? compat.toHome(mon, notices) : currentSave.format === "decomp" ? compat.toCurrent(mon) : compat.toHome(mon, notices);
     // Prepare BOTH directions before touching either box, including swaps.
     const incoming = from.source === targetSource ? cloneMon(fromMon) : convert(fromMon, targetSource);
     const outgoing = from.source === targetSource ? (toMon && cloneMon(toMon)) : convert(toMon, from.source);
@@ -963,7 +969,7 @@ function dropToSlot(targetSource, targetSlot) {
     };
     put(from.source, from.slot, outgoing);
     put(targetSource, targetSlot, incoming);
-    $("summary").textContent = "已移动／交换，点击保存后才会写入 HOME 和 SAV。";
+    $("summary").textContent = "已移动／交换，点击保存后才会写入 HOME 和 SAV。" + [...new Set(notices)].join(" ");
   } catch (err) {
     $("summary").textContent = err.message;
   }
@@ -1236,8 +1242,9 @@ function monSpriteSrc(mon, data) {
 
 function showDetail(mon, sourceLabel) {
   const data = compat.displaySpecies(mon);
+  const conversion = compat.conversionInfo(mon);
   const abilityId = mon.raw && mon.raw.length === BOX_MON_SIZE
-    ? ((new DataView(Uint8Array.from(mon.raw).buffer).getUint32(54, true) >>> 31) ? data.hiddenAbility : (data.abilities || [])[mon.personality & 1])
+    ? ((new DataView(Uint8Array.from(mon.raw).buffer).getUint32(54, true) >>> 31) ? data.hiddenAbility : (data.abilities || [])[data.abilities?.[1] ? mon.personality & 1 : 0])
     : null;
   const abilityName = mon.format === "decomp" ? (compat.meta.abilities[(compat.meta.species[mon.species]?.abilities || [])[compat.readRecord(mon.raw).abilityNum]] || "未知") : abilityId == null ? "未知" : (gameData.abilities[String(abilityId)] || `Ability ${abilityId}`);
   const abilityLabel = abilityId != null && abilityId === data.hiddenAbility ? `梦特：${abilityName}` : `特性：${abilityName}`;
@@ -1254,11 +1261,12 @@ function showDetail(mon, sourceLabel) {
       <div>${escapeHtml(abilityLabel)}</div>
       <div>个体值 ${mon.ivs.hp}/${mon.ivs.atk}/${mon.ivs.def}/${mon.ivs.spe}/${mon.ivs.spa}/${mon.ivs.spd} · 努力值 HP${evs.hp}/攻${evs.atk}/防${evs.def}/速${evs.spe}/特攻${evs.spa}/特防${evs.spd}</div>
       <div class="chips">${moves.map((move) => `<span>${escapeHtml(move)}</span>`).join("")}</div>
+      ${conversion.reason || conversion.notices.length ? `<div class="compat-notice">${escapeHtml(conversion.reason || conversion.notices.join(" "))}</div>` : ""}
       <div class="detail-actions"><button type="button" id="shareMonBtn">分享这只宝可梦</button></div>
     </div>
   `;
   $("shareMonBtn").disabled = !isSupportedSpecies(mon);
-  $("shareMonBtn").onclick = () => { try { openShareDialog(compat.toHome(mon)); } catch (err) { $("summary").textContent = err.message; } };
+  $("shareMonBtn").onclick = () => { try { const notices = []; const converted = compat.toHome(mon, notices); openShareDialog(converted, notices); } catch (err) { $("summary").textContent = err.message; } };
 }
 
 function bytesToBase64Url(bytes) {
@@ -1320,11 +1328,12 @@ function closeModal() {
   document.querySelectorAll(".modal-overlay").forEach((node) => node.remove());
 }
 
-function openShareDialog(mon) {
+function openShareDialog(mon, notices = []) {
   const data = compat.displaySpecies(mon);
   const key = exportMonKey(mon);
   const body = createModal("分享宝可梦");
   body.innerHTML = `
+    ${notices.length ? `<div class="compat-notice">${escapeHtml(notices.join(" "))}</div>` : ""}
     <canvas id="shareQr" class="share-qr" width="360" height="360"></canvas>
     <textarea class="share-key" readonly>${escapeHtml(key)}</textarea>
     <div class="modal-actions">
