@@ -9,12 +9,6 @@ hide:
 
 <div class="wiki-notice">地图目录收录当前开放地点。像素图按原尺寸或整数倍显示，大图可滚动或点击放大查看。</div>
 
-## 公告
-
-<div class="azoth-cards">
-<a class="azoth-card" href="news/"><strong>公告</strong><span>发布消息、制作记录与游戏更新。</span></a>
-</div>
-
 ## 交流群
 
 - 1群：534774534
@@ -22,6 +16,12 @@ hide:
 - 3群：435803246
 - 4群：2162080179
 - **口袋改版资源吧官方群：1091812268（推荐）**
+
+## 下载
+
+<div class="azoth-cards">
+<a class="azoth-card" href="news/"><strong>下载 →</strong><span>对战塔特别版与主线版本</span></a>
+</div>
 
 ## 直接游玩（功能测试中）
 
