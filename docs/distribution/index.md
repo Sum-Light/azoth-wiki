@@ -45,3 +45,14 @@
 <a class="dist-claim" href="../home/app.html?key=PMH1.TgAAADHUAAAOTQ8GFDX_AAAAAAAJKw_t_wAAAIAFAACGAAAAADIXCpwwJQAAAAAAAAAAAAAA____vw">领取</a>
 <details class="dist-key"><summary>手动密钥</summary><code>PMH1.TgAAADHUAAAOTQ8GFDX_AAAAAAAJKw_t_wAAAIAFAACGAAAAADIXCpwwJQAAAAAAAAAAAAAA____vw</code></details>
 </div></div>
+
+<div class="dist-card">
+<div class="dist-left"><img class="dist-sprite" src="../pokemon/sprites/0848.png" alt="花叶蒂（永恒之花）"><img class="dist-icon" src="../pokemon/icons/0848.png" alt="">
+</div>
+<div class="dist-body">
+<strong>Z-A一周年纪念·永恒之花　花叶蒂（永恒之花） Lv.5 ♀</strong>
+<div class="dist-meta">特性：共生（梦特） · 性格：内敛 · 个体：6V · 球种：精灵球 · 初训家：AZ</div>
+<div class="dist-moves">撞击、藤鞭、妖精之风</div>
+<a class="dist-claim" href="../home/app.html?key=PMH1.KAAAAAAAAAAFNQ8GAyD_AAAAAAC71P8AAAAAAFADAAB9AAAAADIDIVjQHAAAAAAAAAAAAAAA____vw">领取</a>
+<details class="dist-key"><summary>手动密钥</summary><code>PMH1.KAAAAAAAAAAFNQ8GAyD_AAAAAAC71P8AAAAAAFADAAB9AAAAADIDIVjQHAAAAAAAAAAAAAAA____vw</code></details>
+</div></div>
