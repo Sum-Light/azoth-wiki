@@ -3,14 +3,14 @@
 ## 直接游玩（功能测试中，2026-10-16）
 
 导航和首页入口为`docs/play/index.md`，开始卡片同标签完整打开`docs/play/app.html`。
-在线版由新工区`tools/web-player/package_online.py`从既有单文件v4快照生成：首屏约113 KB，首次资源总量约17.81 MB。
+在线版v2由新工区`tools/web-player/package_online.py`从既有单文件v4快照生成：首屏约116 KB，首次资源总量约17.82 MB。
 ROM仍为`52808835e884f28a4da424a583567addadaa577fd0d3be993af241ef98700c87`；单文件源SHA-256为`461e1fcf7b037061e22ab546516c04c4924f6e60367b4d476f91a3d3240e0e01`。
 
-gzip二进制资源放在`docs/play/assets/<SHA256>.bin`，ROM分成256 KiB块，6路并行，每块核验SHA-256；独立CacheStorage保存已完成块，刷新或中断重试复用，缓存不可用仍可游玩。界面只增加加载百分比和失败重试；完整MPL-2.0及上游归属在同目录哈希命名TXT，许可链接始终可用。核心和运行模块保持原快照，未重编或替换ROM。
+gzip二进制资源放在`docs/play/assets/<SHA256>.bin`，ROM分成256 KiB块，6路并行，每块核验SHA-256；生产站优先使用固定提交的jsDelivr Fastly/Gcore镜像，8秒未完成时竞争另一条线路，首个完整且校验通过的响应胜出，原Pages仍为后备；缓存操作1.5秒超时即回退，避免初始化挂起；独立CacheStorage保存已完成块，刷新或中断重试复用，缓存不可用仍可游玩。界面只增加加载百分比和失败重试；完整MPL-2.0及上游归属在同目录哈希命名TXT，许可链接始终可用。核心和运行模块保持原快照，未重编或替换ROM。
 
 普通MkDocs构建及独立Wiki同步只需docs文件，不调用新工区打包器。HTTPS单线程核心无需COOP/COEP；保留触屏、横屏/全屏、音频回退和存档导入导出。旧网页的`azoth-single-html-v1` IndexedDB、`azoth-tower-v3.sav`和即时槽命名均不变，资产缓存不接触游戏进度或HOME的localStorage。本地HTML旧档仍须手工导出导入.sav；iOS实机未测。
 
-更新须显式选择已核对的HTML快照运行`python -X utf8 tools/web-player/package_online.py --source azoth-web-player.html --output <Wiki docs/play目录>`，将完整app.html与assets一并发布；不能只复制旧单文件覆盖在线版。`target="_self"`绕过Material即时导航。验证用新工区`node dev_scripts/check_web_player.cjs --wiki-url <站点根URL> --asset-checks`及`--display-only`；实际结果与发布记录见新工区`docs/azoth-web-player.md`。保留其他未提交主题，仅发布本功能对应文件和本段。
+更新须显式选择已核对的HTML快照运行`python -X utf8 tools/web-player/package_online.py --source azoth-web-player.html --output <Wiki docs/play目录> --mirror-revision 61ad228052c7143915fdf688034adaeafef18222`，将完整app.html与assets一并发布；mirror-revision必须是已包含相同资源的azoth-wiki提交，新ROM先发布资源后更新镜像固定提交，不能沿用无对应文件的旧提交；不能只复制旧单文件覆盖在线版。`target="_self"`绕过Material即时导航。验证用新工区`node dev_scripts/check_web_player.cjs --wiki-url <站点根URL> --asset-checks`及`--display-only`；实际结果与发布记录见新工区`docs/azoth-web-player.md`。保留其他未提交主题，仅发布本功能对应文件和本段。
 
 ## HOME 新版对战塔兼容（2026-10-16）
 
