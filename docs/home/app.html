@@ -58,6 +58,10 @@ body {
   background: #2563eb;
   box-shadow: 0 8px 18px rgba(37, 99, 235, .22);
 }
+.save-source { display: grid; gap: 6px; min-width: 0; }
+.save-source > button { width: 100%; height: 40px; }
+.save-source .drop { min-width: 0; }
+.save-source select { width: 100%; min-width: 0; padding: 8px 4px; border: 1px solid var(--line); border-radius: 5px; background: var(--panel-strong); color: var(--text); font: inherit; }
 .save-btn:hover { filter: brightness(1.05); }
 .import-btn:hover { filter: brightness(1.05); }
 h1 { margin: 0; font-size: 30px; }
@@ -550,11 +554,18 @@ p { margin: 4px 0 0; color: var(--muted); }
       <h1>宝可梦水银 HOME</h1>
       <p>支持水银 FC（25 箱）与新版对战塔（18 箱）。HOME 数据保持旧版格式，跨版本传送自动转换。</p>
     </div>
+    <div class="save-source">
+    <select id="browserSaveVersion" aria-label="网页存档版本">
+      <option value="fc">宝可梦水银 FC～致150年后的你 · 1.33</option>
+      <option value="tower" selected>宝可梦水银 对战塔特别版 · 3.0</option>
+    </select>
+    <button class="import-btn" id="browserSaveBtn" type="button">读取网页存档</button>
     <section class="drop" id="drop">
       <input type="file" id="file" accept=".sav,.sa1,.fla">
       <strong>选择或拖入 SAV</strong>
       <span>128 KiB GBA Flash Save</span>
     </section>
+    </div>
     <button class="import-btn" id="importMonBtn" type="button">扫描二维码 / 输入密钥</button>
     <button class="save-btn" id="saveBtn" type="button">保存 HOME 和 SAV</button>
     <div class="data-btns">
@@ -595,6 +606,7 @@ window.SAVE_HOME_GAME_DATA={"species":{"0":{"macro":"SPECIES_NONE","name":"?????
   </script>
   <script src="decomp-data.js?v=20261016"></script>
   <script src="decomp-compat.js?v=20261016"></script>
+<script src="browser-save.js?v=20261017"></script>
   <script>
 const SECTOR_SIZE = 0x1000;
 const SECTOR_DATA = 0xFF0;
@@ -623,6 +635,41 @@ let currentSaveBuffer = null;
 let currentSaveName = "modified.sav";
 let currentSlot = null;
 let currentFileHandle = null;
+let currentBrowserSave = false;
+let currentBrowserProfile = "tower";
+let homeStorageSnapshot = localStorage.getItem(HOME_KEY);
+let homeIOBusy = false;
+let homeRecoveryBlocked = false;
+function setHomeBusy(busy) {
+  homeIOBusy = busy;
+  document.body.inert = busy || homeRecoveryBlocked;
+}
+function setSaveSource(browser) {
+  currentBrowserSave = browser;
+  $("saveBtn").textContent = browser ? "保存到浏览器" : "保存 HOME 和 SAV";
+}
+async function loadBrowserSave() {
+  if (homeIOBusy || homeRecoveryBlocked) return;
+  setHomeBusy(true);
+  try {
+    const profile = $("browserSaveVersion").value;
+    const spec = window.AzothBrowserSave.profiles[profile];
+    const loaded = await window.AzothBrowserSave.load(HOME_KEY, profile);
+    if (loaded.home !== homeStorageSnapshot) throw new Error("HOME 已在其他页面更新，请刷新后再读取。" );
+    const buffer = loaded.bytes.buffer;
+    const parsed = parseSave(buffer);
+    if (parsed.format !== spec.format) throw new Error("存档格式与所选版本不符，请使用 SAV 文件导入。" );
+    currentSaveBuffer = buffer.slice(0);
+    currentSaveName = spec.key.split("/").pop();
+    currentBrowserProfile = profile;
+    currentFileHandle = null;
+    setSaveSource(true);
+    hideMobileSaveFallback();
+    render(parsed);
+    $("summary").textContent = `已读取 ${spec.label} 网页存档；整理后点击保存，再重新打开对应游戏。`;
+  } catch (err) { $("summary").textContent = `读取失败：${err.message}`; }
+  finally { setHomeBusy(false); }
+}
 let homeBoxIndex = 0;
 let savBoxIndex = 0;
 let draggedRef = null;
@@ -1001,6 +1048,8 @@ function isSupportedSpecies(mon) {
 
 
 async function saveAll() {
+  if (homeIOBusy || homeRecoveryBlocked) return;
+  setHomeBusy(true);
   try {
     if (!currentSave || !currentSaveBuffer || !currentSlot) {
       saveHomeBoxes(homeBoxes);
@@ -1011,6 +1060,22 @@ async function saveAll() {
     writeSavBoxes(out, currentSave);
     const verified = parseSave(out.buffer);
     if (verified.format !== currentSave.format || verified.counter !== currentSave.counter) throw new Error("保存后校验未通过。");
+    if (currentBrowserSave) {
+      if ($("browserSaveVersion").value !== currentBrowserProfile) throw new Error("所选版本已改变，请先读取该版本，或切回正在编辑的版本再保存。" );
+      const homeAfter = JSON.stringify(homeBoxes);
+      const result = await window.AzothBrowserSave.save(new Uint8Array(currentSaveBuffer), out, HOME_KEY, homeStorageSnapshot, homeAfter, currentBrowserProfile);
+      currentSaveBuffer = out.buffer.slice(0);
+      currentSlot = verified.slot;
+      currentSave.slot = verified.slot;
+      if (result.pending) {
+        homeRecoveryBlocked = true;
+        $("summary").textContent = "网页存档已写入，HOME 待恢复。请释放浏览器存储空间并刷新此页，勿清除网站数据。";
+      } else {
+        homeStorageSnapshot = homeAfter;
+        $("summary").textContent = "HOME 和网页存档已保存，可重新打开直接游玩。请从游戏内继续，勿读取旧即时存档。";
+      }
+      return;
+    }
     saveHomeBoxes(homeBoxes);
     if (currentFileHandle) {
       try {
@@ -1032,7 +1097,7 @@ async function saveAll() {
     currentSave.slot = verified.slot;
   } catch (err) {
     $("summary").textContent = `保存失败：${err.message}`;
-  }
+  } finally { setHomeBusy(false); }
 }
 
 function writeSavBoxes(out, save) {
@@ -1733,6 +1798,7 @@ function loadHomeBoxes() {
 
 function saveHomeBoxes(boxes) {
   localStorage.setItem(HOME_KEY, JSON.stringify(boxes));
+  homeStorageSnapshot = localStorage.getItem(HOME_KEY);
 }
 
 function cloneMon(mon) {
@@ -1805,29 +1871,35 @@ function escapeHtml(value) {
 }
 
 function loadFile(file) {
+  if (homeIOBusy || homeRecoveryBlocked) return;
   if (!gameData) {
     $("summary").textContent = "数据包还没加载完成。";
     return;
   }
   hideMobileSaveFallback();
-  file.arrayBuffer()
+  setHomeBusy(true);
+  return file.arrayBuffer()
     .then((buffer) => {
       const parsed = parseSave(buffer);
       currentSaveBuffer = buffer.slice(0);
       currentSaveName = file.name || "modified.sav";
       currentFileHandle = null;
+      setSaveSource(false);
       return parsed;
     })
     .then(render)
-    .catch((err) => $("summary").textContent = `读取失败：${err.message}`);
+    .catch((err) => $("summary").textContent = `读取失败：${err.message}`)
+    .finally(() => setHomeBusy(false));
 }
 
 async function openSavWithHandle() {
+  if (homeIOBusy || homeRecoveryBlocked) return;
   if (!window.showOpenFilePicker) {
     $("file").click();
     return;
   }
   try {
+    setHomeBusy(true);
     const [handle] = await window.showOpenFilePicker({
       types: [{
         description: "GBA Save",
@@ -1840,12 +1912,13 @@ async function openSavWithHandle() {
     const parsed = parseSave(buffer);
     hideMobileSaveFallback();
     currentFileHandle = handle;
+    setSaveSource(false);
     currentSaveBuffer = buffer.slice(0);
     currentSaveName = file.name || "modified.sav";
     render(parsed);
   } catch (err) {
     if (err.name !== "AbortError") $("summary").textContent = `读取失败：${err.message}`;
-  }
+  } finally { setHomeBusy(false); }
 }
 
 function hideMobileSaveFallback() {
@@ -1855,6 +1928,7 @@ function hideMobileSaveFallback() {
   panel.innerHTML = "";
 }
 
+$("browserSaveBtn").onclick = loadBrowserSave;
 const drop = $("drop");
 drop.onclick = () => openSavWithHandle();
 $("file").onchange = (event) => event.target.files[0] && loadFile(event.target.files[0]);
@@ -1918,11 +1992,20 @@ $("homeDataFile").onchange = (event) => {
   event.target.value = "";
 };
 
-renderAllBoxes();
+setHomeBusy(true);
+window.homeBrowserReady = window.AzothBrowserSave.recover(HOME_KEY).then(() => {
+  homeStorageSnapshot = localStorage.getItem(HOME_KEY);
+  homeBoxes = loadHomeBoxes();
+  renderAllBoxes();
+}).catch(err => {
+  homeRecoveryBlocked = true;
+  $("summary").textContent = `HOME 恢复未完成：${err.message} 请保留网站数据并刷新重试。`;
+}).finally(() => setHomeBusy(false));
 
 // 配信密钥: ?key=PMH1.xxx 自动导入
 const urlKey = new URLSearchParams(location.search).get("key");
-if (urlKey) {
+window.homeBrowserReady.then(() => {
+if (urlKey && !homeRecoveryBlocked) {
   try {
     addImportedMon(importMonKey(urlKey));
     history.replaceState(null, "", location.pathname);
@@ -1931,6 +2014,7 @@ if (urlKey) {
   }
 }
 
+});
   </script>
 </body>
 </html>
