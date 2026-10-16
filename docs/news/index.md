@@ -1,16 +1,61 @@
 # 公告
 
+<div class="news-category-nav"><strong>版本分类：</strong><a href="#mainline">主线版本</a> · <a href="#battle-tower">对战塔版本</a></div>
+
+## 对战塔版本 {#battle-tower}
+
+### 【发布】《宝可梦 水银》对战塔特别版 Version 3.0
+
+<div class="news-meta">2026-10-16</div>
+
+鉴于 Binary 改版的开发效率、稳定性和实现瓶颈，后续将把《水银》移植到绿宝石反编译版 Pokeemerald。为测试稳定性，现先发布一版基于 pokeemerald-expansion 的对战塔特别版。
+
+#### 版本内容
+
+1. 可独立游玩，也可以继承《水银 FC》的存档进行游玩（对战塔版不含对战塔以外的内容，注意备份原存档）；支持宝可梦水银 HOME，可与《水银 FC》双向传送。
+2. 收录《宝可梦传说 Z-A》的所有 MEGA。
+3. 目前包含对战塔与对战工厂两个设施。
+4. 推荐使用以下模拟器：PC 端 mGBA、Android 端 Pizza Boy、iOS 端 Delta。
+
+#### 游戏演示
+
+<div class="news-gallery">
+<figure><img src="images/tower_v3_1.gif" alt="设施队伍选择界面"><figcaption>设施队伍选择</figcaption></figure>
+<figure><img src="images/tower_v3_2.gif" alt="BP 扭蛋机"><figcaption>BP 扭蛋机</figcaption></figure>
+<figure><img src="images/tower_v3_3.gif" alt="宝可梦资料页"><figcaption>宝可梦资料</figcaption></figure>
+<figure><img src="images/tower_v3_4.gif" alt="设施双打对战"><figcaption>设施双打对战</figcaption></figure>
+<figure><img src="images/tower_v3_5.gif" alt="宝可梦保管服务"><figcaption>宝可梦保管服务</figcaption></figure>
+<figure><img src="images/tower_v3_6.gif" alt="设施内景"><figcaption>设施内景</figcaption></figure>
+<figure><img src="images/tower_v3_7.gif" alt="游戏设置菜单"><figcaption>游戏设置</figcaption></figure>
+<figure><img src="images/tower_v3_8.gif" alt="设施对战演示"><figcaption>设施对战演示</figcaption></figure>
+<figure><img src="images/tower_v3_demo_0.png" alt="对战塔特别版设置菜单截图"><figcaption>设置菜单</figcaption></figure>
+<figure><img src="images/tower_v3_demo_1.png" alt="对战塔特别版设施区域截图"><figcaption>设施区域</figcaption></figure>
+</div>
+
+#### 下载（Version 3.0）
+
+下载地址与原有版本相同。
+
+| 渠道 | 链接 |
+|---|---|
+| 百度网盘 | [宝可梦 水银对战塔特别版](https://pan.baidu.com/s/1j4tAOI8GKWcKDi_lBirClg)（提取码: `69G1`） |
+| 蓝奏云 | [下载](https://wwapo.lanzouv.com/b004jrjabc)（密码: `egea`） |
+
 ---
 
-## 《宝可梦 水银》Version 1.3.3 更新公告
+## 主线版本 {#mainline}
+
+---
+
+### 《宝可梦 水银》Version 1.3.3 更新公告
 
 <div class="news-meta">2026-10-08</div>
 
-### 修复与优化
+#### 修复与优化
 
 修复与凤王的对战结束后，有概率无法推进剧情的问题。
 
-### 下载（v1.3.3） {#v133}
+#### 下载（v1.3.3） {#v133}
 
 下载链接与提取码保持不变。
 
@@ -21,15 +66,15 @@
 
 ---
 
-## 《宝可梦 水银》Version 1.3.2 更新公告
+### 《宝可梦 水银》Version 1.3.2 更新公告
 
 <div class="news-meta">2026-10-08</div>
 
-### 修复与优化
+#### 修复与优化
 
 优化满金市地下仓库的地图，防止玩家被 NPC 卡住、无法离开。
 
-### 下载（v1.3.2） {#v132}
+#### 下载（v1.3.2） {#v132}
 
 下载链接与提取码保持不变。
 
@@ -40,17 +85,17 @@
 
 ---
 
-## 《宝可梦 水银》Version 1.31 更新公告
+### 《宝可梦 水银》Version 1.31 更新公告
 
 <div class="news-meta">2026-10-08</div>
 
-### 修复与优化
+#### 修复与优化
 
 1. 修复努力值调整时强制使用努力药、羽毛一次最多只能使用 9 个的问题。现在会优先使用已有的努力药，不足的部分由对应羽毛补齐；没有努力药时，也可以用 252 个羽毛一次将对应努力值从 0 调整到 252。
 2. 补充超级进化的解锁时机与使用条件，以及任务系统、挖矿、大量出现等帮助说明，精简部分帮助条目。
 3. 新增功能解锁后的帮助提示，引导查看对应的帮助贴士；同时调整“妈妈存钱”等提示的出现时机。已有存档中已解锁的功能不会在读档时集中补弹提示。
 
-### 下载（v1.31） {#v131}
+#### 下载（v1.31） {#v131}
 
 下载链接与提取码保持不变。
 
@@ -61,15 +106,15 @@
 
 ---
 
-## 《宝可梦 水银》Version 1.3 更新公告
+### 《宝可梦 水银》Version 1.3 更新公告
 
-### 新增
+#### 新增
 
 1. 新增了调整努力值的功能
 2. 新增了一个开关，打怪可以不获得努力值，而是获得对应努力值的羽毛，快速战斗中也有概率掉落羽毛。携带学习装置的情况，掉落羽毛数量会 × 队伍宝可梦的数量（力量套装也生效）
 3. 新增帮助系统和成就系统
 
-### 优化
+#### 优化
 
 1. 优化了菜单的显示和操作
 2. 通过配信、交换的宝可梦也可以修改昵称了
@@ -81,7 +126,7 @@
 8. 调整了幻影森林中绿色头巾的位置，避免不够明显
 9. 战斗中的消耗道具在战斗结束后会返还
 
-### 修复 BUG
+#### 修复 BUG
 
 1. 修复了支线任务《狂暴的宝可梦》和《黑曜与钢铁》会自动完成的问题
 2. 修复了满金市过场剧情中玩家显示错误的问题
@@ -89,7 +134,7 @@
 4. 修复了小偷无法偷到训练家道具的问题
 5. 修复了结尾字幕偏移错误的问题
 
-### 更新演示
+#### 更新演示
 
 <div class="news-gallery">
 <figure><img src="images/v13_1.gif" alt="菜单显示和操作演示"><figcaption>菜单显示和操作</figcaption></figure>
@@ -100,14 +145,14 @@
 <figure><img src="images/v13_7.gif" alt="菜单中的帮助系统入口演示"><figcaption>菜单中的帮助入口</figcaption></figure>
 </div>
 
-### 下载（v1.3）
+#### 下载（v1.3）
 
 | 渠道 | 链接 |
 |---|---|
 | 百度网盘 | [宝可梦 水银](https://pan.baidu.com/s/1j4tAOI8GKWcKDi_lBirClg)（提取码: `69G1`） |
 | 蓝奏云 | [下载](https://wwapo.lanzouv.com/b004jrjabc)（密码: `egea`） |
 
-### 想对大家说的话
+#### 想对大家说的话
 
 国庆假期即将过去，一段时间以内应该不会再更新了，后续也将潜心于后续内容的制作，同时一些问题也许不能够即时回答大家了，请见谅。
 
@@ -121,7 +166,7 @@
 
 ---
 
-## 《宝可梦 水银》Version 1.2 更新公告
+### 《宝可梦 水银》Version 1.2 更新公告
 
 <div class="news-meta">更新内容：</div>
 
@@ -155,7 +200,7 @@
 <figure><img src="images/v12_overworld.gif" alt="明雷"><figcaption>13/17. 明雷与快速战斗</figcaption></figure>
 </div>
 
-### 下载（v1.2）
+#### 下载（v1.2）
 
 | 渠道 | 链接 |
 |---|---|
@@ -164,7 +209,7 @@
 
 ---
 
-## 《宝可梦 水银》Version 1.1 更新公告
+### 《宝可梦 水银》Version 1.1 更新公告
 
 <div class="news-meta">更新内容：</div>
 
@@ -184,7 +229,7 @@
 14. 增加未知图腾「！」和「？」的权重
 15. 修复了安卓模拟器使用培育屋取出宝可梦有概率卡死的问题
 
-### 下载（v1.1）
+#### 下载（v1.1）
 
 | 渠道 | 链接 |
 |---|---|
@@ -193,11 +238,11 @@
 
 ---
 
-## 【发布】《宝可梦 水银》FC~「致150年后的你」
+### 【发布】《宝可梦 水银》FC~「致150年后的你」
 
 <div class="news-meta">2026-09-28 · 来源：<a href="https://www.bilibili.com/opus/1252832734680711169">哔哩哔哩</a></div>
 
-### 声明
+#### 声明
 
 本项目为基于《宝可梦 火红》制作的非盈利性质ROM改版游戏，剧情与内容基于《宝可梦 金/银/水晶》及《宝可梦 心金/魂银》（GSC/HGSS）进行二次创作。
 
@@ -205,7 +250,7 @@
 
 本改版游戏完全免费公开发布，仅供同好交流与学习使用。严禁任何个人或组织进行任何形式的商业化行为，包括但不限于：倒卖实体卡带、刻录售卖、整合至收费模拟器、设立收费墙（如付费群、赞助可见等）或将本项目用于任何盈利目的。如果您是付费获取了本游戏，请立刻退款并举报卖家！
 
-### 引言
+#### 引言
 
 很久很久以前，缘朱的人们修建了两座高塔：铃铛塔，与钟之塔。两座塔分立东西两侧，为了人类与宝可梦的友谊而修建。某天，拥有七色翅膀的传说宝可梦降临于铃铛塔之上，人们试着与它沟通，最终与它建立了深厚的友谊。直到150年前，那个月光照耀的命运之夜——
 
@@ -219,7 +264,7 @@
 
 ——《宝可梦 水银》 FirstChapter 致150年后的你
 
-### 介绍
+#### 介绍
 
 《宝可梦 水银》是以《宝可梦 火红》为蓝本、基于 CFRU（Complete Fire Red Upgrade）引擎开发的 GBA 中文改版，剧情与内容则是基于《宝可梦 金/银/水晶》及《宝可梦 心金/魂银》（GSC/HGSS）二次创作。
 
@@ -246,7 +291,7 @@
 <figure><img src="images/fc_demo2.gif" alt="实机演示"><figcaption>实机演示</figcaption></figure>
 </div>
 
-### 下载
+#### 下载
 
 !!! warning "版本更新"
     已有 **Version 1.3.3**，请使用[上方的最新下载链接](#v133)。
@@ -258,7 +303,7 @@
 
 **交流群**：1群 `534774534` · 2群 `300578495` · 测试群 `435803246` · 口袋改版资源吧官方群 `1091812268`
 
-### 游玩须知
+#### 游玩须知
 
 **一、关于游戏性质与设定底线**
 
@@ -330,7 +375,7 @@
 
     启发本作的一些改版作品：Pokemon Unbound、Pokemon Dark Purple、Pokemon Liquid Crystal、Pokemon Crystal Dust、Pokemon Shiny Gold、ポケットモンスターゴールデンサン、Pokemon Polished Crystal
 
-### 个人感想
+#### 个人感想
 
 回忆是珍珠，友情是钻石。
 
