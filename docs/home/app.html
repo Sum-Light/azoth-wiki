@@ -561,8 +561,8 @@ p { margin: 4px 0 0; color: var(--muted); }
     </select>
     <button class="import-btn" id="browserSaveBtn" type="button">读取网页存档</button>
     <section class="drop" id="drop">
-      <input type="file" id="file" accept=".sav,.sa1,.fla">
-      <strong>选择或拖入 SAV</strong>
+      <input type="file" id="file" accept=".sav,.srm,.sa1,.fla">
+      <strong>选择或拖入 SAV / SRM</strong>
       <span>128 KiB GBA Flash Save</span>
     </section>
     </div>
@@ -1250,13 +1250,13 @@ async function saveAsBytes(bytes, fileName) {
         suggestedName: fileName,
         types: [{
           description: "GBA Save",
-          accept: { "application/octet-stream": [".sav"] },
+          accept: { "application/octet-stream": [".sav", ".srm", ".sa1", ".fla"] },
         }],
       });
       const writable = await handle.createWritable();
       await writable.write(bytes);
       await writable.close();
-      $("summary").textContent = "HOME 已保存，并已另存为 SAV。建议定期「导出 HOME 备份」。";
+      $("summary").textContent = "HOME 已保存，并已另存为存档文件。建议定期「导出 HOME 备份」。";
       return;
     } catch (err) {
       if (err.name === "AbortError") {
@@ -1907,7 +1907,7 @@ async function openSavWithHandle() {
     const [handle] = await window.showOpenFilePicker({
       types: [{
         description: "GBA Save",
-        accept: { "application/octet-stream": [".sav", ".sa1", ".fla"] },
+        accept: { "application/octet-stream": [".sav", ".srm", ".sa1", ".fla"] },
       }],
       multiple: false,
     });

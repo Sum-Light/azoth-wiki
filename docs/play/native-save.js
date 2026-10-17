@@ -31,8 +31,8 @@
   }
   async function read(handle) {
     const file = await handle.getFile();
-    if (!file.name.toLowerCase().endsWith(".sav") || ![0, 131072, 131088].includes(file.size))
-      throw new Error("请选择 128 KB 的 .sav（可含 RTC 信息），不要选择即时存档。");
+    if (!/\.(sav|srm)$/i.test(file.name) || ![0, 131072, 131088].includes(file.size))
+      throw new Error("请选择 128 KB 的 .sav / .srm（可含 RTC 信息），不要选择即时存档。");
     return new Uint8Array(await file.arrayBuffer());
   }
   async function write(handle, before, after) {
